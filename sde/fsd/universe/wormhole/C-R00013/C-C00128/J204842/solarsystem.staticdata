@@ -1,0 +1,984 @@
+border: false
+center:
+- 7.7393509530627e+18
+- -7560191591946668.0
+- -9.196438366608128e+18
+corridor: false
+fringe: false
+hub: false
+international: false
+luminosity: 0.0
+max:
+- 7.739353564537619e+18
+- -7557580117027553.0
+- 9.196440978083047e+18
+min:
+- 7.739348341587781e+18
+- -7562803066865783.0
+- 9.196435755133209e+18
+planets:
+    40414318:
+        celestialIndex: 1
+        planetAttributes:
+            heightMap1: 3891
+            heightMap2: 3890
+            population: false
+            shaderPreset: 4107
+        position:
+        - 15095127016.559511
+        - 4521645048.381674
+        - 27897721276.005863
+        radius: 1810000
+        statistics:
+            density: 4805.49
+            eccentricity: 0.304214
+            escapeVelocity: 2982.81
+            fragmented: false
+            life: 0.0
+            locked: true
+            massDust: 1.211700011566e+23
+            massGas: 1156600000000000.0
+            orbitPeriod: 7045320.0
+            orbitRadius: 32040458579.479313
+            pressure: 0.00680181
+            radius: 1810000.0
+            rotationRate: 3758610.0
+            spectralClass: '0.0'
+            surfaceGravity: 2.44113
+            temperature: 1402.96878038638
+        typeID: 2015
+    40414319:
+        celestialIndex: 2
+        planetAttributes:
+            heightMap1: 3840
+            heightMap2: 3842
+            population: false
+            shaderPreset: 4359
+        position:
+        - 15912406245.498066
+        - 28158420.27185714
+        - -45444243944.05118
+        radius: 2110000
+        statistics:
+            density: 4547.26
+            eccentricity: 0.00176959
+            escapeVelocity: 3369.0
+            fragmented: false
+            life: 0.0
+            locked: true
+            massDust: 1.7948000457358e+23
+            massGas: 4573580000000000.0
+            orbitPeriod: 13176300.0
+            orbitRadius: 48149608233.76272
+            pressure: 0.02192
+            radius: 2110000.0
+            rotationRate: 13176300.0
+            spectralClass: '0.0'
+            surfaceGravity: 2.68208
+            temperature: 460.216
+        typeID: 2016
+    40414320:
+        celestialIndex: 3
+        moons:
+            40414321:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4223
+                position:
+                - -529607893.0684333
+                - -41109474.13615303
+                - -68605151995.64667
+                radius: 190000
+                statistics:
+                    density: 1492.88
+                    eccentricity: 7.4501e-54
+                    escapeVelocity: 181.776
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 4.92022e+19
+                    massGas: 145431000.0
+                    orbitPeriod: 703814.0
+                    orbitRadius: 68624712313.29335
+                    pressure: 2.43007e-09
+                    radius: 198718.0
+                    rotationRate: 703814.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0829171
+                    temperature: 385.494
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3840
+            heightMap2: 3843
+            population: false
+            shaderPreset: 4315
+        position:
+        - -585865505.7646248
+        - -41109474.13615303
+        - -68622199117.35974
+        radius: 2370000
+        statistics:
+            density: 3066.51227280227
+            eccentricity: 0.0702265
+            escapeVelocity: 3103.3603937723
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.70993008899192e+23
+            massGas: 1.60372e+16
+            orbitPeriod: 22419500.0
+            orbitRadius: 68624712313.29335
+            pressure: 0.0649531
+            radius: 2370000.0
+            rotationRate: 229557.0
+            spectralClass: '0.0'
+            surfaceGravity: 2.03182399443768
+            temperature: 385.494
+        typeID: 2016
+    40414322:
+        celestialIndex: 4
+        moons:
+            40414323:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4217
+                position:
+                - -122065081128.38731
+                - -5838956655.73682
+                - 2669977053.2311153
+                radius: 540000
+                statistics:
+                    density: 1946.79
+                    eccentricity: 2.60911e-05
+                    escapeVelocity: 565.756
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.2990199999999999e+21
+                    massGas: 466010000000.0
+                    orbitPeriod: 2519770.0
+                    orbitRadius: 122071724764.98523
+                    pressure: 3.72568e-06
+                    radius: 541605.0
+                    rotationRate: 2519770.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.294703
+                    temperature: 289.201
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3906
+            heightMap2: 3906
+            population: false
+            shaderPreset: 4514
+        position:
+        - -121895581032.02039
+        - -5838952233.292856
+        - 2979924291.2838006
+        radius: 5680000
+        statistics:
+            density: 5331.18
+            eccentricity: 0.0479196
+            escapeVelocity: 9822.57
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 4.10820140535e+24
+            massGas: 1.40535e+18
+            orbitPeriod: 53098100.0
+            orbitRadius: 122071724764.98523
+            pressure: 2.9326
+            radius: 5680000.0
+            rotationRate: 59275.3
+            spectralClass: '0.0'
+            surfaceGravity: 8.46706
+            temperature: 289.201
+        typeID: 2017
+    40414324:
+        celestialIndex: 5
+        moons:
+            40414325:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4211
+                position:
+                - -301957803167.7337
+                - -19901830710.223186
+                - 58935344374.63507
+                radius: 140000
+                statistics:
+                    density: 861.298
+                    eccentricity: 4.6916e-08
+                    escapeVelocity: 104.033
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.21431e+19
+                    massGas: 43224700.0
+                    orbitPeriod: 95511.9
+                    orbitRadius: 308347936414.0391
+                    pressure: 5.53031e-10
+                    radius: 149730.0
+                    rotationRate: 95511.9
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.036045
+                    temperature: 182.05
+                typeID: 14
+            40414326:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4263
+                position:
+                - -301694829547.35266
+                - -19901683919.12324
+                - 58880662538.09134
+                radius: 560000
+                statistics:
+                    density: 1520.13
+                    eccentricity: 0.000456441
+                    escapeVelocity: 520.275
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.14326e+21
+                    massGas: 444751000000.0
+                    orbitPeriod: 901735.0
+                    orbitRadius: 308347936414.0391
+                    pressure: 2.66788e-06
+                    radius: 563645.0
+                    rotationRate: 901735.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.23948
+                    temperature: 182.05
+                typeID: 14
+            40414327:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4205
+                position:
+                - -301345537948.3451
+                - -19890867470.52855
+                - 58507553466.436295
+                radius: 300000
+                statistics:
+                    density: 1166.22
+                    eccentricity: 0.0163419
+                    escapeVelocity: 245.538
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.372e+20
+                    massGas: 7157890000.0
+                    orbitPeriod: 3362520.0
+                    orbitRadius: 308347936414.0391
+                    pressure: 6.11363e-08
+                    radius: 303697.0
+                    rotationRate: 3362520.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0989932
+                    temperature: 182.05
+                typeID: 14
+            40414328:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4257
+                position:
+                - -301272029122.5187
+                - -19901572073.668068
+                - 58000865671.01676
+                radius: 820000
+                statistics:
+                    density: 1786.18
+                    eccentricity: 0.000347444
+                    escapeVelocity: 821.657
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 4.1543e+21
+                    massGas: 592967000000.0
+                    orbitPeriod: 6187820.0
+                    orbitRadius: 308347936414.0391
+                    pressure: 2.86872e-06
+                    radius: 821185.0
+                    rotationRate: 6187820.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.409967
+                    temperature: 182.05
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3890
+            heightMap2: 3891
+            population: false
+            shaderPreset: 4310
+        position:
+        - -302016434871.6111
+        - -19901830712.973953
+        - 58893463920.11869
+        radius: 13390000
+        statistics:
+            density: 4549.61171087193
+            eccentricity: 0.0659443
+            escapeVelocity: 21356.4595364611
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 4.57514300647876e+25
+            massGas: 7.35397e+24
+            orbitPeriod: 212867000.0
+            orbitRadius: 308347936414.0391
+            pressure: 2934140.0
+            radius: 13390000.0
+            rotationRate: 48969.9
+            spectralClass: '0.0'
+            surfaceGravity: 17.0313055986745
+            temperature: 182.05
+        typeID: 2063
+    40414329:
+        celestialIndex: 6
+        moons:
+            40414330:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4251
+                position:
+                - 113170268658.81285
+                - 3377660982.7121596
+                - 538424553234.58417
+                radius: 220000
+                statistics:
+                    density: 871.545
+                    eccentricity: 0.00173483
+                    escapeVelocity: 158.494
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 4.26854e+19
+                    massGas: 13741300.0
+                    orbitPeriod: 77717.5
+                    orbitRadius: 550267366702.7148
+                    pressure: 1.17465e-10
+                    radius: 226767.0
+                    rotationRate: 77717.5
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0552399
+                    temperature: 136.137
+                typeID: 14
+            40414331:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4192
+                position:
+                - 113140815639.48344
+                - 3376711339.365123
+                - 538339506544.64795
+                radius: 270000
+                statistics:
+                    density: 949.325
+                    eccentricity: 0.0205224
+                    escapeVelocity: 201.93
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 8.45828e+19
+                    massGas: 1887440000.0
+                    orbitPeriod: 276363.0
+                    orbitRadius: 550267366702.7148
+                    pressure: 1.43965e-08
+                    radius: 276825.0
+                    rotationRate: 276363.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.073452
+                    temperature: 136.137
+                typeID: 14
+            40414332:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4244
+                position:
+                - 113166003890.6777
+                - 3377692817.9107738
+                - 537975914508.73804
+                radius: 1070000
+                statistics:
+                    density: 1697.15
+                    eccentricity: 2.04701e-06
+                    escapeVelocity: 1047.28
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 8.82502e+21
+                    massGas: 17815600000000.0
+                    orbitPeriod: 1629280.0
+                    orbitRadius: 550267366702.7148
+                    pressure: 6.26292e-05
+                    radius: 1073780.0
+                    rotationRate: 1629280.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.509352
+                    temperature: 136.137
+                typeID: 14
+            40414333:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4186
+                position:
+                - 112820353074.42635
+                - 3377619667.514046
+                - 536414502436.52734
+                radius: 1830000
+                statistics:
+                    density: 2136.22
+                    eccentricity: 0.000198746
+                    escapeVelocity: 2009.95
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 5.56061e+22
+                    massGas: 335243000000000.0
+                    orbitPeriod: 13518600.0
+                    orbitRadius: 550267366702.7148
+                    pressure: 0.000867165
+                    radius: 1836860.0
+                    rotationRate: 13518600.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 1.09674
+                    temperature: 136.137
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3911
+            heightMap2: 3914
+            population: false
+            shaderPreset: 3980
+        position:
+        - 113188646000.24152
+        - 3377692864.2593985
+        - 538489643786.6626
+        radius: 14320000
+        statistics:
+            density: 2249.82257468183
+            eccentricity: 0.0298457
+            escapeVelocity: 16061.2250200932
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 2.76736174671403e+25
+            massGas: 1.02968e+25
+            orbitPeriod: 509041000.0
+            orbitRadius: 550267366702.7148
+            pressure: 3920100.0
+            radius: 14320000.0
+            rotationRate: 46876.2
+            spectralClass: '0.0'
+            surfaceGravity: 9.00708621320072
+            temperature: 136.137
+        typeID: 13
+    40414334:
+        celestialIndex: 7
+        moons:
+            40414335:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4254
+                position:
+                - 196969162210.95352
+                - 16034945558.976582
+                - 725462461933.2794
+                radius: 140000
+                statistics:
+                    density: 650.473
+                    eccentricity: 0.000168363
+                    escapeVelocity: 85.185
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 7.67121e+18
+                    massGas: 9688030.0
+                    orbitPeriod: 84088.4
+                    orbitRadius: 751963984788.2246
+                    pressure: 9.93519e-11
+                    radius: 141079.0
+                    rotationRate: 84088.4
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0256492
+                    temperature: 116.469
+                typeID: 14
+            40414336:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4195
+                position:
+                - 197058322136.0927
+                - 16036159321.380423
+                - 725730516933.9839
+                radius: 310000
+                statistics:
+                    density: 921.311
+                    eccentricity: 0.0167046
+                    escapeVelocity: 228.4
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.24244e+20
+                    massGas: 4185220000.0
+                    orbitPeriod: 491919.0
+                    orbitRadius: 751963984788.2246
+                    pressure: 2.6983e-08
+                    radius: 317839.0
+                    rotationRate: 491919.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0818457
+                    temperature: 116.469
+                typeID: 14
+            40414337:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4248
+                position:
+                - 197382796946.33502
+                - 16035089038.27425
+                - 724960214331.1246
+                radius: 710000
+                statistics:
+                    density: 1305.81
+                    eccentricity: 0.000354368
+                    escapeVelocity: 613.586
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 2.02337e+21
+                    massGas: 305672000000.0
+                    orbitPeriod: 2817710.0
+                    orbitRadius: 751963984788.2246
+                    pressure: 1.23783e-06
+                    radius: 717213.0
+                    rotationRate: 2817710.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.261765
+                    temperature: 116.469
+                typeID: 14
+            40414338:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4189
+                position:
+                - 198368348202.8905
+                - 16034948364.640938
+                - 726329344829.2812
+                radius: 1030000
+                statistics:
+                    density: 1526.99
+                    eccentricity: 2.88142e-11
+                    escapeVelocity: 955.911
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 7.07493e+21
+                    massGas: 8651910000000.0
+                    orbitPeriod: 9894770.0
+                    orbitRadius: 751963984788.2246
+                    pressure: 2.84387e-05
+                    radius: 1033270.0
+                    rotationRate: 9894770.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.440993
+                    temperature: 116.469
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3913
+            heightMap2: 3914
+            population: false
+            shaderPreset: 4000
+        position:
+        - 196985826350.53323
+        - 16034948364.6011
+        - 725526911331.7075
+        radius: 14940000
+        statistics:
+            density: 2417.43092028136
+            eccentricity: 0.0814917
+            escapeVelocity: 17369.5732083242
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 3.37671552375961e+25
+            massGas: 9.92064e+24
+            orbitPeriod: 812929000.0
+            orbitRadius: 751963984788.2246
+            pressure: 2597660.0
+            radius: 14940000.0
+            rotationRate: 54172.3
+            spectralClass: '0.0'
+            surfaceGravity: 10.0971242784249
+            temperature: 116.469
+        typeID: 13
+    40414339:
+        celestialIndex: 8
+        moons:
+            40414340:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4183
+                position:
+                - 633996346580.9197
+                - 25462504690.867855
+                - -881278752999.9547
+                radius: 390000
+                statistics:
+                    density: 913.92
+                    eccentricity: 0.0132805
+                    escapeVelocity: 285.221
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 2.42929e+20
+                    massGas: 6260620000.0
+                    orbitPeriod: 398646.0
+                    orbitRadius: 1085948509229.9365
+                    pressure: 3.19344e-08
+                    radius: 398511.0
+                    rotationRate: 398646.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.101796
+                    temperature: 96.9197
+                typeID: 14
+            40414341:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4235
+                position:
+                - 633801814478.1805
+                - 25460464937.92079
+                - -882455848513.5088
+                radius: 1370000
+                statistics:
+                    density: 1551.97
+                    eccentricity: 0.0026568
+                    escapeVelocity: 1278.73
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.6799e+22
+                    massGas: 91472700000000.0
+                    orbitPeriod: 5318680.0
+                    orbitRadius: 1085948509229.9365
+                    pressure: 0.000230302
+                    radius: 1371040.0
+                    rotationRate: 5318680.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.594726
+                    temperature: 96.9197
+                typeID: 14
+            40414342:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4177
+                position:
+                - 634471167941.1713
+                - 25460803950.330193
+                - -878861065883.3967
+                radius: 1090000
+                statistics:
+                    density: 1410.51
+                    eccentricity: 0.000328464
+                    escapeVelocity: 975.372
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 7.82009e+21
+                    massGas: 27947600000000.0
+                    orbitPeriod: 20679500.0
+                    orbitRadius: 1085948509229.9365
+                    pressure: 7.99276e-05
+                    radius: 1096970.0
+                    rotationRate: 20679500.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.432468
+                    temperature: 96.9197
+                typeID: 14
+            40414343:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4229
+                position:
+                - 629359460633.2965
+                - 25460600901.105553
+                - -878286277777.5117
+                radius: 440000
+                statistics:
+                    density: 961.582
+                    eccentricity: 1.42248e-11
+                    escapeVelocity: 329.41
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 3.64842e+20
+                    massGas: 22115200000.0
+                    orbitPeriod: 62572500.0
+                    orbitRadius: 1085948509229.9365
+                    pressure: 1.05413e-07
+                    radius: 448700.0
+                    rotationRate: 62572500.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.120594
+                    temperature: 96.9197
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3910
+            heightMap2: 3910
+            population: false
+            shaderPreset: 4001
+        position:
+        - 633852990106.2413
+        - 25460600901.16947
+        - -881400198226.5775
+        radius: 13890000
+        statistics:
+            density: 1805.57377215885
+            eccentricity: 0.0401788
+            escapeVelocity: 13956.3347640797
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 2.02679854595077e+25
+            massGas: 8.98785e+24
+            orbitPeriod: 1410720000.0
+            orbitRadius: 1085948509229.9365
+            pressure: 3154720.0
+            radius: 13890000.0
+            rotationRate: 50341.8
+            spectralClass: '0.0'
+            surfaceGravity: 7.01149316224118
+            temperature: 96.9197
+        typeID: 13
+    40414344:
+        celestialIndex: 9
+        moons:
+            40414345:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4223
+                position:
+                - 1016424593048.6318
+                - 79444028721.7931
+                - -1329481609651.062
+                radius: 740000
+                statistics:
+                    density: 1057.42
+                    eccentricity: 1.61999e-28
+                    escapeVelocity: 575.54
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 1.85563e+21
+                    massGas: 374455000000.0
+                    orbitPeriod: 36979600.0
+                    orbitRadius: 1676213680471.5837
+                    pressure: 1.17803e-06
+                    radius: 747592.0
+                    rotationRate: 36979600.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.220951
+                    temperature: 78.0437
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3903
+            heightMap2: 3908
+            population: false
+            shaderPreset: 4500
+        position:
+        - 1016251909681.4714
+        - 79444028721.7931
+        - -1330643830996.599
+        radius: 4220000
+        statistics:
+            density: 5623.39452657322
+            eccentricity: 0.0782534
+            escapeVelocity: 7482.95686035025
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.77020888423696e+24
+            massGas: 8.5909e+16
+            orbitPeriod: 2701880000.0
+            orbitRadius: 1676213680471.5837
+            pressure: 0.100501
+            radius: 4220000.0
+            rotationRate: 106400.0
+            spectralClass: '0.0'
+            surfaceGravity: 6.63443641870414
+            temperature: 136.41896077108
+        typeID: 2017
+    40414346:
+        celestialIndex: 10
+        moons:
+            40414347:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4217
+                position:
+                - -2611479956165.661
+                - -10988855761.976273
+                - 9029739442.917183
+                radius: 150000
+                statistics:
+                    density: 477.73
+                    eccentricity: 0.0476512
+                    escapeVelocity: 81.4864
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 7.83525e+18
+                    massGas: 5152290.0
+                    orbitPeriod: 98852.2
+                    orbitRadius: 2611463109114.725
+                    pressure: 3.47656e-11
+                    radius: 157473.0
+                    rotationRate: 98852.2
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0210268
+                    temperature: 62.491
+                typeID: 14
+            40414348:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4269
+                position:
+                - -2610281102365.953
+                - -10754776434.697691
+                - 8618723284.788641
+                radius: 1650000
+                statistics:
+                    density: 1307.62
+                    eccentricity: 0.203852
+                    escapeVelocity: 1412.85
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 2.46854e+22
+                    massGas: 22772900000000.0
+                    orbitPeriod: 8117220.0
+                    orbitRadius: 2611463109114.725
+                    pressure: 4.01331e-05
+                    radius: 1650330.0
+                    rotationRate: 8117220.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.603162
+                    temperature: 62.491
+                typeID: 14
+            40414349:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4210
+                position:
+                - -2608360778944.84
+                - -10986202836.313671
+                - 6412747340.471304
+                radius: 2320000
+                statistics:
+                    density: 1515.64
+                    eccentricity: 1.82385e-07
+                    escapeVelocity: 2146.61
+                    fragmented: false
+                    life: 0.0
+                    locked: false
+                    massDust: 8.04176e+22
+                    massGas: 2055580000000000.0
+                    orbitPeriod: 48721800.0
+                    orbitRadius: 2611463109114.725
+                    pressure: 0.00297532
+                    radius: 2329000.0
+                    rotationRate: 197234.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.986613
+                    temperature: 62.491
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3910
+            heightMap2: 3910
+            population: false
+            shaderPreset: 4018
+        position:
+        - -2611424272972.928
+        - -10986203395.04903
+        - 9063119216.016235
+        radius: 11810000
+        statistics:
+            density: 2390.03
+            eccentricity: 0.00420699
+            escapeVelocity: 13678.1
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.656766e+25
+            massGas: 4.44446e+24
+            orbitPeriod: 5262910000.0
+            orbitRadius: 2611463109114.725
+            pressure: 1999210.0
+            radius: 11810000.0
+            rotationRate: 52277.7
+            spectralClass: '0.0'
+            surfaceGravity: 7.89447
+            temperature: 62.491
+        typeID: 13
+radius: 2611474919114.725
+regional: false
+security: -0.99
+solarSystemID: 31001217
+solarSystemNameID: 275611
+star:
+    id: 40414317
+    radius: 329900000
+    statistics:
+        age: 2.242e+16
+        life: 1.016e+17
+        locked: false
+        luminosity: 0.7528
+        radius: 329900000.0
+        spectralClass: F0 VI
+        temperature: 7442.0
+    typeID: 3796
+stargates: {}
+sunTypeID: 3796

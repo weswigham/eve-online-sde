@@ -1,0 +1,744 @@
+-   activityID: 1
+    amarrStationTypeID: 1930
+    border: 0
+    caldariStationTypeID: 1531
+    corridor: 20
+    description: Makes livestock and grain that is shipped to food processing units.
+    fringe: 70
+    gallenteStationTypeID: 3866
+    hub: 10
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2499
+    operationID: 1
+    operationName: Plantation
+    ratio: 65
+-   activityID: 1
+    amarrStationTypeID: 1928
+    border: 30
+    caldariStationTypeID: 4024
+    corridor: 20
+    description: Makes food that is shipped to warehouses.
+    fringe: 0
+    gallenteStationTypeID: 3866
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 2
+    operationName: Food Packaging
+    ratio: 20
+-   activityID: 1
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 50
+    description: Stores products and shifts goods to external retailers or production
+        corporations.
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 3
+    operationName: Warehouse
+    ratio: 15
+-   activityID: 2
+    amarrStationTypeID: 1930
+    border: 0
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Mines minerals from asteroid belts/clouds.
+    fringe: 90
+    gallenteStationTypeID: 3867
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2499
+    operationID: 4
+    operationName: Foundry
+    ratio: 30
+-   activityID: 2
+    amarrStationTypeID: 1928
+    border: 10
+    caldariStationTypeID: 1529
+    corridor: 15
+    description: Molds finished construction pieces.
+    fringe: 25
+    gallenteStationTypeID: 3867
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 5
+    operationName: Production Plant
+    ratio: 50
+-   activityID: 2
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 50
+    description: Stores product and freights goods to production corps.
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 6
+    operationName: Warehouse
+    ratio: 20
+-   activityID: 3
+    amarrStationTypeID: 1930
+    border: 0
+    caldariStationTypeID: 4023
+    corridor: 10
+    description: Mines minerals from asteroid belts/clouds.
+    fringe: 90
+    gallenteStationTypeID: 3865
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2499
+    operationID: 7
+    operationName: Mining Outpost
+    ratio: 65
+-   activityID: 3
+    amarrStationTypeID: 1928
+    border: 45
+    caldariStationTypeID: 4024
+    corridor: 10
+    description: Refines the minerals, making purified ingots and rock materials.
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 8
+    operationName: Refinery
+    ratio: 15
+-   activityID: 3
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 4023
+    corridor: 50
+    description: Stores product and freights goods to production corps.
+    fringe: 0
+    gallenteStationTypeID: 3865
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 9
+    operationName: Mineral Reserve
+    ratio: 20
+-   activityID: 4
+    amarrStationTypeID: 1930
+    border: 0
+    caldariStationTypeID: 4023
+    corridor: 10
+    description: Extracts chemicals from asteroid belts/clouds.
+    fringe: 90
+    gallenteStationTypeID: 3867
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2499
+    operationID: 10
+    operationName: Reprocessing Facility
+    ratio: 10
+-   activityID: 4
+    amarrStationTypeID: 1928
+    border: 0
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Refines the harvested chemicals, making bottled products.
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 90
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 11
+    operationName: Chemical Refinery
+    ratio: 80
+-   activityID: 4
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 50
+    description: Stores products and shifts goods to production corporations.
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 12
+    operationName: Chemical Storage
+    ratio: 10
+-   activityID: 5
+    amarrStationTypeID: 1931
+    border: 0
+    caldariStationTypeID: 54
+    corridor: 10
+    description: Makes plans and blueprints that are shipped to Assembly Plant.
+    fringe: 90
+    gallenteStationTypeID: 3869
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2500
+    operationID: 13
+    operationName: Testing Facilities
+    ratio: 20
+-   activityID: 5
+    amarrStationTypeID: 1927
+    border: 30
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Produces weapons and ammunition that are shipped for storage.
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 60
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2498
+    operationID: 14
+    operationName: Assembly Plant
+    ratio: 55
+-   activityID: 5
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1530
+    corridor: 50
+    description: Stores product and freights goods to external retailers.
+    fringe: 0
+    gallenteStationTypeID: 3868
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 15
+    operationName: Logistic Support
+    ratio: 25
+-   activityID: 6
+    amarrStationTypeID: 1930
+    border: 0
+    caldariStationTypeID: 54
+    corridor: 30
+    description: Harvests resources from a planet.
+    fringe: 70
+    gallenteStationTypeID: 3869
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2499
+    operationID: 16
+    operationName: Biotech Research Center
+    ratio: 20
+-   activityID: 6
+    amarrStationTypeID: 1928
+    border: 45
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Produces Biotech products.
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 17
+    operationName: Biotech Production
+    ratio: 70
+-   activityID: 6
+    amarrStationTypeID: 1929
+    border: 0
+    caldariStationTypeID: 54
+    corridor: 50
+    description: Stores and recycles materials classified as biohazards.
+    fringe: 50
+    gallenteStationTypeID: 3869
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 18
+    operationName: Biohazard Containment Facility
+    ratio: 10
+-   activityID: 7
+    amarrStationTypeID: 1931
+    border: 0
+    caldariStationTypeID: 54
+    corridor: 30
+    description: Makes plans and blueprints that are shipped to Factory.
+    fringe: 70
+    gallenteStationTypeID: 3869
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2500
+    operationID: 19
+    operationName: Research Center
+    ratio: 10
+-   activityID: 7
+    amarrStationTypeID: 1928
+    border: 40
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Produces finished hi-tech products.
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 20
+    operationName: Factory
+    ratio: 80
+-   activityID: 7
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 50
+    description: Stores product and freights goods to external retailers.
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 21
+    operationName: Warehouse
+    ratio: 10
+-   activityID: 8
+    amarrStationTypeID: 1931
+    border: 45
+    caldariStationTypeID: 1531
+    corridor: 10
+    description: Produces entertainment material that is shipped to Publisher.
+    fringe: 0
+    gallenteStationTypeID: 56
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2496
+    operationID: 22
+    operationName: Development Studio
+    ratio: 80
+-   activityID: 8
+    amarrStationTypeID: 1926
+    border: 10
+    caldariStationTypeID: 3872
+    corridor: 10
+    description: Stores and multiplies the entertainment material and ships it to
+        retailers.
+    fringe: 0
+    gallenteStationTypeID: 57
+    hub: 80
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2496
+    operationID: 23
+    operationName: Publisher
+    ratio: 20
+-   activityID: 9
+    amarrStationTypeID: 1927
+    border: 0
+    caldariStationTypeID: 1530
+    corridor: 10
+    description: Produces starships that are shipped for storage in Storage Bay.
+    fringe: 0
+    gallenteStationTypeID: 3868
+    hub: 90
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2498
+    operationID: 24
+    operationName: Shipyard
+    ratio: 80
+-   activityID: 9
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 3872
+    corridor: 50
+    description: Stores ships before freighting them to retailers.
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 25
+    operationName: Storage Bay
+    ratio: 20
+-   activityID: 10
+    amarrStationTypeID: 1929
+    border: 25
+    caldariStationTypeID: 1531
+    corridor: 25
+    description: Stores cargo for other corps before shipping it to retailers.
+    fringe: 25
+    gallenteStationTypeID: 3870
+    hub: 25
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 26
+    operationName: Storage
+    ratio: 100
+-   activityID: 11
+    amarrStationTypeID: 1929
+    border: 25
+    caldariStationTypeID: 1531
+    corridor: 25
+    description: Stores products and freights goods to retail center.
+    fringe: 40
+    gallenteStationTypeID: 3870
+    hub: 10
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 27
+    operationName: Warehouse
+    ratio: 70
+-   activityID: 11
+    amarrStationTypeID: 1926
+    border: 45
+    caldariStationTypeID: 1531
+    corridor: 10
+    description: Sells goods from warehouses to consumers, and to service stations.
+    fringe: 0
+    gallenteStationTypeID: 57
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2496
+    operationID: 28
+    operationName: Retail Center
+    ratio: 30
+-   activityID: 12
+    amarrStationTypeID: 1929
+    border: 25
+    caldariStationTypeID: 1531
+    corridor: 25
+    description: Stores products and freights goods to Trading Post.
+    fringe: 50
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 29
+    operationName: Warehouse
+    ratio: 50
+-   activityID: 12
+    amarrStationTypeID: 1932
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 15
+    description: Sells wares received from production corps.
+    fringe: 0
+    gallenteStationTypeID: 3868
+    hub: 35
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 30
+    operationName: Trading Post
+    ratio: 50
+-   activityID: 13
+    amarrStationTypeID: 1926
+    border: 45
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Delivers reports and provides information concerning the Bureau's
+        field.
+    fringe: 0
+    gallenteStationTypeID: 56
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2496
+    operationID: 31
+    operationName: Bureau Offices
+    ratio: 40
+-   activityID: 14
+    amarrStationTypeID: 9857
+    border: 0
+    caldariStationTypeID: 1529
+    corridor: 50
+    description: Studies issues within the administration system and produces personnel.
+    fringe: 50
+    gallenteStationTypeID: 57
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 32
+    operationName: Academy
+    ratio: 20
+-   activityID: 14
+    amarrStationTypeID: 1932
+    border: 45
+    caldariStationTypeID: 1531
+    corridor: 15
+    description: Delivers reports and publishes rules and manifestos concerning the
+        Bureau's field.
+    fringe: 0
+    gallenteStationTypeID: 56
+    hub: 40
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 33
+    operationName: Bureau
+    ratio: 70
+-   activityID: 14
+    amarrStationTypeID: 1927
+    border: 0
+    caldariStationTypeID: 1530
+    corridor: 0
+    description: Stores data and kredit sheets for the Bureau to work with.
+    fringe: 100
+    gallenteStationTypeID: 3868
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2498
+    operationID: 34
+    operationName: Treasury
+    ratio: 10
+-   activityID: 17
+    amarrStationTypeID: 1932
+    border: 5
+    caldariStationTypeID: 1529
+    corridor: 10
+    description: Works as a bank.
+    fringe: 0
+    gallenteStationTypeID: 57
+    hub: 85
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 35
+    operationName: Depository
+    ratio: 70
+-   activityID: 17
+    amarrStationTypeID: 1927
+    border: 0
+    caldariStationTypeID: 1530
+    corridor: 0
+    description: Stores data and kredit sheets for the Bank to work with.
+    fringe: 100
+    gallenteStationTypeID: 3868
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 36
+    operationName: Vault
+    ratio: 30
+-   activityID: 18
+    amarrStationTypeID: 1931
+    border: 50
+    caldariStationTypeID: 1529
+    corridor: 0
+    description: Produces personnel and sells skill packages.
+    fringe: 0
+    gallenteStationTypeID: 57
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2500
+    operationID: 37
+    operationName: School
+    ratio: 100
+-   activityID: 19
+    amarrStationTypeID: 1928
+    border: 45
+    caldariStationTypeID: 4024
+    corridor: 10
+    fringe: 0
+    gallenteStationTypeID: 3867
+    hub: 45
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2497
+    operationID: 38
+    operationName: Factory
+    ratio: 80
+-   activityID: 19
+    amarrStationTypeID: 1929
+    border: 50
+    caldariStationTypeID: 1531
+    corridor: 50
+    fringe: 0
+    gallenteStationTypeID: 3870
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2501
+    operationID: 39
+    operationName: Warehouse
+    ratio: 20
+-   activityID: 15
+    amarrStationTypeID: 9857
+    border: 50
+    caldariStationTypeID: 1530
+    corridor: 0
+    description: Court facilities where judicial matters are arbitrated.
+    fringe: 0
+    gallenteStationTypeID: 3868
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2496
+    operationID: 40
+    operationName: Tribunal
+    ratio: 40
+-   activityID: 15
+    amarrStationTypeID: 1931
+    border: 20
+    caldariStationTypeID: 1529
+    corridor: 30
+    description: Accounting and audit firms
+    fringe: 30
+    gallenteStationTypeID: 57
+    hub: 20
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2500
+    operationID: 41
+    operationName: Accounting
+    ratio: 30
+-   activityID: 15
+    amarrStationTypeID: 1929
+    border: 10
+    caldariStationTypeID: 3871
+    corridor: 30
+    fringe: 50
+    gallenteStationTypeID: 56
+    hub: 10
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 42
+    operationName: Law School
+    ratio: 30
+-   activityID: 13
+    amarrStationTypeID: 1931
+    border: 0
+    caldariStationTypeID: 1529
+    corridor: 30
+    description: Stores administrative documents and data.
+    fringe: 70
+    gallenteStationTypeID: 57
+    hub: 0
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2500
+    operationID: 43
+    operationName: Archives
+    ratio: 30
+-   activityID: 13
+    amarrStationTypeID: 1926
+    border: 50
+    caldariStationTypeID: 3872
+    corridor: 0
+    description: Distributes administrative information to the public.
+    fringe: 0
+    gallenteStationTypeID: 57
+    hub: 50
+    joveStationTypeID: 3865
+    minmatarStationTypeID: 2502
+    operationID: 44
+    operationName: Information Center
+    ratio: 30
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 45
+    operationName: Manufacturing
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 46
+    operationName: Refining
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 47
+    operationName: Cloning
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 48
+    operationName: Caldari Research Outpost
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 49
+    operationName: Amarr Factory Outpost
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 50
+    operationName: Gallente Administrative Outpost
+    ratio: 0
+-   activityID: 20
+    border: 0
+    corridor: 0
+    fringe: 0
+    hub: 0
+    operationID: 51
+    operationName: Minmatar Service Outpost
+    ratio: 0
+-   activityID: 7
+    border: 0
+    corridor: 0
+    description: 'This station houses the Sanctuary’s cutting-edge graviton physics
+        research facility. Approaching vessels are advised to carefully follow all
+        instructions from traffic controllers, as potentially hazardous spatial distortions
+        may be present in the immediate vicinity.
+
+
+        It is widely assumed that this laboratory’s previous breakthroughs are responsible
+        for the advanced cloaking capabilities of the Astero and Stratios class vessels.
+        Access to the laboratory and administrative levels are restricted and all
+        capsuleer guests are confined to their quarters without exception.'
+    fringe: 0
+    hub: 0
+    operationID: 52
+    operationName: Applied Gravitation Laboratory
+    ratio: 0
+-   activityID: 7
+    border: 0
+    corridor: 0
+    description: 'Tasked with investigating ancient yet still functioning artificial
+        intelligence systems, this station is home to the Sanctuary’s foremost experts
+        in the behavior and anatomy of the enigmatic Sleeper drones.
+
+
+        Unconfirmed reports leaked in YC116 suggest that researchers at this institute
+        may have succeeded in what was once considered unachievable: capturing and
+        containing operational Sleeper drone subjects. The vast majority of the station
+        is accessible only to authorized Sanctuary personnel, and a heavy security
+        presence discourages snooping.'
+    fringe: 0
+    hub: 0
+    operationID: 53
+    operationName: Institute of Paleocybernetics
+    ratio: 0
+-   activityID: 7
+    border: 0
+    corridor: 0
+    description: 'The advanced omni-spectral sensor arrays equipped to this station
+        enable detailed observation and tracking of the Sleeper activity anywhere
+        in this massive star system.
+
+
+        This facility also serves as the central processing location for data fed
+        from gravitational field sensors fitted to each of the Sanctuary stations
+        spread across Thera. This infrastructure allows rapid trilateration of nearby
+        irregularities in space-time, whether they are detectable through normal scanner
+        probes or not.'
+    fringe: 0
+    hub: 0
+    operationID: 54
+    operationName: Surveillance Observatory
+    ratio: 0
+-   activityID: 7
+    border: 0
+    corridor: 0
+    description: 'This station contains equipment dedicated to the delicate task of
+        processing and manipulating fullerene-rich gases and their byproducts. The
+        resulting polymers are used in multiple applications throughout Thera, enabling
+        continued expansion and maintenance of the Sanctuary’s expedition.
+
+
+        Capsuleer guests at the stations are welcome within clearly designated zones,
+        however use of the hybrid reaction lines is restricted to authorized Sanctuary
+        personnel only.'
+    fringe: 0
+    hub: 0
+    operationID: 55
+    operationName: Fullerene Loom
+    ratio: 0
