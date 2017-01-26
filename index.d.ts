@@ -1,0 +1,15 @@
+export function raw(...names: string[]): Promise<any>;
+export function types(): Promise<any>;
+export function icons(): Promise<any>;
+export function categories(): Promise<any>;
+export function blueprints(): Promise<any>;
+export function certificates(): Promise<any>;
+export function graphics(): Promise<any>;
+export function groups(): Promise<any>;
+export function skinMaterials(): Promise<any>;
+export function skinLicenses(): Promise<any>;
+export function skins(): Promise<any>;
+export function tournamentRules(): Promise<any>;
+export function landmarks(): Promise<any>;
+export function region(name: string): Promise<any>;
+export function lookup(name: string, lang = "en"): Promise<any>;
