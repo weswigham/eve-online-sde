@@ -1,1 +1,9 @@
 lang: node
+deploy:
+  provider: npm
+  email: wwigham@gmail.com
+  api_key:
+    secure: KX5MhG6c46lVGyqZkIPuDe/HhxsoT6QYUAvPq9y1JSmff7AtFRysxK+M++EsWo6dHWgei8U+9HuiccOkEfx4xbY4QgYO+9QAACmoAgZFSKBYBGwmOohW5s4aw5PpRxfkJBM0T/dWqUPBkChqbvKFbdxPZFjchJ5ZOeDlguAaa6DKGhpsh0WPWxwBVFDXnI1h8U8gWMczc/TyTwaQfYI1w9rTpaFuPg3DBInepSzCffnXVCs7oQGI7Mj405Q1sjpIk62wB36D1uDdzHA2L6ejMgWkMNncqpY+V1pjdrNQBjLF5fggzFgnp6DV+Zs+NkuW7dEearCfUvLJz1sNmKly9m33M4JOuRoBtLFYYf/3Rh5g+cO504+poXiZ40cqBbC2Cd4OdIGtHV8q9SOakRZx6pcSnhyouq4nAbG6VFKjxyk7+N7ni4HSbaKhqkNzSMq8HVbksU8NXdwl6Xpp+aSZBDIhGLKja7aW8RMPV9zuYeQcBc6TJFujHWPTjt8PI260T//wfslijCw2ot3YUi8+L6BlMU0x8pk4TZu7k9hH7TloikK8vFjBVSOJlTOvUmcdlSLrGKHhEl0JrlK8hOZ6ZN/LM7uAh2sAgkdJv2GiHI6AfcwsEuf2q0+cAk/qJe9mMY7u/+GbCUCa48iCHVl9HDH0/ryvY/4o28xiIofQ3uE=
+  on:
+    tags: true
+    repo: weswigham/eve-online-sde
