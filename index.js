@@ -1,21 +1,21 @@
 const fs = require("fs");
 const jsyaml = require("js-yaml");
 exports.raw = (...yamlPath) => {
-    const path = Array.from(yamlPath).filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
+    const path = ["sde", ...yamlPath].filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
     return new Promise((resolve, reject) => {
-        fs.stat(`./sde/${path}.yaml`, (err, stats) => {
+        fs.stat(`./${path}.yaml`, (err, stats) => {
             if (err) {
-                fs.stat(`./sde/${path}.staticdata`, (err, stats) => {
+                fs.stat(`./${path}.staticdata`, (err, stats) => {
                     if (err) {
                         reject(err)
                     }
                     else {
-                        resolve(`./sde/${path}.staticdata`);
+                        resolve(`./${path}.staticdata`);
                     }
                 });
             }
             else {
-                resolve(`./sde/${path}.yaml`);
+                resolve(`./${path}.yaml`);
             }
         });
     }).then(path => {
@@ -77,6 +77,13 @@ exports.region = (name) => {
 exports.lookup = (name, lang) => {
     lang = lang || "en";
     return exports.types().then((types) => {
-        return types.filter(type => type.name[lang].startsWith(lang));
+        return Object.keys(types).map(id => [id, types[id]]).filter(([id, type]) => type.name && type.name[lang] && type.name[lang].startsWith(name)).map(([id, type]) => {
+            type.id = +id;
+            return type;
+        })[0];
     });
+}
+
+exports.lookupByID = (id) => {
+    return exports.types().then(types => types[id]);
 }
