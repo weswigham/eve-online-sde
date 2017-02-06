@@ -1,21 +1,22 @@
 const fs = require("fs");
+const path = require("path");
 const jsyaml = require("js-yaml");
 exports.raw = (...yamlPath) => {
-    const path = ["sde", ...yamlPath].filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
+    const filepath = ["sde", ...yamlPath].filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
     return new Promise((resolve, reject) => {
-        fs.stat(`./${path}.yaml`, (err, stats) => {
+        fs.stat(path.join(__dirname, `${filepath}.yaml`), (err, stats) => {
             if (err) {
-                fs.stat(`./${path}.staticdata`, (err, stats) => {
+                fs.stat(path.join(__dirname, `${filepath}.staticdata`), (err, stats) => {
                     if (err) {
                         reject(err)
                     }
                     else {
-                        resolve(`./${path}.staticdata`);
+                        resolve(path.join(__dirname, `${filepath}.staticdata`));
                     }
                 });
             }
             else {
-                resolve(`./${path}.yaml`);
+                resolve(path.join(__dirname, `${filepath}.yaml`));
             }
         });
     }).then(path => {
