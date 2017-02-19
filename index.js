@@ -3,19 +3,19 @@ const jsyaml = require("js-yaml");
 exports.raw = (...yamlPath) => {
     const path = ["sde", ...yamlPath].filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
     return new Promise((resolve, reject) => {
-        fs.stat(`./${path}.yaml`, (err, stats) => {
+        fs.stat(`${__dirname}/${path}.yaml`, (err, stats) => {
             if (err) {
-                fs.stat(`./${path}.staticdata`, (err, stats) => {
+                fs.stat(`${__dirname}/${path}.staticdata`, (err, stats) => {
                     if (err) {
                         reject(err)
                     }
                     else {
-                        resolve(`./${path}.staticdata`);
+                        resolve(`${__dirname}/${path}.staticdata`);
                     }
                 });
             }
             else {
-                resolve(`./${path}.yaml`);
+                resolve(`${__dirname}/${path}.yaml`);
             }
         });
     }).then(path => {
