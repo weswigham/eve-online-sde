@@ -38189,28 +38189,6 @@
     published: false
     rangeAttributeID: 54
     rangeChance: true
--   description: Modifies maximum turret weapon range tracking speed and falloff on
-        the active target for the length of the duration.
-    disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 3697
-    effectName: turretWeaponRangeFalloffTrackingSpeedMultiplyTargetHostile
-    electronicChance: false
-    falloffAttributeID: 158
-    guid: effects.ElectronicAttributeModifyTarget
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    postExpression: 12647
-    preExpression: 12646
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: true
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
@@ -52149,21 +52127,6 @@
     rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6144
-    effectName: overloadSelfMissileGuidanceBonus5
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 18829
-    preExpression: 18828
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
     effectCategory: 0
     effectID: 6145
     effectName: tacticalDestroyerGallenteSkillLevel1
@@ -55409,27 +55372,6 @@
     rangeAttributeID: 54
     rangeChance: false
 -   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6428
-    effectName: remoteTrackingAssistFalloff
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.TurretWeaponRangeTrackingSpeedMultiplyTarget
-    isAssistance: true
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
--   disallowAutoRepeat: false
     displayName: ''
     effectCategory: 1
     effectID: 6438
@@ -55460,48 +55402,6 @@
     preExpression: 59
     propulsionChance: false
     published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6429
-    effectName: remoteGuidanceAssistFalloff
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.TurretWeaponRangeTrackingSpeedMultiplyTarget
-    isAssistance: true
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6423
-    effectName: remoteGuidanceDisruptFalloff
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.ElectronicAttributeModifyTarget
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
     rangeChance: false
 -   disallowAutoRepeat: false
     dischargeAttributeID: 6
@@ -59658,26 +59558,6 @@
     published: false
     rangeAttributeID: 54
     rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6686
-    effectName: structureModuleEffectWeaponDisruption
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.Laser
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
 -   description: Anchoring this object in space.
     disallowAutoRepeat: false
     displayName: anchoring
@@ -59828,25 +59708,6 @@
     rangeAttributeID: 54
     rangeChance: false
 -   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6694
-    effectName: remoteWeaponDisruptEntity
-    electronicChance: false
-    guid: effects.ElectronicAttributeModifyTarget
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
--   disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
     effectID: 6406
@@ -59943,27 +59804,6 @@
     guid: effects.RemoteArmorRepairDrone
     isAssistance: true
     isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    distribution: 1
-    durationAttributeID: 73
-    effectCategory: 2
-    effectID: 6424
-    effectName: remoteTrackingDisruptFalloff
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.TrackingDisruption
-    isAssistance: false
-    isOffensive: true
     isWarpSafe: false
     modifierInfo: ''
     postExpression: 59
@@ -62187,26 +62027,6 @@
     rangeAttributeID: 2504
     rangeChance: false
 -   disallowAutoRepeat: false
-    dischargeAttributeID: 2518
-    displayName: ''
-    durationAttributeID: 2515
-    effectCategory: 2
-    effectID: 6747
-    effectName: behaviorTrackingDisruptor
-    electronicChance: false
-    falloffAttributeID: 2517
-    guid: effects.TrackingDisruption
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 2516
-    rangeChance: false
--   disallowAutoRepeat: false
     dischargeAttributeID: 2526
     displayName: ''
     durationAttributeID: 2523
@@ -62245,26 +62065,6 @@
     propulsionChance: false
     published: false
     rangeAttributeID: 2528
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 2514
-    displayName: ''
-    durationAttributeID: 2511
-    effectCategory: 2
-    effectID: 6746
-    effectName: behaviorGuidanceDisruptor
-    electronicChance: false
-    falloffAttributeID: 2513
-    guid: effects.ElectronicAttributeModifyTarget
-    isAssistance: false
-    isOffensive: true
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 2512
     rangeChance: false
 -   disallowAutoRepeat: false
     dischargeAttributeID: 2522
@@ -65583,4 +65383,184 @@
     preExpression: 1
     propulsionChance: false
     published: true
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    distribution: 1
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6424
+    effectName: shipModuleTrackingDisruptor
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.TrackingDisruption
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    distribution: 1
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6423
+    effectName: shipModuleGuidanceDisruptor
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.ElectronicAttributeModifyTarget
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6686
+    effectName: structureModuleEffectWeaponDisruption
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.Laser
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    distribution: 1
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6694
+    effectName: npcEntityWeaponDisruptor
+    electronicChance: false
+    guid: effects.ElectronicAttributeModifyTarget
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    distribution: 1
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6429
+    effectName: shipModuleRemoteGuidanceComputer
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.TurretWeaponRangeTrackingSpeedMultiplyTarget
+    isAssistance: true
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    distribution: 1
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6428
+    effectName: shipModuleRemoteTrackingComputer
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.TurretWeaponRangeTrackingSpeedMultiplyTarget
+    isAssistance: true
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 2518
+    displayName: ''
+    durationAttributeID: 2515
+    effectCategory: 2
+    effectID: 6747
+    effectName: npcBehaviorTrackingDisruptor
+    electronicChance: false
+    falloffAttributeID: 2517
+    guid: effects.TrackingDisruption
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 2516
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 2514
+    displayName: ''
+    durationAttributeID: 2511
+    effectCategory: 2
+    effectID: 6746
+    effectName: npcBehaviorGuidanceDisruptor
+    electronicChance: false
+    falloffAttributeID: 2513
+    guid: effects.ElectronicAttributeModifyTarget
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 2512
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 5
+    effectID: 6144
+    effectName: overloadSelfMissileGuidanceBonus5
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: true
+    modifierInfo: ''
+    postExpression: 18829
+    preExpression: 18828
+    propulsionChance: false
+    published: false
     rangeChance: false

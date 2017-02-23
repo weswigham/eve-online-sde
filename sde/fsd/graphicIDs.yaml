@@ -2986,9 +2986,9 @@
   sofRaceName: generic
 2411:
   description: Jumpgate Gallente GHG Wreck
-  graphicFile: res:/dx9/model/jumpgate/gallente/ghg/Wreck/GHG_Wreck.red
   iconFolder: res:/dx9/model/jumpgate/gallente/ghg/wreck/icons
   sofFactionName: genericbase
+  sofHullName: ghg_wreck
   sofRaceName: generic
 2412:
   description: Structure Solar Harvester
@@ -3870,8 +3870,9 @@
   sofRaceName: minmatar
 2758:
   description: Minmatar Outpost Service
-  graphicFile: res:/dx9/model/Outposts/Minmatar/MO1/mo1_t1.red
   iconFolder: res:/dx9/model/outposts/minmatar/mo1/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1_t1
   sofRaceName: minmatar
 2764:
   description: Amarr Drone Sarum Light Acolyte II
@@ -13782,6 +13783,7 @@
   description: Deployables Industrial Array X Large Wreck
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/wreck/icons/
   sofFactionName: upwell-indy
+  sofHullName: iaxl1_t1_wreck
   sofRaceName: generic
 21419:
   description: ORE Ice Harvesting Drone Capital
