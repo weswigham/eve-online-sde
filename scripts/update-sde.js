@@ -52,9 +52,9 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         dest.on("close", () => {
             console.log(`Extraction complete!`);
             console.log(`Updating package.json...`);
-            const package = require("../package.json");
-            package.version = version;
-            fs.writeFileSync(require("path").join(__dirname, "../package.json"), JSON.stringify(package, null, 2));
+            const p = require("../package.json");
+            p.version = version;
+            fs.writeFileSync(require("path").join(__dirname, "../package.json"), JSON.stringify(p, null, 2));
             console.log(`Done! SDE Upgrade complete!`);
         });
     });
