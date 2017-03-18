@@ -13,4 +13,4 @@ script:
   - npm test
   - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then git init; git config user.name "Travis CI"; git config user.email "wwigham@gmail.com"; git remote add upstream "https://$GH_TOKEN@github.com/weswigham/eve-online-sde"; git fetch upstream; git checkout master; fi
   - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then npm run update-sde || travis_terminate 1; fi
-  - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then if [[ ! "$(git status -s)" =~ ^$ ]]; then git add sde; git add package.json; git commit -m 'Automatic SDE Update'; git push -u upstream master; fi; fi
+  - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then if [[ ! "$(git status -s)" =~ ^$ ]]; then git add sde; git add package.json; git commit -m 'Automatic SDE Update'; git push -u upstream master; git tag $(node ./scripts/print-version.js); git push upstream --tags; fi; fi
