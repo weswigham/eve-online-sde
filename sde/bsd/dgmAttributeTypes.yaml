@@ -11190,15 +11190,6 @@
     published: true
     stackable: true
     unitID: 1
--   attributeID: 1656
-    attributeName: AI_TankingModifierDrone
-    categoryID: 12
-    defaultValue: 0.7
-    description: Tanking modifier applied to drones. 1.0 is no modifier
-    displayName: Drone Tanking Modifier
-    highIsGood: true
-    published: true
-    stackable: true
 -   attributeID: 1657
     attributeName: AI_TankingModifier
     categoryID: 12
@@ -16798,15 +16789,6 @@
     published: false
     stackable: true
     unitID: 119
--   attributeID: 2253
-    attributeName: ECMResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance to ECM. 0 gives Immunity.
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 108
 -   attributeID: 2255
     attributeName: scanGravimetricStrengthPercentInterim
     categoryID: 7
@@ -16891,17 +16873,6 @@
     unitID: 101
 -   attributeID: 2157
     attributeName: fighterAbilityMicroWarpDriveDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Duration
-    displayName: Duration
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 101
--   attributeID: 2155
-    attributeName: fighterAbilityMicroJumpDriveDuration
     categoryID: 34
     defaultValue: 0.0
     description: Duration
@@ -17471,17 +17442,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 2349
-    attributeName: fighterAbilityLaunchBombDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: ''
-    displayName: Duration
-    highIsGood: true
-    iconID: 1392
-    published: false
-    stackable: true
-    unitID: 101
 -   attributeID: 2351
     attributeName: sensorDampenerResistanceBonus
     categoryID: 37
@@ -17579,18 +17539,6 @@
     displayName: Sensor Warfare Resistance
     highIsGood: true
     iconID: 74
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2135
-    attributeName: remoteAssistanceImpedance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Impedance against Remote assistance (sensor boosters, tracking computers
-        and ECCM).
-    displayName: Remote Electronic Assistance Impedance
-    highIsGood: true
-    iconID: 0
     published: true
     stackable: true
     unitID: 108
@@ -18650,17 +18598,6 @@
     published: true
     stackable: false
     unitID: 113
--   attributeID: 2233
-    attributeName: fighterAbilityAttackMissileDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Rate of fire
-    displayName: Rate of fire
-    highIsGood: true
-    iconID: 1397
-    published: true
-    stackable: false
-    unitID: 101
 -   attributeID: 2158
     attributeName: fighterAbilityAfterburnerDuration
     categoryID: 34
@@ -18776,17 +18713,6 @@
     published: true
     stackable: false
     unitID: 113
--   attributeID: 2177
-    attributeName: fighterAbilityAttackTurretDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Rate of fire
-    displayName: Rate of fire
-    highIsGood: true
-    iconID: 1397
-    published: true
-    stackable: false
-    unitID: 101
 -   attributeID: 2176
     attributeName: fighterAbilityAttackTurretRangeFalloff
     categoryID: 34
@@ -18892,17 +18818,6 @@
     published: true
     stackable: false
     unitID: 1
--   attributeID: 2220
-    attributeName: fighterAbilityECMDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Duration
-    displayName: Duration
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: false
-    unitID: 101
 -   attributeID: 2211
     attributeName: fighterAbilityEnergyNeutralizerAmount
     categoryID: 34
@@ -18914,17 +18829,6 @@
     published: true
     stackable: false
     unitID: 114
--   attributeID: 2208
-    attributeName: fighterAbilityEnergyNeutralizerDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Duration
-    displayName: Duration
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: false
-    unitID: 101
 -   attributeID: 2210
     attributeName: fighterAbilityEnergyNeutralizerFalloffRange
     categoryID: 34
@@ -19053,15 +18957,6 @@
     published: true
     stackable: false
     unitID: 113
--   attributeID: 2401
-    attributeName: fighterAbilityKamikazeDuration
-    categoryID: 34
-    defaultValue: 10000.0
-    description: Duration of one cycle of the kamikaze ability
-    highIsGood: true
-    published: false
-    stackable: false
-    unitID: 101
 -   attributeID: 2204
     attributeName: fighterAbilityWarpDisruptionRange
     categoryID: 34
@@ -19193,17 +19088,6 @@
     published: true
     stackable: false
     unitID: 1
--   attributeID: 2182
-    attributeName: fighterAbilityMissilesDuration
-    categoryID: 34
-    defaultValue: 0.0
-    description: Rate of fire
-    displayName: Rate of fire
-    highIsGood: true
-    iconID: 1397
-    published: true
-    stackable: false
-    unitID: 101
 -   attributeID: 2132
     attributeName: fighterAbilityMissilesDamageTherm
     categoryID: 34
@@ -21811,6 +21695,15 @@
     published: true
     stackable: true
     unitID: 138
+-   attributeID: 2610
+    attributeName: pilotSecurityStatus
+    categoryID: 7
+    defaultValue: 0.0
+    description: Pilot's Crimewatch sec status. Copied from character stats when boarding
+        a ship.
+    highIsGood: true
+    published: false
+    stackable: true
 -   attributeID: 654
     attributeName: aoeCloudSize
     categoryID: 7
@@ -21822,6 +21715,92 @@
     published: true
     stackable: false
     unitID: 1
+-   attributeID: 2233
+    attributeName: fighterAbilityAttackMissileDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Rate of fire
+    displayName: Rate of fire
+    highIsGood: false
+    iconID: 1397
+    published: true
+    stackable: false
+    unitID: 101
+-   attributeID: 2182
+    attributeName: fighterAbilityMissilesDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Rate of fire
+    displayName: Rate of fire
+    highIsGood: false
+    iconID: 1397
+    published: true
+    stackable: false
+    unitID: 101
+-   attributeID: 2155
+    attributeName: fighterAbilityMicroJumpDriveDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Duration
+    displayName: Duration
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101
+-   attributeID: 2349
+    attributeName: fighterAbilityLaunchBombDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: ''
+    displayName: Duration
+    highIsGood: false
+    iconID: 1392
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2401
+    attributeName: fighterAbilityKamikazeDuration
+    categoryID: 34
+    defaultValue: 10000.0
+    description: Duration of one cycle of the kamikaze ability
+    highIsGood: false
+    published: false
+    stackable: false
+    unitID: 101
+-   attributeID: 2208
+    attributeName: fighterAbilityEnergyNeutralizerDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Duration
+    displayName: Duration
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: false
+    unitID: 101
+-   attributeID: 2220
+    attributeName: fighterAbilityECMDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Duration
+    displayName: Duration
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: false
+    unitID: 101
+-   attributeID: 2177
+    attributeName: fighterAbilityAttackTurretDuration
+    categoryID: 34
+    defaultValue: 0.0
+    description: Rate of fire
+    displayName: Rate of fire
+    highIsGood: false
+    iconID: 1397
+    published: true
+    stackable: false
+    unitID: 101
 -   attributeID: 552
     attributeName: signatureRadius
     categoryID: 6
@@ -21833,6 +21812,25 @@
     published: true
     stackable: false
     unitID: 1
+-   attributeID: 1656
+    attributeName: AI_TankingModifierDrone
+    categoryID: 12
+    defaultValue: 0.7
+    description: Tanking modifier applied to drones if their owner is tanking. 1.0
+        is no modifier
+    displayName: Drone Tanking Modifier
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2612
+    attributeName: AI_TankingModifierFighter
+    categoryID: 12
+    defaultValue: 1.3
+    description: Tanking modifier applied to fighters if their owner is tanking. 1.0
+        is no modifier
+    highIsGood: true
+    published: false
+    stackable: true
 -   attributeID: 2593
     attributeName: attributeEngRigTimeBonus
     categoryID: 37
@@ -21853,3 +21851,26 @@
     published: true
     stackable: true
     unitID: 105
+-   attributeID: 2253
+    attributeName: ECMResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance to ECM. 0 gives Immunity.
+    displayName: ECM Resistance
+    highIsGood: true
+    iconID: 109
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2135
+    attributeName: remoteAssistanceImpedance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Impedance against Remote assistance (sensor boosters, tracking computers
+        and ECCM).
+    displayName: Remote Electronic Assistance Impedance
+    highIsGood: true
+    iconID: 74
+    published: true
+    stackable: true
+    unitID: 108

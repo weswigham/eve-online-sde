@@ -184,6 +184,7 @@
 170:
   description: MissileLauncherDeluxe
   graphicFile: res:/dx9/model/turret/Launcher/Torpedo/Torpedo_T1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Torpedo/icons
   sofRaceName: caldari
 202:
   description: Shattered Planet Asset
@@ -2461,21 +2462,6 @@
   sofFactionName: jovebase
   sofHullName: js1
   sofRaceName: jove
-2023:
-  description: entityExplode_extralarge
-  graphicFile: res:/model/effect3/explosion/entityexplode_extralarge.red
-2024:
-  description: entityExplode_tiny
-  graphicFile: res:/model/effect3/explosion/entityexplode_tiny.red
-2025:
-  description: entityExplode_small
-  graphicFile: res:/model/effect3/explosion/entityexplode_small.red
-2026:
-  description: entityExplode_medium
-  graphicFile: res:/model/effect3/explosion/entityexplode_medium.red
-2027:
-  description: entityExplode_large
-  graphicFile: res:/model/effect3/explosion/entityexplode_large.red
 2032:
   description: Effect Module Transform Smartbomb EMP
   graphicFile: res:/Fisfx/Module/SmartBomb_EMP_Tr_T1a.red
@@ -8262,6 +8248,7 @@
 11043:
   description: Beam Heavy Dual Tech 1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/L/Beam_HeavyDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/L/icons
   sofRaceName: amarr
 11044:
   graphicFile: res:/Graphics/Placeable/Amarr/Screen_TypeA_Left_Ama/Screen_TypeA_Left_Ama.red
@@ -8286,734 +8273,917 @@
 11105:
   description: Beam_Mega_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/L/Beam_Mega_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/L/icons
   sofRaceName: amarr
 11106:
   description: Beam_Tachyon_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/L/Beam_Tachyon_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/L/icons
   sofRaceName: amarr
 11107:
   description: Beam_Focused_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/M/Beam_Focused_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/M/icons
   sofRaceName: amarr
 11108:
   description: Beam_Heavy_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/M/Beam_Heavy_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/M/icons
   sofRaceName: amarr
 11109:
   description: Beam_Quad_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/M/Beam_Quad_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/M/icons
   sofRaceName: amarr
 11110:
   description: Beam_Dual_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/S/Beam_Dual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/S/icons
   sofRaceName: amarr
 11111:
   description: Beam_Medium_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/S/Beam_Medium_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/S/icons
   sofRaceName: amarr
 11112:
   description: Beam_GigaDual_T1
   graphicFile: res:/dx9/model/Turret/Energy/Beam/XL/Beam_GigaDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Beam/XL/icons
   sofRaceName: amarr
 11113:
   description: Pulse_HeavyDual_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/Pulse_HeavyDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/L/icons
   sofRaceName: amarr
 11114:
   description: Pulse_Mega_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/Pulse_Mega_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/L/icons
   sofRaceName: amarr
 11115:
   description: Pulse_Focused_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/Pulse_Focused_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/M/icons
   sofRaceName: amarr
 11116:
   description: Pulse_Heavy_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/Pulse_Heavy_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/M/icons
   sofRaceName: amarr
 11117:
   description: Pulse_Dual_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/Pulse_Dual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/S/icons
   sofRaceName: amarr
 11118:
   description: Pulse_Gatling_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/Pulse_Gatling_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/S/icons
   sofRaceName: amarr
 11119:
   description: Pulse_Medium_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/Pulse_Medium_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/S/icons
   sofRaceName: amarr
 11120:
   description: Pulse_GigaDuel_T1
   graphicFile: res:/dx9/model/Turret/Energy/Pulse/XL/Pulse_GigaDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Energy/Pulse/XL/icons
   sofRaceName: amarr
 11121:
   description: Blast_Electron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/Blast_Electron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/L/icons
   sofRaceName: gallente
 11122:
   description: Blast_Ion_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/Blast_Ion_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/L/icons
   sofRaceName: gallente
 11123:
   description: Blast_Neutron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/Blast_Neutron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/L/icons
   sofRaceName: gallente
 11124:
   description: Blast_Electron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/Blast_Electron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/M/icons
   sofRaceName: gallente
 11125:
   description: Blast_Ion_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/Blast_Ion_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/M/icons
   sofRaceName: gallente
 11126:
   description: Blast_Neutron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/Blast_Neutron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/M/icons
   sofRaceName: gallente
 11127:
   description: Blast_Electron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/Blast_Electron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/S/icons
   sofRaceName: gallente
 11128:
   description: Blast_Ion_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/Blast_Ion_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/S/icons
   sofRaceName: gallente
 11129:
   description: Blast_Neutron_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/Blast_Neutron_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/S/icons
   sofRaceName: gallente
 11131:
   description: XLBlast_Ion_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Blast/XL/Blast_Ion_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Blast/XL/icons
   sofRaceName: gallente
 11132:
   description: Rail_250mmDual_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/Rail_250mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/L/icons
   sofRaceName: gallente
 11133:
   description: Rail_350mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/Rail_350mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/L/icons
   sofRaceName: gallente
 11134:
   description: Rail_425mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/Rail_425mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/L/icons
   sofRaceName: gallente
 11135:
   description: Rail_150mmDual_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/Rail_150mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/M/icons
   sofRaceName: gallente
 11136:
   description: Rail_200mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/Rail_200mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/M/icons
   sofRaceName: gallente
 11137:
   description: Rail_250mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/Rail_250mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/M/icons
   sofRaceName: gallente
 11138:
   description: Rail_125mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/Rail_125mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/S/icons
   sofRaceName: gallente
 11139:
   description: Rail_150mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/Rail_150mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/S/icons
   sofRaceName: gallente
 11140:
   description: Rail_75mm_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/Rail_75mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/S/icons
   sofRaceName: gallente
 11141:
   description: Rail_1000mmDual_T1
   graphicFile: res:/dx9/model/Turret/Hybrid/Rail/XL/Rail_1000mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Hybrid/Rail/XL/icons
   sofRaceName: gallente
 11142:
   description: DeepCore_T1
   graphicFile: res:/dx9/model/Turret/Mining/Deep_Core/DeepCore_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Deep_Core/icons
   sofRaceName: ore
 11143:
   description: Gas_T1
   graphicFile: res:/dx9/model/Turret/Mining/Gas/Gas_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Gas/icons
   sofRaceName: ore
 11144:
   description: Ice_T1
   graphicFile: res:/dx9/model/Turret/Mining/Ice/Ice_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Ice/icons
   sofRaceName: ore
 11145:
   description: Modulated_Strip_T1
   graphicFile: res:/dx9/model/Turret/Mining/Modulated_Strip/Modulated_Strip_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Modulated_Strip/icons
   sofRaceName: ore
 11146:
   description: Standard_T1
   graphicFile: res:/dx9/model/Turret/Mining/Standard/Standard_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Standard/icons
   sofRaceName: ore
 11147:
   description: Strip_T1
   graphicFile: res:/dx9/model/Turret/Mining/Strip/Strip_T1.red
+  iconFolder: res:/dx9/model/Turret/Mining/Strip/icons
   sofRaceName: ore
 11148:
   description: Artil_1200mmHeavy_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/Artil_1200mmHeavy_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/L/icons
   sofRaceName: minmatar
 11149:
   description: Artil_1400mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/Artil_1400mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/L/icons
   sofRaceName: minmatar
 11150:
   description: Artil_650mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/Artil_650mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/M/icons
   sofRaceName: minmatar
 11151:
   description: Artil_720mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/Artil_720mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/M/icons
   sofRaceName: minmatar
 11152:
   description: Artil_250mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/Artil_250mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/S/icons
   sofRaceName: minmatar
 11153:
   description: Artil_280mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/Artil_280mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/S/icons
   sofRaceName: minmatar
 11154:
   description: Artil_3500mmQuad_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Artil/XL/Artil_3500mmQuad_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Artil/XL/icons
   sofRaceName: minmatar
 11155:
   description: Auto_425mmDual_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/Auto_425mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/L/icons
   sofRaceName: minmatar
 11156:
   description: Auto_650mmDual_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/Auto_650mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/L/icons
   sofRaceName: minmatar
 11157:
   description: Auto_800mmHeavy_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/Auto_800mmHeavy_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/L/icons
   sofRaceName: minmatar
 11158:
   description: Auto_180mmDual_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/Auto_180mmDual_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/M/icons
   sofRaceName: minmatar
 11159:
   description: Auto_220mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/Auto_220mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/M/icons
   sofRaceName: minmatar
 11160:
   description: Auto_425mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/Auto_425mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/M/icons
   sofRaceName: minmatar
 11161:
   description: Auto_125mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/Auto_125mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/S/icons
   sofRaceName: minmatar
 11162:
   description: Auto_150mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/Auto_150mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/S/icons
   sofRaceName: minmatar
 11163:
   description: Auto_200mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/Auto_200mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/S/icons
   sofRaceName: minmatar
 11164:
   description: Auto_6x2500mm_T1
   graphicFile: res:/dx9/model/Turret/Projectile/Auto/XL/Auto_6x2500mm_T1.red
+  iconFolder: res:/dx9/model/Turret/Projectile/Auto/XL/icons
   sofRaceName: minmatar
 11165:
   description: Salvage_S_T1
   graphicFile: res:/dx9/model/Turret/Salvage/S/Salvage_S_T1.red
+  iconFolder: res:/dx9/model/Turret/Salvage/S/icons
   sofRaceName: ore
 11166:
   description: Salvage_S_T2
-  graphicFile: res:/dx9/model/Turret/Salvage/S/Salvage_S_T2.red
+  graphicFile: res:/dx9/model/turret/salvage/s/salvage_s_t1.red
+  iconFolder: res:/dx9/model/turret/salvage/s/icons
   sofRaceName: ore
 11181:
   description: Tractor_S_T1
   graphicFile: res:/dx9/model/Turret/Tractor/S/Tractor_S_T1.red
+  iconFolder: res:/dx9/model/Turret/Tractor/S/icons
   sofRaceName: ore
 11182:
   description: Tractor_XL_T1
   graphicFile: res:/dx9/model/Turret/Tractor/XL/Tractor_XL_T1.red
+  iconFolder: res:/dx9/model/Turret/Tractor/XL/icons
   sofRaceName: ore
 11188:
   description: Beam_HeavyDual_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_heavydual_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_heavydual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11189:
   description: Beam_HeavyDual_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_heavydual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_heavydual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11190:
   description: Beam_Mega_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_mega_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_mega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11191:
   description: Beam_Mega_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_mega_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_mega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11192:
   description: Beam_Tachyon_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_tachyon_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_tachyon_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11193:
   description: Beam_Tachyon_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/L/beam_tachyon_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/l/beam_tachyon_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/l/icons
   sofRaceName: amarr
 11194:
   description: Beam_Focused_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_focused_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_focused_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11195:
   description: Beam_Focused_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_focused_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_focused_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11196:
   description: Beam_Heavy_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_heavy_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_heavy_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11197:
   description: Beam_Heavy_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_heavy_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_heavy_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11198:
   description: Beam_Quad_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_quad_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_quad_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11199:
   description: Beam_Quad_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/M/beam_quad_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/m/beam_quad_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/m/icons
   sofRaceName: amarr
 11200:
   description: Beam_Dual_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/S/beam_dual_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/s/beam_dual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/s/icons
   sofRaceName: amarr
 11201:
   description: Beam_Dual_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/S/beam_dual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/s/beam_dual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/s/icons
   sofRaceName: amarr
 11202:
   description: Beam_Medium_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/S/beam_medium_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/s/beam_medium_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/s/icons
   sofRaceName: amarr
 11203:
   description: Beam_Medium_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/S/beam_medium_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/s/beam_medium_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/s/icons
   sofRaceName: amarr
 11204:
   description: Beam_GigaDual_F
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/XL/beam_gigadual_F.red
+  graphicFile: res:/dx9/model/turret/energy/beam/xl/beam_gigadual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/xl/icons
   sofRaceName: amarr
 11205:
   description: Beam_GigaDual_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Beam/XL/beam_gigadual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/beam/xl/beam_gigadual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/beam/xl/icons
   sofRaceName: amarr
 11206:
   description: Pulse_HeavyDual_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/pulse_heavydual_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/l/pulse_heavydual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/l/icons
   sofRaceName: amarr
 11207:
   description: Pulse_HeavyDual_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/pulse_heavydual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/l/pulse_heavydual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/l/icons
   sofRaceName: amarr
 11208:
   description: Pulse_Mega_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/pulse_mega_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/l/pulse_mega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/l/icons
   sofRaceName: amarr
 11209:
   description: Pulse_Mega_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/L/pulse_mega_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/l/pulse_mega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/l/icons
   sofRaceName: amarr
 11210:
   description: Pulse_Focused_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/pulse_focused_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/m/pulse_focused_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/m/icons
   sofRaceName: amarr
 11211:
   description: Pulse_Focused_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/pulse_focused_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/m/pulse_focused_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/m/icons
   sofRaceName: amarr
 11212:
   description: Pulse_Heavy_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/pulse_heavy_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/m/pulse_heavy_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/m/icons
   sofRaceName: amarr
 11213:
   description: Pulse_Heavy_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/M/pulse_heavy_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/m/pulse_heavy_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/m/icons
   sofRaceName: amarr
 11214:
   description: Pulse_Dual_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_dual_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_dual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11215:
   description: Pulse_Dual_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_dual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_dual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11216:
   description: Pulse_Gatling_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_gatling_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_gatling_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11217:
   description: Pulse_Gatling_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_gatling_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_gatling_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11218:
   description: Pulse_Medium_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_medium_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_medium_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11219:
   description: Pulse_Medium_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/S/pulse_medium_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/s/pulse_medium_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/s/icons
   sofRaceName: amarr
 11220:
   description: Pulse_GigaDuel_F
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/XL/pulse_gigadual_F.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_gigadual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/xl/icons
   sofRaceName: amarr
 11221:
   description: Pulse_GigaDuel_T2
-  graphicFile: res:/dx9/model/Turret/Energy/Pulse/XL/pulse_gigadual_T2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_gigadual_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/xl/icons
   sofRaceName: amarr
 11222:
   description: Blast_Electron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_electron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11223:
   description: Blast_Electron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_electron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11224:
   description: Blast_Ion_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_ion_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11225:
   description: Blast_Ion_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_ion_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11226:
   description: Blast_Neutron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_neutron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11227:
   description: Blast_Neutron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/L/blast_neutron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/l/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/l/icons
   sofRaceName: gallente
 11228:
   description: Blast_Electron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_electron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11229:
   description: Blast_Electron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_electron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11230:
   description: Blast_Ion_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_ion_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11231:
   description: Blast_Ion_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_ion_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11232:
   description: Blast_Neutron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_neutron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11233:
   description: Blast_Neutron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/M/blast_neutron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/m/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/m/icons
   sofRaceName: gallente
 11234:
   description: Blast_Electron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_electron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11235:
   description: Blast_Electron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_electron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_electron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11236:
   description: Blast_Ion_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_ion_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11237:
   description: Blast_Ion_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_ion_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11238:
   description: Blast_Neutron_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_neutron_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11239:
   description: Blast_Neutron_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/S/blast_neutron_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/s/blast_neutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/s/icons
   sofRaceName: gallente
 11242:
   description: XLBlast_Ion_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/XL/blast_ion_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/xl/icons
   sofRaceName: gallente
 11243:
   description: XLBlast_Ion_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Blast/XL/blast_ion_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_ion_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/xl/icons
   sofRaceName: gallente
 11244:
   description: Rail_250mmDual_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_250mmdual_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_250mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11245:
   description: Rail_250mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_250mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_250mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11246:
   description: Rail_350mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_350mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_350mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11247:
   description: Rail_350mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_350mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_350mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11248:
   description: Rail_425mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_425mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_425mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11249:
   description: Rail_425mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/L/rail_425mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/l/rail_425mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/l/icons
   sofRaceName: gallente
 11250:
   description: Rail_150mmDual_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_150mmdual_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_150mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11251:
   description: Rail_150mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_150mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_150mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11252:
   description: Rail_200mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_200mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_200mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11253:
   description: Rail_200mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_200mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_200mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11254:
   description: Rail_250mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_250mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_250mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11255:
   description: Rail_250mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/M/rail_250mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/m/rail_250mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/m/icons
   sofRaceName: gallente
 11256:
   description: Rail_125mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_125mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_125mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11257:
   description: Rail_125mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_125mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_125mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11258:
   description: Rail_150mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_150mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_150mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11259:
   description: Rail_150mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_150mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_150mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11260:
   description: Rail_75mm_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_75mm_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_75mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11261:
   description: Rail_75mm_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/S/rail_75mm_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/s/rail_75mm_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/s/icons
   sofRaceName: gallente
 11262:
   description: Rail_1000mmDual_F
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/XL/rail_1000mmdual_F.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/xl/rail_1000mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/xl/icons
   sofRaceName: gallente
 11263:
   description: Rail_1000mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Hybrid/Rail/XL/rail_1000mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/hybrid/rail/xl/rail_1000mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/rail/xl/icons
   sofRaceName: gallente
 11264:
   description: DeepCore_F
-  graphicFile: res:/dx9/model/Turret/Mining/Deep_Core/deepcore_F.red
+  graphicFile: res:/dx9/model/turret/mining/deep_core/deepcore_t1.red
+  iconFolder: res:/dx9/model/turret/mining/deep_core/icons
   sofRaceName: ore
 11265:
   description: DeepCore_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Deep_Core/deepcore_T2.red
+  graphicFile: res:/dx9/model/turret/mining/deep_core/deepcore_t1.red
+  iconFolder: res:/dx9/model/turret/mining/deep_core/icons
   sofRaceName: ore
 11266:
   description: Gas_F
-  graphicFile: res:/dx9/model/Turret/Mining/Gas/gas_F.red
+  graphicFile: res:/dx9/model/turret/mining/gas/gas_t1.red
+  iconFolder: res:/dx9/model/turret/mining/gas/icons
   sofRaceName: ore
 11267:
   description: Gas_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Gas/gas_T2.red
+  graphicFile: res:/dx9/model/turret/mining/gas/gas_t1.red
+  iconFolder: res:/dx9/model/turret/mining/gas/icons
   sofRaceName: ore
 11268:
   description: Ice_F
-  graphicFile: res:/dx9/model/Turret/Mining/Ice/ice_F.red
+  graphicFile: res:/dx9/model/turret/mining/ice/ice_t1.red
+  iconFolder: res:/dx9/model/turret/mining/ice/icons
   sofRaceName: ore
 11269:
   description: Ice_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Ice/ice_T2.red
+  graphicFile: res:/dx9/model/turret/mining/ice/ice_t1.red
+  iconFolder: res:/dx9/model/turret/mining/ice/icons
   sofRaceName: ore
 11270:
   description: Modulated_Strip_F
-  graphicFile: res:/dx9/model/Turret/Mining/Modulated_Strip/modulated_strip_F.red
+  graphicFile: res:/dx9/model/turret/mining/modulated_strip/modulated_strip_t1.red
+  sofFactionName: orebase
   sofRaceName: ore
 11271:
   description: Modulated_Strip_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Modulated_Strip/modulated_strip_T2.red
+  graphicFile: res:/dx9/model/turret/mining/modulated_strip/modulated_strip_t1.red
+  sofFactionName: orebase
   sofRaceName: ore
 11272:
   description: Standard_F
-  graphicFile: res:/dx9/model/Turret/Mining/Standard/standard_F.red
+  graphicFile: res:/dx9/model/turret/mining/standard/standard_t1.red
+  iconFolder: res:/dx9/model/turret/mining/standard/icons
   sofRaceName: ore
 11273:
   description: Standard_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Standard/standard_T2.red
+  graphicFile: res:/dx9/model/turret/mining/standard/standard_t1.red
+  iconFolder: res:/dx9/model/turret/mining/standard/icons
   sofRaceName: ore
 11274:
   description: Strip_F
-  graphicFile: res:/dx9/model/Turret/Mining/Strip/strip_F.red
+  graphicFile: res:/dx9/model/turret/mining/strip/strip_t1.red
+  iconFolder: res:/dx9/model/turret/mining/strip/icons
   sofRaceName: ore
 11275:
   description: Strip_T2
-  graphicFile: res:/dx9/model/Turret/Mining/Strip/strip_T2.red
+  graphicFile: res:/dx9/model/turret/mining/strip/strip_t1.red
+  iconFolder: res:/dx9/model/turret/mining/strip/icons
   sofRaceName: ore
 11276:
   description: Artil_1200mmHeavy_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/artil_1200mmHeavy_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/l/artil_1200mmheavy_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/l/icons
   sofRaceName: minmatar
 11277:
   description: Artil_1200mmHeavy_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/artil_1200mmHeavy_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/l/artil_1200mmheavy_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/l/icons
   sofRaceName: minmatar
 11278:
   description: Artil_1400mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/artil_1400mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/l/artil_1400mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/l/icons
   sofRaceName: minmatar
 11279:
   description: Artil_1400mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/L/artil_1400mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/l/artil_1400mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/l/icons
   sofRaceName: minmatar
 11280:
   description: Artil_650mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/artil_650mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/m/artil_650mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/m/icons
   sofRaceName: minmatar
 11281:
   description: Artil_650mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/artil_650mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/m/artil_650mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/m/icons
   sofRaceName: minmatar
 11282:
   description: Artil_720mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/artil_720mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/m/artil_720mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/m/icons
   sofRaceName: minmatar
 11283:
   description: Artil_720mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/M/artil_720mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/m/artil_720mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/m/icons
   sofRaceName: minmatar
 11284:
   description: Artil_250mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/artil_250mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/s/artil_250mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/s/icons
   sofRaceName: minmatar
 11285:
   description: Artil_250mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/artil_250mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/s/artil_250mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/s/icons
   sofRaceName: minmatar
 11286:
   description: Artil_280mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/artil_280mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/s/artil_280mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/s/icons
   sofRaceName: minmatar
 11287:
   description: Artil_280mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/S/artil_280mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/s/artil_280mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/s/icons
   sofRaceName: minmatar
 11288:
   description: Artil_3500mmQuad_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/XL/artil_3500mmquad_F.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/xl/artil_3500mmquad_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/xl/icons
   sofRaceName: minmatar
 11289:
   description: Artil_3500mmQuad_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Artil/XL/artil_3500mmquad_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/artil/xl/artil_3500mmquad_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/artil/xl/icons
   sofRaceName: minmatar
 11290:
   description: Auto_425mmDual_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_425mmdual_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_425mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11291:
   description: Auto_425mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_425mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_425mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11292:
   description: Auto_650mmDual_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_650mmdual_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_650mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11293:
   description: Auto_650mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_650mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_650mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11294:
   description: Auto_800mmHeavy_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_800mmheavy_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_800mmheavy_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11295:
   description: Auto_800mmHeavy_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/L/auto_800mmheavy_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/l/auto_800mmheavy_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/l/icons
   sofRaceName: minmatar
 11296:
   description: Auto_180mmDual_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_180mmdual_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_180mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/m/icons
   sofRaceName: minmatar
 11297:
   description: Auto_180mmDual_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_180mmdual_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_180mmdual_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/m/icons
   sofRaceName: minmatar
 11298:
   description: Auto_220mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_220mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_220mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/m/icons
   sofRaceName: minmatar
 11299:
   description: Auto_220mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_220mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_220mm_t1.red
+  sofFactionName: minmatarbase
   sofRaceName: minmatar
 11300:
   description: Auto_425mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_425mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_425mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/m/icons
   sofRaceName: minmatar
 11301:
   description: Auto_425mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/M/auto_425mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/m/auto_425mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/m/icons
   sofRaceName: minmatar
 11302:
   description: Auto_125mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_125mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_125mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11303:
   description: Auto_125mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_125mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_125mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11304:
   description: Auto_150mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_150mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_150mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11305:
   description: Auto_150mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_150mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_150mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11306:
   description: Auto_200mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_200mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_200mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11307:
   description: Auto_200mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/S/auto_200mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/s/auto_200mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/s/icons
   sofRaceName: minmatar
 11308:
   description: Auto_6x2500mm_F
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/XL/auto_6x2500mm_F.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_6x2500mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/xl/icons
   sofRaceName: minmatar
 11309:
   description: Auto_6x2500mm_T2
-  graphicFile: res:/dx9/model/Turret/Projectile/Auto/XL/auto_6x2500mm_T2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_6x2500mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/xl/icons
   sofRaceName: minmatar
 11355:
   graphicFile: res:/Graphics/Interior/Gallente/Modular_Floor/Floor_01_Gal_Base.red
@@ -9213,15 +9383,16 @@
   graphicFile: res:/Graphics/Placeable/Minmatar/Walkway_Pipes_06_Min/Walkway_Pipes_06_Min.red
 11548:
   description: SleeperDrone_Large
-  graphicFile: res:/dx9/model/turret/Drone/SleeperDrone_Large.red
+  graphicFile: res:/dx9/model/turret/drone/sleeperdrone_large_t1.red
   sofRaceName: sleeper
 11549:
   description: SleeperDrone_Medium
-  graphicFile: res:/dx9/model/turret/Drone/SleeperDrone_Medium.red
+  graphicFile: res:/dx9/model/turret/drone/sleeperdrone_medium_t1.red
   sofRaceName: sleeper
 11550:
   description: SleeperDrone_Small
-  graphicFile: res:/dx9/model/turret/Drone/SleeperDrone_Small.red
+  graphicFile: res:/dx9/model/turret/drone/sleeperdrone_small_t1.red
+  sofFactionName: sleeperbase
   sofRaceName: sleeper
 11553:
   graphicFile: res:/Graphics/Placeable/Caldari/Railing_TypeA_01_Cal/Railing_TypeA_01_Cal.red
@@ -9540,11 +9711,13 @@
   sofRaceName: caldari
 11867:
   description: Small Tractor Tech 2
-  graphicFile: res:/dx9/model/turret/tractor/s/Tractor_S_T2.red
+  graphicFile: res:/dx9/model/turret/tractor/s/tractor_s_t1.red
+  iconFolder: res:/dx9/model/turret/tractor/s/icons
   sofRaceName: ore
 11868:
   description: Extra Large Tractor Beam Tech 2
-  graphicFile: res:/dx9/model/turret/tractor/xl/Tractor_XL_T2.red
+  graphicFile: res:/dx9/model/turret/tractor/xl/tractor_xl_t1.red
+  iconFolder: res:/dx9/model/turret/tractor/xl/icons
   sofRaceName: ore
 11869:
   description: Gallente Battleship Prototype Federal Issue Megathron (Megathron Hull)
@@ -9572,216 +9745,287 @@
   sofRaceName: gallente
 20014:
   graphicFile: res:/dx9/model/turret/Launcher/torpedo/torpedo_missile_scourge_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/torpedo/icons
   sofRaceName: caldari
 20015:
   graphicFile: res:/dx9/model/Turret/Launcher/Torpedo/Torpedo_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Torpedo/icons
   sofRaceName: caldari
 20016:
   graphicFile: res:/dx9/model/turret/Launcher/Torpedo/Torpedo_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Torpedo/icons
   sofRaceName: caldari
 20017:
   graphicFile: res:/dx9/model/turret/Launcher/torpedo/torpedo_missile_inferno_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/torpedo/icons
   sofRaceName: caldari
 20029:
   graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_inferno_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
   sofRaceName: caldari
 20030:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelTorpedo/CitadelTorpedo_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelTorpedo/icons
   sofRaceName: caldari
 20031:
   graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_nova_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
   sofRaceName: caldari
 20032:
   graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_scourge_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
   sofRaceName: caldari
 20035:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20036:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20037:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20038:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Lockbreaker_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20039:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Void_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20040:
   graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
   sofRaceName: caldari
 20041:
   graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
   sofRaceName: caldari
 20042:
   graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
   sofRaceName: caldari
 20043:
   graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
   sofRaceName: caldari
 20044:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
   sofRaceName: caldari
 20045:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
   sofRaceName: caldari
 20046:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
   sofRaceName: caldari
 20047:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
   sofRaceName: caldari
 20048:
   graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
   sofRaceName: caldari
 20049:
   graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
   sofRaceName: caldari
 20050:
   graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
   sofRaceName: caldari
 20051:
   graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
   sofRaceName: caldari
 20052:
   graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
   sofRaceName: caldari
 20053:
   graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
   sofRaceName: caldari
 20054:
   graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
   sofRaceName: caldari
 20055:
   graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
   sofRaceName: caldari
 20057:
   graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
   sofRaceName: caldari
 20058:
   graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
   sofRaceName: caldari
 20059:
   graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
   sofRaceName: caldari
 20060:
   graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
   sofRaceName: caldari
 20061:
   graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Inferno_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
   sofRaceName: caldari
 20062:
   graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Mjolnir_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
   sofRaceName: caldari
 20063:
   graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
   sofRaceName: caldari
 20064:
   graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Scourge_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
   sofRaceName: caldari
 20065:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20066:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/bomb/icons
   sofRaceName: caldari
 20067:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelTorpedo/CitadelTorpedo_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelTorpedo/icons
   sofRaceName: caldari
 20068:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelTorpedo/CitadelTorpedo_N.red
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/citadeltorpedo/icons
   sofRaceName: caldari
 20069:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_N.red
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/citadelcruise/icons
   sofRaceName: caldari
 20070:
   graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
   sofRaceName: caldari
 20071:
-  graphicFile: res:/dx9/model/Turret/Launcher/Torpedo/Torpedo_F.red
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/torpedo/icons
   sofRaceName: caldari
 20072:
-  graphicFile: res:/dx9/model/Turret/Launcher/Torpedo/Torpedo_N.red
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/torpedo/icons
   sofRaceName: caldari
 20074:
-  graphicFile: res:/dx9/model/Turret/Launcher/Torpedo/Torpedo_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/torpedo/icons
   sofRaceName: caldari
 20075:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_N.red
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/cruise/icons
   sofRaceName: caldari
 20076:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_F.red
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/cruise/icons
   sofRaceName: caldari
 20077:
   graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
   sofRaceName: caldari
 20078:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/cruise/icons
   sofRaceName: caldari
 20079:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_N.red
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavy/icons
   sofRaceName: caldari
 20080:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_F.red
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavy/icons
   sofRaceName: caldari
 20081:
   graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
   sofRaceName: caldari
 20082:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavy/icons
   sofRaceName: caldari
 20083:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_N.red
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavyassault/icons
   sofRaceName: caldari
 20084:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_F.red
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavyassault/icons
   sofRaceName: caldari
 20085:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/heavyassault/icons
   sofRaceName: caldari
 20086:
   graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
   sofRaceName: caldari
 20087:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_N.red
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rocket/icons
   sofRaceName: caldari
 20088:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_F.red
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rocket/icons
   sofRaceName: caldari
 20089:
   graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
   sofRaceName: caldari
 20090:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rocket/icons
   sofRaceName: caldari
 20091:
-  graphicFile: res:/dx9/model/Turret/Launcher/RapidLight/RapidLight_N.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidlight/rapidlight_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidlight/icons
   sofRaceName: caldari
 20092:
   graphicFile: res:/dx9/model/Turret/Launcher/RapidLight/RapidLight_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/RapidLight/icons
   sofRaceName: caldari
 20093:
-  graphicFile: res:/dx9/model/Turret/Launcher/RapidLight/RapidLight_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidlight/rapidlight_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidlight/icons
   sofRaceName: caldari
 20094:
-  graphicFile: res:/dx9/model/Turret/Launcher/RapidLight/RapidLight_F.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidlight/rapidlight_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidlight/icons
   sofRaceName: caldari
 20095:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_N.red
+  graphicFile: res:/dx9/model/turret/launcher/light/light_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/light/icons
   sofRaceName: caldari
 20096:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_F.red
+  graphicFile: res:/dx9/model/turret/launcher/light/light_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/light/icons
   sofRaceName: caldari
 20097:
   graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
   sofRaceName: caldari
 20098:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_T2.red
+  graphicFile: res:/dx9/model/turret/launcher/light/light_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/light/icons
   sofRaceName: caldari
 20110:
   graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Nova_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
   sofRaceName: caldari
 20129:
   description: ORE Drone Medium Salvage Drone I
@@ -9979,23 +10223,28 @@
   sofRaceName: caldari
 20237:
   description: Special launcher for snowballs and fireworks
-  graphicFile: res:/dx9/model/turret/Launcher/festival/festival_f.red
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/festival/icons
   sofRaceName: caldari
 20238:
   description: 'Missile for Festival ammo: snowball'
   graphicFile: res:/dx9/model/Turret/Launcher/Festival/Festival_missile_Snow_T1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/Festival/icons
   sofRaceName: caldari
 20239:
   description: 'missile for Festival ammo: Firworks 1'
   graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework1_T1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
   sofRaceName: caldari
 20240:
   description: 'missile for Festival ammo: Firworks 2'
   graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework2_T1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
   sofRaceName: caldari
 20241:
   description: 'missile for Festival ammo: Firworks 3'
   graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework3_T1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
   sofRaceName: caldari
 20242:
   description: A new-tech cloud, to sit around amarr prime station
@@ -10515,15 +10764,19 @@
   sofRaceName: jove
 20392:
   graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidheavy/icons
   sofRaceName: caldari
 20393:
-  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_t2.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidheavy/icons
   sofRaceName: caldari
 20394:
-  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_f.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidheavy/icons
   sofRaceName: caldari
 20395:
-  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_n.red
+  graphicFile: res:/dx9/model/turret/launcher/rapidheavy/rapidheavy_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/rapidheavy/icons
   sofRaceName: caldari
 20396:
   description: Effect Warp Disruption Field Generator
@@ -10599,6 +10852,7 @@
   sofRaceName: generic
 20443:
   description: Deployable Encounter Surveillance System (Bounty Monitor)
+  iconFolder: res:/dx9/model/deployables/mobile/bountymonitor/icons
   sofFactionName: genericbase
   sofHullName: mbm_t1
   sofRaceName: generic
@@ -12957,69 +13211,85 @@
 21191:
   description: Turret Structure Antiship
   graphicFile: res:/dx9/model/turret/structure/antiship/antiship_t1.red
+  iconFolder: res:/dx9/model/turret/structure/antiship/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21192:
   description: Turret Structure Flak
   graphicFile: res:/dx9/model/turret/structure/flak/flak_t1.red
+  iconFolder: res:/dx9/model/turret/structure/flak/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21193:
   description: Turret Structure Launcher
   graphicFile: res:/dx9/model/turret/structure/launcher/launcher_t1.red
+  iconFolder: res:/dx9/model/turret/structure/launcher/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21194:
   description: XL Auto800MM_quad_F
-  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_4x800mm_f.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_4x800mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/xl/icons
   sofFactionName: minmatarbase
 21196:
   description: XL Auto800MM_quad_T1
   graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_4x800mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/xl/icons
   sofFactionName: minmatarbase
 21197:
   description: XL Auto800MM_quad_T2
-  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_4x800mm_t2.red
+  graphicFile: res:/dx9/model/turret/projectile/auto/xl/auto_4x800mm_t1.red
+  iconFolder: res:/dx9/model/turret/projectile/auto/xl/icons
   sofFactionName: minmatarbase
 21198:
   description: XL Pulse_QuadMega_F
-  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_quadmega_f.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_quadmega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/xl/icons
   sofFactionName: amarrbase
 21199:
   description: XL Pulse_QuadMega_T1
   graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_quadmega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/xl/icons
   sofFactionName: amarrbase
 21200:
   description: XL Pulse_QuadMega_T2
-  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_quadmega_t2.red
+  graphicFile: res:/dx9/model/turret/energy/pulse/xl/pulse_quadmega_t1.red
+  iconFolder: res:/dx9/model/turret/energy/pulse/xl/icons
   sofFactionName: amarrbase
 21201:
   description: XL Blast_QuadNeutron_F
-  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_quadneutron_f.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_quadneutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/xl/icons
   sofFactionName: gallentebase
 21202:
   description: XL Blast_QuadNeutron_T1
   graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_quadneutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/xl/icons
   sofFactionName: gallentebase
 21203:
   description: XL Blast_QuadNeutron_T2
-  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_quadneutron_t2.red
+  graphicFile: res:/dx9/model/turret/hybrid/blast/xl/blast_quadneutron_t1.red
+  iconFolder: res:/dx9/model/turret/hybrid/blast/xl/icons
   sofFactionName: gallentebase
 21204:
   description: Missile Quad Cruise Inferno T1
   graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_missile_inferno_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/quadcruise/icons
   sofFactionName: caldaribase
 21205:
   description: XL QuadCruise_F
-  graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_f.red
+  graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/quadcruise/icons
   sofFactionName: caldaribase
 21206:
   description: XL QuadCruise_T1
   graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/quadcruise/icons
   sofFactionName: caldaribase
 21208:
   description: XL QuadCruise_T2
-  graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_t2.red
+  graphicFile: res:/dx9/model/turret/launcher/quadcruise/quadcruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/quadcruise/icons
   sofFactionName: caldaribase
 21210:
   description: ORE Ice Mining Frigate Tech 2 Endurance
@@ -13030,25 +13300,30 @@
 21211:
   description: Standard Ice Mining Laser I Turret
   graphicFile: res:/dx9/model/turret/mining/standardice/standardice_T1.red
+  iconFolder: res:/dx9/model/turret/mining/standardice/icons
   sofFactionName: orebase
   sofRaceName: ore
 21212:
   description: Standard Ice Mining Laser II Turret
-  graphicFile: res:/dx9/model/turret/mining/standardice/standardice_T2.red
+  graphicFile: res:/dx9/model/turret/mining/standardice/standardice_t1.red
+  iconFolder: res:/dx9/model/turret/mining/standardice/icons
   sofFactionName: orebase
   sofRaceName: ore
 21213:
   description: ORE Ice Mining Laser Turret
-  graphicFile: res:/dx9/model/turret/mining/standardice/standardice_F.red
+  graphicFile: res:/dx9/model/turret/mining/standardice/standardice_t1.red
+  iconFolder: res:/dx9/model/turret/mining/standardice/icons
   sofFactionName: frostline
   sofRaceName: ore
 21214:
   description: Citadel Cruise Launcher T2
-  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_t2.red
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/citadelcruise/icons
   sofRaceName: caldari
 21215:
   description: Citadel Torpedo Launcher T2
-  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_t2.red
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/citadeltorpedo/icons
   sofRaceName: caldari
 21217:
   description: Gallente Logistics Frigate
@@ -13131,41 +13406,49 @@
 21240:
   description: Turret Structure Utility A Neutralizer
   graphicFile: res:/dx9/model/turret/Structure/UtilityA/UtilityA_Neutralizer_t1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityA/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21241:
   description: Turret Structure Utility B Neutralizer
   graphicFile: res:/dx9/model/turret/Structure/UtilityB/UtilityB_Neutralizer_t1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityB/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21242:
   description: Turret Structure Utility C Bumping
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_Bumping_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21243:
   description: Turret Structure Utility C ECM
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_ECM_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21244:
   description: Turret Structure Utility C Sensor Dampener
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_SensorDampener_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21246:
   description: Turret Structure Utility C Tracking Disruptor
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_TrackingDisruptor_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21247:
   description: Turret Structure Utility C Target Painter
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_TargetPainter_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21248:
   description: Turret Structure Utility C Warp Scrambler
   graphicFile: res:/dx9/model/turret/Structure/UtilityC/UtilityC_WarpScrambler_T1.red
+  iconFolder: res:/dx9/model/turret/Structure/UtilityC/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21250:
@@ -13210,16 +13493,19 @@
   graphicFile: res:/dx9/model/hangar/generic/capital/gench1/gench1_t1a.red
 21267:
   description: Deployables Citadel Medium Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
   sofFactionName: upwell
   sofHullName: cm1_t1_invul_state
   sofRaceName: generic
 21268:
   description: Deployables Citadel Medium Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
   sofFactionName: upwell
   sofHullName: cm1_t1_vul_state
   sofRaceName: generic
 21269:
   description: Deployables Citadel Medium Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
   sofFactionName: upwell
   sofHullName: cm1_t1_sieged_state
   sofRaceName: generic
@@ -13311,31 +13597,37 @@
   sofRaceName: gallente
 21287:
   description: Deployables Citadel Large Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
   sofFactionName: upwell
   sofHullName: cl1_t1_invul_state
   sofRaceName: generic
 21288:
   description: Deployables Citadel Large Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
   sofFactionName: upwell
   sofHullName: cl1_t1_vul_state
   sofRaceName: generic
 21289:
   description: Deployables Citadel Large Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
   sofFactionName: upwell
   sofHullName: cl1_t1_sieged_state
   sofRaceName: generic
 21290:
   description: Deployables Citadel X-Large Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
   sofFactionName: upwell
   sofHullName: cxl1_t1_invul_state
   sofRaceName: generic
 21291:
   description: Deployables Citadel X-Large Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
   sofFactionName: upwell
   sofHullName: cxl1_t1_vul_state
   sofRaceName: generic
 21292:
   description: Deployables Citadel X-Large Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
   sofFactionName: upwell
   sofHullName: cxl1_t1_sieged_state
   sofRaceName: generic
@@ -13389,34 +13681,44 @@
   sofRaceName: minmatar
 21305:
   graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_longrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/antiship/icons
   sofRaceName: generic
 21306:
   graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_mediumrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/antiship/icons
   sofRaceName: generic
 21307:
   graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_shortrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/antiship/icons
   sofRaceName: generic
 21308:
   graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_longrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/flak/icons
   sofRaceName: generic
 21309:
   graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_mediumrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/flak/icons
   sofRaceName: generic
 21310:
   graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_shortrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/flak/icons
   sofRaceName: generic
 21311:
   graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_edrainmediumrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/launcher/icons
   sofRaceName: generic
 21312:
   graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_longrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/launcher/icons
   sofRaceName: generic
 21313:
   graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_shortrange_t1.red
+  iconFolder: res:/dx9/model/turret/structure/launcher/icons
   sofRaceName: generic
 21314:
   description: Turret Structure Utility C Stasis Web
   graphicFile: res:/dx9/model/turret/structure/utilityc/utilityc_stasisweb_t1.red
+  iconFolder: res:/dx9/model/turret/structure/utilityc/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21315:
@@ -13442,6 +13744,7 @@
 21324:
   description: Turret Structure Doomsday
   graphicFile: res:/dx9/model/turret/structure/doomsday/doomsday_t1.red
+  iconFolder: res:/dx9/model/turret/structure/doomsday/icons
   sofFactionName: genericbase
   sofRaceName: generic
 21325:
@@ -13673,6 +13976,7 @@
 21391:
   description: Effect NPE Vortex
   graphicFile: res:/FisFX/Environment/cloudvortex_01b.red
+  iconFolder: res:/FisFX/Environment/icons
 21392:
   description: Effect NPE Midpoint Lightning
   graphicFile: res:/FisFX/Generic/lightning/npe_customlightning_01a.red
@@ -13724,46 +14028,55 @@
   sofRaceName: generic
 21407:
   description: Deployables Industrial Array Medium Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iam1_t1_invul_state
   sofRaceName: generic
 21408:
   description: Deployables Industrial Array Medium Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iam1_t1_vul_state
   sofRaceName: generic
 21409:
   description: Deployables Industrial Array Medium Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iam1_t1_sieged_state
   sofRaceName: generic
 21410:
   description: Deployables Industrial Array Large Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
   sofFactionName: upwell-indy
   sofHullName: ial1_t1_invul_state
   sofRaceName: generic
 21411:
   description: Deployables Industrial Array Large Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
   sofFactionName: upwell-indy
   sofHullName: ial1_t1_vul_state
   sofRaceName: generic
 21412:
   description: Deployables Industrial Array Large Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
   sofFactionName: upwell-indy
   sofHullName: ial1_t1_sieged_state
   sofRaceName: generic
 21413:
   description: Deployables Industrial Array XLarge Invulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iaxl1_t1_invul_state
   sofRaceName: generic
 21414:
   description: Deployables Industrial Array XLarge Vulnerable State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iaxl1_t1_vul_state
   sofRaceName: generic
 21415:
   description: Deployables Industrial Array XLarge Sieged State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
   sofFactionName: upwell-indy
   sofHullName: iaxl1_t1_sieged_state
   sofRaceName: generic
@@ -13805,48 +14118,90 @@
   sofRaceName: ore
 21423:
   description: Holiday Launcher
-  graphicFile: res:/dx9/model/turret/Launcher/holiday/holiday_f.red
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_t1.red
+  iconFolder: res:/dx9/model/turret/launcher/holiday/icons
   sofRaceName: caldari
 21424:
   description: Winter Missile (Holiday Launcher)
   graphicFile: res:/dx9/model/Turret/Launcher/holiday/holiday_missile_winter1_t1.red
+  iconFolder: res:/dx9/model/Turret/Launcher/holiday/icons
   sofRaceName: caldari
 21430:
   description: Firework Amarr 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Amarr1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21431:
   description: Firework Angel 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Angels1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21432:
   description: Firework Bloodraiders 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_BloodRaiders1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21433:
   description: Firework Caldari 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Caldari1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21434:
   description: Firework Celebration 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21435:
   description: Firework Celebration 2
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration2_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21436:
   description: Firework Celebration 3
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration3_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21437:
   description: Firework Crimson Harvest 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_CrimsonHarvest1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21438:
   description: Firework Gallente 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Gallente1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21439:
   description: Firework Guristas 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Guristas1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21440:
   description: Firework Minmatar 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Minmatar1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21441:
   description: Firework Sansha 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Sansha1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
 21442:
   description: Firework Serpentis 1
   graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Serpentis1_t1.red
+  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+21444:
+  description: Amarr Stealth Bomber BloodRaider (Purifier Hull)
+  iconFolder: res:/dx9/model/ship/amarr/frigate/af5/icons
+  sofFactionName: bloodraider
+  sofHullName: af5_t2
+  sofRaceName: amarr
+21445:
+  description: Deployables Refinery Medium
+  iconFolder: res:/dx9/model/deployables/generic/refinery/mref1/icons
+  sofFactionName: upwell-indy
+  sofHullName: mref1_t1
+  sofRaceName: generic
+21446:
+  description: Probe Scanner Position Cursor Widget
+  graphicFile: res:/dx9/model/ui/posCursor/posCursor.red
+21447:
+  description: Structure Turret Moon Miner
+  graphicFile: res:/dx9/model/turret/structure/moonminer/MoonMiner_T1.red
+  iconFolder: res:/dx9/model/turret/structure/moonminer/icons
+  sofRaceName: ore
+21448:
+  description: Placeholder for the asteroid explosion (copy of the turnip asteroid,
+    graphicID 2064)
+  iconFolder: res:/dx9/model/celestial/rock/rockformation/rf7/icons
+  sofFactionName: genericbase
+  sofHullName: rf7
+  sofRaceName: generic

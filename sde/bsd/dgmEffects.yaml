@@ -18424,36 +18424,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 4968
-    effectName: boosterShieldBoostAmountPenaltyShieldOperation
-    electronicChance: false
-    isAssistance: true
-    isOffensive: true
-    isWarpSafe: false
-    postExpression: 15997
-    preExpression: 15996
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 4969
-    effectName: boosterShieldBoostAmountPenaltyCapitalShieldOperation
-    electronicChance: false
-    isAssistance: true
-    isOffensive: true
-    isWarpSafe: false
-    postExpression: 15999
-    preExpression: 15998
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 4971
     effectName: shipBonusMissileThermalATF2
     electronicChance: false
@@ -18492,22 +18462,6 @@
     isWarpSafe: false
     postExpression: 16173
     preExpression: 16172
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Bonus to optimal range of Data Analyzer and Relic Analyzers
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5041
-    effectName: miniProfessionRangeBonus
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16184
-    preExpression: 16183
     propulsionChance: false
     published: false
     rangeChance: false
@@ -18718,21 +18672,6 @@
     propulsionChance: false
     published: true
     rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5140
-    effectName: shipGCHBonusOREfrig1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16403
-    preExpression: 16402
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
     distribution: 2
@@ -18851,51 +18790,6 @@
     isWarpSafe: false
     postExpression: 16420
     preExpression: 16419
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5150
-    effectName: shipBonusFrigateSizedMissileKineticDamageDF1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16422
-    preExpression: 16421
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5151
-    effectName: shipBonusFrigateSizedLightMissileExplosiveDamageDF1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16424
-    preExpression: 16423
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5152
-    effectName: shipBonusAoeVelocityRocketsDF2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16428
-    preExpression: 16427
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19319,21 +19213,6 @@
     propulsionChance: false
     published: true
     rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5192
-    effectName: shipBonusDroneDamageMultiplierBC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16521
-    preExpression: 16520
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
@@ -19505,14 +19384,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5327
-    effectName: shipBonusDroneHullHitpointsABC2
+    effectID: 5192
+    effectName: shipBonusDroneDamageMultiplierBC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16856
-    preExpression: 16855
+    postExpression: 16521
+    preExpression: 16520
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19520,14 +19399,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5328
-    effectName: shipBonusDroneArmorHitpointsABC2
+    effectID: 5152
+    effectName: shipBonusAoeVelocityRocketsDF2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16858
-    preExpression: 16857
+    postExpression: 16428
+    preExpression: 16427
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19535,14 +19414,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5329
-    effectName: shipBonusDroneShieldHitpointsABC2
+    effectID: 5151
+    effectName: shipBonusFrigateSizedLightMissileExplosiveDamageDF1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16860
-    preExpression: 16859
+    postExpression: 16424
+    preExpression: 16423
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19565,14 +19444,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5344
-    effectName: shipBonusDroneHullHitpointsGBC1
+    effectID: 5150
+    effectName: shipBonusFrigateSizedMissileKineticDamageDF1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16890
-    preExpression: 16889
+    postExpression: 16422
+    preExpression: 16421
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19580,29 +19459,30 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5345
-    effectName: shipBonusDroneArmorHitpointsGBC1
+    effectID: 5140
+    effectName: shipGCHBonusOREfrig1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16892
-    preExpression: 16891
+    postExpression: 16403
+    preExpression: 16402
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Automatically generated effect
+-   description: Bonus to optimal range of Data Analyzer and Relic Analyzers
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5346
-    effectName: shipBonusDroneShieldHitpointsGBC1
+    effectID: 5041
+    effectName: miniProfessionRangeBonus
     electronicChance: false
+    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16894
-    preExpression: 16893
+    postExpression: 16184
+    preExpression: 16183
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19676,14 +19556,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5405
-    effectName: shipMissileHeavyAssaultROFCBC1
+    effectID: 4969
+    effectName: boosterShieldBoostAmountPenaltyCapitalShieldOperation
     electronicChance: false
-    isAssistance: false
-    isOffensive: false
+    isAssistance: true
+    isOffensive: true
     isWarpSafe: false
-    postExpression: 17004
-    preExpression: 17003
+    postExpression: 15999
+    preExpression: 15998
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19691,14 +19571,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5406
-    effectName: shipMissileHeavyROFCBC1
+    effectID: 4968
+    effectName: boosterShieldBoostAmountPenaltyShieldOperation
     electronicChance: false
-    isAssistance: false
-    isOffensive: false
+    isAssistance: true
+    isOffensive: true
     isWarpSafe: false
-    postExpression: 17006
-    preExpression: 17005
+    postExpression: 15997
+    preExpression: 15996
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19706,14 +19586,89 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5409
-    effectName: shipMissileRapidLightROFCBC1
+    effectID: 5327
+    effectName: shipBonusDroneHullHitpointsABC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17012
-    preExpression: 17011
+    postExpression: 16856
+    preExpression: 16855
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5328
+    effectName: shipBonusDroneArmorHitpointsABC2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16858
+    preExpression: 16857
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5329
+    effectName: shipBonusDroneShieldHitpointsABC2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16860
+    preExpression: 16859
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5344
+    effectName: shipBonusDroneHullHitpointsGBC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16890
+    preExpression: 16889
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5345
+    effectName: shipBonusDroneArmorHitpointsGBC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16892
+    preExpression: 16891
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5346
+    effectName: shipBonusDroneShieldHitpointsGBC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16894
+    preExpression: 16893
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19729,81 +19684,6 @@
     isWarpSafe: false
     postExpression: 17018
     preExpression: 17017
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5413
-    effectName: shipRocketExplosiveDmgAD1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17020
-    preExpression: 17019
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5414
-    effectName: shipRocketKineticDmgAD1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17022
-    preExpression: 17021
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5415
-    effectName: shipRocketThermalDmgAD1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17024
-    preExpression: 17023
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5416
-    effectName: shipMissileAoeVelocityAD2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17026
-    preExpression: 17025
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5423
-    effectName: shipLaserRofAB
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17040
-    preExpression: 17039
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19877,14 +19757,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5438
-    effectName: shipTorpedoAOECloudSizeCB3
+    effectID: 5413
+    effectName: shipRocketExplosiveDmgAD1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17083
-    preExpression: 17082
+    postExpression: 17020
+    preExpression: 17019
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19892,14 +19772,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5439
-    effectName: shipCruiseMissileAOECloudSizeCB3
+    effectID: 5414
+    effectName: shipRocketKineticDmgAD1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17085
-    preExpression: 17084
+    postExpression: 17022
+    preExpression: 17021
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19922,14 +19802,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5448
-    effectName: shipMissileKineticDamageMB
+    effectID: 5415
+    effectName: shipRocketThermalDmgAD1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17111
-    preExpression: 17110
+    postExpression: 17024
+    preExpression: 17023
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19937,14 +19817,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5449
-    effectName: shipMissileEMDamageMB
+    effectID: 5416
+    effectName: shipMissileAoeVelocityAD2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17113
-    preExpression: 17112
+    postExpression: 17026
+    preExpression: 17025
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19952,14 +19832,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5450
-    effectName: shipMissileThermalDamageMB
+    effectID: 5405
+    effectName: shipMissileHeavyAssaultROFCBC1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17115
-    preExpression: 17114
+    postExpression: 17004
+    preExpression: 17003
     propulsionChance: false
     published: false
     rangeChance: false
@@ -19967,14 +19847,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5451
-    effectName: shipMissileExplosiveDamageMB
+    effectID: 5406
+    effectName: shipMissileHeavyROFCBC1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17117
-    preExpression: 17116
+    postExpression: 17006
+    preExpression: 17005
     propulsionChance: false
     published: false
     rangeChance: false
@@ -20157,30 +20037,134 @@
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 1
-    effectID: 5580
-    effectName: marauderModeEffect3
+    effectCategory: 0
+    effectID: 5409
+    effectName: shipMissileRapidLightROFCBC1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17445
-    preExpression: 17444
+    postExpression: 17012
+    preExpression: 17011
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 1
-    effectID: 5581
-    effectName: marauderModeEffect4
+    effectCategory: 0
+    effectID: 5438
+    effectName: shipTorpedoAOECloudSizeCB3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17447
-    preExpression: 17446
+    postExpression: 17083
+    preExpression: 17082
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5439
+    effectName: shipCruiseMissileAOECloudSizeCB3
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17085
+    preExpression: 17084
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5448
+    effectName: shipMissileKineticDamageMB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17111
+    preExpression: 17110
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5449
+    effectName: shipMissileEMDamageMB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17113
+    preExpression: 17112
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5450
+    effectName: shipMissileThermalDamageMB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17115
+    preExpression: 17114
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5423
+    effectName: shipLaserRofAB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17040
+    preExpression: 17039
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5451
+    effectName: shipMissileExplosiveDamageMB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17117
+    preExpression: 17116
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 5592
+    effectName: shipMWDBlockActivation
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17479
+    preExpression: 17478
     propulsionChance: false
     published: false
     rangeChance: false
@@ -20211,110 +20195,6 @@
     isWarpSafe: false
     postExpression: 17453
     preExpression: 17452
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5585
-    effectName: marauderModeEffect8
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17457
-    preExpression: 17456
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5586
-    effectName: marauderModeEffect9
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17461
-    preExpression: 17460
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5587
-    effectName: marauderModeEffect10
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17465
-    preExpression: 17464
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5588
-    effectName: marauderModeEffect11
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17467
-    preExpression: 17466
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5592
-    effectName: shipMWDBlockActivation
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17479
-    preExpression: 17478
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5593
-    effectName: shieldBoostAmplifierActive
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 3172
-    preExpression: 3171
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 1
-    effectID: 5594
-    effectName: repairSystemsAmountBonusActive
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16926
-    preExpression: 16925
     propulsionChance: false
     published: false
     rangeChance: false
@@ -20577,75 +20457,75 @@
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 5769
-    effectName: repairDroneHullBonusBonus
+    effectCategory: 1
+    effectID: 5585
+    effectName: marauderModeEffect8
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17872
-    preExpression: 17871
+    postExpression: 17457
+    preExpression: 17456
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 5778
-    effectName: shipMissileRoFMF2
+    effectCategory: 1
+    effectID: 5586
+    effectName: marauderModeEffect9
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 5305
-    preExpression: 5304
+    postExpression: 17461
+    preExpression: 17460
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 5779
-    effectName: shipBonusSPTFalloffMF2
+    effectCategory: 1
+    effectID: 5587
+    effectName: marauderModeEffect10
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 6966
-    preExpression: 6965
+    postExpression: 17465
+    preExpression: 17464
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 5781
-    effectName: droneDmgBonusRequiringMediumDroneOperation
+    effectCategory: 1
+    effectID: 5588
+    effectName: marauderModeEffect11
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17904
-    preExpression: 17903
+    postExpression: 17467
+    preExpression: 17466
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 5782
-    effectName: droneDmgBonusRequiringLightDroneOperation
+    effectCategory: 1
+    effectID: 5580
+    effectName: marauderModeEffect3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17910
-    preExpression: 17909
+    postExpression: 17445
+    preExpression: 17444
     propulsionChance: false
     published: false
     rangeChance: false
@@ -21216,6 +21096,126 @@
     isWarpSafe: false
     postExpression: 18092
     preExpression: 18091
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 5581
+    effectName: marauderModeEffect4
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17447
+    preExpression: 17446
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 5594
+    effectName: repairSystemsAmountBonusActive
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16926
+    preExpression: 16925
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5769
+    effectName: repairDroneHullBonusBonus
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17872
+    preExpression: 17871
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5778
+    effectName: shipMissileRoFMF2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 5305
+    preExpression: 5304
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5779
+    effectName: shipBonusSPTFalloffMF2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 6966
+    preExpression: 6965
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5781
+    effectName: droneDmgBonusRequiringMediumDroneOperation
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17904
+    preExpression: 17903
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5782
+    effectName: droneDmgBonusRequiringLightDroneOperation
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17910
+    preExpression: 17909
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 5593
+    effectName: shieldBoostAmplifierActive
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 3172
+    preExpression: 3171
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46214,21 +46214,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5188
-    effectName: trackingSpeedBonusEffectHybrids
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16508
-    preExpression: 16507
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 5189
     effectName: trackingSpeedBonusEffectLasers
     electronicChance: false
@@ -46259,21 +46244,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5191
-    effectName: spaceAnchorEffect
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16519
-    preExpression: 16518
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 5200
     effectName: armorUpgradesSkillBoostMassPenaltyReduction
     electronicChance: false
@@ -46297,96 +46267,6 @@
     isWarpSafe: false
     postExpression: 16546
     preExpression: 16545
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5205
-    effectName: shipSETTrackingBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16555
-    preExpression: 16554
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5206
-    effectName: shipSETOptimalBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16558
-    preExpression: 16557
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5207
-    effectName: shipNOSTransferAmountBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16561
-    preExpression: 16560
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5208
-    effectName: shipNeutDestabilizationAmountBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16564
-    preExpression: 16563
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5209
-    effectName: shipWebVelocityBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16567
-    preExpression: 16566
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5212
-    effectName: shipDroneMWDSpeedBonusRookie
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16577
-    preExpression: 16576
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46499,14 +46379,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5220
-    effectName: shipProjectileDmgPirateCruiser
+    effectID: 5212
+    effectName: shipDroneMWDSpeedBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16600
-    preExpression: 16599
+    postExpression: 16577
+    preExpression: 16576
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46514,14 +46394,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5221
-    effectName: shipHeavyAssaultMissileEMDmgPirateCruiser
+    effectID: 5209
+    effectName: shipWebVelocityBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16602
-    preExpression: 16601
+    postExpression: 16567
+    preExpression: 16566
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46529,14 +46409,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5222
-    effectName: shipHeavyAssaultMissileKinDmgPirateCruiser
+    effectID: 5208
+    effectName: shipNeutDestabilizationAmountBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16604
-    preExpression: 16603
+    postExpression: 16564
+    preExpression: 16563
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46544,14 +46424,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5223
-    effectName: shipHeavyAssaultMissileThermDmgPirateCruiser
+    effectID: 5207
+    effectName: shipNOSTransferAmountBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16606
-    preExpression: 16605
+    postExpression: 16561
+    preExpression: 16560
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46803,14 +46683,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5260
-    effectName: covertOpsCloakCpuPercentBonus1
+    effectID: 5206
+    effectName: shipSETOptimalBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 4075
-    preExpression: 4074
+    postExpression: 16558
+    preExpression: 16557
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46818,14 +46698,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5261
-    effectName: CovertCloakCPUAddition
+    effectID: 5205
+    effectName: shipSETTrackingBonusRookie
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16674
-    preExpression: 16673
+    postExpression: 16555
+    preExpression: 16554
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46833,14 +46713,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5262
-    effectName: covertOpsCloakCpuPenalty
+    effectID: 5191
+    effectName: spaceAnchorEffect
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16679
-    preExpression: 16678
+    postExpression: 16519
+    preExpression: 16518
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46863,14 +46743,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5264
-    effectName: warfareLinkCPUAddition
+    effectID: 5188
+    effectName: trackingSpeedBonusEffectHybrids
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16686
-    preExpression: 16685
+    postExpression: 16508
+    preExpression: 16507
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46878,14 +46758,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5265
-    effectName: warfareLinkCpuPenalty
+    effectID: 5220
+    effectName: shipProjectileDmgPirateCruiser
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16691
-    preExpression: 16690
+    postExpression: 16600
+    preExpression: 16599
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46893,14 +46773,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5266
-    effectName: blockadeRunnerCloakCpuPercentBonus
+    effectID: 5221
+    effectName: shipHeavyAssaultMissileEMDmgPirateCruiser
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16693
-    preExpression: 16692
+    postExpression: 16602
+    preExpression: 16601
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46908,14 +46788,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5267
-    effectName: drawbackRepairSystemsPGNeed
+    effectID: 5222
+    effectName: shipHeavyAssaultMissileKinDmgPirateCruiser
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16697
-    preExpression: 16696
+    postExpression: 16604
+    preExpression: 16603
     propulsionChance: false
     published: false
     rangeChance: false
@@ -46923,14 +46803,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5268
-    effectName: drawbackCapRepPGNeed
+    effectID: 5223
+    effectName: shipHeavyAssaultMissileThermDmgPirateCruiser
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16701
-    preExpression: 16700
+    postExpression: 16606
+    preExpression: 16605
     propulsionChance: false
     published: false
     rangeChance: false
@@ -47418,14 +47298,134 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5317
-    effectName: shipProjectileDamageMD1
+    effectID: 5266
+    effectName: blockadeRunnerCloakCpuPercentBonus
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16836
-    preExpression: 16835
+    postExpression: 16693
+    preExpression: 16692
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5267
+    effectName: drawbackRepairSystemsPGNeed
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16697
+    preExpression: 16696
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5268
+    effectName: drawbackCapRepPGNeed
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16701
+    preExpression: 16700
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5260
+    effectName: covertOpsCloakCpuPercentBonus1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 4075
+    preExpression: 4074
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5261
+    effectName: CovertCloakCPUAddition
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16674
+    preExpression: 16673
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5262
+    effectName: covertOpsCloakCpuPenalty
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16679
+    preExpression: 16678
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5264
+    effectName: warfareLinkCPUAddition
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16686
+    preExpression: 16685
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5324
+    effectName: shipArmorKineticResistance1ABC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16850
+    preExpression: 16849
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5265
+    effectName: warfareLinkCpuPenalty
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16691
+    preExpression: 16690
     propulsionChance: false
     published: false
     rangeChance: false
@@ -47441,6 +47441,21 @@
     isWarpSafe: false
     postExpression: 16838
     preExpression: 16837
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5331
+    effectName: shipBonusDroneHitpointsABC2
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16864
+    preExpression: 16863
     propulsionChance: false
     published: false
     rangeChance: false
@@ -47478,149 +47493,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5321
-    effectName: shipBonusMWDSignatureRadiusMD2
+    effectID: 5317
+    effectName: shipProjectileDamageMD1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16844
-    preExpression: 16843
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5322
-    effectName: shipArmorEMResistance1ABC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16846
-    preExpression: 16845
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5323
-    effectName: shipArmorExplosiveResistance1ABC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16848
-    preExpression: 16847
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5324
-    effectName: shipArmorKineticResistance1ABC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16850
-    preExpression: 16849
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5325
-    effectName: shipArmorThermResistance1ABC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16852
-    preExpression: 16851
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5326
-    effectName: shipBonusDroneDamageMultiplierABC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16854
-    preExpression: 16853
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5331
-    effectName: shipBonusDroneHitpointsABC2
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16864
-    preExpression: 16863
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5332
-    effectName: shipLaserCapABC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16866
-    preExpression: 16865
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5333
-    effectName: shipLaserDamageBonusABC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16868
-    preExpression: 16867
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5334
-    effectName: shipHybridOptimal1CBC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16870
-    preExpression: 16869
+    postExpression: 16836
+    preExpression: 16835
     propulsionChance: false
     published: false
     rangeChance: false
@@ -47778,6 +47658,141 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
+    effectID: 5321
+    effectName: shipBonusMWDSignatureRadiusMD2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16844
+    preExpression: 16843
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5322
+    effectName: shipArmorEMResistance1ABC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16846
+    preExpression: 16845
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5323
+    effectName: shipArmorExplosiveResistance1ABC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16848
+    preExpression: 16847
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5325
+    effectName: shipArmorThermResistance1ABC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16852
+    preExpression: 16851
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5326
+    effectName: shipBonusDroneDamageMultiplierABC2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16854
+    preExpression: 16853
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5332
+    effectName: shipLaserCapABC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16866
+    preExpression: 16865
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5333
+    effectName: shipLaserDamageBonusABC2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16868
+    preExpression: 16867
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5334
+    effectName: shipHybridOptimal1CBC1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16870
+    preExpression: 16869
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5355
+    effectName: shipLargeLaserDamageBonusABC2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 16912
+    preExpression: 16911
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
     effectID: 5349
     effectName: shipBonusHeavyMissileLauncherRofMBC2
     electronicChance: false
@@ -47868,51 +47883,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5355
-    effectName: shipLargeLaserDamageBonusABC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16912
-    preExpression: 16911
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5356
-    effectName: shipHybridRangeBonusCBC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16914
-    preExpression: 16913
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5357
-    effectName: shipHybridDamageBonusCBC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16916
-    preExpression: 16915
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 5358
     effectName: shipLargeHybridTrackingBonusGBC1
     electronicChance: false
@@ -47921,96 +47891,6 @@
     isWarpSafe: false
     postExpression: 16918
     preExpression: 16917
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5359
-    effectName: shipHybridDamageBonusGBC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16920
-    preExpression: 16919
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5360
-    effectName: shipProjectileRofBonusMBC1
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16922
-    preExpression: 16921
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5361
-    effectName: shipProjectileFalloffBonusMBC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16924
-    preExpression: 16923
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5365
-    effectName: eliteBonusViolatorsRepairSystemsArmorDamageAmount2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16930
-    preExpression: 16929
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5366
-    effectName: shipBonusRepairSystemsBonusATC2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16932
-    preExpression: 16931
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5367
-    effectName: shipBonusRepairSystemsArmorRepairAmountGB2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 16934
-    preExpression: 16933
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48063,14 +47943,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5374
-    effectName: shipXLProjectileDamageRole
+    effectID: 5356
+    effectName: shipHybridRangeBonusCBC1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 16943
-    preExpression: 16942
+    postExpression: 16914
+    preExpression: 16913
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48466,14 +48346,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5417
-    effectName: shipBonusDroneDamageMultiplierAB
+    effectID: 5357
+    effectName: shipHybridDamageBonusCBC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17028
-    preExpression: 17027
+    postExpression: 16916
+    preExpression: 16915
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48481,14 +48361,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5418
-    effectName: shipBonusDroneArmorHitPointsAB
+    effectID: 5359
+    effectName: shipHybridDamageBonusGBC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17030
-    preExpression: 17029
+    postExpression: 16920
+    preExpression: 16919
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48496,14 +48376,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5419
-    effectName: shipBonusDroneShieldHitPointsAB
+    effectID: 5360
+    effectName: shipProjectileRofBonusMBC1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17032
-    preExpression: 17031
+    postExpression: 16922
+    preExpression: 16921
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48511,14 +48391,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5420
-    effectName: shipBonusDroneStructureHitPointsAB
+    effectID: 5361
+    effectName: shipProjectileFalloffBonusMBC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17034
-    preExpression: 17033
+    postExpression: 16924
+    preExpression: 16923
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48526,14 +48406,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5421
-    effectName: shipBonusEnergyNeutRangeAB2
+    effectID: 5374
+    effectName: shipXLProjectileDamageRole
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17036
-    preExpression: 17035
+    postExpression: 16943
+    preExpression: 16942
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48734,14 +48614,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5456
-    effectName: shipCruiseMissileROFCB
+    effectID: 5365
+    effectName: eliteBonusViolatorsRepairSystemsArmorDamageAmount2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17138
-    preExpression: 17137
+    postExpression: 16930
+    preExpression: 16929
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48749,14 +48629,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5457
-    effectName: shipTorpedoROFCB
+    effectID: 5366
+    effectName: shipBonusRepairSystemsBonusATC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17140
-    preExpression: 17139
+    postExpression: 16932
+    preExpression: 16931
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48853,14 +48733,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5476
-    effectName: shipBonusOreCapacityGI2
+    effectID: 5367
+    effectName: shipBonusRepairSystemsArmorRepairAmountGB2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17201
-    preExpression: 17200
+    postExpression: 16934
+    preExpression: 16933
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48868,14 +48748,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5477
-    effectName: shipBonusAmmoBayMI2
+    effectID: 5417
+    effectName: shipBonusDroneDamageMultiplierAB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17203
-    preExpression: 17202
+    postExpression: 17028
+    preExpression: 17027
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48883,14 +48763,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5478
-    effectName: shipBonusPICommoditiesHoldGI2
+    effectID: 5418
+    effectName: shipBonusDroneArmorHitPointsAB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17205
-    preExpression: 17204
+    postExpression: 17030
+    preExpression: 17029
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48898,14 +48778,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5479
-    effectName: shipBonusMineralBayGI2
+    effectID: 5419
+    effectName: shipBonusDroneShieldHitPointsAB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17207
-    preExpression: 17206
+    postExpression: 17032
+    preExpression: 17031
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48913,14 +48793,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5485
-    effectName: shipSPTOptimalBonusMF
+    effectID: 5420
+    effectName: shipBonusDroneStructureHitPointsAB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 4381
-    preExpression: 4380
+    postExpression: 17034
+    preExpression: 17033
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48942,14 +48822,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5496
-    effectName: eliteBonusCommandShipHAMRoFCS1
+    effectID: 5421
+    effectName: shipBonusEnergyNeutRangeAB2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17250
-    preExpression: 17249
+    postExpression: 17036
+    preExpression: 17035
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48957,14 +48837,29 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5497
-    effectName: eliteBonusCommandShipHMRoFCS1
+    effectID: 5456
+    effectName: shipCruiseMissileROFCB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17252
-    preExpression: 17251
+    postExpression: 17138
+    preExpression: 17137
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 5457
+    effectName: shipTorpedoROFCB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 17140
+    preExpression: 17139
     propulsionChance: false
     published: false
     rangeChance: false
@@ -48980,21 +48875,6 @@
     isWarpSafe: false
     postExpression: 17256
     preExpression: 17255
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 5499
-    effectName: eliteBonusCommandShipsHeavyAssaultMissileExplosionRadiusCS2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 17258
-    preExpression: 17257
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49197,14 +49077,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5552
-    effectName: shipBonusHMLVelocityEliteBonusHeavyGunship1
+    effectID: 5478
+    effectName: shipBonusPICommoditiesHoldGI2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17379
-    preExpression: 17378
+    postExpression: 17205
+    preExpression: 17204
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49212,14 +49092,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5553
-    effectName: shipBonusHAMVelocityEliteBonusHeavyGunship1
+    effectID: 5479
+    effectName: shipBonusMineralBayGI2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17381
-    preExpression: 17380
+    postExpression: 17207
+    preExpression: 17206
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49227,14 +49107,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5554
-    effectName: shipBonusArmorRepAmountGC2
+    effectID: 5485
+    effectName: shipSPTOptimalBonusMF
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17383
-    preExpression: 17382
+    postExpression: 4381
+    preExpression: 4380
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49242,14 +49122,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5555
-    effectName: shipBonusHeavyDroneSpeedGC
+    effectID: 5496
+    effectName: eliteBonusCommandShipHAMRoFCS1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17385
-    preExpression: 17384
+    postExpression: 17250
+    preExpression: 17249
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49257,14 +49137,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5556
-    effectName: shipBonusHeavyDRoneTrackingGC
+    effectID: 5497
+    effectName: eliteBonusCommandShipHMRoFCS1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17387
-    preExpression: 17386
+    postExpression: 17252
+    preExpression: 17251
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49272,14 +49152,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5557
-    effectName: shipBonusSentryDroneOptimalRangeEliteBonusHeavyGunship2
+    effectID: 5499
+    effectName: eliteBonusCommandShipsHeavyAssaultMissileExplosionRadiusCS2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17391
-    preExpression: 17390
+    postExpression: 17258
+    preExpression: 17257
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49287,14 +49167,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5558
-    effectName: shipBonusSentryDroneTrackingEliteBonusHeavyGunship2
+    effectID: 5476
+    effectName: shipBonusOreCapacityGI2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17395
-    preExpression: 17394
+    postExpression: 17201
+    preExpression: 17200
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49302,14 +49182,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5559
-    effectName: shipBonusShieldBoostAmountMC2
+    effectID: 5477
+    effectName: shipBonusAmmoBayMI2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17397
-    preExpression: 17396
+    postExpression: 17203
+    preExpression: 17202
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49435,14 +49315,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5614
-    effectName: piCustomsOfficeTaxReduction
+    effectID: 5552
+    effectName: shipBonusHMLVelocityEliteBonusHeavyGunship1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17529
-    preExpression: 17528
+    postExpression: 17379
+    preExpression: 17378
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49450,14 +49330,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5615
-    effectName: piTaxReductionModifierSkillModifier
+    effectID: 5553
+    effectName: shipBonusHAMVelocityEliteBonusHeavyGunship1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17533
-    preExpression: 17532
+    postExpression: 17381
+    preExpression: 17380
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49465,14 +49345,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5618
-    effectName: shipBonusRHMLROF2CB
+    effectID: 5554
+    effectName: shipBonusArmorRepAmountGC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17541
-    preExpression: 17540
+    postExpression: 17383
+    preExpression: 17382
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49480,14 +49360,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5619
-    effectName: shipBonusRHMLROFCB
+    effectID: 5555
+    effectName: shipBonusHeavyDroneSpeedGC
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17543
-    preExpression: 17542
+    postExpression: 17385
+    preExpression: 17384
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49495,14 +49375,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5620
-    effectName: shipBonusRHMLROFMB
+    effectID: 5556
+    effectName: shipBonusHeavyDRoneTrackingGC
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17545
-    preExpression: 17544
+    postExpression: 17387
+    preExpression: 17386
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49510,14 +49390,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5621
-    effectName: shipBonusCruiseROFMB
+    effectID: 5557
+    effectName: shipBonusSentryDroneOptimalRangeEliteBonusHeavyGunship2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 9086
-    preExpression: 9085
+    postExpression: 17391
+    preExpression: 17390
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49736,14 +49616,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5644
-    effectName: shipBonusMissileVelocityCC2
+    effectID: 5558
+    effectName: shipBonusSentryDroneTrackingEliteBonusHeavyGunship2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 4367
-    preExpression: 4366
+    postExpression: 17395
+    preExpression: 17394
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49751,14 +49631,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5647
-    effectName: covertOpsCloakCPUPercentBonusPirateFaction
+    effectID: 5559
+    effectName: shipBonusShieldBoostAmountMC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17596
-    preExpression: 17595
+    postExpression: 17397
+    preExpression: 17396
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49916,14 +49796,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5721
-    effectName: shipBonusMETOptimalRangePirateFaction
+    effectID: 5615
+    effectName: piTaxReductionModifierSkillModifier
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17745
-    preExpression: 17744
+    postExpression: 17533
+    preExpression: 17532
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50064,14 +49944,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 5737
-    effectName: shipScanProbeStrengthBonusPirateFaction
+    effectID: 5618
+    effectName: shipBonusRHMLROF2CB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 17777
-    preExpression: 17776
+    postExpression: 17541
+    preExpression: 17540
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50894,14 +50774,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6032
-    effectName: remoteCapacitorTransmitterPowerNeedBonusEffect
+    effectID: 5619
+    effectName: shipBonusRHMLROFCB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18556
-    preExpression: 18555
+    postExpression: 17543
+    preExpression: 17542
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50909,14 +50789,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6033
-    effectName: tacticalDestroyerMinmatarSkillLevel1
+    effectID: 5620
+    effectName: shipBonusRHMLROFMB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18561
-    preExpression: 18560
+    postExpression: 17545
+    preExpression: 17544
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50924,14 +50804,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6034
-    effectName: tacticalDestroyerMinmatarSkillLevel2
+    effectID: 5621
+    effectName: shipBonusCruiseROFMB
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18566
-    preExpression: 18565
+    postExpression: 9086
+    preExpression: 9085
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50939,14 +50819,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6035
-    effectName: tacticalDestroyerMinmatarSkillLevel3
+    effectID: 5614
+    effectName: piCustomsOfficeTaxReduction
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18571
-    preExpression: 18570
+    postExpression: 17529
+    preExpression: 17528
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50954,14 +50834,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6036
-    effectName: shipHeatDamageMinmatarTacticalDestroyer3
+    effectID: 5737
+    effectName: shipScanProbeStrengthBonusPirateFaction
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18573
-    preExpression: 18572
+    postExpression: 17777
+    preExpression: 17776
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50969,14 +50849,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6037
-    effectName: shipSPTDamageMinmatarTacticalDestroyer1
+    effectID: 5644
+    effectName: shipBonusMissileVelocityCC2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18575
-    preExpression: 18574
+    postExpression: 4367
+    preExpression: 4366
     propulsionChance: false
     published: false
     rangeChance: false
@@ -50984,14 +50864,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6038
-    effectName: shipSPTOptimalMinmatarTacticalDestroyer2
+    effectID: 5647
+    effectName: covertOpsCloakCPUPercentBonusPirateFaction
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18577
-    preExpression: 18576
+    postExpression: 17596
+    preExpression: 17595
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51051,14 +50931,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6043
-    effectName: subsystemBonusCaldariDefensiveShieldRechargeRate
+    effectID: 5721
+    effectName: shipBonusMETOptimalRangePirateFaction
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18587
-    preExpression: 18586
+    postExpression: 17745
+    preExpression: 17744
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51066,14 +50946,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6044
-    effectName: gallenteCruiserSkillLevelPreMulShipBonusGC3Ship
+    effectID: 6037
+    effectName: shipSPTDamageMinmatarTacticalDestroyer1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18592
-    preExpression: 18591
+    postExpression: 18575
+    preExpression: 18574
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51081,14 +50961,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6045
-    effectName: shipBonusSentryDamageMultiplierGC3
+    effectID: 6032
+    effectName: remoteCapacitorTransmitterPowerNeedBonusEffect
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18594
-    preExpression: 18593
+    postExpression: 18556
+    preExpression: 18555
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51096,14 +50976,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6046
-    effectName: shipBonusSentryHPGC3
+    effectID: 6033
+    effectName: tacticalDestroyerMinmatarSkillLevel1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18596
-    preExpression: 18595
+    postExpression: 18561
+    preExpression: 18560
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51111,14 +50991,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6047
-    effectName: shipBonusSentryArmorHPGC3
+    effectID: 6034
+    effectName: tacticalDestroyerMinmatarSkillLevel2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18598
-    preExpression: 18597
+    postExpression: 18566
+    preExpression: 18565
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51126,14 +51006,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6048
-    effectName: shipBonusSentryShieldHPGC3
+    effectID: 6035
+    effectName: tacticalDestroyerMinmatarSkillLevel3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18600
-    preExpression: 18599
+    postExpression: 18571
+    preExpression: 18570
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51565,14 +51445,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6077
-    effectName: shipHeatDamageCaldariTacticalDestroyer3
+    effectID: 6038
+    effectName: shipSPTOptimalMinmatarTacticalDestroyer2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18656
-    preExpression: 18655
+    postExpression: 18577
+    preExpression: 18576
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51580,14 +51460,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6078
-    effectName: tacticalDestroyerCaldariSkillLevel1
+    effectID: 6036
+    effectName: shipHeatDamageMinmatarTacticalDestroyer3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18661
-    preExpression: 18660
+    postExpression: 18573
+    preExpression: 18572
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51595,14 +51475,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6079
-    effectName: tacticalDestroyerCaldariSkillLevel2
+    effectID: 6045
+    effectName: shipBonusSentryDamageMultiplierGC3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18666
-    preExpression: 18665
+    postExpression: 18594
+    preExpression: 18593
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51610,14 +51490,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6080
-    effectName: tacticalDestroyerCaldariSkillLevel3
+    effectID: 6046
+    effectName: shipBonusSentryHPGC3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18670
-    preExpression: 18669
+    postExpression: 18596
+    preExpression: 18595
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51656,14 +51536,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6084
-    effectName: shipShieldCapacityCaldariTacticalDestroyer2
+    effectID: 6047
+    effectName: shipBonusSentryArmorHPGC3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18672
-    preExpression: 18671
+    postExpression: 18598
+    preExpression: 18597
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51671,14 +51551,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6085
-    effectName: shipMissileRoFCaldariTacticalDestroyer1
+    effectID: 6048
+    effectName: shipBonusSentryShieldHPGC3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18674
-    preExpression: 18673
+    postExpression: 18600
+    preExpression: 18599
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51686,16 +51566,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6088
-    effectName: shipBonusHeavyAssaultMissileAllDamageMC2
+    effectID: 6043
+    effectName: subsystemBonusCaldariDefensiveShieldRechargeRate
     electronicChance: false
-    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 18680
-    preExpression: 18679
+    postExpression: 18587
+    preExpression: 18586
     propulsionChance: false
     published: false
     rangeChance: false
@@ -51703,15 +51581,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6093
-    effectName: shipBonusHeavyMissileAllDamageMC2
+    effectID: 6044
+    effectName: gallenteCruiserSkillLevelPreMulShipBonusGC3Ship
     electronicChance: false
-    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18690
-    preExpression: 18689
+    postExpression: 18592
+    preExpression: 18591
     propulsionChance: false
     published: false
     rangeChance: false
@@ -52007,92 +51884,92 @@
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6136
-    effectName: overloadSelfMissileGuidanceBonus
+    effectCategory: 0
+    effectID: 6080
+    effectName: tacticalDestroyerCaldariSkillLevel3
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18808
-    preExpression: 18807
+    postExpression: 18670
+    preExpression: 18669
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6137
-    effectName: overloadSelfMissileGuidanceExplosionDelayBonus
+    effectCategory: 0
+    effectID: 6084
+    effectName: shipShieldCapacityCaldariTacticalDestroyer2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18812
-    preExpression: 18811
+    postExpression: 18672
+    preExpression: 18671
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6138
-    effectName: overloadSelfMissileGuidanceAOEVelocityBonus
+    effectCategory: 0
+    effectID: 6085
+    effectName: shipMissileRoFCaldariTacticalDestroyer1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18815
-    preExpression: 18814
+    postExpression: 18674
+    preExpression: 18673
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6139
-    effectName: overloadSelfMissileGuidanceAOECloudSizeBonus
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 18818
-    preExpression: 18817
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: maxvelocity + aoeVelocity
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 5
-    effectID: 6140
-    effectName: overloadSelfMissileGuidanceBonus2
+    effectCategory: 0
+    effectID: 6088
+    effectName: shipBonusHeavyAssaultMissileAllDamageMC2
     electronicChance: false
     guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18820
-    preExpression: 18819
+    modifierInfo: ''
+    postExpression: 18680
+    preExpression: 18679
     propulsionChance: false
     published: false
     rangeChance: false
--   description: maxVelocity + aoeCloudSize + aoeVelocity
+-   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 5
-    effectID: 6141
-    effectName: overloadSelfMissileGuidanceBonus3
+    effectCategory: 0
+    effectID: 6077
+    effectName: shipHeatDamageCaldariTacticalDestroyer3
     electronicChance: false
-    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18822
-    preExpression: 18821
+    postExpression: 18656
+    preExpression: 18655
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6078
+    effectName: tacticalDestroyerCaldariSkillLevel1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 18661
+    preExpression: 18660
     propulsionChance: false
     published: false
     rangeChance: false
@@ -52329,14 +52206,15 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6163
-    effectName: passiveSpeedLimit
+    effectID: 6093
+    effectName: shipBonusHeavyMissileAllDamageMC2
     electronicChance: false
+    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18883
-    preExpression: 18882
+    postExpression: 18690
+    preExpression: 18689
     propulsionChance: false
     published: false
     rangeChance: false
@@ -52913,76 +52791,75 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6229
-    effectName: shipBonusEnergyNeutOptimalRS2
+    effectID: 6079
+    effectName: tacticalDestroyerCaldariSkillLevel2
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18969
-    preExpression: 18968
+    postExpression: 18666
+    preExpression: 18665
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6230
-    effectName: shipBonusEnergyNeutOptimalRS1
+    effectCategory: 5
+    effectID: 6137
+    effectName: overloadSelfMissileGuidanceExplosionDelayBonus
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18971
-    preExpression: 18970
+    postExpression: 18812
+    preExpression: 18811
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6231
-    effectName: shipBonusEnergyNeutFalloffRS1
+    effectCategory: 5
+    effectID: 6138
+    effectName: overloadSelfMissileGuidanceAOEVelocityBonus
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 18976
-    preExpression: 18975
+    postExpression: 18815
+    preExpression: 18814
     propulsionChance: false
     published: false
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6232
-    effectName: shipBonusEnergyNeutFalloffRS2
+    effectCategory: 5
+    effectID: 6139
+    effectName: overloadSelfMissileGuidanceAOECloudSizeBonus
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 18978
-    preExpression: 18977
+    postExpression: 18818
+    preExpression: 18817
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Automatically generated effect
+-   description: maxvelocity + aoeVelocity
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6233
-    effectName: shipBonusEnergyNeutFalloffRS3
+    effectCategory: 5
+    effectID: 6140
+    effectName: overloadSelfMissileGuidanceBonus2
     electronicChance: false
+    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 18980
-    preExpression: 18979
+    postExpression: 18820
+    preExpression: 18819
     propulsionChance: false
     published: false
     rangeChance: false
@@ -53232,18 +53109,19 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Automatically generated effect
+-   description: maxVelocity + aoeCloudSize + aoeVelocity
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6253
-    effectName: shipBonusEnergyNeutOptimalAB
+    effectCategory: 5
+    effectID: 6141
+    effectName: overloadSelfMissileGuidanceBonus3
     electronicChance: false
+    guid: ''
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 19028
-    preExpression: 19027
+    postExpression: 18822
+    preExpression: 18821
     propulsionChance: false
     published: false
     rangeChance: false
@@ -53251,14 +53129,29 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6254
-    effectName: shipBonusEnergyNeutOptimalAB2
+    effectID: 6163
+    effectName: passiveSpeedLimit
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 19030
-    preExpression: 19029
+    postExpression: 18883
+    preExpression: 18882
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 5
+    effectID: 6136
+    effectName: overloadSelfMissileGuidanceBonus
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 18808
+    preExpression: 18807
     propulsionChance: false
     published: false
     rangeChance: false
@@ -53266,29 +53159,14 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 6255
-    effectName: shipBonusEnergyNeutFalloffAB
+    effectID: 6231
+    effectName: shipBonusEnergyNeutFalloffRS1
     electronicChance: false
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    postExpression: 19032
-    preExpression: 19031
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 6256
-    effectName: shipBonusEnergyNeutFalloffAB2
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 19034
-    preExpression: 19033
+    postExpression: 18976
+    preExpression: 18975
     propulsionChance: false
     published: false
     rangeChance: false
@@ -56187,6 +56065,128 @@
         2044\n  modifyingAttributeID: 2091\n  operator: 6\n"
     postExpression: 19217
     preExpression: 19216
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6232
+    effectName: shipBonusEnergyNeutFalloffRS2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 18978
+    preExpression: 18977
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6233
+    effectName: shipBonusEnergyNeutFalloffRS3
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 18980
+    preExpression: 18979
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6253
+    effectName: shipBonusEnergyNeutOptimalAB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19028
+    preExpression: 19027
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6254
+    effectName: shipBonusEnergyNeutOptimalAB2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19030
+    preExpression: 19029
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6255
+    effectName: shipBonusEnergyNeutFalloffAB
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19032
+    preExpression: 19031
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6229
+    effectName: shipBonusEnergyNeutOptimalRS2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 18969
+    preExpression: 18968
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6256
+    effectName: shipBonusEnergyNeutFalloffAB2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19034
+    preExpression: 19033
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6230
+    effectName: shipBonusEnergyNeutOptimalRS1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 18971
+    preExpression: 18970
     propulsionChance: false
     published: false
     rangeChance: false
