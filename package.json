@@ -1,6 +1,6 @@
 {
   "name": "eve-online-sde",
-  "version": "119.3.0",
+  "version": "YC-119-3_1.0.119.3.1",
   "description": "Just a package exposing the data from the EVE Online static data export",
   "main": "index.js",
   "types": "index.d.ts",
@@ -30,6 +30,9 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "scrape-it": "^3.3.0",
+    "unzip": "^0.1.11"
   }
 }
