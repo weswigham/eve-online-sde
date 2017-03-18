@@ -9,3 +9,8 @@ deploy:
   on:
     tags: true
     repo: weswigham/eve-online-sde
+script:
+  - npm test
+  - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then git pull; git checkout master; git init; git config user.name "Travis CI"; git config user.email "wwigham@gmail.com"; git remote add upstream "https://$GH_TOKEN@github.com/weswigham/eve-online-sde"; git fetch upstream; git checkout master; fi
+  - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then npm run update-sde || travis_terminate 1; fi
+  - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then if [[ ! "$(git status -s)" =~ ^$ ]]; then git add .; git commit -m 'Automatic SDE Update'; git push; fi; fi

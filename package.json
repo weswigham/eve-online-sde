@@ -5,7 +5,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "mocha test --timeout 10000"
+    "test": "mocha test --timeout 10000",
+    "update-sde": "node ./scripts/update-sde.js"
   },
   "repository": {
     "type": "git",
