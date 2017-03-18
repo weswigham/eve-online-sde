@@ -6,7 +6,8 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "mocha test --timeout 10000",
-    "update-sde": "node ./scripts/update-sde.js"
+    "update-sde": "node ./scripts/update-sde.js",
+    "tag": "git tag $(node ./scripts/print-version.js)"
   },
   "repository": {
     "type": "git",
