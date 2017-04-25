@@ -66,7 +66,7 @@ for (const key of Object.keys(fdeMap)) {
     });
 }
 
-exports.landmarks = memoize(() => exports.raw("fde", "landmarks", "landmarks"));
+exports.landmarks = memoize(() => exports.raw("fsd", "landmarks", "landmarks"));
 
 exports.region = (name) => {
     return exports.raw("fsd", "universe", "eve", name, "region")
