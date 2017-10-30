@@ -9,7 +9,7 @@ function nowInEVETime(namestring) {
     const year = now.getUTCFullYear() - 2017 + 119; // 2017 is YC 119
     const month = now.getUTCMonth();
     const day = now.getUTCDate();
-    return `${year}.${month}.${day}-${namestring}`;
+    return `${year}.${month}.${day}+${namestring}`;
 }
 
 scrapeIt("https://developers.eveonline.com/resource/resources", {
@@ -23,8 +23,8 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
     const processedVersionName = filename.substring(0, filename.length - "_Types.zip".length) // Remove _Types.zip
     const current = require("../package.json").version;
     const currNameString = current.match(/(\d+)\.(\d+)\.(\d+)-(.*)/)
-    if (currNameString !== null && currNameString[3] === versionedFilename) return console.log(`Already at version ${versionedFilename}, not redownloading SDE.`);
-    const version = nowInEVETime(versionedFilename);
+    if (currNameString !== null && currNameString[3] === processedVersionName) return console.log(`Already at version ${processedVersionName}, not redownloading SDE.`);
+    const version = nowInEVETime(processedVersionName);
 
     const https = require("https");
     const fs = require("fs");
