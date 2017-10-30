@@ -1287,34 +1287,6 @@
     solarSystemID: 30001392
     stationCount: 14
     stationSystemCount: 10
--   border: 4
-    corporationID: 1000046
-    corridor: 3
-    description: The Sebiestors are technically and mechanically inclined, most Minmatar
-        technology comes from them. The Sebiestors have always been the leading tribe
-        in the Minmatar Republic, though their authority has many times been under
-        attack from the crafty Krusual tribe, their main rivals in Republic politics.
-    enemyID: 1000061
-    extent: R
-    factionID: 500002
-    friendID: 1000056
-    fringe: 2
-    hub: 4
-    iconID: 1624
-    initialPrice: 20
-    investorID1: 1000046
-    investorShares1: 100
-    investorShares2: 0
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: -1.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.5
-    solarSystemID: 30003413
-    stationCount: 12
-    stationSystemCount: 7
 -   border: 2
     corporationID: 1000047
     corridor: 2
@@ -2385,12 +2357,12 @@
 -   border: 1
     corporationID: 1000085
     corridor: 1
-    description: The Court Chamberlain is the right hand of the emperor. Wherever
+    description: "The Court Chamberlain is the right hand of the emperor. Wherever
         he goes, the power of the emperor goes with him. In the emperor's absence,
         the Chamberlain is authorized to speak as acting head of the Empire, even
-        on delicate political matters. With the rise of Empress Jamyl I, however,
-        the Court Chamberlain's power has been diminished to little more than that
-        of a mere functionary.
+        on delicate political matters.\r\n\r\nAfter her coronation in YC118, Empress
+        Catiz I has chosen to restore much of the importance of the Court Chamberlain
+        in the life and politics of the Amarr Empire."
     enemyID: 1000063
     extent: L
     factionID: 500003
@@ -2412,166 +2384,6 @@
     solarSystemID: 30002189
     stationCount: 2
     stationSystemCount: 2
--   border: 1
-    corporationID: 1000086
-    corridor: 2
-    description: Once a new emperor has been chosen, all ties to his old royal family
-        are severed and he joins the holy family of the emperors, which owns vast
-        estates throughout the empire and wields considerable political power. Empress
-        Jamyl I, crowned in YC 110, tolerates no interference from her former relations,
-        but is determined to guide her empire to a new golden age of prosperity and
-        enlightenment -- despite them, if necessary.
-    enemyID: 1000093
-    extent: N
-    factionID: 500003
-    fringe: 1
-    hub: 4
-    iconID: 1502
-    initialPrice: 20
-    investorShares1: 80
-    investorShares2: 20
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 2.0
-    publicShares: 0
-    scattered: false
-    size: L
-    sizeFactor: 1.5
-    solarSystemID: 30002187
-    stationCount: 40
-    stationSystemCount: 31
--   border: 2
-    corporationID: 1000087
-    corridor: 3
-    description: The Kador family symbolizes the grandeur of the empire. The family
-        has had the most emperors elected in the past and to most Amarrians they stand
-        for the strong, majestic empire of the old.
-    enemyID: 1000092
-    extent: R
-    factionID: 500003
-    friendID: 1000071
-    fringe: 2
-    hub: 4
-    iconID: 1503
-    initialPrice: 20
-    investorShares1: 70
-    investorShares2: 30
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 1.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.25
-    solarSystemID: 30004095
-    stationCount: 12
-    stationSystemCount: 10
--   border: 3
-    corporationID: 1000088
-    corridor: 3
-    description: The Sarum family has always been the most belligerent of the royal
-        families, always willing to take up arms whenever required. The family has
-        vested interest in the Amarr military and the armaments industry. They are
-        the only royal family that wants to revive the Reclaiming efforts of old.
-    extent: R
-    factionID: 500003
-    friendID: 1000080
-    fringe: 4
-    hub: 2
-    iconID: 1504
-    initialPrice: 20
-    investorShares1: 90
-    investorShares2: 10
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 0.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.25
-    solarSystemID: 30003522
-    stationCount: 12
-    stationSystemCount: 11
--   border: 3
-    corporationID: 1000089
-    corridor: 4
-    description: The Kor-Azor have traditionally been in the middle of Amarrian politics,
-        actively trying to find compromises and peaceful solutions to any problem.
-        Their diplomatic style is favored by the public, but has created many powerful
-        enemies that are biding their time.
-    extent: R
-    factionID: 500003
-    friendID: 1000085
-    fringe: 3
-    hub: 3
-    iconID: 1505
-    initialPrice: 20
-    investorShares1: 90
-    investorShares2: 10
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 1.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.25
-    solarSystemID: 30005038
-    stationCount: 12
-    stationSystemCount: 9
--   border: 1
-    corporationID: 1000090
-    corridor: 4
-    description: The Ardishapur family is the traditionalists of the royal families.
-        They are conservative and champions of the Amarrian religion. Their domain
-        is in many ways backward, but it is stable and secure.
-    enemyID: 1000077
-    extent: R
-    factionID: 500003
-    friendID: 1000068
-    fringe: 2
-    hub: 3
-    iconID: 1506
-    initialPrice: 20
-    investorShares1: 90
-    investorShares2: 10
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 1.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.25
-    solarSystemID: 30002231
-    stationCount: 12
-    stationSystemCount: 10
--   border: 4
-    corporationID: 1000091
-    corridor: 3
-    description: The Tash-Murkon family was elevated to the status of a royal family
-        following the departure of the Khanid family. The Tash-Murkons are also outsiders
-        because they are of Udorian ancestry, not true Amarrians. Yet through their
-        vast wealth they have managed to buy themselves to the top.
-    enemyID: 1000085
-    extent: R
-    factionID: 500003
-    friendID: 1000092
-    fringe: 4
-    hub: 2
-    iconID: 1507
-    initialPrice: 20
-    investorID1: 1000091
-    investorShares1: 100
-    investorShares2: 0
-    investorShares3: 0
-    investorShares4: 0
-    minSecurity: 0.0
-    publicShares: 0
-    scattered: false
-    size: M
-    sizeFactor: 1.25
-    solarSystemID: 30001671
-    stationCount: 12
-    stationSystemCount: 8
 -   border: 2
     corporationID: 1000092
     corridor: 3
@@ -5392,11 +5204,11 @@
 -   border: 0
     corporationID: 1000224
     corridor: 0
-    description: Formed shortly after the coronation of Empress Jamyl I, the Shining
-        Flame mercenary company appears to benefit from the patronage of the Sarum
-        Family. The leadership of the Shining Flame is shrouded in mystery, with persistent
-        rumors suggesting that a disgraced military officer with links to the Sarum
-        secretly directs its operations.
+    description: Formed shortly after the coronation of the late Empress Jamyl I,
+        the Shining Flame mercenary company appears to benefit from the patronage
+        of the Sarum Family. The leadership of the Shining Flame is shrouded in mystery,
+        with persistent rumors suggesting that a disgraced military officer with links
+        to the Sarum secretly directs its operations.
     enemyID: 1000224
     extent: L
     factionID: 500003
@@ -6895,3 +6707,453 @@
     solarSystemID: 30001672
     stationCount: 15
     stationSystemCount: 10
+-   border: 0
+    corporationID: 1000279
+    corridor: 0
+    description: "Project Discovery's Exoplanets Hunting Program is the primary focus
+        of the organization since its attachment to CONCORD as an affiliated research
+        corporation.\r\n\r\nProject Discovery was transferred to CONCORD oversight
+        from the Sisters of EVE in July YC119. This followed the SOE's controversial
+        sharing of new cloning technology, partially based on Project Discovery findings,
+        directly with the empires, which bypassed CONCORD directives."
+    enemyID: 1000159
+    extent: C
+    factionID: 500006
+    friendID: 1000131
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000125
+    investorID2: 1000132
+    investorID3: 1000131
+    investorID4: 1000270
+    investorShares1: 50
+    investorShares2: 30
+    investorShares3: 20
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: T
+    solarSystemID: 30005204
+-   border: 0
+    corporationID: 1000280
+    corridor: 0
+    description: "CONCORD's Directive Enforcement Department became concerned early
+        in the Drifter Crisis that its inventory of ships could no longer meet its
+        needs. The CONCORD Aerospace division therefore embarked on its \"Force Majeure
+        Program\" to develop enhanced variants.\r\n\r\nWhile CONCORD Aerospace successfully
+        upgraded DED's stable of vessels with hyper-advanced technology, the program
+        became a severe drain on CONCORD's resources. Consequently, the Inner Circle
+        authorized a limited release of CONCORD Aerospace's designs, stripped of CONCORD's
+        advanced rapid-deployment and electronic warfare suites. The division was
+        established as a subsidiary corporation to facilitate the release of these
+        designs to the capsuleer market via authorized dealers."
+    enemyID: 1000161
+    extent: C
+    factionID: 500006
+    friendID: 1000125
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000125
+    investorID2: 1000137
+    investorID3: 1000131
+    investorID4: 1000270
+    investorShares1: 50
+    investorShares2: 30
+    investorShares3: 20
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: T
+    solarSystemID: 30005204
+-   border: 0
+    corporationID: 1000281
+    corridor: 0
+    description: "Formed in the wake of the YC105 Amarr Succession Trials when a group
+        of entrepreneurs at the Secure Commerce Commission realised how popular structured
+        combat tournaments were among capsuleers, the Independent Gaming Commission
+        has grown from a small passion project into the CONCORD Assembly’s regulatory
+        body for all competitive sports.\r\n\r\nWith its own highly skilled team of
+        engineers and state of the art shipyards that produce low volume bespoke versions
+        of the most popular hulls in the cluster as prizes, the IGC maintains a healthy
+        bottom line from event organization, sponsorship and adjudication across the
+        cluster. \r\n"
+    enemyID: 1000197
+    extent: G
+    factionID: 500006
+    friendID: 1000107
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000125
+    investorID2: 1000107
+    investorID3: 1000028
+    investorID4: 1000062
+    investorShares1: 50
+    investorShares2: 15
+    investorShares3: 20
+    investorShares4: 15
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: T
+    solarSystemID: 30005204
+-   border: 0
+    corporationID: 1000282
+    corridor: 0
+    description: 'The CONCORD Directive Intelligence Agency is an offshoot of the
+        DED that provides a range of intelligence gathering and reporting services
+        to CONCORD. The CDIA is also known for producing the CDIA Interstellar Fact
+        Book and its series of briefing holos for capsuleers: the CDIA Files.'
+    enemyID: 1000138
+    extent: G
+    factionID: 500006
+    friendID: 1000137
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000125
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 100
+    investorShares2: 0
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: S
+    solarSystemID: 30005204
+-   border: 0
+    corporationID: 1000283
+    corridor: 0
+    description: The Imperial War Reserves were established as a joint effort to build
+        up and maintain a vast reserve of strategically vital materials by the Amarr
+        Ministry of Assessment and the Ministry of War. The corporation is charged
+        with surveying the Amarr Empire for resources and organizing their exploitation
+        by mining operations.
+    enemyID: 1000051
+    extent: N
+    factionID: 500003
+    friendID: 1000084
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000080
+    investorID2: 1000081
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 50
+    investorShares2: 50
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: L
+    solarSystemID: 30002197
+-   border: 0
+    corporationID: 1000284
+    corridor: 0
+    description: The State Military Stockpile was created by order of the Caldari
+        State's Chief Executive Panel to seek out and develop militarily important
+        resources within Caldari space. The Caldari Navy and the security forces of
+        the "Big Eight" megacorporations are all able to draw from the deep reserves
+        that are being built up by State Military Stockpile mining operations.
+    enemyID: 1000120
+    extent: N
+    factionID: 500001
+    friendID: 1000035
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000031
+    investorID2: 1000035
+    investorID3: 1000029
+    investorID4: 1000261
+    investorShares1: 50
+    investorShares2: 25
+    investorShares3: 20
+    investorShares4: 5
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: L
+    solarSystemID: 30000144
+-   border: 0
+    corporationID: 1000285
+    corridor: 0
+    description: The Federal Strategic Materiel corporation was founded by executive
+        order of President Jacus Roden and is tasked with finding and extracting resources
+        vital to the Federal armed forces throughout Gallente space. The mining operations
+        sent out to harvest resources from sites discovered by the Federal Strategic
+        Materiel corporation have become a common sight in the Federation.
+    enemyID: 1000035
+    extent: N
+    factionID: 500004
+    friendID: 1000120
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000119
+    investorID2: 1000120
+    investorID3: 1000122
+    investorID4: 1000262
+    investorShares1: 50
+    investorShares2: 25
+    investorShares3: 15
+    investorShares4: 10
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: L
+    solarSystemID: 30004972
+-   border: 0
+    corporationID: 1000286
+    corridor: 0
+    description: Republic Fleet Ordnance is responsible for the acquisition of materials
+        crucial to the construction and maintenance of all kinds of equipment used
+        by the fighting forces of the Minmatar Republic. The resource scouts of Republic
+        Fleet Ordnance scour Minmatar space for pockets of useful asteroids and can
+        call upon mining operations to extract any valuable materials they discover.
+    enemyID: 1000084
+    extent: N
+    factionID: 500002
+    friendID: 1000051
+    fringe: 0
+    hub: 0
+    initialPrice: 0
+    investorID1: 1000051
+    investorID2: 1000054
+    investorID3: 1000263
+    investorID4: 1000281
+    investorShares1: 50
+    investorShares2: 30
+    investorShares3: 20
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: L
+    solarSystemID: 30002544
+-   border: 1
+    corporationID: 1000086
+    corridor: 2
+    description: "Once a new emperor has been chosen, all ties to his old royal family
+        are severed and he joins the holy family of the emperors, which owns vast
+        estates throughout the empire and wields considerable political power.\r\n\r\nEmpress
+        Catiz I, crowned in YC118, has shown signs of using the experience and wisdom
+        of her relations in her early efforts to usher in a new age of prosperity
+        and power for the Amarr Empire."
+    enemyID: 1000093
+    extent: N
+    factionID: 500003
+    friendID: 1000281
+    fringe: 1
+    hub: 4
+    iconID: 1502
+    initialPrice: 20
+    investorID1: 1000281
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 80
+    investorShares2: 20
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 2.0
+    publicShares: 0
+    scattered: false
+    size: L
+    sizeFactor: 1.5
+    solarSystemID: 30002187
+    stationCount: 40
+    stationSystemCount: 31
+-   border: 4
+    corporationID: 1000046
+    corridor: 3
+    description: The Sebiestors are technically and mechanically inclined, most Minmatar
+        technology comes from them. The Sebiestors have always been the leading tribe
+        in the Minmatar Republic, though their authority has many times been under
+        attack from the crafty Krusual tribe, their main rivals in Republic politics.
+    enemyID: 1000061
+    extent: R
+    factionID: 500002
+    friendID: 1000056
+    fringe: 2
+    hub: 4
+    iconID: 1624
+    initialPrice: 20
+    investorID1: 1000046
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 100
+    investorShares2: 0
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: -1.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.5
+    solarSystemID: 30003413
+    stationCount: 12
+    stationSystemCount: 7
+-   border: 1
+    corporationID: 1000090
+    corridor: 4
+    description: The Ardishapur family is the traditionalists of the royal families.
+        They are conservative and champions of the Amarrian religion. Their domain
+        is in many ways backward, but it is stable and secure.
+    enemyID: 1000077
+    extent: R
+    factionID: 500003
+    friendID: 1000068
+    fringe: 2
+    hub: 3
+    iconID: 1506
+    initialPrice: 20
+    investorID1: 1000281
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 90
+    investorShares2: 10
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 1.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.25
+    solarSystemID: 30002231
+    stationCount: 12
+    stationSystemCount: 10
+-   border: 3
+    corporationID: 1000088
+    corridor: 3
+    description: The Sarum family has always been the most belligerent of the royal
+        families, always willing to take up arms whenever required. The family has
+        vested interest in the Amarr military and the armaments industry. They are
+        the only royal family that wants to revive the Reclaiming efforts of old.
+    enemyID: 1000281
+    extent: R
+    factionID: 500003
+    friendID: 1000080
+    fringe: 4
+    hub: 2
+    iconID: 1504
+    initialPrice: 20
+    investorID1: 1000281
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 90
+    investorShares2: 10
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.25
+    solarSystemID: 30003522
+    stationCount: 12
+    stationSystemCount: 11
+-   border: 3
+    corporationID: 1000089
+    corridor: 4
+    description: The Kor-Azor have traditionally been in the middle of Amarrian politics,
+        actively trying to find compromises and peaceful solutions to any problem.
+        Their diplomatic style is favored by the public, but has created many powerful
+        enemies that are biding their time.
+    enemyID: 1000281
+    extent: R
+    factionID: 500003
+    friendID: 1000085
+    fringe: 3
+    hub: 3
+    iconID: 1505
+    initialPrice: 20
+    investorID1: 1000281
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 90
+    investorShares2: 10
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 1.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.25
+    solarSystemID: 30005038
+    stationCount: 12
+    stationSystemCount: 9
+-   border: 2
+    corporationID: 1000087
+    corridor: 3
+    description: The Kador family symbolizes the grandeur of the empire. The family
+        has had the most emperors elected in the past and to most Amarrians they stand
+        for the strong, majestic empire of the old.
+    enemyID: 1000092
+    extent: R
+    factionID: 500003
+    friendID: 1000071
+    fringe: 2
+    hub: 4
+    iconID: 1503
+    initialPrice: 20
+    investorID1: 1000281
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 70
+    investorShares2: 30
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 1.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.25
+    solarSystemID: 30004095
+    stationCount: 12
+    stationSystemCount: 10
+-   border: 4
+    corporationID: 1000091
+    corridor: 3
+    description: The Tash-Murkon family was elevated to the status of a royal family
+        following the departure of the Khanid family. The Tash-Murkons are also outsiders
+        because they are of Udorian ancestry, not true Amarrians. Yet through their
+        vast wealth they have managed to buy themselves to the top.
+    enemyID: 1000085
+    extent: R
+    factionID: 500003
+    friendID: 1000092
+    fringe: 4
+    hub: 2
+    iconID: 1507
+    initialPrice: 20
+    investorID1: 1000091
+    investorID2: 1000281
+    investorID3: 1000281
+    investorID4: 1000281
+    investorShares1: 100
+    investorShares2: 0
+    investorShares3: 0
+    investorShares4: 0
+    minSecurity: 0.0
+    publicShares: 0
+    scattered: false
+    size: M
+    sizeFactor: 1.25
+    solarSystemID: 30001671
+    stationCount: 12
+    stationSystemCount: 8

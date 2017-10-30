@@ -197,15 +197,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 918
-    attributeName: amarrNavyBonusMulitplier
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 370
     attributeName: amarrTechMutator
     categoryID: 9
@@ -771,15 +762,6 @@
     stackable: true
 -   attributeID: 915
     attributeName: caldariNavyBonus
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
--   attributeID: 916
-    attributeName: caldariNavyBonusMultiplier
     categoryID: 9
     defaultValue: 0.0
     description: ''
@@ -2125,15 +2107,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 920
-    attributeName: republicFleetBonusMultiplier
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 1275
     attributeName: droneIsAgressive
     categoryID: 10
@@ -3001,15 +2974,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 914
-    attributeName: gallenteNavyBonusMultiplier
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 372
     attributeName: gallenteTechMutator
     categoryID: 9
@@ -3197,15 +3161,6 @@
     categoryID: 9
     defaultValue: 0.0
     description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
--   attributeID: 793
-    attributeName: shipBonusPirateFaction
-    categoryID: 9
-    defaultValue: 0.0
-    description: Stock Bonus on Pirate Faction Ships.
     highIsGood: true
     iconID: 0
     published: false
@@ -4184,15 +4139,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 641
-    attributeName: prereqimplant
-    categoryID: 9
-    defaultValue: 0.0
-    description: 'typeID of an implant that the character must have to use this implant. '
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 320
     attributeName: powerUseBonus
     categoryID: 9
@@ -4620,14 +4566,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1431
-    attributeName: subsystemBonusAmarrEngineering
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1434
     attributeName: subsystemBonusAmarrOffensive
     categoryID: 7
@@ -4654,14 +4592,6 @@
     stackable: true
 -   attributeID: 1442
     attributeName: subsystemBonusCaldariElectronic
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1441
-    attributeName: subsystemBonusCaldariEngineering
     categoryID: 7
     defaultValue: 0.0
     description: ''
@@ -4700,14 +4630,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1436
-    attributeName: subsystemBonusGallenteEngineering
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1439
     attributeName: subsystemBonusGallenteOffensive
     categoryID: 7
@@ -4740,14 +4662,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1446
-    attributeName: subsystemBonusMinmatarEngineering
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1449
     attributeName: subsystemBonusMinmatarOffensive
     categoryID: 7
@@ -4774,14 +4688,6 @@
     stackable: true
 -   attributeID: 1508
     attributeName: subsystemBonusAmarrElectronic2
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1509
-    attributeName: subsystemBonusAmarrEngineering2
     categoryID: 7
     defaultValue: 0.0
     description: ''
@@ -4828,14 +4734,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1515
-    attributeName: subsystemBonusCaldariEngineering2
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1516
     attributeName: subsystemBonusCaldariDefensive2
     categoryID: 7
@@ -4854,14 +4752,6 @@
     stackable: true
 -   attributeID: 1518
     attributeName: subsystemBonusGallenteElectronic2
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1519
-    attributeName: subsystemBonusGallenteEngineering2
     categoryID: 7
     defaultValue: 0.0
     description: ''
@@ -4902,14 +4792,6 @@
     stackable: true
 -   attributeID: 1524
     attributeName: subsystemBonusMinmatarElectronic2
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1525
-    attributeName: subsystemBonusMinmatarEngineering2
     categoryID: 7
     defaultValue: 0.0
     description: ''
@@ -6352,17 +6234,6 @@
     published: true
     stackable: true
     unitID: 1
--   attributeID: 134
-    attributeName: shieldRechargeRateMultiplier
-    categoryID: 2
-    defaultValue: 1.0
-    description: Multiplier to a recharge rate time.
-    displayName: Shield recharge rate bonus
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 449
     attributeName: barterDiscountBonus
     categoryID: 7
@@ -6677,17 +6548,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 144
-    attributeName: capacitorRechargeRateMultiplier
-    categoryID: 5
-    defaultValue: 1.0
-    description: Multiplier to the capacitors recharge rate.
-    displayName: Capacitor recharge rate bonus
-    highIsGood: true
-    iconID: 1400
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 72
     attributeName: capacityBonus
     categoryID: 2
@@ -6699,17 +6559,6 @@
     published: true
     stackable: true
     unitID: 113
--   attributeID: 614
-    attributeName: cargoCapacityBonus
-    categoryID: 4
-    defaultValue: 0.0
-    description: Autogenerated skill attribute, cargoCapacityBonus
-    displayName: Cargo Capacity Bonus
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 121
 -   attributeID: 149
     attributeName: cargoCapacityMultiplier
     categoryID: 4
@@ -7017,17 +6866,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 50
-    attributeName: cpu
-    categoryID: 1
-    defaultValue: 0.0
-    description: CPU need of module
-    displayName: CPU usage
-    highIsGood: true
-    iconID: 1405
-    published: true
-    stackable: true
-    unitID: 106
 -   attributeID: 319
     attributeName: warpCapacitorNeedBonus
     categoryID: 7
@@ -7105,17 +6943,6 @@
     published: true
     stackable: true
     unitID: 116
--   attributeID: 1082
-    attributeName: cpuPenaltyPercent
-    categoryID: 1
-    defaultValue: 0.0
-    description: ''
-    displayName: Cpu Penalty
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 105
 -   attributeID: 686
     attributeName: typeContainerCapacity3
     categoryID: 7
@@ -8080,17 +7907,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 130
-    attributeName: thermalDamageResonanceMultiplier
-    categoryID: 7
-    defaultValue: 1.0
-    description: Multipler to adjust the thermal damage resonance of an object.
-    displayName: Thermal Damage Resistance Bonus
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 1190
     attributeName: ewCapacitorNeedBonus
     categoryID: 7
@@ -8113,17 +7929,6 @@
     published: true
     stackable: true
     unitID: 113
--   attributeID: 132
-    attributeName: explosiveDamageResonanceMultiplier
-    categoryID: 7
-    defaultValue: 1.0
-    description: Multiplier to the explosive damage resistance of something.
-    displayName: Explosive Damage Resistance Bonus
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 987
     attributeName: thermalDamageResistanceBonus
     categoryID: 7
@@ -8252,18 +8057,6 @@
     published: true
     stackable: true
     unitID: 121
--   attributeID: 204
-    attributeName: speedMultiplier
-    categoryID: 7
-    defaultValue: 1.0
-    description: Typically scales the firing speed of a weapon.  Reducing speed means
-        faster, strangely..
-    displayName: rate of fire bonus
-    highIsGood: true
-    iconID: 1389
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 1326
     attributeName: speedFactorBonusBonus
     categoryID: 7
@@ -8861,17 +8654,6 @@
     published: true
     stackable: true
     unitID: 113
--   attributeID: 131
-    attributeName: kineticDamageResonanceMultiplier
-    categoryID: 7
-    defaultValue: 1.0
-    description: Multiplier to the kinetic damage resonance of something.
-    displayName: Kinetic Damage Resistance Bonus
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 602
     attributeName: launcherGroup2
     categoryID: 7
@@ -10556,94 +10338,6 @@
     published: true
     stackable: true
     unitID: 113
--   attributeID: 1418
-    attributeName: passiveArmorEmDamageResonance
-    categoryID: 3
-    defaultValue: 0.0
-    description: ''
-    displayName: Armor Em Damage Resistance
-    highIsGood: true
-    iconID: 1396
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1421
-    attributeName: passiveArmorExplosiveDamageResonance
-    categoryID: 3
-    defaultValue: 0.0
-    description: ''
-    displayName: Armor Explosive Damage Resistance
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1420
-    attributeName: passiveArmorKineticDamageResonance
-    categoryID: 3
-    defaultValue: 0.0
-    description: ''
-    displayName: Armor Kinetic Damage Resistance
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1419
-    attributeName: passiveArmorThermalDamageResonance
-    categoryID: 3
-    defaultValue: 0.0
-    description: ''
-    displayName: Armor Thermal Damage Resistance
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1423
-    attributeName: passiveShieldEmDamageResonance
-    categoryID: 2
-    defaultValue: 0.0
-    description: ''
-    displayName: Shield Em Damage Resistance
-    highIsGood: true
-    iconID: 1396
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1422
-    attributeName: passiveShieldExplosiveDamageResonance
-    categoryID: 2
-    defaultValue: 0.0
-    description: ''
-    displayName: Shield Explosive Damage Resistance
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1424
-    attributeName: passiveShieldKineticDamageResonance
-    categoryID: 2
-    defaultValue: 0.0
-    description: ''
-    displayName: Shield Kinetic Damage Resistance
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 1425
-    attributeName: passiveShieldThermalDamageResonance
-    categoryID: 2
-    defaultValue: 0.0
-    description: ''
-    displayName: Shield Thermal Damage Resistance
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 1380
     attributeName: fitsToShipType
     defaultValue: 0.0
@@ -11159,17 +10853,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 30
-    attributeName: power
-    categoryID: 1
-    defaultValue: 0.0
-    description: current power need
-    displayName: Powergrid Usage
-    highIsGood: true
-    iconID: 70
-    published: true
-    stackable: true
-    unitID: 107
 -   attributeID: 1654
     attributeName: AI_ImmuneToSuperWeapon
     categoryID: 12
@@ -12388,50 +12071,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 974
-    attributeName: hullEmDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: ''
-    displayName: Structure EM Damage Resistance
-    highIsGood: true
-    iconID: 1396
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 975
-    attributeName: hullExplosiveDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: ''
-    displayName: Structure Explosive Damage Resistance
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 976
-    attributeName: hullKineticDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: ''
-    displayName: Structure Kinetic Damage Resistance
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 977
-    attributeName: hullThermalDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: ''
-    displayName: Structure Thermal Damage Resistance
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 1886
     attributeName: chargedArmorDamageMultiplier
     categoryID: 7
@@ -12582,17 +12221,6 @@
     published: true
     stackable: false
     unitID: 120
--   attributeID: 1372
-    attributeName: baseMaxScanDeviation
-    categoryID: 7
-    defaultValue: 0.0
-    description: This is the lowest maximum scan deviation in AU for probes under
-        the revised probing system
-    displayName: Base Maximum Deviation
-    highIsGood: true
-    published: true
-    stackable: false
-    unitID: 135
 -   attributeID: 1912
     attributeName: spewContainerCount
     defaultValue: 20.0
@@ -13044,17 +12672,6 @@
     published: false
     stackable: true
     unitID: 105
--   attributeID: 1217
-    attributeName: remoteArmorPowerNeedBonus
-    categoryID: 7
-    defaultValue: 0.0
-    description: Reduction of power grid needs of remote armor repair systems.
-    displayName: Remote Armor Repair Power Need Bonus
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
-    unitID: 105
 -   attributeID: 1218
     attributeName: powerTransferPowerNeedBonus
     categoryID: 7
@@ -13336,38 +12953,6 @@
     displayName: Subsystem Slots
     highIsGood: true
     iconID: 3756
-    published: false
-    stackable: true
--   attributeID: 1503
-    attributeName: shipBonusStrategicCruiserAmarr
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1504
-    attributeName: shipBonusStrategicCruiserCaldari
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1505
-    attributeName: shipBonusStrategicCruiserGallente
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1506
-    attributeName: shipBonusStrategicCruiserMinmatar
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
     published: false
     stackable: true
 -   attributeID: 1538
@@ -15087,51 +14672,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 113
-    attributeName: emDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: Electro magnetic damage multiplier for shield and armor. Represented
-        as "% Resistance" in the UI.
-    displayName: Structure EM Damage Resistance
-    highIsGood: true
-    iconID: 1396
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 111
-    attributeName: explosiveDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. explosive damagers.
-    displayName: Structure Explosive Damage Resistance
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 109
-    attributeName: kineticDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. kinetic damagers.
-    displayName: Structure Kinetic Damage Resistance
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 110
-    attributeName: thermalDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. thermal.
-    displayName: Structure Thermal Damage Resistance
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 542
     attributeName: entityStrength
     categoryID: 33
@@ -15491,14 +15031,6 @@
     stackable: true
 -   attributeID: 1988
     attributeName: shipBonusTacticalDestroyerAmarr3
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1989
-    attributeName: roleBonusTacticalDestroyer1
     categoryID: 9
     defaultValue: 0.0
     description: ''
@@ -16251,26 +15783,6 @@
     published: true
     stackable: true
     unitID: 115
--   attributeID: 2079
-    attributeName: armorEmDamageResonancePostAssignment
-    categoryID: 3
-    defaultValue: 1.0
-    description: 'Sets Em damage taken by Armor. '
-    displayName: Set Armor EM Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2080
-    attributeName: armorExplosiveDamageResonancePostAssignment
-    categoryID: 3
-    defaultValue: 1.0
-    description: 'Sets Explosive damage taken by Armor. '
-    displayName: Set Armor Explosive Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2081
     attributeName: armorKineticDamageResonancePostAssignment
     categoryID: 3
@@ -16280,96 +15792,6 @@
     highIsGood: true
     published: true
     stackable: true
--   attributeID: 2082
-    attributeName: armorThermalDamageResonancePostAssignment
-    categoryID: 3
-    defaultValue: 1.0
-    description: 'Sets Thermal damage taken by Armor. '
-    displayName: Set Armor Thermal Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2083
-    attributeName: shieldEmDamageResonancePostAssignment
-    categoryID: 2
-    defaultValue: 1.0
-    description: 'Sets Em damage taken by Shields. '
-    displayName: Set Shield EM Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2084
-    attributeName: shieldExplosiveDamageResonancePostAssignment
-    categoryID: 2
-    defaultValue: 1.0
-    description: 'Sets Explosive damage taken by shields. '
-    displayName: Set Shield Explosive Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2085
-    attributeName: shieldKineticDamageResonancePostAssignment
-    categoryID: 2
-    defaultValue: 1.0
-    description: 'Sets kinetic damage taken by Shields. '
-    displayName: Set Shield Kinetic Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2086
-    attributeName: shieldThermalDamageResonancePostAssignment
-    categoryID: 2
-    defaultValue: 1.0
-    description: 'Sets Thermal damage taken by Shields. '
-    displayName: Set Shield Thermal Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2087
-    attributeName: emDamageResonancePostAssignment
-    categoryID: 4
-    defaultValue: 1.0
-    description: 'Sets Em damage taken by Hull. '
-    displayName: Set Hull EM Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2088
-    attributeName: explosiveDamageResonancePostAssignment
-    categoryID: 4
-    defaultValue: 1.0
-    description: 'Sets Explosive damage taken by Hull. '
-    displayName: Set Hull Explosive Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2089
-    attributeName: thermalDamageResonancePostAssignment
-    categoryID: 4
-    defaultValue: 1.0
-    description: 'Sets Thermal damage taken by Hull. '
-    displayName: Set Hull Thermal Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2090
-    attributeName: kineticDamageResonancePostAssignment
-    categoryID: 4
-    defaultValue: 1.0
-    description: 'Sets Kinetic damage taken by Hull. '
-    displayName: Set Hull Kinetic Damage Resistance
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2066
     attributeName: mjdJumpRange
     categoryID: 17
@@ -16755,15 +16177,6 @@
     published: false
     stackable: true
     unitID: 124
--   attributeID: 2244
-    attributeName: fighterAbilityAntiCapitalMissileResistance
-    categoryID: 38
-    defaultValue: 0.1
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 108
 -   attributeID: 2250
     attributeName: fighterAbilityECMTargetSuccess
     categoryID: 34
@@ -17092,17 +16505,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 797
-    attributeName: maximumRangeCap
-    categoryID: 7
-    defaultValue: 300000.0
-    description: The maximum possible target range.
-    displayName: Theoretical Maximum Targeting Range
-    highIsGood: true
-    iconID: 1391
-    published: false
-    stackable: true
-    unitID: 1
 -   attributeID: 2308
     attributeName: shipBonusForceAuxiliaryA1
     categoryID: 37
@@ -17364,17 +16766,6 @@
     published: false
     stackable: true
     unitID: 105
--   attributeID: 2116
-    attributeName: remoteRepairImpedance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Impedance against Remote Repair (shield, armor, hull and energy).
-    displayName: Remote Logistics Impedance
-    highIsGood: false
-    iconID: 80
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2342
     attributeName: remoteRepairImpedanceBonus
     categoryID: 37
@@ -17485,28 +16876,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 2113
-    attributeName: weaponDisruptionResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance against Remote Weapon Disruptors.
-    displayName: Weapon Disruption Resistance
-    highIsGood: true
-    iconID: 1398
-    published: true
-    stackable: true
-    unitID: 108
--   attributeID: 2114
-    attributeName: targetPainterResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance against Target Painters
-    displayName: Target Painter Resistance
-    highIsGood: true
-    iconID: 1390
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2354
     attributeName: disallowDocking
     categoryID: 7
@@ -17531,17 +16900,6 @@
     published: true
     stackable: true
     unitID: 137
--   attributeID: 2112
-    attributeName: sensorDampenerResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance against Remote Sensor Dampeners.
-    displayName: Sensor Warfare Resistance
-    highIsGood: true
-    iconID: 74
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2045
     attributeName: energyWarfareResistance
     categoryID: 36
@@ -17604,17 +16962,6 @@
     published: true
     stackable: false
     unitID: 9
--   attributeID: 2115
-    attributeName: stasisWebifierResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance against Stasis Webifiers
-    displayName: Stasis Webifier Resistance
-    highIsGood: true
-    iconID: 1389
-    published: true
-    stackable: true
-    unitID: 108
 -   attributeID: 2359
     attributeName: shipBonusCarrierA1
     categoryID: 37
@@ -18479,17 +17826,6 @@
     published: true
     stackable: true
     unitID: 101
--   attributeID: 2398
-    attributeName: durationECMJammerBurstProjector
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Activation time / duration
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 101
 -   attributeID: 2395
     attributeName: disallowWhenInvulnerable
     categoryID: 7
@@ -18501,15 +17837,6 @@
     published: true
     stackable: true
     unitID: 137
--   attributeID: 2189
-    attributeName: fighterAbilityAntiFighterMissileResistance
-    categoryID: 38
-    defaultValue: 0.2
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 108
 -   attributeID: 2226
     attributeName: fighterAbilityAttackMissileDamageMultiplier
     categoryID: 34
@@ -18862,39 +18189,6 @@
     published: true
     stackable: false
     unitID: 101
--   attributeID: 2118
-    attributeName: fighterAbilityEvasiveManeuversEmResonance
-    categoryID: 34
-    defaultValue: 1.0
-    description: Shield EM Damage Resistance
-    displayName: Shield EM Damage Resistance
-    highIsGood: true
-    iconID: 1396
-    published: true
-    stackable: false
-    unitID: 108
--   attributeID: 2121
-    attributeName: fighterAbilityEvasiveManeuversExpResonance
-    categoryID: 34
-    defaultValue: 1.0
-    description: Shield Explosive Damage Resistance
-    displayName: Shield Explosive Damage Resistance
-    highIsGood: true
-    iconID: 1395
-    published: true
-    stackable: false
-    unitID: 108
--   attributeID: 2120
-    attributeName: fighterAbilityEvasiveManeuversKinResonance
-    categoryID: 34
-    defaultValue: 1.0
-    description: Shield Kinetic Damage Resistance
-    displayName: Shield Kinetic Damage Resistance
-    highIsGood: true
-    iconID: 1393
-    published: true
-    stackable: false
-    unitID: 108
 -   attributeID: 2224
     attributeName: fighterAbilityEvasiveManeuversSpeedBonus
     categoryID: 34
@@ -18906,17 +18200,6 @@
     published: true
     stackable: false
     unitID: 124
--   attributeID: 2119
-    attributeName: fighterAbilityEvasiveManeuversThermResonance
-    categoryID: 34
-    defaultValue: 1.0
-    description: Shield Thermal Damage Resistance
-    displayName: Shield Thermal Damage Resistance
-    highIsGood: true
-    iconID: 1394
-    published: true
-    stackable: false
-    unitID: 108
 -   attributeID: 2325
     attributeName: fighterAbilityKamikazeDamageEM
     categoryID: 34
@@ -19157,15 +18440,6 @@
     published: false
     stackable: true
     unitID: 119
--   attributeID: 2433
-    attributeName: fighterAbilityKamikazeResistance
-    categoryID: 38
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 108
 -   attributeID: 2275
     attributeName: onDeathAOERadius
     categoryID: 41
@@ -19398,28 +18672,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 2444
-    attributeName: refiningYieldBasicOres
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Refining yield for Veldspar, Scordite, Pyroxeres, Plagioclase, Omber,
-        and Kernite
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 127
--   attributeID: 2445
-    attributeName: refiningYieldAdvancedOres
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Refining yield for Arkonor, Bistot, Crokite, Dark Ochre, Gneiss,
-        Mercoxit, Spodumain, Hedbergite, Hemorphite, and Jaspet
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 127
 -   attributeID: 2446
     attributeName: refiningYieldCalAmarrIce
     categoryID: 7
@@ -19440,16 +18692,6 @@
     published: true
     stackable: true
     unitID: 127
--   attributeID: 2448
-    attributeName: refiningYieldSpecialIce
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Refining yield for Glare Crust, Dark Glitter, Gelidus, and Krystallos
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 127
 -   attributeID: 378
     attributeName: refiningYieldPercentage
     categoryID: 7
@@ -19461,18 +18703,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 717
-    attributeName: refiningYieldMultiplier
-    categoryID: 7
-    defaultValue: 1.0
-    description: The factor by which the structure modifies the using pilot's refining
-        yield rate.
-    displayName: Refining Yield Multiplier
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 127
 -   attributeID: 2356
     attributeName: lowSecModifier
     categoryID: 37
@@ -20039,28 +19269,6 @@
     published: false
     stackable: true
     unitID: 105
--   attributeID: 2465
-    attributeName: nosferatuCpuNeedBonus
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Energy Nosferatu CPU Need Bonus
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
-    unitID: 105
--   attributeID: 2467
-    attributeName: specialCorpseHoldCapacity
-    categoryID: 4
-    defaultValue: 0.0
-    description: special corpse hold capacity
-    displayName: Corpse Hold Capacity
-    highIsGood: true
-    iconID: 71
-    published: true
-    stackable: false
-    unitID: 9
 -   attributeID: 1766
     attributeName: entityOverviewShipGroupId
     categoryID: 31
@@ -20345,15 +19553,6 @@
     published: false
     stackable: true
     unitID: 9
--   attributeID: 2490
-    attributeName: behaviorMiningCycleTime
-    categoryID: 42
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 101
 -   attributeID: 2494
     attributeName: behaviorRemoteArmorRepairDischarge
     categoryID: 42
@@ -20722,24 +19921,6 @@
     categoryID: 37
     defaultValue: 0.0
     description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 2557
-    attributeName: attributeAdvCompManufactureMaterialMultiplier
-    categoryID: 4
-    defaultValue: 1.0
-    description: "Decrease material requirement for manufacturing the following:\r\nT2
-        Components, T2 Capital Components, Tools,       Data Interfaces, T3 Components\r\n\r\n\r\n\r\n"
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 2558
-    attributeName: attributeAdvCompManufactureTimeMultiplier
-    categoryID: 4
-    defaultValue: 1.0
-    description: "Decrease time requirement for manufacturing the following:\r\nT2
-        Components, T2 Capital Components, Tools,       Data Interfaces, T3 Components\r\n\r\n\r\n\r\n"
     highIsGood: true
     published: false
     stackable: true
@@ -21406,38 +20587,6 @@
     iconID: 1398
     published: true
     stackable: false
--   attributeID: 2594
-    attributeName: attributeEngRigMatBonus
-    categoryID: 37
-    defaultValue: 1.0
-    description: Bonus on Material decrease for engineering rigs
-    displayName: Material Reduction Bonus
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 105
--   attributeID: 2337
-    attributeName: fighterBonusROFPercent
-    categoryID: 38
-    defaultValue: 0.0
-    description: Bonus to fighter ROF (%)
-    displayName: Fighter ROF Bonus
-    highIsGood: true
-    iconID: 1389
-    published: true
-    stackable: true
-    unitID: 111
--   attributeID: 2338
-    attributeName: fighterBonusShieldRechargePercent
-    categoryID: 38
-    defaultValue: 0.0
-    description: Bonus to fighter shield recharge (%)
-    displayName: Fighter Shield Recharge Bonus
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 111
 -   attributeID: 2336
     attributeName: fighterBonusVelocityPercent
     categoryID: 38
@@ -21822,15 +20971,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 2612
-    attributeName: AI_TankingModifierFighter
-    categoryID: 12
-    defaultValue: 1.3
-    description: Tanking modifier applied to fighters if their owner is tanking. 1.0
-        is no modifier
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 2593
     attributeName: attributeEngRigTimeBonus
     categoryID: 37
@@ -21851,17 +20991,14 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 2253
-    attributeName: ECMResistance
-    categoryID: 36
+-   attributeID: 2613
+    attributeName: chargeRateMultiplier
+    categoryID: 7
     defaultValue: 1.0
-    description: Resistance to ECM. 0 gives Immunity.
-    displayName: ECM Resistance
+    description: ''
     highIsGood: true
-    iconID: 109
-    published: true
+    published: false
     stackable: true
-    unitID: 108
 -   attributeID: 2135
     attributeName: remoteAssistanceImpedance
     categoryID: 36
@@ -21874,3 +21011,1752 @@
     published: true
     stackable: true
     unitID: 108
+-   attributeID: 2398
+    attributeName: durationECMJammerBurstProjector
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Activation time / duration
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101
+-   attributeID: 50
+    attributeName: cpu
+    categoryID: 1
+    defaultValue: 0.0
+    description: CPU need of module
+    displayName: CPU usage
+    highIsGood: false
+    iconID: 1405
+    published: true
+    stackable: true
+    unitID: 106
+-   attributeID: 30
+    attributeName: power
+    categoryID: 1
+    defaultValue: 0.0
+    description: current power need
+    displayName: Powergrid Usage
+    highIsGood: false
+    iconID: 70
+    published: true
+    stackable: true
+    unitID: 107
+-   attributeID: 113
+    attributeName: emDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: Electro magnetic damage multiplier for shield and armor. Represented
+        as "% Resistance" in the UI.
+    displayName: Structure EM Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 111
+    attributeName: explosiveDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. explosive damagers.
+    displayName: Structure Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 109
+    attributeName: kineticDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. kinetic damagers.
+    displayName: Structure Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 110
+    attributeName: thermalDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. thermal.
+    displayName: Structure Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 2467
+    attributeName: specialCorpseHoldCapacity
+    categoryID: 40
+    defaultValue: 0.0
+    description: special corpse hold capacity
+    displayName: Corpse Hold Capacity
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: false
+    unitID: 9
+-   attributeID: 2614
+    attributeName: behaviorMicroWarpDriveDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2615
+    attributeName: behaviorMicroWarpDriveDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2616
+    attributeName: behaviorMicroWarpDriveMassAddition
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 2
+-   attributeID: 2617
+    attributeName: behaviorMicroWarpDriveSignatureRadiusBonus
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 124
+-   attributeID: 2618
+    attributeName: behaviorMicroWarpDriveSpeedFactor
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 124
+-   attributeID: 2619
+    attributeName: behaviorMicroWarpDriveSpeedBoostFactor
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 125
+-   attributeID: 793
+    attributeName: shipBonusRole7
+    categoryID: 37
+    defaultValue: 0.0
+    description: Fixed Role Bonus on a ship.
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 2620
+    attributeName: concordRoleBonusSecGain
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2621
+    attributeName: inverseCappedSecStatus
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2622
+    attributeName: concordTankBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2623
+    attributeName: constantZero
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2624
+    attributeName: constantFifty
+    categoryID: 7
+    defaultValue: 50.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2627
+    attributeName: eliteBonusBlackOps3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2628
+    attributeName: eliteBonusBlackOps4
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2629
+    attributeName: behaviorEnergyNosferatuDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2630
+    attributeName: behaviorEnergyNosferatuDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2631
+    attributeName: behaviorEnergyNosferatuFalloff
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 1
+-   attributeID: 2632
+    attributeName: behaviorEnergyNosferatuRange
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 1
+-   attributeID: 2633
+    attributeName: behaviorArmorRepairerDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2634
+    attributeName: behaviorArmorRepairerDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2635
+    attributeName: behaviorArmorRepairerAmount
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 113
+-   attributeID: 797
+    attributeName: maximumRangeCap
+    categoryID: 6
+    defaultValue: 300000.0
+    description: The maximum possible target range.
+    displayName: Theoretical Maximum Targeting Range
+    highIsGood: true
+    iconID: 1391
+    published: false
+    stackable: true
+    unitID: 1
+-   attributeID: 2636
+    attributeName: BehaviorSiegeDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2637
+    attributeName: BehaviorSiegeDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2638
+    attributeName: BehaviorSiegeRemoteRepairImpedanceModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2639
+    attributeName: BehaviorSiegeRemoteAssistanceImpedanceModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2640
+    attributeName: BehaviorSiegeSensorDampenerResistanceModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2641
+    attributeName: BehaviorSiegeWeaponDisruptionResistanceModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2642
+    attributeName: BehaviorSiegeECMResistanceModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2643
+    attributeName: BehaviorSiegeMaxVelocityModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2644
+    attributeName: BehaviorSiegeWarpScrambleStatusModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2645
+    attributeName: BehaviorSiegeDisallowTetheringModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2646
+    attributeName: BehaviorSiegeMassModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2647
+    attributeName: BehaviorSiegeLocalLogisticsAmountModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2648
+    attributeName: BehaviorSiegeLocalLogisticsDurationModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2649
+    attributeName: BehaviorSiegeTurretDamageModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2653
+    attributeName: attributeThukkerEngRigMatBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Thukker Enhanced Capital Component Material Reduction Bonus
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2594
+    attributeName: attributeEngRigMatBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Bonus on Material decrease for engineering rigs
+    displayName: Material Reduction Bonus
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2654
+    attributeName: gfxTurretCount
+    categoryID: 31
+    defaultValue: 0.0
+    description: Number of Turrets to fit for entity type ships
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2655
+    attributeName: gfxLauncherID
+    categoryID: 31
+    defaultValue: 0.0
+    description: Type ID of the launcher for entity type ships
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2656
+    attributeName: gfxLauncherCount
+    categoryID: 31
+    defaultValue: 0.0
+    description: Number of Launchers to fit for entity type ships
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1082
+    attributeName: cpuPenaltyPercent
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Cpu Penalty
+    highIsGood: false
+    iconID: 0
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2657
+    attributeName: specialBoosterHoldCapacity
+    categoryID: 40
+    defaultValue: 0.0
+    description: special booster hold capacity
+    displayName: Booster Hold Capacity
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: false
+    unitID: 9
+-   attributeID: 2658
+    attributeName: attributeAdvCapCompManufactureMaterialMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: "Decrease material requirement for manufacturing the following:\r\nT2
+        Capital Construction Components"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2557
+    attributeName: attributeAdvCompManufactureMaterialMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: "Decrease material requirement for manufacturing the following:\r\nT2
+        Components, Tools, Data Interfaces, T3 Components\r\n\r\n\r\n\r\n"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2558
+    attributeName: attributeAdvCompManufactureTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: "Decrease time requirement for manufacturing the following:\r\nT2
+        Components, Tools, Data Interfaces, T3 Components"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2659
+    attributeName: attributeAdvCapCompManufactureTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: "Decrease time requirement for manufacturing the following:\r\nT2
+        Capital Construction Components"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 130
+    attributeName: thermalDamageResonanceMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: Multipler to adjust the thermal damage resonance of an object.
+    displayName: Thermal Damage Resistance Bonus
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 131
+    attributeName: kineticDamageResonanceMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: Multiplier to the kinetic damage resonance of something.
+    displayName: Kinetic Damage Resistance Bonus
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 132
+    attributeName: explosiveDamageResonanceMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: Multiplier to the explosive damage resistance of something.
+    displayName: Explosive Damage Resistance Bonus
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 134
+    attributeName: shieldRechargeRateMultiplier
+    categoryID: 2
+    defaultValue: 1.0
+    description: Multiplier to a recharge rate time.
+    displayName: Shield recharge rate bonus
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 144
+    attributeName: capacitorRechargeRateMultiplier
+    categoryID: 5
+    defaultValue: 1.0
+    description: Multiplier to the capacitors recharge rate.
+    displayName: Capacitor recharge rate bonus
+    highIsGood: false
+    iconID: 1400
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 204
+    attributeName: speedMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: Typically scales the firing speed of a weapon.  Reducing speed means
+        faster, strangely..
+    displayName: rate of fire bonus
+    highIsGood: false
+    iconID: 1389
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 974
+    attributeName: hullEmDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    displayName: Structure EM Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 975
+    attributeName: hullExplosiveDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    displayName: Structure Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 976
+    attributeName: hullKineticDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    displayName: Structure Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 977
+    attributeName: hullThermalDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    displayName: Structure Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1418
+    attributeName: passiveArmorEmDamageResonance
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Em Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1419
+    attributeName: passiveArmorThermalDamageResonance
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1420
+    attributeName: passiveArmorKineticDamageResonance
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1421
+    attributeName: passiveArmorExplosiveDamageResonance
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1422
+    attributeName: passiveShieldExplosiveDamageResonance
+    categoryID: 2
+    defaultValue: 0.0
+    description: ''
+    displayName: Shield Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1423
+    attributeName: passiveShieldEmDamageResonance
+    categoryID: 2
+    defaultValue: 0.0
+    description: ''
+    displayName: Shield Em Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1424
+    attributeName: passiveShieldKineticDamageResonance
+    categoryID: 2
+    defaultValue: 0.0
+    description: ''
+    displayName: Shield Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1425
+    attributeName: passiveShieldThermalDamageResonance
+    categoryID: 2
+    defaultValue: 0.0
+    description: ''
+    displayName: Shield Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2079
+    attributeName: armorEmDamageResonancePostAssignment
+    categoryID: 3
+    defaultValue: 1.0
+    description: 'Sets Em damage taken by Armor. '
+    displayName: Set Armor EM Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2080
+    attributeName: armorExplosiveDamageResonancePostAssignment
+    categoryID: 3
+    defaultValue: 1.0
+    description: 'Sets Explosive damage taken by Armor. '
+    displayName: Set Armor Explosive Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2082
+    attributeName: armorThermalDamageResonancePostAssignment
+    categoryID: 3
+    defaultValue: 1.0
+    description: 'Sets Thermal damage taken by Armor. '
+    displayName: Set Armor Thermal Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2083
+    attributeName: shieldEmDamageResonancePostAssignment
+    categoryID: 2
+    defaultValue: 1.0
+    description: 'Sets Em damage taken by Shields. '
+    displayName: Set Shield EM Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2084
+    attributeName: shieldExplosiveDamageResonancePostAssignment
+    categoryID: 2
+    defaultValue: 1.0
+    description: 'Sets Explosive damage taken by shields. '
+    displayName: Set Shield Explosive Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2085
+    attributeName: shieldKineticDamageResonancePostAssignment
+    categoryID: 2
+    defaultValue: 1.0
+    description: 'Sets kinetic damage taken by Shields. '
+    displayName: Set Shield Kinetic Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2086
+    attributeName: shieldThermalDamageResonancePostAssignment
+    categoryID: 2
+    defaultValue: 1.0
+    description: 'Sets Thermal damage taken by Shields. '
+    displayName: Set Shield Thermal Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2087
+    attributeName: emDamageResonancePostAssignment
+    categoryID: 4
+    defaultValue: 1.0
+    description: 'Sets Em damage taken by Hull. '
+    displayName: Set Hull EM Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2088
+    attributeName: explosiveDamageResonancePostAssignment
+    categoryID: 4
+    defaultValue: 1.0
+    description: 'Sets Explosive damage taken by Hull. '
+    displayName: Set Hull Explosive Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2089
+    attributeName: thermalDamageResonancePostAssignment
+    categoryID: 4
+    defaultValue: 1.0
+    description: 'Sets Thermal damage taken by Hull. '
+    displayName: Set Hull Thermal Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2090
+    attributeName: kineticDamageResonancePostAssignment
+    categoryID: 4
+    defaultValue: 1.0
+    description: 'Sets Kinetic damage taken by Hull. '
+    displayName: Set Hull Kinetic Damage Resistance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2112
+    attributeName: sensorDampenerResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance against Remote Sensor Dampeners.
+    displayName: Sensor Warfare Resistance
+    highIsGood: false
+    iconID: 74
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2113
+    attributeName: weaponDisruptionResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance against Remote Weapon Disruptors.
+    displayName: Weapon Disruption Resistance
+    highIsGood: false
+    iconID: 1398
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2114
+    attributeName: targetPainterResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance against Target Painters
+    displayName: Target Painter Resistance
+    highIsGood: false
+    iconID: 1390
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2115
+    attributeName: stasisWebifierResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance against Stasis Webifiers
+    displayName: Stasis Webifier Resistance
+    highIsGood: false
+    iconID: 1389
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2116
+    attributeName: remoteRepairImpedance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Impedance against Remote Repair (shield, armor, hull and energy).
+    displayName: Remote Logistics Impedance
+    highIsGood: true
+    iconID: 80
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2118
+    attributeName: fighterAbilityEvasiveManeuversEmResonance
+    categoryID: 34
+    defaultValue: 1.0
+    description: Shield EM Damage Resistance
+    displayName: Shield EM Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 2119
+    attributeName: fighterAbilityEvasiveManeuversThermResonance
+    categoryID: 34
+    defaultValue: 1.0
+    description: Shield Thermal Damage Resistance
+    displayName: Shield Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 2120
+    attributeName: fighterAbilityEvasiveManeuversKinResonance
+    categoryID: 34
+    defaultValue: 1.0
+    description: Shield Kinetic Damage Resistance
+    displayName: Shield Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 2189
+    attributeName: fighterAbilityAntiFighterMissileResistance
+    categoryID: 38
+    defaultValue: 0.2
+    description: ''
+    highIsGood: false
+    published: false
+    stackable: true
+    unitID: 108
+-   attributeID: 2244
+    attributeName: fighterAbilityAntiCapitalMissileResistance
+    categoryID: 38
+    defaultValue: 0.1
+    description: ''
+    highIsGood: false
+    published: false
+    stackable: true
+    unitID: 108
+-   attributeID: 2253
+    attributeName: ECMResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance to ECM. 0 gives Immunity.
+    displayName: ECM Resistance
+    highIsGood: false
+    iconID: 109
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2337
+    attributeName: fighterBonusROFPercent
+    categoryID: 38
+    defaultValue: 0.0
+    description: Bonus to fighter ROF (%)
+    displayName: Fighter ROF Bonus
+    highIsGood: false
+    iconID: 1389
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 2338
+    attributeName: fighterBonusShieldRechargePercent
+    categoryID: 38
+    defaultValue: 0.0
+    description: Bonus to fighter shield recharge (%)
+    displayName: Fighter Shield Recharge Bonus
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 111
+-   attributeID: 2433
+    attributeName: fighterAbilityKamikazeResistance
+    categoryID: 38
+    defaultValue: 0.0
+    description: ''
+    highIsGood: false
+    published: false
+    stackable: true
+    unitID: 108
+-   attributeID: 2121
+    attributeName: fighterAbilityEvasiveManeuversExpResonance
+    categoryID: 34
+    defaultValue: 1.0
+    description: Shield Explosive Damage Resistance
+    displayName: Shield Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 1372
+    attributeName: baseMaxScanDeviation
+    categoryID: 7
+    defaultValue: 0.0
+    description: This is the lowest maximum scan deviation in AU for probes under
+        the revised probing system
+    displayName: Base Maximum Deviation
+    highIsGood: false
+    published: true
+    stackable: false
+    unitID: 135
+-   attributeID: 2612
+    attributeName: AI_TankingModifierFighter
+    categoryID: 12
+    defaultValue: 1.3
+    description: Tanking modifier applied to fighters if their owner is tanking. 1.0
+        is no modifier
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2660
+    attributeName: reactionTimeBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: "Skill attribute that reduces time for reactions\r\n jobs"
+    displayName: Reaction Time Bonus
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2661
+    attributeName: reactionSlotBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: Increase number of available/simultaneous reaction slots
+    displayName: Reaction Slot Bonus
+    highIsGood: true
+    iconID: 0
+    published: true
+    stackable: true
+    unitID: 139
+-   attributeID: 2662
+    attributeName: reactionTimeMultiplier
+    categoryID: 9
+    defaultValue: 1.0
+    description: Scales the time for reaction
+    highIsGood: true
+    published: true
+    stackable: true
+-   attributeID: 2664
+    attributeName: reactionSlotLimit
+    categoryID: 9
+    defaultValue: 0.0
+    description: Maximum amount of Reactions slots that can be used at a time
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2665
+    attributeName: subsystemEnergyNeutFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Nosferatu and Neutralizer fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2666
+    attributeName: subsystemMHTFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Hybrid Turret fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2667
+    attributeName: subsystemMPTFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Projectile Turret fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2668
+    attributeName: subsystemMETFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Energy Turret fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2669
+    attributeName: subsystemMMissileFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Missile Launcher fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2670
+    attributeName: subsystemMRSBFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Remote Shield Booster fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2671
+    attributeName: subsystemMRARFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Medium Remote Armor Repairer fitting reduction
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2673
+    attributeName: behaviorMiningMaxRange
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 1
+-   attributeID: 2674
+    attributeName: behaviorMiningDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2490
+    attributeName: behaviorMiningDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2675
+    attributeName: specialSubsystemHoldCapacity
+    categoryID: 40
+    defaultValue: 0.0
+    description: special subsystem hold capacity
+    displayName: Subsystem Hold Capacity
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: false
+    unitID: 9
+-   attributeID: 1989
+    attributeName: roleBonusT3ProbeCPU
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1504
+    attributeName: shipBonusStrategicCruiserCaldari1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2676
+    attributeName: shipBonusStrategicCruiserCaldari2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1503
+    attributeName: shipBonusStrategicCruiserAmarr1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2677
+    attributeName: shipBonusStrategicCruiserAmarr2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1505
+    attributeName: shipBonusStrategicCruiserGallente1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2678
+    attributeName: shipBonusStrategicCruiserGallente2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1506
+    attributeName: shipBonusStrategicCruiserMinmatar1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2679
+    attributeName: shipBonusStrategicCruiserMinmatar2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2680
+    attributeName: subsystemBonusAmarrDefensive3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2682
+    attributeName: subsystemBonusCaldariDefensive3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2684
+    attributeName: subsystemBonusGallenteDefensive3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2686
+    attributeName: subsystemBonusMinmatarDefensive3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2688
+    attributeName: structureHPBonusAdd
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Hitpoint Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 113
+-   attributeID: 2689
+    attributeName: cargoCapacityAdd
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Cargo Capacity Bonus
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: true
+    unitID: 9
+-   attributeID: 614
+    attributeName: cargoCapacityBonus
+    categoryID: 4
+    defaultValue: 0.0
+    description: Autogenerated skill attribute, cargoCapacityBonus
+    displayName: Cargo Capacity Bonus
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: true
+    unitID: 121
+-   attributeID: 2690
+    attributeName: agilityBonusAdd
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Additional Inertia Modifier
+    highIsGood: true
+    published: true
+    stackable: true
+-   attributeID: 1431
+    attributeName: subsystemBonusAmarrCore
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1509
+    attributeName: subsystemBonusAmarrCore2
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1446
+    attributeName: subsystemBonusMinmatarCore
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1525
+    attributeName: subsystemBonusMinmatarCore2
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2681
+    attributeName: subsystemBonusAmarrCore3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1441
+    attributeName: subsystemBonusCaldariCore
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1515
+    attributeName: subsystemBonusCaldariCore2
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2683
+    attributeName: subsystemBonusCaldariCore3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2687
+    attributeName: subsystemBonusMinmatarCore3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1436
+    attributeName: subsystemBonusGallenteCore
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1519
+    attributeName: subsystemBonusGallenteCore2
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2685
+    attributeName: subsystemBonusGallenteCore3
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2691
+    attributeName: mediumRemoteRepFittingMultiplier
+    categoryID: 1
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2692
+    attributeName: subsystemCommandBurstFittingReduction
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Command Burst fitting reduction
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2693
+    attributeName: remoteShieldBoosterFalloffBonus
+    categoryID: 2
+    defaultValue: 0.0
+    description: ''
+    displayName: Remote Shield Booster Falloff Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2694
+    attributeName: remoteArmorRepairerFalloffBonus
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Remote Armor Repairer Falloff Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2695
+    attributeName: remoteArmorRepairerOptimalBonus
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Remote Armor Repairer Optimal Range Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2696
+    attributeName: moduleIsObsolete
+    categoryID: 7
+    defaultValue: 0.0
+    description: Indicates that a module or subsystem has been phased out. Primarily
+        used by saved fittings.
+    displayName: Module or subsystem is obsolete
+    highIsGood: true
+    published: true
+    stackable: true
+-   attributeID: 2697
+    attributeName: maxScanRange
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Maximum Scan Range
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 1
+-   attributeID: 717
+    attributeName: refiningYieldMultiplier
+    categoryID: 7
+    defaultValue: 0.5
+    description: The factor by which the structure modifies the using pilot's refining
+        yield rate.
+    displayName: Refining Yield Multiplier
+    highIsGood: true
+    iconID: 0
+    published: true
+    stackable: true
+    unitID: 127
+-   attributeID: 2700
+    attributeName: maxFOFTargetRange
+    categoryID: 30
+    defaultValue: 200000.0
+    description: ''
+    displayName: Maximum FOF Target Range
+    highIsGood: true
+    iconID: 1391
+    published: true
+    stackable: true
+    unitID: 1
+-   attributeID: 2701
+    attributeName: surveyProbeDurationBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Reduction to Survey Probe Scan Time
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2711
+    attributeName: oreBasicType
+    categoryID: 35
+    defaultValue: 0.0
+    description: Reference for grouping ores in visual displays. All variants of one
+        ore should have the same BasicType ID
+    highIsGood: false
+    published: false
+    stackable: false
+    unitID: 116
+-   attributeID: 2704
+    attributeName: moonYieldMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: Defines relation over moon spew volume vs time to drill/create spew
+    displayName: Extraction Yield Multiplier
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 104
+-   attributeID: 2698
+    attributeName: autoFractureDelay
+    categoryID: 4
+    defaultValue: 10800.0
+    description: Delay for exploding moon mining chunk into asteroid field
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 3
+-   attributeID: 2720
+    attributeName: reactionBioMatMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: biochemical reaction material multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2719
+    attributeName: reactionBioTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: biochemical reaction time multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2718
+    attributeName: reactionCompMatMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: composite reaction material multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2717
+    attributeName: reactionCompTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: composite reaction time multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2716
+    attributeName: reactionHybMatMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: Hybrid reaction material multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2715
+    attributeName: reactionHybTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: Hybrid Reactions Time Multiplier
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2448
+    attributeName: refiningYieldIce
+    categoryID: 7
+    defaultValue: 0.5
+    description: ''
+    displayName: Refining yield for Ice
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 127
+-   attributeID: 2445
+    attributeName: refiningYieldMoonOres
+    categoryID: 7
+    defaultValue: 0.5
+    description: ''
+    displayName: Refining yield for Moon Ores
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 127
+-   attributeID: 2444
+    attributeName: refiningYieldNormalOres
+    categoryID: 7
+    defaultValue: 0.5
+    description: ''
+    displayName: Refining yield for Asteroid Belt Ores
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 127
+-   attributeID: 2721
+    attributeName: strReactionTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: Time bonus for Refinery Structures
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2722
+    attributeName: strRefiningYieldBonus
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2723
+    attributeName: BehaviorShieldBoosterAmount
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 113
+-   attributeID: 2724
+    attributeName: BehaviorShieldBoosterDischarge
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 114
+-   attributeID: 2725
+    attributeName: BehaviorShieldBoosterDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 2727
+    attributeName: 'asteroidMaxRadius '
+    categoryID: 31
+    defaultValue: 16255.0
+    description: max visual size for asteroids to fit moon chunk
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 9
+-   attributeID: 2699
+    attributeName: asteroidMetaLevel
+    categoryID: 7
+    defaultValue: 0.0
+    description: "0: Mission/NPE Ore\r\n1: Standard Ore/Ice\r\n2: +5% Ore\r\n3: +10%
+        Ore\r\n4: High Quality Ice or Extracted Ore\r\n5: Jackpot Moon Ore"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2710
+    attributeName: moonRigSpewVolumeBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Moon rig bonus that increases volume of moon spew in relation to
+        extraction time
+    displayName: Moon Extraction Volume Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2708
+    attributeName: moonRigAsteroidDecayBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Moon rig bonus that delays spew asteroid decay
+    displayName: Extracted Asteroid Decay Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2707
+    attributeName: moonRigFractureDelayBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Rig Bonus that affects fracture delay for moon chunk
+    displayName: Chunk Stability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2709
+    attributeName: moonRigSpewRadiusBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Rig Bonus that affects spew asteroid belt radius from moon extraction
+    displayName: Moon Asteroid Belt Radius Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2706
+    attributeName: moonAsteroidDecayTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: Decay time for asteroid created from moon spew
+    displayName: Moon Asteroid Decay Time
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 3
+-   attributeID: 2728
+    attributeName: moonAsteroidDecayDisplayValue
+    categoryID: 4
+    defaultValue: 48.0
+    description: This attribute doesn't directly impact the asteroid decay, but is
+        used to expose the decay time to the show-info window
+    displayName: Approximate lifetime of spawned asteroids
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 129
+-   attributeID: 2713
+    attributeName: RefRigTimeBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Time Bonus for refinery rigs
+    displayName: Time Bonus
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2714
+    attributeName: RefRigMatBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: Refinery rig material bonus
+    displayName: Material Reduction Bonus
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2705
+    attributeName: moonAsteroidFieldRadius
+    categoryID: 4
+    defaultValue: 1.0
+    description: Radius of asteroid field created by moon chunk
+    displayName: Moon Asteroid Field Radius Multiplier
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 104
+-   attributeID: 2730
+    attributeName: BehaviorSiegeMissileDamageModifier
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 105

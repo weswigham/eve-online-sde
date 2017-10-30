@@ -50,7 +50,7 @@
         en: Region
         fr: Région
         ja: リージョン
-        ru: Регион
+        ru: Сектор
         zh: 星域
     published: false
     useBasePrice: false
@@ -980,7 +980,7 @@
         fr: Missiles antibalistiques
         ja: 防衛ミサイル
         ru: Противоракеты
-        zh: 轻型反弹道导弹
+        zh: 反弹道导弹基础学
     published: true
     useBasePrice: false
 89:
@@ -1521,7 +1521,7 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Geschützturmkunde Upgrade Blaupause
+        de: Waffenkunde Upgrade Blaupause
         en: Gunnery Upgrade Blueprint
         fr: Plan de construction Amélioration d'armement
         ja: 銃器アップグレードのブループリント
@@ -2421,7 +2421,7 @@
         fr: Corvette
         ja: コルベット艦
         ru: Корветы
-        zh: 新手船
+        zh: 轻型护卫舰
     published: true
     useBasePrice: false
 255:
@@ -2477,7 +2477,7 @@
         fr: Soutien de flotte
         ja: フリート支援
         ru: Поддержка флотов
-        zh: 领导学
+        zh: 舰队支援
     published: true
     useBasePrice: true
 266:
@@ -2546,7 +2546,7 @@
         en: Science
         fr: Science
         ja: サイエンス
-        ru: Ведение научных работ
+        ru: Научные дисциплины
         zh: 科学
     published: true
     useBasePrice: true
@@ -4095,11 +4095,11 @@
     fittableNonSingleton: true
     iconID: 1336
     name:
-        de: Leichte F.O.F.-Rakete
-        en: FoF Light Missile
-        fr: Missile FoF léger
+        de: Lenkwaffe mit Auto-Zielerfassung (Leicht)
+        en: Auto-Targeting Light Missile
+        fr: Missile léger à ciblage automatique
         ja: FoFライトミサイル
-        ru: Ракета малой мощности с автономной ГСН
+        ru: Лёгкая ракета с авто-наведением
         zh: FOF轻型导弹
     published: true
     useBasePrice: false
@@ -4110,11 +4110,11 @@
     fittableNonSingleton: true
     iconID: 1339
     name:
-        de: Schwere F.O.F.-Rakete
-        en: FoF Heavy Missile
-        fr: Missile FoF lourd
+        de: Lenkwaffe mit Auto-Zielerfassung (Schwer)
+        en: Auto-Targeting Heavy Missile
+        fr: Missile lourd à ciblage automatique
         ja: FoFヘビーミサイル
-        ru: Ракета большой мощности с автономной ГСН
+        ru: Тяжёлая ракета с авто-наведением
         zh: FOF重型导弹
     published: true
     useBasePrice: false
@@ -4125,11 +4125,11 @@
     fittableNonSingleton: true
     iconID: 1344
     name:
-        de: F.O.F.-Cruise-Missile
-        en: FoF Cruise Missile
-        fr: Missile FoF de croisière
+        de: Lenkwaffe mit Auto-Zielerfassung (Marschflugkörper)
+        en: Auto-Targeting Cruise Missile
+        fr: Missile de croisière à ciblage automatique
         ja: FoFクルーズミサイル
-        ru: Ракета дальнего боя с автономной ГСН
+        ru: Дальнобойная ракета с авто-наведением
         zh: FOF巡航导弹
     published: true
     useBasePrice: false
@@ -5462,7 +5462,7 @@
         en: Cosmic Signature
         fr: Signature cosmique
         ja: 宇宙のシグネチャ
-        ru: Космическая сигнатура
+        ru: Скрытый сигнал
         zh: 空间信号
     published: false
     useBasePrice: false
@@ -9825,7 +9825,7 @@
         en: Logistics
         fr: Logistique
         ja: 支援型巡洋艦
-        ru: Корабль боевого обеспечения
+        ru: Корабль обеспечения
         zh: 后勤舰
     published: true
     useBasePrice: false
@@ -10367,7 +10367,7 @@
         fr: Porte-vaisseaux République minmatar mission
         ja: ミッションミンマター共和国艦載機母艦
         ru: Корабль-носитель боевой группы Республики Minmatar
-        zh: 任务 米玛塔尔共和国舰队航空母舰
+        zh: 任务 米玛塔尔共和舰队航空母舰
     published: false
     useBasePrice: false
 870:
@@ -10710,7 +10710,7 @@
         en: Electronic Attack Ship
         fr: Vaisseau d'attaque électronique
         ja: 電子攻撃船
-        ru: Фрегат электронно-технического дозора
+        ru: Дозорный фрегат
         zh: 电子攻击舰
     published: true
     useBasePrice: false
@@ -10887,7 +10887,7 @@
         en: Combat Recon Ship
         fr: Vaisseau de reconnaissance et combat
         ja: 戦闘偵察船
-        ru: Крейсер электронно-технического дозора
+        ru: Дозорный крейсер
         zh: 战斗侦察舰
     published: true
     useBasePrice: false
@@ -11218,12 +11218,12 @@
     fittableNonSingleton: false
     iconID: 3001
     name:
-        de: Spielzeit
-        en: Game Time
-        fr: Temps de jeu
+        de: Veraltete Währung
+        en: Legacy Currency
+        fr: Ancienne unité monétaire
         ja: ゲームタイム
-        ru: Средство оплаты подписки
-        zh: 游戏月卡
+        ru: Устаревшая валюта
+        zh: 古代货币
     published: true
     useBasePrice: false
 944:
@@ -11286,16 +11286,16 @@
 955:
     anchorable: false
     anchored: false
-    categoryID: 32
+    categoryID: 17
     fittableNonSingleton: false
     name:
-        de: Elektronische Systeme
-        en: Electronic Systems
-        fr: Systèmes électroniques
+        de: Veraltete Subsysteme
+        en: Depricated Subsystems
+        fr: Sous-systèmes dévalorisés
         ja: 電子システム
-        ru: Электронные системы
-        zh: 电子系统
-    published: true
+        ru: Устаревшие подсистемы
+        zh: 废弃的子系统
+    published: false
     useBasePrice: false
 956:
     anchorable: false
@@ -11331,12 +11331,12 @@
     categoryID: 32
     fittableNonSingleton: false
     name:
-        de: Technische Systeme
-        en: Engineering Systems
-        fr: Systèmes d'ingénierie
+        de: Kernsysteme
+        en: Core Systems
+        fr: Systèmes cardinaux
         ja: エンジニアリングシステム
-        ru: Инженерные системы
-        zh: 工程系统
+        ru: Центральные системы
+        zh: 核心系统
     published: true
     useBasePrice: false
 959:
@@ -11394,7 +11394,7 @@
         en: Strategic Cruiser
         fr: Croiseur stratégique
         ja: 戦略的巡洋艦
-        ru: Крейсер стратегического назначения
+        ru: Стратегический крейсер
         zh: 战略巡洋舰
     published: true
     useBasePrice: false
@@ -11736,7 +11736,7 @@
         en: Strategic Cruiser Blueprints
         fr: Plans de construction Croiseur stratégique
         ja: 戦略的巡洋艦ブループリント
-        ru: Чертежи крейсера стратегического назначения
+        ru: Чертежи стратегического крейсера
         zh: 战略巡洋舰蓝图
     published: true
     useBasePrice: false
@@ -11794,7 +11794,7 @@
         ja: 領有権封鎖ユニット
         ru: Устройство подавления права владения
         zh: 主权干扰设施
-    published: true
+    published: false
     useBasePrice: true
 1006:
     anchorable: false
@@ -12522,7 +12522,7 @@
         fr: Couvre-chefs
         ja: ヘッドウェア
         ru: Головные уборы
-        zh: 发型
+        zh: 头饰
     published: true
     useBasePrice: false
 1093:
@@ -13506,7 +13506,7 @@
         en: Armor
         fr: Blindage
         ja: アーマー
-        ru: Защита кораблей бронёй
+        ru: Укрепление брони
         zh: 装甲
     published: true
     useBasePrice: true
@@ -14507,7 +14507,7 @@
         fr: Plan de construction Amélioration d'infrastructure
         ja: インフラストラクチャアップグレードのブループリント
         ru: Чертежи расширений инфраструктуры
-        zh: 基础设施升级组件蓝图
+        zh: 基础设施升级件蓝图
     published: true
     useBasePrice: true
 1318:
@@ -14561,10 +14561,10 @@
     name:
         de: 'Struktur: Ressourcenverarbeitung-Dienstmodul'
         en: Structure Resource Processing Service Module
-        fr: Module de service de retraitement des ressources (Structure)
+        fr: Module de service de retraitement des ressources (Structure)
         ja: ストラクチャリソース処理サービスモジュール
         ru: Служебный модуль переработки материалов
-        zh: 建筑钻探服务装备
+        zh: 建筑资源处理服务装备
     published: true
     useBasePrice: false
 1323:
@@ -14820,7 +14820,7 @@
         fr: Complexe d'ingénierie
         ja: エンジニアリング複合施設
         ru: Промышленные комплексы
-        zh: 工业阵列
+        zh: 工程复合体
     published: true
     useBasePrice: false
 1405:
@@ -14839,17 +14839,17 @@
     useBasePrice: false
 1406:
     anchorable: false
-    anchored: false
+    anchored: true
     categoryID: 65
     fittableNonSingleton: false
     name:
-        de: Bohrplattform
-        en: Drilling Platform
-        fr: Plateforme de forage
+        de: Raffinerie
+        en: Refinery
+        fr: Raffinerie
         ja: 採掘基地
-        ru: Буровая платформа
-        zh: 钻探平台
-    published: false
+        ru: Перерабатывающие комплексы
+        zh: 精炼设施
+    published: true
     useBasePrice: false
 1407:
     anchorable: false
@@ -14945,7 +14945,7 @@
         en: Amarr Navy Roaming Logistics
         fr: Vaisseau logistique itinérant de l'Amarr Navy
         ja: 巡洋中のアマー海軍支援型巡洋艦
-        ru: Свободный корабль боевого обеспечения Амаррского Флота
+        ru: Свободный корабль обеспечения Амаррского Флота
         zh: 艾玛海军游荡的后勤舰
     published: false
     useBasePrice: false
@@ -14974,7 +14974,7 @@
         fr: Module de service d'ingénierie pour structure
         ja: ストラクチャ エンジニアリングサービスモジュール
         ru: Служебные модули промышленных сооружений
-        zh: 建筑装配服务装备
+        zh: 建筑工程服务装备
     published: true
     useBasePrice: false
 1416:
@@ -15158,7 +15158,7 @@
         en: Logistics Frigate
         fr: Frégate logistique
         ja: 物資輸送フリゲート
-        ru: Фрегаты боевого обеспечения
+        ru: Фрегаты обеспечения
         zh: 后勤护卫舰
     published: true
     useBasePrice: false
@@ -15209,6 +15209,7 @@
     anchored: false
     categoryID: 6
     fittableNonSingleton: false
+    iconID: 0
     name:
         de: Kommandozerstörer
         en: Command Destroyer
@@ -16273,13 +16274,14 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation M - HS Erzaufbereitung'
-        en: Structure Resource Rig M - HS Ore Reprocessing
-        fr: Optimisation de combat M (Structure) – Retraitement minéral LNS
+        de: 'ALTE Struktur: Ressourcenmodifikation M - HS-Erzaufbereitung'
+        en: OLD Structure Resource Rig M - HS Ore Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+            des minerais de HS
         ja: ストラクチャ ― リソースリグM（HS鉱石再処理）
-        ru: Тюнинг-модуль переработки, средние сооружения - руды метрополии
+        ru: СТАРАЯ надстройка для средних сооружений — переработка руд метрополий
         zh: 建筑资源中型改装件 - HS矿石提炼
-    published: true
+    published: false
     useBasePrice: false
 1648:
     anchorable: false
@@ -16287,13 +16289,14 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation L - Erzaufbereitung'
-        en: Structure Resource Rig L - Ore Reprocessing
-        fr: Optimisation de ressource L (Structure) – Retraitement minéral
+        de: 'ALTE Struktur: Ressourcenmodifikation L - Erzaufbereitung'
+        en: OLD Structure Resource Rig L - Ore Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
+            des minerais
         ja: ストラクチャ ― リソースリグL（鉱石再処理）
-        ru: Тюнинг-модуль переработки, большие сооружения - руды
+        ru: СТАРАЯ надстройка для больших сооружений — переработка руды
         zh: 建筑资源大型改装件 - 矿石提炼
-    published: true
+    published: false
     useBasePrice: false
 1649:
     anchorable: false
@@ -16301,13 +16304,13 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation XL - Aufbereitung'
-        en: Structure Resource Rig XL - Reprocessing
-        fr: Optimisation de ressource XL (Structure) – Retraitement
+        de: 'ALTE Struktur: Ressourcenmodifikation XL - Aufbereitung'
+        en: OLD Structure Resource Rig XL - Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure XL – Retraitement
         ja: ストラクチャ ― リソースリグXL（再処理）
-        ru: Тюнинг-модуль переработки, сверхбольшие сооружения - переработка
+        ru: СТАРАЯ надстройка для сверхбольших сооружений — переработка ресурсов
         zh: 建筑资源超大型改装件 - 提炼
-    published: true
+    published: false
     useBasePrice: false
 1652:
     anchorable: false
@@ -16432,7 +16435,7 @@
         en: Stasis Grappler
         fr: Grappler de stase
         ja: ステイシスグラップラー
-        ru: Высокомощные генераторы стазис-поля
+        ru: Высокомощные стазис-индукторы
         zh: 停滞捕捉光束
     published: true
     useBasePrice: false
@@ -16698,13 +16701,15 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation M - LNS Erzaufbereitung'
-        en: Structure Resource Rig M - LNS Ore Reprocessing
-        fr: Optimisation de ressource M (Structure) – Retraitement minéral LNS
+        de: 'ALTE Struktur: Ressourcenmodifikation M - LNS-Erzaufbereitung'
+        en: OLD Structure Resource Rig M - LNS Ore Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+            des minerais de BS-SN
         ja: ストラクチャ ― リソースリグM（LNS鉱石再処理）
-        ru: Тюнинг-модуль переработки, средние сооружения - руды фронтира и «нулей»
+        ru: СТАРАЯ надстройка для средних сооружений — переработка руд фронтира и
+            нулевого сектора
         zh: 建筑资源中型改装件 - LNS矿石提炼
-    published: true
+    published: false
     useBasePrice: false
 1694:
     anchorable: false
@@ -16712,13 +16717,14 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation M - Eisaufbereitung 1'
-        en: Structure Resource Rig M - Ice 1 Reprocessing
-        fr: Optimisation de ressource M (Structure) – Retraitement de glace 1
+        de: 'ALTE Struktur: Ressourcenmodifikation M - Eisaufbereitung 1'
+        en: OLD Structure Resource Rig M - Ice 1 Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+            de la glace 1
         ja: ストラクチャ ― リソースリグM（アイス1再処理）
-        ru: Тюнинг-модуль переработки, средние сооружения - лёд 1
+        ru: СТАРАЯ надстройка для средних сооружений — переработка льда 1
         zh: 建筑资源中型改装件 - 冰矿提炼 1
-    published: true
+    published: false
     useBasePrice: false
 1695:
     anchorable: false
@@ -16726,13 +16732,14 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation M - Eisaufbereitung 2'
-        en: Structure Resource Rig M - Ice 2 Reprocessing
-        fr: Optimisation de ressource M (Structure) – Retraitement de glace 2
+        de: 'ALTE Struktur: Ressourcenmodifikation M - Eisaufbereitung 2'
+        en: OLD Structure Resource Rig M - Ice 2 Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+            de la glace 2
         ja: ストラクチャ ― リソースリグM（アイス2再処理）
-        ru: Тюнинг-модуль переработки, средние сооружения - лёд 2
+        ru: СТАРАЯ надстройка для средних сооружений — переработка льда 2
         zh: 建筑资源中型改装件 - 冰矿提炼 2
-    published: true
+    published: false
     useBasePrice: false
 1696:
     anchorable: false
@@ -16740,13 +16747,14 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: 'Struktur: Ressourcenmodifikation L - Eisaufbereitung'
-        en: Structure Resource Rig L - Ice Reprocessing
-        fr: Optimisation de ressource L (Structure) – Retraitement de glace
+        de: 'ALTE Struktur: Ressourcenmodifikation L - Eisaufbereitung'
+        en: OLD Structure Resource Rig L - Ice Reprocessing
+        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
+            de la glace
         ja: ストラクチャ ― リソースリグL（アイス再処理）
-        ru: Тюнинг-модуль переработки, большие сооружения - лёд
+        ru: СТАРАЯ надстройка для больших сооружений — переработка льда
         zh: 建筑资源大型改装件 - 冰矿提炼
-    published: true
+    published: false
     useBasePrice: false
 1697:
     anchorable: false
@@ -16898,7 +16906,7 @@
     fittableNonSingleton: false
     name:
         de: 'Struktur: Modifikation-Blaupause'
-        en: Structure  Rig Blueprint
+        en: Structure Rig Blueprint
         fr: Plan de construction Optimisation (Structure)
         ja: ストラクチャ ― リグのブループリント
         ru: Тюнинг-модули сооружений
@@ -17253,6 +17261,7 @@
         fr: ♦ Frégate d'extraction minière
         ja: ♦採掘用フリゲート
         ru: ♦ Буровые фрегаты
+        zh: ♦ 采矿护卫舰
     published: false
     useBasePrice: false
 1765:
@@ -17266,6 +17275,7 @@
         fr: ♦ Barge d'extraction minière
         ja: ♦採掘艦
         ru: ♦ Буровые корабли
+        zh: ♦ 采矿驳船
     published: false
     useBasePrice: false
 1766:
@@ -17279,6 +17289,7 @@
         fr: ♦ Exhumer
         ja: ♦特化型採掘艦
         ru: ♦ Тяжёлые буровые корабли
+        zh: ♦ 采掘者
     published: false
     useBasePrice: false
 1767:
@@ -17292,6 +17303,7 @@
         fr: ♦ Transport minier
         ja: ♦採掘用輸送業者
         ru: ♦ Буровые транспорты
+        zh: ♦ 采矿运载舰
     published: false
     useBasePrice: false
 1768:
@@ -17305,6 +17317,7 @@
         fr: Seekers du didacticiel
         ja: チュートリアルシーカー
         ru: Учебные искатели
+        zh: 教程探索者
     published: false
     useBasePrice: false
 1769:
@@ -17318,6 +17331,7 @@
         fr: Charges de salve commandante de boucliers
         ja: シールドコマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов силовой защиты
+        zh: 护盾指令脉冲波弹药
     published: true
     useBasePrice: false
 1770:
@@ -17331,6 +17345,7 @@
         fr: Salve commandante
         ja: コマンドバースト
         ru: Импульсные оптимизаторы
+        zh: 指令脉冲波
     published: true
     useBasePrice: false
 1771:
@@ -17344,6 +17359,7 @@
         fr: Charges de salve de contremaîtrise d'extraction minière
         ja: 採掘支援バーストチャージ
         ru: Заряды импульсных оптимизаторов добычи сырья
+        zh: 开采先锋脉冲波弹药
     published: true
     useBasePrice: false
 1772:
@@ -17357,6 +17373,7 @@
         fr: Charges de salve commandante de guérilla
         ja: 機動戦コマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов боевого маневрирования
+        zh: 游击战指令脉冲波弹药
     published: true
     useBasePrice: false
 1773:
@@ -17370,6 +17387,7 @@
         fr: Charges de salve commandante d'information
         ja: 情報戦コマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов мер РЭБ
+        zh: 信息指令脉冲波弹药
     published: true
     useBasePrice: false
 1774:
@@ -17383,6 +17401,7 @@
         fr: Charges de salve commandante de blindage
         ja: アーマーコマンドバーストチャージ
         ru: Брони
+        zh: 装甲指挥脉冲波弹药
     published: true
     useBasePrice: false
 1788:
@@ -17396,6 +17415,7 @@
         fr: Drifters Hidden Zenith
         ja: 隠されたゼニスのドリフターズ
         ru: Скитальцы «Скрытого зенита»
+        zh: 隐藏的天穹流浪者
     published: false
     useBasePrice: false
 1789:
@@ -17409,6 +17429,7 @@
         fr: Cuirassé amarr Hidden Zenith
         ja: 隠されたゼニスのアマー戦艦
         ru: Амаррский линкор «Скрытого зенита»
+        zh: 隐藏的天穹艾玛战列舰
     published: false
     useBasePrice: false
 1790:
@@ -17422,6 +17443,7 @@
         fr: Croiseur amarr Hidden Zenith
         ja: 隠されたゼニスのアマー巡洋艦
         ru: Амаррский крейсер «Скрытого зенита»
+        zh: 隐藏的天穹艾玛巡洋舰
     published: false
     useBasePrice: false
 1791:
@@ -17435,6 +17457,7 @@
         fr: Frégate amarr Hidden Zenith
         ja: 隠されたゼニスのアマーフリゲート
         ru: Амаррский фрегат «Скрытого зенита»
+        zh: 隐藏的天穹艾玛护卫舰
     published: false
     useBasePrice: false
 1792:
@@ -17448,6 +17471,7 @@
         fr: 'Cuirassé caldari Hidden Zenith '
         ja: '隠されたゼニスのカルダリ戦艦 '
         ru: 'Калдарский линкор «Скрытого зенита» '
+        zh: '隐藏的天穹加达里战列舰 '
     published: false
     useBasePrice: false
 1793:
@@ -17461,6 +17485,7 @@
         fr: Croiseur caldari Hidden Zenith
         ja: 隠されたゼニスのカルダリ巡洋艦
         ru: Калдарский крейсер «Скрытого зенита»
+        zh: 隐藏的天穹加达里巡洋舰
     published: false
     useBasePrice: false
 1794:
@@ -17474,6 +17499,7 @@
         fr: Frégate caldari Hidden Zenith
         ja: 隠されたゼニスのカルダリフリゲート
         ru: Калдарский фрегат «Скрытого зенита»
+        zh: 隐藏的天穹加达里护卫舰
     published: false
     useBasePrice: false
 1795:
@@ -17482,11 +17508,12 @@
     categoryID: 11
     fittableNonSingleton: false
     name:
-        de: Hidden Zenith  Gallente Schlachtschiff
-        en: Hidden Zenith  Gallente Battleship
+        de: Hidden Zenith Gallente Schlachtschiff
+        en: Hidden Zenith Gallente Battleship
         fr: Cuirassé gallente Hidden Zenith
         ja: 隠されたゼニスのガレンテ戦艦
         ru: Галлентский линкор «Скрытого зенита»
+        zh: 隐匿天穹盖伦特战列舰
     published: false
     useBasePrice: false
 1796:
@@ -17500,6 +17527,7 @@
         fr: Croiseur gallente Hidden Zenith
         ja: 隠されたゼニスのガレンテ巡洋艦
         ru: Галлентский крейсер «Скрытого зенита»
+        zh: 隐藏的天穹盖伦特巡洋舰
     published: false
     useBasePrice: false
 1797:
@@ -17513,6 +17541,7 @@
         fr: Frégate gallente Hidden Zenith
         ja: 隠されたゼニスのガレンテフリゲート
         ru: Галлентский фрегат «Скрытого зенита»
+        zh: 隐藏的天穹盖伦特护卫舰
     published: false
     useBasePrice: false
 1798:
@@ -17526,6 +17555,7 @@
         fr: Cuirassé minmatar Hidden Zenith
         ja: 隠されたゼニスのミンマター戦艦
         ru: Минматарский линкор «Скрытого зенита»
+        zh: 隐藏的天穹米玛塔尔战列舰
     published: false
     useBasePrice: false
 1799:
@@ -17539,6 +17569,7 @@
         fr: Croiseur minmatar Hidden Zenith
         ja: 隠されたゼニスのミンマター巡洋艦
         ru: Минматарский крейсер «Скрытого зенита»
+        zh: 隐藏的天穹米玛塔尔巡洋舰
     published: false
     useBasePrice: false
 1800:
@@ -17552,6 +17583,7 @@
         fr: Frégate minmatar Hidden Zenith
         ja: 隠されたゼニスのミンマターフリゲート
         ru: Минматарский фрегат «Скрытого зенита»
+        zh: 隐藏的天穹米玛塔尔护卫舰
     published: false
     useBasePrice: false
 1803:
@@ -17565,6 +17597,7 @@
         fr: ♦ Frégate
         ja: ♦フリゲート
         ru: ♦ Фрегаты
+        zh: ♦ 护卫舰
     published: false
     useBasePrice: false
 1804:
@@ -17578,6 +17611,7 @@
         fr: Capital amarr Hidden Zenith
         ja: 隠されたゼニスのアマー主力艦
         ru: Амаррский КБТ «Скрытого зенита»
+        zh: 隐藏的天穹艾玛旗舰
     published: false
     useBasePrice: false
 1805:
@@ -17591,6 +17625,7 @@
         fr: Capital caldari Hidden Zenith
         ja: 隠されたゼニスのカルダリ主力艦
         ru: Калдарский КБТ «Скрытого зенита»
+        zh: 隐藏的天穹加达里旗舰
     published: false
     useBasePrice: false
 1806:
@@ -17604,6 +17639,7 @@
         fr: Capital gallente Hidden Zenith
         ja: 隠されたゼニスのガレンテ主力艦
         ru: Галлентский КБТ «Скрытого зенита»
+        zh: 隐藏的天穹盖伦特旗舰
     published: false
     useBasePrice: false
 1807:
@@ -17617,6 +17653,7 @@
         fr: Capital minmatar Hidden Zenith
         ja: 隠されたゼニスのミンマター主力艦
         ru: Минматарский КБТ «Скрытого зенита»
+        zh: 隐藏的天穹米玛塔尔旗舰
     published: false
     useBasePrice: false
 1810:
@@ -17630,6 +17667,7 @@
         fr: Plan de construction Charges de salve commandante
         ja: コマンドバーストチャージブループリント
         ru: Чертежи зарядов импульсных оптимизаторов
+        zh: 指令脉冲波弹药蓝图
     published: true
     useBasePrice: true
 1812:
@@ -17643,6 +17681,7 @@
         fr: Plan de construction Salve de commandement
         ja: コマンドバーストのブループリント
         ru: Чертежи импульсных оптимизаторов
+        zh: 指挥脉冲波蓝图
     published: true
     useBasePrice: true
 1813:
@@ -17656,6 +17695,7 @@
         fr: ♦ Croiseur
         ja: ♦巡洋艦
         ru: ♦ Крейсеры
+        zh: ♦ 巡洋舰
     published: false
     useBasePrice: false
 1814:
@@ -17669,6 +17709,7 @@
         fr: ♦ Cuirassé
         ja: ♦戦艦
         ru: ♦ Линкоры
+        zh: ♦ 战列舰
     published: false
     useBasePrice: false
 1815:
@@ -17682,6 +17723,7 @@
         fr: Générateur d'effet pour titan
         ja: タイタンフェノメナジェネレーター
         ru: Генератор воздействия титана
+        zh: 泰坦现象发生器
     published: true
     useBasePrice: false
 1816:
@@ -17692,10 +17734,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Ausrüstung ME'
         en: Structure Engineering Rig M - Equipment ME
-        fr: Optimisation d'ingénierie M (Structure) – PM équipements
+        fr: Optimisation d'ingénierie M (Structure) – PM équipements
         ja: ストラクチャエンジニアリングリグM - 装置ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             оборудования
+        zh: 建筑工程中型改装件 - 装备材料效率
     published: true
     useBasePrice: false
 1818:
@@ -17710,6 +17753,7 @@
         fr: Coffres-forts
         ja: 金庫
         ru: Спецконтейнеры
+        zh: 保险柜
     published: true
     useBasePrice: false
 1819:
@@ -17720,10 +17764,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Ausrüstung ZE'
         en: Structure Engineering Rig M - Equipment TE
-        fr: Optimisation d'ingénierie M (Structure) – PH équipements
+        fr: Optimisation d'ingénierie M (Structure) – PH équipements
         ja: ストラクチャエンジニアリングリグM - 装置TE
         ru: Промышленный модификатор средних сооружений - скорость производства боеприпасов
             и зарядов
+        zh: 建筑工程中型改装件 - 装备时间效率
     published: true
     useBasePrice: false
 1820:
@@ -17734,10 +17779,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Munition ME'
         en: Structure Engineering Rig M - Ammunition ME
-        fr: Optimisation d'ingénierie M (Structure) – PM munitions
+        fr: Optimisation d'ingénierie M (Structure) – PM munitions
         ja: ストラクチャエンジニアリングリグM - 弾薬ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             боеприпасов и зарядов
+        zh: 建筑工程中型改装件 - 弹药材料效率
     published: true
     useBasePrice: false
 1821:
@@ -17748,10 +17794,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Munition ZE'
         en: Structure Engineering Rig M - Ammunition TE
-        fr: Optimisation d'ingénierie M (Structure) – PH munitions
+        fr: Optimisation d'ingénierie M (Structure) – PH munitions
         ja: ストラクチャエンジニアリングリグM - 弾薬TE
         ru: Промышленный модификатор средних сооружений - скорость производства боеприпасов
             и зарядов
+        zh: 建筑工程中型改装件 - 弹药时间效率
     published: true
     useBasePrice: false
 1822:
@@ -17762,10 +17809,11 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Drohnen- und Jäger ME'
         en: Structure Engineering Rig M - Drone and Fighter ME
-        fr: Optimisation d'ingénierie M (Structure) – PM drones et chasseurs
+        fr: Optimisation d'ingénierie M (Structure) – PM drones et chasseurs
         ja: ストラクチャエンジニアリングリグM - ドローンと戦闘機ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             дронов и истребителей
+        zh: 建筑工程中型改装件 - 无人机和铁骑舰载机材料效率
     published: true
     useBasePrice: false
 1823:
@@ -17776,10 +17824,11 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Drohnen- und Jäger ZE'
         en: Structure Engineering Rig M - Drone and Fighter TE
-        fr: Optimisation d'ingénierie M (Structure) – PH drones et chasseurs
+        fr: Optimisation d'ingénierie M (Structure) – PH drones et chasseurs
         ja: ストラクチャエンジニアリングリグM - ドローンと戦闘機TE
         ru: Промышленный модификатор средних сооружений - скорость производства дронов
             и истребителей
+        zh: 建筑工程中型改装件 - 无人机和铁骑舰载机时间效率
     published: true
     useBasePrice: false
 1824:
@@ -17790,10 +17839,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Kleines Standardschiff ME'
         en: Structure Engineering Rig M - Basic Small Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM petits vaisseaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PM petits vaisseaux standards
         ja: ストラクチャエンジニアリングリグM - 標準小型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             малых типовых кораблей
+        zh: 建筑工程中型改装件 - 基础小型舰船材料效率
     published: true
     useBasePrice: false
 1825:
@@ -17804,10 +17854,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Kleines Standardschiff ZE'
         en: Structure Engineering Rig M - Basic Small Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH petits vaisseaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PH petits vaisseaux standards
         ja: ストラクチャエンジニアリングリグM - 標準小型艦TE
         ru: Промышленный модификатор средних сооружений - скорость производства малых
             типовых кораблей
+        zh: 建筑工程中型改装件 - 基础小型舰船时间效率
     published: true
     useBasePrice: false
 1826:
@@ -17818,11 +17869,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Mittelgroßes Standardschiff ME'
         en: Structure Engineering Rig M - Basic Medium Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM vaisseaux intermédiaires
+        fr: Optimisation d'ingénierie M (Structure) – PM vaisseaux intermédiaires
             standards
         ja: ストラクチャエンジニアリングリグM - 標準中型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             средних типовых кораблей
+        zh: 建筑工程中型改装件 - 基础中型舰船材料效率
     published: true
     useBasePrice: false
 1827:
@@ -17833,11 +17885,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Mittelgroßes Standardschiff ZE'
         en: Structure Engineering Rig M - Basic Medium Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH vaisseaux intermédiaires
+        fr: Optimisation d'ingénierie M (Structure) – PH vaisseaux intermédiaires
             standards
         ja: ストラクチャエンジニアリングリグM - 標準中型艦TE
         ru: Промышленный модификатор средних сооружений - скорость производства средних
             типовых кораблей
+        zh: 建筑工程中型改装件 - 基础中型舰船时间效率
     published: true
     useBasePrice: false
 1828:
@@ -17848,10 +17901,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Großes Standardschiff ME'
         en: Structure Engineering Rig M - Basic Large Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM grands vaisseaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PM grands vaisseaux standards
         ja: ストラクチャエンジニアリングリグM - 標準大型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             больших типовых кораблей
+        zh: 建筑工程中型改装件 - 基础大型舰船材料效率
     published: true
     useBasePrice: false
 1829:
@@ -17862,10 +17916,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Großes Standardschiff ZE'
         en: Structure Engineering Rig M - Basic Large Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH grands vaisseaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PH grands vaisseaux standards
         ja: ストラクチャエンジニアリングリグM - 標準大型艦TE
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             больших типовых кораблей
+        zh: 建筑工程中型改装件 - 基础大型舰船时间效率
     published: true
     useBasePrice: false
 1830:
@@ -17876,10 +17931,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches kleines Schiff ME'
         en: Structure Engineering Rig M - Advanced Small Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM petits vaisseaux avancés
+        fr: Optimisation d'ingénierie M (Structure) – PM petits vaisseaux avancés
         ja: ストラクチャエンジニアリングリグM - 最新小型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             малых специализированных кораблей
+        zh: 建筑工程中型改装件 - 高级小型舰船材料效率
     published: true
     useBasePrice: false
 1831:
@@ -17890,10 +17946,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches kleines Schiff ZE'
         en: Structure Engineering Rig M - Advanced Small Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH petits vaisseaux avancés
+        fr: Optimisation d'ingénierie M (Structure) – PH petits vaisseaux avancés
         ja: ストラクチャエンジニアリングリグM - 最新小型艦TE
         ru: Промышленный модификатор средних сооружений - скорость производства малых
             специализированных кораблей
+        zh: 建筑工程中型改装件 - 高级小型舰船时间效率
     published: true
     useBasePrice: false
 1832:
@@ -17905,11 +17962,12 @@
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches mittelgroßes Schiff
             ME'
         en: Structure Engineering Rig M - Advanced Medium Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM vaisseaux intermédiaires
+        fr: Optimisation d'ingénierie M (Structure) – PM vaisseaux intermédiaires
             avancés
         ja: ストラクチャエンジニアリングリグM - 最新中型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             средних специализированных кораблей
+        zh: 建筑工程改装件中型 - 高级中型舰船材料效率
     published: true
     useBasePrice: false
 1833:
@@ -17921,11 +17979,12 @@
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches mittelgroßes Schiff
             ZE'
         en: Structure Engineering Rig M - Advanced Medium Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH vaisseaux intermédiaires
+        fr: Optimisation d'ingénierie M (Structure) – PH vaisseaux intermédiaires
             avancés
         ja: ストラクチャエンジニアリングリグM - 最新中型艦TE
         ru: Промышленный модификатор средних сооружений - скорость производства средних
             специализированных кораблей
+        zh: 建筑工程改装件中型 - 高级中型舰船时间效率
     published: true
     useBasePrice: false
 1834:
@@ -17936,10 +17995,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches großes Schiff ME'
         en: Structure Engineering Rig M - Advanced Large Ship ME
-        fr: Optimisation d'ingénierie M (Structure) – PM grands vaisseaux avancés
+        fr: Optimisation d'ingénierie M (Structure) – PM grands vaisseaux avancés
         ja: ストラクチャエンジニアリングリグM - 最新大型艦ME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             больших специализированных кораблей
+        zh: 建筑工程中型改装件 - 高级大型舰船材料效率
     published: true
     useBasePrice: false
 1835:
@@ -17950,10 +18010,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Fortschrittliches großes Schiff ZE'
         en: Structure Engineering Rig M - Advanced Large Ship TE
-        fr: Optimisation d'ingénierie M (Structure) – PH grands vaisseaux avancés
+        fr: Optimisation d'ingénierie M (Structure) – PH grands vaisseaux avancés
         ja: ストラクチャエンジニアリングリグM - 最新大型艦TE
         ru: Промышленный модификатор средних сооружений - скорость производства больших
             специализированных кораблей
+        zh: 建筑工程中型改装件 - 高级大型舰船时间效率
     published: true
     useBasePrice: false
 1836:
@@ -17964,10 +18025,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Hochentwickelte Komponente ME'
         en: Structure Engineering Rig M - Advanced Component ME
-        fr: Optimisation d'ingénierie M (Structure) – PM composants avancés
+        fr: Optimisation d'ingénierie M (Structure) – PM composants avancés
         ja: ストラクチャエンジニアリングリグM - 最新型コンポーネントME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             усовершенствованных компонентов
+        zh: 建筑工程中型改装件 - 高级组件材料效率
     published: true
     useBasePrice: false
 1837:
@@ -17978,10 +18040,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Hochentwickelte Komponente ZE'
         en: Structure Engineering Rig M - Advanced Component TE
-        fr: Optimisation d'ingénierie M (Structure) – PH composants avancés
+        fr: Optimisation d'ingénierie M (Structure) – PH composants avancés
         ja: ストラクチャエンジニアリングリグM - 最新型コンポーネントTE
         ru: Промышленный модификатор средних сооружений - скорость производства усовершенствованных
             компонентов
+        zh: 建筑工程中型改装件 - 高级组件时间效率
     published: true
     useBasePrice: false
 1838:
@@ -17992,10 +18055,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Standard-Capital-Komponente ZE'
         en: Structure Engineering Rig M - Basic Capital Component TE
-        fr: Optimisation d'ingénierie M (Structure) – PH composants capitaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PH composants capitaux standards
         ja: ストラクチャエンジニアリングリグM - 標準キャピタルコンポーネントTE
         ru: Промышленный модификатор средних сооружений - скорость производства основных
             компонентов КБТ
+        zh: 建筑工程中型改装件 - 普通旗舰组件时间效率
     published: true
     useBasePrice: false
 1839:
@@ -18006,10 +18070,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Standard-Capital-Komponente ME'
         en: Structure Engineering Rig M - Basic Capital Component ME
-        fr: Optimisation d'ingénierie M (Structure) – PM composants capitaux standards
+        fr: Optimisation d'ingénierie M (Structure) – PM composants capitaux standards
         ja: ストラクチャエンジニアリングリグM - 標準キャピタルコンポーネントME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             основных компонентов КБТ
+        zh: 建筑工程中型改装件 - 普通旗舰组件材料效率
     published: true
     useBasePrice: false
 1840:
@@ -18020,10 +18085,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Struktur ME'
         en: Structure Engineering Rig M - Structure ME
-        fr: Optimisation d'ingénierie M (Structure) – PM structures
+        fr: Optimisation d'ingénierie M (Structure) – PM structures
         ja: ストラクチャエンジニアリングリグM - ストラクチャME
         ru: Промышленный модификатор средних сооружений - материалоэффективность производства
             сооружений
+        zh: 建筑工程中型改装件 - 建筑材料效率
     published: true
     useBasePrice: false
 1841:
@@ -18034,9 +18100,10 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Struktur ZE'
         en: Structure Engineering Rig M - Structure TE
-        fr: Optimisation d'ingénierie M (Structure) – PH structures
+        fr: Optimisation d'ingénierie M (Structure) – PH structures
         ja: ストラクチャエンジニアリングリグM - ストラクチャTE
         ru: Промышленный модификатор средних сооружений - скорость производства сооружений
+        zh: 建筑工程中型改装件 - 建筑时间效率
     published: true
     useBasePrice: false
 1842:
@@ -18047,9 +18114,10 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Erfindungskostenoptimierung'
         en: Structure Engineering Rig M - Invention Cost Optimization
-        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts d'invention
+        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts d'invention
         ja: ストラクチャエンジニアリングリグM - 発明コスト最適化
         ru: Промышленный модификатор средних сооружений - оптимизация стоимости модернизации
+        zh: 建筑工程中型改装件 - 发明成本优化
     published: true
     useBasePrice: false
 1843:
@@ -18060,9 +18128,10 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Erfindungsbeschleuniger'
         en: Structure Engineering Rig M - Invention Accelerator
-        fr: Optimisation d'ingénierie M (Structure) – Accélérateur d'invention
+        fr: Optimisation d'ingénierie M (Structure) – Accélérateur d'invention
         ja: ストラクチャエンジニアリングリグM - 発明加速装置
         ru: Промышленный модификатор средних сооружений - скорость модернизации
+        zh: 建筑工程中型改装件 - 发明加速
     published: true
     useBasePrice: false
 1844:
@@ -18073,11 +18142,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - ME Forschungskostenoptimierung'
         en: Structure Engineering Rig M - ME Research Cost Optimization
-        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de recherche
+        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de recherche
             en PM
         ja: ストラクチャエンジニアリングリグM - ME研究コスト最適化
         ru: Промышленный модификатор средних сооружений - оптимизация стоимости проектов
             по повышению материалоэффективности
+        zh: 建筑工程中型改装件 - 材料效率研究成本优化
     published: true
     useBasePrice: false
 1845:
@@ -18088,11 +18158,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - ME Forschungsbeschleuniger'
         en: Structure Engineering Rig M - ME Research Accelerator
-        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de recherche en
+        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de recherche en
             PM
         ja: ストラクチャエンジニアリングリグM - ME研究加速装置
         ru: Промышленный модификатор средних сооружений - ускорение проектов по повышению
             материалоэффективности производства
+        zh: 建筑工程中型改装件 - 材料效率研究加速
     published: true
     useBasePrice: false
 1846:
@@ -18103,11 +18174,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - ZE Forschungskostenoptimierung'
         en: Structure Engineering Rig M - TE Research Cost Optimization
-        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de recherche
+        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de recherche
             en PH
         ja: ストラクチャエンジニアリングリグM - TE研究コスト最適化
         ru: Промышленный модификатор средних сооружений - оптимизация стоимости проектов
             по повышению стоимости производства
+        zh: 建筑工程中型改装件 - 时间效率研究成本优化
     published: true
     useBasePrice: false
 1847:
@@ -18118,11 +18190,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - TE Forschungsbeschleuniger'
         en: Structure Engineering Rig M - TE Research Accelerator
-        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de recherche en
+        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de recherche en
             PH
         ja: ストラクチャエンジニアリングリグM - TE研究加速装置
         ru: Промышленный модификатор средних сооружений - ускорение проектов по повышению
             скорости производства
+        zh: 建筑工程中型改装件 - 时间效率研究加速
     published: true
     useBasePrice: false
 1848:
@@ -18133,11 +18206,12 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Blaupausenkopie-Kostenoptimierung'
         en: Structure Engineering Rig M - Blueprint Copy Cost Optimization
-        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de copie
+        fr: Optimisation d'ingénierie M (Structure) – Optimisation des coûts de copie
             des plans de construction
         ja: ストラクチャエンジニアリングリグM - ブループリントコピーコスト最適化
         ru: Промышленный модификатор средних сооружений - оптимизация стоимости копирования
             чертежей
+        zh: 建筑工程中型改装件 - 蓝图拷贝成本优化
     published: true
     useBasePrice: false
 1849:
@@ -18148,10 +18222,11 @@
     name:
         de: 'Struktur: Ingenieursanlage M - Blaupausenkopie-Beschleuniger'
         en: Structure Engineering Rig M - Blueprint Copy Accelerator
-        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de copie de plan
+        fr: Optimisation d'ingénierie M (Structure) – Accélérateur de copie de plan
             de construction
         ja: ストラクチャエンジニアリングリグM - ブループリントコピー加速装置
         ru: Промышленный модификатор средних сооружений - ускорение копирования чертежей
+        zh: 建筑工程中型改装件 - 蓝图拷贝加速
     published: true
     useBasePrice: false
 1850:
@@ -18162,10 +18237,11 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Ausrüstungseffizienz'
         en: Structure Engineering Rig L - Equipment Efficiency
-        fr: Optimisation d'ingénierie M (Structure) – Efficacité industrielle équipements
+        fr: Optimisation d'ingénierie M (Structure) – Efficacité industrielle équipements
         ja: ストラクチャエンジニアリングリグL - 装置効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             оборудования
+        zh: 建筑工程大型改装件 - 装备效率
     published: true
     useBasePrice: false
 1851:
@@ -18176,10 +18252,11 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Munitionseffizienz'
         en: Structure Engineering Rig L - Ammunition Efficiency
-        fr: Optimisation d'ingénierie M (Structure) – Efficacité industrielle munitions
+        fr: Optimisation d'ingénierie M (Structure) – Efficacité industrielle munitions
         ja: ストラクチャエンジニアリングリグL - 弾薬効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             боеприпасов и зарядов
+        zh: 建筑工程大型改装件 - 弹药效率
     published: true
     useBasePrice: false
 1852:
@@ -18190,11 +18267,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Drohnen- und Jägereffizienz'
         en: Structure Engineering Rig L - Drone and Fighter Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle drones
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle drones
             et chasseurs
         ja: ストラクチャエンジニアリングリグL - ドローンと戦闘機効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             дронов и истребителей
+        zh: 建筑工程大型改装件 - 无人机和铁骑舰载机效率
     published: true
     useBasePrice: false
 1853:
@@ -18205,11 +18283,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz kleiner Standardschiffe'
         en: Structure Engineering Rig L - Basic Small Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle petits
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle petits
             vaisseaux standards
         ja: ストラクチャエンジニアリングリグL - 標準小型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             малых типовых кораблей
+        zh: 建筑工程大型改装件 - 基础小型舰船效率
     published: true
     useBasePrice: false
 1854:
@@ -18220,11 +18299,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz mittelgroßer Standardschiffe'
         en: Structure Engineering Rig L - Basic Medium Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
             intermédiaires standards
         ja: ストラクチャエンジニアリングリグL - 標準中型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             средних типовых кораблей
+        zh: 建筑工程大型改装件 - 基础中型舰船效率
     published: true
     useBasePrice: false
 1855:
@@ -18235,11 +18315,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz großer Standardschiffe'
         en: Structure Engineering Rig L - Basic Large Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle grands
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle grands
             vaisseaux standards
         ja: ストラクチャエンジニアリングリグL - 標準大型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             больших типовых кораблей
+        zh: 建筑工程大型改装件 - 基础大型舰船效率
     published: true
     useBasePrice: false
 1856:
@@ -18250,11 +18331,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz kleiner fortschrittlicher Schiffe'
         en: Structure Engineering Rig L - Advanced Small Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle petits
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle petits
             vaisseaux avancés
         ja: ストラクチャエンジニアリングリグL - 最新小型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             малых типовых кораблей
+        zh: 建筑工程大型改装件 - 高级小型舰船效率
     published: true
     useBasePrice: false
 1857:
@@ -18266,11 +18348,12 @@
         de: 'Struktur: Ingenieursanlage L - Effizienz mittelgroßer fortschrittlicher
             Schiffe'
         en: Structure Engineering Rig L - Advanced Medium Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
             intermédiaires avancés
         ja: ストラクチャエンジニアリングリグL - 最新中型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             средних специализированных кораблей
+        zh: 建筑工程大型改装件 - 高级中型舰船效率
     published: true
     useBasePrice: false
 1858:
@@ -18281,11 +18364,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz großer fortschrittlicher Schiffe'
         en: Structure Engineering Rig L - Advanced Large Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle grands
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle grands
             vaisseaux avancés
         ja: ストラクチャエンジニアリングリグL - 最新大型艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             специализированных больших кораблей
+        zh: 建筑工程大型改装件 - 高级大型舰船效率
     published: true
     useBasePrice: false
 1859:
@@ -18296,11 +18380,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Capital-Schiffseffizienz'
         en: Structure Engineering Rig L - Capital Ship Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle vaisseaux
             capitaux
         ja: ストラクチャエンジニアリングリグL - 母艦効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             КБТ
+        zh: 建筑工程大型改装件 - 旗舰效率
     published: true
     useBasePrice: false
 1860:
@@ -18311,11 +18396,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz hochentwickelter Komponenten'
         en: Structure Engineering Rig L - Advanced Component Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle composants
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle composants
             avancés
         ja: ストラクチャエンジニアリングリグL - 最新型コンポーネント効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             усовершенствованных компонентов
+        zh: 建筑工程大型改装件 - 高级组件效率
     published: true
     useBasePrice: false
 1861:
@@ -18326,11 +18412,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Effizienz von Standard-Capital-Komponenten'
         en: Structure Engineering Rig L - Basic Capital Component Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle composants
+        fr: Optimisation d'ingénierie L (Structure) – Efficience industrielle composants
             capitaux standards
         ja: ストラクチャエンジニアリングリグL - 標準型キャピタルコンポーネント効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             типовых компонентов КБТ
+        zh: 建筑工程大型改装件 - 基础旗舰组件效率
     published: true
     useBasePrice: false
 1862:
@@ -18341,10 +18428,11 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Struktureffizienz'
         en: Structure Engineering Rig L - Structure Efficiency
-        fr: Optimisation d'ingénierie L (Structure) – Efficacité industrielle structures
+        fr: Optimisation d'ingénierie L (Structure) – Efficacité industrielle structures
         ja: ストラクチャエンジニアリングリグL - ストラクチャ効率
         ru: Промышленный модификатор больших сооружений - эффективность производства
             сооружений
+        zh: 建筑工程大型改装件 - 建筑效率
     published: true
     useBasePrice: false
 1863:
@@ -18355,9 +18443,10 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Erfindungsoptimierung'
         en: Structure Engineering Rig L - Invention Optimization
-        fr: Optimisation d'ingénierie L (Structure) – Optimisation d'invention
+        fr: Optimisation d'ingénierie L (Structure) – Optimisation d'invention
         ja: ストラクチャエンジニアリングリグL - 発明最適化
         ru: Промышленный модификатор больших сооружений - оптимизация модернизации
+        zh: 建筑工程大型改装件 - 发明优化
     published: true
     useBasePrice: false
 1864:
@@ -18368,11 +18457,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - ME Forschungsoptimierung'
         en: Structure Engineering Rig L - ME Research Optimization
-        fr: Optimisation d'ingénierie L (Structure) – Optimisation de recherche en
+        fr: Optimisation d'ingénierie L (Structure) – Optimisation de recherche en
             PM
         ja: ストラクチャエンジニアリングリグL - ME研究最適化
         ru: Промышленный модификатор больших сооружений - оптимизация проектов по
             повышению материалоэффективности
+        zh: 建筑工程大型改装件 - 材料效率研究优化
     published: true
     useBasePrice: false
 1865:
@@ -18383,11 +18473,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - ZE Forschungsoptimierung'
         en: Structure Engineering Rig L - TE Research Optimization
-        fr: Optimisation d'ingénierie L (Structure) – Optimisation de recherche en
+        fr: Optimisation d'ingénierie L (Structure) – Optimisation de recherche en
             PH
         ja: ストラクチャエンジニアリングリグL - TE研究最適化
         ru: Промышленный модификатор больших сооружений - оптимизация проектов по
             повышению скорости производства
+        zh: 建筑工程大型改装件 - 时间效率研究优化
     published: true
     useBasePrice: false
 1866:
@@ -18398,11 +18489,12 @@
     name:
         de: 'Struktur: Ingenieursanlage L - Blaupausenkopie-Optimierung'
         en: Structure Engineering Rig L - Blueprint Copy Optimization
-        fr: Optimisation d'ingénierie L (Structure) – Optimisation des copies de plans
+        fr: Optimisation d'ingénierie L (Structure) – Optimisation des copies de plans
             de construction
         ja: ストラクチャエンジニアリングリグL - ブループリントコピー最適化
         ru: Промышленный модификатор больших сооружений - оптимизация копирования
             чертежей
+        zh: 建筑工程大型改装件 - 蓝图拷贝优化
     published: true
     useBasePrice: false
 1867:
@@ -18413,11 +18505,12 @@
     name:
         de: 'Struktur: Ingenieursanlage XL - Ausrüstungs- und Kosumgütereffizienz'
         en: Structure Engineering Rig XL - Equipment and Consumable Efficiency
-        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle équipements
+        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle équipements
             et consommables
         ja: ストラクチャエンジニアリングリグXL - 機材と消耗品効率
         ru: Промышленный модификатор сверхбольших сооружений - эффективность производства
             оборудования и расходников
+        zh: 建筑工程超大型改装件 - 装备和消费品效率
     published: true
     useBasePrice: false
 1868:
@@ -18428,10 +18521,11 @@
     name:
         de: 'Struktur: Ingenieursanlage XL - Schiffseffizienz'
         en: Structure Engineering Rig XL - Ship Efficiency
-        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle vaisseaux
+        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle vaisseaux
         ja: ストラクチャエンジニアリングリグXL - 艦船効率
         ru: Промышленный модификатор сверхбольших сооружений - эффективность производства
             кораблей
+        zh: 建筑工程超大型改装件 - 舰船效率
     published: true
     useBasePrice: false
 1869:
@@ -18442,11 +18536,12 @@
     name:
         de: 'Struktur: Ingenieursanlage XL - Ausrüstungs- und Komponenteneffizienz'
         en: Structure Engineering Rig XL - Structure and Component Efficiency
-        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle structures
+        fr: Optimisation d'ingénierie XL (Structure) – Efficience industrielle structures
             et composants
         ja: ストラクチャエンジニアリングリグXL - ストラクチャとコンポーネント効率
         ru: Промышленный модификатор сверхбольших сооружений - эффективность производства
             сооружений и компонентов
+        zh: 建筑工程超大型改装件 - 建筑和组件效率
     published: true
     useBasePrice: false
 1870:
@@ -18457,9 +18552,591 @@
     name:
         de: 'Struktur: Ingenieursanlage XL - Laboroptimierung'
         en: Structure Engineering Rig XL - Laboratory Optimization
-        fr: Optimisation d'ingénierie XL (Structure) – Optimisation des laboratoires
+        fr: Optimisation d'ingénierie XL (Structure) – Optimisation des laboratoires
         ja: ストラクチャエンジニアリングリグXL - 研究施設最適化
         ru: Промышленный модификатор сверхбольших сооружений - оптимизация проектов
+        zh: 建筑工程超大型改装件 - 实验室优化
+    published: true
+    useBasePrice: false
+1872:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Struktureinheiten
+        en: Structure Entities
+        fr: Entités de structure
+        ja: ストラクチャーエンティティ
+        ru: Сооружения
+        zh: 建筑实体
+    published: false
+    useBasePrice: false
+1875:
+    anchorable: false
+    anchored: false
+    categoryID: 5
+    fittableNonSingleton: false
+    name:
+        de: PLEX
+        en: PLEX
+        fr: PLEX
+        ru: Плексы
+        zh: PLEX
+    published: true
+    useBasePrice: false
+1876:
+    anchorable: false
+    anchored: false
+    categoryID: 65
+    fittableNonSingleton: false
+    name:
+        de: ♦ Ingenieurskomplex
+        en: ♦ Engineering Complex
+        fr: ♦ Complexe d'ingénierie
+        ja: ♦エンジニアリング複合施設
+        ru: ♦ Engineering Complex
+        zh: ♦ 工程复合体
+    published: false
+    useBasePrice: false
+1878:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: ♦ Titan
+        en: ♦ Titan
+        fr: ♦ Titan
+        ru: ♦ Титаны
+        zh: ♦ 泰坦
+    published: false
+    useBasePrice: false
+1879:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: ♦ Truppenunterstützer
+        en: ♦ Force Auxiliary
+        fr: ♦ Force auxiliaire
+        ru: ♦ Вспомогательные КБТ
+        zh: ♦ 战力辅助舰
+    published: false
+    useBasePrice: false
+1880:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: ♦ Dreadnought
+        en: ♦ Dreadnought
+        fr: ♦ Dreadnought
+        ru: ♦ Дредноуты
+        zh: ♦ 无畏舰
+    published: false
+    useBasePrice: false
+1882:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: MassiveEnvironments
+        en: MassiveEnvironments
+        fr: Environnements massifs
+        ru: Массивные среды
+        zh: 宏观环境
+    published: false
+    useBasePrice: false
+1884:
+    anchorable: false
+    anchored: true
+    categoryID: 25
+    fittableNonSingleton: false
+    iconID: 15
+    name:
+        de: Verbreitete Mondasteroiden
+        en: Ubiquitous Moon Asteroids
+        fr: Astéroïdes lunaires ubiques
+        ru: Повсеместные лунные астероиды
+        zh: 卫星小行星
+    published: true
+    useBasePrice: false
+1886:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    iconID: 0
+    name:
+        de: Technische Datenchips
+        en: Technical Data Chips
+        fr: Puces de données techniques
+        ru: Технические ключ-схемы
+        zh: 技术数据芯片
+    published: true
+    useBasePrice: false
+1887:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Struktur - Mond-Bohrdienstmodul
+        en: Structure Moon Drilling Service Module
+        fr: Module de service pour structure Foreuse lunaire
+        ru: Сооружения - служебные модули бурения лун
+        zh: 建筑卫星钻探服务装备
+    published: true
+    useBasePrice: false
+1888:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Komposit-Reaktionsformeln
+        en: Composite Reaction Formulas
+        fr: Formules de réaction composite
+        ru: Формулы композитных реакций
+        zh: 复合反应蓝图
+    published: true
+    useBasePrice: true
+1889:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Polymer-Reaktionsformeln
+        en: Polymer Reaction Formulas
+        fr: Formules de réaction polymère
+        ru: Формулы полимерных реакций
+        zh: 聚合物反应蓝图
+    published: true
+    useBasePrice: true
+1890:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Biochemische Reaktionsformeln
+        en: Biochemical Reaction Formulas
+        fr: Formules de réaction biochimique
+        ru: Формулы биохимических реакций
+        zh: 生化反应蓝图
+    published: true
+    useBasePrice: true
+1891:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupausen für veraltete Subsysteme
+        en: Depricated Subsystem Blueprints
+        fr: Plans de construction Sous-systèmes dévalorisés
+        ru: Чертежи устаревших подсистем
+        zh: 废弃的子系统蓝图
+    published: false
+    useBasePrice: false
+1894:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    iconID: 0
+    name:
+        de: Nicht wiederholbare Verstärker
+        en: Non-Repeating Hardeners
+        fr: Renforts sans répétition
+        ru: Укрепители без повтора
+        zh: 非循环增强器
+    published: false
+    useBasePrice: false
+1895:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Eventschiffe
+        en: Event Ships
+        fr: Vaisseaux événementiels
+        ru: Корабли событий
+        zh: 活动舰船
+    published: false
+    useBasePrice: false
+1896:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: '♦ Industrie-Kommandoschiff '
+        en: '♦ Industrial Command '
+        fr: ♦ Commandement industriel
+        ru: '♦ Буровой корабль '
+        zh: ♦ 货舰
+    published: false
+    useBasePrice: false
+1909:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: ♦ Schlachtkreuzer
+        en: ♦ Battlecruiser
+        fr: ♦ Croiseur de bataille
+        ru: ♦ Линейный крейсер
+        zh: ♦ 资源战争帝国战列巡洋舰
+    published: false
+    useBasePrice: false
+1911:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name:
+        de: Asteroiden des Imperiums
+        en: Empire Asteroids
+        fr: Astéroïdes impériaux
+        ru: Астероиды метрополии
+    published: false
+    useBasePrice: false
+1912:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Struktur - Bohranlage M - Effizienz
+        en: Structure Drilling Rig M - Efficiency
+        fr: Optimisation de forage pour structure M – Efficience
+        ru: Буровой модификатор средних сооружений - эффективность
+    published: true
+    useBasePrice: false
+1913:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Struktur - Bohranlage M - Stabilität
+        en: Structure Drilling Rig M - Stability
+        fr: Optimisation de forage pour structure M – Stabilité
+        ru: Буровой модификатор средних сооружений - стабильность
+    published: true
+    useBasePrice: false
+1914:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Struktur - Bohranlage L - Fertigkeit
+        en: Structure Drilling Rig L - Proficiency
+        fr: Optimisation de forage pour structure L – Savoir-faire
+        ru: Буровой модуль больших сооружений - мастерство
+    published: true
+    useBasePrice: false
+1915:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Mond-Bergbausignalfeuer
+        en: Moon Mining Beacon
+        fr: Balise d'extraction lunaire
+        ru: Маяк лунной добычи
+    published: false
+    useBasePrice: false
+1920:
+    anchorable: false
+    anchored: true
+    categoryID: 25
+    fittableNonSingleton: false
+    iconID: 15
+    name:
+        de: Gewöhnliche Mondasteroiden
+        en: Common Moon Asteroids
+        fr: Astéroïdes lunaires communs
+        ru: Обычные лунные астероиды
+    published: true
+    useBasePrice: false
+1921:
+    anchorable: false
+    anchored: true
+    categoryID: 25
+    fittableNonSingleton: false
+    iconID: 15
+    name:
+        de: Ungewöhnliche Mondasteroiden
+        en: Uncommon Moon Asteroids
+        fr: Astéroïdes lunaires sporadiques
+        ru: Необычные лунные астероиды
+    published: true
+    useBasePrice: false
+1922:
+    anchorable: false
+    anchored: true
+    categoryID: 25
+    fittableNonSingleton: false
+    iconID: 15
+    name:
+        de: Seltene Mondasteroiden
+        en: Rare Moon Asteroids
+        fr: Astéroïdes lunaires rares
+        ru: Редкие лунные астероиды
+    published: true
+    useBasePrice: false
+1923:
+    anchorable: false
+    anchored: true
+    categoryID: 25
+    fittableNonSingleton: false
+    iconID: 15
+    name:
+        de: Außerordentliche Mondasteroiden
+        en: Exceptional Moon Asteroids
+        fr: Astéroïdes lunaires exceptionnels
+        ru: Исключительные лунные астероиды
+    published: true
+    useBasePrice: false
+1924:
+    anchorable: false
+    anchored: false
+    categoryID: 65
+    fittableNonSingleton: false
+    name:
+        de: ♦ Einsatzbasis
+        en: ♦ Forward Operating Base
+        fr: ♦ Base d'opérations avancée
+        ru: ♦ Передовая база
+    published: false
+    useBasePrice: false
+1925:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Event-Fregatte
+        en: Sleeper Event Frigate
+        fr: Frégate de l’événement sleeper
+        ru: Фрегат события «Спящие»
+    published: false
+    useBasePrice: false
+1926:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Event-Zerstörer
+        en: Sleeper Event Destroyer
+        fr: Destroyer de l’événement sleeper
+        ru: Эсминец события «Спящие»
+    published: false
+    useBasePrice: false
+1927:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Event-Kreuzer
+        en: Sleeper Event Cruiser
+        fr: Croiseur de l’événement sleeper
+        ru: Крейсер события «Спящие»
+    published: false
+    useBasePrice: false
+1928:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Event-Schlachtkreuzer
+        en: Sleeper Event Battlecruiser
+        fr: Croiseur de bataille de l’événement sleeper
+        ru: Линейный крейсер события «Спящие»
+    published: false
+    useBasePrice: false
+1929:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Event-Schlachtschiff
+        en: Sleeper Event Battleship
+        fr: Cuirassé de l’événement sleeper
+        ru: Линкор события «Спящие»
+    published: false
+    useBasePrice: false
+1933:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Komposit-Reaktoranlage M - Zeiteffizienz'
+        en: Structure Composite Reactor Rig M - TE
+        fr: Optimisation de réacteur composite pour structure M – PH
+        ru: 'Надстройка для средних сооружений — композитный реактор: скорость производства'
+    published: true
+    useBasePrice: false
+1934:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Komposit-Reaktoranlage M - Materialeffizienz'
+        en: Structure Composite Reactor Rig M - ME
+        fr: Optimisation de réacteur composite pour structure M – PM
+        ru: 'Надстройка для средних сооружений — композитный реактор: материалоэффективность'
+    published: true
+    useBasePrice: false
+1935:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Hybridreaktoranlage M - Zeiteffizienz'
+        en: Structure Hybrid Reactor Rig M - TE
+        fr: Optimisation de réacteur hybride pour structure M – PH
+        ru: 'Надстройка для средних сооружений — гибридный реактор: скорость производства'
+    published: true
+    useBasePrice: false
+1936:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Hybridreaktoranlage M - Materialeffizienz'
+        en: Structure Hybrid Reactor Rig M - ME
+        fr: Optimisation de réacteur hybride pour structure M – PM
+        ru: 'Надстройка для средних сооружений — гибридный реактор: материалоэффективность'
+    published: true
+    useBasePrice: false
+1937:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Biochemische Reaktoranlage M - Zeiteffizienz'
+        en: Structure Biochemical Reactor Rig M - TE
+        fr: Optimisation de réacteur biochimique pour structure M – PH
+        ru: 'Надстройка для средних сооружений — биохимический реактор: скорость производства'
+    published: true
+    useBasePrice: false
+1938:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Biochemische Reaktoranlage M - Materialeffizienz'
+        en: Structure Biochemical Reactor Rig M - ME
+        fr: Optimisation de réacteur biochimique pour structure M – PM
+        ru: 'Надстройка для средних сооружений — биохимический реактор: материалоэффективность'
+    published: true
+    useBasePrice: false
+1939:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Reaktoranlage L - Effizienz'
+        en: Structure Reactor Rig L - Efficiency
+        fr: Optimisation de réacteur pour structure L – Efficacité industrielle
+        ru: 'Надстройка для больших сооружений — реактор: эффективность'
+    published: true
+    useBasePrice: false
+1940:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Mondbrocken
+        en: Moon Chunk
+        fr: Monolithe de lune
+        ru: Порода спутника
+    published: false
+    useBasePrice: false
+1941:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Ressourcenmodifikation M - Asteroidenerzaufbereitung'
+        en: Structure Resource Rig M - Asteroid Ore Reprocessing
+        fr: Optimisation des ressources pour structure M – Retraitement des minerais
+            astéroïdaux
+        ru: Надстройка для средних сооружений — переработка руды со спутников
+    published: true
+    useBasePrice: false
+1942:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Ressourcenmodifikation M - Eisaufbereitung'
+        en: Structure Resource Rig M - Ice Reprocessing
+        fr: Optimisation des ressources pour structure M – Retraitement de la glace
+        ru: Надстройка для средних сооружений — переработка льда
+    published: true
+    useBasePrice: false
+1943:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Ressourcenmodifikation M - Monderzaufbereitung'
+        en: Structure Resource Rig M - Moon Ore Reprocessing
+        fr: Optimisation des ressources pour structure M – Retraitement des minerais
+            lunaires
+        ru: Надстройка для средних сооружений — переработка руды с астероидов
+    published: true
+    useBasePrice: false
+1944:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Ressourcenmodifikation L - Aufbereitung'
+        en: Structure Resource Rig L - Reprocessing
+        fr: Optimisation des ressources pour structure L – Retraitement
+        ru: Надстройка для больших сооружений — переработка ресурсов
+    published: true
+    useBasePrice: false
+1945:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: 'Struktur: Ressourcenmodifikation XL - Aufbereitung'
+        en: Structure Resource Rig XL - Reprocessing
+        fr: Optimisation des ressources pour structure XL – Retraitement
+        ru: Тюнинг-модуль переработки, сверхбольшие сооружения - переработка
     published: true
     useBasePrice: false
 350858:

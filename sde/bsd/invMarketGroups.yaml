@@ -3,7 +3,7 @@
     hasTypes: false
     iconID: 2703
     marketGroupID: 2
-    marketGroupName: Blueprints
+    marketGroupName: Blueprints & Reactions
 -   description: Capsuleer spaceships of all sizes and roles, including advanced and
         faction variants of many hull types
     hasTypes: false
@@ -66,7 +66,7 @@
     hasTypes: false
     iconID: 1277
     marketGroupID: 54
-    marketGroupName: Ore
+    marketGroupName: Standard Ores
     parentGroupID: 1031
 -   description: Hybrid turrets are specifically designed to house railguns and blasters.
     hasTypes: false
@@ -1441,53 +1441,29 @@
     marketGroupID: 1627
     marketGroupName: Gallente Subsystems
     parentGroupID: 1112
--   description: Gallente Electronic Subsystems
-    hasTypes: true
-    iconID: 3626
-    marketGroupID: 1628
-    marketGroupName: Gallente Electronic Subsystems
-    parentGroupID: 1627
--   description: Minmatar Electronic Subsystems
-    hasTypes: true
-    iconID: 3626
-    marketGroupID: 1629
-    marketGroupName: Minmatar Electronic Subsystems
-    parentGroupID: 1626
--   description: Caldari Electronic Subsystems
-    hasTypes: true
-    iconID: 3626
-    marketGroupID: 1630
-    marketGroupName: Caldari Electronic Subsystems
-    parentGroupID: 1625
--   description: Amarr Electronic Subsystems
-    hasTypes: true
-    iconID: 3626
-    marketGroupID: 1611
-    marketGroupName: Amarr Electronic Subsystems
-    parentGroupID: 1610
--   description: Amarr engineering subsystems.
+-   description: Amarr core subsystems.
     hasTypes: true
     iconID: 3636
     marketGroupID: 1122
-    marketGroupName: Amarr Engineering Subsystems
+    marketGroupName: Amarr Core Subsystems
     parentGroupID: 1610
--   description: Caldari engineering subsystems.
+-   description: Caldari core subsystems.
     hasTypes: true
     iconID: 3636
     marketGroupID: 1123
-    marketGroupName: Caldari Engineering Subsystems
+    marketGroupName: Caldari Core Subsystems
     parentGroupID: 1625
--   description: Gallente engineering subsystems.
+-   description: Gallente core subsystems.
     hasTypes: true
     iconID: 3636
     marketGroupID: 1124
-    marketGroupName: Gallente Engineering Subsystems
+    marketGroupName: Gallente Core Subsystems
     parentGroupID: 1627
--   description: Minmatar engineering subsystems.
+-   description: Minmatar core subsystems.
     hasTypes: true
     iconID: 3636
     marketGroupID: 1125
-    marketGroupName: Minmatar Engineering Subsystems
+    marketGroupName: Minmatar Core Subsystems
     parentGroupID: 1626
 -   description: Amarr defensive subsystems.
     hasTypes: true
@@ -3759,12 +3735,6 @@
     marketGroupID: 366755
     marketGroupName: Prototype
     parentGroupID: 366752
--   description: Chemical reactions used in starbases to create many useful materials,
-        as well as various booster drugs
-    hasTypes: false
-    iconID: 2665
-    marketGroupID: 1849
-    marketGroupName: Reactions
 -   description: Chemical processes through which raw materials are made into compounds
     hasTypes: true
     iconID: 2665
@@ -3808,7 +3778,7 @@
     hasTypes: true
     iconID: 2554
     marketGroupID: 1855
-    marketGroupName: Ice Ore
+    marketGroupName: Ice Ores
     parentGroupID: 1031
 -   description: Various compounds composed of asteroid ores.
     hasTypes: true
@@ -4248,11 +4218,11 @@
     marketGroupID: 1572
     marketGroupName: Warp Disruption Field Generators
     parentGroupID: 1566
--   description: Tracking Disruptors
+-   description: Weapon Disruptors
     hasTypes: true
     iconID: 2703
     marketGroupID: 1574
-    marketGroupName: Tracking Disruptors
+    marketGroupName: Weapon Disruptors
     parentGroupID: 1566
 -   description: ECCM
     hasTypes: true
@@ -7463,11 +7433,11 @@
     marketGroupID: 679
     marketGroupName: Remote Sensor Dampeners
     parentGroupID: 657
--   description: Disrupt the turret range and tracking speed of the target ship.
+-   description: Weapon Disruptors
     hasTypes: true
     iconID: 1639
     marketGroupID: 680
-    marketGroupName: Tracking Disruptors
+    marketGroupName: Weapon Disruptors
     parentGroupID: 657
 -   description: Reduces the sensors' vulnerability to gravimetric jamming.
     hasTypes: true
@@ -10058,24 +10028,9 @@
     parentGroupID: 1962
 -   hasTypes: true
     iconID: 20959
-    marketGroupID: 1974
-    marketGroupName: Amarr
-    parentGroupID: 1970
--   hasTypes: true
-    iconID: 20959
-    marketGroupID: 1980
-    marketGroupName: Amarr
-    parentGroupID: 1971
--   hasTypes: true
-    iconID: 20959
     marketGroupID: 1984
     marketGroupName: Amarr
     parentGroupID: 1972
--   hasTypes: true
-    iconID: 20959
-    marketGroupID: 1978
-    marketGroupName: Amarr
-    parentGroupID: 1973
 -   hasTypes: true
     iconID: 20959
     marketGroupID: 2002
@@ -10086,16 +10041,6 @@
     marketGroupID: 1965
     marketGroupName: Caldari
     parentGroupID: 1962
--   hasTypes: true
-    iconID: 20966
-    marketGroupID: 1975
-    marketGroupName: Caldari
-    parentGroupID: 1970
--   hasTypes: true
-    iconID: 20966
-    marketGroupID: 1981
-    marketGroupName: Caldari
-    parentGroupID: 1971
 -   hasTypes: true
     iconID: 20966
     marketGroupID: 1985
@@ -10113,24 +10058,9 @@
     parentGroupID: 1962
 -   hasTypes: true
     iconID: 20967
-    marketGroupID: 1976
-    marketGroupName: Gallente
-    parentGroupID: 1970
--   hasTypes: true
-    iconID: 20967
-    marketGroupID: 1982
-    marketGroupName: Gallente
-    parentGroupID: 1971
--   hasTypes: true
-    iconID: 20967
     marketGroupID: 1986
     marketGroupName: Gallente
     parentGroupID: 1972
--   hasTypes: true
-    iconID: 20967
-    marketGroupID: 1979
-    marketGroupName: Gallente
-    parentGroupID: 1973
 -   hasTypes: true
     iconID: 20967
     marketGroupID: 2004
@@ -10141,16 +10071,6 @@
     marketGroupID: 1967
     marketGroupName: Minmatar
     parentGroupID: 1962
--   hasTypes: true
-    iconID: 20968
-    marketGroupID: 1977
-    marketGroupName: Minmatar
-    parentGroupID: 1970
--   hasTypes: true
-    iconID: 20968
-    marketGroupID: 1983
-    marketGroupName: Minmatar
-    parentGroupID: 1971
 -   hasTypes: true
     iconID: 20968
     marketGroupID: 1987
@@ -10747,16 +10667,6 @@
     marketGroupID: 1950
     marketGroupName: ORE
     parentGroupID: 766
--   hasTypes: true
-    iconID: 20966
-    marketGroupID: 2092
-    marketGroupName: Caldari
-    parentGroupID: 1973
--   hasTypes: true
-    iconID: 20968
-    marketGroupID: 2093
-    marketGroupName: Minmatar
-    parentGroupID: 1973
 -   hasTypes: false
     iconID: 21420
     marketGroupID: 2094
@@ -10916,18 +10826,20 @@
     marketGroupID: 2115
     marketGroupName: Special Edition Heavy Interdiction Cruisers
     parentGroupID: 1612
--   description: Services available to capsuleers include Pilot's License Extensions
-        (PLEX), Multiple Pilot Training and Pilot's Body Resculpt Certificates
+-   description: Services available to capsuleers include PLEX, Multiple Pilot Training,
+        Pilot's Body Resculpt Certificates, and Skill Trading items
     hasTypes: false
     iconID: 21481
     marketGroupID: 1922
     marketGroupName: Pilot's Services
--   description: Special ISK-priced capsuleering licenses offered as an alternative
-        to regular piloting contracts
+-   description: PLEX is an item that can be traded between players on the regional
+        market. PLEX can also be used in the New Eden Store to upgrade your account
+        to Omega Clone State,  purchase virtual goods, and activate other account
+        services.
     hasTypes: true
     iconID: 21481
     marketGroupID: 1923
-    marketGroupName: Pilot's License Extensions (PLEX)
+    marketGroupName: PLEX
     parentGroupID: 1922
 -   hasTypes: false
     iconID: 21420
@@ -11060,7 +10972,7 @@
     marketGroupID: 2133
     marketGroupName: Minmatar
     parentGroupID: 2125
--   description: Skills pertaining to the efficient use of player owned structures.
+-   description: Skills pertaining to the efficient use of player owned structures
     hasTypes: true
     iconID: 33
     marketGroupID: 2152
@@ -11102,11 +11014,11 @@
     marketGroupID: 2159
     marketGroupName: Structure Combat Rigs
     parentGroupID: 2157
--   description: Blueprints for structure reprocessing rigs.
+-   description: Blueprints for structure reprocessing and reactions rigs.
     hasTypes: true
     iconID: 2703
     marketGroupID: 2160
-    marketGroupName: Structure Reprocessing Rigs
+    marketGroupName: Structure Resource Processing Rigs
     parentGroupID: 2157
 -   hasTypes: false
     iconID: 2703
@@ -11157,11 +11069,6 @@
     iconID: 2703
     marketGroupID: 2170
     marketGroupName: Target Painters
-    parentGroupID: 2161
--   hasTypes: true
-    iconID: 2703
-    marketGroupID: 2171
-    marketGroupName: Tracking Disruptors
     parentGroupID: 2161
 -   hasTypes: true
     iconID: 2703
@@ -11216,7 +11123,7 @@
 -   hasTypes: true
     iconID: 2703
     marketGroupID: 2182
-    marketGroupName: Reprocessing Service Modules
+    marketGroupName: Resource Processing Service Modules
     parentGroupID: 2166
 -   hasTypes: true
     iconID: 2703
@@ -11344,11 +11251,6 @@
     marketGroupName: Target Painters
     parentGroupID: 2206
 -   hasTypes: true
-    iconID: 1639
-    marketGroupID: 2215
-    marketGroupName: Tracking Disruptors
-    parentGroupID: 2206
--   hasTypes: true
     iconID: 111
     marketGroupID: 2216
     marketGroupName: Warp Scramblers
@@ -11436,7 +11338,7 @@
 -   hasTypes: true
     iconID: 21597
     marketGroupID: 2233
-    marketGroupName: Reprocessing Service Modules
+    marketGroupName: Resource Processing Service Modules
     parentGroupID: 2210
 -   hasTypes: true
     iconID: 21440
@@ -11818,16 +11720,6 @@
     marketGroupID: 2306
     marketGroupName: Corvettes
     parentGroupID: 1954
--   hasTypes: true
-    iconID: 21420
-    marketGroupID: 2307
-    marketGroupName: Standard Corvettes
-    parentGroupID: 2306
--   hasTypes: true
-    iconID: 2703
-    marketGroupID: 2308
-    marketGroupName: Amarr
-    parentGroupID: 2307
 -   hasTypes: false
     iconID: 21420
     marketGroupID: 2309
@@ -12013,11 +11905,11 @@
     marketGroupID: 2339
     marketGroupName: Structure Engineering Rigs
     parentGroupID: 2157
--   description: Structure Reprocessing Rigs
+-   description: Structure Reprocessing and Reaction Rigs
     hasTypes: false
     iconID: 21602
     marketGroupID: 2204
-    marketGroupName: Structure Reprocessing Rigs
+    marketGroupName: Structure Resource Processing Rigs
     parentGroupID: 2203
 -   description: Structure Combat Rigs
     hasTypes: false
@@ -12031,23 +11923,23 @@
     marketGroupID: 2340
     marketGroupName: Structure Engineering Rigs
     parentGroupID: 2203
--   description: Medium Structure Reprocessing Rigs
+-   description: Medium Structure Reprocessing and Reaction Rigs
     hasTypes: true
     iconID: 21602
     marketGroupID: 2341
-    marketGroupName: Medium Structure Reprocessing Rigs
+    marketGroupName: Medium Structure Resource Processing Rigs
     parentGroupID: 2204
--   description: Large Structure Reprocessing Rigs
+-   description: Large Structure Reprocessing and Reaction Rigs
     hasTypes: true
     iconID: 21602
     marketGroupID: 2342
-    marketGroupName: Large Structure Reprocessing Rigs
+    marketGroupName: Large Structure Resource Processing Rigs
     parentGroupID: 2204
--   description: X-Large Structure Reprocessing Rigs
+-   description: X-Large Structure Reprocessing and Reaction Rigs
     hasTypes: true
     iconID: 21602
     marketGroupID: 2343
-    marketGroupName: X-Large Structure Reprocessing Rigs
+    marketGroupName: X-Large Structure Resource Processing Rigs
     parentGroupID: 2204
 -   description: Medium Structure Combat Rigs
     hasTypes: true
@@ -12135,3 +12027,290 @@
     marketGroupID: 2356
     marketGroupName: Gallente
     parentGroupID: 2309
+-   description: Faction force auxiliary designs.
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2357
+    marketGroupName: Faction Force Auxiliaries
+    parentGroupID: 2271
+-   description: Items used to extract and inject skill points.
+    hasTypes: true
+    iconID: 21531
+    marketGroupID: 2358
+    marketGroupName: Skill Trading
+    parentGroupID: 1922
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2307
+    marketGroupName: Standard Corvettes
+    parentGroupID: 2306
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2359
+    marketGroupName: Faction Corvettes
+    parentGroupID: 2306
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2360
+    marketGroupName: Pirate Faction
+    parentGroupID: 2359
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2361
+    marketGroupName: Special Covert Ops
+    parentGroupID: 2044
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2362
+    marketGroupName: Special Recon Ships
+    parentGroupID: 2068
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2369
+    marketGroupName: Strategic Cruisers
+    parentGroupID: 2064
+-   hasTypes: true
+    iconID: 20966
+    marketGroupID: 2370
+    marketGroupName: Caldari
+    parentGroupID: 2369
+-   hasTypes: true
+    iconID: 20959
+    marketGroupID: 2371
+    marketGroupName: Amarr
+    parentGroupID: 2369
+-   hasTypes: true
+    iconID: 20967
+    marketGroupID: 2372
+    marketGroupName: Gallente
+    parentGroupID: 2369
+-   hasTypes: true
+    iconID: 20968
+    marketGroupID: 2373
+    marketGroupName: Minmatar
+    parentGroupID: 2369
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2374
+    marketGroupName: Standard Carriers
+    parentGroupID: 1970
+-   hasTypes: true
+    iconID: 20959
+    marketGroupID: 1974
+    marketGroupName: Amarr
+    parentGroupID: 2374
+-   hasTypes: true
+    iconID: 20966
+    marketGroupID: 1975
+    marketGroupName: Caldari
+    parentGroupID: 2374
+-   hasTypes: true
+    iconID: 20967
+    marketGroupID: 1976
+    marketGroupName: Gallente
+    parentGroupID: 2374
+-   hasTypes: true
+    iconID: 20968
+    marketGroupID: 1977
+    marketGroupName: Minmatar
+    parentGroupID: 2374
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2375
+    marketGroupName: Faction Carriers
+    parentGroupID: 1970
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2376
+    marketGroupName: Pirate Faction
+    parentGroupID: 2375
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2377
+    marketGroupName: Standard Dreadnoughts
+    parentGroupID: 1971
+-   hasTypes: true
+    iconID: 20966
+    marketGroupID: 1981
+    marketGroupName: Caldari
+    parentGroupID: 2377
+-   hasTypes: true
+    iconID: 20967
+    marketGroupID: 1982
+    marketGroupName: Gallente
+    parentGroupID: 2377
+-   hasTypes: true
+    iconID: 20968
+    marketGroupID: 1983
+    marketGroupName: Minmatar
+    parentGroupID: 2377
+-   hasTypes: true
+    iconID: 20959
+    marketGroupID: 1980
+    marketGroupName: Amarr
+    parentGroupID: 2377
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2378
+    marketGroupName: Faction Dreadnoughts
+    parentGroupID: 1971
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2380
+    marketGroupName: Pirate Faction
+    parentGroupID: 2378
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2381
+    marketGroupName: Standard Titans
+    parentGroupID: 1973
+-   hasTypes: true
+    iconID: 20959
+    marketGroupID: 1978
+    marketGroupName: Amarr
+    parentGroupID: 2381
+-   hasTypes: true
+    iconID: 20967
+    marketGroupID: 1979
+    marketGroupName: Gallente
+    parentGroupID: 2381
+-   hasTypes: true
+    iconID: 20966
+    marketGroupID: 2092
+    marketGroupName: Caldari
+    parentGroupID: 2381
+-   hasTypes: true
+    iconID: 20968
+    marketGroupID: 2093
+    marketGroupName: Minmatar
+    parentGroupID: 2381
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2382
+    marketGroupName: Faction Titans
+    parentGroupID: 1973
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2383
+    marketGroupName: Pirate Faction
+    parentGroupID: 2382
+-   description: Amarr Shuttle Skins
+    hasTypes: true
+    iconID: 2703
+    marketGroupID: 2387
+    marketGroupName: Amarr
+    parentGroupID: 2315
+-   description: Caldari Shuttle Skins
+    hasTypes: true
+    iconID: 20966
+    marketGroupID: 2388
+    marketGroupName: Caldari
+    parentGroupID: 2315
+-   description: Gallente Shuttle Skins
+    hasTypes: true
+    iconID: 20967
+    marketGroupID: 2389
+    marketGroupName: Gallente
+    parentGroupID: 2315
+-   description: Minmatar Shuttle Skins
+    hasTypes: true
+    iconID: 20968
+    marketGroupID: 2390
+    marketGroupName: Minmatar
+    parentGroupID: 2315
+-   hasTypes: true
+    iconID: 20959
+    marketGroupID: 2308
+    marketGroupName: Amarr
+    parentGroupID: 2307
+-   hasTypes: true
+    iconID: 20966
+    marketGroupID: 2391
+    marketGroupName: Caldari
+    parentGroupID: 2309
+-   hasTypes: true
+    iconID: 20968
+    marketGroupID: 2392
+    marketGroupName: Minmatar
+    parentGroupID: 2309
+-   description: Blueprints of Refinery structures.
+    hasTypes: true
+    iconID: 2703
+    marketGroupID: 2393
+    marketGroupName: Refineries
+    parentGroupID: 1338
+-   hasTypes: true
+    iconID: 2222
+    marketGroupID: 2327
+    marketGroupName: Refineries
+    parentGroupID: 477
+-   hasTypes: false
+    iconID: 1270
+    marketGroupID: 2395
+    marketGroupName: Moon Ores
+    parentGroupID: 1031
+-   description: The most common forms of moon ore
+    hasTypes: true
+    iconID: 232
+    marketGroupID: 2396
+    marketGroupName: Ubiquitous Moon Ores
+    parentGroupID: 2395
+-   hasTypes: true
+    iconID: 1356
+    marketGroupID: 2397
+    marketGroupName: Common Moon Ores
+    parentGroupID: 2395
+-   hasTypes: true
+    iconID: 231
+    marketGroupID: 2398
+    marketGroupName: Uncommon Moon Ores
+    parentGroupID: 2395
+-   hasTypes: true
+    iconID: 230
+    marketGroupID: 2400
+    marketGroupName: Rare Moon Ores
+    parentGroupID: 2395
+-   hasTypes: true
+    iconID: 1271
+    marketGroupID: 2401
+    marketGroupName: Exceptional Moon Ores
+    parentGroupID: 2395
+-   description: Chemical reactions used in Refineries to create many useful materials,
+        as well as various booster drugs
+    hasTypes: false
+    iconID: 21783
+    marketGroupID: 1849
+    marketGroupName: Reaction Formulas
+    parentGroupID: 2
+-   description: Reaction formulas that enable the creation of raw boosters in Refineries
+    hasTypes: true
+    iconID: 21783
+    marketGroupID: 2402
+    marketGroupName: Biochemical Reaction Formulas
+    parentGroupID: 1849
+-   description: Reaction formulas that enable the creation of Tech 2 construction
+        materials in Refineries
+    hasTypes: true
+    iconID: 21783
+    marketGroupID: 2403
+    marketGroupName: Composite Reaction Formulas
+    parentGroupID: 1849
+-   description: Reaction formulas that enable the creation of Tech 3 construction
+        materials in Refineries
+    hasTypes: true
+    iconID: 21783
+    marketGroupID: 2404
+    marketGroupName: Polymer Reaction Formulas
+    parentGroupID: 1849
+-   description: Weapon Disruptors
+    hasTypes: true
+    iconID: 2703
+    marketGroupID: 2171
+    marketGroupName: Weapon Disruptors
+    parentGroupID: 2161
+-   description: Weapon Disruptors
+    hasTypes: true
+    iconID: 1639
+    marketGroupID: 2215
+    marketGroupName: Weapon Disruptors
+    parentGroupID: 2206

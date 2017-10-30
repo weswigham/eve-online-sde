@@ -7,9 +7,9 @@
     flagText: Wallet
     orderID: 10
 -   flagID: 2
-    flagName: Factory
-    flagText: Factory
-    orderID: 20
+    flagName: Offices
+    flagText: OfficeFolder
+    orderID: 0
 -   flagID: 3
     flagName: Wardrobe
     flagText: Wardrobe
@@ -23,9 +23,9 @@
     flagText: Cargo
     orderID: 3000
 -   flagID: 6
-    flagName: Briefcase
-    flagText: Briefcase
-    orderID: 12
+    flagName: OfficeImpound
+    flagText: Impounded Offices
+    orderID: 0
 -   flagID: 7
     flagName: Skill
     flagText: Skill
@@ -34,14 +34,6 @@
     flagName: Reward
     flagText: Reward
     orderID: 17
--   flagID: 9
-    flagName: Connected
-    flagText: Character in station connected
-    orderID: 0
--   flagID: 10
-    flagName: Disconnected
-    flagText: Character in station offline
-    orderID: 0
 -   flagID: 11
     flagName: LoSlot0
     flagText: Low power slot 1
@@ -146,70 +138,6 @@
     flagName: AssetSafety
     flagText: Asset Safety
     orderID: 0
--   flagID: 40
-    flagName: PromenadeSlot1
-    flagText: Promenade Slot 1
-    orderID: 0
--   flagID: 41
-    flagName: PromenadeSlot2
-    flagText: Promenade Slot 2
-    orderID: 0
--   flagID: 42
-    flagName: PromenadeSlot3
-    flagText: Promenade Slot 3
-    orderID: 0
--   flagID: 43
-    flagName: PromenadeSlot4
-    flagText: Promenade Slot 4
-    orderID: 0
--   flagID: 44
-    flagName: PromenadeSlot5
-    flagText: Promenade Slot 5
-    orderID: 0
--   flagID: 45
-    flagName: PromenadeSlot6
-    flagText: Promenade Slot 6
-    orderID: 0
--   flagID: 46
-    flagName: PromenadeSlot7
-    flagText: Promenade Slot 7
-    orderID: 0
--   flagID: 47
-    flagName: PromenadeSlot8
-    flagText: Promenade Slot 8
-    orderID: 0
--   flagID: 48
-    flagName: PromenadeSlot9
-    flagText: Promenade Slot 9
-    orderID: 0
--   flagID: 49
-    flagName: PromenadeSlot10
-    flagText: Promenade Slot 10
-    orderID: 0
--   flagID: 50
-    flagName: PromenadeSlot11
-    flagText: Promenade Slot 11
-    orderID: 0
--   flagID: 51
-    flagName: PromenadeSlot12
-    flagText: Promenade Slot 12
-    orderID: 0
--   flagID: 52
-    flagName: PromenadeSlot13
-    flagText: Promenade Slot 13
-    orderID: 0
--   flagID: 53
-    flagName: PromenadeSlot14
-    flagText: Promenade Slot 14
-    orderID: 0
--   flagID: 54
-    flagName: PromenadeSlot15
-    flagText: Promenade Slot 15
-    orderID: 0
--   flagID: 55
-    flagName: PromenadeSlot16
-    flagText: Promenade Slot 16
-    orderID: 0
 -   flagID: 56
     flagName: Capsule
     flagText: Capsule
@@ -217,18 +145,6 @@
 -   flagID: 57
     flagName: Pilot
     flagText: Pilot
-    orderID: 0
--   flagID: 58
-    flagName: Passenger
-    flagText: Passenger
-    orderID: 0
--   flagID: 59
-    flagName: Boarding Gate
-    flagText: Boarding gate
-    orderID: 0
--   flagID: 60
-    flagName: Crew
-    flagText: Crew
     orderID: 0
 -   flagID: 61
     flagName: Skill In Training
@@ -366,10 +282,6 @@
     flagName: RigSlot7
     flagText: Rig power slot 8
     orderID: 0
--   flagID: 100
-    flagName: Factory Operation
-    flagText: Factory Background Operation
-    orderID: 0
 -   flagID: 115
     flagName: CorpSAG1
     flagText: Corp Security Access Group 1
@@ -401,14 +313,6 @@
 -   flagID: 122
     flagName: SecondaryStorage
     flagText: Secondary Storage
-    orderID: 0
--   flagID: 123
-    flagName: CaptainsQuarters
-    flagText: Captains Quarters
-    orderID: 0
--   flagID: 124
-    flagName: Wis Promenade
-    flagText: Wis Promenade
     orderID: 0
 -   flagID: 125
     flagName: SubSystem0
@@ -609,4 +513,12 @@
 -   flagID: 174
     flagName: CrateLoot
     flagText: Crate Loot
+    orderID: 0
+-   flagID: 176
+    flagName: BoosterBay
+    flagText: Booster Hold
+    orderID: 0
+-   flagID: 177
+    flagName: SubsystemBay
+    flagText: Subsystem Hold
     orderID: 0
