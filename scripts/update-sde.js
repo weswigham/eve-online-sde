@@ -20,10 +20,10 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
     const versionedFilename = scrape.versioned_filename;
     if (typeof link !== "string" || typeof versionedFilename !== "string") throw new Error("Couldn't scrape SDE link!");
     const filename = require("path").basename(require("url").parse(versionedFilename).pathname);
-    const processedVersionName = filename.substring(0, filename.length - "_Types.zip".length) // Remove _Types.zip
+    const processedVersionName = filename.substring(0, filename.length - "_Types.zip".length).replace(/_/g, "-") // Remove _Types.zip
     const current = require("../package.json").version;
-    const currNameString = current.match(/(\d+)\.(\d+)\.(\d+)-(.*)/)
-    if (currNameString !== null && currNameString[3] === processedVersionName) return console.log(`Already at version ${processedVersionName}, not redownloading SDE.`);
+    const currNameString = current.match(/(\d+)\.(\d+)\.(\d+)\+(.*)/);
+    if (currNameString !== null && currNameString[4] === processedVersionName) return console.log(`Already at version ${processedVersionName}, not redownloading SDE.`);
     const version = nowInEVETime(processedVersionName);
 
     const https = require("https");
