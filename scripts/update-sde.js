@@ -4,6 +4,14 @@ const unzip = require("unzipper");
 const rimraf = require("rimraf");
 const url = require("url");
 
+function nowInEVETime(namestring) {
+    const now = new Date();
+    const year = now.getUTCFullYear() - 2017 + 119; // 2017 is YC 119
+    const month = now.getUTCMonth();
+    const day = now.getUTCDate();
+    return `${year}.${month}.${day}-${namestring}`;
+}
+
 scrapeIt("https://developers.eveonline.com/resource/resources", {
     sde_link: { selector: ".content > h3:nth-child(4) + ul li:last-child a", attr: "href" },
     versioned_filename: { selector: ".content > h3:nth-child(6) + ul li:last-child a", attr: "href" }
@@ -11,14 +19,10 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
     const link = scrape.sde_link;
     const versionedFilename = scrape.versioned_filename;
     if (typeof link !== "string" || typeof versionedFilename !== "string") throw new Error("Couldn't scrape SDE link!");
-    const captures = versionedFilename.match(/YC-(\d+)-(\d+)_(\d+)\.(\d+)/);
-    const year = captures[1],
-        month = captures[2],
-        major = captures[3],
-        minor = captures[4];
-    const version = `${year}.${month}.${major}-${minor}`;
     const current = require("../package.json").version;
-    if (version === current) return console.log(`Already at version ${version}, not redownloading SDE.`);
+    const currNameString = current.match(/(\d+)\.(\d+)\.(\d+)-(.*)/)
+    if (currNameString !== null && currNameString[3] === versionedFilename) return console.log(`Already at version ${versionedFilename}, not redownloading SDE.`);
+    const version = nowInEVETime(versionedFilename);
 
     const https = require("https");
     const fs = require("fs");
