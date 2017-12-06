@@ -28,6 +28,7 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
 
     const https = require("https");
     const fs = require("fs");
+    const readline = require("readline");
 
     console.log(`Removing existing sde.zip, if it exists...`);
     try { fs.unlinkSync("sde.zip"); } catch(e) {} // Attempt to remove existing sde zip
@@ -40,8 +41,8 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         console.log(`Response size is ${responseSize} bytes.`);
         response.on("data", buf => {
             size += buf.length;
-            process.stdout.clearLine();
-            process.stdout.cursorTo(0);
+            readline.clearLine(process.stdout);
+            readline.cursorTo(process.stdout, 0);
             process.stdout.write(`Downloaded ${size}/${responseSize} bytes (${(size/responseSize * 100).toFixed(2)}%)...`);
         });
         response.pipe(file);
