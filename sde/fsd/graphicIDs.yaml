@@ -1122,8 +1122,9 @@
   sofRaceName: generic
 1266:
   description: Artifact Amarr Statue Dome
-  graphicFile: res:/dx9/model/artifact/amarr/statuedome/asd.red
-  iconFolder: res:/dx9/model/artifact/amarr/statuedome/icons
+  iconFolder: res:/dx9/model/artifact/amarr/statuedome/asd01/icons
+  sofFactionName: amarrbase
+  sofHullName: asd01
   sofRaceName: generic
 1267:
   description: 'Caldari Station Hub '
@@ -1283,20 +1284,21 @@
   sofRaceName: generic
 1681:
   description: Structure Drone Hive 2
-  graphicFile: res:/dx9/model/Structure/Universal/DroneHive/DH2.red
-  iconFolder: res:/dx9/model/structure/universal/dronehive/icons
-  sofFactionName: roguebase
-  sofRaceName: rogue
+  iconFolder: res:/dx9/model/structure/universal/dronehive/UDH02/icons
+  sofFactionName: genericbase
+  sofHullName: udh02
+  sofRaceName: generic
 1682:
   description: Structure Drone Hive 1
-  graphicFile: res:/dx9/model/Structure/Universal/DroneHive/DH1.red
-  iconFolder: res:/dx9/model/structure/universal/dronehive/icons
-  sofFactionName: roguebase
-  sofRaceName: rogue
+  iconFolder: res:/dx9/model/structure/universal/dronehive/UDH01/icons
+  sofFactionName: genericbase
+  sofHullName: udh01
+  sofRaceName: generic
 1683:
   description: Universal Missile Pad
-  graphicFile: res:/dx9/model/Structure/Universal/Missilepad/UMP1/UMP1.red
-  iconFolder: res:/dx9/model/structure/universal/missilepad/ump1/icons
+  iconFolder: res:/dx9/model/structure/universal/missilepad/ump01/icons
+  sofFactionName: genericbase
+  sofHullName: ump01
   sofRaceName: generic
 1684:
   description: Structure Universal Power Generator
@@ -1332,8 +1334,9 @@
   iconFolder: res:/dx9/model/worldobject/cloud/icons
 1691:
   description: Structure Battery Column
-  graphicFile: res:/dx9/model/Structure/Universal/BatteryColumn/UBC1/UBC1_T1.red
-  iconFolder: res:/dx9/model/structure/universal/batterycolumn/ubc1/icons
+  iconFolder: res:/dx9/model/structure/universal/batterycolumn/ubc01/icons
+  sofFactionName: genericmetal
+  sofHullName: ubc01
   sofRaceName: generic
 1692:
   description: Artifact Monolith
@@ -1353,8 +1356,9 @@
   sofRaceName: generic
 1695:
   description: Artifact Ring
-  graphicFile: res:/dx9/model/artifact/universal/ring/ring.red
-  iconFolder: res:/dx9/model/artifact/universal/ring/icons
+  iconFolder: res:/dx9/model/artifact/universal/ring/ur01/icons
+  sofFactionName: genericbase
+  sofHullName: ur01
   sofRaceName: generic
 1696:
   description: Structure Debris 1
@@ -1429,8 +1433,9 @@
   sofRaceName: gallente
 1717:
   description: Structure Asteroid Base Mining Post
-  graphicFile: res:/dx9/model/structure/universal/asteroidbase/uab.red
-  iconFolder: res:/dx9/model/structure/universal/asteroidbase/icons
+  iconFolder: res:/dx9/model/structure/universal/asteroidbase/uab01/icons
+  sofFactionName: genericindustrial
+  sofHullName: uab01
   sofRaceName: generic
 1718:
   description: Rogue Drone Infested Dominix
@@ -2511,8 +2516,10 @@
   sofRaceName: minmatar
 2046:
   description: Structure Billboard
-  graphicFile: res:/dx9/Model/structure/universal/billboard/ubb1/ubb1.red
-  iconFolder: res:/dx9/model/structure/universal/billboard/ubb1/icons
+  iconFolder: res:/dx9/model/structure/universal/billboard/ubb01/icons
+  sofFactionName: genericbase
+  sofHullName: ubb01
+  sofRaceName: generic
 2047:
   description: Artifact Cathedral 1
   graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral1.red
@@ -2710,8 +2717,9 @@
   sofRaceName: gallente
 2309:
   description: Effect Mobile Warp Disruption
-  graphicFile: res:/fisfx/generic/warp_disruption/mobile_warp_disruption.red
-  iconFolder: res:/fisfx/generic/warp_disruption/icons
+  iconFolder: res:/dx9/model/deployables/generic/warpdisruptor/icons
+  sofFactionName: genericmetal
+  sofHullName: wd1_t1
   sofRaceName: generic
 2341:
   description: WarpGate
@@ -2817,8 +2825,9 @@
   sofRaceName: generic
 2369:
   description: Structure Billboard Wreck
-  graphicFile: res:/dx9/model/Structure/Universal/Billboard/UBB1/wreck/UBB1_T1_wreck.red
-  iconFolder: res:/dx9/model/structure/universal/billboard/ubb1/wreck/icons
+  iconFolder: res:/dx9/model/structure/universal/billboard/ubb02/wreck/icons
+  sofFactionName: smuggler
+  sofHullName: ubb02_wreck
   sofRaceName: generic
 2372:
   description: Universal Armory Small
@@ -2982,8 +2991,9 @@
   sofRaceName: generic
 2409:
   description: Structure Landing Pad
-  graphicFile: res:/dx9/model/Structure/Universal/Landingpad/UL1/UL1.red
-  iconFolder: res:/dx9/model/structure/universal/landingpad/ul1/icons
+  iconFolder: res:/dx9/model/structure/universal/landingpad/ul01/icons
+  sofFactionName: genericbase
+  sofHullName: ul01
   sofRaceName: generic
 2411:
   description: Jumpgate Gallente GHG Wreck
@@ -2993,8 +3003,9 @@
   sofRaceName: generic
 2412:
   description: Structure Solar Harvester
-  graphicFile: res:/dx9/model/structure/universal/solarharvester/ush.red
-  iconFolder: res:/dx9/model/structure/universal/solarharvester/icons
+  iconFolder: res:/dx9/model/structure/universal/solarharvester/ush01/icons
+  sofFactionName: genericindustrial
+  sofHullName: ush01
   sofRaceName: generic
 2413:
   description: AmarrWall_Sentry
@@ -3500,44 +3511,51 @@
   sofRaceName: generic
 2514:
   description: Structure Habitat Brothel
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Brothel.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericbrothel
+  sofHullName: uh01
   sofRaceName: generic
 2515:
   description: Structure Habitat Living
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Living.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericliving
+  sofHullName: uh01
   sofRaceName: generic
 2516:
   description: Structure Habitat Narcotics
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Narcotics.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericnarcotics
+  sofHullName: uh01
   sofRaceName: generic
 2517:
   description: Structure Habitat Casino
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Casino.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
-  sofFactionName: genericbase
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericcasino
+  sofHullName: uh01
   sofRaceName: generic
 2518:
   description: Structure Habitat Pleasure
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Pleasure.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericpleasure
+  sofHullName: uh01
   sofRaceName: generic
 2519:
   description: Structure Habitat Police
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Police.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: police
+  sofHullName: uh01
   sofRaceName: generic
 2520:
   description: Structure Habitat Prison
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Prison.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericprison
+  sofHullName: uh01_prison
   sofRaceName: generic
 2521:
   description: Structure Habitat Roadhouse
-  graphicFile: res:/dx9/model/Structure/Universal/Habitat/Roadhouse.red
-  iconFolder: res:/dx9/model/structure/universal/habitat/icons
+  iconFolder: res:/dx9/model/structure/universal/habitat/uh01/icons
+  sofFactionName: genericroadhouse
+  sofHullName: uh01
   sofRaceName: generic
 2522:
   description: ORE Mining Barge Covetor
@@ -3676,8 +3694,9 @@
   sofRaceName: generic
 2625:
   description: Deployable Starbase Shipyard
-  graphicFile: res:/dx9/model/deployables/starbase/shipyard/shipyard_t1.red
-  iconFolder: res:/dx9/model/deployables/starbase/shipyard/icons
+  iconFolder: res:/dx9/model/deployables/generic/shipyard/sy01/icons
+  sofFactionName: genericbase
+  sofHullName: sy01
   sofRaceName: generic
 2632:
   description: Amarr Frigate BloodRaider Cruor
@@ -9393,8 +9412,9 @@
   graphicFile: res:/dx9/scene/Universe/m17_cube.red
 11854:
   description: Artifact Amarr Statue Dome (Damaged)
-  graphicFile: res:/dx9/model/artifact/amarr/statuedome/asd_damaged.red
-  iconFolder: res:/dx9/model/artifact/amarr/statuedome/icons
+  iconFolder: res:/dx9/model/artifact/amarr/statuedome/asd01/wreck/icons/
+  sofFactionName: amarrbase
+  sofHullName: asd01_wreck
   sofRaceName: generic
 11859:
   description: Gallente Cruiser Duvolle Deimos (Thorax Hull)
@@ -9451,152 +9471,152 @@
   sofHullName: gi4_t1
   sofRaceName: gallente
 20014:
-  graphicFile: res:/dx9/model/turret/Launcher/torpedo/torpedo_missile_scourge_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/torpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_impact_scourge.red
   sofRaceName: caldari
 20015:
-  graphicFile: res:/dx9/model/Turret/Launcher/Torpedo/Torpedo_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Torpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_impact_mjolnir.red
   sofRaceName: caldari
 20016:
-  graphicFile: res:/dx9/model/turret/Launcher/Torpedo/Torpedo_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Torpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_impact_nova.red
   sofRaceName: caldari
 20017:
-  graphicFile: res:/dx9/model/turret/Launcher/torpedo/torpedo_missile_inferno_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/torpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_impact_inferno.red
   sofRaceName: caldari
 20029:
-  graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_inferno_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_impact_inferno.red
   sofRaceName: caldari
 20030:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelTorpedo/CitadelTorpedo_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/CitadelTorpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_impact_mjolnir.red
   sofRaceName: caldari
 20031:
-  graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_nova_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_impact_nova.red
   sofRaceName: caldari
 20032:
-  graphicFile: res:/dx9/model/turret/Launcher/CitadelTorpedo/CitadelTorpedo_missile_scourge_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/CitadelTorpedo/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_impact_scourge.red
   sofRaceName: caldari
 20035:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_scourge.red
   sofRaceName: caldari
 20036:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_mjolnir.red
   sofRaceName: caldari
 20037:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_inferno.red
   sofRaceName: caldari
 20038:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Lockbreaker_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_lockbreaker.red
   sofRaceName: caldari
 20039:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Void_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_void.red
   sofRaceName: caldari
 20040:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_impact_inferno.red
   sofRaceName: caldari
 20041:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_impact_mjolnir.red
   sofRaceName: caldari
 20042:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_impact_nova.red
   sofRaceName: caldari
 20043:
-  graphicFile: res:/dx9/model/Turret/Launcher/Cruise/Cruise_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Cruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_impact_scourge.red
   sofRaceName: caldari
 20044:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_impact_inferno.red
   sofRaceName: caldari
 20045:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_impact_mjolnir.red
   sofRaceName: caldari
 20046:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_impact_nova.red
   sofRaceName: caldari
 20047:
-  graphicFile: res:/dx9/model/Turret/Launcher/CitadelCruise/CitadelCruise_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/CitadelCruise/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_impact_scourge.red
   sofRaceName: caldari
 20048:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_impact_inferno.red
   sofRaceName: caldari
 20049:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_impact_mjolnir.red
   sofRaceName: caldari
 20050:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_impact_nova.red
   sofRaceName: caldari
 20051:
-  graphicFile: res:/dx9/model/Turret/Launcher/Heavy/Heavy_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Heavy/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_impact_scourge.red
   sofRaceName: caldari
 20052:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_impact_inferno.red
   sofRaceName: caldari
 20053:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_impact_mjolnir.red
   sofRaceName: caldari
 20054:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_impact_nova.red
   sofRaceName: caldari
 20055:
-  graphicFile: res:/dx9/model/Turret/Launcher/HeavyAssault/HeavyAssault_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/HeavyAssault/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_impact_scourge.red
   sofRaceName: caldari
 20057:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_impact_inferno.red
   sofRaceName: caldari
 20058:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_impact_mjolnir.red
   sofRaceName: caldari
 20059:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_impact_nova.red
   sofRaceName: caldari
 20060:
-  graphicFile: res:/dx9/model/Turret/Launcher/Rocket/Rocket_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Rocket/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_impact_scourge.red
   sofRaceName: caldari
 20061:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Inferno_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/light/light_impact_inferno.red
   sofRaceName: caldari
 20062:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Mjolnir_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/light/light_impact_mjolnir.red
   sofRaceName: caldari
 20063:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/light/light_impact_nova.red
   sofRaceName: caldari
 20064:
-  graphicFile: res:/dx9/model/Turret/Launcher/Light/Light_Missile_Scourge_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Light/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/light/light_impact_scourge.red
   sofRaceName: caldari
 20065:
   description: Bomb (caldaribase)
@@ -9797,8 +9817,8 @@
   sofFactionName: laidai
   sofRaceName: caldari
 20110:
-  graphicFile: res:/dx9/model/Turret/Launcher/Bomb/Bomb_Missile_Nova_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Bomb/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_impact_nova.red
   sofRaceName: caldari
 20129:
   description: ORE Drone Medium Salvage Drone I
@@ -10001,24 +10021,20 @@
   sofFactionName: caldaribase
   sofRaceName: caldari
 20238:
-  description: 'Missile for Festival ammo: snowball'
-  graphicFile: res:/dx9/model/Turret/Launcher/Festival/Festival_missile_Snow_T1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/Festival/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_impact_snow.red
   sofRaceName: caldari
 20239:
-  description: 'missile for Festival ammo: Firworks 1'
-  graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework1_T1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_impact_firework1.red
   sofRaceName: caldari
 20240:
-  description: 'missile for Festival ammo: Firworks 2'
-  graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework2_T1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_impact_firework2.red
   sofRaceName: caldari
 20241:
-  description: 'missile for Festival ammo: Firworks 3'
-  graphicFile: res:/dx9/model/turret/Launcher/Festival/Festival_missile_Firework3_T1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Festival/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_impact_firework3.red
   sofRaceName: caldari
 20242:
   description: A new-tech cloud, to sit around amarr prime station
@@ -13551,57 +13567,48 @@
   sofHullName: mfaux1_t1_wreck
   sofRaceName: minmatar
 21305:
-  description: antiship_missile_longrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_longrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/antiship/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_impact_longrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21306:
-  description: antiship_missile_mediumrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_mediumrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/antiship/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_impact_mediumrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21307:
-  description: antiship_missile_shortrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile_shortrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/antiship/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_impact_shortrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21308:
-  description: flak_missile_longrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_longrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/flak/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/flak/flak_impact_longrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21309:
-  description: flak_missile_mediumrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_mediumrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/flak/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/flak/flak_impact_mediumrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21310:
-  description: flak_missile_shortrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/flak/flak_missile_shortrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/flak/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/flak/flak_impact_shortrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21311:
-  description: launcher_missile_edrainmediumrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_edrainmediumrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/launcher/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_impact_edrainmediumrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21312:
-  description: launcher_missile_longrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_longrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/launcher/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_impact_longrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21313:
-  description: launcher_missile_shortrange_t1 (upwell)
-  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile_shortrange_t1.red
-  iconFolder: res:/dx9/model/turret/structure/launcher/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_impact_shortrange.red
   sofFactionName: upwell
   sofRaceName: generic
 21314:
@@ -13675,12 +13682,16 @@
   graphicFile: res:/fisfx/structure/bulletstorm_01a.red
 21333:
   description: Structure Billboard Large
-  graphicFile: res:/dx9/model/structure/universal/billboard/ubb1/ubb1_l.red
-  iconFolder: res:/dx9/model/structure/universal/billboard/ubb1/icons
+  iconFolder: res:/dx9/model/structure/universal/billboard/ubb01/icons
+  sofFactionName: genericbase
+  sofHullName: ubb01_l
+  sofRaceName: generic
 21334:
   description: Structure Billboard XL
-  graphicFile: res:/dx9/model/structure/universal/billboard/ubb1/ubb1_xl.red
-  iconFolder: res:/dx9/model/structure/universal/billboard/ubb1/icons
+  iconFolder: res:/dx9/model/structure/universal/billboard/ubb01/icons
+  sofFactionName: genericbase
+  sofHullName: ubb01_xl
+  sofRaceName: generic
 21336:
   description: Effect Module Modular AOE Sensor Dampener
   graphicFile: res:/FisFX/Module/Modular_sensordampener_tr_t1a.red
@@ -14012,74 +14023,60 @@
   sofFactionName: caldaribase
   sofRaceName: caldari
 21424:
-  description: Winter Missile (Holiday Launcher)
-  graphicFile: res:/dx9/model/Turret/Launcher/holiday/holiday_missile_winter1_t1.red
-  iconFolder: res:/dx9/model/Turret/Launcher/holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_winter1.red
   sofRaceName: caldari
 21430:
-  description: Firework Amarr 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Amarr1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_amarr1.red
   sofRaceName: caldari
 21431:
-  description: Firework Angel 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Angels1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_angels1.red
   sofRaceName: caldari
 21432:
-  description: Firework Bloodraiders 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_BloodRaiders1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_bloodraiders1.red
   sofRaceName: caldari
 21433:
-  description: Firework Caldari 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Caldari1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_caldari1.red
   sofRaceName: caldari
 21434:
-  description: Firework Celebration 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_celebration1.red
   sofRaceName: caldari
 21435:
-  description: Firework Celebration 2
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration2_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_celebration2.red
   sofRaceName: caldari
 21436:
-  description: Firework Celebration 3
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Celebration3_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_celebration3.red
   sofRaceName: caldari
 21437:
-  description: Firework Crimson Harvest 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_CrimsonHarvest1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_crimsonharvest1.red
   sofRaceName: caldari
 21438:
-  description: Firework Gallente 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Gallente1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_gallente1.red
   sofRaceName: caldari
 21439:
-  description: Firework Guristas 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Guristas1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_guristas1.red
   sofRaceName: caldari
 21440:
-  description: Firework Minmatar 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Minmatar1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_minmatar1.red
   sofRaceName: caldari
 21441:
-  description: Firework Sansha 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Sansha1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_sansha1.red
   sofRaceName: caldari
 21442:
-  description: Firework Serpentis 1
-  graphicFile: res:/dx9/model/turret/Launcher/Holiday/Holiday_missile_Serpentis1_t1.red
-  iconFolder: res:/dx9/model/turret/Launcher/Holiday/icons
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_serpentis1.red
   sofRaceName: caldari
 21444:
   description: Amarr Stealth Bomber BloodRaider (Purifier Hull)
@@ -16414,3 +16411,59 @@
   sofFactionName: army
   sofHullName: conb1_t1_wreck
   sofRaceName: concord
+21931:
+  description: Citadel Torpedo Missile
+  graphicFile: res:/dx9/model/turret/launcher/citadeltorpedo/citadeltorpedo_missile.red
+  sofRaceName: generic
+21932:
+  description: Bomb Missile
+  graphicFile: res:/dx9/model/turret/launcher/bomb/bomb_missile.red
+  sofRaceName: caldari
+21933:
+  description: Citadel Cruise Missile
+  graphicFile: res:/dx9/model/turret/launcher/citadelcruise/citadelcruise_missile.red
+  sofRaceName: generic
+21934:
+  description: Cruise Missile
+  graphicFile: res:/dx9/model/turret/launcher/cruise/cruise_missile.red
+  sofRaceName: caldari
+21935:
+  description: Festival Missile
+  graphicFile: res:/dx9/model/turret/launcher/festival/festival_missile.red
+  sofRaceName: caldari
+21936:
+  description: Heavy Missile
+  graphicFile: res:/dx9/model/turret/launcher/heavy/heavy_missile.red
+  sofRaceName: caldari
+21937:
+  description: Heavy Assault Missile
+  graphicFile: res:/dx9/model/turret/launcher/heavyassault/heavyassault_missile.red
+  sofRaceName: caldari
+21938:
+  description: Light Missile
+  graphicFile: res:/dx9/model/turret/launcher/light/light_missile.red
+  sofRaceName: caldari
+21939:
+  description: Rocket Missile
+  graphicFile: res:/dx9/model/turret/launcher/rocket/rocket_missile.red
+  sofRaceName: caldari
+21940:
+  description: Torpedo Missile
+  graphicFile: res:/dx9/model/turret/launcher/torpedo/torpedo_missile.red
+  sofRaceName: caldari
+21941:
+  description: Antiship Missile
+  graphicFile: res:/dx9/model/turret/structure/antiship/antiship_missile.red
+  sofRaceName: generic
+21942:
+  description: Flak Missile
+  graphicFile: res:/dx9/model/turret/structure/flak/flak_missile.red
+  sofRaceName: generic
+21943:
+  description: Structure Launcher Missile
+  graphicFile: res:/dx9/model/turret/structure/launcher/launcher_missile.red
+  sofRaceName: generic
+21944:
+  description: Holiday Missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_missile.red
+  sofRaceName: caldari

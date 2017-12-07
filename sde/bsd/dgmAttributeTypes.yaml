@@ -2240,24 +2240,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 569
-    attributeName: eliteBonusCoverOps1
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
--   attributeID: 839
-    attributeName: eliteBonusCoverOps2
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 573
     attributeName: eliteBonusdestroyers
     categoryID: 9
@@ -4981,13 +4963,6 @@
     published: false
     stackable: false
     unitID: 111
--   attributeID: 1578
-    attributeName: eliteBonusCoverOps3
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1579
     attributeName: effectDeactivationDelay
     defaultValue: 0.0
@@ -6457,17 +6432,6 @@
     defaultValue: 0.0
     description: ''
     displayName: Turret Falloff Penalty
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 105
--   attributeID: 1144
-    attributeName: boosterTurretOptimalRange
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Turret Optimal Range Penalty
     highIsGood: true
     iconID: 0
     published: true
@@ -22721,6 +22685,15 @@
     published: true
     stackable: true
     unitID: 129
+-   attributeID: 2729
+    attributeName: nextActivationTime
+    categoryID: 7
+    defaultValue: 0.0
+    description: Timestamp specifying when a module can next be activated
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 123
 -   attributeID: 2713
     attributeName: RefRigTimeBonus
     categoryID: 37
@@ -22760,3 +22733,74 @@
     published: false
     stackable: true
     unitID: 105
+-   attributeID: 1144
+    attributeName: boosterTurretOptimalRangePenalty
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Turret Optimal Range Penalty
+    highIsGood: true
+    iconID: 0
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 1578
+    attributeName: eliteBonusCovertOps3
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 839
+    attributeName: eliteBonusCovertOps2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 569
+    attributeName: eliteBonusCovertOps1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 2731
+    attributeName: eliteBonusCovertOps4
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2732
+    attributeName: stealthBomberLauncherCPU
+    categoryID: 9
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2735
+    attributeName: npcStructureStasisWebificationBonus
+    categoryID: 42
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
+-   attributeID: 2736
+    attributeName: npcStructureEnergyWarfareBonus
+    categoryID: 42
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 104
