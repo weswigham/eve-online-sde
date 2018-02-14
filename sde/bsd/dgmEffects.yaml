@@ -68636,14 +68636,12 @@
     isAssistance: false
     isOffensive: false
     isWarpSafe: false
-    modifierInfo: "# Stasis Webification Range Modifier\r\n- domain: shipID\r\n  func:
-        LocationGroupModifier\r\n  groupID: 1441\r\n  modifiedAttributeID: 54\r\n
-        \ modifyingAttributeID: 2735\r\n  operator: 4\r\n# Energy Neutralizer Range
-        Modifier\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID:
-        1329\r\n  modifiedAttributeID: 54\r\n  modifyingAttributeID: 2736\r\n  operator:
-        4\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1329\r\n
-        \ modifiedAttributeID: 2044\r\n  modifyingAttributeID: 2736\r\n  operator:
-        4"
+    modifierInfo: "- domain: structureID\n  func: LocationGroupModifier\n  groupID:
+        1441\n  modifiedAttributeID: 54\n  modifyingAttributeID: 2735\n  operator:
+        4\n- domain: structureID\n  func: LocationGroupModifier\n  groupID: 1329\n
+        \ modifiedAttributeID: 54\n  modifyingAttributeID: 2736\n  operator: 4\n-
+        domain: structureID\n  func: LocationGroupModifier\n  groupID: 1329\n  modifiedAttributeID:
+        2044\n  modifyingAttributeID: 2736\n  operator: 4\n"
     postExpression: 59
     preExpression: 59
     propulsionChance: false

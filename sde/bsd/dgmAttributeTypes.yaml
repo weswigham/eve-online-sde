@@ -17694,16 +17694,6 @@
     iconID: 2677
     published: true
     stackable: true
--   attributeID: 2219
-    attributeName: fighterHeavySlots
-    categoryID: 38
-    defaultValue: 0.0
-    description: Number of Support Fighters the ship can launch.
-    displayName: Heavy Fighter Squadrons Limit
-    highIsGood: true
-    iconID: 2987
-    published: true
-    stackable: true
 -   attributeID: 2218
     attributeName: fighterSupportSlots
     categoryID: 38
@@ -22804,3 +22794,67 @@
     published: false
     stackable: true
     unitID: 104
+-   attributeID: 2737
+    attributeName: fighterStandupLightSlots
+    categoryID: 38
+    defaultValue: 0.0
+    description: Number of Light Fighters the structure can launch.
+    displayName: Standup Light Fighter Squadron Limit
+    highIsGood: true
+    iconID: 2987
+    published: true
+    stackable: true
+-   attributeID: 2738
+    attributeName: fighterStandupSupportSlots
+    categoryID: 38
+    defaultValue: 0.0
+    description: Number of Support Fighters the structure can launch.
+    displayName: Standup Support Fighter Squadron Limit
+    highIsGood: true
+    iconID: 2987
+    published: true
+    stackable: true
+-   attributeID: 2739
+    attributeName: fighterStandupHeavySlots
+    categoryID: 38
+    defaultValue: 0.0
+    description: Number of Heavy Fighters the structure can launch.
+    displayName: Standup Heavy Fighter Squadrons Limit
+    highIsGood: true
+    iconID: 2987
+    published: true
+    stackable: true
+-   attributeID: 2219
+    attributeName: fighterHeavySlots
+    categoryID: 38
+    defaultValue: 0.0
+    description: 'Number of Heavy Fighters the ship can launch.Heavy '
+    displayName: Heavy Fighter Squadrons Limit
+    highIsGood: true
+    iconID: 2987
+    published: true
+    stackable: true
+-   attributeID: 2740
+    attributeName: fighterSquadronIsStandupLight
+    categoryID: 38
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2741
+    attributeName: fighterSquadronIsStandupSupport
+    categoryID: 38
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2742
+    attributeName: fighterSquadronIsStandupHeavy
+    categoryID: 38
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true

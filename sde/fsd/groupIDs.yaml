@@ -4100,7 +4100,7 @@
         fr: Missile léger à ciblage automatique
         ja: FoFライトミサイル
         ru: Лёгкая ракета с авто-наведением
-        zh: FOF轻型导弹
+        zh: 自动锁定轻型导弹
     published: true
     useBasePrice: false
 395:
@@ -4115,7 +4115,7 @@
         fr: Missile lourd à ciblage automatique
         ja: FoFヘビーミサイル
         ru: Тяжёлая ракета с авто-наведением
-        zh: FOF重型导弹
+        zh: 自动锁定重型导弹
     published: true
     useBasePrice: false
 396:
@@ -4130,7 +4130,7 @@
         fr: Missile de croisière à ciblage automatique
         ja: FoFクルーズミサイル
         ru: Дальнобойная ракета с авто-наведением
-        zh: FOF巡航导弹
+        zh: 自动锁定巡航导弹
     published: true
     useBasePrice: false
 397:
@@ -16280,7 +16280,7 @@
             des minerais de HS
         ja: ストラクチャ ― リソースリグM（HS鉱石再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка руд метрополий
-        zh: 建筑资源中型改装件 - HS矿石提炼
+        zh: 旧建筑资源中型改装件 - HS矿石提炼
     published: false
     useBasePrice: false
 1648:
@@ -16295,7 +16295,7 @@
             des minerais
         ja: ストラクチャ ― リソースリグL（鉱石再処理）
         ru: СТАРАЯ надстройка для больших сооружений — переработка руды
-        zh: 建筑资源大型改装件 - 矿石提炼
+        zh: 旧建筑资源大型改装件 - 矿石提炼
     published: false
     useBasePrice: false
 1649:
@@ -16309,7 +16309,7 @@
         fr: ANCIEN module d’optimisation des ressources pour structure XL – Retraitement
         ja: ストラクチャ ― リソースリグXL（再処理）
         ru: СТАРАЯ надстройка для сверхбольших сооружений — переработка ресурсов
-        zh: 建筑资源超大型改装件 - 提炼
+        zh: 旧建筑资源超大型改装件 - 提炼
     published: false
     useBasePrice: false
 1652:
@@ -16708,7 +16708,7 @@
         ja: ストラクチャ ― リソースリグM（LNS鉱石再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка руд фронтира и
             нулевого сектора
-        zh: 建筑资源中型改装件 - LNS矿石提炼
+        zh: 旧建筑资源中型改装件 - LNS矿石提炼
     published: false
     useBasePrice: false
 1694:
@@ -16723,7 +16723,7 @@
             de la glace 1
         ja: ストラクチャ ― リソースリグM（アイス1再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка льда 1
-        zh: 建筑资源中型改装件 - 冰矿提炼 1
+        zh: 旧建筑资源中型改装件 - 冰矿提炼 1
     published: false
     useBasePrice: false
 1695:
@@ -16738,7 +16738,7 @@
             de la glace 2
         ja: ストラクチャ ― リソースリグM（アイス2再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка льда 2
-        zh: 建筑资源中型改装件 - 冰矿提炼 2
+        zh: 旧建筑资源中型改装件 - 冰矿提炼 2
     published: false
     useBasePrice: false
 1696:
@@ -16753,7 +16753,7 @@
             de la glace
         ja: ストラクチャ ― リソースリグL（アイス再処理）
         ru: СТАРАЯ надстройка для больших сооружений — переработка льда
-        zh: 建筑资源大型改装件 - 冰矿提炼
+        zh: 旧建筑资源大型改装件 - 冰矿提炼
     published: false
     useBasePrice: false
 1697:
@@ -16910,7 +16910,7 @@
         fr: Plan de construction Module d’optimisation de structure
         ja: ストラクチャ ― リグのブループリント
         ru: Чертёж надстройки сооружения
-        zh: 建筑  改装件蓝图
+        zh: 建筑改装件蓝图
     published: true
     useBasePrice: true
 1709:
@@ -18662,7 +18662,7 @@
         en: Ubiquitous Moon Asteroids
         fr: Astéroïdes lunaires ubiques
         ru: Повсеместные лунные астероиды
-        zh: 卫星小行星
+        zh: 常见的卫星小行星
     published: true
     useBasePrice: false
 1886:
@@ -18702,7 +18702,7 @@
         en: Composite Reaction Formulas
         fr: Formules de réaction composite
         ru: Формулы композитных реакций
-        zh: 复合反应蓝图
+        zh: 复合反应公式
     published: true
     useBasePrice: true
 1889:
@@ -18715,7 +18715,7 @@
         en: Polymer Reaction Formulas
         fr: Formules de réaction polymère
         ru: Формулы полимерных реакций
-        zh: 聚合物反应蓝图
+        zh: 聚合物反应公式
     published: true
     useBasePrice: true
 1890:
@@ -18728,7 +18728,7 @@
         en: Biochemical Reaction Formulas
         fr: Formules de réaction biochimique
         ru: Формулы биохимических реакций
-        zh: 生化反应蓝图
+        zh: 生化反应公式
     published: true
     useBasePrice: true
 1891:
@@ -18781,47 +18781,7 @@
         en: '♦ Industrial Command '
         fr: ♦ Commandement industriel
         ru: '♦ Буровой корабль '
-        zh: ♦ 货舰
-    published: false
-    useBasePrice: false
-1904:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
-    published: false
-    useBasePrice: false
-1905:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
-    published: false
-    useBasePrice: false
-1906:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
-    published: false
-    useBasePrice: false
-1907:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
-    published: false
-    useBasePrice: false
-1908:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
+        zh: '♦ 工业指挥舰 '
     published: false
     useBasePrice: false
 1909:
@@ -18834,15 +18794,7 @@
         en: ♦ Battlecruiser
         fr: ♦ Croiseur de bataille
         ru: ♦ Линейный крейсер
-        zh: ♦ 资源战争帝国战列巡洋舰
-    published: false
-    useBasePrice: false
-1910:
-    anchorable: false
-    anchored: false
-    categoryID: 11
-    fittableNonSingleton: false
-    name: {}
+        zh: ♦ 战列巡洋舰
     published: false
     useBasePrice: false
 1911:
@@ -18855,6 +18807,7 @@
         en: Empire Asteroids
         fr: Astéroïdes impériaux
         ru: Астероиды метрополии
+        zh: 帝国小行星
     published: false
     useBasePrice: false
 1912:
@@ -18867,6 +18820,7 @@
         en: Structure Drilling Rig M - Efficiency
         fr: Optimisation de forage pour structure M – Efficience
         ru: Буровой модификатор средних сооружений - эффективность
+        zh: 建筑钻探中型改装件 - 效率
     published: true
     useBasePrice: false
 1913:
@@ -18879,6 +18833,7 @@
         en: Structure Drilling Rig M - Stability
         fr: Optimisation de forage pour structure M – Stabilité
         ru: Буровой модификатор средних сооружений - стабильность
+        zh: 建筑钻探中型改装件 - 耐久
     published: true
     useBasePrice: false
 1914:
@@ -18891,6 +18846,7 @@
         en: Structure Drilling Rig L - Proficiency
         fr: Optimisation de forage pour structure L – Savoir-faire
         ru: Буровой модуль больших сооружений - мастерство
+        zh: 建筑钻探大型改装件 - 精通
     published: true
     useBasePrice: false
 1915:
@@ -18903,6 +18859,7 @@
         en: Moon Mining Beacon
         fr: Balise d'extraction lunaire
         ru: Маяк лунной добычи
+        zh: 卫星开采信标
     published: false
     useBasePrice: false
 1920:
@@ -18916,6 +18873,7 @@
         en: Common Moon Asteroids
         fr: Astéroïdes lunaires communs
         ru: Обычные лунные астероиды
+        zh: 普通的卫星小行星
     published: true
     useBasePrice: false
 1921:
@@ -18929,6 +18887,7 @@
         en: Uncommon Moon Asteroids
         fr: Astéroïdes lunaires sporadiques
         ru: Необычные лунные астероиды
+        zh: 罕见的卫星小行星
     published: true
     useBasePrice: false
 1922:
@@ -18942,6 +18901,7 @@
         en: Rare Moon Asteroids
         fr: Astéroïdes lunaires rares
         ru: Редкие лунные астероиды
+        zh: 稀有的卫星小行星
     published: true
     useBasePrice: false
 1923:
@@ -18955,6 +18915,7 @@
         en: Exceptional Moon Asteroids
         fr: Astéroïdes lunaires exceptionnels
         ru: Исключительные лунные астероиды
+        zh: 非凡的卫星小行星
     published: true
     useBasePrice: false
 1924:
@@ -18967,6 +18928,7 @@
         en: ♦ Forward Operating Base
         fr: ♦ Base d'opérations avancée
         ru: ♦ Передовая база
+        zh: ♦ 前线作战基地
     published: false
     useBasePrice: false
 1925:
@@ -18979,6 +18941,7 @@
         en: Sleeper Event Frigate
         fr: Frégate de l’événement sleeper
         ru: Фрегат события «Спящие»
+        zh: 冬眠者事件护卫舰
     published: false
     useBasePrice: false
 1926:
@@ -18991,6 +18954,7 @@
         en: Sleeper Event Destroyer
         fr: Destroyer de l’événement sleeper
         ru: Эсминец события «Спящие»
+        zh: 冬眠者事件驱逐舰
     published: false
     useBasePrice: false
 1927:
@@ -19003,6 +18967,7 @@
         en: Sleeper Event Cruiser
         fr: Croiseur de l’événement sleeper
         ru: Крейсер события «Спящие»
+        zh: 冬眠者事件巡洋舰
     published: false
     useBasePrice: false
 1928:
@@ -19015,6 +18980,7 @@
         en: Sleeper Event Battlecruiser
         fr: Croiseur de bataille de l’événement sleeper
         ru: Линейный крейсер события «Спящие»
+        zh: 冬眠者事件战列巡洋舰
     published: false
     useBasePrice: false
 1929:
@@ -19027,6 +18993,7 @@
         en: Sleeper Event Battleship
         fr: Cuirassé de l’événement sleeper
         ru: Линкор события «Спящие»
+        zh: 冬眠者事件战列舰
     published: false
     useBasePrice: false
 1931:
@@ -19047,6 +19014,7 @@
         en: Structure Composite Reactor Rig M - TE
         fr: Optimisation de réacteur composite pour structure M – PH
         ru: 'Надстройка для средних сооружений — композитный реактор: скорость производства'
+        zh: 建筑复合反应堆中型改装件 - 时间效率
     published: true
     useBasePrice: false
 1934:
@@ -19059,6 +19027,7 @@
         en: Structure Composite Reactor Rig M - ME
         fr: Optimisation de réacteur composite pour structure M – PM
         ru: 'Надстройка для средних сооружений — композитный реактор: материалоэффективность'
+        zh: 建筑复合反应堆中型改装件 - 材料效率
     published: true
     useBasePrice: false
 1935:
@@ -19071,6 +19040,7 @@
         en: Structure Hybrid Reactor Rig M - TE
         fr: Optimisation de réacteur hybride pour structure M – PH
         ru: 'Надстройка для средних сооружений — гибридный реактор: скорость производства'
+        zh: 建筑混合反应堆中型改装件 - 时间效率
     published: true
     useBasePrice: false
 1936:
@@ -19083,6 +19053,7 @@
         en: Structure Hybrid Reactor Rig M - ME
         fr: Optimisation de réacteur hybride pour structure M – PM
         ru: 'Надстройка для средних сооружений — гибридный реактор: материалоэффективность'
+        zh: 建筑混合反应堆中型改装件 - 材料效率
     published: true
     useBasePrice: false
 1937:
@@ -19095,6 +19066,7 @@
         en: Structure Biochemical Reactor Rig M - TE
         fr: Optimisation de réacteur biochimique pour structure M – PH
         ru: 'Надстройка для средних сооружений — биохимический реактор: скорость производства'
+        zh: 建筑生化反应堆中型改装件 - 时间效率
     published: true
     useBasePrice: false
 1938:
@@ -19107,6 +19079,7 @@
         en: Structure Biochemical Reactor Rig M - ME
         fr: Optimisation de réacteur biochimique pour structure M – PM
         ru: 'Надстройка для средних сооружений — биохимический реактор: материалоэффективность'
+        zh: 建筑生化反应堆中型改装件 - 材料效率
     published: true
     useBasePrice: false
 1939:
@@ -19119,6 +19092,7 @@
         en: Structure Reactor Rig L - Efficiency
         fr: Optimisation de réacteur pour structure L – Efficacité industrielle
         ru: 'Надстройка для больших сооружений — реактор: эффективность'
+        zh: 建筑反应堆大型改装件 - 效率
     published: true
     useBasePrice: false
 1940:
@@ -19131,6 +19105,7 @@
         en: Moon Chunk
         fr: Monolithe de lune
         ru: Порода спутника
+        zh: 卫星区块
     published: false
     useBasePrice: false
 1941:
@@ -19144,6 +19119,7 @@
         fr: Optimisation des ressources pour structure M – Retraitement des minerais
             astéroïdaux
         ru: Надстройка для средних сооружений — переработка руды со спутников
+        zh: 建筑资源中型改装件 - 小行星矿石提炼
     published: true
     useBasePrice: false
 1942:
@@ -19156,6 +19132,7 @@
         en: Structure Resource Rig M - Ice Reprocessing
         fr: Optimisation des ressources pour structure M – Retraitement de la glace
         ru: Надстройка для средних сооружений — переработка льда
+        zh: 建筑资源中型改装件 - 冰矿提炼
     published: true
     useBasePrice: false
 1943:
@@ -19169,6 +19146,7 @@
         fr: Optimisation des ressources pour structure M – Retraitement des minerais
             lunaires
         ru: Надстройка для средних сооружений — переработка руды с астероидов
+        zh: 建筑资源中型改装件 - 卫星矿石提炼
     published: true
     useBasePrice: false
 1944:
@@ -19181,6 +19159,7 @@
         en: Structure Resource Rig L - Reprocessing
         fr: Optimisation des ressources pour structure L – Retraitement
         ru: Надстройка для больших сооружений — переработка ресурсов
+        zh: 建筑资源大型改装件 - 提炼
     published: true
     useBasePrice: false
 1945:
@@ -19193,6 +19172,7 @@
         en: Structure Resource Rig XL - Reprocessing
         fr: Optimisation des ressources pour structure XL – Retraitement
         ru: Тюнинг-модуль переработки, сверхбольшие сооружения - переработка
+        zh: 建筑资源超大型改装件 - 提炼
     published: true
     useBasePrice: false
 1948:
@@ -19206,6 +19186,78 @@
         en: Cyber Scanning Implant Blueprints
         fr: Plans de construction Implant de cyberscan
         ru: Чертежи кибернетического сканер-импланта
+    published: true
+    useBasePrice: false
+1950:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: Permanenter SKIN
+        en: Permanent SKIN
+        fr: SKIN permanent
+        ru: Бессрочный шаблон
+    published: true
+    useBasePrice: false
+1951:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: Vergänglicher SKIN
+        en: Volatile SKIN
+        fr: SKIN volatile
+        ru: Хрупкий шаблон
+    published: true
+    useBasePrice: false
+1952:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: SKIN 7 Tage
+        en: 7-Day SKIN
+        fr: SKIN de 7 jours
+        ru: 7-дневный шаблон
+    published: true
+    useBasePrice: false
+1953:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: SKIN 30 Tage
+        en: 30-Day SKIN
+        fr: SKIN de 30 jours
+        ru: 30-дневный шаблон
+    published: true
+    useBasePrice: false
+1954:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: SKIN 90 Tage
+        en: 90-Day SKIN
+        fr: SKIN de 90 jours
+        ru: 90-дневный шаблон
+    published: true
+    useBasePrice: false
+1955:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: SKIN 1 Jahr
+        en: 1-Year SKIN
+        fr: SKIN de 1 an
+        ru: Годовой шаблон
     published: true
     useBasePrice: false
 350858:
