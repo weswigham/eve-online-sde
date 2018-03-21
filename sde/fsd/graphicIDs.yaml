@@ -874,9 +874,9 @@
   sofRaceName: generic
 1212:
   description: Sentry Caldari
-  graphicFile: res:/dx9/model/Structure/Caldari/Sentry/L/CSL_T1.red
   iconFolder: res:/dx9/model/structure/caldari/sentry/l/icons
   sofFactionName: caldaribase
+  sofHullName: csl_t1
   sofRaceName: caldari
 1213:
   description: Sentry Gallente Railgun and Blaster Small Medium
@@ -1340,8 +1340,9 @@
   sofRaceName: generic
 1692:
   description: Artifact Monolith
-  graphicFile: res:/dx9/model/Artifact/Universal/Monolith/UMO.red
   iconFolder: res:/dx9/model/artifact/universal/monolith/icons
+  sofFactionName: gallentestory
+  sofHullName: umo
   sofRaceName: generic
 1693:
   description: Celestial Asteroid Coral 1
@@ -1400,13 +1401,15 @@
   sofRaceName: amarr
 1706:
   description: CO_Refining
-  graphicFile: res:/dx9/model/Structure/Caldari/Refinery/CRef1/CRef1.red
   iconFolder: res:/dx9/model/structure/caldari/refinery/cref1/icons
+  sofFactionName: caldaribase
+  sofHullName: cref1
   sofRaceName: caldari
 1707:
   description: CO_Repair
-  graphicFile: res:/dx9/model/Structure/Caldari/Repair/CRep1/Crep1.red
   iconFolder: res:/dx9/model/structure/caldari/repair/crep1/icons
+  sofFactionName: caldaribase
+  sofHullName: crep1
   sofRaceName: caldari
 1708:
   description: Structure Caldari Battlestation 1
@@ -1445,9 +1448,9 @@
   sofRaceName: gallente
 1725:
   description: Structure Sail Charger
-  graphicFile: res:/dx9/model/Structure/Universal/SailCharger/USC.red
   iconFolder: res:/dx9/model/structure/universal/sailcharger/icons
-  sofFactionName: genericbase
+  sofFactionName: genericpleasure
+  sofHullName: usc01
   sofRaceName: generic
 1726:
   description: Celestial Asteroid Coral 2
@@ -1456,8 +1459,9 @@
   sofRaceName: generic
 1727:
   description: Ball_and_Pillars
-  graphicFile: res:/dx9/model/Artifact/BallandPillar/BallandPillar.red
-  iconFolder: res:/dx9/model/artifact/ballandpillar/icons
+  iconFolder: res:\dx9\model\artifact\universal\ballandpillar\ubp01\icons
+  sofFactionName: genericrelic
+  sofHullName: ubp01
   sofRaceName: generic
 1728:
   description: Amarr Cruiser Navy Issue Arbitrator
@@ -2395,48 +2399,57 @@
   iconFolder: res:/dx9/model/worldobject/cloud/icons
 1990:
   description: asteroid_station1
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS01/UAS01_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas01/icons
+  sofFactionName: genericbase
+  sofHullName: uas01_t1
   sofRaceName: generic
 1991:
   description: asteroid_station2
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS02/UAS02_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas02/icons
+  sofFactionName: genericbase
+  sofHullName: uas02_t1
   sofRaceName: generic
 1992:
   description: asteroid_station3
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS03/UAS03_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas03/icons
+  sofFactionName: genericbase
+  sofHullName: uas03_t1
   sofRaceName: generic
 1993:
   description: asteroid_station4
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS04/UAS04_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas04/icons
+  sofFactionName: genericbase
+  sofHullName: uas04_t1
   sofRaceName: generic
 1994:
   description: asteroid_station5
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS05/UAS05_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas05/icons
+  sofFactionName: genericbase
+  sofHullName: uas05_t1
   sofRaceName: generic
 1997:
   description: asteroid_station6
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS06/UAS06_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas06/icons
+  sofFactionName: genericbase
+  sofHullName: uas06_t1
   sofRaceName: generic
 1998:
   description: asteroid_station7
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS07/UAS07_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas07/icons
+  sofFactionName: genericbase
+  sofHullName: uas07_t1
   sofRaceName: generic
 1999:
   description: asteroid_station8
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS08/UAS08_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas08/icons
+  sofFactionName: genericbase
+  sofHullName: uas08_t1
   sofRaceName: generic
 2000:
   description: asteroid_station9
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS09/UAS09_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas09/icons
+  sofFactionName: genericbase
+  sofHullName: uas09_t1
   sofRaceName: generic
 2001:
   description: Celestial Asteroid Rock Formation 1
@@ -2522,28 +2535,33 @@
   sofRaceName: generic
 2047:
   description: Artifact Cathedral 1
-  graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral1.red
-  iconFolder: res:/dx9/model/artifact/universal/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath01/icons
+  sofFactionName: amarrbase
+  sofHullName: acath01
   sofRaceName: generic
 2048:
   description: Artifact Cathedral 2
-  graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral2.red
-  iconFolder: res:/dx9/model/artifact/universal/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath02/icons
+  sofFactionName: amarrbase
+  sofHullName: acath02
   sofRaceName: generic
 2049:
   description: Artifact Cathedral 3
-  graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral3.red
-  iconFolder: res:/dx9/model/artifact/universal/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath03/icons
+  sofFactionName: amarrbase
+  sofHullName: acath03
   sofRaceName: generic
 2050:
   description: Artifact Cathedral 4
-  graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral4.red
-  iconFolder: res:/dx9/model/artifact/universal/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath04/icons
+  sofFactionName: amarrbase
+  sofHullName: acath04
   sofRaceName: generic
 2051:
   description: Artifact Cathedral 5
-  graphicFile: res:/dx9/model/Artifact/Universal/Cathedral/Cathedral5.red
-  iconFolder: res:/dx9/model/artifact/universal/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath05/icons
+  sofFactionName: amarrbase
+  sofHullName: acath05
   sofRaceName: generic
 2063:
   description: Celestial Barren Asteroid
@@ -2682,20 +2700,21 @@
   sofRaceName: sansha
 2299:
   description: Deployable Starbase Refinery Medium
-  iconFolder: res:/dx9/model/deployables/starbase/refinery/medium/icons
-  sofFactionName: genericbase
-  sofHullName: dsrefm_t1
+  iconFolder: res:/dx9/model/deployables/generic/refinery/genrefinery01/m/icons
+  sofFactionName: genericmetal
+  sofHullName: genrefinery01_m
   sofRaceName: generic
 2300:
   description: Deployable Starbase Refinery Small
-  iconFolder: res:/dx9/model/deployables/starbase/refinery/small/icons
-  sofFactionName: genericbase
-  sofHullName: dsrefs_t1
+  iconFolder: res:/dx9/model/deployables/generic/refinery/genrefinery01/s/icons
+  sofFactionName: genericmetal
+  sofHullName: genrefinery01_s
   sofRaceName: generic
 2301:
   description: Deployable Starbase Warehouse Rotated
-  graphicFile: res:/dx9/model/deployables/starbase/warehouse/warehouse_r_t1.red
-  iconFolder: res:/dx9/model/deployables/starbase/warehouse/icons
+  iconFolder: res:/dx9/model/deployables/generic/warehouse/gw01/icons
+  sofFactionName: genericmetal
+  sofHullName: gw01
   sofRaceName: generic
 2306:
   description: Gallente Station Conquerable 1
@@ -2808,8 +2827,9 @@
   sofRaceName: sansha
 2366:
   description: Deployable Starbase Assembly Array Large
-  graphicFile: res:/dx9/model/Deployables/Starbase/Factory/Factory_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/factory/icons
+  iconFolder: res:/dx9/model/deployables/generic/factory/gf01/icons
+  sofFactionName: genericindustrial
+  sofHullName: gf01
   sofRaceName: generic
 2367:
   description: Structure Debris Drill
@@ -2831,28 +2851,33 @@
   sofRaceName: generic
 2372:
   description: Universal Armory Small
-  graphicFile: res:/dx9/model/structure/universal/armory/uarm_t1.red
   iconFolder: res:/dx9/model/structure/universal/armory/icons
+  sofFactionName: genericmetal
+  sofHullName: uarm01_t1
   sofRaceName: generic
 2373:
   description: Deployable Starbase Mobile Laboratory
-  graphicFile: res:/dx9/model/Deployables/Starbase/Lab/Lab_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/lab/icons
+  iconFolder: res:/dx9/model/deployables/generic/lab/gl01/icons
+  sofFactionName: genericmetal
+  sofHullName: gl01
   sofRaceName: generic
 2374:
   description: Deployable Starbase Powercore
-  graphicFile: res:/dx9/model/Deployables/Starbase/Powercore/Powercore_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/powercore/icons
+  iconFolder: res:/dx9/model/deployables/generic/powercore/gpc01/icons
+  sofFactionName: genericmetal
+  sofHullName: gpc01
   sofRaceName: generic
 2377:
   description: Deployable Starbase Reactor
-  graphicFile: res:/dx9/model/Deployables/Starbase/Reactor/Reactor_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/reactor/icons
+  iconFolder: res:/dx9/model/deployables/generic/reactor/gr01/icons
+  sofFactionName: genericmetal
+  sofHullName: gr01
   sofRaceName: generic
 2378:
   description: Deployable Starbase Moon Harvester
-  graphicFile: res:/dx9/model/Deployables/Starbase/Harvester/Harvester_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/harvester/icons
+  iconFolder: res:/dx9/model/deployables/generic/harvester/gh01/icons
+  sofFactionName: genericbase
+  sofHullName: gh01
   sofRaceName: generic
 2380:
   description: Deployable Starbase Shield Generator
@@ -2943,18 +2968,21 @@
   sofRaceName: generic
 2400:
   description: cathedral
-  graphicFile: res:/dx9/model/Structure/Amarr/Cathedral/Cathedral.red
-  iconFolder: res:/dx9/model/structure/amarr/cathedral/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath06/icons
+  sofFactionName: amarrbase
+  sofHullName: acath06
   sofRaceName: amarr
 2401:
   description: cathedralBlood
-  graphicFile: res:/dx9/model/Structure/Amarr/Cathedral/Bloodraider/Cathedral_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/cathedral/bloodraider/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath06/icons
+  sofFactionName: bloodraider
+  sofHullName: acath06
   sofRaceName: amarr
 2402:
   description: asteroid_station12
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS10/UAS10_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas10/icons
+  sofFactionName: genericbase
+  sofHullName: uas10_t1
   sofRaceName: generic
 2403:
   description: Structure Universal Cargo Rig
@@ -2964,13 +2992,15 @@
   sofRaceName: generic
 2404:
   description: Structure Amarr Chapel
-  graphicFile: res:/dx9/model/structure/amarr/chapel/chapel.red
-  iconFolder: res:/dx9/model/structure/amarr/chapel/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath07/icons
+  sofFactionName: amarrbase
+  sofHullName: acath07
   sofRaceName: amarr
 2405:
   description: Structure Amarr Blood Raider Chapel
-  graphicFile: res:/dx9/model/structure/amarr/chapel/bloodraider/chapel_bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/chapel/bloodraider/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath07/icons
+  sofFactionName: bloodraider
+  sofHullName: acath07
   sofRaceName: amarr
 2406:
   description: Drone Station Superstructure 2
@@ -3009,8 +3039,9 @@
   sofRaceName: generic
 2413:
   description: AmarrWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_sentry
   sofRaceName: amarr
 2414:
   description: AngelWall_Sentry
@@ -3019,8 +3050,9 @@
   sofRaceName: angel
 2415:
   description: BloodraiderWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_Sentry_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_sentry
   sofRaceName: amarr
 2416:
   description: CaldariWall_Sentry
@@ -3029,8 +3061,9 @@
   sofRaceName: caldari
 2417:
   description: GallenteWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_sentry
   sofRaceName: gallente
 2418:
   description: GuristaWall_Sentry
@@ -3049,53 +3082,63 @@
   sofRaceName: sansha
 2421:
   description: SerpentisWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_Sentry_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_sentry
   sofRaceName: gallente
 2422:
   description: AmarrWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_Bunker.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_bunker
   sofRaceName: amarr
 2423:
   description: AmarrWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_elevator
   sofRaceName: amarr
 2424:
   description: AmarrWall_Junction
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_junction
   sofRaceName: amarr
 2425:
   description: AmarrWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_lookout
   sofRaceName: amarr
 2426:
   description: AmarrWall_X
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_wallx
   sofRaceName: amarr
 2427:
   description: AmarrWall_XZ
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_wallxz
   sofRaceName: amarr
 2428:
   description: AmarrWall_Z
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_wallz
   sofRaceName: amarr
 2429:
   description: AmarrWall_ZX
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_wallzx
   sofRaceName: amarr
 2430:
   description: AmarrWalls_MBattery
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: amarrbase
+  sofHullName: ad_missilebattery
   sofRaceName: amarr
 2431:
   description: AngelWall_Bunker
@@ -3144,48 +3187,57 @@
   sofRaceName: angel
 2440:
   description: BloodraiderWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_Bunker_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_bunker
   sofRaceName: amarr
 2441:
   description: BloodraiderWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_Elevator_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_elevator
   sofRaceName: amarr
 2442:
   description: BloodraiderWall_Junction
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_Junction_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_junction
   sofRaceName: amarr
 2443:
   description: BloodraiderWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_Lookout_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_lookout
   sofRaceName: amarr
 2444:
   description: BloodraiderWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_MissileBattery_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_missilebattery
   sofRaceName: amarr
 2445:
   description: BloodraiderWall_X
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_StraightX_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_wallx
   sofRaceName: amarr
 2446:
   description: BloodraiderWall_XZ
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_StraightXZ_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_wallxz
   sofRaceName: amarr
 2447:
   description: BloodraiderWall_Z
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_StraightZ_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_wallz
   sofRaceName: amarr
 2448:
   description: BloodraiderWall_ZX
-  graphicFile: res:/dx9/model/Structure/Amarr/Defense/Bloodraider/Wall_StraightZX_Bloodraider.red
-  iconFolder: res:/dx9/model/structure/amarr/defense/bloodraider/icons
+  iconFolder: res:/dx9/model/structure/amarr/defense/icons
+  sofFactionName: bloodraider
+  sofHullName: ad_wallzx
   sofRaceName: amarr
 2449:
   description: CaldariWall_Elevator
@@ -3234,48 +3286,57 @@
   sofRaceName: caldari
 2458:
   description: GallenteWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_Bunker.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_bunker
   sofRaceName: gallente
 2459:
   description: GallenteWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_elevator
   sofRaceName: gallente
 2460:
   description: GallenteWall_Junction
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_junction
   sofRaceName: gallente
 2461:
   description: GallenteWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_lookout
   sofRaceName: gallente
 2462:
   description: GallenteWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_missilebattery
   sofRaceName: gallente
 2463:
   description: GallenteWall_X
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_wallx
   sofRaceName: gallente
 2464:
   description: GallenteWall_XZ
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_wallxz
   sofRaceName: gallente
 2465:
   description: GallenteWall_Z
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_wallz
   sofRaceName: gallente
 2466:
   description: GallenteWall_ZX
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: gallentebase
+  sofHullName: gd_wallzx
   sofRaceName: gallente
 2467:
   description: GuristasWall_GreatWall
@@ -3419,48 +3480,57 @@
   sofRaceName: sansha
 2496:
   description: SerpentisWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_Bunker_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_bunker
   sofRaceName: gallente
 2497:
   description: SerpentisWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_Elevator_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_elevator
   sofRaceName: gallente
 2498:
   description: SerpentisWall_Junction
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_Junction_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_junction
   sofRaceName: gallente
 2499:
   description: SerpentisWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_Lookout_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_lookout
   sofRaceName: gallente
 2500:
   description: SerpentisWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_MissileBattery_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_missilebattery
   sofRaceName: gallente
 2501:
   description: SerpentisWall_X
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_StraightX_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_wallx
   sofRaceName: gallente
 2502:
   description: SerpentisWall_XZ
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_StraightXZ_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_wallxz
   sofRaceName: gallente
 2503:
   description: SerpentisWall_Z
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_StraightZ_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_wallz
   sofRaceName: gallente
 2504:
   description: SerpentisWall_ZX
-  graphicFile: res:/dx9/model/Structure/Gallente/Defense/Serpentis/Wall_StraightZX_Serpentis.red
-  iconFolder: res:/dx9/model/structure/gallente/defense/serpentis/icons
+  iconFolder: res:/dx9/model/structure/gallente/defense/icons
+  sofFactionName: serpentis
+  sofHullName: gd_wallzx
   sofRaceName: gallente
 2505:
   description: Structure Radio Telescope
@@ -3506,8 +3576,9 @@
   sofRaceName: amarr
 2513:
   description: Structure BloodsportArena
-  graphicFile: res:/dx9/model/Structure/Universal/Arena/UA1_T1/UA1_T1.red
-  iconFolder: res:/dx9/model/structure/universal/arena/ua1_t1/icons
+  iconFolder: res:/dx9/model/structure/universal/arena/ua01_t1/icons
+  sofFactionName: genericmetal
+  sofHullName: ua01_t1
   sofRaceName: generic
 2514:
   description: Structure Habitat Brothel
@@ -3651,13 +3722,15 @@
   sofRaceName: gallente
 2595:
   description: Deployable Starbase Ship Maintenance Array
-  graphicFile: res:/dx9/model/Deployables/Starbase/Hangar/Hangar_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/hangar/icons
+  iconFolder: res:/dx9/model/deployables/generic/hangar/ghg01/icons
+  sofFactionName: genericmetal
+  sofHullName: ghg01
   sofRaceName: generic
 2598:
   description: Deployable Starbase Silo
-  graphicFile: res:/dx9/model/deployables/starbase/silo/silo_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/silo/icons
+  iconFolder: res:/dx9/model/deployables/generic/silo/gensilo01/icons
+  sofFactionName: genericmetal
+  sofHullName: gensilo01
   sofRaceName: generic
 2599:
   description: Deployable Starbase Caldari Control Tower Large
@@ -3671,26 +3744,23 @@
   sofFactionName: minmatarbase
   sofHullName: mct1_t1a
   sofRaceName: minmatar
-2601:
-  description: Deployable Starbase Warehouse
-  graphicFile: res:/dx9/model/Deployables/Starbase/Warehouse/Warehouse_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/warehouse/icons
-  sofRaceName: generic
 2603:
   description: Deployable Starbase Defense Array Missile Platform Large
-  graphicFile: res:/dx9/model/Deployables/Starbase/DefenseArray/MissilePlatformLarge_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/defensearray/icons
+  iconFolder: res:/dx9/model/deployables/generic/defensearray/gda01/icons
   sofFactionName: genericbase
+  sofHullName: gda01
   sofRaceName: generic
 2613:
   description: Deployable Starbase Emitter Array
-  graphicFile: res:/dx9/model/Deployables/Starbase/EmitterArray/EmitterArray_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/emitterarray/icons
+  iconFolder: res:/dx9/model/deployables/generic/emitterarray/gea01/icons
+  sofFactionName: genericbase
+  sofHullName: gea01
   sofRaceName: generic
 2615:
   description: Deployable Starbase Scrambler Array
-  graphicFile: res:/dx9/model/Deployables/Starbase/ScramblerArray/ScramblerArray_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/scramblerarray/icons
+  iconFolder: res:/dx9/model/deployables/generic/scramblerarray/gsa01/icons
+  sofFactionName: genericmetal
+  sofHullName: gsa01
   sofRaceName: generic
 2625:
   description: Deployable Starbase Shipyard
@@ -3736,15 +3806,15 @@
   sofRaceName: minmatar
 2706:
   description: Structure Universal Astrofarm
-  graphicFile: res:/dx9/model/Structure/Universal/Astrofarm/UAF1_T1.red
   iconFolder: res:/dx9/model/structure/universal/astrofarm/icons
-  sofFactionName: genericbase
+  sofFactionName: genericmetal
+  sofHullName: uaf01_t1
   sofRaceName: generic
 2707:
   description: Structure Universal Humanfarm
-  graphicFile: res:/dx9/model/Structure/Universal/Humanfarm/UHF1_T1.red
-  iconFolder: res:/dx9/model/structure/universal/humanfarm/icons
-  sofFactionName: genericbase
+  iconFolder: res:\dx9\model\structure\universal\astrofarm\icons\
+  sofFactionName: bloodraider
+  sofHullName: uaf01_t1
   sofRaceName: generic
 2709:
   description: Caldari Industrial Crane (Tayra Hull)
@@ -3878,9 +3948,9 @@
   sofRaceName: gallente
 2751:
   description: Deployable Starbase Defense Array Turret Platform Large
-  graphicFile: res:/dx9/model/deployables/starbase/defensearray/platformlarge_t1.red
-  iconFolder: res:/dx9/model/deployables/starbase/defensearray/icons
+  iconFolder: res:/dx9/model/deployables/generic/defensearray/gda02/icons
   sofFactionName: genericbase
+  sofHullName: gda02
   sofRaceName: generic
 2755:
   description: Minmatar Dreadnought Naglfar
@@ -4098,8 +4168,9 @@
   sofRaceName: minmatar
 2898:
   description: Dark and spiky asteroid station - Unknown
-  graphicFile: res:/dx9/model/Structure/Universal/AsteroidStation/UAS11/UAS11_T1.red
   iconFolder: res:/dx9/model/structure/universal/asteroidstation/uas11/icons
+  sofFactionName: genericbase
+  sofHullName: uas11_t1
   sofRaceName: generic
 2899:
   description: Amarr Fighter Templar
@@ -4283,8 +4354,9 @@
   sofRaceName: ore
 2941:
   description: Structure Warning Sign
-  graphicFile: res:/dx9/model/structure/universal/warningsign/uws1/uws1.red
-  iconFolder: res:/dx9/model/structure/universal/warningsign/uws1/icons
+  iconFolder: res:/dx9/model/structure/universal/warningsign/uws01/icons
+  sofFactionName: genericmetal
+  sofHullName: uws01
   sofRaceName: generic
 2942:
   description: Gallente Titan Erebus
@@ -4330,8 +4402,9 @@
   sofRaceName: caldari
 2977:
   description: Deployable Starbase Capital Ship Assembly Array and Maintenance Array
-  graphicFile: res:/dx9/model/Deployables/Starbase/Titanyard/Titanyard_T1.red
-  iconFolder: res:/dx9/model/deployables/starbase/titanyard/icons
+  iconFolder: res:/dx9/model/deployables/generic/titanyard/gty01/icons
+  sofFactionName: genericmetal
+  sofHullName: gty01
   sofRaceName: generic
 2979:
   description: Minmatar Drone Sentry Bouncer I
@@ -4353,8 +4426,9 @@
   sofRaceName: caldari
 2982:
   description: Ammatar Holy Dome Ruins - Unknown
-  graphicFile: res:/dx9/model/Structure/Amarr/HolyDome/Ammatar/HolyDome_Ammatar.red
-  iconFolder: res:/dx9/model/structure/amarr/holydome/ammatar/icons
+  iconFolder: res:/dx9/model/artifact/amarr/cathedral/acath08/icons
+  sofFactionName: ammatar
+  sofHullName: acath08
   sofRaceName: amarr
 3018:
   description: Effect Warp Disruption Probe
@@ -4560,6 +4634,10 @@
   sofRaceName: minmatar
 3206:
   description: Tournament Bubble (Used as the centre point for the arena)
+  iconFolder: res:/dx9/model/deployables/generic/warpdisruptor/icons
+  sofFactionName: igc
+  sofHullName: wd1_t1
+  sofRaceName: generic
 3207:
   description: Gallente Battleship Hyperion
   iconFolder: res:/dx9/model/ship/gallente/battleship/gb3/icons
@@ -5012,8 +5090,9 @@
   sofRaceName: talocan
 3567:
   description: Sleeper Engineering Station 1 - Sleeper Engineering Station 1
-  graphicFile: res:/dx9/model/Structure/Sleeper/EngineeringStation/SL_Es1/SL_Es1.red
-  iconFolder: res:/dx9/model/structure/sleeper/engineeringstation/sl_es1/icons
+  iconFolder: res:/dx9/model/structure/sleeper/engineeringstation/sl_es01/icons
+  sofFactionName: sleeperbase
+  sofHullName: sl_es01
   sofRaceName: sleeper
 3568:
   description: Talocan Engineering Station 1 - Talocan Engineering Station 1
@@ -5496,9 +5575,9 @@
   iconFolder: res:/dx9/model/celestial/wormhole/icons
 3767:
   description: Deployable Generic Probe - Scan Probe 1 (Yellow)
-  graphicFile: res:/dx9/model/Deployables/Generic/Probe/Pr1/Pr1_T1.red
-  iconFolder: res:/dx9/model/deployables/generic/probe/pr1/icons
-  sofFactionName: genericbase
+  iconFolder: res:/dx9/model/deployables/generic/probe/gpr01/icons
+  sofFactionName: genericnarcotics
+  sofHullName: gpr01
   sofRaceName: generic
 3772:
   description: Amarr Station Hub Wreck
@@ -7859,13 +7938,15 @@
   sofRaceName: generic
 4578:
   description: Structure for Orbital Delivery - OrbitalDeliveryStructure
-  graphicFile: res:/dx9/model/Structure/Orbital/Delivery_Container/Delivery_Container.red
-  iconFolder: res:/dx9/model/structure/orbital/delivery_container/icons
+  iconFolder: res:/dx9/model/structure/orbital/container01/icons
+  sofFactionName: debris
+  sofHullName: ocontainer01
   sofRaceName: generic
 4579:
   description: Structure for Orbital Hangar. - OrbitalHangarStructure
-  graphicFile: res:/dx9/model/Structure/Orbital/Hangar/hangar.red
-  iconFolder: res:/dx9/model/structure/orbital/hangar/icons
+  iconFolder: res:/dx9/model/structure/orbital/hangar01/icons
+  sofFactionName: genericmetal
+  sofHullName: ohangar01
   sofRaceName: generic
 10005:
   description: Gallente Frigate Tournament VIII Utu (Ishkur Hull)
@@ -9900,8 +9981,9 @@
   sofRaceName: minmatar
 20203:
   description: DUST District Space Beacon
-  graphicFile: res:/dx9/model/Structure/Orbital/Beacon/Beacon.red
-  iconFolder: res:/dx9/model/structure/orbital/beacon/icons
+  iconFolder: res:/dx9/model/structure/orbital/beacon01/icons
+  sofFactionName: debris
+  sofHullName: obeacon01
   sofRaceName: generic
 20204:
   description: orbital bombardment effect on the planet for EM
@@ -10187,8 +10269,9 @@
   sofRaceName: caldari
 20295:
   description: Artifact Colony Battleship
-  graphicFile: res:/dx9/model/Artifact/Colony/Battleship/ColB1/ColB1_T1.red
   iconFolder: res:/dx9/model/artifact/colony/battleship/colb1/icons
+  sofFactionName: genericcolony
+  sofHullName: colb1_t1
   sofRaceName: generic
 20296:
   description: Artifact Colony Battleship Wreck
@@ -10534,18 +10617,21 @@
   sofRaceName: generic
 20388:
   description: Deployable Cyno Disruptor
-  graphicFile: res:/dx9/model/Deployables/Mobile/CynoDisruptor/MCD_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/cynodisruptor/icons
+  iconFolder: res:/dx9/model/deployables/mobile/cynodisruptor/mcd01/icons
+  sofFactionName: genericbase
+  sofHullName: mcd01
   sofRaceName: generic
 20389:
   description: Deployable Larceny Unit Small
-  graphicFile: res:/dx9/model/Deployables/Mobile/LarcenyUnit/S/MLUS_T1a.red
-  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/s/icons
+  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
+  sofFactionName: genericcolony
+  sofHullName: mlu01
   sofRaceName: generic
 20390:
   description: Deployable Service Unit
-  graphicFile: res:/dx9/model/Deployables/Mobile/ServiceUnit/MSU_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/serviceunit/icons
+  iconFolder: res:/dx9/model/deployables/generic/serviceunit/gsu01/icons
+  sofFactionName: genericmetal
+  sofHullName: gsu01
   sofRaceName: generic
 20391:
   description: Jove Capsule Wreck
@@ -10583,24 +10669,28 @@
   iconFolder: res:/fisfx/generic/warp_disruption/icons
 20397:
   description: Deployable Larceny Unit Medium
-  graphicFile: res:/dx9/model/Deployables/Mobile/LarcenyUnit/M/MLUM_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/m/icons
+  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
+  sofFactionName: genericbase
+  sofHullName: mlu01
   sofRaceName: generic
 20398:
   description: Deployable Larceny Unit Large
-  graphicFile: res:/dx9/model/Deployables/Mobile/LarcenyUnit/L/MLUL_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/l/icons
+  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
+  sofFactionName: genericbase
+  sofHullName: mlu01
   sofRaceName: generic
 20399:
   description: Deployable Starbase Ship Maintenance Array Wreck
-  graphicFile: res:/dx9/model/Deployables/Starbase/Hangar/Wreck/Hangar_T1_Wreck.red
-  iconFolder: res:/dx9/model/deployables/starbase/hangar/wreck/icons
+  iconFolder: res:/dx9/model/deployables/generic/hangar/ghg01/wreck/icons
+  sofFactionName: genericmetal
+  sofHullName: ghg01_wreck
   sofRaceName: generic
 20400:
   description: Deployable Starbase Wreck Capital Ship Assembly Array and Maintenance
     Array Wreck
-  graphicFile: res:/dx9/model/Deployables/Starbase/Titanyard/Wreck/Titanyard_T1_Wreck.red
-  iconFolder: res:/dx9/model/deployables/starbase/titanyard/wreck/icons
+  iconFolder: res:/dx9/model/deployables/generic/titanyard/gty01/wreck/icons
+  sofFactionName: genericmetal
+  sofHullName: gty01_wreck
   sofRaceName: generic
 20402:
   description: Minmatar Shuttle Justice
@@ -10631,13 +10721,15 @@
   graphicFile: res:/dx9/Scene/preview/other.red
 20436:
   description: Deployable Larceny Unit Small Rote
-  graphicFile: res:/dx9/model/Deployables/Mobile/LarcenyUnit/S/MLUS_T1b.red
-  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/s/icons
+  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
+  sofFactionName: genericpleasure
+  sofHullName: mlu01
   sofRaceName: generic
 20437:
   description: Deployable Larceny Unit Small Hybrid
-  graphicFile: res:/dx9/model/Deployables/Mobile/LarcenyUnit/S/MLUS_T1c.red
-  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/s/icons
+  iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
+  sofFactionName: genericbase
+  sofHullName: mlu01
   sofRaceName: generic
 20438:
   description: Deployable Decoy Unit
@@ -12346,8 +12438,9 @@
   sofRaceName: gallente
 20930:
   description: Nano container
-  graphicFile: res:/dx9/Model/deployables/nanocontainer/nanocontainer.red
-  iconFolder: res:/dx9/model/deployables/nanocontainer/icons
+  iconFolder: res:/dx9/model/deployables/generic/nanocontainer/gnc01/icons
+  sofFactionName: genericmetal
+  sofHullName: gnc01
   sofRaceName: generic
 20931:
   description: Construction overlay effect
@@ -12738,7 +12831,7 @@
   iconFolder: res:/fisfx/module/icons
 21039:
   description: Effect Module Transform Cyno Jump drive Black OP's In
-  graphicFile: res:/model/effect3/JumpDriveBO_in.red
+  graphicFile: res:/FisFX/Jump/Cyno_Jump/cyno_jump_in_bo.red
   iconFolder: res:/model/effect3/icons
 21040:
   graphicFile: res:/fisfx/cloaking/cloaking.red
@@ -12994,9 +13087,9 @@
   sofRaceName: gallente
 21153:
   description: Structure Sail Charger White
-  graphicFile: res:/dx9/model/structure/universal/sailcharger/usc_white.red
   iconFolder: res:/dx9/model/structure/universal/sailcharger/icons
-  sofFactionName: genericbase
+  sofFactionName: genericmetal
+  sofHullName: usc01
   sofRaceName: generic
 21155:
   description: Sansha Cruiser Alliance tournmanet XIII (Phantasm hull)
@@ -13424,9 +13517,9 @@
   sofRaceName: angel
 21276:
   description: Angel Titan Ragnarok
-  iconFolder: res:/dx9/model/ship/minmatar/titan/mt1/icons
+  iconFolder: res:/dx9/model/ship/angel/titan/angt1/icons
   sofFactionName: angelbase
-  sofHullName: mt1_t1
+  sofHullName: angt1_t1
   sofRaceName: angel
 21277:
   description: Blood Raiders Dreadnought Revelation
@@ -16467,3 +16560,77 @@
   description: Holiday Missile
   graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_missile.red
   sofRaceName: caldari
+21946:
+  description: Test Cloud 01
+  graphicFile: res:/dx9/model/testcases/dungeonexploration/clouds/cloudplanes/cloud_01.red
+  sofRaceName: generic
+21947:
+  description: Test Cloud 02
+  graphicFile: res:/dx9/model/testcases/dungeonexploration/clouds/cloudplanes/cloud_02.red
+  sofRaceName: generic
+21948:
+  description: Structure Minmatar Battlestation
+  iconFolder: res:/dx9/model/structure/minmatar/battlestation/mbs1_t1/icons
+  sofFactionName: minmatarbase
+  sofHullName: mbs1_t1
+  sofRaceName: minmatar
+21956:
+  description: Amarr Station Military - kor-azor
+  iconFolder: res:/dx9/model/station/amarr/as1/icons
+  sofFactionName: kor-azor
+  sofHullName: as1
+  sofRaceName: amarr
+21957:
+  description: Test Rock 01
+  sofFactionName: genericbase
+  sofHullName: test_rock_01
+  sofRaceName: generic
+21958:
+  description: Test Rock 02
+  sofFactionName: genericbase
+  sofHullName: test_rock_02
+  sofRaceName: generic
+21959:
+  description: Test Rock 03
+  sofFactionName: genericbase
+  sofHullName: test_rock_03
+  sofRaceName: generic
+21960:
+  description: Test Rock 04
+  sofFactionName: genericbase
+  sofHullName: test_rock_04
+  sofRaceName: generic
+21961:
+  description: Test Cloud 03
+  graphicFile: res:/dx9/model/testcases/dungeonexploration/clouds/storm_01/storm_01.red
+  sofRaceName: generic
+21962:
+  description: Test Environment 01
+  sofFactionName: genericbase
+  sofHullName: test_environment_01
+  sofRaceName: generic
+21963:
+  description: Test Environment 02
+  sofFactionName: genericbase
+  sofHullName: test_environment_02
+  sofRaceName: generic
+21964:
+  description: Test Background 01
+  sofFactionName: genericbase
+  sofHullName: test_background_01
+  sofRaceName: generic
+21965:
+  description: Test Background 02
+  sofFactionName: genericbase
+  sofHullName: test_background_02
+  sofRaceName: generic
+21966:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_valentine1.red
+  sofRaceName: caldari
+21967:
+  description: Domination Titan Wreck (Ragnarok Hull)
+  iconFolder: res:/dx9/model/ship/angel/titan/angt1/wreck/icons
+  sofFactionName: angelbase
+  sofHullName: angt1_t1_wreck
+  sofRaceName: angel

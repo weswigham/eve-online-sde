@@ -2367,16 +2367,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 1152
-    attributeName: upgradeLoad
-    categoryID: 7
-    defaultValue: 0.0
-    description: How much the upgrades installed on this ship are using of its upgrade
-        capacity.
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
 -   attributeID: 1013
     attributeName: eliteBonusInterdictors2
     categoryID: 9
@@ -12256,14 +12246,6 @@
     defaultValue: 0.0
     description: ''
     displayName: Analyzer Virus Strength Bonus
-    highIsGood: true
-    published: true
-    stackable: true
--   attributeID: 1919
-    attributeName: tierDifficulty
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
     highIsGood: true
     published: true
     stackable: true
@@ -22858,3 +22840,114 @@
     highIsGood: true
     published: false
     stackable: true
+-   attributeID: 2745
+    attributeName: durationTargetWarpableBeacon
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Duration
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101
+-   attributeID: 2746
+    attributeName: resistanceMultiplier
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Activated Damage Resistance
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2747
+    attributeName: stasisWebRangeBonus
+    categoryID: 28
+    defaultValue: 0.0
+    description: Percent bonus for Stasis Webifiers maximum range
+    displayName: Maximum Range Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 121
+-   attributeID: 2748
+    attributeName: structureRigMaxTargetRangeBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Maximum Targeting Range Bonus
+    highIsGood: true
+    iconID: 1391
+    published: true
+    stackable: false
+    unitID: 105
+-   attributeID: 2743
+    attributeName: structureFullPowerStateHitpointMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: ''
+    highIsGood: false
+    published: false
+    stackable: true
+-   attributeID: 2744
+    attributeName: serviceModuleFullPowerStateHitpointMultiplier
+    categoryID: 7
+    defaultValue: 1.0
+    description: This attribute is authored on structure service modules and when
+        the service module is online will be used to overwrite a hitpoint multiplier
+        attribute on the structure.
+    displayName: Full Power Mode Shield and Armor Hitpoint Multiplier
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 104
+-   attributeID: 2749
+    attributeName: structureAoERoFRoleBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to the Rate of Fire of Guided Bomb Launchers and Burst Projectors
+    highIsGood: false
+    iconID: 1397
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 1919
+    attributeName: tierDifficulty
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1152
+    attributeName: upgradeLoad
+    categoryID: 7
+    defaultValue: 0.0
+    description: How much the upgrades installed on this ship are using of its upgrade
+        capacity.
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 2750
+    attributeName: hiddenMissileDamageMultiplier
+    categoryID: 30
+    defaultValue: 1.0
+    description: Missile damage attribute used by structures as a workaround for implementing
+        Standup BCS stacking penalties
+    highIsGood: true
+    published: false
+    stackable: false
+    unitID: 104
+-   attributeID: 2751
+    attributeName: hiddenArmorHPMultiplier
+    categoryID: 3
+    defaultValue: 1.0
+    description: Armor hitpoint attribute used by structures as a workaround for implementing
+        Standup layered plating stacking penalties
+    highIsGood: true
+    published: false
+    stackable: false
+    unitID: 104

@@ -11088,7 +11088,7 @@
 -   hasTypes: true
     iconID: 2703
     marketGroupID: 2175
-    marketGroupName: Capacitor Boosters
+    marketGroupName: Capacitor Batteries
     parentGroupID: 2163
 -   hasTypes: true
     iconID: 2703
@@ -11148,7 +11148,7 @@
 -   hasTypes: true
     iconID: 2703
     marketGroupID: 2188
-    marketGroupName: Repulsor Fields
+    marketGroupName: Capacitor Power Relays
     parentGroupID: 2163
 -   hasTypes: true
     iconID: 2703
@@ -11253,13 +11253,8 @@
 -   hasTypes: true
     iconID: 111
     marketGroupID: 2216
-    marketGroupName: Warp Scramblers
+    marketGroupName: Warp Disruptors
     parentGroupID: 2206
--   hasTypes: true
-    iconID: 21563
-    marketGroupID: 2217
-    marketGroupName: Ship Tractor Beams
-    parentGroupID: 2207
 -   hasTypes: true
     iconID: 1405
     marketGroupID: 2218
@@ -11270,11 +11265,6 @@
     marketGroupID: 2219
     marketGroupName: Signal Amplifiers
     parentGroupID: 2207
--   hasTypes: true
-    iconID: 21560
-    marketGroupID: 2220
-    marketGroupName: Repulsor Fields
-    parentGroupID: 2208
 -   hasTypes: true
     iconID: 21561
     marketGroupID: 2221
@@ -11290,16 +11280,6 @@
     marketGroupID: 2223
     marketGroupName: Energy Neutralizers
     parentGroupID: 2208
--   hasTypes: true
-    iconID: 1031
-    marketGroupID: 2224
-    marketGroupName: Capacitor Boosters
-    parentGroupID: 2208
--   hasTypes: true
-    iconID: 2989
-    marketGroupID: 2225
-    marketGroupName: Fighter Upgrades
-    parentGroupID: 2202
 -   hasTypes: false
     iconID: 168
     marketGroupID: 2226
@@ -11355,18 +11335,6 @@
     marketGroupID: 2186
     marketGroupName: Point Defense Batteries
     parentGroupID: 2163
--   description: Single-pilot combat vessels, deployable from Carriers and Supercarriers.
-    hasTypes: true
-    iconID: 1084
-    marketGroupID: 840
-    marketGroupName: Light Fighters
-    parentGroupID: 2236
--   description: Piloted combat vessels, deployable from Carriers and Supercarriers.
-    hasTypes: true
-    iconID: 1084
-    marketGroupID: 1310
-    marketGroupName: Heavy Fighters
-    parentGroupID: 2236
 -   description: Blueprints of light fighter designs.
     hasTypes: true
     iconID: 2703
@@ -11385,12 +11353,6 @@
     marketGroupID: 2238
     marketGroupName: Support Fighters
     parentGroupID: 2237
--   description: Piloted combat vessels, deployable from Carriers and Supercarriers.
-    hasTypes: true
-    iconID: 1084
-    marketGroupID: 2239
-    marketGroupName: Support Fighters
-    parentGroupID: 2236
 -   description: 25000mm Armor Plate
     hasTypes: true
     iconID: 79
@@ -12319,3 +12281,76 @@
     marketGroupID: 2406
     marketGroupName: Special Black Ops
     parentGroupID: 2109
+-   hasTypes: true
+    iconID: 2703
+    marketGroupID: 2407
+    marketGroupName: Structure Burst Projectors
+    parentGroupID: 2161
+-   hasTypes: true
+    iconID: 21604
+    marketGroupID: 2408
+    marketGroupName: Structure Burst Projectors
+    parentGroupID: 2206
+-   hasTypes: false
+    iconID: 1084
+    marketGroupID: 2409
+    marketGroupName: Structure-based Fighters
+    parentGroupID: 2236
+-   hasTypes: false
+    iconID: 1084
+    marketGroupID: 2410
+    marketGroupName: Carrier-based Fighters
+    parentGroupID: 2236
+-   description: Single-pilot combat vessels, deployable from Carriers and Supercarriers.
+    hasTypes: true
+    iconID: 1084
+    marketGroupID: 840
+    marketGroupName: Light Fighters
+    parentGroupID: 2410
+-   description: Piloted combat vessels, deployable from Carriers and Supercarriers.
+    hasTypes: true
+    iconID: 1084
+    marketGroupID: 1310
+    marketGroupName: Heavy Fighters
+    parentGroupID: 2410
+-   description: Piloted combat vessels, deployable from Carriers and Supercarriers.
+    hasTypes: true
+    iconID: 1084
+    marketGroupID: 2239
+    marketGroupName: Support Fighters
+    parentGroupID: 2410
+-   hasTypes: true
+    iconID: 1084
+    marketGroupID: 2411
+    marketGroupName: Standup Light Fighters
+    parentGroupID: 2409
+-   hasTypes: true
+    iconID: 1084
+    marketGroupID: 2412
+    marketGroupName: Standup Heavy Fighters
+    parentGroupID: 2409
+-   hasTypes: true
+    iconID: 1084
+    marketGroupID: 2413
+    marketGroupName: Standup Support Fighters
+    parentGroupID: 2409
+-   hasTypes: true
+    iconID: 89
+    marketGroupID: 2224
+    marketGroupName: Capacitor Batteries
+    parentGroupID: 2208
+-   hasTypes: true
+    iconID: 90
+    marketGroupID: 2220
+    marketGroupName: Capacitor Power Relays
+    parentGroupID: 2208
+-   hasTypes: true
+    iconID: 79
+    marketGroupID: 2414
+    marketGroupName: Armor Reinforcers
+    parentGroupID: 2208
+-   hasTypes: true
+    iconID: 2703
+    marketGroupID: 2415
+    marketGroupName: Armor Reinforcers
+    parentGroupID: 2163

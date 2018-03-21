@@ -22234,38 +22234,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Increases maximum shield capacity.
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 21
-    effectName: shieldCapacityBonusOnline
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 201
-    preExpression: 199
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: ''
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 25
-    effectName: capacitorCapacityBonus
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 228
-    preExpression: 227
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   description: ''
     disallowAutoRepeat: false
     displayName: ''
@@ -22279,22 +22247,6 @@
     isWarpSafe: false
     postExpression: 440
     preExpression: 439
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: ''
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 51
-    effectName: modifyPowerRechargeRate
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 444
-    preExpression: 443
     propulsionChance: false
     published: false
     rangeChance: false
@@ -22375,22 +22327,6 @@
     isWarpSafe: false
     postExpression: 495
     preExpression: 494
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: ''
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 63
-    effectName: armorHPMultiply
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 510
-    preExpression: 509
     propulsionChance: false
     published: false
     rangeChance: false
@@ -26218,23 +26154,6 @@
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 4
-    effectID: 763
-    effectName: missileDMGBonus
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 3658
-    preExpression: 3657
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
     effectCategory: 0
     effectID: 768
     effectName: hypereuclideanNavigationCloakVelocityBonusModAddSpeedFactorLocationShipModulesRequiringCloaking
@@ -26517,23 +26436,6 @@
     isWarpSafe: false
     postExpression: 4067
     preExpression: 4066
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 889
-    effectName: missileLauncherSpeedMultiplier
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 4070
-    preExpression: 4069
     propulsionChance: false
     published: false
     rangeChance: false
@@ -31067,22 +30969,6 @@
     isWarpSafe: false
     postExpression: 7726
     preExpression: 7725
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: ''
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 2052
-    effectName: modifyShieldResonancePostPercent
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 7756
-    preExpression: 7755
     propulsionChance: false
     published: false
     rangeChance: false
@@ -40863,22 +40749,6 @@
     isWarpSafe: false
     postExpression: 14683
     preExpression: 14682
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: None
-    effectCategory: 0
-    effectID: 4479
-    effectName: shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
-    electronicChance: false
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 14686
-    preExpression: 14685
     propulsionChance: false
     published: false
     rangeChance: false
@@ -56494,72 +56364,6 @@
     rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 4
-    effectID: 6449
-    effectName: structureBallisticControlSystem
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID:
-        1547\r\n  modifiedAttributeID: 114\r\n  modifyingAttributeID: 213\r\n  operator:
-        4\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1547\r\n
-        \ modifiedAttributeID: 116\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n-
-        domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1547\r\n  modifiedAttributeID:
-        117\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1547\r\n  modifiedAttributeID:
-        118\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        114\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        116\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        117\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        118\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1327\r\n  modifiedAttributeID:
-        51\r\n  modifyingAttributeID: 204\r\n  operator: 4\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1562\r\n  modifiedAttributeID:
-        51\r\n  modifyingAttributeID: 204\r\n  operator: 4"
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: true
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 6448
-    effectName: structureMissileGuidanceEnhancer
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID:
-        1547\r\n  modifiedAttributeID: 654\r\n  modifyingAttributeID: 848\r\n  operator:
-        6\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1546\r\n
-        \ modifiedAttributeID: 654\r\n  modifyingAttributeID: 848\r\n  operator: 6\r\n-
-        domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1547\r\n  modifiedAttributeID:
-        653\r\n  modifyingAttributeID: 847\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        653\r\n  modifyingAttributeID: 847\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1547\r\n  modifiedAttributeID:
-        281\r\n  modifyingAttributeID: 596\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        281\r\n  modifyingAttributeID: 596\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1547\r\n  modifiedAttributeID:
-        37\r\n  modifyingAttributeID: 306\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1546\r\n  modifiedAttributeID:
-        37\r\n  modifyingAttributeID: 306\r\n  operator: 6"
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: true
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
     effectCategory: 0
     effectID: 6396
     effectName: skillStructureMissileDamageBonus
@@ -56716,37 +56520,6 @@
     preExpression: 59
     propulsionChance: false
     published: true
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 6672
-    effectName: structureCombatRigSecurityModification
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2278\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 2435\r\n  modifyingAttributeID:
-        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2436\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 2437\r\n  modifyingAttributeID:
-        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2438\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 2439\r\n  modifyingAttributeID:
-        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2440\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 2441\r\n  modifyingAttributeID:
-        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2442\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 2449\r\n  modifyingAttributeID:
-        2358\r\n  operator: 4"
-    postExpression: 1
-    preExpression: 1
-    propulsionChance: false
-    published: false
     rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
@@ -67453,21 +67226,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 4
-    effectID: 6965
-    effectName: surveyProbeExplosionDelayOnline
-    electronicChance: false
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 19352
-    preExpression: 19351
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
     durationAttributeID: 2203
@@ -68644,6 +68402,694 @@
         2044\n  modifyingAttributeID: 2736\n  operator: 4\n"
     postExpression: 59
     preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 6965
+    effectName: surveyProbeExplosionDelayOnline
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        281\n  modifyingAttributeID: 2701\n  operator: 6\n  skillTypeID: 3551\n"
+    postExpression: 19352
+    preExpression: 19351
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: None
+    effectCategory: 0
+    effectID: 4479
+    effectName: shipBonusSurveyProbeExplosionDelaySkillSurveyCovertOps3
+    electronicChance: false
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        281\n  modifyingAttributeID: 1578\n  operator: 6\n  skillTypeID: 3551\n"
+    postExpression: 14686
+    preExpression: 14685
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 2745
+    effectCategory: 1
+    effectID: 7010
+    effectName: doomsdayTargetedWarpableBeacon
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: true
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 1
+    effectID: 7012
+    effectName: moduleBonusAssaultDamageControl
+    electronicChance: false
+    guid: effects.Invulnerability
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "# Shield Modifiers\r\n- domain: itemID\r\n  func: ItemModifier\r\n
+        \ modifiedAttributeID: 271\r\n  modifyingAttributeID: 2746\r\n  operator:
+        7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 272\r\n
+        \ modifyingAttributeID: 2746\r\n  operator: 7\r\n- domain: itemID\r\n  func:
+        ItemModifier\r\n  modifiedAttributeID: 273\r\n  modifyingAttributeID: 2746\r\n
+        \ operator: 7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        274\r\n  modifyingAttributeID: 2746\r\n  operator: 7\r\n\r\n# Armor Modifiers\r\n-
+        domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 267\r\n  modifyingAttributeID:
+        2746\r\n  operator: 7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        268\r\n  modifyingAttributeID: 2746\r\n  operator: 7\r\n- domain: itemID\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 269\r\n  modifyingAttributeID:
+        2746\r\n  operator: 7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        270\r\n  modifyingAttributeID: 2746\r\n  operator: 7\r\n\r\n# Hull Modifiers\r\n-
+        domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 974\r\n  modifyingAttributeID:
+        2746\r\n  operator: 7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        975\r\n  modifyingAttributeID: 2746\r\n  operator: 7\r\n- domain: itemID\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 976\r\n  modifyingAttributeID:
+        2746\r\n  operator: 7\r\n- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        977\r\n  modifyingAttributeID: 2746\r\n  operator: 7"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7013
+    effectName: eliteBonusGunshipKineticMissileDamage1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19374
+    preExpression: 19373
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7014
+    effectName: eliteBonusGunshipThermalMissileDamage1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19376
+    preExpression: 19375
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7015
+    effectName: eliteBonusGunshipEMMissileDamage1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19378
+    preExpression: 19377
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7016
+    effectName: eliteBonusGunshipExplosiveMissileDamage1
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19380
+    preExpression: 19379
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7017
+    effectName: eliteBonusGunshipExplosionVelocity2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19382
+    preExpression: 19381
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7018
+    effectName: shipSETROFAF
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 3627
+    preExpression: 3626
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7019
+    effectName: eliteBonusGunshipDroneTracking2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19387
+    preExpression: 19386
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Stasis Webifier increase max range
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7020
+    effectName: remoteWebifierMaxRangeBonus
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: LocationGroupModifier\n  groupID: 65\n
+        \ modifiedAttributeID: 54\n  modifyingAttributeID: 2747\n  operator: 6\n"
+    postExpression: 5540
+    preExpression: 5539
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6672
+    effectName: structureCombatRigSecurityModification
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2278\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 2435\r\n  modifyingAttributeID:
+        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2436\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 2437\r\n  modifyingAttributeID:
+        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2438\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 2439\r\n  modifyingAttributeID:
+        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2440\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 2441\r\n  modifyingAttributeID:
+        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2442\r\n  modifyingAttributeID: 2358\r\n  operator: 4\r\n- domain: null\r\n
+        \ func: ItemModifier\r\n  modifiedAttributeID: 2449\r\n  modifyingAttributeID:
+        2358\r\n  operator: 4\r\n- domain: null\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2748\r\n  modifyingAttributeID: 2358\r\n  operator: 4"
+    postExpression: 1
+    preExpression: 1
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7021
+    effectName: structureRigMaxTargetRange
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        76\n  modifyingAttributeID: 2748\n  operator: 6\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Increases maximum shield capacity.
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 21
+    effectName: shieldCapacityBonusOnline
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        263\n  modifyingAttributeID: 72\n  operator: 2\n"
+    postExpression: 201
+    preExpression: 199
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7022
+    effectName: structureShieldCapacityBonusOnline
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        263\n  modifyingAttributeID: 72\n  operator: 2\n"
+    postExpression: 201
+    preExpression: 199
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: ''
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 2052
+    effectName: modifyShieldResonancePostPercent
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        271\n  modifyingAttributeID: 984\n  operator: 6\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 272\n  modifyingAttributeID: 985\n  operator:
+        6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID: 273\n  modifyingAttributeID:
+        986\n  operator: 6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        274\n  modifyingAttributeID: 987\n  operator: 6\n"
+    postExpression: 7756
+    preExpression: 7755
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7023
+    effectName: structureShieldResonanceBonusPostPercent
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        271\n  modifyingAttributeID: 984\n  operator: 6\n- domain: structureID\n  func:
+        ItemModifier\n  modifiedAttributeID: 272\n  modifyingAttributeID: 985\n  operator:
+        6\n- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID: 273\n
+        \ modifyingAttributeID: 986\n  operator: 6\n- domain: structureID\n  func:
+        ItemModifier\n  modifiedAttributeID: 274\n  modifyingAttributeID: 987\n  operator:
+        6\n"
+    postExpression: 7756
+    preExpression: 7755
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7024
+    effectName: shipBonusDroneTrackingEliteGunship2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19389
+    preExpression: 19388
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7025
+    effectName: eliteBonusGunshipExplosionRadius2
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19391
+    preExpression: 19390
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7026
+    effectName: scriptStandupWarpScram
+    electronicChance: false
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: otherID\n  func: ItemModifier\n  modifiedAttributeID:
+        54\n  modifyingAttributeID: 1327\n  operator: 6\n- domain: otherID\n  func:
+        ItemModifier\n  modifiedAttributeID: 1350\n  modifyingAttributeID: 1350\n
+        \ operator: 7\n"
+    postExpression: 12337
+    preExpression: 12336
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: ''
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 25
+    effectName: capacitorCapacityBonus
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        482\n  modifyingAttributeID: 67\n  operator: 2\n"
+    postExpression: 228
+    preExpression: 227
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7027
+    effectName: structureCapacitorCapacityBonus
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        482\n  modifyingAttributeID: 67\n  operator: 2\n"
+    postExpression: 228
+    preExpression: 227
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: ''
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 51
+    effectName: modifyPowerRechargeRate
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        55\n  modifyingAttributeID: 144\n  operator: 4\n"
+    postExpression: 444
+    preExpression: 443
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7028
+    effectName: structureModifyPowerRechargeRate
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        55\n  modifyingAttributeID: 144\n  operator: 4\n"
+    postExpression: 444
+    preExpression: 443
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: ''
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 63
+    effectName: armorHPMultiply
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        265\n  modifyingAttributeID: 148\n  operator: 4\n"
+    postExpression: 510
+    preExpression: 509
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7030
+    effectName: structureAoERoFRoleBonus
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1328\r\n  modifiedAttributeID: 51\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 73\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 2400\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 2397\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 2398\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 2399\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1331\r\n  modifiedAttributeID: 6\r\n  modifyingAttributeID: 2749\r\n  operator:
+        6"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7008
+    effectName: structureFullPowerStateHitpointModifier
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        263\n  modifyingAttributeID: 2743\n  operator: 4\n- domain: structureID\n
+        \ func: ItemModifier\n  modifiedAttributeID: 265\n  modifyingAttributeID:
+        2743\n  operator: 4\n"
+    postExpression: 19372
+    preExpression: 19371
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7009
+    effectName: serviceModuleFullPowerHitpointPostAssign
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2743\r\n  modifyingAttributeID: 2744\r\n  operator: 7\r\n"
+    postExpression: 19372
+    preExpression: 19371
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 6448
+    effectName: structureMissileGuidanceEnhancer
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: LocationGroupModifier\n  groupID: 1547\n
+        \ modifiedAttributeID: 654\n  modifyingAttributeID: 848\n  operator: 6\n-
+        domain: shipID\n  func: LocationGroupModifier\n  groupID: 1546\n  modifiedAttributeID:
+        654\n  modifyingAttributeID: 848\n  operator: 6\n- domain: shipID\n  func:
+        LocationGroupModifier\n  groupID: 1547\n  modifiedAttributeID: 653\n  modifyingAttributeID:
+        847\n  operator: 6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID:
+        1546\n  modifiedAttributeID: 653\n  modifyingAttributeID: 847\n  operator:
+        6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID: 1547\n  modifiedAttributeID:
+        281\n  modifyingAttributeID: 596\n  operator: 6\n- domain: shipID\n  func:
+        LocationGroupModifier\n  groupID: 1546\n  modifiedAttributeID: 281\n  modifyingAttributeID:
+        596\n  operator: 6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID:
+        1547\n  modifiedAttributeID: 37\n  modifyingAttributeID: 547\n  operator:
+        6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID: 1546\n  modifiedAttributeID:
+        37\n  modifyingAttributeID: 547\n  operator: 6\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: true
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 763
+    effectName: missileDMGBonus
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\n  func: ItemModifier\n  modifiedAttributeID:
+        212\n  modifyingAttributeID: 213\n  operator: 0\n"
+    postExpression: 3658
+    preExpression: 3657
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 889
+    effectName: missileLauncherSpeedMultiplier
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID:
+        51\n  modifyingAttributeID: 204\n  operator: 4\n  skillTypeID: 3319\n"
+    postExpression: 4070
+    preExpression: 4069
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7039
+    effectName: structureHiddenMissileDamageMultiplier
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1547\r\n  modifiedAttributeID: 114\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1547\r\n  modifiedAttributeID: 116\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1547\r\n  modifiedAttributeID: 117\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1547\r\n  modifiedAttributeID: 118\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1546\r\n  modifiedAttributeID: 114\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1546\r\n  modifiedAttributeID: 116\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1546\r\n  modifiedAttributeID: 117\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4\r\n- domain: structureID\r\n  func: LocationGroupModifier\r\n  groupID:
+        1546\r\n  modifiedAttributeID: 118\r\n  modifyingAttributeID: 2750\r\n  operator:
+        4"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7040
+    effectName: structureHiddenArmorHPMultiplier
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        265\n  modifyingAttributeID: 2751\n  operator: 4\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 6449
+    effectName: structureBallisticControlSystem
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2750\r\n  modifyingAttributeID: 213\r\n  operator: 4\r\n- domain: shipID\r\n
+        \ func: LocationGroupModifier\r\n  groupID: 1327\r\n  modifiedAttributeID:
+        51\r\n  modifyingAttributeID: 204\r\n  operator: 4\r\n- domain: shipID\r\n
+        \ func: LocationGroupModifier\r\n  groupID: 1562\r\n  modifiedAttributeID:
+        51\r\n  modifyingAttributeID: 204\r\n  operator: 4"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: true
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7029
+    effectName: structureArmorHPMultiply
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
+        2751\n  modifyingAttributeID: 148\n  operator: 4\n"
+    postExpression: 510
+    preExpression: 509
     propulsionChance: false
     published: false
     rangeChance: false
