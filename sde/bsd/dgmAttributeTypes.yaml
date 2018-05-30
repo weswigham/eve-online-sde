@@ -2547,16 +2547,6 @@
     iconID: 0
     published: false
     stackable: true
--   attributeID: 1133
-    attributeName: entityMaxVelocitySignatureRadiusMultiplier
-    categoryID: 9
-    defaultValue: 6.0
-    description: Used to increase signature radius of entity when it activates Max
-        Velocity. Used to fake MWD sig radius increase.
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 584
     attributeName: entityMaxWanderRange
     categoryID: 9
@@ -3877,15 +3867,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 927
-    attributeName: miningUpgradeCPUReductionBonus
-    categoryID: 9
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 254
     attributeName: minLootCount
     categoryID: 9
@@ -5204,25 +5185,10 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1688
-    attributeName: shipBonusPirateFaction2
-    categoryID: 9
-    defaultValue: 0.0
-    description: Second Stock Bonus on Pirate Faction Ships.
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1689
     attributeName: ecuAreaOfInfluence
     defaultValue: 0.3
     description: ''
-    highIsGood: true
-    published: false
-    stackable: true
--   attributeID: 1692
-    attributeName: metaGroupID
-    defaultValue: 0.0
-    description: meta group of type
     highIsGood: true
     published: false
     stackable: true
@@ -6166,17 +6132,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 1159
-    attributeName: armorHPBonusAdd
-    categoryID: 3
-    defaultValue: 0.0
-    description: ''
-    displayName: Armor Hitpoint Bonus
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 113
 -   attributeID: 148
     attributeName: armorHPMultiplier
     categoryID: 3
@@ -6795,16 +6750,6 @@
     defaultValue: 1.0
     description: Blueprint copying speed
     displayName: Blueprint copying speed
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
--   attributeID: 1158
-    attributeName: untargetable
-    categoryID: 7
-    defaultValue: 0.0
-    description: Attribute to disallow targetting.
-    displayName: Untargetable
     highIsGood: true
     iconID: 0
     published: true
@@ -8247,17 +8192,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 983
-    attributeName: signatureRadiusAdd
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Signature Radius Modifier
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 1
 -   attributeID: 125
     attributeName: shipScanRange
     categoryID: 7
@@ -8714,17 +8648,6 @@
     iconID: 0
     published: true
     stackable: true
--   attributeID: 796
-    attributeName: massAddition
-    categoryID: 7
-    defaultValue: 0.0
-    description: Attribute for adding mass to a ship via an afterburner or MWD.
-    displayName: Mass Addition
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 2
 -   attributeID: 1131
     attributeName: massBonusPercentage
     categoryID: 7
@@ -11109,17 +11032,6 @@
     published: true
     stackable: true
     unitID: 139
--   attributeID: 633
-    attributeName: metaLevel
-    categoryID: 7
-    defaultValue: 0.0
-    description: The ranking of the module within its tech level
-    displayName: Meta Level
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 140
 -   attributeID: 1167
     attributeName: posPlayerControlStructure
     categoryID: 7
@@ -11140,17 +11052,6 @@
     displayName: Required Thermodynamics Level
     highIsGood: true
     iconID: 0
-    published: true
-    stackable: true
-    unitID: 140
--   attributeID: 422
-    attributeName: techLevel
-    categoryID: 7
-    defaultValue: 1.0
-    description: Tech level of an item
-    displayName: Tech Level
-    highIsGood: true
-    iconID: 1446
     published: true
     stackable: true
     unitID: 140
@@ -15873,16 +15774,6 @@
     published: false
     stackable: true
     unitID: 101
--   attributeID: 2108
-    attributeName: serviceModuleFuelConsumptionGroup
-    categoryID: 7
-    defaultValue: 0.0
-    description: Fuel consumed by the structure service module
-    displayName: Service Module Fuel Need
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 116
 -   attributeID: 2136
     attributeName: maxTargetRangeBonusInterim
     categoryID: 6
@@ -18514,17 +18405,6 @@
     published: true
     stackable: false
     unitID: 105
--   attributeID: 2437
-    attributeName: structureRigPDCapUseBonus
-    categoryID: 7
-    defaultValue: 0.0
-    description: ''
-    displayName: Point Defense Battery Capacitor Use Bonus
-    highIsGood: true
-    iconID: 1400
-    published: true
-    stackable: true
-    unitID: 105
 -   attributeID: 2438
     attributeName: structureRigMissileExploVeloBonus
     categoryID: 7
@@ -18672,17 +18552,6 @@
     published: true
     stackable: true
     unitID: 139
--   attributeID: 3
-    attributeName: damage
-    categoryID: 7
-    defaultValue: 0.0
-    description: current damage dealt to module
-    displayName: Item Damage
-    highIsGood: true
-    iconID: 1386
-    published: true
-    stackable: true
-    unitID: 113
 -   attributeID: 1839
     attributeName: damageDelayDuration
     categoryID: 7
@@ -20051,15 +19920,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 2539
-    attributeName: attributeEquipmentManufactureTimeMultiplier
-    categoryID: 4
-    defaultValue: 1.0
-    description: "Decrease time requirement for manufacturing the following: Ammunition,
-        Charges, Scripts\r\n"
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 2563
     attributeName: attributeInventionCostMultiplier
     categoryID: 4
@@ -20565,15 +20425,6 @@
     published: false
     stackable: true
     unitID: 119
--   attributeID: 2516
-    attributeName: npcTrackingDisruptorRange
-    categoryID: 26
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 1
 -   attributeID: 2517
     attributeName: npcTrackingDisruptorFalloff
     categoryID: 42
@@ -20583,15 +20434,6 @@
     published: false
     stackable: true
     unitID: 1
--   attributeID: 2515
-    attributeName: npcTrackingDisruptorDuration
-    categoryID: 26
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
-    unitID: 101
 -   attributeID: 2518
     attributeName: npcTrackingDisruptorDischarge
     categoryID: 42
@@ -20980,51 +20822,6 @@
     published: true
     stackable: true
     unitID: 107
--   attributeID: 113
-    attributeName: emDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: Electro magnetic damage multiplier for shield and armor. Represented
-        as "% Resistance" in the UI.
-    displayName: Structure EM Damage Resistance
-    highIsGood: false
-    iconID: 1396
-    published: true
-    stackable: false
-    unitID: 108
--   attributeID: 111
-    attributeName: explosiveDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. explosive damagers.
-    displayName: Structure Explosive Damage Resistance
-    highIsGood: false
-    iconID: 1395
-    published: true
-    stackable: false
-    unitID: 108
--   attributeID: 109
-    attributeName: kineticDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. kinetic damagers.
-    displayName: Structure Kinetic Damage Resistance
-    highIsGood: false
-    iconID: 1393
-    published: true
-    stackable: false
-    unitID: 108
--   attributeID: 110
-    attributeName: thermalDamageResonance
-    categoryID: 4
-    defaultValue: 1.0
-    description: damage multiplier vs. thermal.
-    displayName: Structure Thermal Damage Resistance
-    highIsGood: false
-    iconID: 1394
-    published: true
-    stackable: false
-    unitID: 108
 -   attributeID: 2467
     attributeName: specialCorpseHoldCapacity
     categoryID: 40
@@ -22068,17 +21865,6 @@
     published: false
     stackable: true
     unitID: 101
--   attributeID: 2675
-    attributeName: specialSubsystemHoldCapacity
-    categoryID: 40
-    defaultValue: 0.0
-    description: special subsystem hold capacity
-    displayName: Subsystem Hold Capacity
-    highIsGood: true
-    iconID: 71
-    published: true
-    stackable: false
-    unitID: 9
 -   attributeID: 1989
     attributeName: roleBonusT3ProbeCPU
     categoryID: 9
@@ -22188,7 +21974,7 @@
     categoryID: 4
     defaultValue: 0.0
     description: ''
-    displayName: Armor Hitpoint Bonus
+    displayName: Structure Hitpoint Bonus
     highIsGood: true
     published: true
     stackable: true
@@ -22758,6 +22544,28 @@
     highIsGood: true
     published: false
     stackable: true
+-   attributeID: 2733
+    attributeName: damageMultiplierBonusPerCycle
+    categoryID: 29
+    defaultValue: 0.0
+    description: ''
+    displayName: Damage Multiplier Bonus Per Cycle
+    highIsGood: true
+    iconID: 1432
+    published: true
+    stackable: true
+    unitID: 127
+-   attributeID: 2734
+    attributeName: damageMultiplierBonusMax
+    categoryID: 29
+    defaultValue: 0.5
+    description: ''
+    displayName: Maximum Damage Multiplier Bonus
+    highIsGood: true
+    iconID: 1432
+    published: true
+    stackable: true
+    unitID: 127
 -   attributeID: 2735
     attributeName: npcStructureStasisWebificationBonus
     categoryID: 42
@@ -22871,6 +22679,17 @@
     published: true
     stackable: true
     unitID: 121
+-   attributeID: 2675
+    attributeName: specialSubsystemHoldCapacity
+    categoryID: 40
+    defaultValue: 0.0
+    description: special subsystem hold capacity
+    displayName: Subsystem Hold Capacity
+    highIsGood: true
+    iconID: 71
+    published: true
+    stackable: false
+    unitID: 9
 -   attributeID: 2748
     attributeName: structureRigMaxTargetRangeBonus
     categoryID: 7
@@ -22951,3 +22770,561 @@
     published: false
     stackable: false
     unitID: 104
+-   attributeID: 927
+    attributeName: miningUpgradeCPUReductionBonus
+    categoryID: 9
+    defaultValue: 0.0
+    description: CPU Penalty Reduction
+    displayName: CPU Penalty Reduction
+    highIsGood: true
+    iconID: 1405
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2752
+    attributeName: eliteBonusFlagCruisers1
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2108
+    attributeName: serviceModuleFuelConsumptionGroup
+    categoryID: 7
+    defaultValue: 0.0
+    description: Fuel consumed by the structure service module
+    displayName: Service Module Fuel Need
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 115
+-   attributeID: 2753
+    attributeName: flagCruiserFittingBonusPropMods
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Reduction in AB, MWD, MJD fitting requirements
+    highIsGood: true
+    iconID: 70
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2755
+    attributeName: targetPainterStrengthModifierFlagCruisers
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Modification of Target Painter strength
+    highIsGood: true
+    iconID: 1390
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2756
+    attributeName: targetPainterRangeModifierFlagCruisers
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Target Painter optimal range
+    highIsGood: true
+    iconID: 1390
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2757
+    attributeName: flagCruiserFittingBonusPainterProbes
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Reduction in Target Painter and Scan Probe Launcher fitting requirements
+    highIsGood: true
+    iconID: 70
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2758
+    attributeName: canFitShipType11
+    categoryID: 1
+    defaultValue: 0.0
+    description: ''
+    displayName: Can be fitted to
+    highIsGood: true
+    iconID: 1443
+    published: true
+    stackable: true
+    unitID: 116
+-   attributeID: 1688
+    attributeName: shipBonusRole8
+    categoryID: 37
+    defaultValue: 0.0
+    description: Second Stock Bonus on Pirate Faction Ships.
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2759
+    attributeName: typeListId
+    categoryID: 7
+    defaultValue: -1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2754
+    attributeName: entosisAssistanceImpedanceMultiplier
+    categoryID: 36
+    defaultValue: 1.0
+    description: ''
+    displayName: Entosis Assistance Impedance
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 1692
+    attributeName: metaGroupID
+    defaultValue: 0.0
+    description: "Authoring has been moved to FSD.\r\nmeta group of type\r\n\r\n3:
+        Story-line (Cosmos)\r\n4: Faction\r\n5: Officer (rare asteroid NPCs)\r\n6:
+        Deadspace\r\n\r\n"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 633
+    attributeName: metaLevel
+    categoryID: 7
+    defaultValue: 0.0
+    description: "Authoring has been moved to FSD\r\nThe ranking of the module within
+        its tech level"
+    displayName: Meta Level
+    highIsGood: true
+    iconID: 0
+    published: true
+    stackable: true
+    unitID: 140
+-   attributeID: 422
+    attributeName: techLevel
+    categoryID: 7
+    defaultValue: 1.0
+    description: "Authoring has been moved to FSD\r\nTech level of an item"
+    displayName: Tech Level
+    highIsGood: true
+    iconID: 1446
+    published: true
+    stackable: true
+    unitID: 140
+-   attributeID: 2762
+    attributeName: shipBonusPF1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2763
+    attributeName: shipBonusPF2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2764
+    attributeName: shipBonusPC1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2765
+    attributeName: shipBonusPC2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2766
+    attributeName: shipBonusPBS1
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2767
+    attributeName: shipBonusPBS2
+    categoryID: 9
+    defaultValue: 0.0
+    description: ''
+    displayName: Special Ability Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2516
+    attributeName: npcTrackingDisruptorRange
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 1
+-   attributeID: 2515
+    attributeName: npcTrackingDisruptorDuration
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+    unitID: 101
+-   attributeID: 1159
+    attributeName: armorHPBonusAdd
+    categoryID: 3
+    defaultValue: 0.0
+    description: ''
+    displayName: Armor Hitpoint Bonus
+    highIsGood: true
+    iconID: 1383
+    published: true
+    stackable: true
+    unitID: 113
+-   attributeID: 2768
+    attributeName: emDamageResonanceMax
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2769
+    attributeName: thermalDamageResonanceMax
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2770
+    attributeName: kineticDamageResonanceMax
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2771
+    attributeName: explosiveDamageResonanceMax
+    categoryID: 4
+    defaultValue: 1.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 111
+    attributeName: explosiveDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. explosive damagers.
+    displayName: Structure Explosive Damage Resistance
+    highIsGood: false
+    iconID: 1395
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 109
+    attributeName: kineticDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. kinetic damagers.
+    displayName: Structure Kinetic Damage Resistance
+    highIsGood: false
+    iconID: 1393
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 110
+    attributeName: thermalDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: damage multiplier vs. thermal.
+    displayName: Structure Thermal Damage Resistance
+    highIsGood: false
+    iconID: 1394
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 113
+    attributeName: emDamageResonance
+    categoryID: 4
+    defaultValue: 1.0
+    description: Electro magnetic damage multiplier for shield and armor. Represented
+        as "% Resistance" in the UI.
+    displayName: Structure EM Damage Resistance
+    highIsGood: false
+    iconID: 1396
+    published: true
+    stackable: false
+    unitID: 108
+-   attributeID: 796
+    attributeName: massAddition
+    categoryID: 7
+    defaultValue: 0.0
+    description: Attribute for adding mass to a ship via an afterburner or MWD.
+    displayName: Mass Addition
+    highIsGood: false
+    iconID: 76
+    published: true
+    stackable: true
+    unitID: 2
+-   attributeID: 983
+    attributeName: signatureRadiusAdd
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Signature Radius Modifier
+    highIsGood: false
+    iconID: 1390
+    published: true
+    stackable: true
+    unitID: 1
+-   attributeID: 3
+    attributeName: damage
+    categoryID: 7
+    defaultValue: 0.0
+    description: current damage dealt to module
+    displayName: Item Damage
+    highIsGood: false
+    iconID: 1386
+    published: true
+    stackable: true
+    unitID: 113
+-   attributeID: 2772
+    attributeName: conversionRigHPCapBonus
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to all hitpoints and capacitor capacity
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2773
+    attributeName: attributeT1ShipManufactureTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to T1 Ship Manufacturing Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2774
+    attributeName: attributeT2ShipManufactureTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to T2 Ship Manufacturing Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2775
+    attributeName: attributeAdvCompManufactureTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Advanced Component Manufacturing Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2776
+    attributeName: attributeCapCompManufactureTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Capital Component Manufacturing Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2777
+    attributeName: attributeEquipmentManufactureTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Equipment Manufacturing Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2778
+    attributeName: attributeMEResearchTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to ME Research Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2779
+    attributeName: attributeTEResearchTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to TE Research Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2780
+    attributeName: attributeCopyTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Blueprint Copy Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2781
+    attributeName: attributeInventionTime
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Bonus to Invention Job Time Requirements
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2782
+    attributeName: attributeResearchCosts
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Reduction in ME, TE, and Copy Job ISK Costs
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2783
+    attributeName: attributeInventionCosts
+    categoryID: 4
+    defaultValue: 0.0
+    description: ''
+    displayName: Reduction in Invention Job ISK Costs
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2539
+    attributeName: attributeEquipmentManufactureTimeMultiplier
+    categoryID: 4
+    defaultValue: 1.0
+    description: "Decrease material requirement for manufacturing the following:\r\nShip
+        Modules, Ship Rigs, Personal Deployables, Implants, Cargo Containers\r\n"
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2760
+    attributeName: weatherID
+    categoryID: 7
+    defaultValue: 0.0
+    description: sets the weather effect type for abyssal deadspace keys
+    displayName: Abyssal Environment
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 116
+-   attributeID: 2761
+    attributeName: difficultyTier
+    categoryID: 7
+    defaultValue: 1.0
+    description: sets the difficulty tier for abyssal deadspace keys
+    displayName: Difficulty Tier
+    highIsGood: true
+    iconID: 2893
+    published: true
+    stackable: true
+-   attributeID: 1158
+    attributeName: untargetable
+    categoryID: 7
+    defaultValue: 0.0
+    description: Attribute to disallow targetting.
+    displayName: Untargetable
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+    unitID: 137
+-   attributeID: 2784
+    attributeName: npcDroneCapacity
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2785
+    attributeName: npcDroneBandwidth
+    categoryID: 42
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2786
+    attributeName: npcBehaviorMaximumCombatOrbitRange
+    categoryID: 42
+    defaultValue: 0.0
+    description: Used by Behavior NPCs to work out minimum orbit range. If the npc
+        has an effect with a shorter range, it will use the effects range instead.
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 1133
+    attributeName: entityMaxVelocitySignatureRadiusMultiplier
+    categoryID: 17
+    defaultValue: 6.0
+    description: Used to increase signature radius of entity when it activates Max
+        Velocity. Used to fake MWD sig radius increase.
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 2437
+    attributeName: structureRigPDCapUseBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Point Defense Battery Capacitor Use Bonus
+    highIsGood: false
+    iconID: 1400
+    published: true
+    stackable: true
+    unitID: 105

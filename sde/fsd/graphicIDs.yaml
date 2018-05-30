@@ -1459,7 +1459,7 @@
   sofRaceName: generic
 1727:
   description: Ball_and_Pillars
-  iconFolder: res:\dx9\model\artifact\universal\ballandpillar\ubp01\icons
+  iconFolder: res:/dx9/model/artifact/universal/ballandpillar/ubp01/icons
   sofFactionName: genericrelic
   sofHullName: ubp01
   sofRaceName: generic
@@ -3812,7 +3812,7 @@
   sofRaceName: generic
 2707:
   description: Structure Universal Humanfarm
-  iconFolder: res:\dx9\model\structure\universal\astrofarm\icons\
+  iconFolder: res:/dx9/model/structure/universal/astrofarm/icons/
   sofFactionName: bloodraider
   sofHullName: uaf01_t1
   sofRaceName: generic
@@ -4044,8 +4044,9 @@
   sofRaceName: gallente
 2784:
   description: Caldari Outpost Research
-  graphicFile: res:/dx9/model/outposts/caldari/co1/co1_t1.red
   iconFolder: res:/dx9/model/outposts/caldari/co1/icons
+  sofFactionName: caldaribase
+  sofHullName: co1_t1
   sofRaceName: caldari
 2785:
   description: Amarr Outpost Factory
@@ -10611,9 +10612,9 @@
   sofRaceName: soe
 20387:
   description: Deployable Auto Tractor
-  graphicFile: res:/dx9/model/Deployables/Mobile/AutoTractor/MAT_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/autotractor/icons
+  iconFolder: res:/dx9/model/deployables/generic/autotractor/GAT01/icons
   sofFactionName: genericbase
+  sofHullName: gat01
   sofRaceName: generic
 20388:
   description: Deployable Cyno Disruptor
@@ -10704,21 +10705,6 @@
   sofFactionName: sanctuary
   sofHullName: soec1_t1
   sofRaceName: soe
-20409:
-  description: This scene is used for 3d preview background of caldari ships
-  graphicFile: res:/dx9/Scene/preview/caldari.red
-20410:
-  description: This scene is used for 3d preview background of minmatar ships
-  graphicFile: res:/dx9/Scene/preview/minmatar.red
-20411:
-  description: This scene is used for 3d preview background of gallente ships
-  graphicFile: res:/dx9/Scene/preview/gallente.red
-20412:
-  description: This scene is used for 3d preview background of amarr ships
-  graphicFile: res:/dx9/Scene/preview/amarr.red
-20413:
-  description: This scene is used for 3d preview background of generic ships
-  graphicFile: res:/dx9/Scene/preview/other.red
 20436:
   description: Deployable Larceny Unit Small Rote
   iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
@@ -10733,8 +10719,9 @@
   sofRaceName: generic
 20438:
   description: Deployable Decoy Unit
-  graphicFile: res:/dx9/model/Deployables/Mobile/decoyunit/MDU_T1.red
-  iconFolder: res:/dx9/model/deployables/mobile/decoyunit/icons
+  iconFolder: res:/dx9/model/deployables/generic/decoyunit/gdu01/icons
+  sofFactionName: genericbase
+  sofHullName: gdu01
   sofRaceName: generic
 20439:
   description: Deployable D-Scan Disruptor
@@ -13478,16 +13465,16 @@
   sofHullName: cm1_t1_invul_state
   sofRaceName: generic
 21268:
-  description: Deployables Citadel Medium Vulnerable State
+  description: Deployables Citadel Medium Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
   sofFactionName: upwell
-  sofHullName: cm1_t1_vul_state
+  sofHullName: cm1_t1_vul_active_state
   sofRaceName: generic
 21269:
-  description: Deployables Citadel Medium Sieged State
+  description: Deployables Citadel Medium Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
   sofFactionName: upwell
-  sofHullName: cm1_t1_sieged_state
+  sofHullName: cm1_t1_sieged_active_state
   sofRaceName: generic
 21270:
   description: Effect Module Modular Anomaly Beacon
@@ -13582,16 +13569,16 @@
   sofHullName: cl1_t1_invul_state
   sofRaceName: generic
 21288:
-  description: Deployables Citadel Large Vulnerable State
+  description: Deployables Citadel Large Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
   sofFactionName: upwell
-  sofHullName: cl1_t1_vul_state
+  sofHullName: cl1_t1_vul_active_state
   sofRaceName: generic
 21289:
-  description: Deployables Citadel Large Sieged State
+  description: Deployables Citadel Large Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
   sofFactionName: upwell
-  sofHullName: cl1_t1_sieged_state
+  sofHullName: cl1_t1_sieged_active_state
   sofRaceName: generic
 21290:
   description: Deployables Citadel X-Large Invulnerable State
@@ -13600,16 +13587,16 @@
   sofHullName: cxl1_t1_invul_state
   sofRaceName: generic
 21291:
-  description: Deployables Citadel X-Large Vulnerable State
+  description: Deployables Citadel X-Large Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
   sofFactionName: upwell
-  sofHullName: cxl1_t1_vul_state
+  sofHullName: cxl1_t1_vul_active_state
   sofRaceName: generic
 21292:
-  description: Deployables Citadel X-Large Sieged State
+  description: Deployables Citadel X-Large Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
   sofFactionName: upwell
-  sofHullName: cxl1_t1_sieged_state
+  sofHullName: cxl1_t1_sieged_active_state
   sofRaceName: generic
 21294:
   description: Effect Module Modular Indicator Beam Activation
@@ -14026,16 +14013,16 @@
   sofHullName: iam1_t1_invul_state
   sofRaceName: generic
 21408:
-  description: Deployables Industrial Array Medium Vulnerable State
+  description: Deployables Industrial Array Medium Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: iam1_t1_vul_state
+  sofHullName: iam1_t1_vul_active_state
   sofRaceName: generic
 21409:
-  description: Deployables Industrial Array Medium Sieged State
+  description: Deployables Industrial Array Medium Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: iam1_t1_sieged_state
+  sofHullName: iam1_t1_sieged_active_state
   sofRaceName: generic
 21410:
   description: Deployables Industrial Array Large Invulnerable State
@@ -14044,16 +14031,16 @@
   sofHullName: ial1_t1_invul_state
   sofRaceName: generic
 21411:
-  description: Deployables Industrial Array Large Vulnerable State
+  description: Deployables Industrial Array Large Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: ial1_t1_vul_state
+  sofHullName: ial1_t1_vul_active_state
   sofRaceName: generic
 21412:
-  description: Deployables Industrial Array Large Sieged State
+  description: Deployables Industrial Array Large Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: ial1_t1_sieged_state
+  sofHullName: ial1_t1_sieged_active_state
   sofRaceName: generic
 21413:
   description: Deployables Industrial Array XLarge Invulnerable State
@@ -14062,16 +14049,16 @@
   sofHullName: iaxl1_t1_invul_state
   sofRaceName: generic
 21414:
-  description: Deployables Industrial Array XLarge Vulnerable State
+  description: Deployables Industrial Array XLarge Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: iaxl1_t1_vul_state
+  sofHullName: iaxl1_t1_vul_active_state
   sofRaceName: generic
 21415:
-  description: Deployables Industrial Array XLarge Sieged State
+  description: Deployables Industrial Array XLarge Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
   sofFactionName: upwell-indy
-  sofHullName: iaxl1_t1_sieged_state
+  sofHullName: iaxl1_t1_sieged_active_state
   sofRaceName: generic
 21416:
   description: Deployables Industrial Array Medium Wreck
@@ -14423,16 +14410,16 @@
   sofHullName: refm1_t1_invul_state
   sofRaceName: generic
 21523:
-  description: Deployables Generic Refinery Medium Vulnerable State
+  description: Deployables Generic Refinery Medium Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/refinery/m/state/icons
   sofFactionName: upwell-refinery
-  sofHullName: refm1_t1_vul_state
+  sofHullName: refm1_t1_vul_active_state
   sofRaceName: generic
 21524:
-  description: Deployables Generic Refinery Medium Sieged State
+  description: Deployables Generic Refinery Medium Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/refinery/m/state/icons
   sofFactionName: upwell-refinery
-  sofHullName: refm1_t1_sieged_state
+  sofHullName: refm1_t1_sieged_active_state
   sofRaceName: generic
 21526:
   description: RapidLight (malkuth)
@@ -16017,10 +16004,10 @@
   sofHullName: fragments_02
   sofRaceName: generic
 21796:
-  description: Deployables Generic Refinery Large Vulnerable State
+  description: Deployables Generic Refinery Large Vulnerable Active State
   iconFolder: res:/dx9/model/deployables/generic/refinery/l/state/icons
   sofFactionName: upwell-refinery
-  sofHullName: refl1_t1_vul_state
+  sofHullName: refl1_t1_vul_active_state
   sofRaceName: generic
 21797:
   description: Deployables Generic Refinery Large Invulnerable State
@@ -16029,10 +16016,10 @@
   sofHullName: refl1_t1_invul_state
   sofRaceName: generic
 21798:
-  description: Deployables Generic Refinery Large Sieged State
+  description: Deployables Generic Refinery Large Sieged Active State
   iconFolder: res:/dx9/model/deployables/generic/refinery/l/state/icons
   sofFactionName: upwell-refinery
-  sofHullName: refl1_t1_sieged_state
+  sofHullName: refl1_t1_sieged_active_state
   sofRaceName: generic
 21801:
   description: Moon Chunk - Small
@@ -16634,3 +16621,944 @@
   sofFactionName: angelbase
   sofHullName: angt1_t1_wreck
   sofRaceName: angel
+21970:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_capsuleerday1.red
+  sofRaceName: caldari
+21971:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_crimsonharvest2.red
+  sofRaceName: caldari
+21972:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_winter2.red
+  sofRaceName: caldari
+21976:
+  description: Triglavian cruiser
+  iconFolder: res:/dx9/model/ship/triglavian/cruiser/tgc01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgc01_t1
+  sofRaceName: triglavian
+21977:
+  description: Deployables Generic Refinery Medium Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/refinery/m/state/icons
+  sofFactionName: upwell-refinery
+  sofHullName: refm1_t1_vul_inactive_state
+  sofRaceName: generic
+21978:
+  description: Deployables Generic Refinery Medium Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/refinery/m/state/icons
+  sofFactionName: upwell-refinery
+  sofHullName: refm1_t1_sieged_inactive_state
+  sofRaceName: generic
+21979:
+  description: Deployables Generic Refinery Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/refinery/l/state/icons
+  sofFactionName: upwell-refinery
+  sofHullName: refl1_t1_vul_inactive_state
+  sofRaceName: generic
+21980:
+  description: Deployables Generic Refinery Large Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/refinery/l/state/icons
+  sofFactionName: upwell-refinery
+  sofHullName: refl1_t1_sieged_inactive_state
+  sofRaceName: generic
+21981:
+  description: Deployables Industrial Array XLarge Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: iaxl1_t1_vul_inactive_state
+  sofRaceName: generic
+21982:
+  description: Deployables Industrial Array XLarge Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/xl/iaxl1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: iaxl1_t1_sieged_inactive_state
+  sofRaceName: generic
+21983:
+  description: Deployables Industrial Array Medium Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: iam1_t1_vul_inactive_state
+  sofRaceName: generic
+21984:
+  description: Deployables Industrial Array Medium Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/m/iam1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: iam1_t1_sieged_inactive_state
+  sofRaceName: generic
+21985:
+  description: Deployables Industrial Array Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: ial1_t1_vul_inactive_state
+  sofRaceName: generic
+21986:
+  description: Deployables Industrial Array Large Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/industrialarray/l/ial1/state/icons
+  sofFactionName: upwell-indy
+  sofHullName: ial1_t1_sieged_inactive_state
+  sofRaceName: generic
+21987:
+  description: Deployables Citadel Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
+  sofFactionName: upwell
+  sofHullName: cl1_t1_vul_inactive_state
+  sofRaceName: generic
+21988:
+  description: Deployables Citadel Large Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
+  sofFactionName: upwell
+  sofHullName: cl1_t1_sieged_inactive_state
+  sofRaceName: generic
+21989:
+  description: Deployables Citadel Medium Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
+  sofFactionName: upwell
+  sofHullName: cm1_t1_vul_inactive_state
+  sofRaceName: generic
+21990:
+  description: Deployables Citadel Medium Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
+  sofFactionName: upwell
+  sofHullName: cm1_t1_sieged_inactive_state
+  sofRaceName: generic
+21991:
+  description: Deployables Citadel X-Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
+  sofFactionName: upwell
+  sofHullName: cxl1_t1_vul_inactive_state
+  sofRaceName: generic
+21992:
+  description: Deployables Citadel X-Large Sieged Inactive State
+  iconFolder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/state/icons
+  sofFactionName: upwell
+  sofHullName: cxl1_t1_sieged_inactive_state
+  sofRaceName: generic
+21993:
+  description: Triglavian battleship
+  iconFolder: res:/dx9/model/ship/triglavian/battleship/tgb01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgb01_t1
+  sofRaceName: triglavian
+21994:
+  description: Entropic Disintegrator Large
+  graphicFile: res:/dx9/model/turret/atomic/l/atomic_l01_t1.red
+  iconFolder: res:/dx9/model/turret/atomic/l/icons
+  sofFactionName: triglavianbase
+  sofRaceName: triglavian
+21996:
+  description: Entropic Disintegrator Medium
+  graphicFile: res:/dx9/model/turret/atomic/m/atomic_m01_t1.red
+  iconFolder: res:/dx9/model/turret/atomic/m/icons
+  sofFactionName: triglavianbase
+  sofRaceName: triglavian
+21997:
+  description: Entropic Disintegrator Small
+  graphicFile: res:/dx9/model/turret/atomic/s/atomic_s01_t1.red
+  iconFolder: res:/dx9/model/turret/atomic/s/icons
+  sofFactionName: triglavianbase
+  sofRaceName: triglavian
+22001:
+  description: 'CONCORD CDIA Cruiser Monitor '
+  iconFolder: res:/dx9/model/ship/concord/cruiser/conc1/icons
+  sofFactionName: cdia
+  sofHullName: conc1_t2b
+  sofRaceName: concord
+22002:
+  description: Structure ECM Burst
+  graphicFile: res:/fisfx/structure/ecmburst_rt_01a.red
+22003:
+  description: Repair State Complete
+  graphicFile: res:/fisfx/structure/repairstatecomplete_ov_01a.red
+22004:
+  description: Repair State Failed
+  graphicFile: res:/fisfx/structure/repairstatefailed_ov_01a.red
+22006:
+  description: Jove Cruiser
+  iconFolder: res:/dx9/model/ship/jove/cruiser/jc1/icons
+  sofFactionName: drifter
+  sofHullName: jc1_t1
+  sofRaceName: jove
+22007:
+  description: Triglavian frigate
+  iconFolder: res:/dx9/model/ship/triglavian/frigate/tgf01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgf01_t1
+  sofRaceName: triglavian
+22009:
+  description: Asteroid Set 1 Small 1
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_s_01
+  sofRaceName: asteroid
+22010:
+  description: Asteroid Set 1 Small 2
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_s_02
+  sofRaceName: asteroid
+22011:
+  description: Asteroid Set 1 Small 3
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_s_03
+  sofRaceName: asteroid
+22012:
+  description: Asteroid Set 1 Small 4
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_s_04
+  sofRaceName: asteroid
+22013:
+  description: Asteroid Set 1 Medium 1
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_m_01
+  sofRaceName: asteroid
+22014:
+  description: Asteroid Set 1 Medium 2
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_m_02
+  sofRaceName: asteroid
+22015:
+  description: Asteroid Set 1 Medium 3
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_m_03
+  sofRaceName: asteroid
+22016:
+  description: Asteroid Set 1 Medium 4
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_m_04
+  sofRaceName: asteroid
+22017:
+  description: Asteroid Set 1 Large 1
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_l_01
+  sofRaceName: asteroid
+22018:
+  description: Asteroid Set 1 Large 2
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_l_02
+  sofRaceName: asteroid
+22019:
+  description: Asteroid Set 1 Large 3
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_l_03
+  sofRaceName: asteroid
+22020:
+  description: Asteroid Set 1 XLarge 1
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_xl_01
+  sofRaceName: asteroid
+22021:
+  description: Asteroid Set 1 XLarge 2
+  sofFactionName: asteroid_abyssal
+  sofHullName: as1_xl_02
+  sofRaceName: asteroid
+22022:
+  description: Pillar Set 1 Small 1
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/small/ps1_s_01/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_s_01
+  sofRaceName: asteroid
+22023:
+  description: Pillar Set 1 Small 2
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/small/ps1_s_02/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_s_02
+  sofRaceName: asteroid
+22024:
+  description: Pillar Set 1 Small 3
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/small/ps1_s_03/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_s_03
+  sofRaceName: asteroid
+22025:
+  description: Pillar Set 1 Medium 1
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/medium/ps1_m_01/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_m_01
+  sofRaceName: asteroid
+22026:
+  description: Pillar Set 1 Medium 2
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/medium/ps1_m_02/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_m_02
+  sofRaceName: asteroid
+22027:
+  description: Pillar Set 1 Medium 3
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/medium/ps1_m_03/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_m_03
+  sofRaceName: asteroid
+22028:
+  description: Pillar Set 1 Large 1
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/large/ps1_l_01/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_l_01
+  sofRaceName: asteroid
+22029:
+  description: Pillar Set 1 Large 2
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/large/ps1_l_02/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_l_02
+  sofRaceName: asteroid
+22030:
+  description: Pillar Set 1 Large 3
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/large/ps1_l_03/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_l_03
+  sofRaceName: asteroid
+22031:
+  description: Pillar Set 1 XLarge 1
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/xlarge/ps1_xl_01/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_xl_01
+  sofRaceName: asteroid
+22032:
+  description: Pillar Set 1 XLarge 2
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/xlarge/ps1_xl_02/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_xl_02
+  sofRaceName: asteroid
+22033:
+  description: Pillar Set 1 XLarge 3
+  iconFolder: res:/dx9/model/celestial/environment/rock/pillarset_01/xlarge/ps1_xl_03/icons
+  sofFactionName: volcanicminerals
+  sofHullName: ps1_xl_03
+  sofRaceName: asteroid
+22035:
+  description: Triglavian Tower Active
+  iconFolder: res:/dx9/model/structure/triglavian/tower/tgt01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgt01_active
+  sofRaceName: triglavian
+22036:
+  description: Triglavian Tower Active 2
+  iconFolder: res:/dx9/model/structure/triglavian/tower/tgt01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgt01_active2
+  sofRaceName: triglavian
+22041:
+  description: Abyssal Space Nebula Cubemap 1A
+  graphicFile: res:/dx9/scene/abyssal/ad01_A_cube.red
+22042:
+  description: Abyssal Space Nebula Cubemap 2A
+  graphicFile: res:/dx9/scene/abyssal/ad02_A_cube.red
+22043:
+  description: Abyssal Space Nebula Cubemap 2B
+  graphicFile: res:/dx9/scene/abyssal/ad02_B_cube.red
+22044:
+  description: Abyssal Space Nebula Cubemap 2C
+  graphicFile: res:/dx9/scene/abyssal/ad02_C_cube.red
+22045:
+  description: Abyssal Space Nebula Cubemap 3A
+  graphicFile: res:/dx9/scene/abyssal/ad03_A_cube.red
+22046:
+  description: Abyssal Space Nebula Cubemap 3B
+  graphicFile: res:/dx9/scene/abyssal/ad03_B_cube.red
+22047:
+  description: Abyssal Space Nebula Cubemap 3C
+  graphicFile: res:/dx9/scene/abyssal/ad03_C_cube.red
+22048:
+  description: Abyssal Space Nebula Cubemap 4A
+  graphicFile: res:/dx9/scene/abyssal/ad04_A_cube.red
+22049:
+  description: Effect Structure Bulletstorm TriGlavian 01a
+  graphicFile: res:/fisfx/structure/BulletStorm_Triglavian_01a.red
+22050:
+  description: Effect Structure Bulletstorm TriGlavian 01b
+  graphicFile: res:/fisfx/structure/BulletStorm_Triglavian_01b.red
+22052:
+  description: Jove Turret Medium (jovebase)
+  graphicFile: res:/dx9/model/turret/jove/m/jove_m_t1.red
+  iconFolder: res:/dx9/model/turret/jove/m/icons
+  sofFactionName: jovebase
+  sofRaceName: jove
+22057:
+  description: Effect Lensflare Abyssal Blue
+  graphicFile: res:/fisfx/lensflare/abyssal_blue.red
+  iconFolder: res:/fisfx/lensflare/icons
+22058:
+  description: Effect Lensflare Abyssal Red
+  graphicFile: res:/fisfx/lensflare/abyssal_red.red
+  iconFolder: res:/fisfx/lensflare/icons
+22059:
+  description: Effect Lensflare Abyssal Green
+  graphicFile: res:/fisfx/lensflare/abyssal_green.red
+  iconFolder: res:/fisfx/lensflare/icons
+22060:
+  description: Effect Lensflare Abyssal Purple
+  graphicFile: res:/fisfx/lensflare/abyssal_purple.red
+  iconFolder: res:/fisfx/lensflare/icons
+22061:
+  description: Effect Lensflare Abyssal White
+  graphicFile: res:/fisfx/lensflare/abyssal_white.red
+  iconFolder: res:/fisfx/lensflare/icons
+22062:
+  description: Effect Lensflare Abyssal Dark
+  graphicFile: res:/fisfx/lensflare/abyssal_dark.red
+  iconFolder: res:/fisfx/lensflare/icons
+22064:
+  description: Background Moon
+  graphicFile: res:/dx9/model/celestial/environment/planet/Moon/moon.red
+22065:
+  description: Background Gas Planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/Gas/gas.red
+22066:
+  description: Background Lava planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/Lava/lava.red
+22067:
+  description: Background Plasma Planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/Plasma/plasma.red
+22068:
+  description: Background Sandstorm Planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/sandstorm/sandstorm.red
+22069:
+  description: Background Terrestrial Planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/Terrestrial/terrestrial.red
+22070:
+  description: SOCT Battleship Praxis
+  iconFolder: res:/dx9/model/ship/soct/battleship/soctb1/icons
+  sofFactionName: soctbase
+  sofHullName: soctb1_t1
+  sofRaceName: soct
+22071:
+  description: Default jump tunnel effect
+  graphicFile: res:/fisfx/jump/jumpgates/tunnel.red
+22072:
+  description: Jump to/from abyssal space tunnel effect
+  graphicFile: res:/fisfx/travel/abyssal/abyssal_tunneltoandfrom_01a.red
+22073:
+  description: Jump between abyssal spaces tunnel effect
+  graphicFile: res:/fisfx/travel/abyssal/abyssal_tunnelbetween_01a.red
+22077:
+  description: Abyssal AOE Bioluminescence 10K
+  graphicFile: res:/fisfx/environment/aoe/aoe_bioluminescence_10k_rt_01a.red
+22080:
+  description: Abyssal AOE Bioluminescence 30K
+  graphicFile: res:/fisfx/environment/aoe/aoe_bioluminescence_30k_rt_01a.red
+22081:
+  description: Abyssal AOE Bioluminescence 80K
+  graphicFile: res:/fisfx/environment/aoe/aoe_bioluminescence_80k_rt_01a.red
+22082:
+  description: Abyssal AOE Caustic Wave 10K
+  graphicFile: res:/fisfx/environment/aoe/aoe_causticwave_10k_rt_01a.red
+22083:
+  description: Abyssal AOE Caustic Wave 30K
+  graphicFile: res:/fisfx/environment/aoe/aoe_causticwave_30k_rt_01a.red
+22084:
+  description: Abyssal AOE Caustic Wave 80K
+  graphicFile: res:/fisfx/environment/aoe/aoe_causticwave_80k_rt_01a.red
+22085:
+  description: Effect Boundary Visualization
+  graphicFile: res:/fisfx/environment/boundary/boundary_bubble.red
+22090:
+  description: Cloud Cover Abyssal Caustictoxin s3
+  graphicFile: res:/fisfx/environment/cloudcover/cc_abyssal_caustictoxin_s3_01a.red
+22091:
+  description: Cloud Cover Abyssal Darkness s3
+  graphicFile: res:/fisfx/environment/cloudcover/cc_abyssal_darkness_s3_01a.red
+22092:
+  description: Cloud Cover Abyssal Electricstorm s3
+  graphicFile: res:/fisfx/environment/cloudcover/cc_abyssal_electricstorm_s3_01a.red
+22093:
+  description: Cloud Cover Abyssal Infernal s3
+  graphicFile: res:/fisfx/environment/cloudcover/cc_abyssal_infernal_s3_01a.red
+22094:
+  description: Cloud Cover Abyssal Xenongas s3
+  graphicFile: res:/fisfx/environment/cloudcover/cc_abyssal_xenongas_s3_01a.red
+22095:
+  description: Vignette effect for ship going out of bounds in abyssal space
+  graphicFile: res:/fisfx/PostProcess/vignette.yaml
+22097:
+  description: Asteroid Dungeon Cloud 5810
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/5810/clouds_5810.red
+22098:
+  description: Asteroid Dungeon Cloud 6047
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6047/clouds_6047.red
+22099:
+  description: Asteroid Dungeon Cloud 6200
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6200/clouds_6200.red
+22100:
+  description: Asteroid Dungeon Cloud 6201
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6201/clouds_6201.red
+22101:
+  description: Asteroid Dungeon Cloud 6202
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6202/clouds_6202.red
+22102:
+  description: Pillar Dungeon Cloud 6048
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6048/clouds_6048.red
+22103:
+  description: Pillar Dungeon Cloud 6049
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6049/clouds_6049.red
+22104:
+  description: Pillar Dungeon Cloud 6050
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6050/clouds_6050.red
+22105:
+  description: Pillar Dungeon Cloud 6051
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6051/clouds_6051.red
+22106:
+  description: Pillar Dungeon Cloud 6052
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6052/clouds_6052.red
+22107:
+  description: Crystal Dungeon Cloud 6203
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6203/clouds_6203.red
+22108:
+  description: Crystal Dungeon Cloud 6204
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6204/clouds_6204.red
+22109:
+  description: Crystal Dungeon Cloud 6205
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6205/clouds_6205.red
+22110:
+  description: Crystal Dungeon Cloud 6206
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6206/clouds_6206.red
+22111:
+  description: Crystal Dungeon Cloud 6207
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6207/clouds_6207.red
+22112:
+  description: Asteroid debris cloud 01
+  graphicFile: res:/dx9/model/celestial/environment/rock/asteroidset_01/debris/as1_debris_01.red
+22113:
+  description: Asteroid debris cloud 02
+  graphicFile: res:/dx9/model/celestial/environment/rock/asteroidset_01/debris/as1_debris_02.red
+22114:
+  description: Asteroid debris cloud 03
+  graphicFile: res:/dx9/model/celestial/environment/rock/asteroidset_01/debris/as1_debris_03.red
+22115:
+  description: Pillar debris cloud 01
+  graphicFile: res:/dx9/model/celestial/environment/rock/pillarset_01/debris/ps1_debris_01.red
+22116:
+  description: Pillar debris cloud 02
+  graphicFile: res:/dx9/model/celestial/environment/rock/pillarset_01/debris/ps1_debris_02.red
+22117:
+  description: Pillar debris cloud 03
+  graphicFile: res:/dx9/model/celestial/environment/rock/pillarset_01/debris/ps1_debris_03.red
+22118:
+  description: Crystal debris cloud 01
+  graphicFile: res:/dx9/model/celestial/environment/crystal/crystalset_01/debris/cs1_debris_01.red
+22119:
+  description: Crystal debris cloud 02
+  graphicFile: res:/dx9/model/celestial/environment/crystal/crystalset_01/debris/cs1_debris_02.red
+22120:
+  description: Crystal debris cloud 03
+  graphicFile: res:/dx9/model/celestial/environment/crystal/crystalset_01/debris/cs1_debris_03.red
+22121:
+  description: Dramiel Burner Flames
+  iconFolder: res:/dx9/model/ship/angel/frigate/angf1/icons
+  sofFactionName: darkangel
+  sofHullName: angf1_t1
+  sofRaceName: angel
+22124:
+  description: Abyssal spacetear
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_01a.red
+22125:
+  description: Abyssal spacetear trace 01a
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_Trace_01a.red
+  iconFolder: res:/fisfx/travel/abyssal/icons
+22126:
+  description: Abyssal departure observer
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_DepartureObserver_01a.red
+22127:
+  description: Abyssal departure player
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_DeparturePlayer_01a.red
+22130:
+  description: TriGlavian Jumpgate (Into Abyssal Space)
+  iconFolder: res:/dx9/model/jumpgate/triglavian/tgg2/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgg2
+  sofRaceName: triglavian
+22131:
+  description: TriGlavian Jumpgate (Out of Abyssal Space)
+  iconFolder: res:/dx9/model/jumpgate/triglavian/tgg1/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgg1
+  sofRaceName: triglavian
+22132:
+  description: Effect Lensflare Abyssal Yellow
+  graphicFile: res:/fisfx/lensflare/abyssal_yellow.red
+  iconFolder: res:/fisfx/lensflare/icons
+22133:
+  description: TriGlavian Tower Wreckage
+  iconFolder: res:/dx9/model/structure/triglavian/tower/tgt01/wreck/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgt01_wreck
+  sofRaceName: triglavian
+22135:
+  description: Overlay damage effect for ships in Abyssal Space
+  graphicFile: res:/fisfx/environment/boundary/boundary_damage_ov_01a.red
+22136:
+  description: Root transform damage effect for ships in Abyssal Space
+  graphicFile: res:/fisfx/environment/boundary/boundary_damage_rt_01a.red
+22138:
+  description: Effect Environment Overlay AOE Bioluminescence
+  graphicFile: res:/fisfx/environment/aoe/aoe_bioluminescence_ov_01a.red
+22139:
+  description: Effect Environment Overlay AOE Caustic Wave
+  graphicFile: res:/fisfx/environment/aoe/aoe_causticwave_ov_01a.red
+22140:
+  description: Effect Environment Overlay AOE Filament
+  graphicFile: res:/fisfx/environment/aoe/aoe_filament_ov_01a.red
+22141:
+  description: Effect Environment Overlay AOE Pulse Sphere
+  graphicFile: res:/fisfx/environment/aoe/aoe_pulsesphere_ov_01a.red
+22142:
+  description: Amarr Outpost Large
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1
+  sofRaceName: amarr
+22143:
+  description: Amarr Outpost Large Invulnerable State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_invul_state
+  sofRaceName: amarr
+22144:
+  description: Amarr Outpost Large Placement State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_placement_state
+  sofRaceName: amarr
+22145:
+  description: Amarr Outpost Large Sieged Active State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_sieged_active_state
+  sofRaceName: amarr
+22146:
+  description: Amarr Outpost Large Sieged Inactive State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_sieged_inactive_state
+  sofRaceName: amarr
+22147:
+  description: Amarr Outpost Large Vulnerable Active State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_vul_active_state
+  sofRaceName: amarr
+22148:
+  description: Amarr Outpost Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_vul_inactive_state
+  sofRaceName: amarr
+22149:
+  description: Amarr Outpost Large Wreck
+  iconFolder: res:/dx9/model/outposts/amarr/ao1l/wreck/icons
+  sofFactionName: amarrbase
+  sofHullName: ao1l_t1_wreck
+  sofRaceName: amarr
+22150:
+  description: Caldari Outpost Large
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1
+  sofRaceName: caldari
+22151:
+  description: Caldari Outpost Large Invulnerable State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_invul_state
+  sofRaceName: caldari
+22152:
+  description: Caldari Outpost Large Placement State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_placement_state
+  sofRaceName: caldari
+22153:
+  description: Caldari Outpost Large Sieged Active State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_sieged_active
+  sofRaceName: caldari
+22154:
+  description: Caldari Outpost Large Sieged Inactive State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_sieged_inactive
+  sofRaceName: caldari
+22155:
+  description: Caldari Outpost Large Vulnerable Active State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_vul_active_state
+  sofRaceName: caldari
+22156:
+  description: Caldari Outpost Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_vul_inactive_state
+  sofRaceName: caldari
+22157:
+  description: Caldari Outpost Large Wreck
+  iconFolder: res:/dx9/model/outposts/caldari/co1l/wreck/icons
+  sofFactionName: caldaribase
+  sofHullName: co1l_t1_wreck
+  sofRaceName: caldari
+22161:
+  description: Minmatar Outpost Large
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1
+  sofRaceName: minmatar
+22162:
+  description: Minmatar Outpost Large Invulnerable State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_invul_state
+  sofRaceName: minmatar
+22163:
+  description: Minmatar Outpost Large Placement State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_placement_state
+  sofRaceName: minmatar
+22164:
+  description: Minmatar Outpost Large Sieged Active State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_sieged_active_state
+  sofRaceName: minmatar
+22165:
+  description: Minmatar Outpost Large Sieged Inactive State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_sieged_inactive_state
+  sofRaceName: minmatar
+22166:
+  description: Minmatar Outpost Large Vulnerable Active State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_vul_active_state
+  sofRaceName: minmatar
+22167:
+  description: Minmatar Outpost Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_vul_inactive_state
+  sofRaceName: minmatar
+22168:
+  description: Minmatar Outpost Large Wreck
+  iconFolder: res:/dx9/model/outposts/minmatar/mo1l/wreck/icons
+  sofFactionName: minmatarbase
+  sofHullName: mo1l_t1_wreck
+  sofRaceName: minmatar
+22169:
+  description: Crystal Set 1 Extra Large 1
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/xlarge/cs1_xl_01/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_xl_01
+  sofRaceName: asteroid
+22170:
+  description: Crystal Set 1 Large 1
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/large/cs1_l_01/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_l_01
+  sofRaceName: asteroid
+22171:
+  description: Crystal Set 1 Large 2
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/large/cs1_l_02/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_l_02
+  sofRaceName: asteroid
+22172:
+  description: Crystal Set 1 Large 3
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/large/cs1_l_03/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_l_03
+  sofRaceName: asteroid
+22173:
+  description: Crystal Set 1 Medium 2
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/medium/cs1_m_02/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_m_02
+  sofRaceName: asteroid
+22174:
+  description: Crystal Set 1 Medium 1
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/medium/cs1_m_01/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_m_01
+  sofRaceName: asteroid
+22175:
+  description: Crystal Set 1 Small 1
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_01/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_01
+  sofRaceName: asteroid
+22176:
+  description: Crystal Set 1 Medium 3
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/medium/cs1_m_03/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_m_03
+  sofRaceName: asteroid
+22177:
+  description: Crystal Set 1 Medium 4
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/medium/cs1_m_04/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_m_04
+  sofRaceName: asteroid
+22178:
+  description: Crystal Set 1 Small 5
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_05/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_05
+  sofRaceName: asteroid
+22179:
+  description: Crystal Set 1 Small 4
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_04/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_04
+  sofRaceName: asteroid
+22180:
+  description: Crystal Set 1 Small 3
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_03/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_03
+  sofRaceName: asteroid
+22181:
+  description: Crystal Set 1 Small 2
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_02/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_02
+  sofRaceName: asteroid
+22182:
+  description: Background Plasma Blood planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/plasma_blood/plasma_blood.red
+22183:
+  description: Background Sandstorm Yellow planet
+  graphicFile: res:/dx9/model/celestial/environment/planet/sandstorm_yellow/sandstorm_yellow.red
+22187:
+  description: GallenteOutpost Large Vulnerable Active State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_vul_active_state
+  sofRaceName: gallente
+22188:
+  description: Gallente Outpost Large Vulnerable Inactive State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_vul_inactive_state
+  sofRaceName: gallente
+22189:
+  description: Gallente Outpost Large
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1
+  sofRaceName: gallente
+22190:
+  description: Gallente Outpost Large Invulnerable State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_invul_state
+  sofRaceName: gallente
+22191:
+  description: Gallente Outpost Large Placement State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_placement_state
+  sofRaceName: gallente
+22192:
+  description: Gallente Outpost Large Sieged Active State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_sieged_active_state
+  sofRaceName: gallente
+22193:
+  description: Gallente Outpost Large Sieged Inactive State
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_sieged_inactive_state
+  sofRaceName: gallente
+22194:
+  description: Gallente Outpost Large Wreck
+  iconFolder: res:/dx9/model/outposts/gallente/go1l/wreck/icons
+  sofFactionName: gallentebase
+  sofHullName: go1l_t1_wreck
+  sofRaceName: gallente
+22195:
+  description: Player Conquerable Fortizar
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/icons
+  sofFactionName: upwell
+  sofHullName: cl1_t1
+  sofRaceName: generic
+22196:
+  description: Player Conquerable Fortizar - Wreck
+  iconFolder: res:/dx9/model/deployables/generic/citadel/l/cl1/wreck/icons
+  sofFactionName: upwell
+  sofHullName: cl1_t1_wreck
+  sofRaceName: generic
+22198:
+  description: Abyssal spacetear trace 01b
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_Trace_01b.red
+  iconFolder: res:/fisfx/travel/abyssal/icons
+22199:
+  description: Crystal Set 1 Medium 5
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/medium/cs1_m_05/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_m_05
+  sofRaceName: asteroid
+22200:
+  description: Crystal Set 1 Small 6
+  iconFolder: res:/dx9/model/celestial/environment/crystal/crystalset_01/small/cs1_s_06/icons
+  sofFactionName: crystal_abyssal
+  sofHullName: cs1_s_06
+  sofRaceName: asteroid
+22201:
+  description: Abyssal AOE Filament 10K
+  graphicFile: res:/fisfx/environment/aoe/aoe_filament_10k_rt_01a.red
+22202:
+  description: Abyssal AOE Filament 30K
+  graphicFile: res:/fisfx/environment/aoe/aoe_filament_30k_rt_01a.red
+22203:
+  description: Abyssal AOE Filament 80K
+  graphicFile: res:/fisfx/environment/aoe/aoe_filament_80k_rt_01a.red
+22204:
+  description: Abyssal AOE Pulse Sphere 30K
+  graphicFile: res:/fisfx/environment/aoe/aoe_pulsesphere_30k_rt_01a.red
+22205:
+  description: Abyssal AOE Pulse Sphere 80K
+  graphicFile: res:/fisfx/environment/aoe/aoe_pulsesphere_80k_rt_01a.red
+22206:
+  description: Triglavian Battleship Wreck (Leshak)
+  iconFolder: res:/dx9/model/ship/triglavian/battleship/tgb01/wreck/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgb01_t1_wreck
+  sofRaceName: triglavian
+22207:
+  description: Abyssal Space Nebula Cubemap 4B
+  graphicFile: res:/dx9/scene/abyssal/ad04_B_cube.red
+22208:
+  description: Abyssal Space Nebula Cubemap 4C
+  graphicFile: res:/dx9/scene/abyssal/ad04_C_cube.red
+22209:
+  description: Abyssal Space Nebula Cubemap 5A
+  graphicFile: res:/dx9/scene/abyssal/ad05_A_cube.red
+22210:
+  description: Abyssal Space Nebula Cubemap 5B
+  graphicFile: res:/dx9/scene/abyssal/ad05_B_cube.red
+22211:
+  description: Abyssal Space Nebula Cubemap 5C
+  graphicFile: res:/dx9/scene/abyssal/ad05_C_cube.red
+22212:
+  description: Abyssal Space Nebula Cubemap 6A
+  graphicFile: res:/dx9/scene/abyssal/ad06_A_cube.red
+22213:
+  description: Abyssal Space Nebula Cubemap 6B
+  graphicFile: res:/dx9/scene/abyssal/ad06_B_cube.red
+22214:
+  description: Abyssal Space Nebula Cubemap 6C
+  graphicFile: res:/dx9/scene/abyssal/ad06_C_cube.red
+22217:
+  description: Triglavian Generator
+  iconFolder: res:/dx9/model/structure/triglavian/generator/tggen01/icons
+  sofFactionName: triglavianbase
+  sofHullName: tggen01
+  sofRaceName: triglavian
+22218:
+  description: Triglavian Generator Wreck
+  iconFolder: res:/dx9/model/structure/triglavian/generator/tggen01/wreck/icons
+  sofFactionName: triglavianbase
+  sofHullName: tggen01_wreck
+  sofRaceName: triglavian
+22219:
+  description: Abyssal ReEntry Splash
+  graphicFile: res:/fisfx/travel/abyssal/Abyssal_reentrysplash_01a.red

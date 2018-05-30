@@ -1218,12 +1218,13 @@
     marketGroupID: 1272
     marketGroupName: Sovereignty Structures
     parentGroupID: 477
--   description: Rigs and subsystems that alter a starship's attributes in such a
-        way as to make it more effective in its chosen role
+-   description: "Rigs and subsystems that alter a starship's attributes in such a
+        way as to make it more effective in its chosen role\r\n\r\nMutaplasmids that
+        permanently alter a module's attributes"
     hasTypes: false
     iconID: 2887
     marketGroupID: 955
-    marketGroupName: Ship Modifications
+    marketGroupName: Ship and Module Modifications
 -   description: Components used to piece together advanced modular spaceships
     hasTypes: false
     iconID: 3641
@@ -12354,3 +12355,350 @@
     marketGroupID: 2415
     marketGroupName: Armor Reinforcers
     parentGroupID: 2163
+-   hasTypes: false
+    iconID: 1443
+    marketGroupID: 2416
+    marketGroupName: Flag Cruisers
+    parentGroupID: 1368
+-   hasTypes: true
+    iconID: 1443
+    marketGroupID: 2417
+    marketGroupName: CONCORD
+    parentGroupID: 2416
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2418
+    marketGroupName: Flag Cruisers
+    parentGroupID: 2064
+-   hasTypes: true
+    iconID: 1443
+    marketGroupID: 2419
+    marketGroupName: CONCORD
+    parentGroupID: 2418
+-   hasTypes: false
+    iconID: 21420
+    marketGroupID: 2420
+    marketGroupName: Special Battleships
+    parentGroupID: 1960
+-   hasTypes: true
+    iconID: 21420
+    marketGroupID: 2421
+    marketGroupName: Special Battleships
+    parentGroupID: 2420
+-   description: Small Armor Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2443
+    marketGroupName: Small Armor Mutaplasmids
+    parentGroupID: 2437
+-   description: Medium Armor Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2444
+    marketGroupName: Medium Armor Mutaplasmids
+    parentGroupID: 2437
+-   description: Large Armor Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2445
+    marketGroupName: Large Armor Mutaplasmids
+    parentGroupID: 2437
+-   description: Small Shield Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2446
+    marketGroupName: Small Shield Mutaplasmids
+    parentGroupID: 2438
+-   description: Medium Shield Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2447
+    marketGroupName: Medium Shield Mutaplasmids
+    parentGroupID: 2438
+-   description: Large Shield Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2448
+    marketGroupName: Large Shield Mutaplasmids
+    parentGroupID: 2438
+-   description: X-Large Shield Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2449
+    marketGroupName: X-Large Shield Mutaplasmids
+    parentGroupID: 2438
+-   description: Small Atronautic Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2450
+    marketGroupName: Small Atronautic Mutaplasmids
+    parentGroupID: 2439
+-   description: Medium Astronautic Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2451
+    marketGroupName: Medium Astronautic Mutaplasmids
+    parentGroupID: 2439
+-   description: Large Astronautic Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2452
+    marketGroupName: Large Astronautic Mutaplasmids
+    parentGroupID: 2439
+-   description: Small Engineering Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2453
+    marketGroupName: Small Engineering Mutaplasmids
+    parentGroupID: 2440
+-   description: Medium Engineering Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2454
+    marketGroupName: Medium Engineering Mutaplasmids
+    parentGroupID: 2440
+-   description: Large Engineering Mutaplasmids
+    hasTypes: true
+    marketGroupID: 2455
+    marketGroupName: Large Engineering Mutaplasmids
+    parentGroupID: 2440
+-   description: Drone Implants
+    hasTypes: false
+    iconID: 2224
+    marketGroupID: 2473
+    marketGroupName: Drone Implants
+    parentGroupID: 531
+-   description: Implant Slot 06
+    hasTypes: true
+    iconID: 2224
+    marketGroupID: 2474
+    marketGroupName: Implant Slot 06
+    parentGroupID: 2473
+-   description: Implant Slot 07
+    hasTypes: true
+    iconID: 2224
+    marketGroupID: 2475
+    marketGroupName: Implant Slot 07
+    parentGroupID: 2473
+-   description: Implant Slot 08
+    hasTypes: true
+    iconID: 2224
+    marketGroupID: 2476
+    marketGroupName: Implant Slot 08
+    parentGroupID: 2473
+-   description: Implant Slot 09
+    hasTypes: true
+    iconID: 2224
+    marketGroupID: 2477
+    marketGroupName: Implant Slot 09
+    parentGroupID: 2473
+-   description: Implant Slot 10
+    hasTypes: true
+    iconID: 2224
+    marketGroupID: 2478
+    marketGroupName: Implant Slot 10
+    parentGroupID: 2473
+-   description: Precursor Turrets
+    hasTypes: false
+    iconID: 21923
+    marketGroupID: 2431
+    marketGroupName: Precursor Turrets
+    parentGroupID: 10
+-   description: Entropic Disintegrators
+    hasTypes: false
+    iconID: 21921
+    marketGroupID: 2432
+    marketGroupName: Entropic Disintegrators
+    parentGroupID: 2431
+-   description: Small Entropic Disintegrators
+    hasTypes: true
+    iconID: 21923
+    marketGroupID: 2433
+    marketGroupName: Small
+    parentGroupID: 2432
+-   description: Medium Entropic Disintegrators
+    hasTypes: true
+    iconID: 21922
+    marketGroupID: 2434
+    marketGroupName: Medium
+    parentGroupID: 2432
+-   description: Large Entropic Disintegrators
+    hasTypes: true
+    iconID: 21921
+    marketGroupID: 2435
+    marketGroupName: Large
+    parentGroupID: 2432
+-   description: Exotic Plasma Charges are used in Entropic Disintegrators
+    hasTypes: false
+    iconID: 21918
+    marketGroupID: 2462
+    marketGroupName: Exotic Plasma Charges
+    parentGroupID: 11
+-   description: Standard Exotic Plasma Charges
+    hasTypes: false
+    iconID: 21918
+    marketGroupID: 2463
+    marketGroupName: Standard Exotic Plasma Charges
+    parentGroupID: 2462
+-   description: Advanced Exotic Plasma Charges
+    hasTypes: false
+    iconID: 21920
+    marketGroupID: 2464
+    marketGroupName: Advanced Exotic Plasma Charges
+    parentGroupID: 2462
+-   description: Small Exotic Plasma Charge
+    hasTypes: true
+    iconID: 21918
+    marketGroupID: 2465
+    marketGroupName: Small
+    parentGroupID: 2463
+-   description: Medium Exotic Plasma Charges
+    hasTypes: true
+    iconID: 21918
+    marketGroupID: 2466
+    marketGroupName: Medium
+    parentGroupID: 2463
+-   description: Large Exotic Plasma Charges
+    hasTypes: true
+    iconID: 21918
+    marketGroupID: 2467
+    marketGroupName: Large
+    parentGroupID: 2463
+-   description: Small Advanced Exotic Plasma Charges
+    hasTypes: true
+    iconID: 21920
+    marketGroupID: 2468
+    marketGroupName: Small
+    parentGroupID: 2464
+-   description: Medium Advanced Exotic Plasma Charges
+    hasTypes: true
+    iconID: 21920
+    marketGroupID: 2469
+    marketGroupName: Medium
+    parentGroupID: 2464
+-   description: Large Advanced Exotic Plasma Charges
+    hasTypes: true
+    iconID: 21920
+    marketGroupID: 2470
+    marketGroupName: Large
+    parentGroupID: 2464
+-   description: Increases damage and rate of fire for Entropic Disintegrators
+    hasTypes: true
+    iconID: 1046
+    marketGroupID: 2471
+    marketGroupName: Entropic Radiation Sinks
+    parentGroupID: 143
+-   description: Abyssal Filaments are used to access Abyssal Deadspace
+    hasTypes: false
+    iconID: 21924
+    marketGroupID: 2456
+    marketGroupName: Abyssal Filaments
+    parentGroupID: 19
+-   description: Materials found in Abyssal Deadspace
+    hasTypes: true
+    iconID: 2103
+    marketGroupID: 2479
+    marketGroupName: Abyssal Materials
+    parentGroupID: 1031
+-   description: Data found in Abyssal Deadspace
+    hasTypes: true
+    iconID: 2037
+    marketGroupID: 2480
+    marketGroupName: Triglavian Data
+    parentGroupID: 19
+-   description: Filaments connected to Abyssal pockets with Exotic Particle Storms
+    hasTypes: true
+    iconID: 21905
+    marketGroupID: 2457
+    marketGroupName: Exotic Filaments
+    parentGroupID: 2456
+-   description: Filaments that connect to Abyssal pockets with Dark Matter Fields
+    hasTypes: true
+    iconID: 21906
+    marketGroupID: 2458
+    marketGroupName: Dark Filaments
+    parentGroupID: 2456
+-   description: Filaments that connect to Abyssal pockets with Plasma Firestorms
+    hasTypes: true
+    iconID: 21907
+    marketGroupID: 2459
+    marketGroupName: Firestorm Filaments
+    parentGroupID: 2456
+-   description: Filaments that connect to Abyssal pockets with Gamma-Ray Afterglow
+    hasTypes: true
+    iconID: 21904
+    marketGroupID: 2460
+    marketGroupName: Gamma Filaments
+    parentGroupID: 2456
+-   description: Filaments that connect to Abyssal pockets with Electrical Storms
+    hasTypes: true
+    iconID: 21903
+    marketGroupID: 2461
+    marketGroupName: Electrical Filaments
+    parentGroupID: 2456
+-   description: Mutaplasmids permanently alter a module's attributes
+    hasTypes: false
+    iconID: 21891
+    marketGroupID: 2436
+    marketGroupName: Mutaplasmids
+    parentGroupID: 955
+-   description: Mutaplasmids that are used on Armor modules
+    hasTypes: false
+    iconID: 21989
+    marketGroupID: 2437
+    marketGroupName: Armor Mutaplasmids
+    parentGroupID: 2436
+-   description: Mutaplasmids that can be used on shield modules.
+    hasTypes: false
+    iconID: 21985
+    marketGroupID: 2438
+    marketGroupName: Shield Mutaplasmids
+    parentGroupID: 2436
+-   description: Mutaplasmids that can be used on Propulsion modules.
+    hasTypes: false
+    iconID: 21984
+    marketGroupID: 2439
+    marketGroupName: Astronautic Mutaplasmids
+    parentGroupID: 2436
+-   description: Mutaplasmids that can be used on Engineering modules
+    hasTypes: false
+    iconID: 21987
+    marketGroupID: 2440
+    marketGroupName: Engineering Mutaplasmids
+    parentGroupID: 2436
+-   description: Mutaplasmids that can be used on Warp Disruption modules.
+    hasTypes: true
+    iconID: 21993
+    marketGroupID: 2441
+    marketGroupName: Warp Disruption Mutaplasmids
+    parentGroupID: 2436
+-   description: Mutaplasmids that can be used on Stasis Webifier modules.
+    hasTypes: true
+    iconID: 21992
+    marketGroupID: 2442
+    marketGroupName: Stasis Webifier Mutaplasmids
+    parentGroupID: 2436
+-   description: Precursor Frigates
+    hasTypes: false
+    iconID: 1443
+    marketGroupID: 2425
+    marketGroupName: Precursor Frigates
+    parentGroupID: 1361
+-   description: Triglavian Frigates
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2426
+    marketGroupName: Triglavian
+    parentGroupID: 2425
+-   description: Precursor Cruisers
+    hasTypes: false
+    iconID: 1443
+    marketGroupID: 2427
+    marketGroupName: Precursor Cruisers
+    parentGroupID: 1367
+-   description: Triglavian Cruisers
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2428
+    marketGroupName: Triglavian
+    parentGroupID: 2427
+-   description: Precursor Battleships
+    hasTypes: false
+    iconID: 1443
+    marketGroupID: 2429
+    marketGroupName: Precursor Battleships
+    parentGroupID: 1376
+-   description: Triglavian Battleships
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2430
+    marketGroupName: Triglavian
+    parentGroupID: 2429

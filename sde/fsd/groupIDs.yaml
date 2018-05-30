@@ -12055,11 +12055,11 @@
     categoryID: 42
     fittableNonSingleton: false
     name:
-        de: Planet Solid
-        en: Planet Solid
-        fr: Matière solide planétaire
+        de: Planet (solide) – Rohmaterialien
+        en: Planet Solid - Raw Resource
+        fr: Planète solide - Ressource brute
         ja: 惑星（固体）
-        ru: Планетарные металлы
+        ru: Планетарная порода — сырьё
         zh: 行星固体
     published: true
     useBasePrice: false
@@ -12069,11 +12069,11 @@
     categoryID: 42
     fittableNonSingleton: false
     name:
-        de: Planet Liquid-Gas
-        en: Planet Liquid-Gas
-        fr: Matière liquide-gazeuse planétaire
+        de: Planet (flüssig-gasförmig) – Rohmaterialien
+        en: Planet Liquid-Gas - Raw Resource
+        fr: Planète liquide-gaz - Ressource brute
         ja: 惑星（液体ガス）
-        ru: Планетарные жидкости и газы
+        ru: Планетарный жидкий газ — сырьё
         zh: 行星液体-气体
     published: true
     useBasePrice: false
@@ -12083,11 +12083,11 @@
     categoryID: 43
     fittableNonSingleton: false
     name:
-        de: Raffinierte Güter
-        en: Refined Commodities
-        fr: Marchandises raffinées
+        de: Raffinierte Güter – Rang 2
+        en: Refined Commodities - Tier 2
+        fr: Marchandises raffinées - Tier 2
         ja: 2次加工品
-        ru: Высокотехнологичные товары
+        ru: Очищенные товары — класс 2
         zh: 资源物品精炼成品
     published: true
     useBasePrice: true
@@ -12097,11 +12097,11 @@
     categoryID: 42
     fittableNonSingleton: false
     name:
-        de: Planet Organic
-        en: Planet Organic
-        fr: Matière organique planétaire
+        de: Planet (organisch) – Rohmaterialien
+        en: Planet Organic - Raw Resource
+        fr: Planète organique - Ressource brute
         ja: 惑星（有機）
-        ru: Планетарная органика
+        ru: Планетарная органика — сырьё
         zh: 行星有机体
     published: true
     useBasePrice: false
@@ -12125,11 +12125,11 @@
     categoryID: 43
     fittableNonSingleton: false
     name:
-        de: Specialized Commodities
-        en: Specialized Commodities
-        fr: Marchandises spécialisées
+        de: Spezialisierte Güter – Rang 3
+        en: Specialized Commodities - Tier 3
+        fr: Marchandises spécialisées - Tier 3
         ja: 3次加工品
-        ru: Специализированные товары
+        ru: Специализированные товары — класс 3
         zh: 特种资源物品
     published: true
     useBasePrice: true
@@ -12139,11 +12139,11 @@
     categoryID: 43
     fittableNonSingleton: false
     name:
-        de: Weiterentwickelte Güter
-        en: Advanced Commodities
-        fr: Marchandises avancées
+        de: Weiterentwickelte Güter – Rang 4
+        en: Advanced Commodities - Tier 4
+        fr: Marchandises avancées - Tier 4
         ja: 最終加工品
-        ru: Технологичные товары
+        ru: Продвинутые товары — класс 4
         zh: 高级资源物品
     published: true
     useBasePrice: false
@@ -12153,11 +12153,11 @@
     categoryID: 43
     fittableNonSingleton: false
     name:
-        de: Grundlegende Güter
-        en: Basic Commodities
-        fr: Marchandises de base
+        de: Grundlegende Güter – Rang 1
+        en: Basic Commodities - Tier 1
+        fr: Marchandises de base - Tier 1
         ja: 1次加工品
-        ru: Обычные товары
+        ru: Базовые товары — класс 1
         zh: 基本资源物品
     published: true
     useBasePrice: true
@@ -14423,20 +14423,6 @@
         ja: 漂流者の戦艦
         ru: Линкор Скитальцев
         zh: 流浪者战列舰
-    published: true
-    useBasePrice: false
-1311:
-    anchorable: false
-    anchored: false
-    categoryID: 5
-    fittableNonSingleton: false
-    name:
-        de: Super Kerr-induzierten Nanobeschichtungen
-        en: Super Kerr-Induced Nanocoatings
-        fr: Nanorevêtements générés par le super Kerr
-        ja: 超カー誘発性ナノコーティング
-        ru: Шаблоны для перекраски кораблей
-        zh: 超级克尔诱导纳米涂层
     published: true
     useBasePrice: false
 1312:
@@ -18995,14 +18981,6 @@
         zh: 冬眠者事件战列舰
     published: false
     useBasePrice: false
-1931:
-    anchorable: false
-    anchored: false
-    categoryID: 5
-    fittableNonSingleton: false
-    name: {}
-    published: true
-    useBasePrice: false
 1933:
     anchorable: false
     anchored: false
@@ -19283,6 +19261,18 @@
         ru: Structure QA Modules
     published: false
     useBasePrice: false
+1964:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Mutaplasmide
+        en: Mutaplasmids
+        fr: Mutaplasmides
+        ru: Мутаплазмиды
+    published: true
+    useBasePrice: false
 1966:
     anchorable: false
     anchored: false
@@ -19318,6 +19308,338 @@
         fr: Renforçateur de blindage pour structure
         ru: Усилитель брони для сооружений
     published: true
+    useBasePrice: false
+1969:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name: {}
+    published: false
+    useBasePrice: false
+1971:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Nicht interagierbares, lokales Effekt-Signalfeuer
+        en: Uninteractable Localized Effect Beacon
+        fr: Balise à effet localisé non interactif
+        ru: Неинтерактивный локализованный маяк эффекта
+    published: false
+    useBasePrice: false
+1972:
+    anchorable: false
+    anchored: false
+    categoryID: 6
+    fittableNonSingleton: false
+    name:
+        de: Flaggenkreuzer
+        en: Flag Cruiser
+        fr: Croiseur amiral
+        ru: Флагманский крейсер
+    published: true
+    useBasePrice: false
+1973:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Locators
+        en: Locators
+        fr: Localisateurs
+        ru: Локаторы
+    published: false
+    useBasePrice: false
+1974:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Struktur-Festivalwerfer
+        en: Structure Festival Launcher
+        fr: Lanceur de festival pour structure
+        ru: Салютная ПУ для сооружений
+    published: true
+    useBasePrice: false
+1975:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Nicht interagierbares Objekt
+        en: Non-Interactable Object
+        fr: Objet non interactif
+        ru: Неинтерактивный объект
+    published: false
+    useBasePrice: false
+1976:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: true
+    name:
+        de: Struktur-Festivalladungen
+        en: Structure Festival Charges
+        fr: Charges de festival pour structure
+        ru: Салютные снаряды для сооружений
+    published: true
+    useBasePrice: false
+1977:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Trinärer Datentresor
+        en: Trinary Data Vaults
+        fr: Coffres-forts de données trinaires
+        ru: Тринарные хранилища данных
+    published: false
+    useBasePrice: false
+1978:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Industrie-Unterstützungsanlage
+        en: Industrial Support Facility
+        fr: Site de maintenance de l'industrie
+        ru: Центр промышленной поддержки
+    published: false
+    useBasePrice: false
+1979:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Abgrundfilamente
+        en: Abyssal Filaments
+        fr: Filaments abyssaux
+        ru: Нити бездны
+    published: true
+    useBasePrice: false
+1980:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Nicht skalierbare Wolken
+        en: Non-Scalable Clouds
+        fr: Nuages non-extensibles
+        ru: Немасштабируемые облака
+    published: false
+    useBasePrice: false
+1981:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Triglavianische Unterstützungsmasten
+        en: Triglavian Support Pylons
+        fr: Pylônes de soutien triglavian
+        ru: Пилоны поддержки Триглава
+    published: false
+    useBasePrice: false
+1982:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Abgrundraumschiffeinheiten
+        en: Abyssal Spaceship Entities
+        fr: Entités-vaisseaux abyssales
+        ru: Корабли бездны
+    published: false
+    useBasePrice: false
+1983:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Abgrundumgebung
+        en: Abyssal Environment
+        fr: Environnement abyssal
+        ru: Пространство бездны
+    published: false
+    useBasePrice: false
+1984:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Outpost Conversion Rigs
+        en: Outpost Conversion Rigs
+        fr: Optimisations de conversion d'avant-poste
+        ru: Надстройки для конверсии форпоста
+    published: true
+    useBasePrice: false
+1986:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name:
+        de: Precursor-Waffe
+        en: Precursor Weapon
+        fr: Arme de précursion
+        ru: Оружие Предтечей
+    published: true
+    useBasePrice: false
+1987:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: false
+    name:
+        de: Exotische Plasmaladung
+        en: Exotic Plasma Charge
+        fr: Charge à plasma exotique
+        ru: Заряд экзотической плазмы
+    published: true
+    useBasePrice: false
+1988:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name:
+        de: Entropischer Strahlungskühler
+        en: Entropic Radiation Sink
+        fr: Dissipateur de radiations entropiques
+        ru: Поглотитель энтропического излучения
+    published: true
+    useBasePrice: false
+1989:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: false
+    name:
+        de: Fortgeschrittene exotische Plasmaladung
+        en: Advanced Exotic Plasma Charge
+        fr: Charge à plasma exotique avancée
+        ru: Улучшенный заряд экзотической плазмы
+    published: true
+    useBasePrice: false
+1990:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für Precursor-Waffen
+        en: Precursor Weapon Blueprint
+        fr: Plan de construction Arme de précursion
+        ru: Чертёж оружия Предтечей
+    published: true
+    useBasePrice: true
+1991:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Abgrundspur
+        en: Abyssal Trace
+        fr: Trace abyssale
+        ru: След бездны
+    published: false
+    useBasePrice: false
+1992:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für entropische Strahlungskühler
+        en: Entropic Radiation Sink Blueprint
+        fr: Plan de construction Dissipateur de radiations entropiques
+        ru: Чертёж поглотителя энтропического излучения
+    published: true
+    useBasePrice: true
+1993:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für exotische Plasmaladungen
+        en: Exotic Plasma Charge Blueprint
+        fr: Plan de construction Charge à plasma exotique
+        ru: Чертёж заряда экзотической плазмы
+    published: true
+    useBasePrice: true
+1994:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für fortgeschrittene exotische Plasmaladungen
+        en: Advanced Exotic Plasma Charge Blueprint
+        fr: Plan de construction Charge à plasma exotique avancée
+        ru: Чертёж улучшенного заряда экзотической плазмы
+    published: true
+    useBasePrice: true
+1995:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Triglavianische Daten
+        en: Triglavian Data
+        fr: Données triglavian
+        ru: Сведения о Триглаве
+    published: true
+    useBasePrice: false
+1996:
+    anchorable: false
+    anchored: false
+    categoryID: 4
+    fittableNonSingleton: false
+    name:
+        de: Materialien des Abgrunds
+        en: Abyssal Materials
+        fr: Matériaux abyssaux
+        ru: Материалы бездны
+    published: true
+    useBasePrice: false
+1997:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Abgrunddrohneneinheiten
+        en: Abyssal Drone Entities
+        fr: Entités-drones abyssales
+        ru: Дроны бездны
+    published: false
+    useBasePrice: false
+1998:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Denkmäler für Stationsumwandlungen
+        en: Station Conversion Monuments
+        fr: Monuments de conversion de station
+        ru: Монументы преобразования станций
+    published: false
     useBasePrice: false
 350858:
     anchorable: false
