@@ -1649,10 +1649,6 @@
     - 23911
     - 23915
     - 24483
-    - 37604
-    - 37605
-    - 37606
-    - 37607
     skillTypes:
         3348:
             advanced: 5
@@ -4415,7 +4411,6 @@
     - 22544
     - 22546
     - 22548
-    - 32880
     - 33683
     - 33697
     - 37135
@@ -5592,7 +5587,7 @@
         planets before a colony may be founded. This is a good skillset for capsuleers
         wishing to develop an additional source of income.
     groupID: 1241
-    name: Planetary Interaction
+    name: Planetary Production
     recommendedFor:
     - 2863
     skillTypes:
@@ -5773,6 +5768,10 @@
     - 33637
     - 33687
     - 34151
+    - 37604
+    - 37605
+    - 37606
+    - 37607
     - 47466
     skillTypes:
         3426:
@@ -9458,7 +9457,8 @@
             improved: 0
             standard: 0
 233:
-    description: Competence on Reactions
+    description: 'This certificate represents a level of competence in reactions.
+        The holder is capable of performing reaction processes in structures. '
     groupID: 1218
     name: Reactions
     skillTypes:
@@ -9485,4 +9485,49 @@
             basic: 0
             elite: 0
             improved: 0
+            standard: 0
+234:
+    description: This certificate represents a level of competence in mining, and
+        gas cloud harvesting. This is a good starting skillset for capsuleers specializing
+        in ORE vessels.
+    groupID: 1218
+    name: Resource harvesting, Core
+    recommendedFor:
+    - 32880
+    skillTypes:
+        3386:
+            advanced: 5
+            basic: 1
+            elite: 5
+            improved: 4
+            standard: 3
+        3402:
+            advanced: 4
+            basic: 0
+            elite: 4
+            improved: 4
+            standard: 0
+        3410:
+            advanced: 5
+            basic: 0
+            elite: 5
+            improved: 1
+            standard: 0
+        11395:
+            advanced: 3
+            basic: 0
+            elite: 5
+            improved: 0
+            standard: 0
+        22578:
+            advanced: 4
+            basic: 0
+            elite: 5
+            improved: 3
+            standard: 2
+        25544:
+            advanced: 4
+            basic: 0
+            elite: 5
+            improved: 1
             standard: 0

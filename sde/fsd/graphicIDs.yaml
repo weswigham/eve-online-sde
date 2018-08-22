@@ -480,9 +480,9 @@
   sofRaceName: angel
 1006:
   description: Sentry Amarr Laser Small Medium
-  graphicFile: res:/dx9/model/Structure/Amarr/Sentry/L/ASL_T1.red
   iconFolder: res:/dx9/model/structure/amarr/sentry/l/icons
   sofFactionName: amarrbase
+  sofHullName: asl_t1
   sofRaceName: amarr
 1009:
   description: ORE Drone Heavy Mining Drone I
@@ -880,15 +880,15 @@
   sofRaceName: caldari
 1213:
   description: Sentry Gallente Railgun and Blaster Small Medium
-  graphicFile: res:/dx9/model/Structure/Gallente/Sentry/L/GSL_T1.red
   iconFolder: res:/dx9/model/structure/gallente/sentry/l/icons
   sofFactionName: gallentebase
+  sofHullName: gsl01_t1
   sofRaceName: gallente
 1216:
   description: Sentry Minmatar Autocannon and Artillery Small Medium
-  graphicFile: res:/dx9/model/Structure/Minmatar/Sentry/L/MSL_T1.red
   iconFolder: res:/dx9/model/structure/minmatar/sentry/l/icons
   sofFactionName: minmatarbase
+  sofHullName: msl01_t1
   sofRaceName: minmatar
 1217:
   description: Structure Universal Sensor Jammer
@@ -1419,8 +1419,9 @@
   sofRaceName: caldari
 1709:
   description: MO_Refining
-  graphicFile: res:/dx9/model/Structure/Minmatar/Refinery/MRef1/MRef1.red
-  iconFolder: res:/dx9/model/structure/minmatar/refinery/mref1/icons
+  iconFolder: res:/dx9/model/structure/minmatar/refinery/mref01/icons
+  sofFactionName: minmatarbase
+  sofHullName: mref01
   sofRaceName: minmatar
 1711:
   description: Structure Angel Battlestation 2
@@ -2742,8 +2743,9 @@
   sofRaceName: generic
 2341:
   description: WarpGate
-  graphicFile: res:/dx9/Model/WorldObject/Warpgate/wg1.red
-  iconFolder: res:/dx9/model/worldobject/warpgate/icons
+  iconFolder: res:/dx9/model/gates/warpgates/wgs01/icons
+  sofFactionName: genericmetal
+  sofHullName: wgs01
   sofRaceName: generic
 2342:
   description: ForceField_ThermalS
@@ -3045,8 +3047,9 @@
   sofRaceName: amarr
 2414:
   description: AngelWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_Sentry_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_sentry
   sofRaceName: angel
 2415:
   description: BloodraiderWall_Sentry
@@ -3056,8 +3059,9 @@
   sofRaceName: amarr
 2416:
   description: CaldariWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_sentry
   sofRaceName: caldari
 2417:
   description: GallenteWall_Sentry
@@ -3067,18 +3071,21 @@
   sofRaceName: gallente
 2418:
   description: GuristaWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_Sentry_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_sentry
   sofRaceName: caldari
 2419:
   description: MimatarWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_sentry
   sofRaceName: minmatar
 2420:
   description: SanshaWall_Sentry
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_sentry
   sofRaceName: sansha
 2421:
   description: SerpentisWall_Sentry
@@ -3142,48 +3149,57 @@
   sofRaceName: amarr
 2431:
   description: AngelWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_Bunker_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_bunker
   sofRaceName: angel
 2432:
   description: AngelWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_Elevator_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_elevator
   sofRaceName: angel
 2433:
   description: AngelWall_Junction
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_Junction_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_junction
   sofRaceName: angel
 2434:
   description: AngelWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_Lookout_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_lookout
   sofRaceName: angel
 2435:
   description: AngelWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_MissileBattery_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_missilebattery
   sofRaceName: angel
 2436:
   description: AngelWall_X
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_StraightX_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_wallx
   sofRaceName: angel
 2437:
   description: AngelWall_XZ
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_StraightXZ_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_wallxz
   sofRaceName: angel
 2438:
   description: AngelWall_Z
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_StraightZ_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_wallz
   sofRaceName: angel
 2439:
   description: AngelWall_ZX
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_StraightZX_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_wallzx
   sofRaceName: angel
 2440:
   description: BloodraiderWall_Bunker
@@ -3241,48 +3257,57 @@
   sofRaceName: amarr
 2449:
   description: CaldariWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_elevator
   sofRaceName: caldari
 2450:
   description: CaldariWall_Junction
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_junction
   sofRaceName: caldari
 2451:
   description: CaldariWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_lookout
   sofRaceName: caldari
 2452:
   description: CaldariWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_missilebattery
   sofRaceName: caldari
 2453:
   description: CaldariWall_X
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_wallx
   sofRaceName: caldari
 2454:
   description: CaldariWall_XZ
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_wallxz
   sofRaceName: caldari
 2455:
   description: CaldariWall_Z
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_wallz
   sofRaceName: caldari
 2456:
   description: CaldariWall_ZX
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_wallzx
   sofRaceName: caldari
 2457:
-  description: GuristaWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Wall_Bunker.red
+  description: CaldariWall_Bunker
   iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: caldaribase
+  sofHullName: cd_bunker
   sofRaceName: caldari
 2458:
   description: GallenteWall_Bunker
@@ -3340,143 +3365,171 @@
   sofRaceName: gallente
 2467:
   description: GuristasWall_GreatWall
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/GreatWallX_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_greatwallx
   sofRaceName: caldari
 2468:
   description: GuristasWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_MissileBattery_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_missilebattery
   sofRaceName: caldari
 2470:
   description: GuristaWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_Bunker_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_bunker
   sofRaceName: caldari
 2471:
   description: GuristaWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_Elevator_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_elevator
   sofRaceName: caldari
 2472:
   description: GuristaWall_Junction
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_Junction_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_junction
   sofRaceName: caldari
 2473:
   description: GuristaWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_Lookout_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_lookout
   sofRaceName: caldari
 2474:
   description: GuristaWall_X
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_StraightX_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_wallx
   sofRaceName: caldari
 2475:
   description: GuristaWall_XZ
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_StraightXZ_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_wallxz
   sofRaceName: caldari
 2476:
   description: GuristaWall_Z
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_StraightZ_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_wallz
   sofRaceName: caldari
 2477:
   description: GuristaWall_ZX
-  graphicFile: res:/dx9/model/Structure/Caldari/Defense/Guristas/Wall_StraightZX_Guristas.red
-  iconFolder: res:/dx9/model/structure/caldari/defense/guristas/icons
+  iconFolder: res:/dx9/model/structure/caldari/defense/icons
+  sofFactionName: guristas
+  sofHullName: cd_wallzx
   sofRaceName: caldari
 2478:
   description: MinmatarlWall_ZX
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_wallzx
   sofRaceName: minmatar
 2479:
   description: MinmatarWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_Bunker.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_bunker
   sofRaceName: minmatar
 2480:
   description: MinmatarWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_elevator
   sofRaceName: minmatar
 2481:
   description: MinmatarWall_Junction
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_junction
   sofRaceName: minmatar
 2482:
   description: MinmatarWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_lookout
   sofRaceName: minmatar
 2483:
   description: MinmatarWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_missilebattery
   sofRaceName: minmatar
 2484:
   description: MinmatarWall_X
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_wallx
   sofRaceName: minmatar
 2485:
   description: MinmatarWall_XZ
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_wallxz
   sofRaceName: minmatar
 2486:
   description: MinmatarWall_Z
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/minmatar/defense/icons
+  sofFactionName: minmatarbase
+  sofHullName: md_wallz
   sofRaceName: minmatar
 2487:
   description: SanshaiWall_Z
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_wallz
   sofRaceName: sansha
 2488:
   description: SanshaWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_Bunker.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_bunker
   sofRaceName: sansha
 2489:
   description: SanshaWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_elevator
   sofRaceName: sansha
 2490:
   description: SanshaWall_Junction
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_junction
   sofRaceName: sansha
 2491:
   description: SanshaWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_lookout
   sofRaceName: sansha
 2492:
   description: SanshaWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_missilebattery
   sofRaceName: sansha
 2493:
   description: SanshaWall_X
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_wallx
   sofRaceName: sansha
 2494:
   description: SanshaWall_XZ
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_wallxz
   sofRaceName: sansha
 2495:
   description: SanshaWall_ZX
-  graphicFile: res:/dx9/model/Structure/Sansha/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/sansha/defense/icons
+  sofFactionName: sanshabase
+  sofHullName: sd_wallzx
   sofRaceName: sansha
 2496:
   description: SerpentisWall_Bunker
@@ -3888,18 +3941,12 @@
 2724:
   description: ENV_Krypton
   graphicFile: res:/dx9/model/worldobject/enviroments/env_krypton.red
-2725:
-  description: ENV_Noir
-  graphicFile: res:/dx9/model/worldobject/enviroments/env_noir.red
 2726:
   description: ENV_Poison
   graphicFile: res:/dx9/model/worldobject/enviroments/env_poison.red
 2727:
   description: ENV_Radon
   graphicFile: res:/dx9/model/worldobject/enviroments/env_radon.red
-2728:
-  description: ENV_RainyDay
-  graphicFile: res:/dx9/model/worldobject/enviroments/env_rainyday.red
 2729:
   description: ENV_Storm
   graphicFile: res:/dx9/model/worldobject/enviroments/env_storm.red
@@ -4080,8 +4127,9 @@
   sofRaceName: amarr
 2792:
   description: AngelWall_NetWorkNode
-  graphicFile: res:/dx9/model/Structure/Minmatar/Defense/angel/Wall_NetworkNode_Angel.red
-  iconFolder: res:/dx9/model/structure/minmatar/defense/angel/icons
+  iconFolder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: angelbase
+  sofHullName: angd_networknode
   sofRaceName: angel
 2794:
   description: Minmatar Battlecruiser Sebiestor Claymore (Cyclone Hull)
@@ -4943,9 +4991,9 @@
   sofRaceName: ore
 3468:
   description: Gates Acceleration Gate (Warpgate) Large 1
-  graphicFile: res:/dx9/model/Gates/Warpgates/WGL1/WGL1.red
-  iconFolder: res:/dx9/model/gates/warpgates/wgl1/icons
-  sofFactionName: genericbase
+  iconFolder: res:/dx9/model/gates/warpgates/wgl01/icons
+  sofFactionName: genericmetal
+  sofHullName: wgl01
   sofRaceName: generic
 3480:
   description: ORE Wreck (Orca Hull)
@@ -5526,25 +5574,25 @@
   description: Structure Debris 1 Static (non-spinning)
   iconFolder: res:/dx9/model/structure/universal/debris/ud1/icons
   sofFactionName: debris
-  sofHullName: ud1
+  sofHullName: ud1_static
   sofRaceName: generic
 3705:
   description: Structure Debris 2 Static (non-spinning)
   iconFolder: res:/dx9/model/structure/universal/debris/ud2/icons
   sofFactionName: debris
-  sofHullName: ud2
+  sofHullName: ud2_static
   sofRaceName: generic
 3706:
   description: Structure Debris 3 - Non Spinning Version
   iconFolder: res:/dx9/model/structure/universal/debris/ud3/icons
   sofFactionName: debris
-  sofHullName: ud3
+  sofHullName: ud3_static
   sofRaceName: generic
 3707:
   description: Structure Debris 4 Static (non-spinning)
   iconFolder: res:/dx9/model/structure/universal/debris/ud4/icons
   sofFactionName: debris
-  sofHullName: ud4
+  sofHullName: ud4_static
   sofRaceName: generic
 3708:
   description: Sun Black Hole
@@ -17145,6 +17193,12 @@
   sofFactionName: darkangel
   sofHullName: angf1_t1
   sofRaceName: angel
+22122:
+  description: Heavy Mid-Poly Vargur
+  iconFolder: res:/dx9/model/ship/minmatar/battleship/mb2/testcase/icons
+  sofFactionName: brutor
+  sofHullName: mb2_t2a_heavy
+  sofRaceName: minmatar
 22124:
   description: Abyssal spacetear
   graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_01a.red
@@ -17547,6 +17601,18 @@
 22214:
   description: Abyssal Space Nebula Cubemap 6C
   graphicFile: res:/dx9/scene/abyssal/ad06_C_cube.red
+22215:
+  description: Sentry Serpentis Railgun and Blaster Small Medium
+  iconFolder: res:/dx9/model/structure/gallente/sentry/l/icons
+  sofFactionName: serpentis
+  sofHullName: gsl01_t1
+  sofRaceName: gallente
+22216:
+  description: Sentry Angel Autocannon and Artillery Small Medium
+  iconFolder: res:/dx9/model/structure/minmatar/sentry/l/icons
+  sofFactionName: angelbase
+  sofHullName: msl01_t1
+  sofRaceName: angel
 22217:
   description: Triglavian Generator
   iconFolder: res:/dx9/model/structure/triglavian/generator/tggen01/icons

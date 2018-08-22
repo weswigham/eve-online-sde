@@ -39,16 +39,6 @@
     iconID: 1400
     published: false
     stackable: true
--   attributeID: 264
-    attributeName: shieldCharge
-    categoryID: 9
-    defaultValue: 0.0
-    description: DO NOT MESS WITH. Helper attribute for entities, stands in for the
-        shield charge.
-    highIsGood: true
-    iconID: 0
-    published: false
-    stackable: true
 -   attributeID: 63
     attributeName: accuracyBonus
     categoryID: 9
@@ -15385,17 +15375,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 266
-    attributeName: armorDamage
-    categoryID: 9
-    defaultValue: 0.0
-    description: DO NOT MESS WITH. The amount of damage done to the entities armor
-        hit points.
-    displayName: Armor Damage
-    highIsGood: true
-    iconID: 0
-    published: true
-    stackable: true
 -   attributeID: 2047
     attributeName: entitySuperWeaponFallOff
     categoryID: 33
@@ -17358,18 +17337,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 2422
-    attributeName: boosterLastInjectionDatetime
-    categoryID: 7
-    defaultValue: 0.0
-    description: The last allowed injection date.  After this date the booster can
-        no longer be consumed.
-    displayName: Expiry Date
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 143
 -   attributeID: 2263
     attributeName: doomsdayDamageRadius
     categoryID: 39
@@ -23100,17 +23067,6 @@
     published: true
     stackable: true
     unitID: 1
--   attributeID: 3
-    attributeName: damage
-    categoryID: 7
-    defaultValue: 0.0
-    description: current damage dealt to module
-    displayName: Item Damage
-    highIsGood: false
-    iconID: 1386
-    published: true
-    stackable: true
-    unitID: 113
 -   attributeID: 2772
     attributeName: conversionRigHPCapBonus
     categoryID: 37
@@ -23307,6 +23263,38 @@
     highIsGood: true
     published: false
     stackable: true
+-   attributeID: 264
+    attributeName: shieldCharge
+    categoryID: 9
+    defaultValue: 0.0
+    description: "DO NOT MESS WITH. Helper attribute for entities, stands in for the
+        shield charge.\r\nThe amount of starting shield capacity of the NPC."
+    highIsGood: true
+    iconID: 0
+    published: false
+    stackable: true
+-   attributeID: 3
+    attributeName: damage
+    categoryID: 7
+    defaultValue: 0.0
+    description: current structure damage dealt to module
+    displayName: Item Damage
+    highIsGood: false
+    iconID: 1386
+    published: true
+    stackable: true
+    unitID: 113
+-   attributeID: 266
+    attributeName: armorDamage
+    categoryID: 9
+    defaultValue: 0.0
+    description: DO NOT MESS WITH. The amount of damage done to the entities armor
+        hit points. Starting armor damage.
+    displayName: Armor Damage
+    highIsGood: true
+    iconID: 0
+    published: true
+    stackable: true
 -   attributeID: 1133
     attributeName: entityMaxVelocitySignatureRadiusMultiplier
     categoryID: 17
@@ -23328,3 +23316,25 @@
     published: true
     stackable: true
     unitID: 105
+-   attributeID: 2422
+    attributeName: boosterLastInjectionDatetime
+    categoryID: 7
+    defaultValue: 0.0
+    description: The last allowed injection date.  After this date the booster can
+        no longer be consumed. Formatted YYYY.MM.DD HH:MM:SS
+    displayName: Expiry Date
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 143
+-   attributeID: 2787
+    attributeName: monumentAllianceID
+    categoryID: 7
+    defaultValue: 0.0
+    description: This is used to connect the alliance logos to the monuments that
+        were placed as part of the outpost and conquerable station phaseout process
+        in 2018
+    highIsGood: true
+    published: false
+    stackable: true

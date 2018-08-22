@@ -24111,23 +24111,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 395
-    effectName: evasiveManeuveringAgilityBonusPostPercentAgilityShip
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 2251
-    preExpression: 2250
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 396
     effectName: energyGridUpgradesCpuNeedBonusPostPercentCpuLocationShipModulesRequiringEnergyGridUpgrades
     electronicChance: false
@@ -37340,23 +37323,6 @@
     rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
-    displayName: AgilityMultiplierEffectPassive
-    effectCategory: 0
-    effectID: 3726
-    effectName: agilityMultiplierEffectPassive
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 3286
-    preExpression: 3285
-    propulsionChance: false
-    published: true
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
     displayName: Max Velocity Bonus
     effectCategory: 0
     effectID: 3727
@@ -47788,27 +47754,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: Armor Repairer Penalty
-    effectCategory: 0
-    effectID: 2736
-    effectName: boosterArmorRepairAmountPenalty
-    electronicChance: false
-    fittingUsageChanceAttributeID: 1091
-    guid: None
-    iconID: 80
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: shipID\n  func: LocationGroupModifier\n  groupID: 62\n
-        \ modifiedAttributeID: 84\n  modifyingAttributeID: 1142\n  operator: 6\n"
-    postExpression: 9826
-    preExpression: 9825
-    propulsionChance: false
-    published: true
-    rangeChance: false
-    sfxName: None
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: ''
@@ -62860,26 +62805,6 @@
     displayName: ''
     durationAttributeID: 73
     effectCategory: 2
-    effectID: 6185
-    effectName: shipModuleRemoteHullRepairer
-    electronicChance: false
-    falloffAttributeID: 2044
-    guid: effects.RemoteArmourRepair
-    isAssistance: true
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 2
     effectID: 6689
     effectName: npcEntityRemoteHullRepairer
     electronicChance: false
@@ -70378,4 +70303,83 @@
     preExpression: 19545
     propulsionChance: false
     published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 395
+    effectName: evasiveManeuveringAgilityBonusPostPercentAgilityShip
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        70\n  modifyingAttributeID: 151\n  operator: 6\n"
+    postExpression: 2251
+    preExpression: 2250
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: AgilityMultiplierEffectPassive
+    effectCategory: 0
+    effectID: 3726
+    effectName: agilityMultiplierEffectPassive
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        70\n  modifyingAttributeID: 151\n  operator: 6\n"
+    postExpression: 3286
+    preExpression: 3285
+    propulsionChance: false
+    published: true
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: Armor Repairer Penalty
+    effectCategory: 0
+    effectID: 2736
+    effectName: boosterArmorRepairAmountPenalty
+    electronicChance: false
+    fittingUsageChanceAttributeID: 1091
+    iconID: 80
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID:
+        62\r\n  modifiedAttributeID: 84\r\n  modifyingAttributeID: 1142\r\n  operator:
+        6\r\n\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 1199\r\n
+        \ modifiedAttributeID: 84\r\n  modifyingAttributeID: 1142\r\n  operator: 6"
+    postExpression: 9826
+    preExpression: 9825
+    propulsionChance: false
+    published: true
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 2
+    effectID: 6185
+    effectName: shipModuleRemoteHullRepairer
+    electronicChance: false
+    falloffAttributeID: 2044
+    guid: effects.RemoteArmourRepair
+    isAssistance: true
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
     rangeChance: false
