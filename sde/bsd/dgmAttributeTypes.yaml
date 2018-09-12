@@ -10499,17 +10499,6 @@
     published: true
     stackable: true
     unitID: 9
--   attributeID: 330
-    attributeName: boosterDuration
-    categoryID: 7
-    defaultValue: 0.0
-    description: Duration of booster, after this duration the booster is destroyed
-    displayName: Booster Duration
-    highIsGood: true
-    iconID: 1392
-    published: true
-    stackable: true
-    unitID: 101
 -   attributeID: 1580
     attributeName: maxDefenseBunkers
     categoryID: 7
@@ -23338,3 +23327,14 @@
     highIsGood: true
     published: false
     stackable: true
+-   attributeID: 330
+    attributeName: boosterDuration
+    categoryID: 7
+    defaultValue: 0.0
+    description: Duration of booster, after this duration the booster is destroyed
+    displayName: Booster Duration
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101

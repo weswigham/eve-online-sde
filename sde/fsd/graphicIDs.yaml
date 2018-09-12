@@ -3713,53 +3713,63 @@
   sofRaceName: rogue
 2583:
   description: DroneWall_Bunker
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_Bunker.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_bunker
   sofRaceName: rogue
 2584:
   description: DroneWall_Elevator
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_Elevator.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_elevator
   sofRaceName: rogue
 2585:
   description: DroneWall_Junction
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_Junction.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_junction
   sofRaceName: rogue
 2586:
   description: DroneWall_Lookout
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_Lookout.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_lookout
   sofRaceName: rogue
 2587:
   description: DroneWall_MBattery
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_MissileBattery.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_missilebattery
   sofRaceName: rogue
 2588:
   description: DroneWall_X
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_StraightX.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_wallx
   sofRaceName: rogue
 2589:
   description: DroneWall_XZ
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_StraightXZ.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_wallxz
   sofRaceName: rogue
 2590:
   description: DroneWall_Z
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_StraightZ.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_wallz
   sofRaceName: rogue
 2591:
   description: DroneWall_ZX
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_StraightZX.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_wallzx
   sofRaceName: rogue
 2592:
   description: DroneWallSentry
-  graphicFile: res:/dx9/model/Structure/Drone/Defense/Wall_Sentry.red
   iconFolder: res:/dx9/model/structure/drone/defense/icons
+  sofFactionName: roguebase
+  sofHullName: dd_sentry
   sofRaceName: rogue
 2593:
   description: Deployable Starbase Amarr Control Tower Large
@@ -3870,10 +3880,10 @@
   sofHullName: uaf01_t1
   sofRaceName: generic
 2709:
-  description: Caldari Industrial Crane (Tayra Hull)
-  iconFolder: res:/dx9/model/ship/caldari/industrial/ci2/icons
+  description: Caldari Industrial Crane
+  iconFolder: res:/dx9/model/ship/caldari/industrial/ci1/icons
   sofFactionName: kaalakiota
-  sofHullName: ci2_t2
+  sofHullName: ci1_t2
   sofRaceName: caldari
 2710:
   description: Amarr Industrial Khanid Impel (Bestower Hull)
@@ -4484,10 +4494,10 @@
   graphicFile: res:/fisfx/generic/warp_disruption/warp_disruption_probe.red
   iconFolder: res:/fisfx/generic/warp_disruption/icons
 3020:
-  description: Caldari Industrial LaiDai Bustard (Badger Hull)
-  iconFolder: res:/dx9/model/ship/caldari/industrial/ci3/icons
+  description: Caldari Industrial LaiDai Bustard
+  iconFolder: res:/dx9/model/ship/caldari/industrial/ci2/icons
   sofFactionName: laidai
-  sofHullName: ci3_t2
+  sofHullName: ci2_t2
   sofRaceName: caldari
 3075:
   description: Caldari Freighter Wreck 1 (Charon Hull)
@@ -5100,8 +5110,9 @@
 3534:
   description: Defenses Talocan Generic Linkage Structure 1 - Talocan Generic Linkage
     Structure 1
-  graphicFile: res:/dx9/model/Structure/Talocan/Defense/TA_LinkageStructure/TA_Ls1/TA_Ls1.red
-  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls1/icons
+  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls01/icons
+  sofFactionName: talocanbase
+  sofHullName: ta_ls01
   sofRaceName: talocan
 3536:
   description: Sleeper Cruiser 1
@@ -5110,15 +5121,7 @@
   sofHullName: slc1_t1
   sofRaceName: sleeper
 3537:
-  description: Arena_GA_MainStructure
-  graphicFile: res:/dx9/model/Structure/Gallente/Arena/Arena_GA_Mainstructures/Arena_GA_Mainstructure.red
-  iconFolder: res:/dx9/model/structure/gallente/arena/arena_ga_mainstructures/icons
-  sofRaceName: gallente
-3538:
-  description: Arena_CA_MainStructure
-  graphicFile: res:/dx9/model/Structure/Caldari/Arena/Arena_CA_Mainstructures/Arena_CA_Mainstructure.red
-  iconFolder: res:/dx9/model/structure/caldari/arena/arena_ca_mainstructures/icons
-  sofRaceName: caldari
+  description: Placeholder GID for old Arena Structures
 3559:
   description: Sleeper Battleship 2
   iconFolder: res:/dx9/model/ship/sleeper/battleship/slb2/icons
@@ -5151,8 +5154,9 @@
   sofRaceName: talocan
 3569:
   description: Talocan Tower Structure 1 - Talocan Tower Structure 1
-  graphicFile: res:/dx9/model/Structure/Talocan/TowerStructure/TA_Ts1/TA_Ts1.red
-  iconFolder: res:/dx9/model/structure/talocan/towerstructure/ta_ts1/icons
+  iconFolder: res:/dx9/model/structure/talocan/towerstructure/ta_ts01/icons
+  sofFactionName: talocanbase
+  sofHullName: ta_ts01
   sofRaceName: talocan
 3570:
   description: Structure Talocan Battlestation 2 V2
@@ -5192,59 +5196,10 @@
   sofRaceName: generic
 3585:
   description: Sleeper Drone Bunker 1 - Sleeper Drone Bunker 1
-  graphicFile: res:/dx9/model/Structure/Sleeper/Defense/SL_DroneBunker/SL_Db1/SL_Db1.red
-  iconFolder: res:/dx9/model/structure/sleeper/defense/sl_dronebunker/sl_db1/icons
+  iconFolder: res:/dx9/model/structure/sleeper/defense/sl_dronebunker/sl_db01/icons
+  sofFactionName: sleeperbase
+  sofHullName: sl_db01
   sofRaceName: sleeper
-3586:
-  description: Arena_GA_SmallStructure
-  graphicFile: res:/dx9/model/Structure/Gallente/Arena/Arena_GA_Mainstructures/Arena_GA_Smallstructures.red
-  iconFolder: res:/dx9/model/structure/gallente/arena/arena_ga_mainstructures/icons
-  sofRaceName: gallente
-3587:
-  description: Arena_CA_SmallStructures
-  graphicFile: res:/dx9/model/Structure/Caldari/Arena/Arena_CA_Mainstructures/Arena_CA_Smallstructures.red
-  iconFolder: res:/dx9/model/structure/caldari/arena/arena_ca_mainstructures/icons
-  sofRaceName: caldari
-3590:
-  description: Arena_CA_CenterPiece
-  graphicFile: res:/dx9/model/Structure/Caldari/Arena/Arena_CA_CenterPiece/Arena_CA_CenterPiece.red
-  iconFolder: res:/dx9/model/structure/caldari/arena/arena_ca_centerpiece/icons
-  sofRaceName: caldari
-3592:
-  description: Arena_GA_CenterPiece
-  graphicFile: res:/dx9/model/Structure/Gallente/Arena/Arena_GA_CenterPiece/Arena_GA_CenterPiece.red
-  iconFolder: res:/dx9/model/structure/gallente/arena/arena_ga_centerpiece/icons
-  sofRaceName: gallente
-3594:
-  description: Arena minmatar center
-  graphicFile: res:/dx9/model/Structure/Minmatar/Arena/Arena_MI_CenterPiece/Arena_MI_CenterPiece.red
-  iconFolder: res:/dx9/model/structure/minmatar/arena/arena_mi_centerpiece/icons
-  sofRaceName: minmatar
-3595:
-  description: Arena Amarr Center
-  graphicFile: res:/dx9/model/Structure/Amarr/Arena/Arena_Amarr_Center/Arena_Amarr_Center.red
-  iconFolder: res:/dx9/model/structure/amarr/arena/arena_amarr_center/icons
-  sofRaceName: amarr
-3596:
-  description: Arena Amarr Mainstructure
-  graphicFile: res:/dx9/model/Structure/Amarr/Arena/Arena_Amarr_MainStructure/Arena_Amarr_MainStructure.red
-  iconFolder: res:/dx9/model/structure/amarr/arena/arena_amarr_mainstructure/icons
-  sofRaceName: amarr
-3597:
-  description: Arena MI Mainstructure
-  graphicFile: res:/dx9/model/Structure/Minmatar/Arena/Arena_MI_Mainstructures/Arena_MI_Mainstructure.red
-  iconFolder: res:/dx9/model/structure/minmatar/arena/arena_mi_mainstructures/icons
-  sofRaceName: minmatar
-3599:
-  description: Arena Ammar small structure
-  graphicFile: res:/dx9/model/Structure/Amarr/Arena/Arena_Amarr_MainStructure/Amarr_Small_Structure.red
-  iconFolder: res:/dx9/model/structure/amarr/arena/arena_amarr_mainstructure/icons
-  sofRaceName: amarr
-3600:
-  description: Arena MI Small Structure
-  graphicFile: res:/dx9/model/Structure/Minmatar/Arena/Arena_MI_Mainstructures/Arena_MI_Smallstructures.red
-  iconFolder: res:/dx9/model/structure/minmatar/arena/arena_mi_mainstructures/icons
-  sofRaceName: minmatar
 3601:
   description: Caldari StrategicCruiser Tengu  - Subsystem 1 Variation 1
   sofFactionName: caldaribase
@@ -5567,8 +5522,9 @@
   sofRaceName: minmatar
 3702:
   description: Talocan Outpust Strut Optimized - Talocan Outpust Strut Optimized
-  graphicFile: res:/dx9/model/Structure/Talocan/Defense/TA_LinkageStructure/TA_Ls2/TA_Ls2.red
-  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls2/icons
+  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls02/icons
+  sofFactionName: talocanbase
+  sofHullName: ta_ls02
   sofRaceName: talocan
 3704:
   description: Structure Debris 1 Static (non-spinning)
@@ -10753,6 +10709,9 @@
   sofFactionName: sanctuary
   sofHullName: soec1_t1
   sofRaceName: soe
+20413:
+  description: This scene is used for 3d preview background of generic ships
+  graphicFile: res:/dx9/Scene/preview/other.red
 20436:
   description: Deployable Larceny Unit Small Rote
   iconFolder: res:/dx9/model/deployables/mobile/larcenyunit/mlu01/icons
@@ -12596,9 +12555,7 @@
   graphicFile: res:/dx9/model/Celestial/Wormhole/Wormhole_Violent.red
   iconFolder: res:/dx9/model/celestial/wormhole/icons
 20957:
-  description: Mysterious Unidentified Structure
-  graphicFile: res:/dx9/model/outposts/jove/jo1/jo1_t1.red
-  iconFolder: res:/dx9/model/outposts/jove/jo1/icons
+  description: Placeholder GID for Jove Outpost
 20964:
   description: Unknown Cloud Formation for Jove Outpost
   graphicFile: res:/dx9/model/worldobject/cloud/UnknownCloud.red
@@ -12617,13 +12574,13 @@
   sofRaceName: soe
 20969:
   description: Talocan Structure Defence Cloaked
-  graphicFile: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls1/cloaked/ta_ls1_cloaked.red
-  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls1/cloaked/icons
+  graphicFile: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls01/cloaked/ta_ls01_cloaked.red
+  iconFolder: res:/dx9/model/structure/talocan/defense/ta_linkagestructure/ta_ls01/cloaked/icons
   sofRaceName: talocan
 20970:
   description: Sleeper Structure Engineering Station Cloaked
-  graphicFile: res:/dx9/model/structure/sleeper/engineeringstation/sl_es1/cloaked/sl_es1_cloaked.red
-  iconFolder: res:/dx9/model/structure/sleeper/engineeringstation/sl_es1/cloaked/icons
+  graphicFile: res:/dx9/model/structure/sleeper/engineeringstation/sl_es01/cloaked/sl_es01_cloaked.red
+  iconFolder: res:/dx9/model/structure/sleeper/engineeringstation/sl_es01/cloaked/icons
   sofRaceName: sleeper
 20971:
   description: Amarr Dreadnought Sarum (Revelation hull)
@@ -17193,12 +17150,6 @@
   sofFactionName: darkangel
   sofHullName: angf1_t1
   sofRaceName: angel
-22122:
-  description: Heavy Mid-Poly Vargur
-  iconFolder: res:/dx9/model/ship/minmatar/battleship/mb2/testcase/icons
-  sofFactionName: brutor
-  sofHullName: mb2_t2a_heavy
-  sofRaceName: minmatar
 22124:
   description: Abyssal spacetear
   graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_01a.red
@@ -17628,3 +17579,39 @@
 22219:
   description: Abyssal ReEntry Splash
   graphicFile: res:/fisfx/travel/abyssal/Abyssal_reentrysplash_01a.red
+22223:
+  description: Amarr Planet Surface - Far
+  iconFolder: res:/dx9/model/celestial/environment/surface/amarr/amarrstatues01/far/asurface1_f_01/icons
+  sofFactionName: amarrbase
+  sofHullName: asurface1_f_01
+  sofRaceName: amarr
+22224:
+  description: Amarr Planet Surface - Close
+  iconFolder: res:/dx9/model/celestial/environment/surface/amarr/amarrstatues01/close/asurface1_c_01/icons
+  sofFactionName: amarrbase
+  sofHullName: asurface_c_01
+  sofRaceName: amarr
+22225:
+  description: Caldari Station - CEVE Penalty Dungeon
+  iconFolder: res:/dx9/model/station/caldari/cs4/icons
+  sofFactionName: army
+  sofHullName: cs4
+  sofRaceName: concord
+22226:
+  description: Caldari Industrial III T1
+  iconFolder: res:/dx9/model/ship/caldari/industrial/ci3/icons
+  sofFactionName: caldaribase
+  sofHullName: ci3_t1
+  sofRaceName: caldari
+22227:
+  description: Caldari Industrial III T2
+  iconFolder: res:/dx9/model/ship/caldari/industrial/ci3/icons
+  sofFactionName: caldaribase
+  sofHullName: ci3_t2
+  sofRaceName: caldari
+22228:
+  description: CEVE Penalty Venture
+  iconFolder: res:/dx9/model/ship/ore/frigate/oref1/icons
+  sofFactionName: army
+  sofHullName: oref1_t1
+  sofRaceName: concord
