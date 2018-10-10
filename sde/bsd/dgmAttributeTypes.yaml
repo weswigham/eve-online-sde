@@ -11044,17 +11044,6 @@
     published: true
     stackable: true
     unitID: 139
--   attributeID: 1154
-    attributeName: upgradeSlotsLeft
-    categoryID: 7
-    defaultValue: 0.0
-    description: How many upgrades can by fitted to this ship.
-    displayName: Upgrade Hardpoints
-    highIsGood: true
-    iconID: 3266
-    published: true
-    stackable: true
-    unitID: 141
 -   attributeID: 1074
     attributeName: disallowInEmpireSpace
     categoryID: 9
@@ -16043,16 +16032,6 @@
     published: false
     stackable: true
     unitID: 105
--   attributeID: 2267
-    attributeName: energyWarfareResistanceBonus
-    categoryID: 36
-    defaultValue: 0.0
-    description: ''
-    displayName: Capacitor Warfare Resistance Bonus
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 105
 -   attributeID: 2266
     attributeName: speedFactorFloor
     categoryID: 28
@@ -17470,7 +17449,7 @@
     categoryID: 39
     defaultValue: 0.0
     description: Length of No Jump Or Cloak time.
-    displayName: Jumping and Cloaking restriction duration
+    displayName: Jump/Dock/Tether/Cloak restriction duration
     highIsGood: true
     published: true
     stackable: true
@@ -23338,3 +23317,73 @@
     published: true
     stackable: true
     unitID: 101
+-   attributeID: 1154
+    attributeName: upgradeSlotsLeft
+    categoryID: 1
+    defaultValue: 0.0
+    description: How many rigs can by fitted to this ship.
+    displayName: Rig Slots
+    highIsGood: true
+    iconID: 3266
+    published: true
+    stackable: true
+    unitID: 122
+-   attributeID: 2788
+    attributeName: panicDuration
+    categoryID: 39
+    defaultValue: 0.0
+    description: ''
+    displayName: Duration
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101
+-   attributeID: 2789
+    attributeName: shipRoleBonusWarpSpeed
+    categoryID: 37
+    defaultValue: 0.0
+    description: ''
+    displayName: Warp Speed and Acceleration Bonus
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 2790
+    attributeName: cargoDeliveryRange
+    categoryID: 7
+    defaultValue: 0.0
+    description: Distance which players can deposit cargo into a structure
+    displayName: Maximum cargo deposit range
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 1
+-   attributeID: 2791
+    attributeName: cannotBeUnfit
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Cannot be Unfit
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 137
+-   attributeID: 2792
+    attributeName: preFitServiceSlot0
+    categoryID: 4
+    defaultValue: 0.0
+    description: Module type ID to pre-fit into service slot 0
+    highIsGood: true
+    published: false
+    stackable: true
+-   attributeID: 2267
+    attributeName: energyWarfareResistanceBonus
+    categoryID: 36
+    defaultValue: 0.0
+    description: ''
+    displayName: Capacitor Warfare Resistance Bonus
+    highIsGood: false
+    published: true
+    stackable: true
+    unitID: 105

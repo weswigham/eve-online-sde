@@ -23529,23 +23529,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Boost of shieldCapacityBonus by PreMul of skillLevel
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 280
-    effectName: shieldManagementSkillBoostShieldCapacityBonus
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 1738
-    preExpression: 1737
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   description: Boost of rechargeratebonus by PreMul of skillLevel
     disallowAutoRepeat: false
     displayName: ''
@@ -26283,23 +26266,6 @@
     isWarpSafe: false
     postExpression: 3408
     preExpression: 3935
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: WarpSkillSpeed
-    effectCategory: 0
-    effectID: 856
-    effectName: warpSkillSpeed
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 3950
-    preExpression: 3949
     propulsionChance: false
     published: false
     rangeChance: false
@@ -53852,23 +53818,6 @@
     rangeChance: false
 -   disallowAutoRepeat: false
     displayName: ''
-    effectCategory: 0
-    effectID: 6562
-    effectName: skillBonusSupportFightersShield
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
-        263\r\n  modifyingAttributeID: 68\r\n  operator: 6\r\n  skillTypeID: 40573"
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
     effectCategory: 5
     effectID: 5757
     effectName: overloadSelfSensorModuleBonus
@@ -57741,25 +57690,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 1
-    effectID: 6719
-    effectName: moduleBonusIndustrialInvulnerability
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeAttributeID: 54
-    rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: None
@@ -60573,25 +60503,6 @@
     isWarpSafe: false
     modifierInfo: "- domain: structureID\n  func: ItemModifier\n  modifiedAttributeID:
         2538\n  modifyingAttributeID: 2594\n  operator: 6\n"
-    postExpression: 1
-    preExpression: 1
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 6807
-    effectName: invulnerabilityCoreDurationBonus
-    electronicChance: false
-    guid: ''
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        2535\r\n  modifyingAttributeID: 66\r\n  operator: 6\r\n  skillTypeID: 44067\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        73\r\n  modifyingAttributeID: 66\r\n  operator: 6\r\n  skillTypeID: 44067"
     postExpression: 1
     preExpression: 1
     propulsionChance: false
@@ -70436,6 +70347,323 @@
     isWarpSafe: false
     postExpression: 19559
     preExpression: 19558
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Boost of shieldCapacityBonus by PreMul of skillLevel
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 280
+    effectName: shieldManagementSkillBoostShieldCapacityBonus
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: itemID\n  func: ItemModifier\n  modifiedAttributeID:
+        337\n  modifyingAttributeID: 280\n  operator: 0\n"
+    postExpression: 1738
+    preExpression: 1737
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6562
+    effectName: skillBonusSupportFightersShield
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        263\n  modifyingAttributeID: 337\n  operator: 6\n  skillTypeID: 40573\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 2788
+    effectCategory: 1
+    effectID: 6719
+    effectName: moduleBonusIndustrialInvulnerability
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 6807
+    effectName: invulnerabilityCoreDurationBonus
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
+        2535\r\n  modifyingAttributeID: 66\r\n  operator: 6\r\n  skillTypeID: 44067\r\n-
+        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
+        2788\r\n  modifyingAttributeID: 66\r\n  operator: 6\r\n  skillTypeID: 44067"
+    postExpression: 1
+    preExpression: 1
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: WarpSkillSpeed
+    effectCategory: 0
+    effectID: 856
+    effectName: warpSkillSpeed
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        600\n  modifyingAttributeID: 624\n  operator: 6\n"
+    postExpression: 3950
+    preExpression: 3949
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7117
+    effectName: roleBonusWarpSpeed
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        600\r\n  modifyingAttributeID: 2789\r\n  operator: 6"
+    postExpression: 3950
+    preExpression: 3949
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7118
+    effectName: eliteBonusCovertOps3PCTdamagePerCycle
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19564
+    preExpression: 19563
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7119
+    effectName: eliteBonusReconShip3PCTdamagePerCycle
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19568
+    preExpression: 19567
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7120
+    effectName: structureCynoJammerOnline
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7132
+    effectName: selfMassBonusPercentage
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 11225
+    preExpression: 11224
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7133
+    effectName: selfMaxVelocityBonusPercentage
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19604
+    preExpression: 19603
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7134
+    effectName: selfwarpScrambleAdd
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 2947
+    preExpression: 2946
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7135
+    effectName: massEntanglerEffect1
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19606
+    preExpression: 19605
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7136
+    effectName: massEntanglerEffect2
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19608
+    preExpression: 19607
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7137
+    effectName: selfDeactivateMWD
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19612
+    preExpression: 19611
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7138
+    effectName: massEntanglerEffect3
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 19614
+    preExpression: 19613
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7139
+    effectName: selfSpeedBoostFactorBonus
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19619
+    preExpression: 19617
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7140
+    effectName: selfSpeedFactorBonus
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19620
+    preExpression: 19618
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7141
+    effectName: massEntanglerEffect4
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19622
+    preExpression: 19621
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 1
+    effectID: 7142
+    effectName: massEntanglerEffect5
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19624
+    preExpression: 19623
     propulsionChance: false
     published: false
     rangeChance: false

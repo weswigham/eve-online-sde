@@ -9122,7 +9122,7 @@
         ja: サイバーXスペシャル
         ru: Киберимплантат спецназначения
         zh: 脑控X特殊增强
-    published: false
+    published: true
     useBasePrice: true
 784:
     anchorable: false
@@ -12060,7 +12060,7 @@
         fr: Planète solide - Ressource brute
         ja: 惑星（固体）
         ru: Планетарная порода — сырьё
-        zh: 行星固体
+        zh: 行星固体 - 原始资源
     published: true
     useBasePrice: false
 1033:
@@ -12074,7 +12074,7 @@
         fr: Planète liquide-gaz - Ressource brute
         ja: 惑星（液体ガス）
         ru: Планетарный жидкий газ — сырьё
-        zh: 行星液体-气体
+        zh: 行星液体-气体 - 原始资源
     published: true
     useBasePrice: false
 1034:
@@ -12088,7 +12088,7 @@
         fr: Marchandises raffinées - Tier 2
         ja: 2次加工品
         ru: Очищенные товары — класс 2
-        zh: 资源物品精炼成品
+        zh: 加工过的资源物品 - 第二等级
     published: true
     useBasePrice: true
 1035:
@@ -12102,7 +12102,7 @@
         fr: Planète organique - Ressource brute
         ja: 惑星（有機）
         ru: Планетарная органика — сырьё
-        zh: 行星有机体
+        zh: 行星有机物 - 原始资源
     published: true
     useBasePrice: false
 1036:
@@ -12130,7 +12130,7 @@
         fr: Marchandises spécialisées - Tier 3
         ja: 3次加工品
         ru: Специализированные товары — класс 3
-        zh: 特种资源物品
+        zh: 特种资源物品 - 第三等级
     published: true
     useBasePrice: true
 1041:
@@ -12144,7 +12144,7 @@
         fr: Marchandises avancées - Tier 4
         ja: 最終加工品
         ru: Продвинутые товары — класс 4
-        zh: 高级资源物品
+        zh: 高级资源物品 - 第四等级
     published: true
     useBasePrice: false
 1042:
@@ -12158,7 +12158,7 @@
         fr: Marchandises de base - Tier 1
         ja: 1次加工品
         ru: Базовые товары — класс 1
-        zh: 基本资源物品
+        zh: 基础资源物品 - 第一等级
     published: true
     useBasePrice: true
 1045:
@@ -14425,6 +14425,14 @@
         zh: 流浪者战列舰
     published: true
     useBasePrice: false
+1311:
+    anchorable: false
+    anchored: false
+    categoryID: 5
+    fittableNonSingleton: false
+    name: {}
+    published: true
+    useBasePrice: false
 1312:
     anchorable: false
     anchored: false
@@ -14857,11 +14865,11 @@
     categoryID: 65
     fittableNonSingleton: false
     name:
-        de: Sprungtor
-        en: Stargate
-        fr: Portail stellaire
+        de: Navigationsstrukturen
+        en: Navigation Structures
+        fr: Structures de navigation
         ja: スターゲート
-        ru: Гиперворота
+        ru: Навигационные сооружения
         zh: 星门
     published: false
     useBasePrice: false
@@ -17298,7 +17306,7 @@
     fittableNonSingleton: false
     name:
         de: Tutorial Seekers
-        en: Tutorial Seekers
+        en: Seeker Scouts
         fr: Seekers du didacticiel
         ja: チュートリアルシーカー
         ru: Учебные искатели
@@ -19280,7 +19288,7 @@
         en: Mutaplasmids
         fr: Mutaplasmides
         ru: Мутаплазмиды
-        zh: Kalli_PLACEHOLDER
+        zh: 突变质体
     published: true
     useBasePrice: false
 1966:
@@ -19340,7 +19348,7 @@
         en: Abyssal Hazards
         fr: Dangers abyssaux
         ru: Опасности бездны
-        zh: 局部效果光束
+        zh: 深渊危险效果
     published: false
     useBasePrice: false
 1972:
@@ -19392,6 +19400,7 @@
         en: Non-Interactable Object
         fr: Objet non interactif
         ru: Неинтерактивный объект
+        zh: 不可交互物品
     published: false
     useBasePrice: false
 1976:
@@ -19443,6 +19452,7 @@
         en: Abyssal Filaments
         fr: Filaments abyssaux
         ru: Нити бездны
+        zh: 深渊纤维
     published: true
     useBasePrice: false
 1980:
@@ -19455,6 +19465,7 @@
         en: Non-Scalable Clouds
         fr: Nuages non-extensibles
         ru: Немасштабируемые облака
+        zh: 不可测量气云
     published: false
     useBasePrice: false
 1981:
@@ -19467,6 +19478,7 @@
         en: Triglavian Support Pylons
         fr: Pylônes de soutien triglavian
         ru: Пилоны поддержки Триглава
+        zh: 特格拉后勤塔
     published: false
     useBasePrice: false
 1982:
@@ -19479,6 +19491,7 @@
         en: Abyssal Spaceship Entities
         fr: Entités-vaisseaux abyssales
         ru: Корабли бездны
+        zh: 深渊舰船实体
     published: false
     useBasePrice: false
 1983:
@@ -19491,6 +19504,7 @@
         en: Abyssal Environment
         fr: Environnement abyssal
         ru: Пространство бездны
+        zh: 深渊环境
     published: false
     useBasePrice: false
 1984:
@@ -19516,6 +19530,7 @@
         en: Precursor Weapon
         fr: Arme de précursion
         ru: Оружие Предтечей
+        zh: 先驱者武器
     published: true
     useBasePrice: false
 1987:
@@ -19528,6 +19543,7 @@
         en: Exotic Plasma Charge
         fr: Charge à plasma exotique
         ru: Заряд экзотической плазмы
+        zh: 异种等离子弹药
     published: true
     useBasePrice: false
 1988:
@@ -19540,6 +19556,7 @@
         en: Entropic Radiation Sink
         fr: Dissipateur de radiations entropiques
         ru: Поглотитель энтропического излучения
+        zh: 熵辐射槽
     published: true
     useBasePrice: false
 1989:
@@ -19552,6 +19569,7 @@
         en: Advanced Exotic Plasma Charge
         fr: Charge à plasma exotique avancée
         ru: Улучшенный заряд экзотической плазмы
+        zh: 高级异种等离子弹药
     published: true
     useBasePrice: false
 1990:
@@ -19564,6 +19582,7 @@
         en: Precursor Weapon Blueprint
         fr: Plan de construction Arme de précursion
         ru: Чертёж оружия Предтечей
+        zh: 先驱者武器蓝图
     published: true
     useBasePrice: true
 1991:
@@ -19576,6 +19595,7 @@
         en: Abyssal Trace
         fr: Trace abyssale
         ru: След бездны
+        zh: 深渊踪迹
     published: false
     useBasePrice: false
 1992:
@@ -19588,6 +19608,7 @@
         en: Entropic Radiation Sink Blueprint
         fr: Plan de construction Dissipateur de radiations entropiques
         ru: Чертёж поглотителя энтропического излучения
+        zh: 熵辐射槽蓝图
     published: true
     useBasePrice: true
 1993:
@@ -19600,6 +19621,7 @@
         en: Exotic Plasma Charge Blueprint
         fr: Plan de construction Charge à plasma exotique
         ru: Чертёж заряда экзотической плазмы
+        zh: 异种等离子弹药蓝图
     published: true
     useBasePrice: true
 1994:
@@ -19612,6 +19634,7 @@
         en: Advanced Exotic Plasma Charge Blueprint
         fr: Plan de construction Charge à plasma exotique avancée
         ru: Чертёж улучшенного заряда экзотической плазмы
+        zh: 高级异种等离子弹药蓝图
     published: true
     useBasePrice: true
 1995:
@@ -19624,6 +19647,7 @@
         en: Triglavian Data
         fr: Données triglavian
         ru: Сведения о Триглаве
+        zh: 特格拉数据
     published: true
     useBasePrice: false
 1996:
@@ -19636,6 +19660,7 @@
         en: Abyssal Materials
         fr: Matériaux abyssaux
         ru: Материалы бездны
+        zh: 深渊材料
     published: true
     useBasePrice: false
 1997:
@@ -19648,6 +19673,7 @@
         en: Abyssal Drone Entities
         fr: Entités-drones abyssales
         ru: Дроны бездны
+        zh: 深渊无人机实体
     published: false
     useBasePrice: false
 1998:
@@ -19660,6 +19686,15 @@
         en: Station Conversion Monuments
         fr: Monuments de conversion de station
         ru: Монументы преобразования станций
+        zh: 空间站转换纪念碑
+    published: false
+    useBasePrice: false
+2001:
+    anchorable: false
+    anchored: false
+    categoryID: 6
+    fittableNonSingleton: false
+    name: {}
     published: false
     useBasePrice: false
 2002:
@@ -19667,9 +19702,69 @@
     anchored: false
     categoryID: 17
     fittableNonSingleton: false
+    name:
+        en: Triglavian Datastreams
+    published: true
+    useBasePrice: false
+2003:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name: {}
+    published: false
+    useBasePrice: false
+2004:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name: {}
+    published: false
+    useBasePrice: false
+2005:
+    anchorable: false
+    anchored: false
+    categoryID: 22
+    fittableNonSingleton: false
     name: {}
     published: true
     useBasePrice: false
+2006:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name: {}
+    published: false
+    useBasePrice: false
+2008:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    iconID: 97
+    name: {}
+    published: true
+    useBasePrice: false
+2009:
+    anchorable: false
+    anchored: true
+    categoryID: 11
+    fittableNonSingleton: false
+    iconID: 0
+    name: {}
+    published: false
+    useBasePrice: false
+2010:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    iconID: 0
+    name: {}
+    published: true
+    useBasePrice: true
 350858:
     anchorable: false
     anchored: false
