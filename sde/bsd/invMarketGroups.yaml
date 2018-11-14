@@ -3912,12 +3912,6 @@
     marketGroupID: 1864
     marketGroupName: Construction Platforms
     parentGroupID: 1021
--   description: Modular items used in the manufacture of Space Stations.
-    hasTypes: true
-    iconID: 2875
-    marketGroupID: 1865
-    marketGroupName: Station Components
-    parentGroupID: 1021
 -   hasTypes: false
     iconID: 3303
     marketGroupID: 1022
@@ -9468,11 +9462,6 @@
     parentGroupID: 798
 -   hasTypes: true
     iconID: 2703
-    marketGroupID: 1913
-    marketGroupName: Station Components
-    parentGroupID: 798
--   hasTypes: true
-    iconID: 2703
     marketGroupID: 1918
     marketGroupName: R.A.M.
     parentGroupID: 800
@@ -12867,9 +12856,85 @@
     marketGroupID: 2509
     marketGroupName: Mass Entanglers
     parentGroupID: 14
+-   hasTypes: true
+    iconID: 2703
+    marketGroupID: 1913
+    marketGroupName: Structure Components
+    parentGroupID: 800
+-   description: Modular items used in the manufacture of Space Stations.
+    hasTypes: true
+    iconID: 2875
+    marketGroupID: 1865
+    marketGroupName: Structure Components
+    parentGroupID: 1035
 -   description: Blueprints for Mass Entanglers.
     hasTypes: true
     iconID: 2703
     marketGroupID: 2508
-    marketGroupName: Mass Reduction Core
+    marketGroupName: Mass Entangler
     parentGroupID: 214
+-   description: Blueprints of navigation structures.
+    hasTypes: true
+    iconID: 2703
+    marketGroupID: 2510
+    marketGroupName: Navigation Structures
+    parentGroupID: 1338
+-   hasTypes: true
+    iconID: 2222
+    marketGroupID: 2511
+    marketGroupName: Navigation Structures
+    parentGroupID: 477
+-   hasTypes: false
+    iconID: 1046
+    marketGroupID: 2512
+    marketGroupName: Weapon Upgrade Mutaplasmids
+    parentGroupID: 2436
+-   hasTypes: true
+    iconID: 1046
+    marketGroupID: 2513
+    marketGroupName: Magnetic Field Stabilizer Mutaplasmids
+    parentGroupID: 2512
+-   hasTypes: true
+    iconID: 1046
+    marketGroupID: 2514
+    marketGroupName: Heat Sink Mutaplasmids
+    parentGroupID: 2512
+-   hasTypes: true
+    iconID: 1046
+    marketGroupID: 2515
+    marketGroupName: Gyrostabilizer Mutaplasmids
+    parentGroupID: 2512
+-   hasTypes: true
+    iconID: 1046
+    marketGroupID: 2516
+    marketGroupName: Entropic Radiation Sink Mutaplasmids
+    parentGroupID: 2512
+-   hasTypes: true
+    iconID: 21440
+    marketGroupID: 2517
+    marketGroupName: Ballistic Control System Mutaplasmids
+    parentGroupID: 2512
+-   description: Precursor Destroyers
+    hasTypes: false
+    iconID: 1443
+    marketGroupID: 2522
+    marketGroupName: Precursor Destroyers
+    parentGroupID: 1372
+-   description: Triglavian Destroyers
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2523
+    marketGroupName: Triglavian
+    parentGroupID: 2522
+-   description: Precursor Battlecruisers.
+    hasTypes: false
+    iconID: 1443
+    marketGroupID: 2524
+    marketGroupName: Precursor Battlecruisers
+    parentGroupID: 1374
+-   description: Triglavian Battlecruisers.
+    hasTypes: true
+    iconID: 1443
+    marketGroupID: 2525
+    marketGroupName: Triglavian
+    parentGroupID: 2524

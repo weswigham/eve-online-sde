@@ -725,7 +725,7 @@
         fr: Unité de réparation d'armure
         ja: アーマーリペアユニット
         ru: Установка ремонта брони
-        zh: 装甲维修设备
+        zh: 装甲维修组件
     published: true
     useBasePrice: false
 63:
@@ -740,7 +740,7 @@
         fr: Unité de réparation de coque
         ja: 船体リペアユニット
         ru: Система ремонта корпуса
-        zh: 船体维修设备
+        zh: 船体维修组件
     published: true
     useBasePrice: false
 65:
@@ -1571,7 +1571,7 @@
         fr: Plan de construction Unité de réparation d'armure
         ja: アーマーリペアユニットブループリント
         ru: Чертежи установки ремонта брони
-        zh: 装甲维修设备蓝图
+        zh: 装甲维修组件蓝图
     published: true
     useBasePrice: true
 143:
@@ -1586,7 +1586,7 @@
         fr: Plan de construction Unité de réparation de coque
         ja: 船体リペアユニットブループリント
         ru: Чертеж системы ремонта корпуса
-        zh: 船体维修设备蓝图
+        zh: 船体维修组件蓝图
     published: true
     useBasePrice: true
 145:
@@ -5938,12 +5938,12 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Stationskomponenten
-        en: Station Components
-        fr: Composants de station
+        de: Strukturkomponenten
+        en: Structure Components
+        fr: Composants de structure
         ja: ステーション部品
-        ru: Компоненты станций
-        zh: 空间站部件
+        ru: Компоненты сооружения
+        zh: 建筑组件
     published: true
     useBasePrice: true
 537:
@@ -7218,7 +7218,7 @@
         fr: Modules de poursuite de drone
         ja: ドローントラッキングモジュール
         ru: Усилитель системы слежения дронов
-        zh: 无人机追踪单元
+        zh: 无人机追踪装备
     published: true
     useBasePrice: false
 647:
@@ -10427,7 +10427,7 @@
         fr: Composants de vaisseau capital
         ja: キャピタル建設資材
         ru: Компоненты кораблей большого тоннажа
-        zh: 旗舰建造模块
+        zh: 旗舰建造组件
     published: true
     useBasePrice: false
 874:
@@ -13664,7 +13664,7 @@
         fr: Lanceur de sonde d'inspection
         ja: 衛星調査プローブランチャー
         ru: Пусковая установка лунных зондов
-        zh: 测量探测器发射器
+        zh: 测量探针发射器
     published: true
     useBasePrice: false
 1227:
@@ -14430,7 +14430,13 @@
     anchored: false
     categoryID: 5
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Super Kerr-induzierten Nanobeschichtungen
+        en: Super Kerr-Induced Nanocoatings
+        fr: Nanorevêtements générés par le super Kerr
+        ja: 超カー誘発性ナノコーティング
+        ru: Шаблоны для перекраски кораблей
+        zh: 超级克尔诱导纳米涂层
     published: true
     useBasePrice: false
 1312:
@@ -14581,12 +14587,12 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: Structure Stargate Service Module
-        en: Structure Stargate Service Module
-        fr: Module de service de portail stellaire (Structure)
+        de: Struktur – Navigationsdienstmodul
+        en: Structure Navigation Service Module
+        fr: Module de service pour navigation de structures
         ja: ストラクチャ ― スターゲートサービスモジュール
-        ru: Structure Stargate Service Module
-        zh: 建筑星门服务装备
+        ru: Навигационный служебный модуль сооружения
+        zh: 建筑导航服务装备
     published: false
     useBasePrice: false
 1325:
@@ -14861,17 +14867,17 @@
     useBasePrice: false
 1408:
     anchorable: false
-    anchored: false
+    anchored: true
     categoryID: 65
     fittableNonSingleton: false
     name:
-        de: Navigationsstrukturen
-        en: Navigation Structures
-        fr: Structures de navigation
+        de: Upwell-Sprungtor
+        en: Upwell Jump Gate
+        fr: Portail interstellaire Upwell
         ja: スターゲート
-        ru: Навигационные сооружения
-        zh: 星门
-    published: false
+        ru: Прыжковые врата «Апвелл»
+        zh: 昇威跳跃星门
+    published: true
     useBasePrice: false
 1409:
     anchorable: false
@@ -17305,12 +17311,12 @@
     categoryID: 11
     fittableNonSingleton: false
     name:
-        de: Tutorial Seekers
+        de: Seeker-Späher
         en: Seeker Scouts
-        fr: Seekers du didacticiel
+        fr: Éclaireurs Seeker
         ja: チュートリアルシーカー
-        ru: Учебные искатели
-        zh: 教程探索者
+        ru: Разведчики Искателей
+        zh: 探寻者 侦察兵
     published: false
     useBasePrice: false
 1769:
@@ -17324,7 +17330,7 @@
         fr: Charges de salve commandante de boucliers
         ja: シールドコマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов силовой защиты
-        zh: 护盾指令脉冲波弹药
+        zh: 护盾指挥脉冲波弹药
     published: true
     useBasePrice: false
 1770:
@@ -17338,7 +17344,7 @@
         fr: Salve commandante
         ja: コマンドバースト
         ru: Импульсные оптимизаторы
-        zh: 指令脉冲波
+        zh: 指挥脉冲波
     published: true
     useBasePrice: false
 1771:
@@ -17366,7 +17372,7 @@
         fr: Charges de salve commandante de guérilla
         ja: 機動戦コマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов боевого маневрирования
-        zh: 游击战指令脉冲波弹药
+        zh: 游击战指挥脉冲波弹药
     published: true
     useBasePrice: false
 1773:
@@ -17380,7 +17386,7 @@
         fr: Charges de salve commandante d'information
         ja: 情報戦コマンドバーストチャージ
         ru: Заряды импульсных оптимизаторов мер РЭБ
-        zh: 信息指令脉冲波弹药
+        zh: 信息指挥脉冲波弹药
     published: true
     useBasePrice: false
 1774:
@@ -17660,7 +17666,7 @@
         fr: Plan de construction Charges de salve commandante
         ja: コマンドバーストチャージブループリント
         ru: Чертежи зарядов импульсных оптимизаторов
-        zh: 指令脉冲波弹药蓝图
+        zh: 指挥脉冲波弹药蓝图
     published: true
     useBasePrice: true
 1812:
@@ -19327,7 +19333,7 @@
         en: Structure Armor Reinforcer
         fr: Renforçateur de blindage pour structure
         ru: Усилитель брони для сооружений
-        zh: 建筑装甲增强器
+        zh: 建筑装甲强化装置
     published: true
     useBasePrice: false
 1969:
@@ -19694,7 +19700,12 @@
     anchored: false
     categoryID: 6
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Citizen-Schiffe
+        en: Citizen Ships
+        fr: Vaisseaux civils
+        ru: Гражданские корабли
+        zh: 公民舰船
     published: false
     useBasePrice: false
 2002:
@@ -19703,7 +19714,11 @@
     categoryID: 17
     fittableNonSingleton: false
     name:
+        de: Triglavia-Datenströme
         en: Triglavian Datastreams
+        fr: Flux de données triglavian
+        ru: Потоки данных Триглава
+        zh: 特格拉数据流
     published: true
     useBasePrice: false
 2003:
@@ -19711,7 +19726,12 @@
     anchored: false
     categoryID: 7
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Citizen-Module
+        en: Citizen Modules
+        fr: Modules civils
+        ru: Гражданские модули
+        zh: 公民装备
     published: false
     useBasePrice: false
 2004:
@@ -19719,7 +19739,12 @@
     anchored: false
     categoryID: 7
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Citizen Mining Laser
+        en: Citizen Mining Laser
+        fr: Laser d'extraction civil
+        ru: Citizen Mining Laser
+        zh: 公民采矿激光器
     published: false
     useBasePrice: false
 2005:
@@ -19727,7 +19752,12 @@
     anchored: false
     categoryID: 22
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Stationierbare Werbung
+        en: Deployable Advertisement
+        fr: Publicité déployable
+        ru: Развёртываемая реклама
+        zh: 可部署广告
     published: true
     useBasePrice: false
 2006:
@@ -19735,7 +19765,12 @@
     anchored: false
     categoryID: 25
     fittableNonSingleton: false
-    name: {}
+    name:
+        de: Raumverwerfungsasteroiden
+        en: Deadspace Asteroids
+        fr: Astéroïdes Deadspace
+        ru: Астероиды Мёртвой бездны
+        zh: 死亡空间小行星
     published: false
     useBasePrice: false
 2008:
@@ -19744,7 +19779,12 @@
     categoryID: 7
     fittableNonSingleton: false
     iconID: 97
-    name: {}
+    name:
+        de: Massenumschließer
+        en: Mass Entanglers
+        fr: Intricateurs de masse
+        ru: Модуляторы массы
+        zh: 质量纠缠装置
     published: true
     useBasePrice: false
 2009:
@@ -19753,7 +19793,12 @@
     categoryID: 11
     fittableNonSingleton: false
     iconID: 0
-    name: {}
+    name:
+        de: Precursor-Cache
+        en: Precursor Cache
+        fr: Cache de précursion
+        ru: Тайник Предтечей
+        zh: 先驱者贮藏
     published: false
     useBasePrice: false
 2010:
@@ -19762,9 +19807,66 @@
     categoryID: 9
     fittableNonSingleton: false
     iconID: 0
-    name: {}
+    name:
+        de: Blaupausen für Massenumschließer
+        en: Mass Entangler Blueprints
+        fr: Plans de construction Intricateur de masse
+        ru: Чертежи модуляторов массы
+        zh: 质量纠缠装置蓝图
     published: true
     useBasePrice: true
+2013:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name:
+        de: Antistasis
+        en: Stasis Nullifiers
+        fr: Anéantisseur de stase
+        ru: Стазисные нейтрализаторы
+        zh: 停滞无效光束
+    published: true
+    useBasePrice: false
+2015:
+    anchorable: false
+    anchored: true
+    categoryID: 65
+    fittableNonSingleton: false
+    name:
+        de: Upwell-Monument
+        en: Upwell Monument
+        fr: Monument Upwell
+        ru: Монумент консорциума «Апвелл»
+        zh: 昇威纪念碑
+    published: false
+    useBasePrice: false
+2016:
+    anchorable: false
+    anchored: true
+    categoryID: 65
+    fittableNonSingleton: false
+    name:
+        de: Upwell-Anziehungsstörsender
+        en: Upwell Cyno Jammer
+        fr: Brouilleur cynosural Upwell
+        ru: Генератор помех приводному маяку «Апвелл»
+        zh: 昇威诱导干扰器
+    published: true
+    useBasePrice: false
+2017:
+    anchorable: false
+    anchored: true
+    categoryID: 65
+    fittableNonSingleton: false
+    name:
+        de: Upwell-Anziehungssignalfeuer
+        en: Upwell Cyno Beacon
+        fr: Balise cynosurale Upwell
+        ru: Приводной маяк «Апвелл»
+        zh: 昇威诱导信标
+    published: true
+    useBasePrice: false
 350858:
     anchorable: false
     anchored: false
