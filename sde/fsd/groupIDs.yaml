@@ -5103,7 +5103,7 @@
         fr: Torpille XL
         ja: XLトルピード
         ru: Торпеды сверхбольшой мощности
-        zh: 超大型鱼雷
+        zh: 超大型鱼雷概论
     published: true
     useBasePrice: false
 477:
@@ -5613,7 +5613,7 @@
         fr: Lance-missiles défenseur
         ja: ミサイルランチャー（防衛）
         ru: Пусковая установка противоракет
-        zh: 反弹导弹发射器
+        zh: 反弹道导弹发射器
     published: true
     useBasePrice: false
 513:
@@ -10750,12 +10750,12 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Verstecktes Signalfeuer
-        en: Covert Beacon
-        fr: Balise furtive
+        de: Getarntes Anziehungsfeld
+        en: Covert Cynosural Field
+        fr: Champ cynosural furtif
         ja: 隠密ビーコン
-        ru: Скрытый маяк
-        zh: 隐秘信标塔
+        ru: Приводной маяк скрытого действия
+        zh: 隐秘诱导力场
     published: false
     useBasePrice: false
 898:
@@ -14848,7 +14848,7 @@
         fr: Raffinerie
         ja: 採掘基地
         ru: Перерабатывающие комплексы
-        zh: 精炼设施
+        zh: 精炼厂
     published: true
     useBasePrice: false
 1407:
@@ -18581,7 +18581,7 @@
         en: PLEX
         fr: PLEX
         ru: Плексы
-        zh: PLEX
+        zh: 伊甸币
     published: true
     useBasePrice: false
 1876:
@@ -19601,7 +19601,7 @@
         en: Abyssal Trace
         fr: Trace abyssale
         ru: След бездны
-        zh: 深渊踪迹
+        zh: 深渊痕迹
     published: false
     useBasePrice: false
 1992:
@@ -19851,7 +19851,7 @@
         en: Upwell Cyno Jammer
         fr: Brouilleur cynosural Upwell
         ru: Генератор помех приводному маяку «Апвелл»
-        zh: 昇威诱导干扰器
+        zh: 昇威诱导干扰塔
     published: true
     useBasePrice: false
 2017:
@@ -19866,6 +19866,57 @@
         ru: Приводной маяк «Апвелл»
         zh: 昇威诱导信标
     published: true
+    useBasePrice: false
+2018:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    iconID: 0
+    name:
+        de: Mutadaptive Panzerungs-Fernreparatursysteme
+        en: Mutadaptive Remote Armor Repairer
+        fr: Réparateur de blindage à distance muta-adaptatif
+        ru: Мутадаптивный модуль дистанционного ремонта брони
+        zh: 突变适应远程装甲维修器
+    published: true
+    useBasePrice: false
+2019:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    iconID: 0
+    name:
+        de: Mutadaptive Panzerungs-Fernreparatursysteme Blaupause
+        en: Mutadaptive Remote Armor Repairer Blueprint
+        fr: Plan de construction Réparateur de blindage à distance muta-adaptatif
+        ru: Чертёж мутадаптивного модуля дистанционного ремонта брони
+        zh: 突变适应远程装甲维修器蓝图
+    published: true
+    useBasePrice: true
+2020:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Future Home of Cyno Fields
+        en: Future Home of Cyno Fields
+        fr: Futur emplacement des champs cynosuraux
+        ru: Будущее место размещения приводных маяков
+        zh: 诱导力场的未来家园
+    published: false
+    useBasePrice: false
+2022:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name:
+        en: Temporal Resources
+        zh: 临时资源
+    published: false
     useBasePrice: false
 350858:
     anchorable: false

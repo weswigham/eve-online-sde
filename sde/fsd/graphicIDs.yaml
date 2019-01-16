@@ -2771,7 +2771,7 @@
   sofHullName: mf4_t2c
   sofRaceName: minmatar
 1784:
-  description: Caldari Cruiser Navy Osprey Navy Issue (Osprey Hull)
+  description: Caldari Cruiser Osprey Navy Issue
   iconInfo:
     backgrounds:
     - blueprint
@@ -13702,7 +13702,7 @@
   sofHullName: cc4_t2a
   sofRaceName: caldari
 11865:
-  description: Caldari Cruiser LaiDai Basilisk (Osprey Hull)
+  description: Caldari Cruiser LaiDai Basilisk
   iconInfo:
     backgrounds:
     - blueprint
@@ -14539,7 +14539,7 @@
   sofHullName: cf7_x
   sofRaceName: caldari
 20137:
-  description: Caldari Cruiser Alliance Tournament X (Osprey Hull)
+  description: Caldari Cruiser Alliance Tournament X (Etana)
   iconInfo:
     backgrounds:
     - blueprint
@@ -19763,7 +19763,7 @@
     - blueprintCopy
     folder: res:/dx9/model/deployables/generic/citadel/xl/cxl1/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: palatine
   sofHullName: cxl1_t1
   sofRaceName: generic
@@ -24717,7 +24717,7 @@
   iconInfo:
     folder: res:/dx9/model/outposts/amarr/ao1l/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: amarrbase
   sofHullName: ao1l_t1
   sofRaceName: amarr
@@ -24775,7 +24775,7 @@
   iconInfo:
     folder: res:/dx9/model/outposts/caldari/co1l/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: caldaribase
   sofHullName: co1l_t1
   sofRaceName: caldari
@@ -24833,7 +24833,7 @@
   iconInfo:
     folder: res:/dx9/model/outposts/minmatar/mo1l/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: minmatarbase
   sofHullName: mo1l_t1
   sofRaceName: minmatar
@@ -25002,7 +25002,7 @@
   iconInfo:
     folder: res:/dx9/model/outposts/gallente/go1l/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: gallentebase
   sofHullName: go1l_t1
   sofRaceName: gallente
@@ -25046,7 +25046,7 @@
   iconInfo:
     folder: res:/dx9/model/deployables/generic/citadel/l/cl1/icons
     foregrounds:
-    - structureFaction
+    - faction
   sofFactionName: upwell
   sofHullName: cl1_t1
   sofRaceName: generic
@@ -25667,14 +25667,12 @@
   sofHullName: tgde01_t1
   sofRaceName: triglavian
 22317:
-  description: TriGlavian Cruiser II
+  description: TriGlavian Cruiser II (Rodiva)
   iconInfo:
     backgrounds:
     - blueprint
     - blueprintCopy
     folder: res:/dx9/model/ship/triglavian/cruiser/tgc02/icons
-    foregrounds:
-    - tech2
   sofFactionName: triglavianbase
   sofHullName: tgc02_t1
   sofRaceName: triglavian
@@ -25688,3 +25686,76 @@
   sofFactionName: triglavianbase
   sofHullName: tgbc01_t1
   sofRaceName: triglavian
+22322:
+  description: Winter Event Planet
+  graphicFile: res:/dx9/model/celestial/environment/surface/generic/gas_blue_01a.red
+22323:
+  description: PVP Dungeon Cloud 6438r2
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6438/clouds_6438r2.red
+22324:
+  description: PVP Dungeon Cloud 6437r2
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6438/clouds_6437r2.red
+22325:
+  description: TriGlavian Cruiser II (Zarmazd)
+  iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
+    folder: res:/dx9/model/ship/triglavian/cruiser/tgc02/icons
+    foregrounds:
+    - tech2
+  sofFactionName: triglavianbase
+  sofHullName: tgc02_t2
+  sofRaceName: triglavian
+22326:
+  description: Zero Point Armor Repairer Medium
+  graphicFile: res:/dx9/model/turret/repair/triglavian/m/repairtg_m01_t1.red
+  iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
+    folder: res:/dx9/model/turret/repair/triglavian/m/icons
+    foregrounds:
+    - faction
+    - tech2
+  sofFactionName: triglavianbase
+  sofRaceName: triglavian
+22328:
+  description: Root transform damage effect for ships in Winter dungeon
+  graphicFile: res:/fisfx/environment/boundary/boundaryfrostdamage_rt_t1a.red
+22330:
+  description: Deployable Male Publicity Monument Wreck
+  sofFactionName: genericbase
+  sofHullName: sm1_wreck
+  sofRaceName: generic
+22331:
+  description: Deployable Female Publicity Monument Wreck
+  sofFactionName: genericbase
+  sofHullName: sf1_wreck
+  sofRaceName: generic
+22332:
+  description: Deployable Amarr Publicity Monument Wreck
+  sofFactionName: amarrbase
+  sofHullName: sa1_wreck
+  sofRaceName: amarr
+22333:
+  description: Mordu's Legion Frigate Garmur - Glacial Drift
+  iconInfo:
+    folder: res:/dx9/model/ship/mordu/frigate/morf1/icons
+  sofFactionName: mordubase
+  sofHullName: morf1_t1
+  sofRaceName: mordu
+22334:
+  description: Mordu's Legion Cruiser Orthrus - Glacial Drift
+  iconInfo:
+    folder: res:/dx9/model/ship/mordu/cruiser/morc1/icons
+  sofFactionName: mordubase
+  sofHullName: morc1_t1
+  sofRaceName: mordu
+22335:
+  description: Mordu's Legion Battleship Barghest - Glacial Drift
+  iconInfo:
+    folder: res:/dx9/model/ship/mordu/battleship/morb1/icons
+  sofFactionName: mordubase
+  sofHullName: morb1_t1
+  sofRaceName: mordu

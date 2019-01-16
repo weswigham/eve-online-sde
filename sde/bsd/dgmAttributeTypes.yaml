@@ -14797,16 +14797,6 @@
     published: true
     stackable: true
     unitID: 105
--   attributeID: 1985
-    attributeName: stanceSwitchTime
-    categoryID: 1
-    defaultValue: 0.0
-    description: Time in milliseconds that it takes to switch stances.
-    displayName: Cooldown between mode switching
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 3
 -   attributeID: 1986
     attributeName: shipBonusTacticalDestroyerAmarr1
     categoryID: 9
@@ -23453,17 +23443,6 @@
     published: true
     stackable: true
     unitID: 9
--   attributeID: 2115
-    attributeName: stasisWebifierResistance
-    categoryID: 36
-    defaultValue: 1.0
-    description: Resistance against Stasis Webifiers
-    displayName: Stasis Webifier Resistance
-    highIsGood: false
-    iconID: 1389
-    published: true
-    stackable: true
-    unitID: 127
 -   attributeID: 438
     attributeName: socialMutator
     categoryID: 7
@@ -23513,3 +23492,33 @@
     published: true
     stackable: true
     unitID: 109
+-   attributeID: 2115
+    attributeName: stasisWebifierResistance
+    categoryID: 36
+    defaultValue: 1.0
+    description: Resistance against Stasis Webifiers
+    displayName: Stasis Webifier Resistance
+    highIsGood: false
+    iconID: 1389
+    published: true
+    stackable: true
+    unitID: 108
+-   attributeID: 2806
+    attributeName: NonDiminishingSkillInjectorUses
+    categoryID: 7
+    defaultValue: 1.0
+    description: Attribute defining usage count for penaltyless skill injections
+    displayName: Penaltyless Skill Injections Allowed
+    highIsGood: true
+    published: true
+    stackable: true
+-   attributeID: 1985
+    attributeName: stanceSwitchTime
+    categoryID: 1
+    defaultValue: 0.0
+    description: Time in milliseconds that it takes to switch stances.
+    displayName: Cooldown between mode switching
+    highIsGood: true
+    published: true
+    stackable: true
+    unitID: 101
