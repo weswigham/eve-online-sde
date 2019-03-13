@@ -127,9 +127,6 @@
 -   displayName: typeID
     unitID: 116
     unitName: typeID
--   displayName: 1=small 2=medium 3=l
-    unitID: 117
-    unitName: Sizeclass
 -   displayName: Ore units
     unitID: 118
     unitName: Ore units
@@ -182,8 +179,8 @@
     displayName: Slot
     unitID: 136
     unitName: Slot
--   description: For displaying boolean flags
-    displayName: 1=True 0=False
+-   description: For displaying boolean flags 1=True 0=False
+    displayName: ''
     unitID: 137
     unitName: Boolean
 -   description: Units of something, for example fuel
@@ -211,3 +208,7 @@
 -   description: Date and time
     unitID: 143
     unitName: Datetime
+-   description: 1=small 2=medium 3=large 4=x-large
+    displayName: ''
+    unitID: 117
+    unitName: Sizeclass

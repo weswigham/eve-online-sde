@@ -6450,7 +6450,7 @@
     - blueprintCopy
     folder: res:/dx9/model/ship/amarr/fighter/afi1/icons
     foregrounds:
-    - structureFaction
+    - structureTech1
     - structureTech2
     - tech2
   sofFactionName: amarrbase
@@ -6799,7 +6799,7 @@
     - blueprintCopy
     folder: res:/dx9/model/ship/gallente/fighter/gfi1/icons
     foregrounds:
-    - structureFaction
+    - structureTech1
     - structureTech2
     - tech2
   sofFactionName: gallentebase
@@ -6813,7 +6813,7 @@
     - blueprintCopy
     folder: res:/dx9/model/ship/minmatar/fighter/mfi1/icons
     foregrounds:
-    - structureFaction
+    - structureTech1
     - structureTech2
     - tech2
   sofFactionName: minmatarbase
@@ -6827,7 +6827,7 @@
     - blueprintCopy
     folder: res:/dx9/model/ship/caldari/fighter/cfi1/icons
     foregrounds:
-    - structureFaction
+    - structureTech1
     - structureTech2
     - tech2
   sofFactionName: caldaribase
@@ -18917,6 +18917,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/antiship/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -18929,6 +18930,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/flak/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -18941,6 +18943,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/launcher/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19264,6 +19267,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityA/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19277,6 +19281,7 @@
     folder: res:/dx9/model/turret/Structure/UtilityB/icons
     foregrounds:
     - structureFaction
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19288,6 +19293,8 @@
     - blueprint
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
+    foregrounds:
+    - structureTech1
   sofFactionName: upwell
   sofRaceName: generic
 21243:
@@ -19300,6 +19307,7 @@
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
     foregrounds:
     - structureFaction
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19312,6 +19320,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19324,6 +19333,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19336,6 +19346,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19348,6 +19359,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/Structure/UtilityC/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19752,6 +19764,7 @@
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/utilityc/icons
     foregrounds:
+    - structureTech1
     - structureTech2
   sofFactionName: upwell
   sofRaceName: generic
@@ -19797,6 +19810,8 @@
     - blueprint
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/doomsday/icons
+    foregrounds:
+    - structureTech1
   sofFactionName: upwell
   sofRaceName: generic
 21325:
@@ -20379,6 +20394,8 @@
     - blueprint
     - blueprintCopy
     folder: res:/dx9/model/turret/structure/moonminer/icons
+    foregrounds:
+    - structureTech1
   sofFactionName: upwell-refinery
   sofRaceName: generic
 21448:
@@ -24492,22 +24509,17 @@
     folder: res:/fisfx/lensflare/icons
 22064:
   description: Background Moon
-  graphicFile: res:/dx9/model/celestial/environment/planet/Moon/moon.red
 22065:
   description: Background Gas Planet
-  graphicFile: res:/dx9/model/celestial/environment/planet/Gas/gas.red
 22066:
   description: Background Lava planet
-  graphicFile: res:/dx9/model/celestial/environment/planet/Lava/lava.red
 22067:
   description: Background Plasma Planet
-  graphicFile: res:/dx9/model/celestial/environment/planet/Plasma/plasma.red
 22068:
   description: Background Sandstorm Planet
   graphicFile: res:/dx9/model/celestial/environment/planet/sandstorm/sandstorm.red
 22069:
   description: Background Terrestrial Planet
-  graphicFile: res:/dx9/model/celestial/environment/planet/Terrestrial/terrestrial.red
 22070:
   description: SOCT Battleship Praxis
   iconInfo:
@@ -24645,15 +24657,6 @@
   sofFactionName: darkangel
   sofHullName: angf1_t1
   sofRaceName: angel
-22122:
-  description: Heavy Mid-Poly Vargur
-  iconInfo:
-    folder: res:/dx9/model/ship/minmatar/battleship/mb2/testcase/icons
-    foregrounds:
-    - tech2
-  sofFactionName: boundlesscreation
-  sofHullName: mb2_t2a_heavy
-  sofRaceName: minmatar
 22124:
   description: Abyssal spacetear
   graphicFile: res:/fisfx/travel/abyssal/Abyssal_SpaceTear_01a.red
@@ -24982,7 +24985,6 @@
   graphicFile: res:/dx9/model/celestial/environment/planet/plasma_blood/plasma_blood.red
 22183:
   description: Background Sandstorm Yellow planet
-  graphicFile: res:/dx9/model/celestial/environment/planet/sandstorm_yellow/sandstorm_yellow.red
 22187:
   description: GallenteOutpost Large Vulnerable Active State
   iconInfo:
@@ -25759,3 +25761,174 @@
   sofFactionName: mordubase
   sofHullName: morb1_t1
   sofRaceName: mordu
+22337:
+  description: Placeholder - 2m (Small deployable - drone)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_2m
+  sofRaceName: generic
+22338:
+  description: Placeholder - 50m (Frigate - Destroyer)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_50m
+  sofRaceName: generic
+22339:
+  description: Placeholder - 200m (Cruiser - Battlecruiser)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_200m
+  sofRaceName: generic
+22340:
+  description: Placeholder - 600m (Battleship)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_600m
+  sofRaceName: generic
+22341:
+  description: Placeholder - 2000m (Capital)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_2000m
+  sofRaceName: generic
+22342:
+  description: Placeholder - 20000m (Medium Structure)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_20000m
+  sofRaceName: generic
+22343:
+  description: Placeholder - 50000m (Large Structure)
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_50000m
+  sofRaceName: generic
+22344:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_chinanewyear1.red
+  sofRaceName: caldari
+22345:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_valentine2.red
+  sofRaceName: caldari
+22348:
+  description: Celestial Asteroid Fluorite 1
+  sofFactionName: fluorite
+  sofHullName: crystal_01v1
+  sofRaceName: asteroid
+22349:
+  description: Celestial Asteroid Fluorite 2
+  sofFactionName: fluorite
+  sofHullName: crystal_01v2
+  sofRaceName: asteroid
+22350:
+  description: Celestial Asteroid Fluorite 3
+  sofFactionName: fluorite
+  sofHullName: crystal_01v3
+  sofRaceName: asteroid
+22351:
+  description: Celestial Asteroid Fluorite 4
+  sofFactionName: fluorite
+  sofHullName: crystal_01v4
+  sofRaceName: asteroid
+22354:
+  description: AngelWall_Bunker_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_bunker
+  sofRaceName: angel
+22355:
+  description: AngelWall_Elevator_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_elevator
+  sofRaceName: angel
+22357:
+  description: AngelWall_Junction_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_junction
+  sofRaceName: angel
+22358:
+  description: AngelWall_Lookout_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_lookout
+  sofRaceName: angel
+22359:
+  description: AngelWall_MBattery_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_missilebattery
+  sofRaceName: angel
+22360:
+  description: AngelWall_X_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_wallx
+  sofRaceName: angel
+22361:
+  description: AngelWall_XZ_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_wallxz
+  sofRaceName: angel
+22362:
+  description: AngelWall_Z_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_wallz
+  sofRaceName: angel
+22363:
+  description: AngelWall_ZX_Gala
+  iconInfo:
+    folder: res:/dx9/model/structure/angel/defense/icons
+  sofFactionName: guardiangala
+  sofHullName: angd_wallzx
+  sofRaceName: angel
+22365:
+  description: Guardian Gala Space Nebula Cubemap 3A
+  graphicFile: res:/dx9/scene/event/e03_a_cube.red
+22366:
+  description: Guardian Gala Citadel L T1
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/citadel/l/cl1/icons
+  sofFactionName: guardiangala
+  sofHullName: cl1_t1
+  sofRaceName: angel
+22367:
+  description: Guardian Gala Citadel M T1
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/citadel/m/cm1/icons
+  sofFactionName: guardiangala
+  sofHullName: cm1_t1
+  sofRaceName: angel
+22368:
+  description: Guardian Gala Citadel M T1 Invulnerable State
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/citadel/m/cm1/state/icons
+  sofFactionName: guardiangala
+  sofHullName: cm1_t1_invul_state
+  sofRaceName: angel
+22369:
+  description: Guardian Gala Citadel L T1 Invulnerable State
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/citadel/l/cl1/state/icons
+  sofFactionName: guardiangala
+  sofHullName: cl1_t1_invul_state
+  sofRaceName: angel

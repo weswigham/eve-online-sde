@@ -22865,23 +22865,6 @@
     propulsionChance: false
     published: false
     rangeChance: false
--   description: Boost of rofBonus by PreMul of skillLevel
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
-    effectID: 163
-    effectName: rapidFiringSkillBoostRofBonus
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 1218
-    preExpression: 1217
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   description: Boost of rangeSkillBonus by PreMul of skillLevel
     disallowAutoRepeat: false
     displayName: ''
@@ -31436,23 +31419,6 @@
     disallowAutoRepeat: false
     displayName: ''
     effectCategory: 0
-    effectID: 2249
-    effectName: shipBonusDroneMiningAmountAC2
-    electronicChance: false
-    guid: ''
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 8330
-    preExpression: 8329
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: ''
-    effectCategory: 0
     effectID: 2253
     effectName: covertOpsStealthBomberTargettingDelayBonus
     electronicChance: false
@@ -34062,24 +34028,6 @@
     isWarpSafe: true
     postExpression: 10679
     preExpression: 10678
-    propulsionChance: false
-    published: false
-    rangeChance: false
-    sfxName: None
--   description: Automatically generated effect
-    disallowAutoRepeat: false
-    displayName: None
-    effectCategory: 0
-    effectID: 3036
-    effectName: skillBombDeploymentModuleReactivationDelayBonus
-    electronicChance: false
-    guid: None
-    iconID: 0
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    postExpression: 10683
-    preExpression: 10682
     propulsionChance: false
     published: false
     rangeChance: false
@@ -49754,24 +49702,6 @@
     preExpression: 18959
     propulsionChance: false
     published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 1
-    effectID: 6208
-    effectName: microJumpPortalDrive
-    electronicChance: false
-    guid: effects.MicroJumpFieldEngage
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: ''
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: true
     rangeChance: false
 -   disallowAutoRepeat: false
     dischargeAttributeID: 6
@@ -71070,6 +71000,119 @@
     published: false
     rangeChance: false
 -   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7176
+    effectName: skillBonusDroneInterfacingNotFighters
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
+        64\r\n  modifyingAttributeID: 292\r\n  operator: 6\r\n  skillTypeID: 3436\r\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7177
+    effectName: skillBonusDroneDurabilityNotFighters
+    electronicChance: false
+    guid: ''
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "#Drone Shield Bonus\r\n- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n
+        \ modifiedAttributeID: 263\r\n  modifyingAttributeID: 337\r\n  operator: 6\r\n
+        \ skillTypeID: 3436\r\n#Drone Armor Bonus\r\n- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n
+        \ modifiedAttributeID: 265\r\n  modifyingAttributeID: 335\r\n  operator: 6\r\n
+        \ skillTypeID: 3436\r\n#Drone Hull Bonus\r\n- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n
+        \ modifiedAttributeID: 9\r\n  modifyingAttributeID: 327\r\n  operator: 6\r\n
+        \ skillTypeID: 3436"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Boost of rofBonus by PreMul of skillLevel
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 163
+    effectName: rapidFiringSkillBoostRofBonus
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: itemID\n  func: ItemModifier\n  modifiedAttributeID:
+        293\n  modifyingAttributeID: 280\n  operator: 0\n"
+    postExpression: 1218
+    preExpression: 1217
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: None
+    effectCategory: 0
+    effectID: 3036
+    effectName: skillBombDeploymentModuleReactivationDelayBonus
+    electronicChance: false
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
+        669\r\n  modifyingAttributeID: 2807\r\n  operator: 6\r\n  skillTypeID: 28073\r\n"
+    postExpression: 10683
+    preExpression: 10682
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7178
+    effectName: bombDeploymentSkillBoostReactivationBonus
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: itemID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
+        2807\r\n  modifyingAttributeID: 280\r\n  operator: 0"
+    postExpression: 1218
+    preExpression: 1217
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 2249
+    effectName: shipBonusDroneMiningAmountAC2
+    electronicChance: false
+    guid: ''
+    iconID: 0
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        77\n  modifyingAttributeID: 656\n  operator: 6\n  skillTypeID: 3438\n"
+    postExpression: 8330
+    preExpression: 8329
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
     dischargeAttributeID: 6
     displayName: ''
     distribution: 2
@@ -71078,7 +71121,7 @@
     effectID: 7166
     effectName: ShipModuleRemoteArmorMutadaptiveRepairer
     electronicChance: false
-    guid: effects.AtomicBeam,effects.SiegeMode
+    guid: effects.TriglavianBeam,effects.SiegeMode
     isAssistance: true
     isOffensive: false
     isWarpSafe: false
@@ -71088,4 +71131,79 @@
     propulsionChance: true
     published: true
     rangeAttributeID: 54
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 1
+    effectID: 6208
+    effectName: microJumpPortalDrive
+    electronicChance: false
+    guid: effects.MicroJumpFieldEngage
+    isAssistance: false
+    isOffensive: true
+    isWarpSafe: false
+    modifierInfo: ''
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: true
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7179
+    effectName: stripMinerDurationMultiplier
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19738
+    preExpression: 19737
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 4
+    effectID: 7180
+    effectName: miningDurationMultiplierOnline
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19742
+    preExpression: 19741
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7181
+    effectName: implantWarpScrambleRange
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19747
+    preExpression: 19746
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7183
+    effectName: implantWarpScrambleRangeBonus
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19752
+    preExpression: 19751
+    propulsionChance: false
+    published: false
     rangeChance: false

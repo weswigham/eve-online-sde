@@ -5069,13 +5069,6 @@
     highIsGood: true
     published: false
     stackable: true
--   attributeID: 1366
-    attributeName: subSystemSlot
-    defaultValue: 0.0
-    description: ''
-    highIsGood: true
-    published: false
-    stackable: true
 -   attributeID: 1539
     attributeName: warpBubbleImmuneModifier
     categoryID: 7
@@ -7552,17 +7545,6 @@
     displayName: Prototyping Chance
     highIsGood: true
     iconID: 0
-    published: true
-    stackable: true
-    unitID: 105
--   attributeID: 1327
-    attributeName: warpScrambleRangeBonus
-    categoryID: 7
-    defaultValue: 0.0
-    description: Warp Scramble Range Bonus
-    displayName: Warp Scramble Range Bonus
-    highIsGood: true
-    iconID: 1391
     published: true
     stackable: true
     unitID: 105
@@ -20447,18 +20429,6 @@
     published: true
     stackable: true
     unitID: 101
--   attributeID: 669
-    attributeName: moduleReactivationDelay
-    categoryID: 7
-    defaultValue: 0.0
-    description: Amount of time that has to be waited after the deactivation of this
-        module until it can be reactivated.
-    displayName: Reactivation Delay
-    highIsGood: false
-    iconID: 0
-    published: true
-    stackable: true
-    unitID: 101
 -   attributeID: 714
     attributeName: consumptionQuantity
     categoryID: 7
@@ -22551,16 +22521,6 @@
     published: true
     stackable: true
     unitID: 108
--   attributeID: 2747
-    attributeName: stasisWebRangeBonus
-    categoryID: 28
-    defaultValue: 0.0
-    description: Percent bonus for Stasis Webifiers maximum range
-    displayName: Maximum Range Bonus
-    highIsGood: true
-    published: true
-    stackable: true
-    unitID: 121
 -   attributeID: 2675
     attributeName: specialSubsystemHoldCapacity
     categoryID: 40
@@ -23522,3 +23482,56 @@
     published: true
     stackable: true
     unitID: 101
+-   attributeID: 669
+    attributeName: moduleReactivationDelay
+    categoryID: 7
+    defaultValue: 0.0
+    description: Amount of time that has to be waited after the deactivation of this
+        module until it can be reactivated.
+    displayName: Reactivation Delay
+    highIsGood: false
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 101
+-   attributeID: 2807
+    attributeName: reactivationDelayBonus
+    categoryID: 7
+    defaultValue: 0.0
+    description: ''
+    displayName: Reactivation Delay Reduction
+    highIsGood: true
+    iconID: 1392
+    published: true
+    stackable: true
+    unitID: 105
+-   attributeID: 1366
+    attributeName: subSystemSlot
+    defaultValue: 0.0
+    description: ''
+    highIsGood: true
+    iconID: 3756
+    published: false
+    stackable: true
+-   attributeID: 2747
+    attributeName: stasisWebRangeBonus
+    categoryID: 28
+    defaultValue: 0.0
+    description: Percent bonus for Stasis Webifiers maximum range
+    displayName: Stasis Webifier Maximum Range Bonus
+    highIsGood: true
+    iconID: 1391
+    published: true
+    stackable: true
+    unitID: 121
+-   attributeID: 1327
+    attributeName: warpScrambleRangeBonus
+    categoryID: 27
+    defaultValue: 0.0
+    description: Warp Scramble Range Bonus
+    displayName: Warp Scrambler Range Bonus
+    highIsGood: true
+    iconID: 1391
+    published: true
+    stackable: true
+    unitID: 121
