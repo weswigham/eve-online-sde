@@ -56391,142 +56391,6 @@
     published: false
     rangeAttributeID: 54
     rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 1
-    effectID: 6567
-    effectName: moduleBonusNetworkedSensorArray
-    electronicChance: false
-    guid: effects.ElectronicAttributeModifyActivate
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID:
-        1672\r\n  modifiedAttributeID: 6\r\n  modifyingAttributeID: 1190\r\n  operator:
-        6\r\n- domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 201\r\n
-        \ modifiedAttributeID: 6\r\n  modifyingAttributeID: 1190\r\n  operator: 6\r\n-
-        domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 208\r\n  modifiedAttributeID:
-        6\r\n  modifyingAttributeID: 1190\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 291\r\n  modifiedAttributeID:
-        6\r\n  modifyingAttributeID: 1190\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 379\r\n  modifiedAttributeID:
-        6\r\n  modifyingAttributeID: 1190\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationRequiredSkillModifier\r\n  modifiedAttributeID: 6\r\n  modifyingAttributeID:
-        1190\r\n  operator: 6\r\n  skillTypeID: 3435\r\n- domain: shipID\r\n  func:
-        LocationGroupModifier\r\n  groupID: 80\r\n  modifiedAttributeID: 6\r\n  modifyingAttributeID:
-        1190\r\n  operator: 6\r\n# Bonus to scanResolution\r\n- domain: shipID\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 564\r\n  modifyingAttributeID:
-        566\r\n  operator: 6\r\n# Bonus to ship sensor strength\r\n- domain: shipID\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 211\r\n  modifyingAttributeID:
-        1027\r\n  operator: 6\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        210\r\n  modifyingAttributeID: 1029\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: ItemModifier\r\n  modifiedAttributeID: 208\r\n  modifyingAttributeID:
-        1030\r\n  operator: 6\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        209\r\n  modifyingAttributeID: 1028\r\n  operator: 6\r\n# Disalow Docking\r\n-
-        domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 2354\r\n
-        \ modifyingAttributeID: 2354\r\n  operator: 2\r\n# Disalow teathering\r\n-
-        domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 2343\r\n
-        \ modifyingAttributeID: 2343\r\n  operator: 2\r\n# Bonus to Fighter Sensor
-        Strength\r\n- domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
-        211\r\n  modifyingAttributeID: 1027\r\n  operator: 6\r\n  skillTypeID: 23069\r\n-
-        domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
-        210\r\n  modifyingAttributeID: 1029\r\n  operator: 6\r\n  skillTypeID: 23069\r\n-
-        domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
-        208\r\n  modifyingAttributeID: 1030\r\n  operator: 6\r\n  skillTypeID: 23069\r\n-
-        domain: charID\r\n  func: OwnerRequiredSkillModifier\r\n  modifiedAttributeID:
-        209\r\n  modifyingAttributeID: 1028\r\n  operator: 6\r\n  skillTypeID: 23069"
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeChance: false
--   disallowAutoRepeat: false
-    dischargeAttributeID: 6
-    displayName: ''
-    durationAttributeID: 73
-    effectCategory: 1
-    effectID: 6582
-    effectName: moduleBonusSiegeModule
-    electronicChance: false
-    guid: effects.SiegeMode
-    isAssistance: false
-    isOffensive: false
-    isWarpSafe: false
-    modifierInfo: "# Repair Impedance\r\n- domain: shipID\r\n  func: ItemModifier\r\n
-        \ modifiedAttributeID: 2116\r\n  modifyingAttributeID: 2342\r\n  operator:
-        6\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 2135\r\n
-        \ modifyingAttributeID: 2352\r\n  operator: 6\r\n- domain: shipID\r\n  func:
-        ItemModifier\r\n  modifiedAttributeID: 2112\r\n  modifyingAttributeID: 2351\r\n
-        \ operator: 6\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        2113\r\n  modifyingAttributeID: 2353\r\n  operator: 6\r\n# ECM Resistance\r\n-
-        domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 2253\r\n
-        \ modifyingAttributeID: 2253\r\n  operator: 7\r\n# Max Velocity\r\n- domain:
-        shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID: 37\r\n  modifyingAttributeID:
-        20\r\n  operator: 6\r\n# Warp Scramble Status\r\n- domain: shipID\r\n  func:
-        ItemModifier\r\n  modifiedAttributeID: 104\r\n  modifyingAttributeID: 852\r\n
-        \ operator: 2\r\n# Disalow Docking\r\n- domain: shipID\r\n  func: ItemModifier\r\n
-        \ modifiedAttributeID: 2354\r\n  modifyingAttributeID: 2354\r\n  operator:
-        2\r\n# Disalow teathering\r\n- domain: shipID\r\n  func: ItemModifier\r\n
-        \ modifiedAttributeID: 2343\r\n  modifyingAttributeID: 2343\r\n  operator:
-        2\r\n# Mass\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        4\r\n  modifyingAttributeID: 1471\r\n  operator: 4\r\n# local armor repair
-        modifiers\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 84\r\n  modifyingAttributeID: 2347\r\n  operator: 6\r\n
-        \ skillTypeID: 21803\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 68\r\n  modifyingAttributeID: 2347\r\n  operator: 6\r\n
-        \ skillTypeID: 21802\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 73\r\n  modifyingAttributeID: 2346\r\n  operator: 6\r\n
-        \ skillTypeID: 21803\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 73\r\n  modifyingAttributeID: 2346\r\n  operator: 6\r\n
-        \ skillTypeID: 21802\r\n# Torpedo Velocity\r\n- domain: shipID\r\n  func:
-        LocationRequiredSkillModifier\r\n  modifiedAttributeID: 37\r\n  modifyingAttributeID:
-        2304\r\n  operator: 6\r\n  skillTypeID: 3325\r\n# Torpedo Damage Bonus\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        117\r\n  modifyingAttributeID: 2306\r\n  operator: 6\r\n  skillTypeID: 3325\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        118\r\n  modifyingAttributeID: 2306\r\n  operator: 6\r\n  skillTypeID: 3325\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        114\r\n  modifyingAttributeID: 2306\r\n  operator: 6\r\n  skillTypeID: 3325\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        116\r\n  modifyingAttributeID: 2306\r\n  operator: 6\r\n  skillTypeID: 3325\r\n#
-        XL Cruise Missiles Damage Bonus\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 117\r\n  modifyingAttributeID: 2306\r\n  operator:
-        6\r\n  skillTypeID: 32435\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 118\r\n  modifyingAttributeID: 2306\r\n  operator:
-        6\r\n  skillTypeID: 32435\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 114\r\n  modifyingAttributeID: 2306\r\n  operator:
-        6\r\n  skillTypeID: 32435\r\n- domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n
-        \ modifiedAttributeID: 116\r\n  modifyingAttributeID: 2306\r\n  operator:
-        6\r\n  skillTypeID: 32435\r\n# XL Torpedo Damage Bonus\r\n- domain: shipID\r\n
-        \ func: LocationRequiredSkillModifier\r\n  modifiedAttributeID: 114\r\n  modifyingAttributeID:
-        2306\r\n  operator: 6\r\n  skillTypeID: 21668\r\n- domain: shipID\r\n  func:
-        LocationRequiredSkillModifier\r\n  modifiedAttributeID: 116\r\n  modifyingAttributeID:
-        2306\r\n  operator: 6\r\n  skillTypeID: 21668\r\n- domain: shipID\r\n  func:
-        LocationRequiredSkillModifier\r\n  modifiedAttributeID: 117\r\n  modifyingAttributeID:
-        2306\r\n  operator: 6\r\n  skillTypeID: 21668\r\n- domain: shipID\r\n  func:
-        LocationRequiredSkillModifier\r\n  modifiedAttributeID: 118\r\n  modifyingAttributeID:
-        2306\r\n  operator: 6\r\n  skillTypeID: 21668\r\n# Launcher ROF Bonus\r\n-
-        domain: shipID\r\n  func: LocationGroupModifier\r\n  groupID: 524\r\n  modifiedAttributeID:
-        51\r\n  modifyingAttributeID: 2305\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1674\r\n  modifiedAttributeID:
-        51\r\n  modifyingAttributeID: 2305\r\n  operator: 6\r\n- domain: shipID\r\n
-        \ func: LocationGroupModifier\r\n  groupID: 1673\r\n  modifiedAttributeID:
-        51\r\n  modifyingAttributeID: 2305\r\n  operator: 6\r\n# Turret Damage Bonus\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        64\r\n  modifyingAttributeID: 2307\r\n  operator: 6\r\n  skillTypeID: 21666\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        64\r\n  modifyingAttributeID: 2307\r\n  operator: 6\r\n  skillTypeID: 20327\r\n-
-        domain: shipID\r\n  func: LocationRequiredSkillModifier\r\n  modifiedAttributeID:
-        64\r\n  modifyingAttributeID: 2307\r\n  operator: 6\r\n  skillTypeID: 21667\r\n#
-        Gate Scramble Status\r\n- domain: shipID\r\n  func: ItemModifier\r\n  modifiedAttributeID:
-        1973\r\n  modifyingAttributeID: 1974\r\n  operator: 2"
-    postExpression: 59
-    preExpression: 59
-    propulsionChance: false
-    published: false
-    rangeChance: false
 -   description: Automatically generated effect
     disallowAutoRepeat: false
     displayName: None
@@ -71204,6 +71068,176 @@
     isWarpSafe: false
     postExpression: 19752
     preExpression: 19751
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7184
+    effectName: shipBonusMediumDroneHProle8
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19754
+    preExpression: 19753
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7185
+    effectName: shipBonusMediumDroneShieldHProle8
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19756
+    preExpression: 19755
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   description: Automatically generated effect
+    disallowAutoRepeat: false
+    displayName: ''
+    effectCategory: 0
+    effectID: 7186
+    effectName: shipBonusMediumDroneArmorHProle8
+    electronicChance: false
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    postExpression: 19758
+    preExpression: 19757
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 1
+    effectID: 6567
+    effectName: moduleBonusNetworkedSensorArray
+    electronicChance: false
+    guid: effects.ElectronicAttributeModifyActivate
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        104\n  modifyingAttributeID: 105\n  operator: 2\n- domain: shipID\n  func:
+        LocationGroupModifier\n  groupID: 201\n  modifiedAttributeID: 6\n  modifyingAttributeID:
+        1190\n  operator: 6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID:
+        208\n  modifiedAttributeID: 6\n  modifyingAttributeID: 1190\n  operator: 6\n-
+        domain: shipID\n  func: LocationGroupModifier\n  groupID: 291\n  modifiedAttributeID:
+        6\n  modifyingAttributeID: 1190\n  operator: 6\n- domain: shipID\n  func:
+        LocationGroupModifier\n  groupID: 379\n  modifiedAttributeID: 6\n  modifyingAttributeID:
+        1190\n  operator: 6\n- domain: shipID\n  func: LocationRequiredSkillModifier\n
+        \ modifiedAttributeID: 6\n  modifyingAttributeID: 1190\n  operator: 6\n  skillTypeID:
+        3435\n- domain: shipID\n  func: LocationGroupModifier\n  groupID: 80\n  modifiedAttributeID:
+        6\n  modifyingAttributeID: 1190\n  operator: 6\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 564\n  modifyingAttributeID: 566\n  operator:
+        6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID: 211\n  modifyingAttributeID:
+        1027\n  operator: 6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        210\n  modifyingAttributeID: 1029\n  operator: 6\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 208\n  modifyingAttributeID: 1030\n  operator:
+        6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID: 209\n  modifyingAttributeID:
+        1028\n  operator: 6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        2354\n  modifyingAttributeID: 2354\n  operator: 2\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 2343\n  modifyingAttributeID: 2343\n
+        \ operator: 2\n- domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        211\n  modifyingAttributeID: 1027\n  operator: 6\n  skillTypeID: 23069\n-
+        domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        210\n  modifyingAttributeID: 1029\n  operator: 6\n  skillTypeID: 23069\n-
+        domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        208\n  modifyingAttributeID: 1030\n  operator: 6\n  skillTypeID: 23069\n-
+        domain: charID\n  func: OwnerRequiredSkillModifier\n  modifiedAttributeID:
+        209\n  modifyingAttributeID: 1028\n  operator: 6\n  skillTypeID: 23069\n"
+    postExpression: 59
+    preExpression: 59
+    propulsionChance: false
+    published: false
+    rangeChance: false
+-   disallowAutoRepeat: false
+    dischargeAttributeID: 6
+    displayName: ''
+    durationAttributeID: 73
+    effectCategory: 1
+    effectID: 6582
+    effectName: moduleBonusSiegeModule
+    electronicChance: false
+    guid: effects.SiegeMode
+    isAssistance: false
+    isOffensive: false
+    isWarpSafe: false
+    modifierInfo: "- domain: shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID:
+        64\n  modifyingAttributeID: 2820\n  operator: 4\n  skillTypeID: 3312\n- domain:
+        shipID\n  func: ItemModifier\n  modifiedAttributeID: 2135\n  modifyingAttributeID:
+        2352\n  operator: 6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        2112\n  modifyingAttributeID: 2351\n  operator: 6\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 2113\n  modifyingAttributeID: 2353\n
+        \ operator: 6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        2253\n  modifyingAttributeID: 2253\n  operator: 7\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 37\n  modifyingAttributeID: 20\n  operator:
+        6\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID: 104\n  modifyingAttributeID:
+        852\n  operator: 2\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        2354\n  modifyingAttributeID: 2354\n  operator: 2\n- domain: shipID\n  func:
+        ItemModifier\n  modifiedAttributeID: 2343\n  modifyingAttributeID: 2343\n
+        \ operator: 2\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        4\n  modifyingAttributeID: 1471\n  operator: 4\n- domain: shipID\n  func:
+        LocationRequiredSkillModifier\n  modifiedAttributeID: 84\n  modifyingAttributeID:
+        2347\n  operator: 6\n  skillTypeID: 21803\n- domain: shipID\n  func: LocationRequiredSkillModifier\n
+        \ modifiedAttributeID: 68\n  modifyingAttributeID: 2347\n  operator: 6\n  skillTypeID:
+        21802\n- domain: shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID:
+        73\n  modifyingAttributeID: 2346\n  operator: 6\n  skillTypeID: 21803\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 73\n
+        \ modifyingAttributeID: 2346\n  operator: 6\n  skillTypeID: 21802\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 37\n
+        \ modifyingAttributeID: 2304\n  operator: 6\n  skillTypeID: 3325\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 117\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 3325\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 118\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 3325\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 114\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 3325\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 116\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 3325\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 117\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 32435\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 118\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 32435\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 114\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 32435\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 116\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 32435\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 114\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 21668\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 116\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 21668\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 117\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 21668\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 118\n
+        \ modifyingAttributeID: 2306\n  operator: 6\n  skillTypeID: 21668\n- domain:
+        shipID\n  func: LocationGroupModifier\n  groupID: 524\n  modifiedAttributeID:
+        51\n  modifyingAttributeID: 2305\n  operator: 6\n- domain: shipID\n  func:
+        LocationGroupModifier\n  groupID: 1674\n  modifiedAttributeID: 51\n  modifyingAttributeID:
+        2305\n  operator: 6\n- domain: shipID\n  func: LocationGroupModifier\n  groupID:
+        1673\n  modifiedAttributeID: 51\n  modifyingAttributeID: 2821\n  operator:
+        6\n- domain: shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID:
+        64\n  modifyingAttributeID: 2307\n  operator: 6\n  skillTypeID: 21666\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 64\n
+        \ modifyingAttributeID: 2307\n  operator: 6\n  skillTypeID: 20327\n- domain:
+        shipID\n  func: LocationRequiredSkillModifier\n  modifiedAttributeID: 64\n
+        \ modifyingAttributeID: 2307\n  operator: 6\n  skillTypeID: 21667\n- domain:
+        shipID\n  func: ItemModifier\n  modifiedAttributeID: 1973\n  modifyingAttributeID:
+        1974\n  operator: 2\n- domain: shipID\n  func: ItemModifier\n  modifiedAttributeID:
+        2116\n  modifyingAttributeID: 2342\n  operator: 6\n"
+    postExpression: 59
+    preExpression: 59
     propulsionChance: false
     published: false
     rangeChance: false

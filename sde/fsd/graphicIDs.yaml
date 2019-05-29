@@ -154,6 +154,9 @@
 53:
   description: Minmatar Frigate Reaper
   iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
     folder: res:/dx9/model/ship/minmatar/frigate/mf3/icons
   sofFactionName: minmatarbase
   sofHullName: mf3_t1
@@ -364,6 +367,9 @@
 299:
   description: Amarr Frigate Impairor
   iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
     folder: res:/dx9/model/ship/amarr/frigate/af1/icons
   sofFactionName: amarrbase
   sofHullName: af1_t1
@@ -491,6 +497,9 @@
 312:
   description: Caldari Frigate Ibis
   iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
     folder: res:/dx9/model/ship/caldari/frigate/cf5/icons
   sofFactionName: caldaribase
   sofHullName: cf5_t1
@@ -577,6 +586,9 @@
 321:
   description: Gallente Frigate Velator
   iconInfo:
+    backgrounds:
+    - blueprint
+    - blueprintCopy
     folder: res:/dx9/model/ship/gallente/frigate/gf1/icons
   sofFactionName: gallentebase
   sofHullName: gf1_t1
@@ -15112,19 +15124,19 @@
   graphicFile: res:/dx9/model/WorldObject/Planet/Template/Terrestrial/P_Terrestrial_Luminaire_CaldariPrime.red
 20271:
   description: Caldari hangar scene
-  graphicFile: res:/dx9/model/hangar/caldari/CH1/CH1.red
+  graphicFile: res:/dx9/model/hangar/caldari/CH1/CH1_scene.red
   sofRaceName: caldari
 20272:
   description: Minmatar hangar scene
-  graphicFile: res:/dx9/model/hangar/minmatar/MH1/MH1.red
+  graphicFile: res:/dx9/model/hangar/minmatar/MH1/MH1_scene.red
   sofRaceName: minmatar
 20273:
   description: Amarr hangar scene
-  graphicFile: res:/dx9/model/hangar/amarr/AH1/AH1.red
+  graphicFile: res:/dx9/model/hangar/amarr/AH1/AH1_scene.red
   sofRaceName: amarr
 20274:
   description: Gallente hangar scene
-  graphicFile: res:/dx9/model/hangar/gallente/GH1/GH1.red
+  graphicFile: res:/dx9/model/hangar/gallente/GH1/GH1_scene.red
   sofRaceName: gallente
 20277:
   description: Caldari Jump Freighter Rhea (Charon Hull)
@@ -19417,10 +19429,10 @@
     folder: res:/fisfx/module/icons
 21259:
   description: Citadel Hanger Scene - Small
-  graphicFile: res:/dx9/model/hangar/generic/standard/gensh1/gensh1_t1a.red
+  graphicFile: res:/dx9/model/hangar/generic/standard/gensh1/genSH1_scene.red
 21260:
   description: Citadel Hanger Scene - Large
-  graphicFile: res:/dx9/model/hangar/generic/capital/gench1/gench1_t1a.red
+  graphicFile: res:/dx9/model/hangar/generic/capital/gench1/genCH1_scene.red
 21267:
   description: Deployables Citadel Medium Invulnerable State
   iconInfo:
@@ -24480,33 +24492,21 @@
 22057:
   description: Effect Lensflare Abyssal Blue
   graphicFile: res:/fisfx/lensflare/abyssal_blue.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22058:
   description: Effect Lensflare Abyssal Red
   graphicFile: res:/fisfx/lensflare/abyssal_red.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22059:
   description: Effect Lensflare Abyssal Green
   graphicFile: res:/fisfx/lensflare/abyssal_green.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22060:
   description: Effect Lensflare Abyssal Purple
   graphicFile: res:/fisfx/lensflare/abyssal_purple.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22061:
   description: Effect Lensflare Abyssal White
   graphicFile: res:/fisfx/lensflare/abyssal_white.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22062:
   description: Effect Lensflare Abyssal Dark
   graphicFile: res:/fisfx/lensflare/abyssal_dark.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22064:
   description: Background Moon
 22065:
@@ -24688,8 +24688,6 @@
 22132:
   description: Effect Lensflare Abyssal Yellow
   graphicFile: res:/fisfx/lensflare/abyssal_yellow.red
-  iconInfo:
-    folder: res:/fisfx/lensflare/icons
 22133:
   description: TriGlavian Tower Wreckage
   iconInfo:
@@ -25932,3 +25930,139 @@
   sofFactionName: guardiangala
   sofHullName: cl1_t1_invul_state
   sofRaceName: angel
+22370:
+  description: Construction Dungeon Cloud 6463
+  graphicFile: res:/dx9/model/celestial/environment/cloud/volumetric/dungeons/6463/clouds_6463.red
+22371:
+  description: Particle Cloud Thunder 01a
+  graphicFile: res:/fisfx/environment/particlecloud/particlecloud_thunder_01a.red
+22372:
+  description: Environment moon
+  graphicFile: res:/dx9/model/celestial/environment/planet/moon/moon_3d.red
+22373:
+  description: Amarr Carrier Aeon
+  iconInfo:
+    folder: res:/dx9/model/ship/amarr/carrier/aca1/icons
+  sofFactionName: sarum
+  sofHullName: aca1_t1
+  sofRaceName: amarr
+22375:
+  description: Particle cloud 01a
+  graphicFile: res:/fisfx/environment/particlecloud/particlecloud_01a.red
+22376:
+  description: TG construction phase 2
+  sofFactionName: triglavianbase
+  sofHullName: tgs1_uc2
+  sofRaceName: triglavian
+22377:
+  description: TG construction phase 1
+  sofFactionName: triglavianbase
+  sofHullName: tgs1_uc1
+  sofRaceName: triglavian
+22378:
+  description: TG construction phase 3
+  sofFactionName: triglavianbase
+  sofHullName: tgs1_uc3
+  sofRaceName: triglavian
+22379:
+  description: TG site 1
+  sofFactionName: triglavianbase
+  sofHullName: tgsy01
+  sofRaceName: triglavian
+22380:
+  description: TG site 2
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_50000m
+  sofRaceName: generic
+22381:
+  description: TG site 3
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_50000m
+  sofRaceName: generic
+22382:
+  description: TriGlavian storage transfer facility
+  iconInfo:
+    folder: res:/dx9/model/Structure/TriGlavian/Storage/Tgs03/icons
+  sofFactionName: triglavianbase
+  sofHullName: tgs03_inactive
+  sofRaceName: triglavian
+22388:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_easter1.red
+  sofRaceName: caldari
+22391:
+  description: Cloud Cover Thunder Red
+  graphicFile: res:/fisfx/environment/cloudcover/cc_thunder_red_01a.red
+22394:
+  description: Placeholder primitive cone
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_primitive_cone
+  sofRaceName: generic
+22395:
+  description: Placeholder primitive cube
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_primitive_cube
+  sofRaceName: generic
+22396:
+  description: Placeholder primitive sphere
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_primitive_sphere
+  sofRaceName: generic
+22397:
+  description: Placeholder primitive cylinder
+  iconInfo:
+    folder: res:/dx9/model/placeholder/icons
+  sofFactionName: genericbase
+  sofHullName: placeholder_primitive_cylinder
+  sofRaceName: generic
+24400:
+  description: Impact effect for missile
+  graphicFile: res:/dx9/model/turret/launcher/holiday/holiday_impact_halloween.red
+  sofRaceName: caldari
+24406:
+  description: Katia Sae Monument
+  iconInfo:
+    folder: res:\dx9\model\deployables\generic\publicity\monument\pks\icons
+  sofFactionName: monumentpreset01
+  sofHullName: pks
+  sofRaceName: generic
+24407:
+  description: Amarr Hangar SOF
+  sofFactionName: amarrbase
+  sofHullName: ah1
+  sofRaceName: amarr
+24408:
+  description: Caldari Hangar SOF
+  sofFactionName: caldaribase
+  sofHullName: ch1
+  sofRaceName: caldari
+24409:
+  description: Gallente Hangar SOF
+  sofFactionName: gallentebase
+  sofHullName: gh1
+  sofRaceName: gallente
+24410:
+  description: Minmatar Hangar SOF
+  sofFactionName: minmatarbase
+  sofHullName: mh1
+  sofRaceName: minmatar
+24411:
+  description: Citadel Standard Hangar SOF
+  sofFactionName: upwell
+  sofHullName: gensh1_t1a
+  sofRaceName: generic
+24412:
+  description: Citadel Capital Hangar SOF
+  sofFactionName: upwell
+  sofHullName: gench1_t1a
+  sofRaceName: generic
