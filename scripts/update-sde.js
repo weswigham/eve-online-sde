@@ -7,9 +7,15 @@ const url = require("url");
 function nowInEVETime(namestring) {
     const now = new Date();
     const year = now.getUTCFullYear() - 2017 + 119; // 2017 is YC 119
-    const month = now.getUTCMonth();
+    const month = now.getUTCMonth() + 1; // HAHA, 0-indexed months
     const day = now.getUTCDate();
     return `${year}.${month}.${day}+${namestring}`;
+}
+
+function versionAsDate(versionstring) {
+    const parts = versionstring.split("+")[0].split(".");
+    const now = new Date();
+    return new Date(`${Number(parts[1])}/${Number(parts[2])}/${Number(parts[0]) - 119 + 2017} ${now.getHours()}:${now.getMinutes()}`); // mm/dd/yyyy hh:ss - (the hh:ss set to the current hour/second is just to prevent multiple updates in the same day)
 }
 
 scrapeIt("https://developers.eveonline.com/resource/resources", {
@@ -20,10 +26,9 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
     const versionedFilename = scrape.versioned_filename;
     if (typeof link !== "string" || typeof versionedFilename !== "string") throw new Error("Couldn't scrape SDE link!");
     const filename = require("path").basename(require("url").parse(versionedFilename).pathname);
-    const processedVersionName = filename.substring(0, filename.length - "_Types.zip".length).replace(/_/g, "-") // Remove _Types.zip
+    const processedVersionName = filename.substring(0, filename.length - "_Types.zip".length).replace(/_/g, "-") // Remove _Types.zip - in practice, CCP doesn't update the asset dumps very often nowadays, unfortunately, so this mostly just marks the last time assets got dumped
     const current = require("../package.json").version;
-    const currNameString = current.match(/(\d+)\.(\d+)\.(\d+)\+(.*)/);
-    if (currNameString !== null && currNameString[4] === processedVersionName) return console.log(`Already at version ${processedVersionName}, not redownloading SDE.`);
+    const lastVersionDate = versionAsDate(current);
     const version = nowInEVETime(processedVersionName);
 
     const https = require("https");
@@ -34,8 +39,19 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
     try { fs.unlinkSync("sde.zip"); } catch(e) {} // Attempt to remove existing sde zip
     const file = fs.createWriteStream("sde.zip");
 
-    console.log(`Downloading ${link} as sde.zip...`);
-    const request = https.get(link, response => {
+    const lastUpdateStr = lastVersionDate.toUTCString();
+    console.log(`Downloading ${link} as sde.zip if newer than ${lastUpdateStr}...`);
+    const request = https.get(link, {
+        headers: {
+            "If-Modified-Since": lastUpdateStr
+        }
+    }, response => {
+        if (response.statusCode === 304) {
+            // Not modified
+            console.log(`SDE not modified since ${lastVersionDate.toUTCString()}, nothing to do.`);
+            return;
+        }
+        console.log(`Last SDE update: ${response.headers["last-modified"]}`);
         let size = 0;
         const responseSize = response.headers["content-length"];
         console.log(`Response size is ${responseSize} bytes.`);
