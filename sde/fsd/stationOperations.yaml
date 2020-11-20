@@ -1,0 +1,3017 @@
+1:
+  activityID: 1
+  border: 0.0
+  corridor: 0.2
+  descriptionID:
+    de: Erzeugt Vieh und Getreide, das an Nahrungsverarbeitungseinheiten verschickt
+      wird.
+    en: Makes livestock and grain that is shipped to food processing units.
+    fr: Produit le bétail et le grain destinés aux unités de transformation des aliments.
+    ja: 生命体と穀物を生産して食品加工ユニットに送る。
+    ko: 음식 가공 유닛으로 운송되는 가축과 곡물을 만듭니다.
+    ru: Выращивает домашний скот и зерно, которые отправляются в центры производства
+      продуктов питания.
+    zh: 生产运送到食品加工厂的家畜和粮食。
+  fringe: 0.7
+  hub: 0.1
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Plantage
+    en: Plantation
+    fr: Plantation
+    ja: プランテーション
+    ko: 플랜테이션
+    ru: Агрокомплекс
+    zh: 种植园
+  ratio: 0.65
+  researchFactor: 0.98
+  services:
+  - 3
+  - 5
+  - 7
+  - 17
+  - 19
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2499
+    4: 1930
+    8: 3866
+    16: 3865
+2:
+  activityID: 1
+  border: 0.3
+  corridor: 0.2
+  descriptionID:
+    de: Produziert Lebensmittel, die an Warenhäuser verschickt werden.
+    en: Makes food that is shipped to warehouses.
+    fr: Produit la nourriture destinée aux entrepôts.
+    ja: 食品を生産して保管倉庫に送る。
+    ko: 창고로 운송되는 음식을 만듭니다.
+    ru: Изготавливает пищу, которая отправляется на склады.
+    zh: 生产要运到仓库的食品。
+  fringe: 0.0
+  hub: 0.5
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Lebensmittel-Verpackungsanlage
+    en: Food Packaging
+    fr: Emballage de la nourriture
+    ja: 食品梱包
+    ko: 식품 포장
+    ru: Упаковочная фабрика
+    zh: 食品包装厂
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 3
+  - 5
+  - 7
+  - 17
+  - 19
+  - 20
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4024
+    2: 2497
+    4: 1928
+    8: 3866
+    16: 3865
+3:
+  activityID: 1
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und liefert Güter an externe Händler oder Produktions-Corporations.
+    en: Stores products and shifts goods to external retailers or production corporations.
+    fr: Stocke les marchandises destinées aux revendeurs externes ou aux corporations
+      de production.
+    ja: 物資を保管して小売業者や加工会社に引き渡す。
+    ko: 제품을 보관하고 외부 유통업체나 생산업체로 상품을 옮깁니다.
+    ru: Хранит продукцию и доставляет товары производственным корпорациям и во внешние
+      центры розничной торговли.
+    zh: 储存产品以及把货物运送给外部零售商或者生产工厂。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.15
+  researchFactor: 0.98
+  services:
+  - 3
+  - 5
+  - 7
+  - 17
+  - 19
+  - 20
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+4:
+  activityID: 2
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Baut Mineralien von Asteroidengürteln und Nebeln ab.
+    en: Mines minerals from asteroid belts/clouds.
+    fr: Extrait le minerai brut des nuages et des ceintures d'astéroïdes.
+    ja: 無機物をアステロイドベルトやガス雲から採掘する。
+    ko: 소행성 벨트/성운에서 미네랄을 채굴합니다.
+    ru: Добывает полезные ископаемые в астероидных поясах и газовых облаках.
+    zh: 从行星带或者星云里面开采矿物。
+  fringe: 0.9
+  hub: 0.0
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Gießerei
+    en: Foundry
+    fr: Fonderie
+    ja: 鋳造工場
+    ko: 주조 공장
+    ru: Металлургический завод
+    zh: 铸造厂
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2499
+    4: 1930
+    8: 3867
+    16: 3865
+5:
+  activityID: 2
+  border: 0.1
+  corridor: 0.15
+  descriptionID:
+    de: Formt fertige Konstruktionsteile.
+    en: Molds finished construction pieces.
+    fr: Façonne des pièces de construction finalisées.
+    ja: 最終的な建設資材を成形する。
+    ko: 완성된 건설 부품을 주조합니다.
+    ru: Производит готовые строительные детали.
+    zh: 铸造完成的建筑零件。
+  fringe: 0.25
+  hub: 0.5
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Produktionsbetrieb
+    en: Production Plant
+    fr: Usine de production
+    ja: 製造工場
+    ko: 생산 공장
+    ru: Производственный комплекс
+    zh: 生产工厂
+  ratio: 0.5
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+6:
+  activityID: 2
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und Frachtgüter für Produktions-Corporations.
+    en: Stores product and freights goods to production corps.
+    fr: Stocke et expédie les marchandises destinées aux corporations de production.
+    ja: 物資を保管して加工会社に出荷する。
+    ko: 제품을 보관하고 상품을 생산업체로 운송합니다.
+    ru: Хранит продукцию и доставляет товары производственным корпорациям.
+    zh: 存储产品及货物，以供应生产部门。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.97
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+7:
+  activityID: 3
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Baut Mineralien von Asteroidengürteln und Nebeln ab.
+    en: Mines minerals from asteroid belts/clouds.
+    fr: Extrait le minerai brut des nuages et des ceintures d'astéroïdes.
+    ja: 無機物をアステロイドベルトやガス雲から採取する。
+    ko: 소행성 벨트/성운에서 미네랄을 채굴합니다.
+    ru: Добывает полезные ископаемые в астероидных поясах и газовых облаках.
+    zh: 从行星带或者星云里面开采矿物。
+  fringe: 0.9
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Bergbauaußenposten
+    en: Mining Outpost
+    fr: Avant-poste d'extraction minière
+    ja: 採掘アウトポスト
+    ko: 채굴기지
+    ru: Добывающий комплекс
+    zh: 矿冶站
+  ratio: 0.65
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4023
+    2: 2499
+    4: 1930
+    8: 3865
+    16: 3865
+8:
+  activityID: 3
+  border: 0.45
+  corridor: 0.1
+  descriptionID:
+    de: Veredelt Mineralien und erzeugt so reine Barren und Gestein.
+    en: Refines the minerals, making purified ingots and rock materials.
+    fr: Raffine les minerais pour produire des lingots et des roches de matériau purifié.
+    ja: 無機物を精錬し、高純度のインゴットや塊に加工する。
+    ko: 미네랄을 정제하여 정제된 주괴와 암석 자재를 만듭니다.
+    ru: Перерабатывает полезные ископаемые, производя очищенные слитки и каменную
+      продукцию.
+    zh: 精炼矿石，生产纯净的钢锭和礁石材料。
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Raffinerie
+    en: Refinery
+    fr: Raffinerie
+    ja: 精錬所
+    ko: 정제소
+    ru: Обогатительная фабрика
+    zh: 精炼厂
+  ratio: 0.15
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4024
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+9:
+  activityID: 3
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und Frachtgüter für Produktions-Corporations.
+    en: Stores product and freights goods to production corps.
+    fr: Stocke et expédie les marchandises destinées aux corporations de production.
+    ja: 物資を保管して加工会社に出荷する。
+    ko: 제품을 보관하고 상품을 생산업체로 운송합니다.
+    ru: Хранит продукцию и доставляет товары производственным корпорациям.
+    zh: 存储产品及货物，以供应生产部门。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Mineralienvorrat
+    en: Mineral Reserve
+    fr: Réserve de minéraux
+    ja: 無機物保管庫
+    ko: 미네랄 비축고
+    ru: Хранилище минерального сырья
+    zh: 矿物储备
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4023
+    2: 2501
+    4: 1929
+    8: 3865
+    16: 3865
+10:
+  activityID: 4
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Gewinnt Chemikalien aus Asteroidengürteln und Nebeln.
+    en: Extracts chemicals from asteroid belts/clouds.
+    fr: Extrait les produits chimiques des nuages et des ceintures d'astéroïdes.
+    ja: 化合物をアステロイドベルトやガス雲から採取する。
+    ko: 소행성 벨트/성운에서 화학물질을 추출합니다.
+    ru: Извлекает химикаты из астероидных поясов и газовых облаков.
+    zh: 从行星带或者星云里吸取化学药品。
+  fringe: 0.9
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Aufbereitungsanlage
+    en: Reprocessing Facility
+    fr: Installation de retraitement
+    ja: 精錬工場
+    ko: 재처리 시설
+    ru: Перерабатывающий центр
+    zh: 回收设施
+  ratio: 0.1
+  researchFactor: 0.97
+  services:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4023
+    2: 2499
+    4: 1930
+    8: 3867
+    16: 3865
+11:
+  activityID: 4
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Veredelt die abgebauten Chemikalien und fabriziert so abgefüllte Produkte.
+    en: Refines the harvested chemicals, making bottled products.
+    fr: Raffine les produits chimiques collectés pour créer des produits en bouteille.
+    ja: 採掘した化合物を精製し、ボトル詰め製品にする。
+    ko: 수확한 화학물질을 정제하여 병제품을 만듭니다.
+    ru: Перерабатывает собранные химикаты и выпускает готовую продукцию.
+    zh: 精炼收集的化学物品，制造瓶装的产品。
+  fringe: 0.0
+  hub: 0.9
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Chemische Raffinerie
+    en: Chemical Refinery
+    fr: Raffinerie chimique
+    ja: 化合物精錬所
+    ko: 화학 정제소
+    ru: Химический завод
+    zh: 化学精炼厂
+  ratio: 0.8
+  researchFactor: 0.97
+  services:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+12:
+  activityID: 4
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und liefert Güter an Produktions-Corporations.
+    en: Stores products and shifts goods to production corporations.
+    fr: Stocke les marchandises destinées aux corporations de production.
+    ja: 物資を保管して加工会社に引き渡す。
+    ko: 제품을 보관하고 생산업체로 상품을 옮깁니다.
+    ru: Хранит продукцию и поставляет товары производственным корпорациям.
+    zh: 储存产品和把货物送到生产工厂。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.97
+  operationNameID:
+    de: Chemisches Lager
+    en: Chemical Storage
+    fr: Entrepôt chimique
+    ja: 化合物保管庫
+    ko: 화학 저장고
+    ru: Хранилище химсырья
+    zh: 化工贮存厂
+  ratio: 0.1
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+13:
+  activityID: 5
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Erstellt Pläne und Blueprints, die an Fertigungsanlagen geschifft werden.
+    en: Makes plans and blueprints that are shipped to Assembly Plant.
+    fr: Produit des plans et des plans de construction destinés à l'usine de montage.
+    ja: 計画とブループリントを作成し組み立てプラントに送る。
+    ko: 조립 공장으로 운송되는 설계도와 블루프린트를 만듭니다.
+    ru: Создает планы и чертежи для сборочных заводов.
+    zh: 制造运送给装配车间的设计图和蓝图。
+  fringe: 0.9
+  hub: 0.0
+  manufacturingFactor: 0.97
+  operationNameID:
+    de: Prüfeinrichtungen
+    en: Testing Facilities
+    fr: Installation d'essai
+    ja: 試験施設
+    ko: 시험시설
+    ru: Испытательный центр
+    zh: 测试设施
+  ratio: 0.2
+  researchFactor: 0.97
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 54
+    2: 2500
+    4: 1931
+    8: 3869
+    16: 3865
+14:
+  activityID: 5
+  border: 0.3
+  corridor: 0.1
+  descriptionID:
+    de: Produziert Waffen und Munition, die zwecks Lagerung verschifft werden.
+    en: Produces weapons and ammunition that are shipped for storage.
+    fr: Produit des armes et des munitions destinées à être stockées.
+    ja: 兵器と弾薬を生産し保管庫に輸送する。
+    ko: 저장고로 운송되는 무기와 탄약을 생산합니다.
+    ru: Производит оружие и боеприпасы, отправляемые на склады.
+    zh: 生产储存舰船使用的武器和弹药。
+  fringe: 0.0
+  hub: 0.6
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Montagewerk
+    en: Assembly Plant
+    fr: Usine d’assemblage
+    ja: 組み立て工場
+    ko: 조립 공장
+    ru: Сборочный комплекс
+    zh: 组装车间
+  ratio: 0.55
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 1529
+    2: 2498
+    4: 1927
+    8: 3867
+    16: 3865
+15:
+  activityID: 5
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und Frachtgüter für externe Einzelhändler.
+    en: Stores product and freights goods to external retailers.
+    fr: Stocke et expédie les marchandises destinées aux revendeurs externes.
+    ja: 物資を保管し小売業者に出荷する。
+    ko: 제품을 보관하고 상품을 외부 유통업체로 운송합니다.
+    ru: Хранит продукцию и доставляет товары во внешние торговые центры.
+    zh: 储存产品并把货物运送给外部的零售商。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Logistische Unterstützung
+    en: Logistic Support
+    fr: Soutien logistique
+    ja: 軍事支援施設
+    ko: 병참 지원
+    ru: Центр снабжения
+    zh: 后勤支援部
+  ratio: 0.25
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 11
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 1530
+    2: 2501
+    4: 1929
+    8: 3868
+    16: 3865
+16:
+  activityID: 6
+  border: 0.0
+  corridor: 0.3
+  descriptionID:
+    de: Sammelt Rohstoffe von einem Planeten.
+    en: Harvests resources from a planet.
+    fr: Collecte les ressources d'une planète.
+    ja: 惑星から資源を採掘する。
+    ko: 행성에서 자원을 수확합니다.
+    ru: Собирает с планет ресурсы.
+    zh: 从行星采集资源。
+  fringe: 0.7
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Biotech Forschungszentrum
+    en: Biotech Research Center
+    fr: Centre de recherche biotechnologique
+    ja: バイオ技術研究所
+    ko: 생명공학 연구 센터
+    ru: Центр биотехнологий
+    zh: 生化科技研究中心
+  ratio: 0.2
+  researchFactor: 0.95
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 11
+  - 12
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 54
+    2: 2499
+    4: 1930
+    8: 3869
+    16: 3865
+17:
+  activityID: 6
+  border: 0.45
+  corridor: 0.1
+  descriptionID:
+    de: Produziert Biotech Produkte.
+    en: Produces Biotech products.
+    fr: Génère des produits biotechnologiques.
+    ja: バイオテック製品を生産する。
+    ko: 생명공학 제품을 생산합니다.
+    ru: Производит биотехнологическую продукцию.
+    zh: 生产生化科技产品。
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Biotech Produktion
+    en: Biotech Production
+    fr: Production biotechnologique
+    ja: バイオ技術製造所
+    ko: 생명공학 생산 시설
+    ru: Биозавод
+    zh: 生化科技产品
+  ratio: 0.7
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 11
+  - 12
+  - 14
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+18:
+  activityID: 6
+  border: 0.0
+  corridor: 0.5
+  descriptionID:
+    de: Lagert und wiederverwertet Materialien, die als biologische Bedrohung eingestuft
+      sind.
+    en: Stores and recycles materials classified as biohazards.
+    fr: Stocke et recycle les matériaux classifiés en tant que substances à biorisque.
+    ja: バイオハザードに分類される資源を貯蔵しリサイクルする。
+    ko: 생물학적 위험 물질로 분류된 자원를 저장하고 재활용합니다.
+    ru: Хранит и перерабатывает материалы, классифицированные как биологически опасные.
+    zh: 储存和回收被划为生化污染物的材料。
+  fringe: 0.5
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Biologischer Sicherheitsbereich
+    en: Biohazard Containment Facility
+    fr: Installation de confinement de biorisque
+    ja: バイオハザード対策所
+    ko: 생물학적 위험 물질 격리 시설
+    ru: Биомогильник
+    zh: 生化污染物储藏设施
+  ratio: 0.1
+  researchFactor: 0.95
+  services:
+  - 3
+  - 5
+  - 7
+  - 10
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 54
+    2: 2501
+    4: 1929
+    8: 3869
+    16: 3865
+19:
+  activityID: 7
+  border: 0.0
+  corridor: 0.3
+  descriptionID:
+    de: Erzeugt Pläne und Blueprints, die an Fabriken verschifft werden.
+    en: Makes plans and blueprints that are shipped to Factory.
+    fr: Produit des plans et des plans de construction destinés à l'usine.
+    ja: 計画とブループリントを作成し工場に送る。
+    ko: 공장으로 운송되는 설계도와 블루프린트를 만듭니다.
+    ru: Создаёт планы и чертежи для заводов.
+    zh: 制造运送给工厂的设计图和蓝图。
+  fringe: 0.7
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Forschungszentrum
+    en: Research Center
+    fr: Centre de recherche
+    ja: 研究センター
+    ko: 연구 센터
+    ru: Научно-исследовательский центр
+    zh: 研究中心
+  ratio: 0.1
+  researchFactor: 0.95
+  services:
+  - 1
+  - 3
+  - 5
+  - 6
+  - 7
+  - 10
+  - 11
+  - 12
+  - 13
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 54
+    2: 2500
+    4: 1931
+    8: 3869
+    16: 3865
+20:
+  activityID: 7
+  border: 0.4
+  corridor: 0.1
+  descriptionID:
+    de: Produziert fertige Hi-Tech Produkte.
+    en: Produces finished hi-tech products.
+    fr: Crée des produits hi-tech finalisés.
+    ja: 完成したハイテク製品を生産する。
+    ko: 완성된 첨단 제품을 생산합니다.
+    ru: Производит готовую высокотехнологичную продукцию.
+    zh: 生产完成的高科技产品。
+  fringe: 0.0
+  hub: 0.5
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Fabrik
+    en: Factory
+    fr: Usine
+    ja: 工場
+    ko: 공장
+    ru: Фабрика
+    zh: 工厂
+  ratio: 0.8
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+21:
+  activityID: 7
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Produkte und verschifft Güter an externe Händler.
+    en: Stores product and freights goods to external retailers.
+    fr: Stocke et expédie les marchandises destinées aux revendeurs externes.
+    ja: 物資を保管し小売業者に出荷する。
+    ko: 제품을 보관하고 상품을 외부 유통업체로 운송합니다.
+    ru: Хранит продукцию и доставляет товары во внешние центры розничной торговли.
+    zh: 储存产品并把货物运送给外部的零售商。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.1
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 13
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+22:
+  activityID: 8
+  border: 0.45
+  corridor: 0.1
+  descriptionID:
+    de: Produziert Unterhaltungsmaterial, das zu Verlegern verschifft wird.
+    en: Produces entertainment material that is shipped to Publisher.
+    fr: Produit du matériel de divertissement destiné à l'éditeur.
+    ja: エンターテインメント商品を生産しパブリッシャに出荷する。
+    ko: 출판사로 운송되는 엔터테인먼트 물품을 생산합니다.
+    ru: Создает развлекательные материалы, которые отправляются издателю.
+    zh: 生产要运送给出版商的娱乐类用品。
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Entwicklungsstudio
+    en: Development Studio
+    fr: Studio de développement
+    ja: 開発スタジオ
+    ko: 개발 스튜디오
+    ru: Студийный комплекс
+    zh: 发展工作室
+  ratio: 0.8
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 16
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2496
+    4: 1931
+    8: 56
+    16: 3865
+23:
+  activityID: 8
+  border: 0.1
+  corridor: 0.1
+  descriptionID:
+    de: 'Lagert und vervielfältigt Unterhaltungsmaterial und verschickt es an Händler. '
+    en: Stores and multiplies the entertainment material and ships it to retailers.
+    fr: Stocke et développe le matériel de divertissement avant envoi aux revendeurs.
+    ja: エンターテーメント商品を保管し、まとめて、小売業者に出荷する。
+    ko: 엔터테인먼트 물품을 저장하고 증가시켜 유통업체로 운송합니다.
+    ru: Система хранения и копирования развлекательных материалов для последующей
+      дистрибуции через розничные сети.
+    zh: 生产并复制娱乐类用品然后把它运送给零售商。
+  fringe: 0.0
+  hub: 0.8
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Verlag
+    en: Publisher
+    fr: Éditeur
+    ja: 出版社
+    ko: 출판사
+    ru: Тиражный завод
+    zh: 出版社
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 16
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 3872
+    2: 2496
+    4: 1926
+    8: 57
+    16: 3865
+24:
+  activityID: 9
+  border: 0.0
+  corridor: 0.1
+  descriptionID:
+    de: Produziert Raumschiffe, die zur Lagerung an Lagerhangars geliefert werden.
+    en: Produces starships that are shipped for storage in Storage Bay.
+    fr: Produit des vaisseaux destinés à être stockés dans la plateforme de stockage.
+    ja: 宇宙船を生産しストレージベイに保管する。
+    ko: 저장 시설에 있는 저장고로 운송되는 함선을 생산합니다.
+    ru: Производит звездные корабли, которые направляются в отсек хранения.
+    zh: 生产恒星飞船，运送给贮存舱里的储存工厂。
+  fringe: 0.0
+  hub: 0.9
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Schiffswerft
+    en: Shipyard
+    fr: Chantier naval
+    ja: 造船所
+    ko: 쉽야드
+    ru: Кораблестроительный завод
+    zh: 造船
+  ratio: 0.8
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1530
+    2: 2498
+    4: 1927
+    8: 3868
+    16: 3865
+25:
+  activityID: 9
+  border: 0.5
+  corridor: 0.5
+  descriptionID:
+    de: Lagert Schiffe, bevor diese an Händler geliefert werden.
+    en: Stores ships before freighting them to retailers.
+    fr: Stocke des vaisseaux avant envoi aux revendeurs.
+    ja: 船を保管し小売業者に出荷する
+    ko: 유통업체에 함선을 운송하기 전에 함선을 보관합니다.
+    ru: Хранит корабли перед отправкой в торговые центры.
+    zh: 储存即将运送给零售商的飞船。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Lagerhangar
+    en: Storage Bay
+    fr: Baie de stockage
+    ja: バンカー
+    ko: 저장 시설
+    ru: Склад готовой продукции
+    zh: 贮存舱
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 3872
+    2: 2502
+    4: 1929
+    8: 3870
+    16: 3865
+26:
+  activityID: 10
+  border: 0.25
+  corridor: 0.25
+  descriptionID:
+    de: Lagert Fracht für andere Corporations, bevor sie an Händler geliefert wird.
+    en: Stores cargo for other corps before shipping it to retailers.
+    fr: Stocke des cargaisons destinées à d'autres corporations avant envoi aux revendeurs.
+    ja: 他社向けのカーゴを保管し小売業者に出荷する
+    ko: 화물을 유통업체에 운송하기 전에 다른 코퍼레이션을 위해 화물을 저장합니다.
+    ru: Хранит груз для других корпораций перед отгрузкой в торговые центры.
+    zh: 在运送给零售商之前储存其他工厂的货物。
+  fringe: 0.25
+  hub: 0.25
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Lager
+    en: Storage
+    fr: Stockage
+    ja: 貯蔵庫
+    ko: 저장고
+    ru: Перевалочная база
+    zh: 储存工厂
+  ratio: 1.0
+  researchFactor: 0.98
+  services:
+  - 3
+  - 5
+  - 7
+  - 13
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+27:
+  activityID: 11
+  border: 0.25
+  corridor: 0.25
+  descriptionID:
+    de: Lagert Produkte und verschifft Güter an Handelszentren.
+    en: Stores products and freights goods to retail center.
+    fr: Stocke et expédie les marchandises destinées au centre de vente au détail.
+    ja: 物資を保管して小売センターに出荷する。
+    ko: 제품을 보관하고 상품을 유통 센터로 운송합니다.
+    ru: Хранит продукцию и доставляет товары в центры розничной торговли.
+    zh: 储存产品以及把货物运送给零售中心。
+  fringe: 0.4
+  hub: 0.1
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.7
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+28:
+  activityID: 11
+  border: 0.45
+  corridor: 0.1
+  descriptionID:
+    de: Verkauft Waren von Warenhäusern an Konsumenten sowie Service-Stationen.
+    en: Sells goods from warehouses to consumers, and to service stations.
+    fr: Vend les marchandises stockées dans les entrepôts aux consommateurs et aux
+      stations de services.
+    ja: 倉庫から出した物資を一般消費者、およびサービスステーションに販売する。
+    ko: 창고에 있는 상품을 소비자와 서비스 정거장에 판매합니다.
+    ru: Продает товары со складов клиентам и центрам технического обслуживания.
+    zh: 把仓库里的东西出售给消费者，服务空间站。
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Handelszentrum
+    en: Retail Center
+    fr: Centre de vente au détail
+    ja: 小売センター
+    ko: 유통 센터
+    ru: Торговый центр
+    zh: 零售中心
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 17
+  - 18
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2496
+    4: 1926
+    8: 57
+    16: 3865
+29:
+  activityID: 12
+  border: 0.25
+  corridor: 0.25
+  descriptionID:
+    de: Lagert Produkte und verschifft Güter an Handelsposten.
+    en: Stores products and freights goods to Trading Post.
+    fr: Stocke et expédie les marchandises destinées au poste de commerce.
+    ja: 物資を保管してトレーディングポストに出荷する。
+    ko: 제품을 보관하고 상품을 무역 초소로 운송합니다.
+    ru: Хранит продукцию и доставляет товары в торговые посты.
+    zh: 储存产品以及把货物运送给商栈。
+  fringe: 0.5
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.5
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+30:
+  activityID: 12
+  border: 0.5
+  corridor: 0.15
+  descriptionID:
+    de: Verkauft Waren der Produktions-Corporations.
+    en: Sells wares received from production corps.
+    fr: Vend les marchandises reçues des corporations de production.
+    ja: 加工会社から受け取った衣服を販売する。
+    ko: 생산업체에서 받은 물품을 판매합니다.
+    ru: Продает товары, полученные от производственных корпораций.
+    zh: 销售从生产工厂送来的陶器。
+  fringe: 0.0
+  hub: 0.35
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Handelsposten
+    en: Trading Post
+    fr: Poste de commerce
+    ja: トレーディングポスト
+    ko: 무역 초소
+    ru: Торговая база
+    zh: 贸易站
+  ratio: 0.5
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 11
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2502
+    4: 1932
+    8: 3868
+    16: 3865
+31:
+  activityID: 13
+  border: 0.45
+  corridor: 0.1
+  descriptionID:
+    de: Liefert Berichte und erstellt Informationen über das Geschäftsfeld.
+    en: Delivers reports and provides information concerning the Bureau's field.
+    fr: Fournit des rapports et des informations concernant le domaine d'activités
+      du Bureau.
+    ja: レポートを提出し役所の分野に関する情報を提供する。
+    ko: 보고서를 전달하고 관청이 담당하는 영역에 관한 정보를 제공합니다.
+    ru: Доставляет отчеты и предоставляет информацию касательно зоны интересов Бюро.
+    zh: 发表报告和提供办公署领域的相关信息。
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Geschäftsstelle
+    en: Bureau Offices
+    fr: Locaux du Bureau
+    ja: 事務室
+    ko: 사무국
+    ru: Административный комплекс
+    zh: 办公事务所
+  ratio: 0.4
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 10
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2496
+    4: 1926
+    8: 56
+    16: 3865
+32:
+  activityID: 14
+  border: 0.0
+  corridor: 0.5
+  descriptionID:
+    de: Studiert Probleme innerhalb des Verwaltungssystems und bringt Personal hervor.
+    en: Studies issues within the administration system and produces personnel.
+    fr: Étudie les problèmes liés au système administratif et fournit du personnel.
+    ja: 管理システムの問題を分析し、人事に報告する。
+    ko: 행정 체계의 문제를 연구하고 인력을 생산합니다.
+    ru: Изучает административные вопросы и поставляет персонал.
+    zh: 行政系统内部以及生产人员发布的报告。
+  fringe: 0.5
+  hub: 0.0
+  manufacturingFactor: 0.97
+  operationNameID:
+    de: Akademie
+    en: Academy
+    fr: Académie
+    ja: 学院
+    ko: 아카데미
+    ru: Академия
+    zh: 学院
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 10
+  - 13
+  - 14
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 1529
+    2: 2502
+    4: 9857
+    8: 57
+    16: 3865
+33:
+  activityID: 14
+  border: 0.45
+  corridor: 0.15
+  descriptionID:
+    de: Liefert Berichte und veröffentlicht Regeln und Erklärungen, die das Amtsgebiet
+      betreffen.
+    en: Delivers reports and publishes rules and manifestos concerning the Bureau's
+      field.
+    fr: Fournit des rapports et publie des règlements et des manifestes concernant
+      le Bureau.
+    ja: レポートを提出し役所の分野に関するルールとマニフェストを公開する。
+    ko: 보고서를 전달하고 관청이 담당하는 영역에 관한 규정과 성명서를 배포합니다.
+    ru: Доставляет отчеты и публикует правила и бюллетени, касающиеся области деятельности
+      Бюро.
+    zh: 发表报告和公布办公署领域的相关章程和宣言。
+  fringe: 0.0
+  hub: 0.4
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Amt
+    en: Bureau
+    fr: Bureau
+    ja: 事務局
+    ko: 사무국
+    ru: Представительство
+    zh: 办公署
+  ratio: 0.7
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 10
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 1531
+    2: 2502
+    4: 1932
+    8: 56
+    16: 3865
+34:
+  activityID: 14
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Speichert Daten und Kreditanträge, mit denen das Amt arbeitet.
+    en: Stores data and kredit sheets for the Bureau to work with.
+    fr: Stocke des données et des livres de crédit destinés au Bureau.
+    ja: 担当の役所のためにデータとクレジットシートを保管する。
+    ko: 부서에서 작업할 데이터와 ISK 시트를 저장합니다.
+    ru: Хранит данные и кредитные ведомости для работы с ними в Бюро.
+    zh: 储存办公署用的数据和帐户信息。
+  fringe: 1.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Vermögensverwaltung
+    en: Treasury
+    fr: Ministère des Finances
+    ja: 宝物庫
+    ko: 재무부
+    ru: Представительство казначейства
+    zh: 财政部
+  ratio: 0.1
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 10
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  - 27
+  stationTypes:
+    1: 1530
+    2: 2498
+    4: 1927
+    8: 3868
+    16: 3865
+35:
+  activityID: 17
+  border: 0.05
+  corridor: 0.1
+  descriptionID:
+    de: Dient als Bank.
+    en: Works as a bank.
+    fr: Fonctionne comme une banque.
+    ja: 銀行として機能する。
+    ko: 은행처럼 작동합니다.
+    ru: Выполняет роль банка.
+    zh: 类似银行。
+  fringe: 0.0
+  hub: 0.85
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Verwahrungsort
+    en: Depository
+    fr: Dépôt
+    ja: 保管所
+    ko: 보관소
+    ru: Депозитарный центр
+    zh: 仓库
+  ratio: 0.7
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2502
+    4: 1932
+    8: 57
+    16: 3865
+36:
+  activityID: 17
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Lagert Daten und Kreditanträge, mit denen Banken arbeiten.
+    en: Stores data and kredit sheets for the Bank to work with.
+    fr: Stocke des données et des livres de crédit destinés à la Banque.
+    ja: 担当の銀行のためにデータとクレジットシートを保管する。
+    ko: 은행에서 작업할 데이터와 ISK 시트를 저장합니다.
+    ru: Хранит данные и кредитные ведомости для банков.
+    zh: 储存银行用的数据和信用表格。
+  fringe: 1.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Tresor
+    en: Vault
+    fr: Coffre
+    ja: 金庫
+    ko: 금고
+    ru: Центр хранения данных
+    zh: 保险库
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1530
+    2: 2501
+    4: 1927
+    8: 3868
+    16: 3865
+37:
+  activityID: 18
+  border: 0.5
+  corridor: 0.0
+  descriptionID:
+    de: Bringt Personal hervor und verkauft Skill-Pakete.
+    en: Produces personnel and sells skill packages.
+    fr: Fournit du personnel et vend des lots de compétences.
+    ja: 職員を任命し、スキルパッケージを販売する。
+    ko: 인력 훈련을 담당하고 스킬 패키지도 함께 판매하고 있습니다.
+    ru: Готовит кадры и продает пакеты изучения навыков.
+    zh: 培训人员和出售技能书。
+  fringe: 0.0
+  hub: 0.5
+  manufacturingFactor: 0.97
+  operationNameID:
+    de: Schule
+    en: School
+    fr: École
+    ja: 学校
+    ko: 학교
+    ru: Учебный центр
+    zh: 学校
+  ratio: 1.0
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2500
+    4: 1931
+    8: 57
+    16: 3865
+38:
+  activityID: 19
+  border: 0.45
+  corridor: 0.1
+  fringe: 0.0
+  hub: 0.45
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Fabrik
+    en: Factory
+    fr: Usine
+    ja: 工場
+    ko: 공장
+    ru: Фабрика
+    zh: 工厂
+  ratio: 0.8
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 4024
+    2: 2497
+    4: 1928
+    8: 3867
+    16: 3865
+39:
+  activityID: 19
+  border: 0.5
+  corridor: 0.5
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Warenlager
+    en: Warehouse
+    fr: Entrepôt
+    ja: 倉庫
+    ko: 창고
+    ru: Складской центр
+    zh: 库房
+  ratio: 0.2
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 13
+  - 14
+  - 17
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1531
+    2: 2501
+    4: 1929
+    8: 3870
+    16: 3865
+40:
+  activityID: 15
+  border: 0.5
+  corridor: 0.0
+  descriptionID:
+    de: Gerichtshöfe, an denen Justizangelegenheiten entschieden werden.
+    en: Court facilities where judicial matters are arbitrated.
+    fr: Tribunaux où les affaires judiciaires se tiennent.
+    ja: 法的問題を裁く司法施設。
+    ko: 사법 문제를 중재하는 법원 시설입니다.
+    ru: Судебные палаты, где разрешаются юридические вопросы
+    zh: 对司法问题进行仲裁的法庭设施。
+  fringe: 0.0
+  hub: 0.5
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Gericht
+    en: Tribunal
+    fr: Tribunal
+    ja: 裁判所
+    ko: 재판소
+    ru: Судебный центр
+    zh: 法庭
+  ratio: 0.4
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1530
+    2: 2496
+    4: 9857
+    8: 3868
+    16: 3865
+41:
+  activityID: 15
+  border: 0.2
+  corridor: 0.3
+  descriptionID:
+    de: Buchhaltungs- und Rechnungsprüfungsfirmen
+    en: Accounting and audit firms
+    fr: Entreprises de comptabilité et d'audit
+    ja: 弁護士事務所の会計と監査
+    ko: 회계 감사 회사
+    ru: Ведёт бухгалтерию и проводит аудит компаний.
+    zh: 会计和审计公司
+  fringe: 0.3
+  hub: 0.2
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Buchhaltung
+    en: Accounting
+    fr: Comptabilité
+    ja: 会計
+    ko: 회계
+    ru: Центр учёта и аудита
+    zh: 会计
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2500
+    4: 1931
+    8: 57
+    16: 3865
+42:
+  activityID: 15
+  border: 0.1
+  corridor: 0.3
+  fringe: 0.5
+  hub: 0.1
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Juristische Fakultät
+    en: Law School
+    fr: Faculté de droit
+    ja: ロースクール
+    ko: 법학 대학
+    ru: Юридический институт
+    zh: 律法学院
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 10
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 3871
+    2: 2502
+    4: 1929
+    8: 56
+    16: 3865
+43:
+  activityID: 13
+  border: 0.0
+  corridor: 0.3
+  descriptionID:
+    de: Lagert Verwaltungsdokumente und Daten.
+    en: Stores administrative documents and data.
+    fr: Stocke des données et des documents administratifs.
+    ja: 管理ドキュメントとデータを保管する。
+    ko: 행정 문서와 데이터를 저장합니다.
+    ru: Хранит административные документы и данные.
+    zh: 储存行政文档和数据。
+  fringe: 0.7
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Archive
+    en: Archives
+    fr: Archives
+    ja: 文書庫
+    ko: 아카이브
+    ru: Архивный центр
+    zh: 档案馆
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 9
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 1529
+    2: 2500
+    4: 1931
+    8: 57
+    16: 3865
+44:
+  activityID: 13
+  border: 0.5
+  corridor: 0.0
+  descriptionID:
+    de: Verbreitet Verwaltungsinformationen.
+    en: Distributes administrative information to the public.
+    fr: Distribue des informations administratives au public.
+    ja: 管理情報を一般に公開する。
+    ko: 행정 정보를 대중에게 배포합니다.
+    ru: Распространяет административную информацию среди широкой публики.
+    zh: 向公众发布行政信息。
+  fringe: 0.0
+  hub: 0.5
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Informationszentrum
+    en: Information Center
+    fr: Centre de renseignements
+    ja: 情報センター
+    ko: 정보센터
+    ru: Информационный центр
+    zh: 信息中心
+  ratio: 0.3
+  researchFactor: 0.98
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 7
+  - 9
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+  stationTypes:
+    1: 3872
+    2: 2502
+    4: 1926
+    8: 57
+    16: 3865
+45:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.6
+  operationNameID:
+    de: Fertigung
+    en: Manufacturing
+    fr: Production
+    ja: 製造所
+    ko: 제조
+    ru: Производство
+    zh: 制造
+  ratio: 0.0
+  researchFactor: 0.8
+  services:
+  - 1
+  - 3
+  - 10
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+46:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.95
+  operationNameID:
+    de: Raffinerie
+    en: Refining
+    fr: Raffinage
+    ja: 精錬所
+    ko: 정제소
+    ru: Переработка
+    zh: 精炼
+  ratio: 0.0
+  researchFactor: 0.8
+  services:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 13
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+47:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.8
+  operationNameID:
+    de: Klonen
+    en: Cloning
+    fr: Clonage
+    ja: クローン施設
+    ko: 클로닝
+    ru: Клонирование
+    zh: 克隆
+  ratio: 0.0
+  researchFactor: 0.7
+  services:
+  - 1
+  - 3
+  - 10
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+48:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.6
+  operationNameID:
+    de: Caldarischer Forschungsaußenposten
+    en: Caldari Research Outpost
+    fr: Avant-poste de recherche caldari
+    ja: カルダリ研究アウトポスト
+    ko: 칼다리 연구기지
+    ru: Исследовательская станция Caldari
+    zh: 加达里研究站
+  ratio: 0.0
+  researchFactor: 0.5
+  services:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+49:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.5
+  operationNameID:
+    de: Amarrianischer Fabrikaußenposten
+    en: Amarr Factory Outpost
+    fr: Avant-poste d'usine amarr
+    ja: アマー工場アウトポスト
+    ko: 아마르 공장기지
+    ru: Станция-фабрика Amarr
+    zh: 艾玛制造站
+  ratio: 0.0
+  researchFactor: 0.6
+  services:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+50:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.6
+  operationNameID:
+    de: Gallentischer Verwaltungsaußenposten
+    en: Gallente Administrative Outpost
+    fr: Avant-poste administratif gallente
+    ja: ガレンテ行政アウトポスト
+    ko: 갈란테 행정기지국
+    ru: Административная станция Gallente
+    zh: 盖伦特行政空间站
+  ratio: 0.0
+  researchFactor: 0.6
+  services:
+  - 1
+  - 3
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 15
+  - 17
+  - 19
+  - 21
+  - 22
+  - 23
+  - 26
+51:
+  activityID: 20
+  border: 0.0
+  corridor: 0.0
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.7
+  operationNameID:
+    de: Minmatarischer Service-Außenposten
+    en: Minmatar Service Outpost
+    fr: Avant-poste de service minmatar
+    ja: ミンマターサービスアウトポスト
+    ko: 민마타 지원기지
+    ru: Сервисная станция Minmatar
+    zh: 米玛塔尔服务哨站
+  ratio: 0.0
+  researchFactor: 0.6
+  services:
+  - 1
+  - 3
+  - 5
+  - 10
+  - 13
+  - 14
+  - 17
+  - 21
+  - 22
+  - 23
+  - 26
+52:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: 'Diese Station ist die Heimat der hochmodernen Forschungsanlage für Gravitonphysik
+      des Imperiums. Sich annähernden Schiffen wird nahe gelegt, sämtlichen Anweisungen
+      der Fluglotsen Folge zu leisten, da möglicherweise gefährliche Raumverzerrungen
+      in der unmittelbaren Nähe auftreten können.
+
+
+      Es wird allgemein davon ausgegangen, dass frühere Durchbrüche dieses Labors
+      für die fortschrittlichen Tarnfähigkeiten der Astero- und Stratios-Schiffe verantwortlich
+      sind. Der Zugang zum Labor und zu den Verwaltungsebenen ist strikt eingeschränkt
+      und alle Kapselpilotengäste sind ohne Ausnahmen an ihre Quartiere gebunden.'
+    en: 'This station houses the Sanctuary’s cutting-edge graviton physics research
+      facility. Approaching vessels are advised to carefully follow all instructions
+      from traffic controllers, as potentially hazardous spatial distortions may be
+      present in the immediate vicinity.
+
+
+      It is widely assumed that this laboratory’s previous breakthroughs are responsible
+      for the advanced cloaking capabilities of the Astero and Stratios class vessels.
+      Access to the laboratory and administrative levels are restricted and all capsuleer
+      guests are confined to their quarters without exception.'
+    fr: 'Cette station accueille le laboratoire de recherche de pointe en physique
+      des gravitons du Sanctuaire. Il est conseillé aux vaisseaux approchants de suivre
+      avec attention toutes les instructions venant des contrôleurs de trafic. Des
+      distorsions spatiales dangereuses pourraient être présentes dans les environs
+      immédiats.
+
+
+      Il est généralement admis que les avancées précédentes de ce laboratoire sont
+      responsables des capacités de camouflage avancées des vaisseaux de classe Astero
+      et Stratios. L''accès au laboratoire et aux niveaux administratifs est restreint
+      et tous les invités des capsuliers sont confinés dans leurs quartiers sans exception.'
+    ja: 'このステーション内には、重力量子力学に関するサンクチュアリの最先端の研究設備が保管されている。艦船に接近する際は、必ず交通管制の指示すべてに従ってくれ。危険な空間のゆがみが付近に発生している可能性がある。
+
+
+      アステロ級およびストラティオス級艦船の高度な遮蔽機能が実現したのは、この研究所の画期的な発明のおかげであると広く認識されている。研究や管理に関わる領域への立ち入りは禁止されている。外部のカプセラが招かれるのは居住区に限定されており、例外はない。'
+    ko: 이 정거장에는 생츄어리의 최신 중력 양자 물리 연구시설이 있습니다. 그 주변에는 위험한 공간 왜곡이 발생할 수 있기 때문에, 접근하는
+      함선들은 관제소의 모든 지시를 조심스럽게 따라야 합니다.<br><br>이 연구소가 가장 최근에 이룬 발견이야말로 아스테로 및 스트라티오급
+      함선의 상급 클로킹 능력의 기반이 분명할 거라고 추측되고 있습니다. 연구소와 관리자급 권한에 접근하는 모든 행위는 금지되어 있고, 캡슐리어
+      손님은 어떤 예외도 없이 자신의 숙소에만 머물러야 합니다.
+    ru: 'На этой станции размещена сверхсовременная исследовательская лаборатория
+      гравитационной физики «Приюта странников». Приближающимся кораблям рекомендовано
+      тщательно соблюдать инструкции диспетчеров: в непосредственной близости от станции
+      возможно возникновение потенциально опасных искажений метрики пространства.
+
+
+      Считается, что предыдущие научно-технические прорывы этой лаборатории позволили
+      обеспечить установку усовершенствованных систем маскировки на корабли проектов
+      «Астеро» и «Стратиос» Доступ к лаборатории и к блокам осуществления управленческой
+      деятельности ограничен: передвижение всех капсулёров без исключений ограничено
+      отведёнными им жилыми блоками.'
+    zh: '避难会的最尖端引力物理研究设施就位于这座空间站内。任何进出的舰船都须小心遵循交通控制员的指示，因为附近随时都可能出现危险的空间扭曲。
+
+
+      人们普遍认为阿斯特罗级和斯特修斯级先进的隐形技术就得益于这座实验室之前取得的突破性成果。实验室和行政楼层是严格禁止进入的，所有的飞行员访客都被限制只能在自己的舰长室中活动，从无例外。'
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.9
+  operationNameID:
+    de: 'Labor für angewandte Gravitation '
+    en: Applied Gravitation Laboratory
+    fr: Laboratoire de gravitation appliquée
+    ja: 応用重力研究室
+    ko: 응용 중력 연구실
+    ru: Лаборатория прикладной гравитоники
+    zh: 应用万有引力实验室
+  ratio: 0.0
+  researchFactor: 0.9
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+53:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: 'Diese Station beheimatet die führenden Sanctuary-Experten im Verhalten und
+      der Anatomie der mysteriösen Sleeper-Drohnen und wurde mit der Erforschung uralter,
+      aber immer noch funktionstüchtiger KI-Systeme beauftragt.
+
+
+      Unbestätigten Berichten im Jahr YC116 zufolge ist den Forschern dieses Instituts
+      gelungen, was einst als unmöglich galt: Die Erfassung und Einbehaltung von funktionstüchtigen
+      Sleeper-Drohnen. Der Großteil der Station ist nur für autorisiertes Sanctuary-Personal
+      zugänglich und eine geballte Anwesenheit von Sicherheitskräften demoralisiert
+      Schnüffler.'
+    en: 'Tasked with investigating ancient yet still functioning artificial intelligence
+      systems, this station is home to the Sanctuary’s foremost experts in the behavior
+      and anatomy of the enigmatic Sleeper drones.
+
+
+      Unconfirmed reports leaked in YC116 suggest that researchers at this institute
+      may have succeeded in what was once considered unachievable: capturing and containing
+      operational Sleeper drone subjects. The vast majority of the station is accessible
+      only to authorized Sanctuary personnel, and a heavy security presence discourages
+      snooping.'
+    fr: 'Chargée de mener des recherches sur des systèmes d''intelligence artificielle
+      anciens mais toujours fonctionnels, cette station regroupe les plus grands experts
+      du Sanctuaire en matière de comportement et anatomie des énigmatiques drones
+      sleeper.
+
+
+      Des rapports non confirmés ont divulgués en 116 après CY suggèrent que les chercheurs
+      de cet institut auraient réussi à effectuer ce qui était autrefois considéré
+      comme inatteignable : la capture et l''emprisonnement de sujets drones sleeper
+      opérationnels. La majeure partie de la station est accessible seulement au personnel
+      autorisé du sanctuaire, et la présence importante de personnel de sécurité décourage
+      les curieux.'
+    ja: '人工知能システムの研究を担うこのステーションは現在も機能しており、得体の知れないスリーパードローンの行動と生体に関してはサンクチュアリ随一である専門家たちの居住区となっている。
+
+
+      YC116年に漏えいした未確認の報告によると、本機関の研究員らは、かつて不可能と考えられていた、起動中のスリーパードローンの捕獲と収容に成功した可能性がある。ステーションの大半は、権限のあるサンクチュアリの人員しか立ち入ることが許可されていない。強固な警備によって情報が守られている。'
+    ko: 고대의 것이긴 해도 여전히 작동하는 인공지능 시스템을 조사해야 하는 이 정거장은 생츄어리 내 불가사의한 슬리퍼 드론의 행동 및 내부
+      구조 전문가들의 집입니다.<br><br>YC116년에 이곳에서 유출되었던 확인되지 않은 보고서에 따르면, 이 기관의 연구자들은 절대 성취할
+      수 없는 것으로 여겨졌던 것을 성공했다고 합니다. 바로 활동 중인 슬리퍼 드론 시험체를 잡아 가둔 것입니다. 정거장 내 대부분의 구역은
+      인가받은 생츄어리 관계자만이 접근할 수 있으며, 보안 또한 매우 삼엄해 염탐할 엄두조차 못 낼 정도입니다.
+    ru: 'На станции обитают лучшие эксперты «Приюта странников» в области поведения
+      и устройства загадочных дронов Спящих; их цель — исследование древних, но всё
+      ещё функционирующих систем искусственного интеллекта.
+
+
+      В 116 году по юлайскому летоисчислению, если верить неподтверждённой утечке,
+      исследователям этой лаборатории удалось совершить невозможное: захватить и сохранить
+      функционирующих дронов Спящих. Подавляющая часть станции доступна лишь авторизованным
+      представителям «Приюта странников»; системы безопасности, работа которых заметна
+      на каждом шагу, отбивают любопытство.'
+    zh: '这座空间站中集结了避难会最优秀的冬眠者无人机行为学和解剖学专家，旨在对古老却仍能发挥作用的人工智能系统进行研究。
+
+
+      新伊甸纪元116年一份未证实的报告披露，这里的研究人员已经获得了之前被认为不可能的突破：捕获并控制了仍能行动的冬眠者无人机。这座空间站的大部分地区只允许获授权的避难会工作人员进出，并有非常严格的安保措施防止窥探行为发生。'
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.9
+  operationNameID:
+    de: Institut für Paleokybernetik
+    en: Institute of Paleocybernetics
+    fr: Institut de paléo-cybernétique
+    ja: 原初的人工頭脳学研究所
+    ko: 팔레오사이버네틱스 연구소
+    ru: Институт палеокибернетики
+    zh: 古控制论学院
+  ratio: 0.0
+  researchFactor: 0.9
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+54:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: 'Die fortschrittliche, rundspektrale Sensoranlage, mit der diese Station ausgerüstet
+      ist, ermöglicht eine detaillierte Beobachtung und Verfolgung von Sleeper-Aktivitäten
+      überall in diesem riesigen Sonnensystem.
+
+
+      Diese Anlage dient auch als zentraler Verarbeitungsort für Daten, die aus Gravitationsfeldsensoren
+      gesammelt werden, die überall an den Stationen des Sanctuary in Thera angebracht
+      sind. Diese Infrastruktur erlaubt eine schnelle Lateration von nahen Unregelmäßigkeiten
+      in der Raum-Zeit, unabhängig davon, ob diese von normalen Scansonden erfasst
+      werden können oder nicht.'
+    en: 'The advanced omni-spectral sensor arrays equipped to this station enable
+      detailed observation and tracking of the Sleeper activity anywhere in this massive
+      star system.
+
+
+      This facility also serves as the central processing location for data fed from
+      gravitational field sensors fitted to each of the Sanctuary stations spread
+      across Thera. This infrastructure allows rapid trilateration of nearby irregularities
+      in space-time, whether they are detectable through normal scanner probes or
+      not.'
+    fr: 'Les modules de détection avancés omni-spectraux équipés de cette station
+      permettent d''effectuer des observations détaillées ainsi que de suivre l''activité
+      sleeper n''importe où dans ce système stellaire massif.
+
+
+      Cet établissement sert également au traitement central des données envoyées
+      depuis les détecteurs de champs gravitationnel équipés à chacune des stations
+      de sanctuaire autour de Thera. Cette infrastructure permet la trilatération
+      rapide des irrégularités environnantes dans l''espace-temps, qu''elles puissent
+      être détectées ou non par des sondes d''exploration.'
+    ja: 'ステーションに装備されている高性能のオムニスペクトルセンサーを使用すれば、スリーパーがこの広大なソーラーシステムのどこで活動していようとも、それを詳細に観測・追跡することができる。
+
+
+      ここはまた、テーラ中に散在する各サンクチュアリステーションに設置された重力フィールドセンサーから受信したデータの解析を行う中枢設備でもある。このインフラ設備により、付近の4次元宇宙の異常に対し三辺測量を素早く実施して、通常のスキャナープローブで検出できるかどうかを判断することが可能となった。'
+    ko: 정거장에 장착된 상급 옴니 스펙트럼 센서 시설은 이 광활한 항성계 내에서 슬리퍼의 활동을 자세히 관찰하고 추적할 수 있게 해줍니다<br><br>이
+      시설은 또한 테라 전역에 퍼져있는 각 생츄어리 정거장의 중력 양자 필드 센서로부터 수집된 데이터의 중앙 처리소 기능도 하고 있습니다. 이
+      인프라스트럭처는 평범한 스캐너 프로브에 감지되는지 여부와 관계없이, 주변 시공의 변칙을 빠르게 삼변 측량할 수 있습니다.
+    ru: 'Усовершенствованные мультиспектральные системы слежения, которыми оснащена
+      станция, позволяют вести тщательное наблюдение и отслеживание активности Спящих
+      по всей огромной планетной системы.
+
+
+      Кроме того, эта лаборатория служит главным центром обработки данных, получаемых
+      от датчиков гравитационного поля, размещённых на станциях «Приюта странников»
+      по периметру Теры. Таким образом обеспечивается быстрая триангуляция аномалий
+      в пространстве-времени, как отмечаемых, так и незаметных для стандартных разведзондов.'
+    zh: '这座空间站配备的先进的全光谱感应阵列可以观测并追踪这个庞大星系中任何地方的冬眠者活动。
+
+
+      这座设施还能对遍布席拉各地的避难会空间站中的引力场感应器收集到的数据进行集中处理。只要附近发生了时空异常，无论能不能用普通的扫描探针探测，这座建筑都能迅速观测到。'
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.9
+  operationNameID:
+    de: Überwachungsobservatorium
+    en: Surveillance Observatory
+    fr: Observatoire de surveillance
+    ja: 監視観測所
+    ko: 감시관측소
+    ru: Разведывательная обсерватория
+    zh: 监测天文台
+  ratio: 0.0
+  researchFactor: 0.9
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+55:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: 'Diese Station enthält Ausrüstung für den heiklen Vorgang, fullerenreiche
+      Gase und ihre Nebenprodukte weiterzuverabreiten und zu manipulieren. Die daraus
+      resultierenden Polymere finden überall in Thera Einsatzmöglichkeiten und sorgen
+      für die weitere Ausdehnung und Instandhaltung der Sanctuary-Expedition.
+
+
+      Kapselpilotengäste in der Station sind innerhalb bestimmter Zonen willkommen.
+      Die Benutzung der Hyprid-Reaktionsgleise ist jedoch ausschließlich auf autorisiertes
+      Sanctuary-Personal beschränkt.'
+    en: 'This station contains equipment dedicated to the delicate task of processing
+      and manipulating fullerene-rich gases and their byproducts. The resulting polymers
+      are used in multiple applications throughout Thera, enabling continued expansion
+      and maintenance of the Sanctuary’s expedition.
+
+
+      Capsuleer guests at the stations are welcome within clearly designated zones,
+      however use of the hybrid reaction lines is restricted to authorized Sanctuary
+      personnel only.'
+    fr: 'Cette station contient de l''équipement dédié à la tâche délicate du traitement
+      et de la manipulation de gaz riches en fullerène ainsi que de leurs produits
+      dérivés. Les polymères qui en résultent sont utilisés dans de multiples applications
+      à travers Thera, ce qui permet l''expansion et la maintenance continues de l''expédition
+      du sanctuaire.
+
+
+      Les capsuliers qui arrivent aux stations sont les bienvenus dans la limite des
+      zones clairement désignées. Les lignes de réaction hybride sont strictement
+      réservées au personnel autorisé du Sanctuaire.'
+    ja: 'さらに、フラーレン含有ガスとその副産物の処理や取り扱いといった、細心の注意を要する作業を実施できる設備も有している。生成したポリマーは、テーラの各地で様々な用途に使用される。このおかげでサンクチュアリはより広域の遠征を行えるようになったのだ。
+
+
+      専用の区域内であれば、外部のカプセラが立ち入っても何ら問題はない。だがハイブリッド反応線の使用については、権限のあるサンクチュアリの人員のみに限定される。'
+    ko: 이 정거장에는 퓰러렌이 풍부한 가스 및 부산물을 처리하고 조작하는 섬세한 작업 전담 장비가 갖춰져 있습니다. 그 결과물인 폴리머는 테라
+      전역에 걸쳐 다양하게 이용되고 있으며 생츄어리의 탐사를 지속적으로 확장하고 유지할 수 있도록 해줍니다.<br><br>이 정거장을 방문하는
+      캡슐리어 손님은 지정된 구역에서는 환영받지만, 하이브리드 반응로 작업 라인은 인가받은 생츄어리의 관계자만이 사용 가능하도록 제한되어 있습니다.
+    ru: 'На этой станции размещено оборудование, предназначенное для тонкой задачи
+      обработки и переработки богатых фуллеренами газов и продуктов их переработки.
+      Получаемые в результате полимеры расходуются в Тере в самых различных целях
+      и тем самым обеспечивают расширение и развитие экспедиции «Приюта странников».
+
+
+      Капсулёры на станциях приветствуются в пределах жестко обозначенных границ;
+      пользоваться линиями по производству полимеров могут лишь авторизованные сотрудники
+      «Приюта странников».'
+    zh: '这座空间站中的设备专为处理富含富勒烯的气云及其副产品而打造。产出的聚合物被用于席拉各地，为避难会的扩张和后勤保障提供支持。
+
+
+      来访的克隆飞行员只能在限定的地区活动，不过混合反应生产线只能由获授权的避难会工作人员使用。'
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.9
+  operationNameID:
+    de: Fullerene-Webstuhl
+    en: Fullerene Loom
+    fr: Surface en fullerène
+    ja: フラーレン織機
+    ko: 퓰러렌 직기
+    ru: Фуллереновая ткацкая фабрика
+    zh: 富勒烯纺织设施
+  ratio: 0.0
+  researchFactor: 0.9
+  services:
+  - 1
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 23
+  - 25
+  - 26
+106:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Diese Station wurde in eine Einrichtung
+      umgewandelt, die sich auf die biologische Anpassung von Lebensformen an eine
+      Vielzahl von Umgebungsbedingungen spezialisiert. Zu diesem Zweck dienen zahlreiche
+      Kammern, in denen sowohl Triglavianer als auch Nicht-Triglavianer je nach ihren
+      Bedürfnissen und den erforderlichen Umgebungsbedingungen angepasst werden.
+    en: Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  This
+      station has been turned into a facility focused on bioadaptation of lifeforms
+      to a variety of environmental conditions. The numerous chambers devoted to this
+      purpose are used to adapt both Triglavians and non-Triglavians, depending on
+      their needs and the environmental adjustments necessary.
+    fr: L'occupation triglavian d'une station spatiale implique généralement la transformation
+      de la majeure partie de son intérieur par rapport à son utilisation antérieure,
+      les clades étant apparemment incités à se servir de la station conquise pour
+      leurs intérêts plutôt que de détruire un élément potentiellement utile. Cette
+      station a été transformée en usine centrée sur la bioadaptation des formes de
+      vie à diverses conditions environnementales. Les nombreuses salles dédiées à
+      cet objectif sont utilisées pour l'adaptation à la fois des Triglavians et des
+      non-Triglavians, en fonction de leurs besoins et des ajustements environnementaux
+      nécessaires.
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 클레이드 및 서브클레이드들을
+      위한 "증명" 시설로 개조되었습니다. 현재는 생체적응 연구소로 운영되고 있으며 유기체가 극한 환경에서 생존할 수 있도록 개조 작업을 진행하고
+      있습니다. 정거장 내 대부분의 구역은 트리글라비안을 비롯한 비트리글라비안 개체의 생체 개조 작업에 사용되고 있습니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Эта станция
+      была превращена в объект, который специализируется на биологической адаптации
+      различных форм жизни к разнообразным внешним условиям. Она поделена на многочисленные
+      камеры, предназначенные как для триглавских, так и нетриглавских форм жизни,
+      условия содержания в которых различаются в зависимости от потребностей помещённых
+      в них индивидов и требований к конечному результату.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  这座空间站已被改造为一座研究设施，主要针对各种环境条件下的生命形态进行生化适应突变的相关研究。为这个目的而服务的众多舱室除了接纳三神裔之外，也根据环境变化需求而对非三神裔生命体进行适应突变。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Bioadaptionskammern
+    en: Bioadaptation Chambers
+    fr: Chambres de bioadaptation
+    ko: 바이오적응형 시설
+    ru: Камеры биоадаптации
+    zh: 生化适应舱室
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}
+109:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Die Klade, die diese Station übernommen
+      hat, hat sie in einen Terminus für die Rohstoffförderung verwandelt, die in
+      der gesamten Krai-Region betrieben wird. Die umfangreichen Verarbeitungsprozesse
+      erhalten offenbar auch Lieferungen aus dem Ressourcenabbau und von Überfällen
+      in System des bekannten Weltraums, die für die Triglavianer von Interesse sind.
+    en: Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  The
+      clade that seized this station saw fit to convert it to a terminus for the resource
+      extraction operations being carried out across its Krai. The vast processing
+      operations are evidently also receiving deliveries from resource harvesting
+      and raids taking place in Known Space systems of continued interest to the Triglavians.
+    fr: L'occupation triglavian d'une station spatiale implique généralement la transformation
+      de la majeure partie de son intérieur par rapport à son utilisation antérieure,
+      les clades étant apparemment incités à se servir de la station conquise pour
+      leurs intérêts plutôt que de détruire un élément potentiellement utile. Le clade
+      qui a pris possession de cette station a jugé bon de la convertir en un terminal
+      d'opérations d'extraction de ressources menées à travers sa Krai. Le vaste traitement
+      d'opérations reçoit aussi à l'évidence des livraisons issues de la collecte
+      de ressources et des raids effectués dans les systèmes de l'espace connu attirant
+      l'intérêt des Triglavians de manière continue.
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 클레이드 및 서브클레이드들을
+      위한 "증명" 시설로 개조되었습니다. 현재는 크라이 전역에서 수집한 자원을 추출하기 위한 장소로 활용되고 있습니다. 트리글라비안은 일반
+      우주에서 약탈 또는 추출한 자원을 정제하기 위해 해당 정거장을 사용하고 있습니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Клада,
+      завладевшая этой станцией, решила преобразовать её в сортировочный узел для
+      всех добывающих операций, которые проходят в этом Крае. На переработку сюда
+      поступают ресурсы, добываемые — в том числе и во время налётов — в системах
+      освоенной части космоса, представляющих интерес для Сообщества Триглава.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  占据这里的演化枝将其改造为全星系范围内的资源开采作业的终端。它巨大的提炼设施除了接受开采而来的资源外，还包括从三神裔觊觎的已知星系中掠夺来的资源。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Extraktionsterminus
+    en: Extractive Terminus
+    fr: Terminus extractif
+    ko: 추출형 터미너스
+    ru: Сортировочный узел
+    zh: 开采终端
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}
+110:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: 'Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Diese Station wurde in eine Einrichtung
+      umgewandelt, in der die kontrollierende Klade und ihre Unterkladen verschiedene
+      Formen der „Prüfung“ durchführen. Diese Verfahren scheinen eine komplexe Mischung
+      aus Tests und rituellem wie philosophischem Diskurs zu sein: eine Form konkreter
+      Dialektik, die darauf abzielt, den Wert von Individuen, Gruppen, Theorien, Ideologien,
+      Technologien, sozialen Praktiken und vielem mehr zu bestimmen.'
+    en: 'Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  This
+      station has been transformed into a facility devoted to the various forms of
+      "proving" being undertaken by the controlling clade and its subclades. These
+      procedures appear to be a complex mix of testing, ritual and philosophical discourse:
+      a form of concrete dialectics aimed at determining the worth of individuals,
+      groups, theories, ideologies, technology, social practices and more besides.'
+    fr: 'L''occupation triglavian d''une station spatiale implique généralement la
+      transformation de la majeure partie de son intérieur par rapport à son utilisation
+      antérieure, les clades étant apparemment incités à se servir de la station conquise
+      pour leurs intérêts plutôt que de détruire un élément potentiellement utile.
+      Cette station a été transformée en usine dédiée à différentes formes d''« expériences »
+      effectuées par le clade propriétaire et ses sous-clades. Ces procédures semblent
+      être un mélange complexe de discours expérimentaux, rituels et philosophiques :
+      une forme de dialectique concrète visant à déterminer la valeur des individus,
+      groupes, théories, idéologies, technologies, pratiques sociales et bien d''autres.'
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 클레이드 및 서브클레이드들을
+      위한 "증명" 시설로 개조되었습니다. "증명"은 다양한 실험, 의식, 그리고 철학적 담론을 바탕으로 한 검증 절차로 실질적인 담론을 통해
+      개인, 단체, 이론, 사상, 기술, 그리고 사회적 관습 등의 가치를 검증하는 데 활용됩니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Эта станция
+      была преобразована в объект, предназначенный для различного рода «испытаний»,
+      которые проводит владеющая станцией клада и её малые клады. Эти процедуры представляют
+      собой сложную смесь разного рода экспертиз, ритуалов и философских дискуссий,
+      предназначенных для оценки отдельных лиц, групп, теорий, идеологий, технологий
+      и так далее.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  这座空间站被改造为一座专门研究各种“试炼”的设施。这其中混合了复杂的测试，仪式和哲学论述：一种用来确定个体、群体、理论、观念、技术、社会实践和其他等等一切的价值的具体辩证法。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Testkomplex
+    en: Proving Complex
+    fr: Complexe d'expérimentation
+    ko: 증명 시설
+    ru: Полигонный комплекс
+    zh: 试炼复合体
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}
+111:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Die kontrollierende Klade hat diese Station
+      in eine Einrichtung umgewandelt, die als Mischung aus Kommunikationszentrum,
+      Datenverarbeitungsanlage und diplomatischem Anlaufpunkt fungiert. Es könnte
+      sich um eine spezialisierte Klasse von Prüfungszentren handeln, die sich auf
+      die semiotischen Aspekte der zutiefst dialektischen Denk- und Handlungsweise
+      konzentriert, die die Kultur Triglavias dominiert.
+    en: Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  The
+      controlling clade has turned this station into a facility that seems to be a
+      combination of communications hub, data processing complex and diplomatic venue.
+      It may be a specialized class of proving center focusing on the semiotic aspects
+      of the profoundly dialectical way of thinking and acting that dominates Triglavian
+      culture.
+    fr: L'occupation triglavian d'une station spatiale implique généralement la transformation
+      de la majeure partie de son intérieur par rapport à son utilisation antérieure,
+      les clades étant apparemment incités à se servir de la station conquise pour
+      leurs intérêts plutôt que de détruire un élément potentiellement utile. Le clade
+      qui en est devenu propriétaire a transformé cette station en une structure qui
+      semble être un hybride entre une plateforme de communication, un complexe de
+      traitement de données et un haut lieu diplomatique. Il s'agit peut-être d'un
+      type de centre d'essais se focalisant sur les aspects sémiotiques de la méthode
+      de pensée et d'action profondément dialectique qui domine dans la culture triglavian.
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 클레이드 및 서브클레이드들을
+      위한 "증명" 시설로 개조되었습니다. 현재는 데이터 처리, 통신, 그리고 외교사절을 위한 종합 시설로 활용되고 있습니다. 이 정거장은 트리글라비안
+      문화의 변증법적 행동 양식에 맞춰 설계되었습니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Клада,
+      владеющая этой станцией, превратила её в некий объект, сочетающий функции узла
+      связи, комплекса переработки данных и дипломатического центра. Возможно, это
+      особый испытательный центр, который специализируется на семиотических аспектах
+      сугубо диалектического образа мышления и действия, свойственного триглавской
+      культуре.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  占据这里的演化枝将其改造为一座融合了信息中继、数据处理和外事接待的综合场所。它也可能是一座特殊的试炼场，专注于主导了三神裔文化的符号化层面辩证性思考和行为方式。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Semiose-Theater
+    en: Semiosis Theater
+    fr: Théâtre sémiotique
+    ko: 세미오시스 상영관
+    ru: Театр семиозиса
+    zh: 符号化剧场
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}
+112:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Diese Station wurde aufgrund der Entscheidung
+      der kontrollierenden Klade, sie als Einrichtung zum Farmen von Mutaplasmiden
+      aller Art zu nutzen, umfassend umgebaut. Viele der Innenräume sind jetzt brodelnde
+      Höhlen, die mit der skurrilen halb-biologischen, halb-künstlichen evolutionären
+      Nanotechnologie gefüllt sind, mit der die Triglavianer Technologien entwickeln
+      und verändern.
+    en: Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  This
+      station has been significantly transformed by the occupying clade's decision
+      to use it as a facility dedicated to farming mutaplasmids of all kinds. Many
+      of the internal spaces are now seething caverns filled with the bizarre semi-biological,
+      semi-artificial form of evolutionary nanotechnology used by the Triglavians
+      to develop and adapt technology.
+    fr: L'occupation triglavian d'une station spatiale implique généralement la transformation
+      de la majeure partie de son intérieur par rapport à son utilisation antérieure,
+      les clades étant apparemment incités à se servir de la station conquise pour
+      leurs intérêts plutôt que de détruire un élément potentiellement utile. Cette
+      station a été considérablement transformée par la décision du clade qui l'occupe
+      de l'utiliser comme structure dédiée à l'élevage de tous types de mutaplasmides.
+      Nombre d'espaces intérieurs sont maintenant des grottes grouillant de formes
+      mi-biologiques, mi-artificielles, produits de la nanotechnologie évolutionnaire
+      dont les Triglavians se servent pour développer et adapter leurs technologies.
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 클레이드 및 서브클레이드들을
+      위한 "증명" 시설로 개조되었습니다. 현재는 정거장을 운영하는 클레이드의 지침에 따라 뮤타플라즈미드를 재배하고 있습니다. 정거장 내 대부분의
+      구역은 생체공학 물질을 생산하기 위해 개조되었으며 트리글라비안 나노기술 개발을 위해 운영되고 있습니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Эта станция
+      подверглась значительным преобразованиям, поскольку владеющая ею клада решила
+      использовать её для производства разнообразных мутаплазмидов. Существенная часть
+      внутренних залов станции превратилась в бурлящие каверны, заполненные жуткими
+      полуискусственными формами эволюционной нанотехнологии, которую Триглав использует
+      для разработки и адаптации технологий.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  这座空间站被占据这里的演化枝进行了大规模改造，将其作为一座专门进行突变质体制造的设施。空间站内部的大部分空间现在充满了怪异的半生物质，半人工合成的纳米科技形态，三神裔将其用于生化适应技术的研究。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Mutaplasmidenfarm
+    en: Mutaplasmid Farm
+    fr: Ferme de mutaplasmides
+    ko: 뮤타플라즈미드 생산시설
+    ru: Ферма мутаплазмидов
+    zh: 突变质体农场
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}
+113:
+  activityID: 7
+  border: 0.0
+  corridor: 0.0
+  descriptionID:
+    de: Die Besatzung einer Raumstation durch Triglavia schließt typischerweise die
+      Umwandlung eines Großteils des Innenraums mit ein, wobei die Kladen scheinbar
+      dazu neigen, die beschlagnahmte Station für ihre eigenen Zwecke zu nutzen, statt
+      ein nützliches Werkzeug zu zerstören. Die Sicherheit auf dieser Station ist
+      extrem stark und die kontrollierende Klade ist noch intoleranter als gewöhnlich,
+      wenn es um wahrgenommene Nichteinhaltungen und Verstöße von Bewohnern und Besuchern
+      geht. Der Kern der Station ist für alle außer die Elite-Troikas der Klade abgeschottet
+      und wird offenbar als Lagereinrichtung für einen Überschuss der wertvollsten
+      Ressourcen genutzt, die durch Abbauoperationen Triglavias gewonnen wurden.
+    en: Triglavian occupation of a space station typically involves converting much
+      of its interior from its former purpose, the Clades apparently being inclined
+      to use the seized station for their own ends rather than destroy a useful asset.  Security
+      within this station is extremely high and the controlling clade is even less
+      tolerant than usual when it comes to perceived infractions and violations by
+      residents or visitors. The core of the station is totally sealed off to all
+      but the elite troikas of the clade and is apparently being used as a storage
+      facility for a surplus of the most valuable resources obtained by Triglavian
+      harvesting operations.
+    fr: L'occupation triglavian d'une station spatiale implique généralement la transformation
+      de la majeure partie de son intérieur par rapport à son utilisation antérieure,
+      les clades étant apparemment incités à se servir de la station conquise pour
+      leurs intérêts plutôt que de détruire un élément potentiellement utile. La sécurité
+      au sein de cette station est extrêmement élevée et le clade propriétaire est
+      encore moins indulgent qu'habituellement envers les infractions et crimes perçus
+      de la part des résidents ou des visiteurs. Le cœur de cette station est fermé
+      pour tous à l'exception des troikas d'élite du clade et est apparemment utilisé
+      comme centre de stockage pour le surplus de la ressource la plus précieuse obtenue
+      par les opérations de récolte triglavian.
+    ko: 정거장 점령 시 트리글라비안은 구조물을 파괴하는 대신 내부 시설을 개조하여 재활용합니다. 해당 정거장은 최고 수준의 보안 조치가 적용되었으며
+      방문객 및 거주민이 규정을 위반할 경우에는 엄격한 처벌이 가해집니다. 정거장의 중심 구역은 희귀 자원을 보관하기 위한 저장 시설로 각 클레이드의
+      정예 트로이카들에게만 접근 권한이 부여되었습니다.
+    ru: После захвата космической станции Триглав, как правило, подвергает её значительным
+      внутренним преобразованиям. Судя по всему, клады считают, что лучше использовать
+      захваченную станцию в своих целях, чем уничтожать такой ценный ресурс. Безопасность
+      внутри этой станции находится на высочайшем уровне, и владеющая ею клада не
+      терпит никакого вмешательства в свои дела, а уж тем более нарушений со стороны
+      как своих обитателей, так и чужаков. Ядро станции полностью изолировано, и доступ
+      к нему имеют только элитные тройки клады — судя по всему, оно используется для
+      хранения излишков наиболее ценных ресурсов, добытых Триглавом.
+    zh: 三神裔占领空间站后通常会大幅改变它的内部结构和功能，很明显，三神裔旗下的演化枝更愿意把夺来的空间站化为己用，而非将其摧毁。  这座空间站的安保等级极高，占据这里的演化枝对居民或造访者的冒犯行为表现出不寻常的冷酷严苛。空间站的核心部位完全封闭，显然演化枝的高层将其作为一座存储设施，用来保管三神裔开采作业收集来的最具价值的资源。
+  fringe: 0.0
+  hub: 0.0
+  manufacturingFactor: 0.98
+  operationNameID:
+    de: Porevitium-Tresor
+    en: Porevitium Vault
+    fr: Chambre forte Porevitium
+    ko: 포레비티움 금고
+    ru: Поревитиевое хранилище
+    zh: 缺陷舱
+  ratio: 0.0
+  researchFactor: 0.98
+  services:
+  - 5
+  - 7
+  - 10
+  - 13
+  - 14
+  - 17
+  - 18
+  - 19
+  - 20
+  - 22
+  - 23
+  - 24
+  - 25
+  stationTypes: {}

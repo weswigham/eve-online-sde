@@ -254,7 +254,7 @@
         ja: 通貨
         ru: Деньги
         zh: 钱
-    published: false
+    published: true
     useBasePrice: false
 18:
     anchorable: false
@@ -3255,12 +3255,12 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Spannungsunterstützte Panzerung
-        en: Armor Plating Energized
-        fr: Plaque de blindage énergétique
+        de: Energized Armor Membrane
+        en: Energized Armor Membrane
+        fr: Membrane de blindage énergétique
         ja: 電磁加工アーマープレート
-        ru: Защитное покрытие брони с подкачкой
-        zh: 装甲电压式薄膜
+        ru: Подзаряжающаяся мембрана брони
+        zh: 电压装甲薄膜
     published: true
     useBasePrice: false
 328:
@@ -3285,12 +3285,12 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Panzerungsverstärker
-        en: Armor Reinforcer
-        fr: Renfort de blindage
+        de: Panzerplatte
+        en: Armor Plate
+        fr: Revêtement de blindage
         ja: アーマーレインフォーサー
-        ru: Дополнительная бронезащита
-        zh: 装甲强化装置
+        ru: Бронеплита
+        zh: 装甲附甲板
     published: true
     useBasePrice: false
 330:
@@ -3570,12 +3570,12 @@
     fittableNonSingleton: false
     iconID: 0
     name:
-        de: Panzerungsverstärker-Blueprint
-        en: Armor Reinforcer Blueprint
-        fr: Plan de construction Écran défensif de blindage
+        de: Panzerplatten-Blaupause
+        en: Armor Plate Blueprint
+        fr: Plan de construction Revêtement de blindage
         ja: アーマーレインフォーサーブループリント
-        ru: Чертеж дополнительной бронезащиты
-        zh: 装甲强化装置蓝图
+        ru: Чертёж бронеплиты
+        zh: 装甲附甲板蓝图
     published: true
     useBasePrice: true
 350:
@@ -8416,7 +8416,7 @@
         fr: Décrypteurs - Yan Jung
         ja: 解読器-ヤンユング
         ru: Файлы данных — Yan Jung
-        zh: 解码器—燕军
+        zh: 解码器—殷郡
     published: true
     useBasePrice: false
 734:
@@ -11275,12 +11275,12 @@
     categoryID: 32
     fittableNonSingleton: false
     name:
-        de: Verteidigungssysteme
-        en: Defensive Systems
-        fr: Systèmes défensifs
+        de: Verteidigungssubsystem
+        en: Defensive Subsystem
+        fr: Sous-système défensif
         ja: 防衛システム
-        ru: Оборонительные системы
-        zh: 防御系统
+        ru: Оборонительная подсистема
+        zh: 防御子系统
     published: true
     useBasePrice: false
 955:
@@ -11303,12 +11303,12 @@
     categoryID: 32
     fittableNonSingleton: false
     name:
-        de: Angriffssysteme
-        en: Offensive Systems
-        fr: Systèmes offensifs
+        de: Angriffssubsystem
+        en: Offensive Subsystem
+        fr: Sous-système offensif
         ja: 攻撃システム
-        ru: Наступательные системы
-        zh: 攻击系统
+        ru: Наступательная подсистема
+        zh: 攻击子系统
     published: true
     useBasePrice: false
 957:
@@ -11317,12 +11317,12 @@
     categoryID: 32
     fittableNonSingleton: false
     name:
-        de: Antriebssysteme
-        en: Propulsion Systems
-        fr: Systèmes de propulsion
+        de: Antriebssubsystem
+        en: Propulsion Subsystem
+        fr: Sous-système de propulsion
         ja: 推進力システム
-        ru: Двигательные системы
-        zh: 推进系统
+        ru: Двигательная подсистема
+        zh: 推进子系统
     published: true
     useBasePrice: false
 958:
@@ -11331,12 +11331,12 @@
     categoryID: 32
     fittableNonSingleton: false
     name:
-        de: Kernsysteme
-        en: Core Systems
-        fr: Systèmes cardinaux
+        de: Kernsubsystem
+        en: Core Subsystem
+        fr: Sous-système du noyau
         ja: エンジニアリングシステム
-        ru: Центральные системы
-        zh: 核心系统
+        ru: Подсистема ядра
+        zh: 核心子系统
     published: true
     useBasePrice: false
 959:
@@ -12085,9 +12085,9 @@
     name:
         de: Raffinierte Güter – Rang 2
         en: Refined Commodities - Tier 2
-        fr: Marchandises raffinées - Tier 2
+        fr: Marchandises raffinées - Tier 2
         ja: 2次加工品
-        ru: Очищенные товары — класс 2
+        ru: Очищенные товары — класс 2
         zh: 加工过的资源物品 - 第二等级
     published: true
     useBasePrice: true
@@ -12127,7 +12127,7 @@
     name:
         de: Spezialisierte Güter – Rang 3
         en: Specialized Commodities - Tier 3
-        fr: Marchandises spécialisées - Tier 3
+        fr: Marchandises spécialisées - Tier 3
         ja: 3次加工品
         ru: Специализированные товары — класс 3
         zh: 特种资源物品 - 第三等级
@@ -12141,9 +12141,9 @@
     name:
         de: Weiterentwickelte Güter – Rang 4
         en: Advanced Commodities - Tier 4
-        fr: Marchandises avancées - Tier 4
+        fr: Marchandises avancées - Tier 4
         ja: 最終加工品
-        ru: Продвинутые товары — класс 4
+        ru: Продвинутые товары — класс 4
         zh: 高级资源物品 - 第四等级
     published: true
     useBasePrice: false
@@ -12155,7 +12155,7 @@
     name:
         de: Grundlegende Güter – Rang 1
         en: Basic Commodities - Tier 1
-        fr: Marchandises de base - Tier 1
+        fr: Marchandises de base - Tier 1
         ja: 1次加工品
         ru: Базовые товары — класс 1
         zh: 基础资源物品 - 第一等级
@@ -13883,12 +13883,12 @@
     categoryID: 17
     fittableNonSingleton: false
     name:
-        de: Imperiale Kopfgeld-Vergütungsmarken
-        en: Empire Bounty Reimbursement Tags
-        fr: Insignes de remboursement de prime d'Empire
+        de: Verschlüsselte Kopfgeldwertpapiere
+        en: Bounty Encrypted Bonds
+        fr: Obligations cryptées de prime
         ja: 帝国懸賞1メガ回収タグ
-        ru: Жетоны получения наград за головы.
-        zh: 帝国追击赏金铭牌
+        ru: Зашифрованные облигации в награду за убийство
+        zh: 赏金加密债券
     published: true
     useBasePrice: true
 1249:
@@ -14587,7 +14587,7 @@
     categoryID: 66
     fittableNonSingleton: false
     name:
-        de: Struktur – Navigationsdienstmodul
+        de: Struktur – Navigationsdienstmodul
         en: Structure Navigation Service Module
         fr: Module de service pour navigation de structures
         ja: ストラクチャ ― スターゲートサービスモジュール
@@ -16093,7 +16093,7 @@
     name:
         de: 'Struktur: Kampfmodifikation M - Sensorverstärkung'
         en: Structure Combat Rig M - Boosted Sensors
-        fr: Optimisation de combat M pour structure – Amplification des détecteurs
+        fr: Optimisation de combat M pour structure – Amplification des détecteurs
         ja: ストラクチャ ― コンバットリグM（センサー分解能）
         ru: Боевая надстройка для средних сооружений — усиленные сенсоры
         zh: 建筑中型战斗改装件 - 感应增强
@@ -16199,10 +16199,10 @@
     name:
         de: 'Struktur: Kampfmodifikation L - Max. Ziele und Sensorverstärkung'
         en: Structure Combat Rig L - Max Targets and Sensor Boosting
-        fr: Optimisation de combat L pour structure – Cibles maximum et amplification
+        fr: Optimisation de combat L pour structure – Cibles maximum et amplification
             des détecteurs
         ja: ストラクチャ ― コンバットリグL（最大捕捉数およびセンサー分解能）
-        ru: Боевая надстройка для больших сооружений — увеличено макс. число целей
+        ru: Боевая надстройка для больших сооружений — увеличено макс. число целей
             и усилены сенсоры
         zh: 建筑战斗大型改装件 - 最大锁定目标数与感应增强
     published: true
@@ -16275,7 +16275,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation M - HS-Erzaufbereitung'
         en: OLD Structure Resource Rig M - HS Ore Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
             des minerais de HS
         ja: ストラクチャ ― リソースリグM（HS鉱石再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка руд метрополий
@@ -16290,7 +16290,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation L - Erzaufbereitung'
         en: OLD Structure Resource Rig L - Ore Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
             des minerais
         ja: ストラクチャ ― リソースリグL（鉱石再処理）
         ru: СТАРАЯ надстройка для больших сооружений — переработка руды
@@ -16305,7 +16305,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation XL - Aufbereitung'
         en: OLD Structure Resource Rig XL - Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure XL – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure XL – Retraitement
         ja: ストラクチャ ― リソースリグXL（再処理）
         ru: СТАРАЯ надстройка для сверхбольших сооружений — переработка ресурсов
         zh: 旧建筑资源超大型改装件 - 提炼
@@ -16702,7 +16702,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation M - LNS-Erzaufbereitung'
         en: OLD Structure Resource Rig M - LNS Ore Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
             des minerais de BS-SN
         ja: ストラクチャ ― リソースリグM（LNS鉱石再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка руд фронтира и
@@ -16718,7 +16718,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation M - Eisaufbereitung 1'
         en: OLD Structure Resource Rig M - Ice 1 Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
             de la glace 1
         ja: ストラクチャ ― リソースリグM（アイス1再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка льда 1
@@ -16733,7 +16733,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation M - Eisaufbereitung 2'
         en: OLD Structure Resource Rig M - Ice 2 Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure M – Retraitement
             de la glace 2
         ja: ストラクチャ ― リソースリグM（アイス2再処理）
         ru: СТАРАЯ надстройка для средних сооружений — переработка льда 2
@@ -16748,7 +16748,7 @@
     name:
         de: 'ALTE Struktur: Ressourcenmodifikation L - Eisaufbereitung'
         en: OLD Structure Resource Rig L - Ice Reprocessing
-        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
+        fr: ANCIEN module d’optimisation des ressources pour structure L – Retraitement
             de la glace
         ja: ストラクチャ ― リソースリグL（アイス再処理）
         ru: СТАРАЯ надстройка для больших сооружений — переработка льда
@@ -18817,7 +18817,7 @@
     name:
         de: Struktur - Bohranlage M - Effizienz
         en: Structure Drilling Rig M - Efficiency
-        fr: Optimisation de forage pour structure M – Efficience
+        fr: Optimisation de forage pour structure M – Efficience
         ru: Буровой модификатор средних сооружений - эффективность
         zh: 建筑钻探中型改装件 - 效率
     published: true
@@ -18830,7 +18830,7 @@
     name:
         de: Struktur - Bohranlage M - Stabilität
         en: Structure Drilling Rig M - Stability
-        fr: Optimisation de forage pour structure M – Stabilité
+        fr: Optimisation de forage pour structure M – Stabilité
         ru: Буровой модификатор средних сооружений - стабильность
         zh: 建筑钻探中型改装件 - 耐久
     published: true
@@ -18843,7 +18843,7 @@
     name:
         de: Struktur - Bohranlage L - Fertigkeit
         en: Structure Drilling Rig L - Proficiency
-        fr: Optimisation de forage pour structure L – Savoir-faire
+        fr: Optimisation de forage pour structure L – Savoir-faire
         ru: Буровой модуль больших сооружений - мастерство
         zh: 建筑钻探大型改装件 - 精通
     published: true
@@ -19081,7 +19081,7 @@
     name:
         de: 'Struktur: Reaktoranlage L - Effizienz'
         en: Structure Reactor Rig L - Efficiency
-        fr: Optimisation de réacteur pour structure L – Efficacité industrielle
+        fr: Optimisation de réacteur pour structure L – Efficacité industrielle
         ru: 'Надстройка для больших сооружений — реактор: эффективность'
         zh: 建筑反应堆大型改装件 - 效率
     published: true
@@ -19107,7 +19107,7 @@
     name:
         de: 'Struktur: Ressourcenmodifikation M - Asteroidenerzaufbereitung'
         en: Structure Resource Rig M - Asteroid Ore Reprocessing
-        fr: Optimisation des ressources pour structure M – Retraitement des minerais
+        fr: Optimisation des ressources pour structure M – Retraitement des minerais
             astéroïdaux
         ru: Надстройка для средних сооружений — переработка руды со спутников
         zh: 建筑资源中型改装件 - 小行星矿石提炼
@@ -19121,7 +19121,7 @@
     name:
         de: 'Struktur: Ressourcenmodifikation M - Eisaufbereitung'
         en: Structure Resource Rig M - Ice Reprocessing
-        fr: Optimisation des ressources pour structure M – Retraitement de la glace
+        fr: Optimisation des ressources pour structure M – Retraitement de la glace
         ru: Надстройка для средних сооружений — переработка льда
         zh: 建筑资源中型改装件 - 冰矿提炼
     published: true
@@ -19134,7 +19134,7 @@
     name:
         de: 'Struktur: Ressourcenmodifikation M - Monderzaufbereitung'
         en: Structure Resource Rig M - Moon Ore Reprocessing
-        fr: Optimisation des ressources pour structure M – Retraitement des minerais
+        fr: Optimisation des ressources pour structure M – Retraitement des minerais
             lunaires
         ru: Надстройка для средних сооружений — переработка руды с астероидов
         zh: 建筑资源中型改装件 - 卫星矿石提炼
@@ -19148,7 +19148,7 @@
     name:
         de: 'Struktur: Ressourcenmodifikation L - Aufbereitung'
         en: Structure Resource Rig L - Reprocessing
-        fr: Optimisation des ressources pour structure L – Retraitement
+        fr: Optimisation des ressources pour structure L – Retraitement
         ru: Надстройка для больших сооружений — переработка ресурсов
         zh: 建筑资源大型改装件 - 提炼
     published: true
@@ -19161,7 +19161,7 @@
     name:
         de: 'Struktur: Ressourcenmodifikation XL - Aufbereitung'
         en: Structure Resource Rig XL - Reprocessing
-        fr: Optimisation des ressources pour structure XL – Retraitement
+        fr: Optimisation des ressources pour structure XL – Retraitement
         ru: Тюнинг-модуль переработки, сверхбольшие сооружения - переработка
         zh: 建筑资源超大型改装件 - 提炼
     published: true
@@ -19214,7 +19214,7 @@
     name:
         de: SKIN 7 Tage
         en: 7-Day SKIN
-        fr: SKIN de 7 jours
+        fr: SKIN de 7 jours
         ru: 7-дневный шаблон
         zh: 7天涂装
     published: true
@@ -19227,7 +19227,7 @@
     name:
         de: SKIN 30 Tage
         en: 30-Day SKIN
-        fr: SKIN de 30 jours
+        fr: SKIN de 30 jours
         ru: 30-дневный шаблон
         zh: 30天涂装
     published: true
@@ -19240,7 +19240,7 @@
     name:
         de: SKIN 90 Tage
         en: 90-Day SKIN
-        fr: SKIN de 90 jours
+        fr: SKIN de 90 jours
         ru: 90-дневный шаблон
         zh: 90天涂装
     published: true
@@ -19253,7 +19253,7 @@
     name:
         de: SKIN 1 Jahr
         en: 1-Year SKIN
-        fr: SKIN de 1 an
+        fr: SKIN de 1 an
         ru: Годовой шаблон
         zh: 1年涂装
     published: true
@@ -19655,7 +19655,7 @@
         ru: Сведения о Триглаве
         zh: 三神裔数据
     published: true
-    useBasePrice: false
+    useBasePrice: true
 1996:
     anchorable: false
     anchored: false
@@ -19959,6 +19959,437 @@
         fr: Artefacts triglavian
         ru: Артефакты Триглава
         zh: 三神裔古物
+    published: false
+    useBasePrice: false
+4028:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Triglavia-Entitäten
+        en: Triglavian Entities
+        fr: Entités triglavian
+        ru: Объекты Триглава
+        zh: 三神裔实体
+    published: false
+    useBasePrice: false
+4029:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name:
+        de: Talassonit
+        en: Talassonite
+        fr: Talassonite
+        ru: Talassonite
+        zh: 塔拉岩
+    published: true
+    useBasePrice: false
+4030:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name:
+        de: Rakovene
+        en: Rakovene
+        fr: Rakovene
+        ru: Rakovene
+        zh: 拉克岩
+    published: true
+    useBasePrice: false
+4031:
+    anchorable: false
+    anchored: false
+    categoryID: 25
+    fittableNonSingleton: false
+    name:
+        de: Bezdnazin
+        en: Bezdnacine
+        fr: Bezdnacine
+        ru: Bezdnacine
+        zh: 贝兹岩
+    published: true
+    useBasePrice: false
+4033:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Zerstörungseffekt-Signalfeuer
+        en: Destructible Effect Beacon
+        fr: Balise d'effet destructible
+        ru: Маяк разрушительного эффекта
+        zh: 可摧毁的效果信标
+    published: false
+    useBasePrice: false
+4034:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: EDENCOM-Entitäten
+        en: EDENCOM Entities
+        fr: Entités EDENCOM
+        ru: Объекты ЭДЕНКОМа
+        zh: 伊甸联合防御阵线实体
+    published: false
+    useBasePrice: false
+4035:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Drifter-Entitäten
+        en: Drifter Entities
+        fr: Entités drifter
+        ru: Объекты скитальцев
+        zh: 流浪者实体
+    published: false
+    useBasePrice: false
+4036:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Sleeper-Entitäten
+        en: Sleeper Entities
+        fr: Entités sleeper
+        ru: Объекты Спящих
+        zh: 冬眠者实体
+    published: false
+    useBasePrice: false
+4037:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Raubdrohnen-Entitäten
+        en: Rogue Drone Entities
+        fr: Entités drones renégats
+        ru: Объекты восставших дронов
+        zh: 自由无人机实体
+    published: false
+    useBasePrice: false
+4040:
+    anchorable: false
+    anchored: false
+    categoryID: 91
+    fittableNonSingleton: false
+    name:
+        de: 180-Tage-SKIN
+        en: 180-Day SKIN
+        fr: SKIN 180 jours
+        ru: Окраска на 180 дней
+        zh: 180天涂装
+    published: true
+    useBasePrice: false
+4041:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Sprungfilamente
+        en: Jump Filaments
+        fr: Filaments de saut
+        ru: Прыжковые нити
+        zh: 跳跃纤维
+    published: true
+    useBasePrice: false
+4050:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Testfilamente des Abgrunds
+        en: Abyssal Proving Filaments
+        fr: Filaments d'expérimentation abyssaux
+        ru: Полигонные нити Бездны
+        zh: 深渊试炼纤维
+    published: true
+    useBasePrice: false
+4052:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Sprungfilament-Blaupause
+        en: Jump Filament Blueprint
+        fr: Plan de construction de filament de saut
+        ru: Чертеж прыжковых нитей
+        zh: 跳跃纤维蓝图
+    published: true
+    useBasePrice: false
+4053:
+    anchorable: false
+    anchored: false
+    categoryID: 11
+    fittableNonSingleton: false
+    name:
+        de: Irregular Capsule
+        en: Irregular Capsule
+        fr: Capsule Irregular
+        ru: Irregular Capsule
+        zh: 异常太空舱
+    published: false
+    useBasePrice: false
+4055:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Unsichtbares Signalfeuer
+        en: Invisible Beacon
+        fr: Balise invisible
+        ru: Невидимый маяк
+        zh: 看不见的信标
+    published: false
+    useBasePrice: false
+4057:
+    anchorable: false
+    anchored: false
+    categoryID: 30
+    fittableNonSingleton: false
+    name:
+        de: Masken
+        en: Masks
+        fr: Masques
+        ru: Маски
+        zh: 面具
+    published: true
+    useBasePrice: false
+4060:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name:
+        de: Vorton-Projektor
+        en: Vorton Projector
+        fr: Projecteur de vortons
+        ru: Вортонный проектор
+        zh: 电弧弦投射器
+    published: true
+    useBasePrice: false
+4061:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: false
+    name:
+        de: Fortschrittliches Kondensator-Paket
+        en: Advanced Condenser Pack
+        fr: Pack de condensateur avancé
+        ru: Улучшенный набор конденсаторов
+        zh: 高级电容包
+    published: true
+    useBasePrice: false
+4062:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: false
+    name:
+        de: Kondensator-Paket
+        en: Condenser Pack
+        fr: Pack de condensateur
+        ru: Набор конденсаторов
+        zh: 电容包
+    published: true
+    useBasePrice: false
+4064:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Vorton-Projektor-Blaupause
+        en: Vorton Projector Blueprint
+        fr: Plan de construction Projecteur de vortons
+        ru: Чертёж вортонного проектора
+        zh: 电弧弦投射器蓝图
+    published: true
+    useBasePrice: false
+4065:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für Kondensator-Paket
+        en: Condenser Pack Blueprint
+        fr: Plan de construction Pack de condensateur
+        ru: Чертёж набора конденсаторов
+        zh: 电容包蓝图
+    published: true
+    useBasePrice: false
+4066:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für fortschrittliches Kondensator-Paket
+        en: Advanced Condenser Pack Blueprint
+        fr: Plan de construction Pack de condensateur avancé
+        ru: Чертёж улучшенного набора конденсаторов
+        zh: 高级电容包蓝图
+    published: true
+    useBasePrice: false
+4067:
+    anchorable: false
+    anchored: false
+    categoryID: 7
+    fittableNonSingleton: false
+    name:
+        de: Vorton-Projektor-Upgrade
+        en: Vorton Projector Upgrade
+        fr: Amélioration de projecteur de vortons
+        ru: Улучшение вортонного проектора
+        zh: 电弧弦投射器升级装备
+    published: true
+    useBasePrice: false
+4069:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupausen für Vorton-Projektor-Upgrade
+        en: Vorton Projector Upgrade Blueprints
+        fr: Plans de construction Amélioration de projecteur de vortons
+        ru: Чертежи улучшения вортонного проектора
+        zh: 电弧弦投射器升级装备蓝图
+    published: true
+    useBasePrice: false
+4070:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Exotisches Artefakt
+        en: Exotic Artefact
+        fr: Artéfact exotique
+        ru: Экзотический артефакт
+        zh: 异种手工制品
+    published: true
+    useBasePrice: false
+4071:
+    anchorable: false
+    anchored: false
+    categoryID: 29
+    fittableNonSingleton: false
+    name:
+        de: Type Graveyard
+        en: Type Graveyard
+        fr: Type Graveyard
+        ru: Типовое кладбище
+        zh: 物品坟场
+    published: false
+    useBasePrice: false
+4072:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Abgelaufene Sprungfilamente
+        en: Expired Jump Filaments
+        fr: Filaments de saut expirés
+        ru: Просроченные прыжковые нити
+        zh: 过期的跳跃纤维
+    published: true
+    useBasePrice: false
+4073:
+    anchorable: false
+    anchored: true
+    categoryID: 11
+    fittableNonSingleton: false
+    iconID: 0
+    name:
+        de: Temporäre, statische Struktur
+        en: Temporary Collidable Structure
+        fr: Structure solide temporaire
+        ru: Временное разрушаемое сооружение
+        zh: 临时性可碰撞建筑
+    published: false
+    useBasePrice: false
+4079:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Gefechtsüberwachungssystem
+        en: Encounter Surveillance System
+        fr: Système de surveillance des affrontements
+        ru: Система наблюдения за столкновениями
+        zh: 事件监测装置
+    published: true
+    useBasePrice: false
+4081:
+    anchorable: false
+    anchored: false
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Gestörtes Tor
+        en: Disrupted Gate
+        fr: Portail perturbé
+        ru: Нестабильные гиперврата
+        zh: 受干扰的星门
+    published: false
+    useBasePrice: false
+4086:
+    anchorable: false
+    anchored: false
+    categoryID: 66
+    fittableNonSingleton: false
+    name:
+        de: Quantumkerne
+        en: Quantum Cores
+        fr: Réacteurs quantiques
+        ru: Квантовые ядра
+        zh: 量子芯
+    published: true
+    useBasePrice: true
+4087:
+    anchorable: false
+    anchored: false
+    categoryID: 17
+    fittableNonSingleton: false
+    name:
+        de: Triglavia-Weltraum-Filamente
+        en: Triglavian Space Filaments
+        fr: Filaments de l'espace triglavian
+        ru: Нити пространства Триглава
+        zh: 三神裔星系纤维
+    published: true
+    useBasePrice: true
+4088:
+    anchorable: false
+    anchored: false
+    categoryID: 8
+    fittableNonSingleton: true
+    iconID: 1721
+    name:
+        de: Burst-Unterbrechungssonden
+        en: Interdiction Burst Probes
+        fr: Sondes de salves d'interdiction
+        ru: Заградительные импульсные зонды
+        zh: 拦截脉冲波探针
     published: false
     useBasePrice: false
 350858:
