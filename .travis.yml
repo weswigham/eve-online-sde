@@ -17,9 +17,9 @@ script:
 - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then npm run update-sde || travis_terminate
   1; fi
 - if [[ $TRAVIS_EVENT_TYPE == "cron" ]]; then if [[ ! "$(git status -s)" =~ ^$ ]];
-  then git add sde; git add package.json; git commit -m 'Automatic SDE Update'; git
+  then git add sde; git add package.json; git add package-lock.json; git commit -m 'Automatic SDE Update'; git
   push -u upstream master; git tag $(node ./scripts/print-version.js); git push upstream
   --tags; fi; fi
 env:
   global:
-    secure: LZpdkzvOGcFc+tEbO6KVQ2E8PBYE/XiOoMkjq0pRrO5+Si3CL85KWNOJIMqQ7hR7LuDsOg+wwIw5lz2WdEA9/IT0shPlInfUG2+KXOArhI3tAyRFW2kIJTLr9UbCvKWy3WiWznWuy0lOymMKURkgfoiBsN2NbvldqaRMy7sPvXmGxJyWG6vp3DXaxO+b0lVbmmOqyIS3vNcQ77BvPtConrw+o8k6q1YCtzn0KJdZ2nCT55XMkfuxaWfIScVvYfyFEsQdgKcVpY4mja67Tw81MaaoHUxUcaL/8ZStAy8+9utCUZXFMmV5bbxX0CCi6KIQxCCL/EUOj82qq+Q9QX2aQkZy39C5Da1WAHX7Lr5E7a2knbWbZKkJqPDlxvX8JQpzijnKz6Dbxk53T7aAsN6I7Shz70y5CEAXyjNuCX7SCif9vnXKxuC6b7NF8vIrxxvOkrLXDMMR4izMy2wwGgtJwhNliQALUkX+euWpyUSAqhPLLwQxVRZhq5DZACHtuUWrBN2Mt13TiNd5jBgYAbLKjQ85OQhUsUfLdh2fZnlcIh7UCJYR7V2KAtiCuVxO/zK7g9Zw5lV4gpso7wHTVhDQBnpWRLOcRWJnjmBwLFxED3fuTSAp5sXlnxz+VhnA8njbr3gyG5gpnjTt+3q+oq/dQIQx1CHmC9qFHJU5S8UtDUU=
+    secure: jN3XXC7/JKXVQSFAOtZDTr3dCPmJkYyJGlJaiIxBIJrWON7hX0X5CG65BNOO8H45rb3GxAGeZ5XXmAkIBDZIhoc+DifCV3aUfmeTuV3wE/HT45ml+D+E3XZemWRq9F2FZGlb5ZgWK9aVcibeUMYKXV+u36rsb8asJlE7LCjlJy0chJShXiTCtigSF43QXVQYSeRIzG0IXigjfW/3uJpuVzk/AEfvZQGf+yFB6neOdPaYBEcXlFe/woU1YtF7z4hRwAkjflMPPUOA4XrroWOIkAlZQaIyqGI6I/O8ERbCceSNAJHHhgLIfrHEHYn2EA/FVOxKEQViN3aLB5HKJWzDa9zare5I/gzhbZbsV5oAFpQALs6V+nSP8GeFZ/KYwggrAeHYAk8cTM6oSaep7PCXMOaaq5Ox2cNJ68GICqq2aZ3B+NUV14R3FfR/n5hwqHK4/uwtuY42004uzc8NeYxAC7cPXSru5SzVrnYDDQXoNfoviw0wRBhWVngbChjbpOtipAApYae1DMAoUTIxcZ0LMkD020gDkUoy7X9bFGXfFkf7I8yCXfl8WFQqTaJhMqR6NSiuxq58ohMXPoAwtTXdPhZ1RQB/mOLCc6N7toPWkRS/mT2HyX9/qBjhNFKCpbsJG9HdBV/fivItktLHOrhl4k4diJV8mf2ElD66isLsArs=
