@@ -53,7 +53,7 @@
     ja: ローパワースロットが必要。
     ko: 로우 슬롯 전용 모듈
     ru: Требуется разъём малой мощности
-    zh: 需要一个低能量槽
+    zh: 需要低能量槽
   disallowAutoRepeat: false
   displayNameID:
     de: Low power
@@ -83,7 +83,7 @@
     ja: ハイパワースロットが必要。
     ko: 하이 슬롯 전용 모듈
     ru: Требуется разъём высокой мощности
-    zh: 需要一个高能量槽
+    zh: 需要高能量槽
   disallowAutoRepeat: false
   displayNameID:
     de: High power
@@ -113,7 +113,7 @@
     ja: ミディアムパワースロットが必要。
     ko: 미드 슬롯 전용 모듈
     ru: Требуется разъём средней мощности
-    zh: 需要一个中能量槽
+    zh: 需要中能量槽
   disallowAutoRepeat: false
   displayNameID:
     de: Medium power
@@ -315,6 +315,7 @@
     fr: Nécessite un point de fixation de lanceur
     ko: 런처 하드포인트 요구
     ru: Требуется точка монтажа пусковых установок
+    zh: 需要发射器挂点
   disallowAutoRepeat: false
   displayNameID:
     de: Werfer
@@ -322,6 +323,7 @@
     fr: Lanceur
     ko: 런처
     ru: Пусковая установка
+    zh: 发射器
   effectCategory: passive
   effectID: 40
   effectName: launcherFitted
@@ -341,6 +343,7 @@
     fr: Nécessite un point de fixation de tourelle
     ko: 터렛 하드포인트 요구
     ru: Требуется точка монтажа турелей
+    zh: 需要炮台挂点
   disallowAutoRepeat: false
   displayNameID:
     de: Geschützturm
@@ -348,6 +351,7 @@
     fr: Tourelle
     ko: 터렛
     ru: Турель
+    zh: 炮台
   effectCategory: passive
   effectID: 42
   effectName: turretFitted
@@ -70446,6 +70450,98 @@
     func: ItemModifier
     modifiedAttributeID: 265
     modifyingAttributeID: 1888
+    operation: postPercent
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8100:
+  disallowAutoRepeat: false
+  effectCategory: passive
+  effectID: 8100
+  effectName: shipBonusECMJamDroneDurationCF
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 2822
+    modifyingAttributeID: 463
+    operation: postPercent
+    skillTypeID: 3436
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8101:
+  disallowAutoRepeat: false
+  effectCategory: passive
+  effectID: 8101
+  effectName: roleBonusDroneDamage
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 117
+    modifyingAttributeID: 2091
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 114
+    modifyingAttributeID: 2091
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 116
+    modifyingAttributeID: 2091
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 118
+    modifyingAttributeID: 2091
+    operation: postPercent
+    skillTypeID: 3436
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8102:
+  disallowAutoRepeat: false
+  effectCategory: passive
+  effectID: 8102
+  effectName: shipBonusRole1DroneHitpointsDroneControlRange
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 263
+    modifyingAttributeID: 2298
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 265
+    modifyingAttributeID: 2298
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 9
+    modifyingAttributeID: 2298
+    operation: postPercent
+    skillTypeID: 3436
+  - domain: charID
+    func: ItemModifier
+    modifiedAttributeID: 458
+    modifyingAttributeID: 2298
     operation: postPercent
   propulsionChance: false
   published: false
