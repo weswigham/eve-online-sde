@@ -56962,72 +56962,6 @@
     skillTypeID: 3416
   - domain: shipID
     func: LocationRequiredSkillModifier
-    modifiedAttributeID: 1349
-    modifyingAttributeID: 1350
-    operation: 2
-    skillTypeID: 4385
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 267
-    modifyingAttributeID: 267
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 268
-    modifyingAttributeID: 268
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 269
-    modifyingAttributeID: 269
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 270
-    modifyingAttributeID: 270
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 113
-    modifyingAttributeID: 974
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 111
-    modifyingAttributeID: 975
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 109
-    modifyingAttributeID: 976
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 110
-    modifyingAttributeID: 977
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 271
-    modifyingAttributeID: 271
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 272
-    modifyingAttributeID: 272
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 273
-    modifyingAttributeID: 273
-    operation: 0
-  - domain: shipID
-    func: ItemModifier
-    modifiedAttributeID: 274
-    modifyingAttributeID: 274
-    operation: 0
-  - domain: shipID
-    func: LocationRequiredSkillModifier
     modifiedAttributeID: 54
     modifyingAttributeID: 351
     operation: 6
@@ -57080,6 +57014,108 @@
     modifyingAttributeID: 547
     operation: 6
     skillTypeID: 3324
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2307
+    operation: 6
+    skillTypeID: 3307
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2307
+    operation: 6
+    skillTypeID: 3309
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2307
+    operation: 6
+    skillTypeID: 3308
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2306
+    operation: 6
+    skillTypeID: 3326
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2306
+    operation: 6
+    skillTypeID: 3325
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2306
+    operation: 6
+    skillTypeID: 20213
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 2306
+    operation: 6
+    skillTypeID: 20212
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 267
+    modifyingAttributeID: 267
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 269
+    modifyingAttributeID: 269
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 268
+    modifyingAttributeID: 268
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 270
+    modifyingAttributeID: 270
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 113
+    modifyingAttributeID: 974
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 111
+    modifyingAttributeID: 975
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 109
+    modifyingAttributeID: 976
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 110
+    modifyingAttributeID: 977
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 271
+    modifyingAttributeID: 271
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 273
+    modifyingAttributeID: 273
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 272
+    modifyingAttributeID: 272
+    operation: 0
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 274
+    modifyingAttributeID: 274
+    operation: 0
   propulsionChance: false
   published: false
   rangeChance: false
@@ -70719,6 +70755,44 @@
     modifiedAttributeID: 902
     modifyingAttributeID: 280
     operation: 0
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8106:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 8106
+  effectName: shipPTdamageBonusMB2
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 518
+    operation: 6
+    skillTypeID: 3308
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8107:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 8107
+  effectName: shipBonusLETcapNeedAB2
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 6
+    modifyingAttributeID: 585
+    operation: 6
+    skillTypeID: 3309
   propulsionChance: false
   published: false
   rangeChance: false
