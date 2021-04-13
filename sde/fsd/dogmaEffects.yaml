@@ -32248,7 +32248,7 @@
   - domain: shipID
     func: LocationGroupModifier
     groupID: 1154
-    modifiedAttributeID: 73
+    modifiedAttributeID: 3115
     modifyingAttributeID: 66
     operation: 6
   propulsionChance: false
@@ -57017,43 +57017,43 @@
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2307
+    modifyingAttributeID: 3109
     operation: 6
     skillTypeID: 3307
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2307
+    modifyingAttributeID: 3109
     operation: 6
     skillTypeID: 3309
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2307
+    modifyingAttributeID: 3109
     operation: 6
     skillTypeID: 3308
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2306
+    modifyingAttributeID: 3108
     operation: 6
     skillTypeID: 3326
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2306
+    modifyingAttributeID: 3108
     operation: 6
     skillTypeID: 3325
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2306
+    modifyingAttributeID: 3108
     operation: 6
     skillTypeID: 20213
   - domain: shipID
     func: LocationRequiredSkillModifier
     modifiedAttributeID: 51
-    modifyingAttributeID: 2306
+    modifyingAttributeID: 3108
     operation: 6
     skillTypeID: 20212
   - domain: shipID
@@ -70733,9 +70733,9 @@
     skillTypeID: 57164
   - domain: charID
     func: OwnerRequiredSkillModifier
-    modifiedAttributeID: 901
-    modifyingAttributeID: 902
-    operation: 6
+    modifiedAttributeID: 902
+    modifyingAttributeID: 3110
+    operation: 2
     skillTypeID: 57164
   propulsionChance: false
   published: false
@@ -70752,7 +70752,7 @@
   modifierInfo:
   - domain: itemID
     func: ItemModifier
-    modifiedAttributeID: 902
+    modifiedAttributeID: 3110
     modifyingAttributeID: 280
     operation: 0
   propulsionChance: false
@@ -70793,6 +70793,341 @@
     modifyingAttributeID: 585
     operation: 6
     skillTypeID: 3309
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8108:
+  disallowAutoRepeat: false
+  effectCategory: 4
+  effectID: 8108
+  effectName: signatureRadiusBonusOnline
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 552
+    modifyingAttributeID: 3113
+    operation: 4
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8109:
+  disallowAutoRepeat: false
+  dischargeAttributeID: 6
+  durationAttributeID: 3115
+  effectCategory: 1
+  effectID: 8109
+  effectName: targetSpectrumBreakerBonus
+  electronicChance: false
+  guid: effects.Invulnerability
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 552
+    modifyingAttributeID: 3114
+    operation: 4
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8111:
+  disallowAutoRepeat: false
+  effectCategory: 7
+  effectID: 8111
+  effectName: systemElectricalStorm
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 271
+    modifyingAttributeID: 1489
+    operation: 6
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 113
+    modifyingAttributeID: 984
+    operation: 6
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 1909
+    modifyingAttributeID: 1915
+    operation: 2
+    skillTypeID: 21718
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 1909
+    modifyingAttributeID: 1915
+    operation: 2
+    skillTypeID: 13278
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 1371
+    modifyingAttributeID: 3095
+    operation: 6
+    skillTypeID: 3412
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 2454
+    modifyingAttributeID: 2454
+    operation: 2
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 55
+    modifyingAttributeID: 1500
+    operation: 4
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 267
+    modifyingAttributeID: 1465
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8112:
+  disallowAutoRepeat: false
+  effectCategory: 7
+  effectID: 8112
+  effectName: systemExoticStorm
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 600
+    modifyingAttributeID: 601
+    operation: 6
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 273
+    modifyingAttributeID: 1491
+    operation: 6
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 109
+    modifyingAttributeID: 986
+    operation: 6
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 564
+    modifyingAttributeID: 566
+    operation: 6
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 73
+    modifyingAttributeID: 3098
+    operation: 6
+    skillTypeID: 3393
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 73
+    modifyingAttributeID: 3098
+    operation: 6
+    skillTypeID: 21803
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 73
+    modifyingAttributeID: 3099
+    operation: 6
+    skillTypeID: 3416
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 73
+    modifyingAttributeID: 3099
+    operation: 6
+    skillTypeID: 21802
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 73
+    modifyingAttributeID: 203
+    operation: 6
+    skillTypeID: 3386
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 269
+    modifyingAttributeID: 1466
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8113:
+  disallowAutoRepeat: false
+  effectCategory: 7
+  effectID: 8113
+  effectName: systemGammaStorm
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 272
+    modifyingAttributeID: 1490
+    operation: 6
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 111
+    modifyingAttributeID: 985
+    operation: 6
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 84
+    modifyingAttributeID: 1498
+    operation: 4
+    skillTypeID: 16069
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 84
+    modifyingAttributeID: 1498
+    operation: 4
+    skillTypeID: 24568
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 263
+    modifyingAttributeID: 146
+    operation: 4
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 68
+    modifyingAttributeID: 1497
+    operation: 4
+    skillTypeID: 3422
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 68
+    modifyingAttributeID: 1497
+    operation: 4
+    skillTypeID: 24571
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 482
+    modifyingAttributeID: 1499
+    operation: 4
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 552
+    modifyingAttributeID: 652
+    operation: 4
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 268
+    modifyingAttributeID: 1468
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8114:
+  disallowAutoRepeat: false
+  effectCategory: 7
+  effectID: 8114
+  effectName: systemPlasmaStorm
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 270
+    modifyingAttributeID: 1467
+    operation: 6
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3300
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 118
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3319
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 114
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3319
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 116
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3319
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 117
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3319
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 3436
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 160
+    modifyingAttributeID: 244
+    operation: 4
+    skillTypeID: 3300
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 274
+    modifyingAttributeID: 1492
+    operation: 6
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 1482
+    operation: 4
+    skillTypeID: 23069
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 265
+    modifyingAttributeID: 148
+    operation: 4
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 654
+    modifyingAttributeID: 1967
+    operation: 4
+    skillTypeID: 3319
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 160
+    modifyingAttributeID: 244
+    operation: 4
+    skillTypeID: 3436
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 110
+    modifyingAttributeID: 987
+    operation: 6
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 2234
+    modifyingAttributeID: 1967
+    operation: 4
+    skillTypeID: 23069
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 2125
+    modifyingAttributeID: 1967
+    operation: 4
+    skillTypeID: 23069
   propulsionChance: false
   published: false
   rangeChance: false

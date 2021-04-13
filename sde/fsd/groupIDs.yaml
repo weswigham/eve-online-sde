@@ -12939,12 +12939,12 @@
     categoryID: 7
     fittableNonSingleton: false
     name:
-        de: Zielbrecher
-        en: Target Breaker
-        fr: Briseur de cible
-        ja: ターゲットブレーカー
-        ru: Target Breaker
-        zh: 目标锁定扰断装置
+        de: Signatursuppressor
+        en: Signature Suppressor
+        fr: Suppresseur de signature
+        ja: シグネチャサプレッサー
+        ru: Подавитель сигнатуры
+        zh: 信号半径抑制装置
     published: true
     useBasePrice: false
 1155:
@@ -12953,12 +12953,12 @@
     categoryID: 9
     fittableNonSingleton: false
     name:
-        de: Blueprint für Zielbrecher
-        en: Target Breaker Blueprint
-        fr: Plan de construction Briseur de cible
-        ja: ターゲットブレーカーブループリント
-        ru: Target Breaker Blueprint
-        zh: 目标锁定扰断装置蓝图
+        de: Blaupause für einen Signatursuppressor
+        en: Signature Suppressor Blueprint
+        fr: Plan de construction Suppresseur de signature
+        ja: シグネチャサプレッサー設計図
+        ru: Чертёж подавителя сигнатуры
+        zh: 信号半径抑制装置蓝图
     published: true
     useBasePrice: true
 1156:
@@ -20527,6 +20527,130 @@
         ja: インターディクション・バーストプローブ
         ru: Заградительные импульсные зонды
         zh: 拦截脉冲波探针
+    published: true
+    useBasePrice: false
+4090:
+    anchorable: false
+    anchored: false
+    categoryID: 2100
+    fittableNonSingleton: false
+    name:
+        de: QA Expert Systems
+        en: QA Expert Systems
+        fr: QA Expert Systems
+        ja: QA Expert Systems
+        ru: QA Expert Systems
+        zh: QA专家系统
+    published: false
+    useBasePrice: false
+4091:
+    anchorable: false
+    anchored: false
+    categoryID: 2100
+    fittableNonSingleton: false
+    name:
+        de: Standard-Expertensysteme
+        en: Standard Expert Systems
+        fr: Systèmes experts standards
+        ja: 標準エキスパートシステム
+        ru: Стандартные экспертные системы
+        zh: 标准专家系统
+    published: true
+    useBasePrice: false
+4093:
+    anchorable: false
+    anchored: false
+    categoryID: 22
+    fittableNonSingleton: false
+    name:
+        de: Mobiles Anziehungssignalfeuer
+        en: Mobile Cynosural Beacon
+        fr: Balise cynosurale mobile
+        ja: 移動式サイノシュラルビーコン
+        ru: Мобильный приводной маяк
+        zh: 移动式诱导信标
+    published: true
+    useBasePrice: false
+4094:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Skalierbarer dekorativer Asteroid
+        en: Scalable Decorative Asteroid
+        fr: Astéroïde décoratif ajustable
+        ja: 拡張可能な装飾用アステロイド
+        ru: Масштабируемый декоративный астероид
+        zh: 可调整装饰性小行星
+    published: false
+    useBasePrice: false
+4095:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Blaupause für mobile Anziehungssignalfeuer
+        en: Mobile Cynosural Beacon Blueprint
+        fr: Plan de construction Balise cynosurale mobile
+        ja: 移動式サイノシュラルビーコン設計図
+        ru: Чертёж мобильного приводного маяка
+        zh: 移动式诱导信标蓝图
+    published: true
+    useBasePrice: true
+4096:
+    anchorable: false
+    anchored: false
+    categoryID: 4
+    fittableNonSingleton: false
+    name:
+        de: Molekulargeschmiedete Materialien
+        en: Molecular-Forged Materials
+        fr: Matériaux issus du forgeage moléculaire
+        ja: 分子加工型資源
+        ru: Молекулярно модифицированные материалы
+    published: true
+    useBasePrice: true
+4097:
+    anchorable: false
+    anchored: false
+    categoryID: 9
+    fittableNonSingleton: false
+    name:
+        de: Molekulargeschmiedete Reaktionsformeln
+        en: Molecular-Forged Reaction Formulas
+        fr: Formules de réaction par forgeage moléculaire
+        ja: 分子加工型反応フォーミュラ
+        ru: Формулы молекулярной реакции
+    published: true
+    useBasePrice: true
+4098:
+    anchorable: false
+    anchored: false
+    categoryID: 2100
+    fittableNonSingleton: false
+    name:
+        de: Expertensysteme im Angebot
+        en: Promotional Expert Systems
+        fr: Systèmes experts promotionnels
+        ja: プロモーション用エキスパートシステム
+        ru: Особые экспертные системы
+        zh: 推广专家系统
+    published: true
+    useBasePrice: false
+4100:
+    anchorable: false
+    anchored: true
+    categoryID: 2
+    fittableNonSingleton: false
+    name:
+        de: Monument der Tournier-Champions
+        en: Tournament Champion Monument
+        fr: Monument au champion du tournoi
+        ja: トーナメントチャンピオン記念碑
+        ru: Монумент в честь победителя турнира
+        zh: 联盟锦标赛冠军纪念碑
     published: false
     useBasePrice: false
 350858:

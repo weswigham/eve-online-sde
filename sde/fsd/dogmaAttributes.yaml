@@ -38112,3 +38112,123 @@
   published: true
   stackable: true
   unitID: 104
+3108:
+  attributeID: 3108
+  categoryID: 37
+  dataType: 5
+  defaultValue: 0.0
+  description: Bastion effect bonus to missile rate of fire
+  displayNameID:
+    de: Feuerraten-Bonus für Lenkwaffen
+    en: Missile Rate of Fire Bonus
+    fr: Bonus de cadence de tir des missiles
+    ja: ミサイル発射間隔ボーナス
+    ko: 미사일 연사속도 보너스
+    ru: Уменьшение цикла выстрела ракетами
+    zh: 导弹射速加成
+  highIsGood: true
+  iconID: 1397
+  name: bastionMissileROFBonus
+  published: true
+  stackable: true
+  unitID: 105
+3109:
+  attributeID: 3109
+  categoryID: 37
+  dataType: 2
+  defaultValue: 0.0
+  description: Bastion effect bonus to turret rate of fire
+  displayNameID:
+    de: Feuerraten-Bonus für Geschütztürme
+    en: Turret Rate of Fire Bonus
+    fr: Bonus de cadence de tir de tourelle
+    ja: タレット発射間隔ボーナス
+    ko: 터렛 연사속도 보너스
+    ru: Уменьшение цикла выстрела турелей
+    zh: 炮台射速加成
+  highIsGood: true
+  iconID: 1397
+  name: bastionTurretROFBonus
+  published: true
+  stackable: true
+  unitID: 105
+3110:
+  attributeID: 3110
+  categoryID: 7
+  dataType: 5
+  defaultValue: 0.0
+  description: Salvage drone access difficult bonus attribute for salvage drone specialization
+    skill
+  displayNameID:
+    de: Zugriffsschwierigkeitsbonus
+    en: Access Difficulty Bonus
+    fr: Bonus de difficulté d'accès
+    ja: アクセス難度ボーナス
+    ko: 잠금 해제 보너스
+    ru: Снижение сложности доступа
+    zh: 获取成功率
+  highIsGood: true
+  name: specAccessDifficultyBonus
+  published: true
+  stackable: true
+  unitID: 121
+3113:
+  attributeID: 3113
+  categoryID: 7
+  dataType: 5
+  defaultValue: 0.0
+  description: the passive bonus to signature radius from signature suppressors
+  displayNameID:
+    de: Signaturradius-Bonus
+    en: Signature Radius Bonus
+    fr: Bonus de rayon de signature
+    ja: シグネチャ半径ボーナス
+    ko: 시그니처 반경 보너스
+    ru: Увеличение радиуса сигнатуры
+    zh: 信号半径加成
+  highIsGood: true
+  iconID: 1390
+  name: signatureSuppressorSignatureRadiusBonusPassive
+  published: true
+  stackable: true
+  unitID: 108
+3114:
+  attributeID: 3114
+  categoryID: 7
+  dataType: 5
+  defaultValue: 0.0
+  description: Bonus to signature radius granted by signature suppressor activation
+  displayNameID:
+    de: Aktiver Signaturradius-Bonus
+    en: Active Signature Radius Bonus
+    fr: Bonus de rayon de signature actif
+    ja: 有効なシグネチャ半径ボーナス
+    ko: 액티브 시그니처 반경 보너스
+    ru: Увеличение текущего радиуса сигнатуры
+    zh: 主动信号半径加成
+  highIsGood: true
+  iconID: 1390
+  name: signatureSuppressorSignatureRadiusBonusActive
+  published: true
+  stackable: false
+  unitID: 108
+3115:
+  attributeID: 3115
+  categoryID: 7
+  dataType: 5
+  defaultValue: 0.0
+  description: Length of activation time.
+  displayNameID:
+    de: Aktivierungszeit / -dauer
+    en: Activation time / duration
+    fr: Délai / Durée d'activation
+    ja: 起動（待機）時間
+    ko: 활성화 시간 / 지속시간
+    ru: Время цикла
+    zh: 作用时间/单次运转时间
+  highIsGood: true
+  iconID: 1392
+  name: durationHighisGood
+  published: true
+  stackable: true
+  unitID: 101
