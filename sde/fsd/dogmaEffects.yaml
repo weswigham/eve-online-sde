@@ -71131,3 +71131,94 @@
   propulsionChance: false
   published: false
   rangeChance: false
+8117:
+  disallowAutoRepeat: false
+  dischargeAttributeID: 6
+  durationAttributeID: 73
+  effectCategory: 1
+  effectID: 8117
+  effectName: interdictionNullifierBonus
+  electronicChance: false
+  guid: effects.Invulnerability
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: true
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 1538
+    modifyingAttributeID: 3120
+    operation: -1
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8120:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 8120
+  effectName: interceptorNullificationRoleBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: true
+  modifierInfo:
+  - domain: shipID
+    func: LocationGroupModifier
+    groupID: 4117
+    modifiedAttributeID: 309
+    modifyingAttributeID: 2298
+    operation: 6
+  - domain: shipID
+    func: LocationGroupModifier
+    groupID: 4117
+    modifiedAttributeID: 669
+    modifyingAttributeID: 2298
+    operation: 6
+  - domain: shipID
+    func: LocationGroupModifier
+    groupID: 4117
+    modifiedAttributeID: 73
+    modifyingAttributeID: 2299
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8121:
+  disallowAutoRepeat: false
+  dischargeAttributeID: 6
+  durationAttributeID: 73
+  effectCategory: 1
+  effectID: 8121
+  effectName: warpCoreStabilizerActive
+  electronicChance: false
+  guid: effects.Invulnerability
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 104
+    modifyingAttributeID: 105
+    operation: 2
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8123:
+  disallowAutoRepeat: false
+  effectCategory: 4
+  effectID: 8123
+  effectName: droneBandWidthPenaltyOnline
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 1271
+    modifyingAttributeID: 3124
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false

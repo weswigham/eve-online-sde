@@ -38232,3 +38232,40 @@
   published: true
   stackable: true
   unitID: 101
+3120:
+  attributeID: 3120
+  dataType: 2
+  defaultValue: 0.0
+  description: 'modifies warp bubble immuntiy '
+  highIsGood: true
+  name: warpBubbleImmuneBonus
+  published: false
+  stackable: false
+3123:
+  attributeID: 3123
+  categoryID: 7
+  dataType: 0
+  defaultValue: 0.0
+  description: If set to 1 on a module, that module can be activated whilst under
+    gate cloak. (Does NOT include any other cloak mode)
+  displayNameID:
+    en: Allows activation whilst cloaked from a stargate jump
+  highIsGood: false
+  iconID: 2106
+  name: canActivateInGateCloak
+  published: true
+  stackable: false
+  unitID: 137
+3124:
+  attributeID: 3124
+  categoryID: 10
+  dataType: 5
+  defaultValue: 0.0
+  displayNameID:
+    en: Drone Bandwidth Penalty
+  highIsGood: false
+  iconID: 2987
+  name: droneBandwidthPercentage
+  published: true
+  stackable: false
+  unitID: 105

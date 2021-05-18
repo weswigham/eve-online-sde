@@ -20218,11 +20218,11 @@
 24525:
   description: Caldari Hangar SOF (Jita IV-4)
   sofFactionName: caldarinavy
-  sofHullName: ch1_uc01
+  sofHullName: chjita
   sofRaceName: caldari
 24526:
   description: Caldari hangar scene (Jita IV-4)
-  graphicFile: res:/dx9/model/hangar/caldari/ch1/ch1_uc01_scene.red
+  graphicFile: res:/dx9/model/hangar/caldari/chjita/chjita_scene.red
   sofRaceName: caldari
 24527:
   description: Dynamic Perimeter Lights VFX
@@ -21940,3 +21940,185 @@
 24968:
   description: Children of the Light Propagation Effect
   graphicFile: res:/fisfx/environment/unique/col/col_propagation_01a.red
+24970:
+  description: Decloak Structure Gas Beacon
+  iconInfo:
+    folder: res:/dx9/model/structure/generic/anti-stealth/icons
+  sofFactionName: genericbase
+  sofHullName: gas_beacon01
+  sofRaceName: generic
+24974:
+  description: Proximity Trap
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/proximitytrap/explosive/icons
+  sofFactionName: genericrelic
+  sofHullName: gpte01
+  sofRaceName: generic
+24976:
+  description: Proximity Trap Explosive AOE
+  graphicFile: res:/fisfx/module/aoe_blastsphere_explosive_tr_01a.red
+24977:
+  description: Decloak Structure Proximity EMP AOE
+  graphicFile: res:/fisfx/module/aoe_blastsphere_emp_tr_01a.red
+24978:
+  description: Monument to the Titans Massacre at M2-XFE
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/m2xfe/icons
+  sofFactionName: caldaristorm
+  sofHullName: m2xfe
+  sofRaceName: caldari
+24981:
+  description: Dungeon Cloud 9062
+  graphicFile: res:/dx9/model/celestial/environment/cloud/particle/dungeons/9062/dustclouds_9062_01.red
+24982:
+  description: M2-XFE Titan Monument Ship Effect
+  graphicFile: res:/dx9/model/structure/monument/m2xfe/effects/m2xfe_onshipfx_01a.red
+24983:
+  description: Infested Aeon Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/amarr/carrier/aca1/wreck/icons
+  sofFactionName: amarrinfested
+  sofHullName: aca1_t1_wreck
+  sofRaceName: amarr
+24984:
+  description: Infested Aeon Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/amarr/carrier/aca1/wreck/icons
+  sofFactionName: amarrinfested
+  sofHullName: aca1_t1_wreck_fragment_01
+  sofRaceName: amarr
+24985:
+  description: Infested Avatar Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/amarr/titan/at1/wreck/icons
+  sofFactionName: amarrinfested
+  sofHullName: at1_t1_wreck
+  sofRaceName: amarr
+24986:
+  description: Infested Avatar Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/amarr/titan/at1/wreck/icons
+  sofFactionName: amarrinfested
+  sofHullName: at1_t1_wreck_fragment_01
+  sofRaceName: amarr
+24987:
+  description: Infested Wyvern Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/caldari/carrier/cca2/wreck/icons
+  sofFactionName: caldariinfested
+  sofHullName: cca2_t1_wreck
+  sofRaceName: caldari
+24988:
+  description: Infested Wyvern Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/caldari/carrier/cca2/wreck/icons
+  sofFactionName: caldariinfested
+  sofHullName: cca2_t1_wreck_fragment_01
+  sofRaceName: caldari
+24989:
+  description: Infested Leviathan Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/caldari/titan/ct1/wreck/icons
+  sofFactionName: caldariinfested
+  sofHullName: ct1_t1_wreck
+  sofRaceName: caldari
+24990:
+  description: Infested Leviathan Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/caldari/titan/ct1/wreck/icons
+  sofFactionName: caldariinfested
+  sofHullName: ct1_t1_wreck_fragment_01
+  sofRaceName: caldari
+24991:
+  description: Infested Nyx Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/gallente/carrier/gca1/wreck/icons
+  sofFactionName: gallenteinfested
+  sofHullName: gca1_t1_wreck
+  sofRaceName: gallente
+24992:
+  description: Infested Nyx Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/gallente/carrier/gca1/wreck/icons
+  sofFactionName: gallenteinfested
+  sofHullName: gca1_t1_wreck_fragment_01
+  sofRaceName: gallente
+24993:
+  description: Infested Erebus Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/gallente/titan/gt1/wreck/icons
+  sofFactionName: gallenteinfested
+  sofHullName: gt1_t1_wreck
+  sofRaceName: gallente
+24994:
+  description: Infested Erebus Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/gallente/titan/gt1/wreck/icons
+  sofFactionName: gallenteinfested
+  sofHullName: gt1_t1_wreck_fragment_01
+  sofRaceName: gallente
+24995:
+  description: Infested Hel Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/minmatar/carrier/mca1/wreck/icons
+  sofFactionName: minmatarinfested
+  sofHullName: mca1_t1_wreck
+  sofRaceName: minmatar
+24996:
+  description: Infested Hel Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/minmatar/carrier/mca1/wreck/icons
+  sofFactionName: minmatarinfested
+  sofHullName: mca1_t1_wreck_fragment_01
+  sofRaceName: minmatar
+24997:
+  description: Infested Ragnarok Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/minmatar/titan/mt1/wreck/icons
+  sofFactionName: minmatarinfested
+  sofHullName: mt1_t1_wreck
+  sofRaceName: minmatar
+24998:
+  description: Infested Ragnarok Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/minmatar/titan/mt1/wreck/icons
+  sofFactionName: minmatarinfested
+  sofHullName: mt1_t1_wreck_fragment_01
+  sofRaceName: minmatar
+24999:
+  description: Infested Zirnitra Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/triglavian/dreadnought/tgdn01/wreck/icons
+  sofFactionName: triglavianinfested
+  sofHullName: tgdn01_t1_wreck
+  sofRaceName: triglavian
+25000:
+  description: Infested Zirnitra Debris
+  iconInfo:
+    folder: res:/dx9/model/ship/triglavian/dreadnought/tgdn01/wreck/icons
+  sofFactionName: triglavianinfested
+  sofHullName: tgdn01_t1_wreck_fragment_01
+  sofRaceName: triglavian
+25001:
+  description: Rogue Drone Nursery Pods
+  iconInfo:
+    folder: res:/dx9/model/structure/rogue/hivepods/cluster/icons
+  sofFactionName: roguebase
+  sofHullName: rd_pods_cluster_01
+  sofRaceName: rogue
+25002:
+  description: Rogue Drone Nursery Pod
+  iconInfo:
+    folder: res:/dx9/model/structure/rogue/hivepods/single/icons
+  sofFactionName: roguebase
+  sofHullName: rd_pods_single_01
+  sofRaceName: rogue
+25003:
+  description: Dungeon Environment R1 9146
+  graphicFile: res:/dx9/model/celestial/environment/cloud/particle/dungeons/9146/room_01/environment_fx_01_9146.red
+25004:
+  description: Dungeon Environment R2 9146
+  graphicFile: res:/dx9/model/celestial/environment/cloud/particle/dungeons/9146/room_02/environment_fx_02_9146.red
+25005:
+  description: Dungeon Environment R0 9146
+  graphicFile: res:/dx9/model/celestial/environment/cloud/particle/dungeons/9146/room_00/environment_fx_00_9146.red
