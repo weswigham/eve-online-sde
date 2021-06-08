@@ -1,21 +1,21 @@
 border: false
 center:
-- -2.180374203985448e+17
-- 8.438989621114842e+16
-- -2.651825385271741e+17
+- -2.18037420399e+17
+- 8.43898962111e+16
+- -2.65182538527e+17
 corridor: false
 fringe: false
 hub: true
 international: false
 luminosity: 0.01504
 max:
-- -2.1803702805435117e+17
-- 8.4389952417614e+16
-- 2.6518301282316333e+17
+- -2.18037028054e+17
+- 8.43899524176e+16
+- 2.65183012823e+17
 min:
-- -2.1803821092467293e+17
-- 8.438978296372642e+16
-- 2.6518196133233965e+17
+- -2.18038210925e+17
+- 8.43897829637e+16
+- 2.65181961332e+17
 planets:
     40125089:
         celestialIndex: 1
@@ -30,13 +30,13 @@ planets:
         - 69934672058.0
         radius: 2500000
         statistics:
-            density: 3307.37594467082
+            density: 3307.37594467
             eccentricity: 0.00133487
-            escapeVelocity: 3399.72120412178
+            escapeVelocity: 3399.72120412
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 2.16467249384114e+23
+            massDust: 2.16467249384e+23
             massGas: 2385020000000000.0
             orbitPeriod: 265531000.0
             orbitRadius: 92133400000.0
@@ -44,8 +44,8 @@ planets:
             radius: 2500000.0
             rotationRate: 134900.0
             spectralClass: '0.0'
-            surfaceGravity: 2.31162085315104
-            temperature: 1391.84007388218
+            surfaceGravity: 2.31162085315
+            temperature: 1391.84007388
         typeID: 2015
     40125090:
         celestialIndex: 2
@@ -60,13 +60,13 @@ planets:
         - -75105908233.0
         radius: 2870000
         statistics:
-            density: 2828.74864190598
+            density: 2828.74864191
             eccentricity: 0.00399825
-            escapeVelocity: 3609.44633865433
+            escapeVelocity: 3609.44633865
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 2.80110028659003e+23
+            massDust: 2.80110028659e+23
             massGas: 1744270000000000.0
             orbitPeriod: 672504000.0
             orbitRadius: 171187000000.0
@@ -74,8 +74,8 @@ planets:
             radius: 2870000.0
             rotationRate: 133559.0
             spectralClass: '0.0'
-            surfaceGravity: 2.26970433303574
-            temperature: 333.233495503861
+            surfaceGravity: 2.26970433304
+            temperature: 333.233495504
         typeID: 2016
     40125091:
         celestialIndex: 3
@@ -90,13 +90,13 @@ planets:
         - 97625252196.0
         radius: 3720000
         statistics:
-            density: 2799.46497147403
+            density: 2799.46497147
             eccentricity: 0.0360391
-            escapeVelocity: 4654.16710554287
+            escapeVelocity: 4654.16710554
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 6.03660093525446e+23
+            massDust: 6.03660093525e+23
             massGas: 3.97205e+16
             orbitPeriod: 1276170000.0
             orbitRadius: 262389000000.0
@@ -104,8 +104,8 @@ planets:
             radius: 3720000.0
             rotationRate: 118093.0
             spectralClass: '0.0'
-            surfaceGravity: 2.91146121590286
-            temperature: 218.918061880663
+            surfaceGravity: 2.9114612159
+            temperature: 218.918061881
         typeID: 2016
     40125092:
         celestialIndex: 4
@@ -120,13 +120,13 @@ planets:
         - -162327633658.0
         radius: 3350000
         statistics:
-            density: 5689.75388716384
+            density: 5689.75388716
             eccentricity: 0.0719555
-            escapeVelocity: 5975.20845895984
+            escapeVelocity: 5975.20845896
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 8.9601754068517e+23
+            massDust: 8.96017540685e+23
             massGas: 1.80907e+16
             orbitPeriod: 2209490000.0
             orbitRadius: 378328000000.0
@@ -134,8 +134,8 @@ planets:
             radius: 3350000.0
             rotationRate: 134158.0
             spectralClass: '0.0'
-            surfaceGravity: 5.32882330269033
-            temperature: 474.80652026427
+            surfaceGravity: 5.32882330269
+            temperature: 474.806520264
         typeID: 2016
     40125093:
         asteroidBelts:
@@ -174,7 +174,7 @@ planets:
                 - 37607127104.0
                 - 5387437609.0
                 - -474295799209.0
-                radius: 190000
+                radius: 190000.0
                 statistics:
                     density: 488.273
                     eccentricity: 9.58044e-65
@@ -203,7 +203,7 @@ planets:
                 - 37912760461.0
                 - 5431221348.0
                 - -473907697209.0
-                radius: 530000
+                radius: 530000.0
                 statistics:
                     density: 749.324
                     eccentricity: 2.23883e-35
@@ -211,7 +211,7 @@ planets:
                     fragmented: false
                     life: 0.0
                     locked: true
-                    massDust: 4.7681099999999997e+20
+                    massDust: 4.76811e+20
                     massGas: 84304900000.0
                     orbitPeriod: 10386300.0
                     orbitRadius: 495917000.0
@@ -233,13 +233,13 @@ planets:
         - -474164675227.0
         radius: 4410000
         statistics:
-            density: 2886.28853449258
+            density: 2886.28853449
             eccentricity: 0.0165459
-            escapeVelocity: 5602.3466178645
+            escapeVelocity: 5602.34661786
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 1.03691730369221e+24
+            massDust: 1.03691730369e+24
             massGas: 1.79553e+17
             orbitPeriod: 3114980000.0
             orbitRadius: 475675000000.0
@@ -247,8 +247,8 @@ planets:
             radius: 4410000.0
             rotationRate: 113917.0
             spectralClass: '0.0'
-            surfaceGravity: 3.55853601209726
-            temperature: 289.74910690945
+            surfaceGravity: 3.5585360121
+            temperature: 289.749106909
         typeID: 11
     40125097:
         celestialIndex: 6
@@ -263,7 +263,7 @@ planets:
                 - 391410734411.0
                 - 56071842585.0
                 - 576842090372.0
-                radius: 330000
+                radius: 330000.0
                 statistics:
                     density: 549.136
                     eccentricity: 2.81668e-26
@@ -292,7 +292,7 @@ planets:
                 - 391576709059.0
                 - 56095619410.0
                 - 577194454461.0
-                radius: 380000
+                radius: 380000.0
                 statistics:
                     density: 582.417
                     eccentricity: 3.07105e-38
@@ -321,7 +321,7 @@ planets:
                 - 392343143622.0
                 - 56205415576.0
                 - 576072860045.0
-                radius: 1050000
+                radius: 1050000.0
                 statistics:
                     density: 899.611
                     eccentricity: 2.54387e-23
@@ -351,13 +351,13 @@ planets:
         - 576961515453.0
         radius: 5070000
         statistics:
-            density: 4611.70100721647
+            density: 4611.70100722
             eccentricity: 0.0381948
-            escapeVelocity: 8141.41783610714
+            escapeVelocity: 8141.41783611
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 2.51752406115089e+24
+            massDust: 2.51752406115e+24
             massGas: 2.03473e+17
             orbitPeriod: 5553780000.0
             orbitRadius: 699411000000.0
@@ -365,8 +365,8 @@ planets:
             radius: 5070000.0
             rotationRate: 109138.0
             spectralClass: '0.0'
-            surfaceGravity: 6.53675388383466
-            temperature: 277.20819883454
+            surfaceGravity: 6.53675388383
+            temperature: 277.208198835
         typeID: 2016
     40125101:
         asteroidBelts:
@@ -451,13 +451,13 @@ planets:
         - 506683073627.0
         radius: 4740000
         statistics:
-            density: 3225.45135298379
+            density: 3225.45135298
             eccentricity: 0.00387468
-            escapeVelocity: 6365.53782842143
+            escapeVelocity: 6365.53782842
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 1.43884539265362e+24
+            massDust: 1.43884539265e+24
             massGas: 5.67763e+16
             orbitPeriod: 8727850000.0
             orbitRadius: 945391000000.0
@@ -465,12 +465,12 @@ planets:
             radius: 4740000.0
             rotationRate: 119261.0
             spectralClass: '0.0'
-            surfaceGravity: 4.2742691819688
-            temperature: 308.433884828351
+            surfaceGravity: 4.27426918197
+            temperature: 308.433884828
         typeID: 2016
 radius: 591435160880.0
 regional: false
-security: -0.2645782659758295
+security: -0.264578265976
 securityClass: G1
 solarSystemID: 30001957
 solarSystemNameID: 270922
@@ -508,4 +508,12 @@ stargates:
         - -113198407680.0
         - 506679336960.0
         typeID: 29624
+    50016557:
+        destination: 50016556
+        position:
+        - 391347855360.0
+        - 56068055040.0
+        - 576970629120.0
+        typeID: 29625
 sunTypeID: 3799
+visualEffect: ''

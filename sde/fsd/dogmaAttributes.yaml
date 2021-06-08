@@ -38232,6 +38232,37 @@
   published: true
   stackable: true
   unitID: 101
+3117:
+  attributeID: 3117
+  categoryID: 7
+  dataType: 4
+  defaultValue: 0.0
+  description: If this ship attribute is > 0 then ship is immune from remote decloak
+    pings
+  highIsGood: true
+  name: cloakStabilizationStrength
+  published: true
+  stackable: true
+  unitID: 137
+3118:
+  attributeID: 3118
+  categoryID: 7
+  dataType: 2
+  defaultValue: 0.0
+  description: Duration of the cloak-stabilization dbuff provided by a cloak module
+  displayNameID:
+    de: Tarnmoduldauer stabilisieren
+    en: Stabilize Cloak Duration
+    fr: Durée de stabilisation de camouflage
+    ja: クローク持続時間を安定させる
+    ko: 클로킹 안정화 지속시간
+    ru: Стабилизировать длительность маскировки
+    zh: 稳定隐形持续时间
+  highIsGood: true
+  name: stabilizeCloakDuration
+  published: true
+  stackable: true
+  unitID: 3
 3120:
   attributeID: 3120
   dataType: 2
@@ -38249,7 +38280,15 @@
   description: If set to 1 on a module, that module can be activated whilst under
     gate cloak. (Does NOT include any other cloak mode)
   displayNameID:
+    de: Erlaubt Aktivierung während eines getarnten Sprungtor-Sprungs
     en: Allows activation whilst cloaked from a stargate jump
+    fr: Permet l’activation sous l’effet du camouflage suite à un saut de portail
+      stellaire
+    ja: スターゲートジャンプでクローク状態からの起動を可能にする
+    ko: 스타게이트 점프로 인한 클로킹 중 활성화 가능
+    ru: Можно активировать в режиме маскировки, который включается при прыжке через
+      звёздные врата
+    zh: 跳跃星门后隐身状态下可以使用
   highIsGood: false
   iconID: 2106
   name: canActivateInGateCloak
@@ -38262,7 +38301,13 @@
   dataType: 5
   defaultValue: 0.0
   displayNameID:
+    de: Reduktion der Drohnen-Bandbreite
     en: Drone Bandwidth Penalty
+    fr: Pénalité de bande passante de drone
+    ja: ドローン帯域幅ペナルティ
+    ko: 드론 대역폭 페널티
+    ru: Сужение канала управления дронами
+    zh: 无人机带宽惩罚
   highIsGood: false
   iconID: 2987
   name: droneBandwidthPercentage

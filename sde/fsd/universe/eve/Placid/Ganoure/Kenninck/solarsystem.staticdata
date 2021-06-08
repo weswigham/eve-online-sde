@@ -1,21 +1,21 @@
 border: false
 center:
-- -3.050740296041794e+17
-- 4.39943001072871e+16
-- 4.567860055005704e+16
+- -3.05074029604e+17
+- 4.39943001073e+16
+- 4.56786005501e+16
 corridor: false
 fringe: true
 hub: false
 international: false
 luminosity: 0.08214
 max:
-- -3.0507327238424966e+17
-- 4.3994412387056264e+16
-- -4.567831115508577e+16
+- -3.05073272384e+17
+- 4.39944123871e+16
+- -4.56783111551e+16
 min:
-- -3.050774398905231e+17
-- 4.399378031862017e+16
-- -4.567923784275335e+16
+- -3.05077439891e+17
+- 4.39937803186e+16
+- -4.56792378428e+16
 planets:
     40242095:
         celestialIndex: 1
@@ -36,7 +36,7 @@ planets:
             fragmented: false
             life: 0.0
             locked: true
-            massDust: 2.246170142504e+23
+            massDust: 2.2461701425e+23
             massGas: 1.42504e+16
             orbitPeriod: 8341840.0
             orbitRadius: 38869800000.0
@@ -60,13 +60,13 @@ planets:
         - -48043960478.0
         radius: 1850000
         statistics:
-            density: 6647.74108490435
+            density: 6647.7410849
             eccentricity: 0.0156843
-            escapeVelocity: 3566.73045570546
+            escapeVelocity: 3566.73045571
             fragmented: false
             life: 0.0
             locked: true
-            massDust: 1.76310383784957e+23
+            massDust: 1.76310383785e+23
             massGas: 2357980000000000.0
             orbitPeriod: 13548200.0
             orbitRadius: 53706300000.0
@@ -74,8 +74,8 @@ planets:
             radius: 1850000.0
             rotationRate: 13548200.0
             spectralClass: '0.0'
-            surfaceGravity: 3.43826111990726
-            temperature: 1622.92048404194
+            surfaceGravity: 3.43826111991
+            temperature: 1622.92048404
         typeID: 2015
     40242097:
         celestialIndex: 3
@@ -90,7 +90,7 @@ planets:
                 - 63683853189.0
                 - 9715573508.0
                 - -66368378065.0
-                radius: 360000
+                radius: 360000.0
                 statistics:
                     density: 1288.6
                     eccentricity: 3.47486e-22
@@ -126,7 +126,7 @@ planets:
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 1.387640191594e+24
+            massDust: 1.38764019159e+24
             massGas: 1.91594e+17
             orbitPeriod: 30705400.0
             orbitRadius: 92664700000.0
@@ -135,7 +135,7 @@ planets:
             rotationRate: 795677.0
             spectralClass: '0.0'
             surfaceGravity: 4.6883
-            temperature: 877.979355091332
+            temperature: 877.979355091
         typeID: 2015
     40242099:
         celestialIndex: 4
@@ -150,7 +150,7 @@ planets:
                 - 92524095043.0
                 - 14115424895.0
                 - -103236673018.0
-                radius: 700000
+                radius: 700000.0
                 statistics:
                     density: 1530.78
                     eccentricity: 2.01166e-08
@@ -180,13 +180,13 @@ planets:
         - -103246791394.0
         radius: 6080000
         statistics:
-            density: 6501.1052708356
+            density: 6501.10527084
             eccentricity: 0.134282
-            escapeVelocity: 11592.0085329062
+            escapeVelocity: 11592.0085329
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 6.12049497404946e+24
+            massDust: 6.12049497405e+24
             massGas: 2.25485e+18
             orbitPeriod: 56749700.0
             orbitRadius: 139556000000.0
@@ -194,8 +194,8 @@ planets:
             radius: 6080000.0
             rotationRate: 70236.9
             spectralClass: '0.0'
-            surfaceGravity: 11.0505478476126
-            temperature: 290.193221669657
+            surfaceGravity: 11.0505478476
+            temperature: 290.19322167
         typeID: 11
     40242101:
         celestialIndex: 5
@@ -210,7 +210,7 @@ planets:
                 - -23082048341.0
                 - -3521384561.0
                 - 185782976408.0
-                radius: 170000
+                radius: 170000.0
                 statistics:
                     density: 776.67
                     eccentricity: 1.28895e-37
@@ -240,13 +240,13 @@ planets:
         - 185910130111.0
         radius: 2720000
         statistics:
-            density: 1688.00152612348
+            density: 1688.00152612
             eccentricity: 0.0755954
-            escapeVelocity: 2642.51119040235
+            escapeVelocity: 2642.5111904
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 1.42287961132979e+23
+            massDust: 1.42287961133e+23
             massGas: 2.04462e+16
             orbitPeriod: 88291400.0
             orbitRadius: 187377000000.0
@@ -254,7 +254,7 @@ planets:
             radius: 2720000.0
             rotationRate: 135766.0
             spectralClass: '0.0'
-            surfaceGravity: 1.28361496165471
+            surfaceGravity: 1.28361496165
             temperature: 134.08
         typeID: 2016
     40242103:
@@ -270,7 +270,7 @@ planets:
                 - -80178107146.0
                 - -12231927792.0
                 - -289298915952.0
-                radius: 290000
+                radius: 290000.0
                 statistics:
                     density: 844.687
                     eccentricity: 0.00155858
@@ -299,7 +299,7 @@ planets:
                 - -80457651248.0
                 - -12274574886.0
                 - -288896009343.0
-                radius: 1320000
+                radius: 1320000.0
                 statistics:
                     density: 1609.65
                     eccentricity: 0.00586308
@@ -329,13 +329,13 @@ planets:
         - -289381961269.0
         radius: 13010000
         statistics:
-            density: 2467.46071070972
+            density: 2467.46071071
             eccentricity: 0.00342215
-            escapeVelocity: 15281.4277781978
+            escapeVelocity: 15281.4277782
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 2.2759920729824e+25
+            massDust: 2.27599207298e+25
             massGas: 7.90457e+24
             orbitPeriod: 179340000.0
             orbitRadius: 300532000000.0
@@ -343,7 +343,7 @@ planets:
             radius: 13010000.0
             rotationRate: 52937.9
             spectralClass: '0.0'
-            surfaceGravity: 8.97471310300833
+            surfaceGravity: 8.97471310301
             temperature: 105.871
         typeID: 13
     40242106:
@@ -359,7 +359,7 @@ planets:
                 - -417486202261.0
                 - -63691464691.0
                 - -149897188830.0
-                radius: 160000
+                radius: 160000.0
                 statistics:
                     density: 582.494
                     eccentricity: 0.0359473
@@ -388,7 +388,7 @@ planets:
                 - -417615353442.0
                 - -63711167924.0
                 - -150026981912.0
-                radius: 630000
+                radius: 630000.0
                 statistics:
                     density: 1049.03
                     eccentricity: 0.00410074
@@ -417,7 +417,7 @@ planets:
                 - -418405662213.0
                 - -63831736994.0
                 - -148835832168.0
-                radius: 1420000
+                radius: 1420000.0
                 statistics:
                     density: 1479.46
                     eccentricity: 8.97914e-11
@@ -462,7 +462,7 @@ planets:
             rotationRate: 51821.1
             spectralClass: '0.0'
             surfaceGravity: 8.06634
-            temperature: 207.397613951796
+            temperature: 207.397613952
         typeID: 2017
     40242110:
         asteroidBelts:
@@ -570,7 +570,7 @@ planets:
                 - 729173287573.0
                 - 111242274470.0
                 - 625714562471.0
-                radius: 180000
+                radius: 180000.0
                 statistics:
                     density: 496.959
                     eccentricity: 0.0304581
@@ -599,7 +599,7 @@ planets:
                 - 729267413600.0
                 - 111256634285.0
                 - 625590644332.0
-                radius: 140000
+                radius: 140000.0
                 statistics:
                     density: 441.361
                     eccentricity: 0.0155072
@@ -628,7 +628,7 @@ planets:
                 - 729244683845.0
                 - 111253166646.0
                 - 625588968777.0
-                radius: 180000
+                radius: 180000.0
                 statistics:
                     density: 492.842
                     eccentricity: 0.0083848
@@ -657,7 +657,7 @@ planets:
                 - 729251188475.0
                 - 111254158989.0
                 - 625885127184.0
-                radius: 250000
+                radius: 250000.0
                 statistics:
                     density: 565.315
                     eccentricity: 0.0143178
@@ -686,7 +686,7 @@ planets:
                 - 729104369844.0
                 - 111231760419.0
                 - 625878687557.0
-                radius: 320000
+                radius: 320000.0
                 statistics:
                     density: 634.44
                     eccentricity: 0.0187153
@@ -715,7 +715,7 @@ planets:
                 - 729319327784.0
                 - 111264554284.0
                 - 626133514518.0
-                radius: 650000
+                radius: 650000.0
                 statistics:
                     density: 853.17
                     eccentricity: 0.0044755
@@ -744,7 +744,7 @@ planets:
                 - 728913302935.0
                 - 111202611357.0
                 - 625966371888.0
-                radius: 130000
+                radius: 130000.0
                 statistics:
                     density: 429.516
                     eccentricity: 0.000574861
@@ -773,7 +773,7 @@ planets:
                 - 729264373977.0
                 - 111256170561.0
                 - 626234829372.0
-                radius: 260000
+                radius: 260000.0
                 statistics:
                     density: 578.582
                     eccentricity: 0.0368183
@@ -802,7 +802,7 @@ planets:
                 - 729796245638.0
                 - 111337312609.0
                 - 625988697425.0
-                radius: 250000
+                radius: 250000.0
                 statistics:
                     density: 572.312
                     eccentricity: 0.017025
@@ -831,7 +831,7 @@ planets:
                 - 729381356725.0
                 - 111274017385.0
                 - 626318993272.0
-                radius: 260000
+                radius: 260000.0
                 statistics:
                     density: 576.43
                     eccentricity: 0.00359153
@@ -860,7 +860,7 @@ planets:
                 - 729634485950.0
                 - 111312634640.0
                 - 625215360629.0
-                radius: 310000
+                radius: 310000.0
                 statistics:
                     density: 621.988
                     eccentricity: 0.00174908
@@ -889,7 +889,7 @@ planets:
                 - 728602193268.0
                 - 111155148638.0
                 - 625701626508.0
-                radius: 360000
+                radius: 360000.0
                 statistics:
                     density: 664.638
                     eccentricity: 0.0105608
@@ -918,7 +918,7 @@ planets:
                 - 728752898338.0
                 - 111178140120.0
                 - 626208823111.0
-                radius: 960000
+                radius: 960000.0
                 statistics:
                     density: 1003.34
                     eccentricity: 0.00430947
@@ -947,7 +947,7 @@ planets:
                 - 729618448833.0
                 - 111310188026.0
                 - 624835755881.0
-                radius: 630000
+                radius: 630000.0
                 statistics:
                     density: 837.774
                     eccentricity: 0.00476972
@@ -955,7 +955,7 @@ planets:
                     fragmented: false
                     life: 0.0
                     locked: true
-                    massDust: 8.813579999999999e+20
+                    massDust: 8.81358e+20
                     massGas: 150871000000.0
                     orbitPeriod: 886513.0
                     orbitRadius: 947007000.0
@@ -976,7 +976,7 @@ planets:
                 - 728268553474.0
                 - 111104248735.0
                 - 625980132129.0
-                radius: 760000
+                radius: 760000.0
                 statistics:
                     density: 911.302
                     eccentricity: 0.000592662
@@ -984,7 +984,7 @@ planets:
                     fragmented: false
                     life: 0.0
                     locked: true
-                    massDust: 1.7275799999999999e+21
+                    massDust: 1.72758e+21
                     massGas: 438408000000.0
                     orbitPeriod: 1054740.0
                     orbitRadius: 1063310000.0
@@ -1005,7 +1005,7 @@ planets:
                 - 728110207041.0
                 - 111080091490.0
                 - 625680571138.0
-                radius: 1080000
+                radius: 1080000.0
                 statistics:
                     density: 1056.15
                     eccentricity: 0.00214069
@@ -1034,7 +1034,7 @@ planets:
                 - 730528487107.0
                 - 111449022963.0
                 - 624981075513.0
-                radius: 290000
+                radius: 290000.0
                 statistics:
                     density: 604.759
                     eccentricity: 0.00387697
@@ -1063,7 +1063,7 @@ planets:
                 - 728262741314.0
                 - 111103362035.0
                 - 627058958028.0
-                radius: 1350000
+                radius: 1350000.0
                 statistics:
                     density: 1163.61
                     eccentricity: 0.00264993
@@ -1092,7 +1092,7 @@ planets:
                 - 730061059616.0
                 - 111377712483.0
                 - 623662474796.0
-                radius: 1780000
+                radius: 1780000.0
                 statistics:
                     density: 1308.72
                     eccentricity: 0.0551774
@@ -1121,7 +1121,7 @@ planets:
                 - 728916465289.0
                 - 111203093804.0
                 - 629016691149.0
-                radius: 2140000
+                radius: 2140000.0
                 statistics:
                     density: 1417.37
                     eccentricity: 1.10257e-08
@@ -1150,7 +1150,7 @@ planets:
                 - 724364531255.0
                 - 110508653259.0
                 - 623425397857.0
-                radius: 2220000
+                radius: 2220000.0
                 statistics:
                     density: 1437.47
                     eccentricity: 6.25985e-05
@@ -1179,7 +1179,7 @@ planets:
                 - 735964310352.0
                 - 112278309159.0
                 - 630209825176.0
-                radius: 1460000
+                radius: 1460000.0
                 statistics:
                     density: 1204.21
                     eccentricity: 0.00957128
@@ -1208,7 +1208,7 @@ planets:
                 - 727462649422.0
                 - 110981300457.0
                 - 637292146313.0
-                radius: 550000
+                radius: 550000.0
                 statistics:
                     density: 795.381
                     eccentricity: 0.000112692
@@ -1216,7 +1216,7 @@ planets:
                     fragmented: false
                     life: 0.0
                     locked: true
-                    massDust: 5.8175499999999997e+20
+                    massDust: 5.81755e+20
                     massGas: 17928800000.0
                     orbitPeriod: 38580100.0
                     orbitRadius: 11716700000.0
@@ -1350,10 +1350,10 @@ planets:
                     population: false
                     shaderPreset: 4179
                 position:
-                - -3405074092702.0
+                - -3405074092700.0
                 - -519476225016.0
                 - 450806078506.0
-                radius: 260000
+                radius: 260000.0
                 statistics:
                     density: 400.619
                     eccentricity: 0.0092398
@@ -1379,10 +1379,10 @@ planets:
                     population: false
                     shaderPreset: 4231
                 position:
-                - -3405345495207.0
+                - -3405345495210.0
                 - -519517630032.0
                 - 450717103851.0
-                radius: 340000
+                radius: 340000.0
                 statistics:
                     density: 449.883
                     eccentricity: 0.00451801
@@ -1411,7 +1411,7 @@ planets:
                 - -3404450743780.0
                 - -519381127248.0
                 - 451218245019.0
-                radius: 780000
+                radius: 780000.0
                 statistics:
                     density: 638.76
                     eccentricity: 0.0156986
@@ -1419,7 +1419,7 @@ planets:
                     fragmented: false
                     life: 0.0
                     locked: true
-                    massDust: 1.2981399999999999e+21
+                    massDust: 1.29814e+21
                     massGas: 691900000000.0
                     orbitPeriod: 2291110.0
                     orbitRadius: 750088000.0
@@ -1437,10 +1437,10 @@ planets:
                     population: false
                     shaderPreset: 4225
                 position:
-                - -3405873356738.0
+                - -3405873356740.0
                 - -519598160296.0
                 - 449747593651.0
-                radius: 1140000
+                radius: 1140000.0
                 statistics:
                     density: 749.59
                     eccentricity: 0.000154672
@@ -1466,10 +1466,10 @@ planets:
                     population: false
                     shaderPreset: 4166
                 position:
-                - -3405061529549.0
+                - -3405061529550.0
                 - -519474308388.0
                 - 453443514936.0
-                radius: 560000
+                radius: 560000.0
                 statistics:
                     density: 556.78
                     eccentricity: 1.10983e-05
@@ -1510,10 +1510,10 @@ planets:
                     population: false
                     shaderPreset: 4219
                 position:
-                - -3404823393125.0
+                - -3404823393120.0
                 - -519437978427.0
                 - 446306941936.0
-                radius: 2950000
+                radius: 2950000.0
                 statistics:
                     density: 1128.0
                     eccentricity: 1.76175e-08
@@ -1542,7 +1542,7 @@ planets:
                 - -3407105510120.0
                 - -519786136936.0
                 - 462073017355.0
-                radius: 2530000
+                radius: 2530000.0
                 statistics:
                     density: 1056.34
                     eccentricity: 0.0182192
@@ -1568,10 +1568,10 @@ planets:
                     population: false
                     shaderPreset: 4206
                 position:
-                - -3407007799649.0
+                - -3407007799650.0
                 - -519771230281.0
                 - 469726830885.0
-                radius: 170000
+                radius: 170000.0
                 statistics:
                     density: 335.271
                     eccentricity: 1.0633e-09
@@ -1596,18 +1596,18 @@ planets:
             population: false
             shaderPreset: 3973
         position:
-        - -3405161381036.0
+        - -3405161381040.0
         - -519489541676.0
         - 451004065162.0
         radius: 16660000
         statistics:
-            density: 1173.2758151599
+            density: 1173.27581516
             eccentricity: 0.00305427
-            escapeVelocity: 13493.8714959656
+            escapeVelocity: 13493.871496
             fragmented: false
             life: 0.0
             locked: false
-            massDust: 2.2725514228058e+25
+            massDust: 2.27255142281e+25
             massGas: 3.55989e+25
             orbitPeriod: 7048220000.0
             orbitRadius: 3473960000000.0
@@ -1615,12 +1615,12 @@ planets:
             radius: 16660000.0
             rotationRate: 43498.2
             spectralClass: '0.0'
-            surfaceGravity: 5.46472292766001
+            surfaceGravity: 5.46472292766
             temperature: 31.1395
         typeID: 13
-radius: 2083753136704.0
+radius: 2083753136700.0
 regional: false
-security: 0.1149630522447602
+security: 0.114963052245
 securityClass: D3
 solarSystemID: 30003823
 solarSystemNameID: 272792
@@ -1644,5 +1644,13 @@ stargates:
         - 111226920960.0
         - 625832140800.0
         typeID: 3875
+    50016554:
+        destination: 50016555
+        position:
+        - -417477058560.0
+        - -63676538880.0
+        - -149838520320.0
+        typeID: 29632
 sunTypeID: 3798
+visualEffect: ''
 wormholeClassID: 8

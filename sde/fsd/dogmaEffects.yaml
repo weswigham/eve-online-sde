@@ -3172,7 +3172,6 @@
   effectName: astrogeologyMiningAmountBonusPostPercentMiningAmountLocationShipModulesRequiringMining
   electronicChance: false
   guid: ''
-  iconID: 0
   isAssistance: false
   isOffensive: false
   isWarpSafe: false
@@ -71134,7 +71133,7 @@
 8117:
   disallowAutoRepeat: false
   dischargeAttributeID: 6
-  durationAttributeID: 73
+  durationAttributeID: 3115
   effectCategory: 1
   effectID: 8117
   effectName: interdictionNullifierBonus
@@ -71177,7 +71176,7 @@
   - domain: shipID
     func: LocationGroupModifier
     groupID: 4117
-    modifiedAttributeID: 73
+    modifiedAttributeID: 3115
     modifyingAttributeID: 2299
     operation: 6
   propulsionChance: false
@@ -71219,6 +71218,25 @@
     modifiedAttributeID: 1271
     modifyingAttributeID: 3124
     operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+8128:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 8128
+  effectName: miningLaserRangeBonusLRSM
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 54
+    modifyingAttributeID: 351
+    operation: 6
+    skillTypeID: 3386
   propulsionChance: false
   published: false
   rangeChance: false

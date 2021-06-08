@@ -20343,6 +20343,8 @@
   sofRaceName: triglavian
 24553:
   description: Upwell Resource Dropoff Piece 1
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/refinery/s/icons
   sofFactionName: upwell-edencom
   sofHullName: refs1_t1a
   sofRaceName: generic
@@ -20355,6 +20357,8 @@
   sofRaceName: generic
 24555:
   description: Upwell Resource Dropoff Complete
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/refinery/s/icons
   sofFactionName: upwell-edencom
   sofHullName: refs1_t1c
   sofRaceName: generic
@@ -21888,31 +21892,43 @@
   sofRaceName: gallente
 24958:
   description: Model Structure Monument Plinth (Caldari)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: caldaribase
   sofHullName: plinth_01
   sofRaceName: caldari
 24959:
   description: Model Structure Monument Plinth (Gallente)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: gallentebase
   sofHullName: plinth_01
   sofRaceName: gallente
 24960:
   description: Model Structure Monument Plinth (Minmatar)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: minmatarbase
   sofHullName: plinth_01
   sofRaceName: minmatar
 24961:
   description: Model Structure Monument Plinth (Project Discovery Exoplanet)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: pdexoplanets
   sofHullName: plinth_01
   sofRaceName: generic
 24962:
   description: Model Structure Monument Plinth (Upwell Defense)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: upwell-defence
   sofHullName: plinth_01
   sofRaceName: generic
 24963:
   description: Model Structure Monument Plinth (Project Discovery COVID-2020)
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
   sofFactionName: covid_2020
   sofHullName: plinth_01
   sofRaceName: generic
@@ -22122,3 +22138,20 @@
 25005:
   description: Dungeon Environment R0 9146
   graphicFile: res:/dx9/model/celestial/environment/cloud/particle/dungeons/9146/room_00/environment_fx_00_9146.red
+25007:
+  description: Gallente Iyen-Oursta Plinth
+  iconInfo:
+    folder: res:/dx9/model/structure/monument/base/plinth_01/icons
+  sofFactionName: federationday
+  sofHullName: plinth_01
+  sofRaceName: gallente
+25008:
+  description: Mobile Decloak Observatory
+  iconInfo:
+    folder: res:/dx9/model/deployables/generic/anti-stealth/ddd01/icons
+  sofFactionName: upwell
+  sofHullName: ddd01_t1
+  sofRaceName: generic
+25010:
+  description: Deployable Decloak Observatory ShipHit VFX
+  graphicFile: res:/dx9/model/deployables/generic/anti-stealth/ddd01/effects/ddd_shiphit_fx.red
