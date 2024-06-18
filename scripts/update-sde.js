@@ -21,7 +21,8 @@ function versionAsDate(versionstring) {
 scrapeIt("https://developers.eveonline.com/resource/resources", {
     sde_link: { selector: ".content > ul:nth-child(4) > li:first-child > a", attr: "href" },
     versioned_filename: { selector: ".content > h3:nth-child(6) + ul li:last-child a", attr: "href" }
-}).then(scrape => {
+}).then(({data: scrape}) => {
+    console.log(scrape);
     const link = scrape.sde_link || "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
     const versionedFilename = scrape.versioned_filename;
     if (typeof link !== "string" || typeof versionedFilename !== "string") throw new Error("Couldn't scrape SDE link!");
@@ -63,7 +64,7 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         });
         response.pipe(file);
     });
-    file.on("finish", () => {
+    file.on("finish", async () => {
         console.log();
         console.log(`Done downloading!`);
 
@@ -72,13 +73,13 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         console.log(`Extracting downloaded zip...`);
         const dest = unzip.Extract({ path: "." });
         fs.createReadStream("sde.zip").pipe(dest);
-        dest.on("close", () => {
-            console.log(`Extraction complete!`);
-            console.log(`Updating package.json...`);
-            const p = require("../package.json");
-            p.version = version;
-            fs.writeFileSync(require("path").join(__dirname, "../package.json"), JSON.stringify(p, null, 2));
-            console.log(`Done! SDE Upgrade complete!`);
-        });
+        const d = await unzip.Open.file("sde.zip");
+        await d.extract({ path: "./sde" });
+        console.log(`Extraction complete!`);
+        console.log(`Updating package.json...`);
+        const p = require("../package.json");
+        p.version = version;
+        fs.writeFileSync(require("path").join(__dirname, "../package.json"), JSON.stringify(p, null, 2));
+        console.log(`Done! SDE Upgrade complete!`);
     });
 }).catch(err => console.error(err));
