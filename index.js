@@ -47,17 +47,42 @@ function memoize(f) {
 }
 
 const fdeMap = {
-    "types": "typeIDs",
-    "icons": "iconIDs",
-    "categories": "categoryIDs",
+    "agents": "agents",
+    "agentsInSpace": "agentsInSpace",
+    "ancestries": "ancestries",
+    "bloodlines": "bloodlines",
     "blueprints": "blueprints",
+    "categories": "categories",
     "certificates": "certificates",
+    "characterAttributes": "characterAttributes",
+    "contrabandTypes": "contrabandTypes",
+    "controlTowerResources": "controlTowerResources",
+    "corporationActivities": "corporationActivities",
+    "dogmaAttributeCategories": "dogmaAttributeCategories",
+    "dogmaAttributes": "dogmaAttributes",
+    "dogmaEffects": "dogmaEffects",
+    "factions": "factions",
     "graphics": "graphicIDs",
-    "groups": "groupIDs",
-    "skinMaterials": "skinMaterials",
+    "groups": "groups",
+    "icons": "iconIDs",
+    "marketGroups": "marketGroups",
+    "metaGroups": "metaGroups",
+    "npcCorporationDivisions": "npcCorporationDivisions",
+    "npcCorporations": "npcCorporations",
+    "planetResources": "planetResources",
+    "planetSchematics": "planetSchematics",
+    "races": "races",
+    "researchAgents": "researchAgents",
     "skinLicenses": "skinLicenses",
+    "skinMaterials": "skinMaterials",
     "skins": "skins",
-    "tournamentRules": "tournamentRuleSets"
+    "soverigntyUpgrades": "soverigntyUpgrades",
+    "stationOperations": "stationOperations",
+    "stationServices": "stationServices",
+    "tournamentRules": "tournamentRuleSets",
+    "typeDogma": "typeDogma",
+    "typeMaterials": "typeMaterials",
+    "types": "types",
 }
 
 for (const key of Object.keys(fdeMap)) {
@@ -66,12 +91,12 @@ for (const key of Object.keys(fdeMap)) {
     });
 }
 
-exports.landmarks = memoize(() => exports.raw("fsd", "landmarks", "landmarks"));
+exports.landmarks = memoize(() => exports.raw("universe", "landmarks", "landmarks"));
 
 exports.region = (name) => {
-    return exports.raw("fsd", "universe", "eve", name, "region")
+    return exports.raw("universe", "eve", name, "region")
         .catch(() => {
-            return exports.raw("fsd", "universe", "wormhole", name, "region"); 
+            return exports.raw("universe", "wormhole", name, "region"); 
         });
 }
 
