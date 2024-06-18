@@ -545,10 +545,10 @@
   description: Blue Studlaberg Asteroid
   iconFile: res:/ui/texture/icons/23_64_10.png
 1283:
-  description: Unknown
+  description: Energy Neutralizer
   iconFile: res:/ui/texture/icons/12_64_4.png
 1284:
-  description: Unknown
+  description: Stasis Webifier
   iconFile: res:/ui/texture/icons/12_64_6.png
 1285:
   description: Depleted Uranium S
@@ -6251,8 +6251,8 @@
   description: 36516_female_Feet_ShoesEngF01_Types_ShoesEngF01_OreOrange.png
   iconFile: res:/UI/Asset/mannequin/feet/36516_female_Feet_ShoesEngF01_Types_ShoesEngF01_OreOrange.png
 21481:
-  description: Pilot's License Extensio (PLEX)
-  iconFile: res:/UI/Texture/Icons/plex.png
+  description: Pilot's License Extension (PLEX)
+  iconFile: res:/UI/Texture/Plex/plex_128_gradient_yellow.png
 21482:
   description: Icon for the Coalesced Element
   iconFile: res:/ui/texture/icons/118_64_5.png
@@ -7952,9 +7952,6 @@
 24248:
   description: Mouse Left Button
   iconFile: res:/ui/texture/classes/achievements/mouseBtnLeft.png
-24249:
-  description: Soft Penalty Timer
-  iconFile: res:/UI/Texture/Crimewatch/softPenaltyTimer.png
 24250:
   description: Autopilot
   iconFile: res:/ui/texture/icons/44_32_12.png
@@ -7969,7 +7966,7 @@
   iconFile: res:/ui/texture/icons/1_64_11.png
 24254:
   description: Wreck
-  iconFile: res:/UI/Texture/Shared/Brackets/wreckNPC.png
+  iconFile: res:/UI/Texture/Shared/Brackets/Wreck_Large.png
 24256:
   description: 53357_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Aurora.png
   iconFile: res:/UI/Asset/mannequin/outer/53357_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Aurora.png
@@ -8160,7 +8157,7 @@
   iconFile: res:/UI/Texture/Icons/Inventory/AbyssalRandomFilament_L5Active.png
 24328:
   description: Mouse Middle Button
-  iconFile: res:/ui/texture/classes/achievements/mouseBtnMiddle.png
+  iconFile: res:/UI/Texture/Shared/mouse_button_middle.png
 24329:
   description: 54299_Female_Outer_JacketPrtF01_Types_JacketPrtF01_guristashunt.png
   iconFile: res:/UI/Asset/mannequin/outer/54299_Female_Outer_JacketPrtF01_Types_JacketPrtF01_guristashunt.png
@@ -9199,3 +9196,1744 @@
 24753:
   description: 59233_Female_Tattoo_Head_TattooElabM_LD_07_Types_TattooElabM_LD_07.png
   iconFile: res:/UI/Asset/mannequin/tattoo_head/59233_Female_Tattoo_Head_TattooElabM_LD_07_Types_TattooElabM_LD_07.png
+24754:
+  description: 59366_Male_outer_JacketMFBR01_Types_JacketMFBR01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/outer/59366_Male_outer_JacketMFBR01_Types_JacketMFBR01_AmarrFoundation.png
+24755:
+  description: 59367_Female_Outer_JacketFBR01_Types_JacketFBR01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/outer/59367_Female_Outer_JacketFBR01_Types_JacketFBR01_AmarrFoundation.png
+24756:
+  description: 59368_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/59368_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_AmarrFoundation.png
+24757:
+  description: 59370_Female_bottomOuter_PantsMilF01_Types_PantsMilF01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/59370_Female_bottomOuter_PantsMilF01_Types_PantsMilF01_AmarrFoundation.png
+24758:
+  description: 59405_Male_outer_JacketMFBR01_Types_JacketMFBR01_CaldariUnion.png
+  iconFile: res:/UI/Asset/mannequin/outer/59405_Male_outer_JacketMFBR01_Types_JacketMFBR01_CaldariUnion.png
+24759:
+  description: 59406_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_CaldariUnion.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/59406_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_CaldariUnion.png
+24760:
+  description: 59407_Female_Outer_JacketFBR01_Types_JacketFBR01_CaldariUnion.png
+  iconFile: res:/UI/Asset/mannequin/outer/59407_Female_Outer_JacketFBR01_Types_JacketFBR01_CaldariUnion.png
+24761:
+  description: 59408_Female_bottomOuter_PantsMilF01_Types_PantsMilF01_CaldariUnion.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/59408_Female_bottomOuter_PantsMilF01_Types_PantsMilF01_CaldariUnion.png
+24770:
+  description: Approach
+  iconFile: res:/UI/Texture/Icons/44_32_23.png
+24771:
+  description: Board Ship
+  iconFile: res:/UI/Texture/Icons/44_32_40.png
+24773:
+  description: Orbit
+  iconFile: res:/UI/Texture/Icons/44_32_21.png
+24774:
+  description: Lock Target
+  iconFile: res:/UI/Texture/Icons/44_32_17.png
+24776:
+  description: ESS NE Key (15m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_NE.png
+24777:
+  description: ESS NE Key (45m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_NE_large.png
+24778:
+  description: ESS NW Key (15m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_NW.png
+24779:
+  description: ESS NW Key (45m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_NW_large.png
+24780:
+  description: ESS SE Key (15m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_SE.png
+24781:
+  description: ESS SE Key (45m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_SE_large.png
+24782:
+  description: ESS SW Key (15m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_SW.png
+24783:
+  description: ESS SW Key (45m)
+  iconFile: res:/UI/Texture/Icons/Inventory/ESS_reserveKey_64_SW_large.png
+24785:
+  description: Inventory NEOCOM
+  iconFile: res:/ui/texture/icons/items.png
+24786:
+  description: Inventory - Item Hangar
+  iconFile: res:/ui/texture/icons/itemHangar.png
+24787:
+  description: Agency NEOCOM
+  iconFile: res:/ui/texture/icons/theAgency.png
+24788:
+  description: '[AIR] Online Button'
+  iconFile: res:/ui/texture/icons/[AIR] Online Button.png
+24789:
+  description: Apply Skillpoints
+  iconFile: res:/ui/texture/icons/applySkillpoints.png
+24790:
+  description: Fit Module Icon for Ship
+  iconFile: res:/ui/texture/icons/filterIconLowSlot.png
+24791:
+  description: NEOCOM Menu Button
+  iconFile: res:/ui/texture/icons/[AIR] Neocom Menu Button.png
+24792:
+  description: Serenity YC123.7 Event Cerebral Accelerator I
+  iconFile: res:/UI/Texture/Icons/Inventory/IconAccelerator_FrekiGacha_I.png
+24793:
+  description: Serenity YC123.7 Event Cerebral Accelerator II
+  iconFile: res:/UI/Texture/Icons/Inventory/IconAccelerator_FrekiGacha_II.png
+24794:
+  description: Serenity YC123.7 Event Cerebral Accelerator III
+  iconFile: res:/UI/Texture/Icons/Inventory/IconAccelerator_FrekiGacha_III.png
+24795:
+  description: Serenity YC123.7 Event Cerebral Accelerator IV
+  iconFile: res:/UI/Texture/Icons/Inventory/IconAccelerator_FrekiGacha_IV.png
+24796:
+  description: Serenity YC123.7 Event Skill Accelerator I
+  iconFile: res:/UI/Texture/Icons/Inventory/IconLicense_FrekiGacha_01.png
+24797:
+  description: Serenity YC123.7 Event Skill Accelerator II
+  iconFile: res:/UI/Texture/Icons/Inventory/IconLicense_FrekiGacha_02.png
+24798:
+  description: Serenity YC123.7 Event Skill Accelerator III
+  iconFile: res:/UI/Texture/Icons/Inventory/IconLicense_FrekiGacha_03.png
+24799:
+  description: Serenity YC123.7 Event Manufacturing Accelerator MC-108
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_MC108.png
+24800:
+  description: Serenity YC123.7 Event Manufacturing Accelerator MC-308
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_MC308.png
+24801:
+  description: Serenity YC123.7 Event Manufacturing Accelerator MC-708
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_MC708.png
+24802:
+  description: Serenity YC123.7 Event Manufacturing Accelerator RP-108
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_RP108.png
+24803:
+  description: Serenity YC123.7 Event Manufacturing Accelerator RP-308
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_RP308.png
+24804:
+  description: Serenity YC123.7 Event Manufacturing Accelerator RP-708
+  iconFile: res:/UI/Texture/Icons/Inventory/IconZXJ_FrekiGacha_RP708.png
+24805:
+  description: Serenity YC123.7 Event Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_FrekiGacha_01.png
+24806:
+  description: Serenity YC123.7 Event SKIN Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_FrekiGacha_02.png
+24807:
+  description: Serenity YC123.7 Event Manufacturing Booster Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_FrekiGacha_03.png
+24808:
+  description: Serenity YC123.7 Event Skill Booster Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_FrekiGacha_04.png
+24809:
+  description: ESS Link
+  iconFile: res:/UI/Texture/Icons/StatusEffects/Linked_Status_Icon.png
+24810:
+  description: '[AIR] Docking Icon'
+  iconFile: res:/ui/texture/icons/[AIR] Docking.png
+24811:
+  description: '[AIR] Warp Icon'
+  iconFile: res:/ui/texture/icons/[AIR] Jump.png
+24812:
+  description: '[AIR] Stargate Icon'
+  iconFile: res:/ui/texture/icons/[AIR] Stargate.png
+24813:
+  description: '[AIR] Station Icon'
+  iconFile: res:/ui/texture/shared/brackets/Homestation_Icon.png
+24815:
+  description: Serenity YC123.7 Precursor Cruiser Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_ShipCertification_01.png
+24816:
+  description: Serenity YC123.7 Medium Precursor Weapon Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_ShipCertification_02.png
+24817:
+  description: Serenity YC123.7 Medium Disintegrator Specialization Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_ShipCertification_03.png
+24818:
+  description: Serenity YC123.7 Tiamat Premium Insurance
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_ShipInsurance.png
+24819:
+  description: Serenity YC123.7 PotT SKIN Crate Small
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_ShipSkin03_64.png
+24820:
+  description: Serenity YC123.7 PotT SKIN Crate Large
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_ShipSkin04_64.png
+24821:
+  description: Serenity YC123.7 PotT SKIN Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/IconCrate_ShipSkin05_64.png
+24823:
+  description: '[AIR] Jump Icon'
+  iconFile: res:/ui/texture/icons/[AIR] Jump Button.png
+24824:
+  description: Serenity Rookie 26 in 1 Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/IconAccelerator_Orange.png
+24826:
+  description: '[AIR] Small Skill Injector Icon'
+  iconFile: res:/ui/texture/icons/Inventory/[AIR] Small Skill Injector.png
+24827:
+  description: 60160_Male_Accessories_Glasses_EyeImp01_Types_EyeImpM01_Right_Ep.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60160_Male_Accessories_Glasses_EyeImp01_Types_EyeImpM01_Right_Ep.png
+24828:
+  description: 60161_Male_bottomOuter_PantsEngM01_Types_PantsEngM01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/60161_Male_bottomOuter_PantsEngM01_Types_PantsEngM01_Ep.png
+24829:
+  description: 60162_Male_Feet_ShoesEngM01_Types_ShoesEngM01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/feet/60162_Male_Feet_ShoesEngM01_Types_ShoesEngM01_Ep.png
+24830:
+  description: 60163_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V7_Ep.png
+  iconFile: res:/UI/Asset/mannequin/makeup_augmentations/60163_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V7_Ep.png
+24831:
+  description: 60164_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/makeup_bodyaugmentations/60164_Male_Makeup_BodyAugmentations_BodyAugmentation_M01_Types_BodyAugmentationM01_Ep.png
+24832:
+  description: 60165_Male_Accessories_Glasses_Monocle_01_Types_MonocleM01_Right_Ep.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60165_Male_Accessories_Glasses_Monocle_01_Types_MonocleM01_Right_Ep.png
+24833:
+  description: 60166_Female_Accessories_Glasses_EyeImp01_Types_EyeImpF01_Right_Ep.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60166_Female_Accessories_Glasses_EyeImp01_Types_EyeImpF01_Right_Ep.png
+24834:
+  description: 60167_Female_bottomOuter_PantsEngF01_Types_PantsEngF01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/60167_Female_bottomOuter_PantsEngF01_Types_PantsEngF01_Ep.png
+24835:
+  description: 60168_Female_Feet_ShoesEngF01_Types_ShoesEngF01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/feet/60168_Female_Feet_ShoesEngF01_Types_ShoesEngF01_Ep.png
+24836:
+  description: 60169_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/makeup_augmentations/60169_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_Ep.png
+24837:
+  description: 60170_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/makeup_bodyaugmentations/60170_Female_Makeup_BodyAugmentations_BodyAugmentation_F01_Types_BodyAugmentationF01_Ep.png
+24838:
+  description: 60171_Female_Accessories_Glasses_Monocle_01_Types_MonocleF01_Right_EP.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60171_Female_Accessories_Glasses_Monocle_01_Types_MonocleF01_Right_EP.png
+24839:
+  description: 60175_Male_outer_JacketMilM02_Types_JacketMilM02_AIR.png
+  iconFile: res:/UI/Asset/mannequin/outer/60175_Male_outer_JacketMilM02_Types_JacketMilM02_AIR.png
+24840:
+  description: 60176_Female_Outer_JacketSLF_01_Types_JacketSLF_01_air.png
+  iconFile: res:/UI/Asset/mannequin/outer/60176_Female_Outer_JacketSLF_01_Types_JacketSLF_01_air.png
+24841:
+  description: Serenity YC123.8 Overclocker Dose Type-A
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_04a.png
+24842:
+  description: Serenity YC123.8 Hardshell Dose Type-A
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_05a.png
+24843:
+  description: Serenity YC123.8 Pyrolancea Dose Type-A
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_02a.png
+24844:
+  description: Serenity YC123.8 Efficiency Dose Type-A
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_03a.png
+24845:
+  description: Serenity YC123.8 Sharpeye Dose Type-A
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_01a.png
+24846:
+  description: Serenity YC123.8 Overclocker Dose Type-B
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_04b.png
+24847:
+  description: Serenity YC123.8 Hardshell Dose Type-B
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_05b.png
+24848:
+  description: Serenity YC123.8 Pyrolancea Dose Type-B
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_02b.png
+24849:
+  description: Serenity YC123.8 Efficiency Dose Type-B
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_03b.png
+24850:
+  description: Serenity YC123.8 Sharpeye Dose Type-B
+  iconFile: res:/UI/Texture/Icons/Inventory/ZXJ_CSYQ_01b.png
+24851:
+  description: Serenity YC123.8 Cerebral Accelerator I
+  iconFile: res:/UI/Texture/Icons/Inventory/Accelerator_CSYQ_I.png
+24852:
+  description: Serenity YC123.8 Cerebral Accelerator II
+  iconFile: res:/UI/Texture/Icons/Inventory/Accelerator_CSYQ_II.png
+24853:
+  description: Serenity YC123.8 Cerebral Accelerator III
+  iconFile: res:/UI/Texture/Icons/Inventory/Accelerator_CSYQ_III.png
+24854:
+  description: Serenity YC123.8 Cerebral Accelerator IV
+  iconFile: res:/UI/Texture/Icons/Inventory/Accelerator_CSYQ_IV.png
+24855:
+  description: Serenity YC123.8 SKIN Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/Crate_ShipSkin_Sakura.png
+24856:
+  description: Serenity YC123.8 Vangel Crate
+  iconFile: res:/UI/Texture/Icons/Inventory/Crate_Vangel.png
+24857:
+  description: '[AIR] Plus Icon'
+  iconFile: res:/ui/texture/icons/[AIR] PlusIcon.png
+24858:
+  description: Serenity YC123.9 Amarr Battleship Operation Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_BattleshipCer_Amarr.png
+24859:
+  description: Serenity YC123.9 Caldari Battleship Operation Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_BattleshipCer_Caldari.png
+24860:
+  description: Serenity YC123.9 Gallente Battleship Operation Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_BattleshipCer_Gallente.png
+24861:
+  description: Serenity YC123.9 Minmatar Battleship Operation Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_BattleshipCer_Minmatar.png
+24862:
+  description: Serenity YC123.9 Advanced Weapon Upgrade Skill Accelerator
+  iconFile: res:/UI/Texture/Icons/Inventory/Icon_BattleshipCer_AdvancedWeaponUpgrade.png
+24872:
+  description: 60432_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_redblack.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/60432_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_redblack.png
+24874:
+  description: 60434_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_redblack.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/60434_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_redblack.png
+24875:
+  description: 60435_Male_topMiddle_TshirtM01_Types_TshirtM01_BR_CH.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/60435_Male_topMiddle_TshirtM01_Types_TshirtM01_BR_CH.png
+24876:
+  description: 60436_Female_TopMiddle_TshirtF01_Types_TshirtF01_BR_CH.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/60436_Female_TopMiddle_TshirtF01_Types_TshirtF01_BR_CH.png
+24892:
+  description: Drone Damage Mutaplasmid
+  iconFile: res:/ui/texture/icons/Modules/mutaDroneDamage.png
+24893:
+  description: Drone Range Mutaplasmid
+  iconFile: res:/ui/texture/icons/Modules/mutaDroneRange.png
+24894:
+  description: Drone Speed Mutaplasmid
+  iconFile: res:/ui/texture/icons/Modules/mutaDroneSpeed.png
+24895:
+  description: Drone Tank Mutaplasmid
+  iconFile: res:/ui/texture/icons/Modules/mutaDroneTank.png
+24904:
+  description: Quafe Green Apple
+  iconFile: res:/ui/texture/icons/quafe_green.png
+24905:
+  description: Mutaplasmid icon for Drone modules
+  iconFile: res:/ui/texture/icons/Modules/mutaDroneModules.png
+24908:
+  description: 60639_Male_Accessories_Glasses_Goggles_01_Types_goggles_01_min.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60639_Male_Accessories_Glasses_Goggles_01_Types_goggles_01_min.png
+24914:
+  description: 60645_Female_Accessories_Glasses_Goggles_01_Types_goggles_01_min.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/60645_Female_Accessories_Glasses_Goggles_01_Types_goggles_01_min.png
+24916:
+  description: 60647_Male_outer_ExplorationSuit_M01_Types_ExplorationSuit_M01_Min.png
+  iconFile: res:/UI/Asset/mannequin/outer/60647_Male_outer_ExplorationSuit_M01_Types_ExplorationSuit_M01_Min.png
+24924:
+  description: 60655_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Min.png
+  iconFile: res:/UI/Asset/mannequin/outer/60655_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Min.png
+24926:
+  description: Link With Ship Bonuses
+  iconFile: res:/UI/Texture/Icons/StatusEffects/Linked_To_Beaon_Icon.png
+24968:
+  description: Common Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_blue.png
+24969:
+  description: Mercoxit Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_green.png
+24970:
+  description: Abyssal Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_red.png
+24971:
+  description: Rare Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_purple.png
+24972:
+  description: Premium Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_orange.png
+24973:
+  description: Uncommon Mining Crystal I - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_white.png
+24974:
+  description: Common Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_blue.png
+24975:
+  description: Mercoxit Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_green.png
+24976:
+  description: Abyssal Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_red.png
+24977:
+  description: Rare Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_purple.png
+24978:
+  description: Premium Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_orange.png
+24979:
+  description: Uncommon Mining Crystal II - Type A
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_white.png
+24980:
+  description: Common Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_blue.png
+24981:
+  description: Mercoxit Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_green.png
+24982:
+  description: Abyssal Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_red.png
+24983:
+  description: Rare Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_purple.png
+24984:
+  description: Premium Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_orange.png
+24985:
+  description: Uncommon Mining Crystal I - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_white.png
+24986:
+  description: Common Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_blue.png
+24987:
+  description: Mercoxit Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_green.png
+24988:
+  description: Abyssal Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_red.png
+24989:
+  description: Rare Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_purple.png
+24990:
+  description: Premium Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_orange.png
+24991:
+  description: Uncommon Mining Crystal II - Type B
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_white.png
+24992:
+  description: Common Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_blue.png
+24993:
+  description: Mercoxit Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_green.png
+24994:
+  description: Abyssal Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_red.png
+24995:
+  description: Rare Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_purple.png
+24996:
+  description: Premium Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_orange.png
+24997:
+  description: Uncommon Mining Crystal I - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_white.png
+24998:
+  description: Common Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_blue.png
+24999:
+  description: Mercoxit Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_green.png
+25000:
+  description: Abyssal Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_red.png
+25001:
+  description: Rare Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_purple.png
+25002:
+  description: Premium Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_orange.png
+25003:
+  description: Uncommon Mining Crystal II - Type C
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_white.png
+25021:
+  description: Ubiquitous Moon Ore Mining Crystal Type A I
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_blue_moon.png
+25022:
+  description: Ubiquitous Moon Ore Mining Crystal Type B I
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_blue_moon.png
+25023:
+  description: Ubiquitous Moon Ore Mining Crystal Type C I
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_blue_moon.png
+25024:
+  description: Ubiquitous Moon Ore Mining Crystal Type A II
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_blue_moon.png
+25025:
+  description: Ubiquitous Moon Ore Mining Crystal Type B II
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_blue_moon.png
+25026:
+  description: Ubiquitous Moon Ore Mining Crystal Type C II
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_blue_moon.png
+25027:
+  description: Common Moon Ore Mining Crystal Type A I
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_white_moon.png
+25028:
+  description: Common Moon Ore Mining Crystal Type B I
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_white_moon.png
+25029:
+  description: Common Moon Ore Mining Crystal Type C I
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_white_moon.png
+25030:
+  description: Common Moon Ore Mining Crystal Type A II
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_white_moon.png
+25031:
+  description: Common Moon Ore Mining Crystal Type B II
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_white_moon.png
+25032:
+  description: Common Moon Ore Mining Crystal Type C II
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_white_moon.png
+25033:
+  description: Uncommon Moon Ore Mining Crystal Type A I
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_purple_moon.png
+25034:
+  description: Uncommon Moon Ore Mining Crystal Type B I
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_purple_moon.png
+25035:
+  description: Uncommon Moon Ore Mining Crystal Type C I
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_purple_moon.png
+25036:
+  description: Uncommon Moon Ore Mining Crystal Type A II
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_purple_moon.png
+25037:
+  description: Uncommon Moon Ore Mining Crystal Type B II
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_purple_moon.png
+25038:
+  description: Uncommon Moon Ore Mining Crystal Type C II
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_purple_moon.png
+25039:
+  description: Rare Moon Ore Mining Crystal Type A I
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_red_moon.png
+25040:
+  description: Rare Moon Ore Mining Crystal Type B I
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_red_moon.png
+25041:
+  description: Rare Moon Ore Mining Crystal Type C I
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_red_moon.png
+25042:
+  description: Rare Moon Ore Mining Crystal Type A II
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_red_moon.png
+25043:
+  description: Rare Moon Ore Mining Crystal Type B II
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_red_moon.png
+25044:
+  description: Rare Moon Ore Mining Crystal Type C II
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_red_moon.png
+25045:
+  description: Exceptional Moon Ore Mining Crystal Type A I
+  iconFile: res:/UI/Texture/Icons/Ammo/a_1_orange_moon.png
+25046:
+  description: Exceptional Moon Ore Mining Crystal Type B I
+  iconFile: res:/UI/Texture/Icons/Ammo/b_1_orange_moon.png
+25047:
+  description: Exceptional Moon Ore Mining Crystal Type C I
+  iconFile: res:/UI/Texture/Icons/Ammo/c_1_orange_moon.png
+25048:
+  description: Exceptional Moon Ore Mining Crystal Type A II
+  iconFile: res:/UI/Texture/Icons/Ammo/a_2_orange_moon.png
+25049:
+  description: Exceptional Moon Ore Mining Crystal Type B II
+  iconFile: res:/UI/Texture/Icons/Ammo/b_2_orange_moon.png
+25050:
+  description: Exceptional Moon Ore Mining Crystal Type C II
+  iconFile: res:/UI/Texture/Icons/Ammo/c_2_orange_moon.png
+25051:
+  description: 61532_Female_TopMiddle_ShirtQF01_Types_shirtqf01_drw.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/61532_Female_TopMiddle_ShirtQF01_Types_shirtqf01_drw.png
+25052:
+  description: 61533_Male_topMiddle_ShirtQM01_Types_shirtqm01_drw.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/61533_Male_topMiddle_ShirtQM01_Types_shirtqm01_drw.png
+25054:
+  description: 61535_Female_Outer_ScarfF01_Types_ScarfF01_drw.png
+  iconFile: res:/UI/Asset/mannequin/outer/61535_Female_Outer_ScarfF01_Types_ScarfF01_drw.png
+25055:
+  description: 61536_Male_outer_ScarfM01_Types_ScarfM01_drw.png
+  iconFile: res:/UI/Asset/mannequin/outer/61536_Male_outer_ScarfM01_Types_ScarfM01_drw.png
+25060:
+  description: Module - Mining Laser Upgrade I
+  iconFile: res:/ui/texture/icons/5_64_12.png
+25068:
+  description: Small Warp Matrix Filament
+  iconFile: res:/UI/Texture/Icons/Inventory/WMFilamentSmall.png
+25069:
+  description: Large Warp Matrix Filament
+  iconFile: res:/UI/Texture/Icons/Inventory/WMFilamentLarge.png
+25076:
+  description: 61848_Female_Outer_OutfitDW_F01_Types_OutfitDW_F01.png
+  iconFile: res:/UI/Asset/mannequin/outer/61848_Female_Outer_OutfitDW_F01_Types_OutfitDW_F01.png
+25090:
+  description: 61949_Male_outer_OutfitDW_M01_Types_OutfitDW_M01.png
+  iconFile: res:/UI/Asset/mannequin/outer/61949_Male_outer_OutfitDW_M01_Types_OutfitDW_M01.png
+25091:
+  description: '[AIR] Myserious Blackbox'
+  iconFile: res:/ui/texture/icons/Inventory/AIR-NPE/air_blackbox.png
+25092:
+  description: '[AIR] Air Ore'
+  iconFile: res:/ui/texture/icons/Inventory/AIR-NPE/air_asteroid.png
+25117:
+  description: Inventory - Ship Cargo Hold
+  iconFile: res:/ui/texture/icons/1337_64_11.png
+25120:
+  description: Wallet - Neocom
+  iconFile: res:/ui/texture/WindowIcons/wallet.png
+25127:
+  description: Fitting Window - Warning Skills
+  iconFile: res:/ui/texture/classes/Fitting/warningSkills.png
+25128:
+  description: DWTrinketBlueBox
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket01.png
+25129:
+  description: DWTrinketSonicMultitool
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket02.png
+25130:
+  description: DWTrinketConfectionary
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket03.png
+25131:
+  description: DWTrinketBlueDiary
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket04.png
+25132:
+  description: DWTrinketCircularText
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket05.png
+25133:
+  description: DWTrinketSnowGlobe
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket06.png
+25134:
+  description: DWTrinketPlunger
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket07.png
+25135:
+  description: DWBiomechanicalArmor
+  iconFile: res:/UI/Texture/Icons/Inventory/DWTrinket08.png
+25137:
+  description: Skill Window - Close Window Button
+  iconFile: res:/ui/texture/classes/DockPanel/closeButton.png
+25138:
+  description: Fitting Window - Close Window Button
+  iconFile: res:/ui/texture/classes/Window/btnClose.png
+25139:
+  description: 'Overview - Small Asteroid '
+  iconFile: res:/ui/texture/shared/Brackets/Asteroid_Small.png
+25140:
+  description: Selected Items - Open Cargo
+  iconFile: res:/ui/texture/icons/44_32_35.png
+25141:
+  description: Selected Items - Align to
+  iconFile: res:/ui/texture/icons/44_32_59.png
+25143:
+  description: Start Conversation With Agent
+  iconFile: res:/ui/texture/shared/actions/startConversation.png
+25148:
+  description: AIR NPE - Undock Button
+  iconFile: res:/UI/Texture/classes/industry/centerbar/arrows.png
+25149:
+  description: 62750_Male_outer_ExplorationSuit_M01_Types_ExplorationSuit_M01_AIR.png
+  iconFile: res:/UI/Asset/mannequin/outer/62750_Male_outer_ExplorationSuit_M01_Types_ExplorationSuit_M01_AIR.png
+25150:
+  description: Medium Asteroid Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/asteroid_M.png
+25151:
+  description: Large Asteroid Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/asteroid_L.png
+25152:
+  description: Extra Large Asteroid Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/asteroid_XL.png
+25153:
+  description: Medium Gas Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/gas_M.png
+25154:
+  description: Large Gas Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/gas_L.png
+25155:
+  description: Extra Large Gas Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/gas_XL.png
+25156:
+  description: Large Ice Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/ice_L.png
+25157:
+  description: Extra Large Ice Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/ice_XL.png
+25158:
+  description: Large Mercoxit Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/mercoxit_L.png
+25159:
+  description: Extra Large Mercoxit Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/mercoxit_XL.png
+25160:
+  description: Large Moon Ore Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/moon_L.png
+25161:
+  description: Extra Large Moon Ore Compressor
+  iconFile: res:/UI/Texture/Icons/Modules/moon_XL.png
+25163:
+  description: Compressed Aqua Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Aqua.png
+25164:
+  description: Compressed Blue Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Blue.png
+25165:
+  description: Compressed Green Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Green.png
+25166:
+  description: Compressed Lime Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Lime.png
+25167:
+  description: Compressed Orange Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Orange.png
+25168:
+  description: Compressed Purple Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Purple.png
+25169:
+  description: Compressed Red Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Red.png
+25170:
+  description: Compressed Yellow Harvestable Cloud
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Yellow.png
+25171:
+  description: Compressed Bezdnacine
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Asteroid_Bezdnacine.png
+25172:
+  description: Compressed Rakovene
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Asteroid_Rakovene.png
+25173:
+  description: Compressed Talassonite
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_Asteroid_Talassonite.png
+25174:
+  description: Compressed R4 Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_R4.png
+25175:
+  description: Compressed R8 Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_R8.png
+25176:
+  description: Compressed R16 Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_R16.png
+25177:
+  description: Compressed R32 Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_R32.png
+25178:
+  description: Compressed R64 Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_R64.png
+25179:
+  description: Compressed R4 HQ Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_JackpotR4.png
+25180:
+  description: Compressed R8 HQ Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_JackpotR8.png
+25181:
+  description: Compressed R16 HQ Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_JackpotR16.png
+25182:
+  description: Compressed R32 HQ Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_JackpotR32.png
+25183:
+  description: Compressed R64 HQ Moon Ore
+  iconFile: res:/UI/Texture/Icons/Inventory/compressed_moonAsteroid_JackpotR64.png
+25185:
+  description: 63051_Male_outer_JacketCMM01_Types_JacketCMM01_ep.png
+  iconFile: res:/UI/Asset/mannequin/outer/63051_Male_outer_JacketCMM01_Types_JacketCMM01_ep.png
+25186:
+  description: 63052_Female_Outer_JacketCMF01_Types_JacketCMF01_ep.png
+  iconFile: res:/UI/Asset/mannequin/outer/63052_Female_Outer_JacketCMF01_Types_JacketCMF01_ep.png
+25188:
+  description: 63054_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_ep.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63054_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_ep.png
+25189:
+  description: 63055_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_ep.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63055_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_ep.png
+25190:
+  description: 63056_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Air.png
+  iconFile: res:/UI/Asset/mannequin/outer/63056_Female_Outer_ExplorationSuit_F01_Types_ExplorationSuit_F01_Air.png
+25192:
+  description: 63058_Male_Accessories_Glasses_Glasses_Slick_01_Types_Glasses_Slick_01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/63058_Male_Accessories_Glasses_Glasses_Slick_01_Types_Glasses_Slick_01_Ep.png
+25195:
+  description: 63061_Female_Accessories_Glasses_Glasses_Slick_01_Types_Glasses_Slick_01_Ep.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/63061_Female_Accessories_Glasses_Glasses_Slick_01_Types_Glasses_Slick_01_Ep.png
+25197:
+  description: Wreck (Item inside)
+  iconFile: res:/UI/Texture/Shared/Brackets/WreckNPC_Large_.png
+25198:
+  description: 63112_Male_outer_JacketPrtm01_Types_JacketPrtm01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/outer/63112_Male_outer_JacketPrtm01_Types_JacketPrtm01_guristashunt_b.png
+25199:
+  description: 63113_Male_Feet_BootsPrtm01_Types_BootsPrtm01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/feet/63113_Male_Feet_BootsPrtm01_Types_BootsPrtm01_guristashunt_b.png
+25200:
+  description: 63114_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63114_Male_bottomOuter_PantsPrtm01_Types_PantsPrtm01_guristashunt_b.png
+25201:
+  description: 63115_Female_Outer_JacketPrtF01_Types_JacketPrtF01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/outer/63115_Female_Outer_JacketPrtF01_Types_JacketPrtF01_guristashunt_b.png
+25209:
+  description: 63123_Female_Feet_BootsPrtF01_Types_BootsPrtF01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/feet/63123_Female_Feet_BootsPrtF01_Types_BootsPrtF01_guristashunt_b.png
+25210:
+  description: 63124_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_guristashunt_b.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63124_Female_bottomOuter_PantsPrtF01_Types_PantsPrtF01_guristashunt_b.png
+25215:
+  description: 63135_Male_Accessories_Masks_Mask_Cyberpunk_M01_Types_Mask_Cyberpunk_M01.png
+  iconFile: res:/UI/Asset/mannequin/accessories_masks/63135_Male_Accessories_Masks_Mask_Cyberpunk_M01_Types_Mask_Cyberpunk_M01.png
+25218:
+  description: 63138_Female_Accessories_Masks_Mask_Cyberpunk_F01_Types_Mask_Cyberpunk_F01.png
+  iconFile: res:/UI/Asset/mannequin/accessories_masks/63138_Female_Accessories_Masks_Mask_Cyberpunk_F01_Types_Mask_Cyberpunk_F01.png
+25220:
+  description: 63246_Male_outer_Hoodie_M01_Types_Hoodie_M01_XIX.png
+  iconFile: res:/UI/Asset/mannequin/outer/63246_Male_outer_Hoodie_M01_Types_Hoodie_M01_XIX.png
+25227:
+  description: 63253_Male_outer_Hoodie_M01_Types_Hoodie_M01_XIX_HQ.png
+  iconFile: res:/UI/Asset/mannequin/outer/63253_Male_outer_Hoodie_M01_Types_Hoodie_M01_XIX_HQ.png
+25231:
+  description: 63257_Female_Outer_Hoodie_F01_Types_Hoodie_F01_XIX.png
+  iconFile: res:/UI/Asset/mannequin/outer/63257_Female_Outer_Hoodie_F01_Types_Hoodie_F01_XIX.png
+25234:
+  description: 63260_Female_Outer_Hoodie_F01_Types_Hoodie_F01_XIX_HQ.png
+  iconFile: res:/UI/Asset/mannequin/outer/63260_Female_Outer_Hoodie_F01_Types_Hoodie_F01_XIX_HQ.png
+25235:
+  description: Booster A Green I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAGreenI.png
+25236:
+  description: Booster A Green II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAGreenII.png
+25237:
+  description: Booster A Green III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAGreenIII.png
+25238:
+  description: Booster A Green IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAGreenIV.png
+25239:
+  description: Booster A Green V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAGreenV.png
+25240:
+  description: Booster A Blue I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterABlueI.png
+25241:
+  description: Booster A Blue II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterABlueII.png
+25242:
+  description: Booster A Blue III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterABlueIII.png
+25243:
+  description: Booster A Blue IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterABlueIV.png
+25244:
+  description: Booster A Blue V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterABlueV.png
+25245:
+  description: Booster A Red I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterARedI.png
+  obsolete: false
+25246:
+  description: Booster A Red II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterARedII.png
+25247:
+  description: Booster A Red III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterARedIII.png
+25248:
+  description: Booster A Red IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterARedIV.png
+25249:
+  description: Booster A Red V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterARedV.png
+25250:
+  description: Booster A Yellow I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAYellowI.png
+25251:
+  description: Booster A Yellow II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAYellowII.png
+25252:
+  description: Booster A Yellow III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAYellowIII.png
+25253:
+  description: Booster A Yellow IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAYellowIV.png
+25254:
+  description: Booster A Yellow V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterAYellowV.png
+25255:
+  description: Booster B Green I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBGreenI.png
+25256:
+  description: Booster B Green II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBGreenII.png
+25257:
+  description: Booster B Green III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBGreenIII.png
+25258:
+  description: Booster B Green IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBGreenIV.png
+25259:
+  description: Booster B Green V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBGreenV.png
+25260:
+  description: Booster B Blue I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBBlueI.png
+25261:
+  description: Booster B Blue II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBBlueII.png
+25262:
+  description: Booster B Blue III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBBlueIII.png
+25263:
+  description: Booster B Blue IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBBlueIV.png
+25264:
+  description: Booster B Blue V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBBlueV.png
+25265:
+  description: Booster B Red I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBRedI.png
+25266:
+  description: Booster B Red II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBRedII.png
+25267:
+  description: Booster B Red III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBRedIII.png
+25268:
+  description: Booster B Red IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBRedIV.png
+25269:
+  description: Booster B Red V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBRedV.png
+25270:
+  description: Booster B Yellow I
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBYellowI.png
+25271:
+  description: Booster B Yellow II
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBYellowII.png
+25272:
+  description: Booster B Yellow III
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBYellowIII.png
+25273:
+  description: Booster B Yellow IV
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBYellowIV.png
+25274:
+  description: Booster B Yellow V
+  iconFile: res:/UI/Texture/Icons/Inventory/BoosterBYellowV.png
+25277:
+  description: Evergreen login campaign booster flat icon
+  iconFile: res:/ui/texture/icons/inventory/dli_booster_icon.png
+25278:
+  description: Evergreen login campaign filament flat icon
+  iconFile: res:/ui/texture/icons/inventory/dli_filament_icon.png
+25279:
+  description: Evergreen login campaign ISK flat icon
+  iconFile: res:/ui/texture/icons/inventory/dli_isk_icon.png
+25280:
+  description: Evergreen login campaign SKIN flat icon
+  iconFile: res:/ui/texture/icons/inventory/dli_skin_icon.png
+25281:
+  description: Evergreen login campaign skill points flat icon
+  iconFile: res:/ui/texture/icons/inventory/dli_sp_icon.png
+25283:
+  description: PDS ammo
+  iconFile: res:/ui/texture/icons/5_64_3.png
+25284:
+  description: EGDLI Booster Green
+  iconFile: res:/ui/texture/icons/inventory/dli_booster_icon_green.png
+25285:
+  description: EGDLI Booster Blue
+  iconFile: res:/ui/texture/icons/inventory/dli_booster_icon_blue.png
+25286:
+  description: EGDLI Booster Purple
+  iconFile: res:/ui/texture/icons/inventory/dli_booster_icon_purple.png
+25287:
+  description: EGDLI Filament Green
+  iconFile: res:/ui/texture/icons/inventory/dli_filament_icon_green.png
+25288:
+  description: EGDLI Filament Blue
+  iconFile: res:/ui/texture/icons/inventory/dli_filament_icon_blue.png
+25289:
+  description: EGDLI Filament Purple
+  iconFile: res:/ui/texture/icons/inventory/dli_filament_icon_purple.png
+25290:
+  description: EGDLI ISK Green
+  iconFile: res:/ui/texture/icons/inventory/dli_isk_icon_green.png
+25291:
+  description: EGDLI ISK Blue
+  iconFile: res:/ui/texture/icons/inventory/dli_isk_icon_blue.png
+25292:
+  description: EGDLI ISK Purple
+  iconFile: res:/ui/texture/icons/inventory/dli_isk_icon_purple.png
+25293:
+  description: EGDLI SKIN Green
+  iconFile: res:/ui/texture/icons/inventory/dli_skin_icon_green.png
+25294:
+  description: EGDLI SKIN Blue
+  iconFile: res:/ui/texture/icons/inventory/dli_skin_icon_blue.png
+25295:
+  description: EGDLI SKIN Purple
+  iconFile: res:/ui/texture/icons/inventory/dli_skin_icon_purple.png
+25296:
+  description: EGDLI Skill Points Green
+  iconFile: res:/ui/texture/icons/inventory/dli_sp_icon_green.png
+25297:
+  description: EGDLI Skill Points Blue
+  iconFile: res:/ui/texture/icons/inventory/dli_sp_icon_blue.png
+25298:
+  description: EGDLI Skill Points Purple
+  iconFile: res:/ui/texture/icons/inventory/dli_sp_icon_purple.png
+25299:
+  description: 63747_Male_outer_JacketFormalMilM01_Types_JacketFormalMilM01_Caldari_FF.png
+  iconFile: res:/UI/Asset/mannequin/outer/63747_Male_outer_JacketFormalMilM01_Types_JacketFormalMilM01_Caldari_FF.png
+25300:
+  description: 63748_Male_bottomOuter_PantsCorpBusinessM01_Types_PantsCorpBusinessM01_BlackFF.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63748_Male_bottomOuter_PantsCorpBusinessM01_Types_PantsCorpBusinessM01_BlackFF.png
+25301:
+  description: 63749_Female_Outer_JacketFormalMilF01_Types_JacketFormalMilF01_Caldari_FF.png
+  iconFile: res:/UI/Asset/mannequin/outer/63749_Female_Outer_JacketFormalMilF01_Types_JacketFormalMilF01_Caldari_FF.png
+25302:
+  description: 63750_Female_bottomOuter_PantsCorpBusinessF01_Types_PantsCorpBusinessF01_BlackFF.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/63750_Female_bottomOuter_PantsCorpBusinessF01_Types_PantsCorpBusinessF01_BlackFF.png
+25303:
+  description: 63789_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race.png
+  iconFile: res:/UI/Asset/mannequin/outer/63789_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race.png
+25304:
+  description: 63790_Female_Outer_JacketFBR01_Types_JacketFBR01_race.png
+  iconFile: res:/UI/Asset/mannequin/outer/63790_Female_Outer_JacketFBR01_Types_JacketFBR01_race.png
+25305:
+  description: Overview - Large Collidable Structure
+  iconFile: res:/UI/Texture/Shared/Brackets/largeCollidableStructure.png
+25311:
+  description: Caldari Shuttle
+  iconFile: res:/dx9/model/ship/caldari/shuttle/cs1/icons/317_128.png
+25314:
+  description: 64195_Female_Outer_JacketFBR01_Types_JacketFBR01_race_hq.png
+  iconFile: res:/UI/Asset/mannequin/outer/64195_Female_Outer_JacketFBR01_Types_JacketFBR01_race_hq.png
+25315:
+  description: 64196_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race_HQ.png
+  iconFile: res:/UI/Asset/mannequin/outer/64196_Male_outer_JacketMFBR01_Types_JacketMFBR01_Race_HQ.png
+25328:
+  description: Enforcer Crate
+  iconFile: res:/ui/texture/icons/inventory/CareerPortal/loot_crate64_enforcer.png
+25329:
+  description: Explorer Crate
+  iconFile: res:/ui/texture/icons/inventory/CareerPortal/loot_crate64_explorer.png
+25330:
+  description: Industrialist Crate
+  iconFile: res:/ui/texture/icons/inventory/CareerPortal/loot_crate64_industrial.png
+25331:
+  description: Soldier of Fortune Crate
+  iconFile: res:/ui/texture/icons/inventory/CareerPortal/loot_crate64_sof.png
+25336:
+  description: 64201_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_Lib_HQ.png
+  iconFile: res:/UI/Asset/mannequin/hair/64201_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_Lib_HQ.png
+25337:
+  description: 64202_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_Lib_HQ.png
+  iconFile: res:/UI/Asset/mannequin/hair/64202_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_Lib_HQ.png
+25338:
+  description: 64203_Female_TopMiddle_TshirtF01_Types_TshirtF01_Lib_HQ.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/64203_Female_TopMiddle_TshirtF01_Types_TshirtF01_Lib_HQ.png
+25339:
+  description: 64204_Male_topMiddle_TshirtM01_Types_TshirtM01_Lib_HQ.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/64204_Male_topMiddle_TshirtM01_Types_TshirtM01_Lib_HQ.png
+25340:
+  description: 64268_Male_topMiddle_TshirtM01_Types_TshirtM01_Lib.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/64268_Male_topMiddle_TshirtM01_Types_TshirtM01_Lib.png
+25341:
+  description: 64269_Female_TopMiddle_TshirtF01_Types_TshirtF01_Lib.png
+  iconFile: res:/UI/Asset/mannequin/topmiddle/64269_Female_TopMiddle_TshirtF01_Types_TshirtF01_Lib.png
+25342:
+  description: 64270_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_Lib.png
+  iconFile: res:/UI/Asset/mannequin/hair/64270_Male_hair_HeadWear_Cap_M01_Types_HeadWear_Cap_M01_Lib.png
+25343:
+  description: 64271_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_Lib.png
+  iconFile: res:/UI/Asset/mannequin/hair/64271_Female_hair_HeadWear_Cap_F01_Types_HeadWear_Cap_F01_Lib.png
+25348:
+  description: 64377_Female_Outer_RobeF01_Types_RobeAF01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/outer/64377_Female_Outer_RobeF01_Types_RobeAF01_AmarrFoundation.png
+25349:
+  description: 64378_Female_Outer_RobeF01_Types_RobeAF01_AmarrFoundation_HQ.png
+  iconFile: res:/UI/Asset/mannequin/outer/64378_Female_Outer_RobeF01_Types_RobeAF01_AmarrFoundation_HQ.png
+25350:
+  description: 64379_Male_outer_RobeAM01_Types_RobeAM01_AmarrFoundation.png
+  iconFile: res:/UI/Asset/mannequin/outer/64379_Male_outer_RobeAM01_Types_RobeAM01_AmarrFoundation.png
+25351:
+  description: 64380_Male_outer_RobeAM01_Types_RobeAM01_AmarrFoundation_HQ.png
+  iconFile: res:/UI/Asset/mannequin/outer/64380_Male_outer_RobeAM01_Types_RobeAM01_AmarrFoundation_HQ.png
+25354:
+  description: NEOCOM - AIR Career Program
+  iconFile: res:/UI/Texture/WindowIcons/airCareerProgram.png
+25355:
+  description: ' Pressurized Oxidizers'
+  iconFile: res:/UI/Texture/Icons/CapitalShipProduction/Pressurized_Oxygen_64.png
+25356:
+  description: ' Reinforced Carbon Fiber'
+  iconFile: res:/UI/Texture/Icons/CapitalShipProduction/Reinforce_Carbon_Fibre_64.png
+25368:
+  description: 70838_Male_outer_JacketCM01_R_Types_JacketCM01_R_Commerce.png
+  iconFile: res:/UI/Asset/mannequin/outer/70838_Male_outer_JacketCM01_R_Types_JacketCM01_R_Commerce.png
+25369:
+  description: 70839_Male_outer_JacketCM01_R_Types_JacketCM01_R_Ishukone.png
+  iconFile: res:/UI/Asset/mannequin/outer/70839_Male_outer_JacketCM01_R_Types_JacketCM01_R_Ishukone.png
+25370:
+  description: 70840_Male_outer_JacketCM01_R_Types_JacketCM01_R_CBD.png
+  iconFile: res:/UI/Asset/mannequin/outer/70840_Male_outer_JacketCM01_R_Types_JacketCM01_R_CBD.png
+25371:
+  description: 70841_Male_outer_JacketCM01_R_Types_JacketCM01_R_Hyasyoda.png
+  iconFile: res:/UI/Asset/mannequin/outer/70841_Male_outer_JacketCM01_R_Types_JacketCM01_R_Hyasyoda.png
+25372:
+  description: 70842_Male_outer_JacketCM01_R_Types_JacketCM01_R_Kaalakiota.png
+  iconFile: res:/UI/Asset/mannequin/outer/70842_Male_outer_JacketCM01_R_Types_JacketCM01_R_Kaalakiota.png
+25373:
+  description: 70843_Male_outer_JacketCM01_R_Types_JacketCM01_R_Wiyrkomi.png
+  iconFile: res:/UI/Asset/mannequin/outer/70843_Male_outer_JacketCM01_R_Types_JacketCM01_R_Wiyrkomi.png
+25374:
+  description: 70844_Male_outer_JacketCM01_R_Types_JacketCM01_R_LaiDai.png
+  iconFile: res:/UI/Asset/mannequin/outer/70844_Male_outer_JacketCM01_R_Types_JacketCM01_R_LaiDai.png
+25375:
+  description: 70845_Male_outer_JacketCM01_R_Types_JacketCM01_R_Sukuuvestaa.png
+  iconFile: res:/UI/Asset/mannequin/outer/70845_Male_outer_JacketCM01_R_Types_JacketCM01_R_Sukuuvestaa.png
+25376:
+  description: 70846_Male_outer_JacketCM01_R_Types_JacketCM01_R_Nugoeihuvi.png
+  iconFile: res:/UI/Asset/mannequin/outer/70846_Male_outer_JacketCM01_R_Types_JacketCM01_R_Nugoeihuvi.png
+25377:
+  description: 70847_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Commerce.png
+  iconFile: res:/UI/Asset/mannequin/outer/70847_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Commerce.png
+25378:
+  description: 70848_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Ishukone.png
+  iconFile: res:/UI/Asset/mannequin/outer/70848_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Ishukone.png
+25379:
+  description: 70849_Female_Outer_JacketCF01_R_Types_JacketCF01_R_CBD.png
+  iconFile: res:/UI/Asset/mannequin/outer/70849_Female_Outer_JacketCF01_R_Types_JacketCF01_R_CBD.png
+25380:
+  description: 70850_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Hyasyoda.png
+  iconFile: res:/UI/Asset/mannequin/outer/70850_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Hyasyoda.png
+25381:
+  description: 70851_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Kaalakiota.png
+  iconFile: res:/UI/Asset/mannequin/outer/70851_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Kaalakiota.png
+25382:
+  description: 70852_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Wiyrkomi.png
+  iconFile: res:/UI/Asset/mannequin/outer/70852_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Wiyrkomi.png
+25383:
+  description: 70853_Female_Outer_JacketCF01_R_Types_JacketCF01_R_LaiDai.png
+  iconFile: res:/UI/Asset/mannequin/outer/70853_Female_Outer_JacketCF01_R_Types_JacketCF01_R_LaiDai.png
+25384:
+  description: 70854_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Sukuuvestaa.png
+  iconFile: res:/UI/Asset/mannequin/outer/70854_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Sukuuvestaa.png
+25385:
+  description: 70855_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Nugoeihuvi.png
+  iconFile: res:/UI/Asset/mannequin/outer/70855_Female_Outer_JacketCF01_R_Types_JacketCF01_R_Nugoeihuvi.png
+25447:
+  description: 73395_Male_bottomOuter_PantsCorpBusinessM01_Types_PantsCorpBusinessM01_DarkTurquoise.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/73395_Male_bottomOuter_PantsCorpBusinessM01_Types_PantsCorpBusinessM01_DarkTurquoise.png
+25448:
+  description: 73396_Male_outer_JacketCorpBusinessM01_Types_JacketCorpBusinessM01_DarkTurquoise.png
+  iconFile: res:/UI/Asset/mannequin/outer/73396_Male_outer_JacketCorpBusinessM01_Types_JacketCorpBusinessM01_DarkTurquoise.png
+25451:
+  description: 73407_Female_Outer_JacketMilF02_Types_JacketMilF02_WhiteTurquoise.png
+  iconFile: res:/UI/Asset/mannequin/outer/73407_Female_Outer_JacketMilF02_Types_JacketMilF02_WhiteTurquoise.png
+25452:
+  description: 73423_Female_Accessories_Masks_Mask_Cyberpunk_F01_Types_Mask_Cyberpunk_F01_Tan_Worn.png
+  iconFile: res:/UI/Asset/mannequin/accessories_masks/73423_Female_Accessories_Masks_Mask_Cyberpunk_F01_Types_Mask_Cyberpunk_F01_Tan_Worn.png
+25453:
+  description: 73424_Female_Accessories_Glasses_Goggles_01_Types_goggles_01_tan_worn.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/73424_Female_Accessories_Glasses_Goggles_01_Types_goggles_01_tan_worn.png
+25454:
+  description: 73425_Male_Accessories_Masks_Mask_Cyberpunk_M01_Types_Mask_Cyberpunk_M01_Tan_Worn.png
+  iconFile: res:/UI/Asset/mannequin/accessories_masks/73425_Male_Accessories_Masks_Mask_Cyberpunk_M01_Types_Mask_Cyberpunk_M01_Tan_Worn.png
+25455:
+  description: 73426_Male_Accessories_Glasses_Goggles_01_Types_goggles_01_tan_worn.png
+  iconFile: res:/UI/Asset/mannequin/accessories_glasses/73426_Male_Accessories_Glasses_Goggles_01_Types_goggles_01_tan_worn.png
+25456:
+  description: 73436_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V7_Red.png
+  iconFile: res:/UI/Asset/mannequin/makeup_augmentations/73436_Male_Makeup_Augmentations_Face_Paint_M01_Types_Face_Paint_M01_V7_Red.png
+25457:
+  description: 73437_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_V3_Red.png
+  iconFile: res:/UI/Asset/mannequin/makeup_augmentations/73437_Female_Makeup_Augmentations_Face_Paint_F01_Types_Face_Paint_F01_V3_Red.png
+25463:
+  description: EverMore Logo
+  iconFile: res:/ui/texture/corps/EverMore.png
+25465:
+  description: Paragon Corp Logo
+  iconFile: res:/ui/texture/corps/paragon.png
+25467:
+  description: Personalization Alliance Emblem Icon
+  iconFile: res:/ui/texture/classes/fitting/cosmetics/alliance_logo_128px.png
+25468:
+  description: Personalization Corporation Emblem Icon
+  iconFile: res:/ui/texture/classes/fitting/cosmetics/corp_logo_128px.png
+25475:
+  description: EverMarks
+  iconFile: res:/ui/texture/icons/evermarks.png
+25547:
+  description: 'NEOCOM - Personal Assets '
+  iconFile: res:/ui/texture/WindowIcons/assets.png
+25621:
+  description: Module - Lance
+  iconFile: res:/UI/Texture/Icons/Modules/amarrLance.png
+25622:
+  description: Module - Lance
+  iconFile: res:/UI/Texture/Icons/Modules/caldariLance.png
+25624:
+  description: Module - Lance
+  iconFile: res:/UI/Texture/Icons/Modules/gallenteLance.png
+25625:
+  description: Module - Lance
+  iconFile: res:/UI/Texture/Icons/Modules/minmatarLance.png
+25629:
+  description: Amperum Mutanite
+  iconFile: res:/ui/texture/icons/35_64_13.png
+25631:
+  description: Tenebraet Mutanite
+  iconFile: res:/ui/texture/icons/35_64_11.png
+25632:
+  description: Peregrinus Mutanite
+  iconFile: res:/ui/texture/icons/36_64_6.png
+25633:
+  description: Conflagrati Mutanite
+  iconFile: res:/ui/texture/icons/36_64_7.png
+25634:
+  description: Solis Mutanite
+  iconFile: res:/ui/texture/icons/35_64_16.png
+25666:
+  description: Deathless data ship log
+  iconFile: res:/ui/texture/icons/43_64_12_d.png
+25668:
+  description: warp vector icon 1
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_1.png
+25669:
+  description: warp vector icon 2
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_2.png
+25670:
+  description: warp vector icon 3
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_3.png
+25671:
+  description: warp vector icon 4
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_4.png
+25672:
+  description: warp vector icon 5
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_5.png
+25673:
+  description: warp vector icon 6
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_6.png
+25674:
+  description: warp vector icon 7
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_7.png
+25675:
+  description: warp vector icon 17
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_17.png
+25676:
+  description: warp vector icon 8
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_8.png
+25677:
+  description: warp vector icon 9
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_9.png
+25678:
+  description: warp vector icon 10
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_10.png
+25679:
+  description: warp vector icon 11
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_11.png
+25680:
+  description: warp vector icon 12
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_12.png
+25681:
+  description: warp vector icon 13
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_13.png
+25682:
+  description: warp vector icon 14
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_14.png
+25683:
+  description: warp vector icon 15
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_15.png
+25684:
+  description: warp vector icon 16
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_16.png
+25685:
+  description: warp vector icon 18
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_18.png
+25686:
+  description: warp vector icon 19
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_19.png
+25687:
+  description: warp vector icon 20
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_20.png
+25688:
+  description: warp vector icon 21
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_21.png
+25689:
+  description: warp vector icon 22
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_22.png
+25690:
+  description: warp vector icon 23
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_23.png
+25691:
+  description: warp vector icon 24
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_24.png
+25692:
+  description: warp vector icon 25
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_25.png
+25693:
+  description: warp vector icon 26
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_26.png
+25694:
+  description: warp vector icon 27
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_27.png
+25695:
+  description: warp vector icon 28
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_28.png
+25696:
+  description: warp vector icon 29
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_29.png
+25697:
+  description: warp vector icon 30
+  iconFile: res:/ui/texture/icons/Inventory/WVItems/64/wv_64_30.png
+25801:
+  description: Inside Safe Zone
+  iconFile: res:/UI/Texture/Icons/StatusEffects/safeZone.png
+25802:
+  description: outside Safe Zone but granted a grace perdiod
+  iconFile: res:/UI/Texture/Icons/StatusEffects/deathZoneGracePeriod.png
+25803:
+  description: inside Death Zone
+  iconFile: res:/UI/Texture/Icons/StatusEffects/deathZone.png
+25833:
+  description: Deathless Circle base logo
+  iconFile: res:/UI/Texture/Corps/deathlessCircleBase.png
+25849:
+  description: military briefing
+  iconFile: res:/ui/texture/icons/84_64_15.png
+25862:
+  description: Bounty Hunting
+  iconFile: res:/ui/texture/icons/26_64_5.png
+25870:
+  description: Linked to TowGameObjective
+  iconFile: res:/UI/Texture/Icons/StatusEffects/towed_status_icon.png
+25994:
+  description: STARSI
+  iconFile: res:/ui/texture/icons/10_64_17.png
+25998:
+  description: Generic Data Ship Log
+  iconFile: res:/ui/texture/icons/43_64_12_n.png
+26002:
+  description: STARSI Orange
+  iconFile: res:/ui/texture/icons/10_64_18.png
+26004:
+  description: Ice Reagent
+  iconFile: res:/ui/texture/icons/129_reagentice_64.png
+26005:
+  description: Lava Reagent
+  iconFile: res:/ui/texture/icons/129_reagentlava_64.png
+26016:
+  description: Capsuleer Day XXI Filament 1
+  iconFile: res:/UI/Texture/Icons/Inventory/abyssalBattlefieldFilamentL1.png
+26017:
+  description: Capsuleer Day XXI Filament 2
+  iconFile: res:/UI/Texture/Icons/Inventory/abyssalBattlefieldFilamentL2.png
+26018:
+  description: Capsuleer Day XXI Filament 3
+  iconFile: res:/UI/Texture/Icons/Inventory/abyssalBattlefieldFilamentL3.png
+26019:
+  description: Capsuleer Day XXI Filament 4
+  iconFile: res:/UI/Texture/Icons/Inventory/abyssalBattlefieldFilamentL4.png
+26025:
+  description: 82040_Female_bottomOuter_PantsALF_01_Types_PantsALF_01_jeansblue.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/82040_Female_bottomOuter_PantsALF_01_Types_PantsALF_01_jeansblue.png
+26026:
+  description: 82041_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_jeansblue.png
+  iconFile: res:/UI/Asset/mannequin/bottomouter/82041_Male_bottomOuter_PantsMilM01_Types_PantsMilM01_jeansblue.png
+26038:
+  description: Angel Cartel NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/angel_neurolink_64.png
+26039:
+  description: Blood Raider Covenant NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/bloodraider_neurolink_64.png
+26040:
+  description: Guristas Pirates NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/guristas_neurolink_64.png
+26041:
+  description: Mordu's Legion Command NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/morduslegion_neurolink_64.png
+26042:
+  description: Sansha's Nation NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/sansha_neurolink_64.png
+26043:
+  description: Serpentis NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/serpentis_neurolink_64.png
+26044:
+  description: Servant Sisters of EVE NET
+  iconFile: res:/ui/texture/icons/pirateshipneurolinks/soe_neurolink_64.png
+26048:
+  description: 'Sequence Binder - Alignment '
+  iconFile: res:/UI/Texture/Icons/Inventory/resource_icon_alignment_64.png
+26049:
+  description: Sequence Binder - Fermionic
+  iconFile: res:/UI/Texture/Icons/Inventory/resource_icon_fermonics_64.png
+26050:
+  description: Sequence Binder - Kerr
+  iconFile: res:/UI/Texture/Icons/Inventory/resource_icon_Kerr_64.png
+26051:
+  description: Crate - Design Elements
+  iconFile: res:/ui/texture/icons/inventory/resource_icon_bulk_64.png
+26052:
+  description: Design Element Metallic 64
+  iconFile: res:/UI/Texture/Icons/Inventory/metallic_64.png
+26053:
+  description: Design Element Nanocoating 64
+  iconFile: res:/UI/Texture/Icons/Inventory/nanocoating_64.png
+26054:
+  description: Design Element Pattern 64
+  iconFile: res:/UI/Texture/Icons/Inventory/pattern_64.png
+26055:
+  description: Sequence Binder - Generic
+  iconFile: res:/UI/Texture/Icons/Inventory/resource_icon_bulk_64.png
+26056:
+  description: SKINR Icon
+  iconFile: res:/UI/Texture/Icons/SKINR.png
+26062:
+  description: Sovereignty Hub
+  iconFile: res:/UI/Texture/eveicon/category_icons/sov_hub_32px.png
+26063:
+  description: Orbital Skyhook
+  iconFile: res:/UI/Texture/eveicon/category_icons/skyhook_32px.png
+26064:
+  description: Reagent Orbital Skyhook
+  iconFile: res:/UI/Texture/eveicon/category_icons/reagents_skyhook_32px.png
+26065:
+  description: Metenox Moon Drill
+  iconFile: res:/UI/Texture/eveicon/category_icons/auto_moon_miner_32px.png
+26069:
+  description: Plasmic Hepatizon SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_metallic_000_080_100.png
+26070:
+  description: Industrial Lux Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_satin_000_100_100.png
+26071:
+  description: Emerald Boulevard Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_green_satin_000_100_050.png
+26072:
+  description: Argon Heat Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_lavender_satin_000_100_050.png
+26073:
+  description: Elder's Bone Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_satin_000_080_100.png
+26074:
+  description: Synthetic Mocha Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_satin_000_100_010.png
+26075:
+  description: Zento Legacy Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_satin_000_100_100.png
+26076:
+  description: Imperial Plum Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_plum_satin_000_100_010.png
+26077:
+  description: Isotopic Iodide Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_purple_satin_000_100_050.png
+26078:
+  description: Phantom Rose Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_satin_000_080_100.png
+26079:
+  description: Blood of Pator Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_satin_000_100_010.png
+26080:
+  description: Uncompromising Scarlet Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_satin_000_100_100.png
+26081:
+  description: Exoplanet Sunrise Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_redorange_satin_000_100_100.png
+26082:
+  description: Strawberry Fedo Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_rosered_satin_000_080_100.png
+26083:
+  description: Polar Glaze Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_satin_000_060_100.png
+26084:
+  description: Asaya Midnight Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_satin_000_100_010.png
+26085:
+  description: Citric Substitute Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_turmeric_satin_000_100_100.png
+26086:
+  description: Lilac Star Dust Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_violet_satin_000_060_100.png
+26087:
+  description: Antiquarian Brass SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_brass_rough_013_051_089.png
+26088:
+  description: Azure Skies Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_gloss_000_100_100.png
+26089:
+  description: Zakura Cherry Pink Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_berry_gloss_000_100_100.png
+26090:
+  description: Suppressed Lavender Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_gloss_000_080_100.png
+26091:
+  description: Dark Abyss Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_gloss_000_100_001.png
+26092:
+  description: Electric Dreams Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_gloss_000_100_050.png
+26093:
+  description: Deep Void Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_gloss_000_000_000.png
+26094:
+  description: Sacred Stone Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_gloss_000_000_030.png
+26095:
+  description: Stellar White Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_gloss_000_000_100.png
+26096:
+  description: Callie After Dark Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_chartreuse_gloss_000_100_001.png
+26097:
+  description: Sani Crimson Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cherryred_gloss_000_100_050.png
+26098:
+  description: Boosted Mint Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_clover_gloss_000_100_100.png
+26099:
+  description: Gelidus Aqua Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cyan_gloss_000_100_100.png
+26100:
+  description: Planetfall Green Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_gloss_000_100_010.png
+26101:
+  description: Industrial Lux Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_gloss_000_100_100.png
+26102:
+  description: Emerald Boulevard Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_green_gloss_000_100_050.png
+26103:
+  description: Argon Heat Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_lavender_gloss_000_100_050.png
+26104:
+  description: Elder's Bone Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_gloss_000_080_100.png
+26105:
+  description: Synthetic Mocha Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_gloss_000_100_010.png
+26106:
+  description: Zento Legacy Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_gloss_000_100_100.png
+26107:
+  description: Imperial Plum Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_plum_gloss_000_100_010.png
+26108:
+  description: Isotopic Iodide Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_purple_gloss_000_100_050.png
+26109:
+  description: Phantom Rose Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_gloss_000_080_100.png
+26110:
+  description: Blood of Pator Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_gloss_000_100_010.png
+26111:
+  description: Uncompromising Scarlet Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_gloss_000_100_100.png
+26112:
+  description: Exoplanet Sunrise Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_redorange_gloss_000_100_100.png
+26113:
+  description: Strawberry Fedo Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_rosered_gloss_000_080_100.png
+26114:
+  description: Polar Glaze Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_gloss_000_060_100.png
+26115:
+  description: Asaya Midnight Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_gloss_000_100_010.png
+26116:
+  description: Citric Substitute Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_turmeric_gloss_000_100_100.png
+26117:
+  description: Lilac Star Dust Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_violet_gloss_000_060_100.png
+26118:
+  description: Flaylock Steel SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_brushed_000_000_030.png
+26119:
+  description: Entropic Alloy SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cherryred_brushed_000_100_001.png
+26120:
+  description: Polished Iron SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cobalt_polished_023_004_070.png
+26121:
+  description: Sefrim Gold SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_gold_polished_012_060_094.png
+26122:
+  description: Neon Foil SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_lavender_brushed_000_100_050.png
+26123:
+  description: Poisoned Edge SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_pea_metallic_000_100_010.png
+26124:
+  description: Silver Rose SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_rosered_brushed_000_030_100.png
+26125:
+  description: Precursor Plate SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_turquoise_polished_000_100_001.png
+26126:
+  description: Division SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_AngledStripe_01_128.png
+26127:
+  description: Martial Camo SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Camo_01_128.png
+26128:
+  description: Shattered Conceptions SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Camo_Dazzle_02_128.png
+26129:
+  description: Checkmate SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Checker_01_128.png
+26130:
+  description: Escape Curve SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Curves_01_128.png
+26131:
+  description: Fade In SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Gradient_128.png
+26132:
+  description: Camo-Vyraj SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Gradient_Crystal_128.png
+26133:
+  description: Data Fragmentation SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_gradient_random_square_128.png
+26134:
+  description: Pillars of Inequality SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Halfcut_Stripes_14_128.png
+26135:
+  description: Hex Recursion SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Hex_Hex_128.png
+26136:
+  description: Abyssal Corruption SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Paint_Rough_01_128.png
+26137:
+  description: Corroded Trust SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_rustGradient_02_128.png
+26138:
+  description: Four from One SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/patterns/cosm_Squares_01_128.png
+26139:
+  description: Oceanic Serpent Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_matt_000_100_010.png
+26140:
+  description: Azure Skies Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_matt_000_100_100.png
+26141:
+  description: Zakura Cherry Pink Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_berry_matt_000_100_100.png
+26142:
+  description: Suppressed Lavender Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_matt_000_080_100.png
+26143:
+  description: Dark Abyss Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_matt_000_100_001.png
+26144:
+  description: Electric Dreams Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_matt_000_100_050.png
+26145:
+  description: Deep Void Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_matt_000_000_000.png
+26146:
+  description: Sacred Stone Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_matt_000_000_030.png
+26147:
+  description: Stellar White Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_matt_000_000_100.png
+26148:
+  description: Callie After Dark Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_chartreuse_matt_000_100_001.png
+26149:
+  description: Sani Crimson Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cherryred_matt_000_100_050.png
+26150:
+  description: Boosted Mint Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_clover_matt_000_100_100.png
+26151:
+  description: Gelidus Aqua Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cyan_matt_000_100_100.png
+26152:
+  description: Planetfall Green Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_matt_000_100_010.png
+26153:
+  description: Industrial Lux Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_matt_000_100_100.png
+26154:
+  description: Emerald Boulevard Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_green_matt_000_100_050.png
+26155:
+  description: Argon Heat Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_lavender_matt_000_100_050.png
+26156:
+  description: Elder's Bone Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_matt_000_080_100.png
+26157:
+  description: Synthetic Mocha Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_matt_000_100_010.png
+26158:
+  description: Zento Legacy Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_orange_matt_000_100_100.png
+26159:
+  description: Imperial Plum Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_plum_matt_000_100_010.png
+26160:
+  description: Isotopic Iodide Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_purple_matt_000_100_050.png
+26161:
+  description: Phantom Rose Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_matt_000_080_100.png
+26162:
+  description: Blood of Pator Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_matt_000_100_010.png
+26163:
+  description: Uncompromising Scarlet Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_red_matt_000_100_100.png
+26164:
+  description: Exoplanet Sunrise Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_redorange_matt_000_100_100.png
+26165:
+  description: Strawberry Fedo Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_rosered_matt_000_080_100.png
+26166:
+  description: Polar Glaze Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_matt_000_060_100.png
+26167:
+  description: Asaya Midnight Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royal_matt_000_100_010.png
+26168:
+  description: Citric Substitute Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_turmeric_matt_000_100_100.png
+26169:
+  description: Lilac Star Dust Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_violet_matt_000_060_100.png
+26170:
+  description: Oceanic Serpent Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_satin_000_100_010.png
+26171:
+  description: Azure Skies Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_satin_000_100_100.png
+26172:
+  description: Zakura Cherry Pink Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_berry_satin_000_100_100.png
+26173:
+  description: Suppressed Lavender Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_satin_000_080_100.png
+26174:
+  description: Dark Abyss Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_satin_000_100_001.png
+26175:
+  description: Electric Dreams Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_blue_satin_000_100_050.png
+26176:
+  description: Deep Void Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_satin_000_000_000.png
+26177:
+  description: Sacred Stone Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_satin_000_000_030.png
+26178:
+  description: Stellar White Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_bw_satin_000_000_100.png
+26179:
+  description: Callie After Dark Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_chartreuse_satin_000_100_001.png
+26180:
+  description: Sani Crimson Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cherryred_satin_000_100_050.png
+26181:
+  description: Boosted Mint Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_clover_satin_000_100_100.png
+26182:
+  description: Gelidus Aqua Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_cyan_satin_000_100_100.png
+26183:
+  description: Planetfall Green Satin SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_grape_satin_000_100_010.png
+26184:
+  description: Oceanic Serpent Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_azure_gloss_000_100_010.png
+26200:
+  description: ' Generic Air Crate Inventory Icon'
+  iconFile: res:/ui/texture/icons/inventory/CareerPortal/loot_crate64_air.png
+26201:
+  description: Holovisual Violet Gloss SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royalpurple_gloss_072_061_065.png
+26202:
+  description: Holovisual Violet Matte SKIN Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royalpurple_matt_072_061_065.png
+26203:
+  description: Holovisual Violet Satin Design Component
+  iconFile: res:/UI/Texture/classes/Cosmetics/Ship/component_items/materials/cosm_royalpurple_satin_072_061_065.png
