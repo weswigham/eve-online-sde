@@ -69,7 +69,7 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         console.log(`Done downloading!`);
 
         console.log(`Removing existing "sde" folder.`);
-        fs.rmdirSync("sde", { recursive: true, force: true });
+        fs.rmSync("sde", { recursive: true, force: true });
         console.log(`Extracting downloaded zip...`);
         const dest = unzip.Extract({ path: "." });
         fs.createReadStream("sde.zip").pipe(dest);
