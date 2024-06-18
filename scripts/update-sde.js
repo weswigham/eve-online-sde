@@ -1,7 +1,7 @@
 "use strict";
 const scrapeIt = require("scrape-it");
 const unzip = require("unzipper");
-const rimraf = require("rimraf");
+const fs = require("fs");
 const url = require("url");
 
 function nowInEVETime(namestring) {
@@ -69,7 +69,7 @@ scrapeIt("https://developers.eveonline.com/resource/resources", {
         console.log(`Done downloading!`);
 
         console.log(`Removing existing "sde" folder.`);
-        rimraf.sync("sde");
+        fs.rmdirSync("sde", { recursive: true, force: true });
         console.log(`Extracting downloaded zip...`);
         const dest = unzip.Extract({ path: "." });
         fs.createReadStream("sde.zip").pipe(dest);
