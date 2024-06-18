@@ -1,0 +1,143 @@
+border: false
+center:
+- 1.5092159685085244e+16
+- 7.466571317263461e+16
+- 3.062132786605522e+17
+corridor: false
+fringe: false
+hub: true
+international: false
+luminosity: 0.01457
+max:
+- 1.5092970182210982e+16
+- 7.46657132490046e+16
+- -3.0621289488009146e+17
+min:
+- 1.5092159608715244e+16
+- 7.4665551495213e+16
+- -3.062132787369222e+17
+planets:
+    40103537:
+        celestialIndex: 1
+        moons:
+            40103538:
+                npcStations:
+                    60013918:
+                        graphicID: 2308
+                        isConquerable: false
+                        operationID: 35
+                        ownerID: 1000155
+                        position:
+                        - 103325982720.0
+                        - -20611276800.0
+                        - -383780659200.0
+                        reprocessingEfficiency: 0.5
+                        reprocessingHangarFlag: 4
+                        reprocessingStationsTake: 0.05
+                        typeID: 3865
+                        useOperationName: true
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4252
+                position:
+                - 103325878788.0
+                - -20611364482.0
+                - -383780351471.0
+                radius: 140000
+                statistics:
+                    density: 445.134
+                    eccentricity: 0.0378974
+                    escapeVelocity: 70.822
+                    fragmented: false
+                    life: 0.0
+                    locked: true
+                    massDust: 5.32903e+18
+                    massGas: 3496030.0
+                    orbitPeriod: 5481790.0
+                    orbitRadius: 451251000.0
+                    pressure: 2.4412e-11
+                    radius: 141787.0
+                    rotationRate: 5481790.0
+                    spectralClass: '0.0'
+                    surfaceGravity: 0.0176405
+                    temperature: 59.7427
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3841
+            heightMap2: 3842
+            population: false
+            shaderPreset: 4336
+        position:
+        - 103257185457.0
+        - -20597673919.0
+        - -383334554279.0
+        radius: 5810000
+        statistics:
+            density: 5607.83433596831
+            eccentricity: 0.00819562
+            escapeVelocity: 10288.1013452423
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 4.60693603036405e+24
+            massGas: 4.90691e+16
+            orbitPeriod: 2460020000.0
+            orbitRadius: 397532000000.0
+            pressure: 0.0410234
+            radius: 5810000.0
+            rotationRate: 91329.5
+            spectralClass: '0.0'
+            surfaceGravity: 9.10886654819074
+            temperature: 313.469818981233
+        typeID: 2016
+    40103539:
+        celestialIndex: 2
+        planetAttributes:
+            heightMap1: 3843
+            heightMap2: 3843
+            population: false
+            shaderPreset: 4425
+        position:
+        - 810286896067.0
+        - -161635485144.0
+        - -148817344825.0
+        radius: 5650000
+        statistics:
+            density: 6203.35394151586
+            eccentricity: 0.00891844
+            escapeVelocity: 10522.6043692982
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 4.68662833539476e+24
+            massGas: 1.95258e+17
+            orbitPeriod: 7550010000.0
+            orbitRadius: 839546000000.0
+            pressure: 0.134031
+            radius: 5650000.0
+            rotationRate: 103732.0
+            spectralClass: '0.0'
+            surfaceGravity: 9.79869050555519
+            temperature: 283.17977628268
+        typeID: 11
+radius: 405286747869.0
+regional: false
+security: -0.02480228788709815
+solarSystemID: 30001625
+solarSystemNameID: 270589
+star:
+    id: 40103536
+    radius: 38185000
+    statistics:
+        age: 7.574e+16
+        life: 3.027e+17
+        locked: false
+        luminosity: 0.01457
+        radius: 38185000.0
+        spectralClass: G2 VI
+        temperature: 5769.0
+    typeID: 3799
+stargates: {}
+sunTypeID: 3799

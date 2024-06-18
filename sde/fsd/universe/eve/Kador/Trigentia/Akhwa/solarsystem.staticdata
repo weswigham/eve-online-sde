@@ -1,0 +1,694 @@
+border: true
+center:
+- -2.5394489150298387e+17
+- 4.47837116043691e+16
+- -1.199256383484315e+17
+corridor: false
+fringe: false
+hub: true
+international: false
+luminosity: 0.02113
+max:
+- -2.6129499477886618e+17
+- 5.067937081459739e+16
+- 1.0499722336197682e+17
+min:
+- -2.6129635737976803e+17
+- 5.067925209869909e+16
+- 1.0499512716231432e+17
+planets:
+    40338202:
+        celestialIndex: 1
+        planetAttributes:
+            heightMap1: 3841
+            heightMap2: 3842
+            population: false
+            shaderPreset: 4336
+        position:
+        - 29404629959.0
+        - 2682939392.0
+        - 43908003963.0
+        radius: 2440000
+        statistics:
+            density: 3732.598035672
+            eccentricity: 0.0
+            escapeVelocity: 3524.98238871887
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 2.271272860256e+23
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 2440000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 2.54620918868405
+            temperature: 213.205941562667
+        typeID: 2016
+    40338203:
+        celestialIndex: 2
+        moons:
+            40338204:
+                npcStations:
+                    60015017:
+                        graphicID: 1073
+                        isConquerable: false
+                        operationID: 37
+                        ownerID: 1000165
+                        position:
+                        - -82723921920.0
+                        - -7548149760.0
+                        - -10923909120.0
+                        reprocessingEfficiency: 0.5
+                        reprocessingHangarFlag: 4
+                        reprocessingStationsTake: 0.05
+                        typeID: 1931
+                        useOperationName: false
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4193
+                position:
+                - -82723971937.0
+                - -7547906683.0
+                - -10923231613.0
+                radius: 390000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3843
+            heightMap2: 3903
+            population: false
+            shaderPreset: 4376
+        position:
+        - -82655709311.0
+        - -7541678260.0
+        - -10783988046.0
+        radius: 3480000
+        statistics:
+            density: 2928.26738985731
+            eccentricity: 0.0
+            escapeVelocity: 4452.93261474961
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 5.16936350234204e+23
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 3480000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 2.84893805625012
+            temperature: 399.1621235332
+        typeID: 2016
+    40338205:
+        celestialIndex: 3
+        moons:
+            40338206:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4187
+                position:
+                - -91990417782.0
+                - -8393396411.0
+                - 72077162376.0
+                radius: 440000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3841
+            heightMap2: 3841
+            population: true
+            shaderPreset: 4472
+        position:
+        - -91885016061.0
+        - -8383779340.0
+        - 71919025942.0
+        radius: 4570000
+        statistics:
+            density: 5571.63618591897
+            eccentricity: 0.0
+            escapeVelocity: 8066.20190903458
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 2.22751152554673e+24
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 4570000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 7.1185572469708
+            temperature: 276.060732544788
+        typeID: 11
+    40338207:
+        celestialIndex: 4
+        moons:
+            40338208:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4181
+                position:
+                - 199749237840.0
+                - 18225534533.0
+                - -100687890375.0
+                radius: 1010000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3843
+            heightMap2: 3903
+            population: false
+            shaderPreset: 4366
+        position:
+        - 199847568073.0
+        - 18234506388.0
+        - -101464127710.0
+        radius: 6480000
+        statistics:
+            density: 4388.19425166458
+            eccentricity: 0.0
+            escapeVelocity: 10150.3131637841
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 5.00149076344052e+24
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 6480000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 7.94975750948212
+            temperature: 288.495881815359
+        typeID: 2016
+    40338209:
+        celestialIndex: 5
+        moons:
+            40338210:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4175
+                position:
+                - 401887959690.0
+                - 36669090541.0
+                - -38781006720.0
+                radius: 220000
+                typeID: 14
+            40338211:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4227
+                position:
+                - 401809935118.0
+                - 36661971417.0
+                - -37873303743.0
+                radius: 1030000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3841
+            heightMap2: 3843
+            population: false
+            shaderPreset: 4362
+        position:
+        - 401830363250.0
+        - 36663835322.0
+        - -38740139065.0
+        radius: 9740000
+        statistics:
+            density: 4485.54222484516
+            eccentricity: 0.0
+            escapeVelocity: 15425.0984696855
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.73612275456459e+25
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 9740000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 12.2142537371403
+            temperature: 294.44586716249
+        typeID: 2016
+    40338212:
+        asteroidBelts:
+            40338213:
+                position:
+                - -254861352960.0
+                - -18450309120.0
+                - 570509352960.0
+                typeID: 15
+        celestialIndex: 6
+        moons:
+            40338214:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4273
+                position:
+                - -201598321644.0
+                - -18394248773.0
+                - 570682241487.0
+                radius: 760000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3843
+            heightMap2: 3841
+            population: false
+            shaderPreset: 4402
+        position:
+        - -202212406198.0
+        - -18450279120.0
+        - 570484053089.0
+        radius: 10050000
+        statistics:
+            density: 3864.72817305064
+            eccentricity: 0.0
+            escapeVelocity: 14773.6243473724
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.64325797118987e+25
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 10050000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 10.8587052914067
+            temperature: 286.211998864621
+        typeID: 11
+    40338215:
+        asteroidBelts:
+            40338225:
+                position:
+                - 1099498168320.0
+                - 100208762880.0
+                - 303714754560.0
+                typeID: 15
+            40338234:
+                position:
+                - 1094118236160.0
+                - 100208762880.0
+                - 307781099520.0
+                typeID: 15
+            40338236:
+                position:
+                - 1107739484160.0
+                - 100208762880.0
+                - 310660669440.0
+                typeID: 15
+        celestialIndex: 7
+        moons:
+            40338216:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4267
+                position:
+                - 1098158662842.0
+                - 100198272840.0
+                - 303653353437.0
+                radius: 190000
+                typeID: 14
+            40338217:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4208
+                position:
+                - 1098310395305.0
+                - 100212117224.0
+                - 303829865829.0
+                radius: 280000
+                typeID: 14
+            40338218:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4261
+                position:
+                - 1098336620885.0
+                - 100214510100.0
+                - 303883125583.0
+                radius: 250000
+                typeID: 14
+            40338219:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4202
+                position:
+                - 1098020667332.0
+                - 100185681843.0
+                - 303592491880.0
+                radius: 360000
+                typeID: 14
+            40338220:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4254
+                position:
+                - 1098347380470.0
+                - 100215491827.0
+                - 304041134545.0
+                radius: 520000
+                typeID: 14
+            40338221:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4196
+                position:
+                - 1097843568919.0
+                - 100169523017.0
+                - 303838028502.0
+                radius: 520000
+                typeID: 14
+            40338222:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4248
+                position:
+                - 1098782457749.0
+                - 100255189180.0
+                - 303833601975.0
+                radius: 380000
+                typeID: 14
+            40338223:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4189
+                position:
+                - 1098736107601.0
+                - 100250960097.0
+                - 303122585051.0
+                radius: 530000
+                typeID: 14
+            40338224:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4242
+                position:
+                - 1097296619841.0
+                - 100119618249.0
+                - 303874238679.0
+                radius: 1210000
+                typeID: 14
+            40338226:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4236
+                position:
+                - 1098214458167.0
+                - 100203363721.0
+                - 305405476596.0
+                radius: 1720000
+                typeID: 14
+            40338227:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4177
+                position:
+                - 1097403708749.0
+                - 100129389263.0
+                - 306137615542.0
+                radius: 2070000
+                typeID: 14
+            40338228:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4229
+                position:
+                - 1096021971727.0
+                - 100003316713.0
+                - 300824938000.0
+                radius: 2070000
+                typeID: 14
+            40338229:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4171
+                position:
+                - 1094499036159.0
+                - 99864360915.0
+                - 305173632847.0
+                radius: 210000
+                typeID: 14
+            40338230:
+                planetAttributes:
+                    heightMap1: 3906
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4223
+                position:
+                - 1096847871642.0
+                - 100078673533.0
+                - 307892180734.0
+                radius: 1370000
+                typeID: 14
+            40338231:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4276
+                position:
+                - 1094013466521.0
+                - 99820056535.0
+                - 306519621104.0
+                radius: 2130000
+                typeID: 14
+            40338232:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4217
+                position:
+                - 1096310572535.0
+                - 100029649249.0
+                - 297573137524.0
+                radius: 1560000
+                typeID: 14
+            40338233:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4269
+                position:
+                - 1098141529638.0
+                - 100196709571.0
+                - 311880742296.0
+                radius: 1400000
+                typeID: 14
+            40338235:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4226
+                position:
+                - 1091440316446.0
+                - 99585276988.0
+                - 310450945620.0
+                radius: 1480000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3913
+            heightMap2: 3913
+            population: false
+            shaderPreset: 3988
+        position:
+        - 1098274882412.0
+        - 100208876954.0
+        - 303664153370.0
+        radius: 31400000
+        statistics:
+            density: 1385.98616200071
+            eccentricity: 0.0
+            escapeVelocity: 27642.0729505005
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.79736569231624e+26
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 31400000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 12.1669458121145
+            temperature: 41.2374
+        typeID: 13
+    40338237:
+        celestialIndex: 8
+        moons:
+            40338238:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3906
+                    population: false
+                    shaderPreset: 4273
+                position:
+                - 502716244476.0
+                - 45868872258.0
+                - 1989352671861.0
+                radius: 150000
+                typeID: 14
+            40338239:
+                planetAttributes:
+                    heightMap1: 3908
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4214
+                position:
+                - 502645227191.0
+                - 45862303137.0
+                - 1989487828445.0
+                radius: 170000
+                typeID: 14
+            40338240:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4266
+                position:
+                - 503010043894.0
+                - 45895679126.0
+                - 1989006884798.0
+                radius: 430000
+                typeID: 14
+            40338241:
+                planetAttributes:
+                    heightMap1: 3903
+                    heightMap2: 3908
+                    population: false
+                    shaderPreset: 4208
+                position:
+                - 503525488599.0
+                - 45942709369.0
+                - 1989834568305.0
+                radius: 890000
+                typeID: 14
+            40338242:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3903
+                    population: false
+                    shaderPreset: 4260
+                position:
+                - 503804028341.0
+                - 45968123913.0
+                - 1991568904986.0
+                radius: 1610000
+                typeID: 14
+            40338243:
+                planetAttributes:
+                    heightMap1: 3907
+                    heightMap2: 3907
+                    population: false
+                    shaderPreset: 4201
+                position:
+                - 503378187045.0
+                - 45929269270.0
+                - 1994727464784.0
+                radius: 1590000
+                typeID: 14
+        planetAttributes:
+            heightMap1: 3911
+            heightMap2: 3910
+            population: false
+            shaderPreset: 3991
+        position:
+        - 502738555405.0
+        - 45870907954.0
+        - 1989273292842.0
+        radius: 14290000
+        statistics:
+            density: 1314.38609984073
+            eccentricity: 0.0
+            escapeVelocity: 1.12679769531445
+            fragmented: false
+            life: 0.0
+            locked: false
+            massDust: 1.3592198581503584e+17
+            massGas: 0.0
+            orbitPeriod: 0.0
+            orbitRadius: 0.0
+            pressure: 0.0
+            radius: 14290000.0
+            rotationRate: 0.0
+            spectralClass: '0.0'
+            surfaceGravity: 4.44252290470944e-08
+            temperature: 41.2374
+        typeID: 13
+radius: 1048099831248.0
+regional: false
+security: 0.8796369389264403
+securityClass: A
+solarSystemID: 30015042
+solarSystemNameID: 274314
+star:
+    id: 40338201
+    radius: 219100000
+    statistics:
+        age: 401345928482975903
+        life: 1536141171271056273
+        locked: false
+        luminosity: 0.10133721437638593
+        radius: 723355250.0
+        spectralClass: K9 V
+        temperature: 3614.0
+    typeID: 7
+stargates:
+    50014116:
+        destination: 50014115
+        position:
+        - 502708346880.0
+        - 45870981120.0
+        - 1989303459840.0
+        typeID: 29624
+sunTypeID: 7

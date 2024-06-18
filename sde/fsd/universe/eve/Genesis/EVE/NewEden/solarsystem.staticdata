@@ -1,0 +1,76 @@
+border: false
+center:
+- -2.8488689180412304e+17
+- -3.59242561727866e+16
+- -6.572029384778021e+16
+corridor: false
+fringe: true
+hub: false
+international: false
+luminosity: 0.09374
+max:
+- -2.8488663205977898e+17
+- -3.5923810397681024e+16
+- 6.572211246485912e+16
+min:
+- -2.848892449730315e+17
+- -3.5924305378560376e+16
+- 6.571945754523353e+16
+planets:
+    40334264:
+        celestialIndex: 1
+        planetAttributes:
+            heightMap1: 3843
+            heightMap2: 3903
+            population: false
+            shaderPreset: 4321
+        position:
+        - 14271847166.0
+        - -2703589237.0
+        - 44588525763.0
+        radius: 2630000
+        statistics:
+            density: 4101.45155674042
+            eccentricity: 0.000648003
+            escapeVelocity: 3982.77759436677
+            fragmented: false
+            life: 0.0
+            locked: true
+            massDust: 3.1253124436703e+23
+            massGas: 4057970000000000.0
+            orbitPeriod: 12037700.0
+            orbitRadius: 46894900000.0
+            pressure: 0.0128201
+            radius: 2630000.0
+            rotationRate: 12037700.0
+            spectralClass: '0.0'
+            surfaceGravity: 3.01568771220342
+            temperature: 277.013
+        typeID: 2016
+radius: 1327459812796.0
+regional: false
+security: 0.2605537979947104
+solarSystemID: 30005286
+solarSystemNameID: 274255
+star:
+    id: 40334263
+    radius: 158400000
+    statistics:
+        age: 6.815e+17
+        life: 7.209e+17
+        locked: false
+        luminosity: 0.09374
+        radius: 158400000.0
+        spectralClass: K2 V
+        temperature: 4511.0
+    typeID: 45041
+stargates:
+    50013345:
+        destination: 50012941
+        position:
+        - -1069486940160.0
+        - 202669301760.0
+        - 831868968960.0
+        typeID: 29624
+sunTypeID: 45041
+wormholeClassID: 8
