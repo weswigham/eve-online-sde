@@ -1,38 +1,12 @@
 const fs = require("fs");
 const path = require("path");
 const jsyaml = require("js-yaml");
-exports.raw = (...yamlPath) => {
+exports.raw = async (...yamlPath) => {
     const filepath = ["sde", ...yamlPath].filter(x => x.indexOf("/") === -1 && x.indexOf("\\") === -1).join("/");
-    return new Promise((resolve, reject) => {
-        fs.stat(path.join(__dirname, `${filepath}.yaml`), (err, stats) => {
-            if (err) {
-                fs.stat(path.join(__dirname, `${filepath}.staticdata`), (err, stats) => {
-                    if (err) {
-                        reject(err)
-                    }
-                    else {
-                        resolve(path.join(__dirname, `${filepath}.staticdata`));
-                    }
-                });
-            }
-            else {
-                resolve(path.join(__dirname, `${filepath}.yaml`));
-            }
-        });
-    }).then(path => {
-        return new Promise((resolve, reject) => {
-            fs.readFile(path, "utf-8", (err, data) => {
-                if (err) return reject(err);
-                try {
-                    const obj = jsyaml.safeLoad(data);
-                    return resolve(obj);
-                }
-                catch (e) {
-                    return reject(e);
-                }
-            });
-        });
-    });
+    const filename = path.join(__dirname, `${filepath}.yaml`);
+    const contents = await fs.promises.readFile(filename, { encoding: "utf-8" });
+    const obj = jsyaml.safeLoad(contents);
+    return obj;
 }
 
 function memoize(f) {
@@ -96,7 +70,13 @@ exports.landmarks = memoize(() => exports.raw("universe", "landmarks", "landmark
 exports.region = (name) => {
     return exports.raw("universe", "eve", name, "region")
         .catch(() => {
-            return exports.raw("universe", "wormhole", name, "region"); 
+            return exports.raw("universe", "wormhole", name, "region")
+                .catch(() => {
+                    return exports.raw("universe", "abyssal", name, "region")
+                        .catch(() => {
+                            return exports.raw("universe", "void", name, "region"); 
+                        });
+                });
         });
 }
 
