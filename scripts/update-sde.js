@@ -19,10 +19,10 @@ function versionAsDate(versionstring) {
 }
 
 scrapeIt("https://developers.eveonline.com/resource/resources", {
-    sde_link: { selector: ".content > h3:nth-child(4) + ul li:last-child a", attr: "href" },
+    sde_link: { selector: ".content > ul:nth-child(4) > li:first-child > a", attr: "href" },
     versioned_filename: { selector: ".content > h3:nth-child(6) + ul li:last-child a", attr: "href" }
 }).then(scrape => {
-    const link = scrape.sde_link;
+    const link = scrape.sde_link || "https://eve-static-data-export.s3-eu-west-1.amazonaws.com/tranquility/sde.zip";
     const versionedFilename = scrape.versioned_filename;
     if (typeof link !== "string" || typeof versionedFilename !== "string") throw new Error("Couldn't scrape SDE link!");
     const filename = require("path").basename(require("url").parse(versionedFilename).pathname);
