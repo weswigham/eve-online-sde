@@ -28137,7 +28137,7 @@
 27562:
   description: Metenox Moon Drill Wreck
   iconInfo:
-    folder: res:/dx9/model/deployables/generic/moonminer/icons/
+    folder: res:/dx9/model/deployables/generic/moonminer/wreck/icons
   sofFactionName: upwell
   sofHullName: uw_mm01_wreck
   sofLayout: []
@@ -28186,7 +28186,21 @@
   sofLayout: []
 27589:
   description: Avalanche Wreck
+  iconInfo:
+    folder: res:/dx9/model/ship/upwell/Freighter/uwfr01/wreck/icons
   sofFactionName: upwell
   sofHullName: uwfr01_t1_wreck
   sofLayout: []
   sofRaceName: generic
+27593:
+  description: Effect Module Transform MJFG Capital T1a
+  graphicFile: res:/fisfx/module/MJFG_Tr_Capital_T1a.red
+  iconInfo:
+    folder: res:/fisfx/module/icons
+  sofLayout: []
+27594:
+  description: Effect Module Transform MJFG Player Capital T1a
+  graphicFile: res:/fisfx/module/MJFGplayer_Tr_Capital_T1a.red
+  iconInfo:
+    folder: res:/fisfx/module/icons
+  sofLayout: []
