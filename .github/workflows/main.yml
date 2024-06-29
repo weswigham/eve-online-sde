@@ -14,9 +14,21 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Restore cached workspace
+        id: workspace-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: .
+          key: ${{ runner.os }}-workspace
       - uses: actions/checkout@v4
         with:
             lfs: 'true'
+      - name: Save workspace
+        id: workspace-save
+        uses: actions/cache/save@v4
+        with:
+          path: .
+          key: ${{ steps.workspace-restore.outputs.cache-primary-key }}
       - uses: actions/setup-node@v4
       - name: Setup
         run: npm ci
