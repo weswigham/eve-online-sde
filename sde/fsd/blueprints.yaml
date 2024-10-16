@@ -76659,9 +76659,9 @@
       - quantity: 22500
         typeID: 37
       - quantity: 81000
-        typeID: 34
-      - quantity: 90000
         typeID: 36
+      - quantity: 90000
+        typeID: 34
       - quantity: 325000
         typeID: 35
       products:
@@ -208030,3 +208030,58 @@
       time: 315
   blueprintTypeID: 84506
   maxProductionLimit: 200
+85749:
+  activities:
+    copying:
+      time: 4800
+    manufacturing:
+      materials:
+      - quantity: 32
+        typeID: 34575
+      - quantity: 51
+        typeID: 2348
+      - quantity: 104
+        typeID: 2346
+      products:
+      - quantity: 1
+        typeID: 85748
+      time: 3600
+    research_material:
+      time: 2100
+    research_time:
+      time: 2100
+  blueprintTypeID: 85749
+  maxProductionLimit: 3
+85751:
+  activities:
+    copying:
+      time: 3755
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 11483
+      - quantity: 1
+        typeID: 22177
+      - quantity: 5
+        typeID: 11536
+      - quantity: 11
+        typeID: 11539
+      - quantity: 15
+        typeID: 9840
+      products:
+      - quantity: 1
+        typeID: 85750
+      skills:
+      - level: 1
+        typeID: 11448
+      - level: 1
+        typeID: 11453
+      - level: 5
+        typeID: 3380
+      time: 4680
+    research_material:
+      time: 1640
+    research_time:
+      time: 1640
+  blueprintTypeID: 85751
+  maxProductionLimit: 1

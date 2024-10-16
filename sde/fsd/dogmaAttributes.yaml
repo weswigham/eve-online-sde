@@ -41863,13 +41863,14 @@
   defaultValue: 0.0
   description: Infrastructure Hold Capacity
   displayNameID:
-    de: Kapazität des Kolonieressourcen-Hangars
+    de: Infrastrukturhangarkapazität
     en: Infrastructure Hold Capacity
-    es: Capacidad de la bodega de recursos de la colonia
-    fr: Capacité de la baie de ressources de colonie
-    ja: コロニーリソースホールド容量
-    ru: Вместимость отсека для планетарных ресурсов
-    zh: Colony Resources Hold Capacity
+    es: Capacidad de la bodega de infraestructuras
+    fr: Capacité de la baie d'infrastructure
+    ja: インフラホールド容量
+    ko: 구조물 격납고 적재량
+    ru: Вместимость логистического отсека
+    zh: 基础设施舱容量
   displayWhenZero: false
   highIsGood: true
   iconID: 71
@@ -41914,13 +41915,14 @@
       льда.
     zh: 舰船的基础设施舱所能装载的基础设施相关物品的总体积。 <br><br>这些物品包括：<br>殖民试剂、昇威建筑、建筑改装件、建筑装备、屹立铁骑舰载机、建筑弹药、量子芯、轨道天钩、定制框架，主权建筑、主权升级件、卫星材料、燃料块、行星货物和精炼冰矿产物。
   tooltipTitleID:
-    de: Kapazität des Kolonieressourcen-Hangars
+    de: Infrastrukturhangarkapazität
     en: Infrastructure Hold Capacity
-    es: Capacidad de la bodega de recursos de la colonia
-    fr: Capacité de la baie de ressources de colonie
-    ja: コロニーリソースホールド容量
-    ru: Вместимость отсека для планетарных ресурсов
-    zh: Colony Resources Hold Capacity
+    es: Capacidad de la bodega de infraestructuras
+    fr: Capacité de la baie d'infrastructure
+    ja: インフラホールド容量
+    ko: 구조물 격납고 적재량
+    ru: Вместимость логистического отсека
+    zh: 基础设施舱容量
   unitID: 9
 5647:
   attributeID: 5647
@@ -42048,6 +42050,7 @@
     fr: Bonus de passager de saut
     ja: コンジットジャンプ同乗者ボーナス
     ko: 점프 필드 대상 보너스
+    ru: Бонус к пассажирам при прыжке
     zh: 导管乘客加成
   displayWhenZero: false
   highIsGood: true
@@ -42076,6 +42079,7 @@
     fr: Bonus de capaciteur de PMS capital
     ja: キャピタルマイクロジャンプドライブ・キャパシタボーナス
     ko: 캐피탈 마이크로 점프 드라이브 캐패시터 용량 보너스
+    ru: Бонус к накопителям МГД для КБТ
     zh: 旗舰级微型跳跃引擎电容加成
   displayWhenZero: false
   highIsGood: false
@@ -42097,6 +42101,7 @@
     fr: Maximum de vaisseaux capitaux lors du saut
     ja: 最大主力艦ジャンプ数
     ko: 최대 캐피탈 함선 점프
+    ru: Максимум КБТ для прыжка
     zh: 跳跃的旗舰数量上限
   displayWhenZero: false
   highIsGood: true
@@ -42119,6 +42124,7 @@
     fr: Durée de l'inhibition de warp
     ja: ワープスクランブル継続時間
     ko: 워프 스크램블 지속 시간
+    ru: Длительность глушения варп-двигателей
     zh: 跃迁扰频持续时间
   displayWhenZero: false
   highIsGood: false
@@ -42139,6 +42145,7 @@
     fr: Nécessite l'amélioration du pôle de souveraineté
     ja: 領有権ハブのアップグレードが必要
     ko: 필요 소버린티 허브 업그레이드
+    ru: Требуется улучшение штаба владений
     zh: 需要使用主权中心升级件
   displayWhenZero: false
   highIsGood: true
@@ -42158,6 +42165,7 @@
     fr: Capacité de la baie de production de matériau lunaire
     ja: 衛星資源産出ベイ容量
     ko: 위성 자원 저장소 적재량
+    ru: Вместимость отсека для материалов со спутников
     zh: 卫星材料输出舱容量
   displayWhenZero: false
   highIsGood: true

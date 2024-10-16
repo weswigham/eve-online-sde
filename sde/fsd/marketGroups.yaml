@@ -11864,9 +11864,9 @@
     es: Cruceros especializados en operaciones de reconocimiento y guerra electrónica.
     fr: Croiseurs spécialisés dans les opérations de reconnaissance et la guerre électronique.
     ja: 偵察活動や電子戦を主任務とする巡洋艦。
-    ko: 크루저는 정찰 작전 및 전자전에 특화되었습니다.
+    ko: 크루저는 정찰 작전 및 전자전에 특화된 함선입니다.
     ru: Крейсеры, предназначенные для ведения разведки и электронной борьбы.
-    zh: 专用于侦查任务和电子战的巡洋舰等级舰船。
+    zh: 专用于侦察任务和电子战的巡洋舰。
   hasTypes: false
   iconID: 1443
   nameID:
@@ -19522,25 +19522,26 @@
   hasTypes: true
   iconID: 3952
   nameID:
-    de: Infrastrukturzentren
+    de: Souveränitätshubs
     en: Sovereignty Hubs
-    es: Centros de infraestructuras
-    fr: Centres d'infrastructure
-    ja: 領域管理用拠点
-    ko: 인프라 허브
-    ru: Центры инфраструктуры
-    zh: 基础设施中心
+    es: Centros de soberanía
+    fr: Pôles de souveraineté
+    ja: 領有権ハブ
+    ko: 소버린티 허브
+    ru: Штабы владений
+    zh: 主权中心
   parentGroupID: 1272
 1276:
   descriptionID:
-    de: Erweiterungen, die in das Infrastrukturzentrum installiert werden.
+    de: Upgrades, die in einem <a href=showinfo:32458>Souveränitätshub</a> installiert
+      sind.
     en: Upgrades which are installed into a <a href=showinfo:32458>sovereignty hub</a>.
-    es: Mejoras instaladas en el centro de infraestructuras.
-    fr: Améliorations installées dans le centre d'infrastructure.
-    ja: 領域管理用拠点に装着するアップグレード。
-    ko: 인프라 허브에 설치하는 업그레이드입니다.
-    ru: Расширения, устанавливаемые в центр инфраструктуры.
-    zh: 可以安装在基础设施中心上的升级构建。
+    es: Mejoras instaladas en un<a href=showinfo:32458>centro de soberanía</a>.
+    fr: Améliorations installées dans un <a href=showinfo:32458>pôle de souveraineté</a>.
+    ja: <a href=showinfo:32458>領有権ハブ</a>に装着するアップグレード。
+    ko: <a href=showinfo:32458>소버린티 허브</a>에 설치하는 업그레이드입니다.
+    ru: Устанавливаемые улучшения для <a href=showinfo:32458>штаба владений</a>.
+    zh: 安装在<a href=showinfo:32458>主权中心</a>内的升级件。
   hasTypes: false
   iconID: 3947
   nameID:
@@ -39955,6 +39956,7 @@
     ja: モードゥニウム
     ko: 모르두늄
     ru: Mordunium
+    zh: 摩多石
   parentGroupID: 54
 3488:
   hasTypes: true
@@ -39967,6 +39969,7 @@
     ja: イティリウム
     ko: 이티륨
     ru: Ютирий
+    zh: 钇岩
   parentGroupID: 54
 3489:
   hasTypes: true
@@ -39979,6 +39982,7 @@
     ja: エイフィリウム
     ko: 에이피륨
     ru: Эйфирий
+    zh: 艾弗石
   parentGroupID: 54
 3490:
   hasTypes: true
@@ -39991,6 +39995,7 @@
     ja: ドゥシニウム
     ko: 두시늄
     ru: Дачиний
+    zh: 杜希石
   parentGroupID: 54
 3495:
   hasTypes: true
@@ -40214,33 +40219,75 @@
   hasTypes: false
   iconID: 21420
   nameID:
+    de: Fortschrittliche Dreadnoughts
     en: Advanced Dreadnoughts
+    es: Superacorazados avanzados
+    fr: Supercuirassés avancés
+    ja: 高性能攻城艦
+    ko: 상급 드레드노트
+    ru: Улучшенные дредноуты
+    zh: 高级无畏舰
   parentGroupID: 1971
 3520:
   hasTypes: false
   iconID: 21420
   nameID:
+    de: Lancer Dreadnoughts
     en: Lancer Dreadnoughts
+    es: Superacorazados lancer
+    fr: Supercuirassés lanciers
+    ja: ランサー攻城艦
+    ko: 랜서 드레드노트
+    ru: Lancer Dreadnoughts
+    zh: 枪骑兵级无畏舰
   parentGroupID: 3519
 3521:
   hasTypes: true
   iconID: 20967
   nameID:
+    de: Gallente
     en: Gallente
+    es: Gallente
+    fr: Gallente
+    ja: ガレンテ
+    ko: 갈란테
+    ru: Галлентские
+    zh: 盖伦特
   parentGroupID: 3520
 3523:
   hasTypes: true
   iconID: 20968
   nameID:
+    de: Minmatar
     en: Minmatar
+    es: Minmatar
+    fr: Minmatar
+    ja: ミンマター
+    ko: 민마타
+    ru: Минматар
+    zh: 米玛塔尔
   parentGroupID: 3520
 3531:
   descriptionID:
+    de: Piratenfraktion-Zerstörer-Designs.
     en: Pirate faction destroyer designs.
+    es: Diseños de destructor faccionario pirata.
+    fr: Modèles de destroyers de faction pirate.
+    ja: 海賊勢力の駆逐艦の設計図。
+    ko: 해적 팩션의 디스트로이어입니다.
+    ru: Эсминцы пиратских организаций.
+    zh: 海盗势力驱逐舰设计。
   hasTypes: true
   iconID: 1443
   nameID:
+    de: Piratenfraktion
     en: Pirate Faction
+    es: Facción pirata
+    fr: Faction pirate
+    ja: 海賊勢力
+    ko: 해적 팩션
+    ru: Пиратская организация
+    zh: 海盗势力
   parentGroupID: 3480
 3534:
   hasTypes: true
@@ -40270,50 +40317,120 @@
   parentGroupID: 3520
 3536:
   descriptionID:
+    de: EDENCOM-Fregattendesigns.
     en: EDENCOM frigate designs.
+    es: Diseños de fragatas de EDENCOM.
+    fr: Modèles de frégates EDENCOM.
+    ja: EDENCOMのフリゲートの設計図。
+    ko: EDENCOM의 프리깃입니다.
+    ru: Фрегаты ЭДЕНКОМа.
+    zh: 伊甸联合防御阵线护卫舰设计。
   hasTypes: true
   iconID: 24419
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 1362
 3537:
   descriptionID:
+    de: EDENCOM-Kreuzerdesigns.
     en: EDENCOM cruiser designs.
+    es: Diseños de cruceros de EDENCOM.
+    fr: Modèles de croiseurs EDENCOM.
+    ja: EDENCOMの巡洋艦の設計図。
+    ko: EDENCOM의 크루저입니다.
+    ru: Крейсеры ЭДЕНКОМа.
+    zh: 伊甸联合防御阵线巡洋舰设计。
   hasTypes: true
   iconID: 24419
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 1369
 3538:
   descriptionID:
+    de: EDENCOM-Schlachtschiff-Designs.
     en: EDENCOM battleship designs.
+    es: Diseños de acorazados de EDENCOM.
+    fr: Modèles de cuirassés EDENCOM.
+    ja: EDENCOMの戦艦の設計図。
+    ko: EDENCOM의 배틀쉽입니다.
+    ru: Линкоры ЭДЕНКОМа.
+    zh: 伊甸联合防御阵线战列舰设计。
   hasTypes: true
   iconID: 24419
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 1378
 3539:
   hasTypes: true
   iconID: 21420
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 1961
 3540:
   hasTypes: true
   iconID: 21420
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 2029
 3541:
   hasTypes: true
   iconID: 21420
   nameID:
+    de: EDENCOM
     en: EDENCOM
+    es: EDENCOM
+    fr: EDENCOM
+    ja: EDENCOM
+    ko: EDENCOM
+    ru: ЭДЕНКОМ
+    zh: 伊甸联合防御阵线
   parentGroupID: 1999
 3542:
   hasTypes: true
   nameID:
+    de: Mutaplasmide-Vorton-Tuning-System
     en: Vorton Tuning System Mutaplasmids
+    es: Mutaplásmido de sistema de ajuste vortónico
+    fr: Mutaplasmides de système de réglage de vortons
+    ja: ヴォートン・チューニングシステム用変異プラスミド
+    ko: 보르톤 조정 시스템 뮤타플라즈미드
+    ru: Мутаплазмиды для модулей настройки вортонов
+    zh: 电弧弦调谐系统突变质体
   parentGroupID: 2512
 3546:
   hasTypes: true
@@ -40387,6 +40504,7 @@
     es: Diseños industriales del Consorcio Upwell.
     fr: Modèles industriels de l'Upwell Consortium.
     ja: アップウェル・コンソーシアムの輸送艦の設計図。
+    ko: 업웰 컨소시엄 산업선입니다.
     ru: Грузовые корабли консорциума «Апвелл».
     zh: Upwell Consortium industrial designs.
   hasTypes: true
@@ -40397,6 +40515,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 8
@@ -40407,6 +40526,7 @@
     es: Diseños industriales del Consorcio Upwell.
     fr: Modèles industriels de l'Upwell Consortium.
     ja: アップウェル・コンソーシアムの輸送艦の設計図。
+    ko: 업웰 컨소시엄 산업선입니다.
     ru: Грузовые корабли консорциума «Апвелл».
     zh: Upwell Consortium industrial designs.
   hasTypes: true
@@ -40417,6 +40537,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 629
@@ -40427,6 +40548,7 @@
     es: Planos de diseños de naves de mercancías del Consorcio Upwell.
     fr: Plans de construction de modèles de transports de l'Upwell Consortium.
     ja: アップウェル・コンソーシアムのハウラーの設計図。
+    ko: 업웰 컨소시엄 운반선의 블루프린트입니다.
     ru: Чертежи для перевозчиков консорциума «Апвелл».
     zh: Blueprints of Upwell Consortium hauler designs.
   hasTypes: true
@@ -40437,6 +40559,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 208
@@ -40447,6 +40570,7 @@
     es: Diseños de cargueros Upwell.
     fr: Modèles de cargos Upwell.
     ja: アップウェルの超大型輸送艦の設計図。
+    ko: 업웰 프레이터 함선입니다.
     ru: Фрейтеры «Апвелл».
     zh: Upwell freighter designs.
   hasTypes: true
@@ -40457,6 +40581,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 766
@@ -40467,6 +40592,7 @@
     es: Diseños de los cargueros de Upwell.
     fr: Modèles de cargos Upwell.
     ja: アップウェルの超大型輸送艦の設計図。
+    ko: 업웰 프레이터 함선입니다.
     ru: Для фрейтеров «Апвелл».
     zh: Designs for Upwell freighters.
   hasTypes: true
@@ -40477,6 +40603,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 787
@@ -40487,6 +40614,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   hasTypes: true
@@ -40497,6 +40625,7 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 1591
@@ -40509,16 +40638,32 @@
     es: Upwell
     fr: Upwell
     ja: アップウェル
+    ko: 업웰
     ru: Апвелл
     zh: Upwell
   parentGroupID: 65
 3596:
   descriptionID:
+    de: Kolonialreagenzien, die von Planeten über den orbitalen Skyhook extrahiert
+      wurden.
     en: Colony reagents extracted from planets via Orbital Skyhook.
+    es: Reactivos de la colonia extraídos de planetas a través del gancho orbital.
+    fr: Réactifs de colonie extraits des planètes par un grappin orbital.
+    ja: 軌道スカイフックを通じて惑星から取り出されたコロニーの反応試剤。
+    ko: 궤도 스카이훅으로 추출한 콜로니 촉매입니다.
+    ru: Реагенты, которые орбитальные подъёмники извлекают с планет.
+    zh: 使用轨道天钩从行星中提取的殖民地试剂。
   hasTypes: true
   iconID: 24296
   nameID:
+    de: Kolonialreagenzien
     en: Colony Reagents
+    es: Reactivos de colonia
+    fr: Réactifs de colonie
+    ja: コロニーの反応試剤
+    ko: 콜로니 촉매
+    ru: Реагенты колоний
+    zh: 殖民地试剂
   parentGroupID: 533
 3624:
   hasTypes: false
@@ -40530,6 +40675,7 @@
     fr: Structures FLEX
     ja: FLEXストラクチャ
     ko: FLEX 구조물
+    ru: Сооружения БЛОК
     zh: 快速部署建筑
   parentGroupID: 477
 3625:
@@ -40542,6 +40688,7 @@
     fr: Structures d'extraction minière
     ja: 採掘ストラクチャ
     ko: 채굴 구조물
+    ru: Буровые сооружения
     zh: 采矿建筑
   parentGroupID: 3624
 3626:
@@ -40554,6 +40701,7 @@
     fr: Structures FLEX
     ja: FLEXストラクチャ
     ko: FLEX 구조물
+    ru: Сооружения БЛОК
     zh: 快速部署建筑
   parentGroupID: 1338
 3627:
@@ -40566,6 +40714,7 @@
     fr: Structures d'extraction minière
     ja: 採掘ストラクチャ
     ko: 채굴 구조물
+    ru: Буровые сооружения
     zh: 采矿建筑
   parentGroupID: 3626
 3628:
@@ -40662,6 +40811,7 @@
     fr: Des sous-types de minerai de Kylixium
     ja: キリクシウム鉱石の亜種。
     ko: 다양한 부류의 카일릭슘 광석입니다.
+    ru: Разновидности килиция.
     zh: 克里石的分支
   hasTypes: true
   iconID: 1377
@@ -40672,6 +40822,7 @@
     fr: Kylixium
     ja: キリクシウム
     ko: 카일릭슘
+    ru: Kylixium
     zh: 克里石
   parentGroupID: 54
 3637:
@@ -40682,6 +40833,7 @@
     fr: Sous-types de minerai de Nocxite.
     ja: ノキサイト鉱石の亜種。
     ko: 다양한 부류의 녹사이트 광석입니다.
+    ru: Разновидности нокцита.
     zh: 诺克希特的分支。
   hasTypes: true
   iconID: 1269
@@ -40692,6 +40844,7 @@
     fr: Nocxite
     ja: ノキサイト
     ko: 녹사이트
+    ru: Нокцит
     zh: 诺克希特
   parentGroupID: 54
 3638:
@@ -40702,6 +40855,7 @@
     fr: Sous-types de minerai d'Ueganite.
     ja: ユイグナイト鉱石の亜種。
     ko: 다양한 부류의 유가나이트 광석입니다.
+    ru: Разновидности уэганита.
     zh: 尤加石的分支。
   hasTypes: true
   iconID: 1277
@@ -40712,6 +40866,7 @@
     fr: Ueganite
     ja: ユイグナイト
     ko: 유가나이트
+    ru: Уэганит
     zh: 尤加石
   parentGroupID: 54
 3639:
@@ -40722,6 +40877,7 @@
     fr: Sous-types de minerai Hezorime.
     ja: ヘゾライム鉱石の亜種。
     ko: 다양한 부류의 헤조라임 광석입니다.
+    ru: Разновидности гезорима.
     zh: 赫佐利姆的分支。
   hasTypes: true
   iconID: 1274
@@ -40732,6 +40888,7 @@
     fr: Hezorime
     ja: ヘゾライム
     ko: 헤조라임
+    ru: Hezorime
     zh: 赫佐利姆
   parentGroupID: 54
 3640:
@@ -40742,6 +40899,7 @@
     fr: Sous-types de minerai de Griemeer.
     ja: グリーミーア鉱石の亜種。
     ko: 다양한 부류의 그리미어 광석입니다.
+    ru: Разновидности гримира.
     zh: 格里米尔的分支。
   hasTypes: true
   iconID: 1271
@@ -40752,6 +40910,7 @@
     fr: Griemeer
     ja: グリーミーア
     ko: 그리미어
+    ru: Griemeer
     zh: 格里米尔
   parentGroupID: 54
 3641:
@@ -40828,6 +40987,7 @@
     fr: Plans de construction de grappins orbitaux.
     ja: 軌道スカイフックの設計図です。
     ko: 궤도 스카이훅 블루프린트
+    ru: Чертежи орбитальных подъёмников.
     zh: 轨道天钩蓝图。
   hasTypes: true
   iconID: 2703
@@ -40838,25 +40998,47 @@
     fr: Grappins orbitaux
     ja: 軌道スカイフック
     ko: 궤도 스카이훅
+    ru: Орбитальные подъёмники
     zh: 轨道天钩
   parentGroupID: 2015
 3653:
   hasTypes: true
   iconID: 26053
   nameID:
+    de: Matt
     en: Matte
+    es: Mate
+    fr: Mat
+    ja: マット
+    ko: 무광
+    ru: Матовое
+    zh: 哑光级
   parentGroupID: 3631
 3654:
   hasTypes: true
   iconID: 26053
   nameID:
+    de: Satin
     en: Satin
+    es: Satinado
+    fr: Satiné
+    ja: サテン
+    ko: 새틴
+    ru: Сатин
+    zh: 缎光级
   parentGroupID: 3631
 3655:
   hasTypes: true
   iconID: 26053
   nameID:
+    de: Glanz
     en: Gloss
+    es: Brillante
+    fr: Brillant
+    ja: グロス
+    ko: 유광
+    ru: Глянцевое
+    zh: 流光级
   parentGroupID: 3631
 3656:
   hasTypes: true
@@ -41000,3 +41182,36 @@
     ru: Апвелл
     zh: 昇威
   parentGroupID: 2087
+3696:
+  descriptionID:
+    de: Ein Infomorph, ein digitalisiertes menschliches Bewusstsein, das im Status
+      gespeichert ist, während es auf einen neuen Körper wartet.
+    en: An infomorph, a digitalized human consciousness, stored in status while it
+      awaits upload to a new body.
+    es: Un infomorfo, una conciencia humana digitalizada, almacenado en estado mientras
+      espera ser cargado en un nuevo cuerpo.
+    fr: Un infomorphe, une conscience humaine numérisée, stockée en l'état en attendant
+      son téléchargement dans un nouveau corps.
+    ja: 格納されたインフォモーフ、あるいはデジタル化された人間の意識。新たな体にアップロードされる時が来るのを待っている。
+    ko: 정신체는 디지털화된 인간의 의식입니다. 새로운 신체에 이식되기를 기다리고 있습니다.
+    ru: Инфоморф — оцифрованное человеческое сознание, погружённое в стазис до загрузки
+      в новое тело.
+    zh: 电子意识是一种数字化人类意识，在上传到新躯体之前会先存储在状态中。
+  hasTypes: true
+  iconID: 24296
+  nameID:
+    de: Infomorphs
+    en: Infomorphs
+    es: Infomorfos
+    fr: Infomorphes
+    ja: インフォモーフ
+    ko: 정신체
+    ru: Инфоморфы
+    zh: 电子意识
+  parentGroupID: 533
+3697:
+  hasTypes: true
+  iconID: 26356
+  nameID:
+    en: Atavum
+  parentGroupID: 533

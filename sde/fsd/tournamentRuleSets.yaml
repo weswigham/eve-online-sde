@@ -794,6 +794,30 @@
   ruleSetName: Alliance Tournament XV
 - banned:
     groups: []
+    types: []
+  maximumPilotsMatch: 5
+  maximumPointsMatch: 15
+  points:
+    groups:
+    - groupID: 25
+      points: 1
+    - groupID: 26
+      points: 3
+    - groupID: 27
+      points: 5
+    - groupID: 419
+      points: 4
+    - groupID: 420
+      points: 2
+    - groupID: 1201
+      points: 4
+    - groupID: 1527
+      points: 1
+    types: []
+  ruleSetID: event_cup2017
+  ruleSetName: EVE NT Cup 2017
+- banned:
+    groups: []
     types:
     - 33472
     - 44993
@@ -1057,28 +1081,333 @@
   ruleSetName: CN 2021
 - banned:
     groups: []
-    types: []
-  maximumPilotsMatch: 5
-  maximumPointsMatch: 15
+    types:
+    - 33472
+    - 44993
+    - 44995
+    - 44996
+    - 45534
+    - 11940
+    - 11942
+    - 2078
+    - 32788
+    - 32207
+    - 3516
+    - 2834
+    - 42246
+    - 33397
+    - 48636
+    - 45530
+    - 35779
+    - 33637
+    - 635
+    - 33553
+    - 34590
+    - 2836
+    - 32209
+    - 3518
+    - 35781
+    - 32790
+    - 42245
+    - 33675
+    - 33395
+    - 45531
+    - 48635
+    - 11936
+    - 11938
+    - 13202
+    - 26840
+    - 26842
+    - 32811
+    - 4363
+    - 4388
+    - 60765
+    - 60764
+    - 72904
+    - 72907
+    - 72913
+    - 72903
+    - 74141
+    - 74316
+  maximumPilotsMatch: 6
+  maximumPointsMatch: 100
   points:
     groups:
     - groupID: 25
-      points: 1
+      points: 99
     - groupID: 26
-      points: 3
+      points: 99
     - groupID: 27
-      points: 5
+      points: 99
+    - groupID: 28
+      points: 99
+    - groupID: 237
+      points: 99
+    - groupID: 324
+      points: 99
+    - groupID: 358
+      points: 99
     - groupID: 419
-      points: 4
+      points: 99
     - groupID: 420
-      points: 2
+      points: 99
+    - groupID: 540
+      points: 99
+    - groupID: 541
+      points: 99
+    - groupID: 830
+      points: 99
+    - groupID: 831
+      points: 99
+    - groupID: 832
+      points: 99
+    - groupID: 833
+      points: 99
+    - groupID: 834
+      points: 99
+    - groupID: 893
+      points: 99
+    - groupID: 894
+      points: 99
+    - groupID: 898
+      points: 99
+    - groupID: 900
+      points: 99
+    - groupID: 906
+      points: 99
+    - groupID: 963
+      points: 99
     - groupID: 1201
-      points: 4
+      points: 99
+    - groupID: 1305
+      points: 99
     - groupID: 1527
-      points: 1
-    types: []
-  ruleSetID: event_cup2017
-  ruleSetName: EVE NT Cup 2017
+      points: 99
+    - groupID: 1534
+      points: 99
+    types:
+    - points: 18
+      typeID: 620
+    - points: 18
+      typeID: 625
+    - points: 19
+      typeID: 628
+    - points: 19
+      typeID: 630
+    - points: 18
+      typeID: 631
+    - points: 19
+      typeID: 632
+    - points: 19
+      typeID: 633
+    - points: 18
+      typeID: 634
+    - points: 19
+      typeID: 17634
+    - points: 21
+      typeID: 17636
+    - points: 19
+      typeID: 17713
+    - points: 19
+      typeID: 17715
+    - points: 19
+      typeID: 17718
+    - points: 19
+      typeID: 17720
+    - points: 19
+      typeID: 17722
+    - points: 21
+      typeID: 17726
+    - points: 21
+      typeID: 17728
+    - points: 19
+      typeID: 17843
+    - points: 19
+      typeID: 17922
+    - points: 9
+      typeID: 17924
+    - points: 9
+      typeID: 17926
+    - points: 9
+      typeID: 17928
+    - points: 9
+      typeID: 17930
+    - points: 9
+      typeID: 17932
+    - points: 19
+      typeID: 29336
+    - points: 19
+      typeID: 29337
+    - points: 19
+      typeID: 29340
+    - points: 19
+      typeID: 29344
+    - points: 21
+      typeID: 32305
+    - points: 21
+      typeID: 32307
+    - points: 21
+      typeID: 32309
+    - points: 21
+      typeID: 33151
+    - points: 21
+      typeID: 33153
+    - points: 21
+      typeID: 33155
+    - points: 21
+      typeID: 33157
+    - points: 9
+      typeID: 33468
+    - points: 19
+      typeID: 33470
+    - points: 9
+      typeID: 33816
+    - points: 19
+      typeID: 33818
+    - points: 11
+      typeID: 49710
+    - points: 11
+      typeID: 49712
+    - points: 18
+      typeID: 49713
+    - points: 11
+      typeID: 52254
+    - points: 18
+      typeID: 54733
+    - points: 22
+      typeID: 642
+    - points: 22
+      typeID: 643
+    - points: 22
+      typeID: 24692
+    - points: 22
+      typeID: 638
+    - points: 22
+      typeID: 640
+    - points: 22
+      typeID: 24688
+    - points: 22
+      typeID: 641
+    - points: 22
+      typeID: 645
+    - points: 22
+      typeID: 24690
+    - points: 22
+      typeID: 639
+    - points: 22
+      typeID: 644
+    - points: 22
+      typeID: 24694
+    - points: 21
+      typeID: 24696
+    - points: 21
+      typeID: 16233
+    - points: 21
+      typeID: 16227
+    - points: 21
+      typeID: 24698
+    - points: 21
+      typeID: 16229
+    - points: 21
+      typeID: 24700
+    - points: 21
+      typeID: 16231
+    - points: 21
+      typeID: 24702
+    - points: 21
+      typeID: 3756
+    - points: 21
+      typeID: 4302
+    - points: 21
+      typeID: 4306
+    - points: 21
+      typeID: 4310
+    - points: 21
+      typeID: 4308
+    - points: 11
+      typeID: 22452
+    - points: 11
+      typeID: 22464
+    - points: 11
+      typeID: 22460
+    - points: 11
+      typeID: 22456
+    - points: 11
+      typeID: 37481
+    - points: 11
+      typeID: 37480
+    - points: 11
+      typeID: 37482
+    - points: 11
+      typeID: 37483
+    - points: 11
+      typeID: 73789
+    - points: 11
+      typeID: 73794
+    - points: 11
+      typeID: 73795
+    - points: 11
+      typeID: 73796
+    - points: 9
+      typeID: 11190
+    - points: 9
+      typeID: 11194
+    - points: 9
+      typeID: 11174
+    - points: 9
+      typeID: 11387
+    - points: 9
+      typeID: 11186
+    - points: 9
+      typeID: 11184
+    - points: 9
+      typeID: 11176
+    - points: 9
+      typeID: 11178
+    - points: 9
+      typeID: 11202
+    - points: 9
+      typeID: 11200
+    - points: 9
+      typeID: 11198
+    - points: 9
+      typeID: 11196
+    - points: 9
+      typeID: 11365
+    - points: 9
+      typeID: 11393
+    - points: 9
+      typeID: 11381
+    - points: 9
+      typeID: 11379
+    - points: 9
+      typeID: 11400
+    - points: 9
+      typeID: 11371
+    - points: 9
+      typeID: 12044
+    - points: 9
+      typeID: 12042
+    - points: 21
+      typeID: 72811
+    - points: 21
+      typeID: 72869
+    - points: 21
+      typeID: 72812
+    - points: 21
+      typeID: 72872
+    - points: 11
+      typeID: 34317
+    - points: 11
+      typeID: 34562
+    - points: 11
+      typeID: 34828
+    - points: 11
+      typeID: 35683
+    - points: 19
+      typeID: 17709
+  ruleSetID: CC2023
+  ruleSetName: Captains Cup 2023
 - banned:
     groups: []
     types:
@@ -2238,332 +2567,606 @@
 - banned:
     groups: []
     types:
-    - 33472
-    - 44993
-    - 44995
-    - 44996
-    - 45534
-    - 11940
-    - 11942
-    - 2078
-    - 32788
-    - 32207
-    - 3516
-    - 2834
-    - 42246
-    - 33397
-    - 48636
-    - 45530
-    - 35779
-    - 33637
-    - 635
-    - 33553
-    - 34590
     - 2836
-    - 32209
-    - 3518
-    - 35781
-    - 32790
-    - 42245
-    - 33675
-    - 33395
-    - 45531
-    - 48635
     - 11936
+    - 29266
     - 11938
+    - 42246
+    - 32788
+    - 33675
+    - 33397
+    - 34496
+    - 3532
+    - 32790
+    - 35781
+    - 32207
+    - 11940
+    - 11011
+    - 48636
+    - 35779
+    - 30842
+    - 33513
+    - 3516
     - 13202
-    - 26840
-    - 26842
     - 32811
     - 4363
     - 4388
-    - 60765
-    - 60764
-    - 72904
-    - 72907
-    - 72913
-    - 72903
-    - 74141
-    - 74316
-  maximumPilotsMatch: 6
-  maximumPointsMatch: 100
+    - 32209
+    - 45534
+    - 33395
+    - 635
+    - 33472
+    - 2863
+    - 42245
+    - 26840
+    - 34151
+    - 4005
+    - 11942
+    - 33553
+    - 26842
+    - 48635
+    - 2834
+    - 3518
+    - 45531
+    - 34590
+    - 45530
+    - 33673
+    - 2078
+    - 44993
+    - 44996
+    - 44995
+    - 81047
+    - 81040
+    - 78576
+  maximumPilotsMatch: 10
+  maximumPointsMatch: 200
   points:
-    groups:
-    - groupID: 25
-      points: 99
-    - groupID: 26
-      points: 99
-    - groupID: 27
-      points: 99
-    - groupID: 28
-      points: 99
-    - groupID: 237
-      points: 99
-    - groupID: 324
-      points: 99
-    - groupID: 358
-      points: 99
-    - groupID: 419
-      points: 99
-    - groupID: 420
-      points: 99
-    - groupID: 540
-      points: 99
-    - groupID: 541
-      points: 99
-    - groupID: 830
-      points: 99
-    - groupID: 831
-      points: 99
-    - groupID: 832
-      points: 99
-    - groupID: 833
-      points: 99
-    - groupID: 834
-      points: 99
-    - groupID: 893
-      points: 99
-    - groupID: 894
-      points: 99
-    - groupID: 898
-      points: 99
-    - groupID: 900
-      points: 99
-    - groupID: 906
-      points: 99
-    - groupID: 963
-      points: 99
-    - groupID: 1201
-      points: 99
-    - groupID: 1305
-      points: 99
-    - groupID: 1527
-      points: 99
-    - groupID: 1534
-      points: 99
+    groups: []
     types:
-    - points: 18
-      typeID: 620
-    - points: 18
-      typeID: 625
-    - points: 19
-      typeID: 628
-    - points: 19
-      typeID: 630
-    - points: 18
-      typeID: 631
-    - points: 19
-      typeID: 632
-    - points: 19
-      typeID: 633
-    - points: 18
-      typeID: 634
-    - points: 19
-      typeID: 17634
-    - points: 21
-      typeID: 17636
-    - points: 19
-      typeID: 17713
-    - points: 19
-      typeID: 17715
-    - points: 19
-      typeID: 17718
-    - points: 19
-      typeID: 17720
-    - points: 19
-      typeID: 17722
-    - points: 21
-      typeID: 17726
-    - points: 21
-      typeID: 17728
-    - points: 19
-      typeID: 17843
-    - points: 19
-      typeID: 17922
-    - points: 9
-      typeID: 17924
-    - points: 9
-      typeID: 17926
-    - points: 9
-      typeID: 17928
-    - points: 9
-      typeID: 17930
-    - points: 9
-      typeID: 17932
-    - points: 19
-      typeID: 29336
-    - points: 19
-      typeID: 29337
-    - points: 19
-      typeID: 29340
-    - points: 19
-      typeID: 29344
-    - points: 21
-      typeID: 32305
-    - points: 21
-      typeID: 32307
-    - points: 21
-      typeID: 32309
-    - points: 21
-      typeID: 33151
-    - points: 21
-      typeID: 33153
-    - points: 21
-      typeID: 33155
-    - points: 21
-      typeID: 33157
-    - points: 9
-      typeID: 33468
-    - points: 19
-      typeID: 33470
-    - points: 9
-      typeID: 33816
-    - points: 19
-      typeID: 33818
-    - points: 11
-      typeID: 49710
-    - points: 11
-      typeID: 49712
-    - points: 18
-      typeID: 49713
-    - points: 11
-      typeID: 52254
-    - points: 18
-      typeID: 54733
-    - points: 22
-      typeID: 642
-    - points: 22
-      typeID: 643
-    - points: 22
-      typeID: 24692
-    - points: 22
-      typeID: 638
-    - points: 22
-      typeID: 640
-    - points: 22
-      typeID: 24688
-    - points: 22
-      typeID: 641
-    - points: 22
-      typeID: 645
-    - points: 22
-      typeID: 24690
-    - points: 22
-      typeID: 639
-    - points: 22
-      typeID: 644
-    - points: 22
-      typeID: 24694
-    - points: 21
-      typeID: 24696
-    - points: 21
-      typeID: 16233
-    - points: 21
-      typeID: 16227
-    - points: 21
-      typeID: 24698
-    - points: 21
-      typeID: 16229
-    - points: 21
-      typeID: 24700
-    - points: 21
-      typeID: 16231
-    - points: 21
-      typeID: 24702
-    - points: 21
-      typeID: 3756
-    - points: 21
-      typeID: 4302
-    - points: 21
-      typeID: 4306
-    - points: 21
-      typeID: 4310
-    - points: 21
-      typeID: 4308
-    - points: 11
-      typeID: 22452
-    - points: 11
-      typeID: 22464
-    - points: 11
-      typeID: 22460
-    - points: 11
-      typeID: 22456
-    - points: 11
-      typeID: 37481
-    - points: 11
-      typeID: 37480
-    - points: 11
-      typeID: 37482
-    - points: 11
-      typeID: 37483
-    - points: 11
-      typeID: 73789
-    - points: 11
-      typeID: 73794
-    - points: 11
-      typeID: 73795
-    - points: 11
-      typeID: 73796
-    - points: 9
-      typeID: 11190
-    - points: 9
-      typeID: 11194
-    - points: 9
-      typeID: 11174
-    - points: 9
-      typeID: 11387
-    - points: 9
-      typeID: 11186
-    - points: 9
+    - points: 1
+      typeID: 596
+    - points: 1
+      typeID: 601
+    - points: 1
+      typeID: 606
+    - points: 1
+      typeID: 588
+    - points: 2
+      typeID: 617
+    - points: 2
+      typeID: 33079
+    - points: 2
+      typeID: 615
+    - points: 2
+      typeID: 33081
+    - points: 2
+      typeID: 33083
+    - points: 3
+      typeID: 648
+    - points: 3
+      typeID: 590
+    - points: 3
+      typeID: 582
+    - points: 3
+      typeID: 592
+    - points: 3
+      typeID: 599
+    - points: 3
+      typeID: 1944
+    - points: 3
+      typeID: 19744
+    - points: 3
+      typeID: 649
+    - points: 3
+      typeID: 650
+    - points: 3
+      typeID: 654
+    - points: 3
+      typeID: 655
+    - points: 3
+      typeID: 656
+    - points: 3
+      typeID: 657
+    - points: 3
+      typeID: 651
+    - points: 3
+      typeID: 652
+    - points: 3
+      typeID: 653
+    - points: 3
+      typeID: 653
+    - points: 4
+      typeID: 589
+    - points: 4
+      typeID: 583
+    - points: 4
+      typeID: 586
+    - points: 4
+      typeID: 591
+    - points: 4
+      typeID: 29248
+    - points: 4
+      typeID: 602
+    - points: 4
+      typeID: 603
+    - points: 4
+      typeID: 605
+    - points: 4
+      typeID: 608
+    - points: 4
+      typeID: 593
+    - points: 4
+      typeID: 594
+    - points: 4
+      typeID: 607
+    - points: 4
+      typeID: 585
+    - points: 4
+      typeID: 598
+    - points: 4
+      typeID: 587
+    - points: 4
+      typeID: 11188
+    - points: 4
+      typeID: 11192
+    - points: 4
+      typeID: 11172
+    - points: 4
+      typeID: 11182
+    - points: 4
+      typeID: 81008
+    - points: 5
+      typeID: 16242
+    - points: 5
+      typeID: 16236
+    - points: 5
+      typeID: 32874
+    - points: 5
+      typeID: 16238
+    - points: 5
+      typeID: 32876
+    - points: 5
+      typeID: 16240
+    - points: 5
+      typeID: 32872
+    - points: 5
+      typeID: 32878
+    - points: 5
+      typeID: 42685
+    - points: 5
+      typeID: 54731
+    - points: 5
+      typeID: 77114
+    - points: 6
+      typeID: 597
+    - points: 6
+      typeID: 3766
+    - points: 6
+      typeID: 17703
+    - points: 6
+      typeID: 37453
+    - points: 6
+      typeID: 17619
+    - points: 6
+      typeID: 37455
+    - points: 6
+      typeID: 17841
+    - points: 6
+      typeID: 37456
+    - points: 6
+      typeID: 17812
+    - points: 6
+      typeID: 37454
+    - points: 6
       typeID: 11184
-    - points: 9
+    - points: 6
+      typeID: 11186
+    - points: 6
       typeID: 11176
-    - points: 9
+    - points: 6
       typeID: 11178
-    - points: 9
-      typeID: 11202
-    - points: 9
+    - points: 6
       typeID: 11200
-    - points: 9
-      typeID: 11198
-    - points: 9
+    - points: 6
+      typeID: 11202
+    - points: 6
       typeID: 11196
+    - points: 6
+      typeID: 11198
+    - points: 6
+      typeID: 72907
+    - points: 6
+      typeID: 72904
+    - points: 6
+      typeID: 72913
+    - points: 6
+      typeID: 72903
+    - points: 7
+      typeID: 584
+    - points: 7
+      typeID: 609
+    - points: 7
+      typeID: 12038
+    - points: 7
+      typeID: 12032
+    - points: 7
+      typeID: 11377
+    - points: 7
+      typeID: 12034
+    - points: 8
+      typeID: 2161
+    - points: 8
+      typeID: 17932
+    - points: 8
+      typeID: 33816
+    - points: 8
+      typeID: 17924
+    - points: 8
+      typeID: 17928
+    - points: 8
+      typeID: 33468
     - points: 9
       typeID: 11365
     - points: 9
       typeID: 11393
     - points: 9
-      typeID: 11381
-    - points: 9
       typeID: 11379
     - points: 9
-      typeID: 11400
+      typeID: 11381
     - points: 9
-      typeID: 11371
+      typeID: 12042
     - points: 9
       typeID: 12044
     - points: 9
-      typeID: 12042
-    - points: 21
-      typeID: 72811
-    - points: 21
-      typeID: 72869
-    - points: 21
-      typeID: 72812
-    - points: 21
-      typeID: 72872
-    - points: 11
+      typeID: 11371
+    - points: 9
+      typeID: 11400
+    - points: 9
+      typeID: 22452
+    - points: 9
+      typeID: 22464
+    - points: 9
+      typeID: 22460
+    - points: 9
+      typeID: 22456
+    - points: 9
+      typeID: 2006
+    - points: 9
+      typeID: 623
+    - points: 9
+      typeID: 622
+    - points: 9
+      typeID: 629
+    - points: 9
+      typeID: 17926
+    - points: 9
+      typeID: 627
+    - points: 10
+      typeID: 37457
+    - points: 10
+      typeID: 621
+    - points: 10
+      typeID: 37458
+    - points: 10
+      typeID: 37459
+    - points: 10
+      typeID: 37460
+    - points: 10
       typeID: 34317
-    - points: 11
+    - points: 10
+      typeID: 35683
+    - points: 10
       typeID: 34562
+    - points: 10
+      typeID: 630
+    - points: 10
+      typeID: 624
+    - points: 10
+      typeID: 626
+    - points: 10
+      typeID: 17930
+    - points: 10
+      typeID: 47269
+    - points: 10
+      typeID: 81046
+    - points: 11
+      typeID: 11194
+    - points: 11
+      typeID: 11387
     - points: 11
       typeID: 34828
     - points: 11
-      typeID: 35683
-    - points: 19
+      typeID: 52250
+    - points: 11
+      typeID: 73794
+    - points: 11
+      typeID: 73795
+    - points: 11
+      typeID: 73789
+    - points: 11
+      typeID: 73796
+    - points: 12
+      typeID: 37481
+    - points: 12
+      typeID: 37482
+    - points: 12
+      typeID: 37483
+    - points: 12
+      typeID: 37480
+    - points: 14
+      typeID: 11190
+    - points: 14
+      typeID: 11174
+    - points: 14
+      typeID: 628
+    - points: 14
+      typeID: 54732
+    - points: 14
+      typeID: 49710
+    - points: 14
+      typeID: 78367
+    - points: 14
+      typeID: 78333
+    - points: 15
+      typeID: 633
+    - points: 15
+      typeID: 17720
+    - points: 15
+      typeID: 52254
+    - points: 16
+      typeID: 632
+    - points: 16
       typeID: 17709
-  ruleSetID: CC2023
-  ruleSetName: Captains Cup 2023
+    - points: 16
+      typeID: 17634
+    - points: 16
+      typeID: 29340
+    - points: 16
+      typeID: 17843
+    - points: 16
+      typeID: 29336
+    - points: 16
+      typeID: 17713
+    - points: 18
+      typeID: 17922
+    - points: 18
+      typeID: 17718
+    - points: 18
+      typeID: 33470
+    - points: 18
+      typeID: 17722
+    - points: 19
+      typeID: 33818
+    - points: 19
+      typeID: 47270
+    - points: 20
+      typeID: 625
+    - points: 20
+      typeID: 620
+    - points: 20
+      typeID: 634
+    - points: 20
+      typeID: 631
+    - points: 20
+      typeID: 29337
+    - points: 20
+      typeID: 29344
+    - points: 22
+      typeID: 4302
+    - points: 22
+      typeID: 4306
+    - points: 22
+      typeID: 4308
+    - points: 22
+      typeID: 4310
+    - points: 24
+      typeID: 12017
+    - points: 24
+      typeID: 11995
+    - points: 24
+      typeID: 12021
+    - points: 24
+      typeID: 12013
+    - points: 24
+      typeID: 49712
+    - points: 25
+      typeID: 17715
+    - points: 26
+      typeID: 12003
+    - points: 26
+      typeID: 12019
+    - points: 26
+      typeID: 12011
+    - points: 26
+      typeID: 11993
+    - points: 26
+      typeID: 12005
+    - points: 26
+      typeID: 12023
+    - points: 26
+      typeID: 11999
+    - points: 26
+      typeID: 12015
+    - points: 27
+      typeID: 11965
+    - points: 27
+      typeID: 11961
+    - points: 27
+      typeID: 11963
+    - points: 28
+      typeID: 11957
+    - points: 28
+      typeID: 11959
+    - points: 28
+      typeID: 11969
+    - points: 28
+      typeID: 11971
+    - points: 28
+      typeID: 16233
+    - points: 28
+      typeID: 24696
+    - points: 28
+      typeID: 24698
+    - points: 28
+      typeID: 16227
+    - points: 28
+      typeID: 16229
+    - points: 28
+      typeID: 24700
+    - points: 28
+      typeID: 24702
+    - points: 28
+      typeID: 16231
+    - points: 28
+      typeID: 3756
+    - points: 28
+      typeID: 52252
+    - points: 30
+      typeID: 20125
+    - points: 30
+      typeID: 33155
+    - points: 30
+      typeID: 33153
+    - points: 30
+      typeID: 33151
+    - points: 30
+      typeID: 33157
+    - points: 30
+      typeID: 72812
+    - points: 30
+      typeID: 72872
+    - points: 30
+      typeID: 72869
+    - points: 31
+      typeID: 29986
+    - points: 31
+      typeID: 29984
+    - points: 31
+      typeID: 29988
+    - points: 32
+      typeID: 11987
+    - points: 32
+      typeID: 11985
+    - points: 32
+      typeID: 11989
+    - points: 32
+      typeID: 11978
+    - points: 32
+      typeID: 29990
+    - points: 32
+      typeID: 72811
+    - points: 32
+      typeID: 74141
+    - points: 33
+      typeID: 78414
+    - points: 34
+      typeID: 49713
+    - points: 34
+      typeID: 49711
+    - points: 35
+      typeID: 78369
+    - points: 36
+      typeID: 22474
+    - points: 36
+      typeID: 22448
+    - points: 36
+      typeID: 22446
+    - points: 36
+      typeID: 22470
+    - points: 36
+      typeID: 22466
+    - points: 36
+      typeID: 22442
+    - points: 36
+      typeID: 22468
+    - points: 36
+      typeID: 22444
+    - points: 36
+      typeID: 78366
+    - points: 37
+      typeID: 54733
+    - points: 37
+      typeID: 60765
+    - points: 39
+      typeID: 24692
+    - points: 39
+      typeID: 642
+    - points: 39
+      typeID: 47466
+    - points: 39
+      typeID: 643
+    - points: 39
+      typeID: 640
+    - points: 39
+      typeID: 638
+    - points: 39
+      typeID: 24688
+    - points: 39
+      typeID: 24690
+    - points: 39
+      typeID: 641
+    - points: 39
+      typeID: 645
+    - points: 39
+      typeID: 639
+    - points: 39
+      typeID: 644
+    - points: 39
+      typeID: 24694
+    - points: 42
+      typeID: 17726
+    - points: 42
+      typeID: 17636
+    - points: 42
+      typeID: 17728
+    - points: 42
+      typeID: 17732
+    - points: 43
+      typeID: 22428
+    - points: 43
+      typeID: 22430
+    - points: 43
+      typeID: 22440
+    - points: 44
+      typeID: 32305
+    - points: 45
+      typeID: 32309
+    - points: 45
+      typeID: 32307
+    - points: 45
+      typeID: 32311
+    - points: 47
+      typeID: 74316
+    - points: 47
+      typeID: 17738
+    - points: 48
+      typeID: 28659
+    - points: 48
+      typeID: 28710
+    - points: 48
+      typeID: 28661
+    - points: 48
+      typeID: 28665
+    - points: 48
+      typeID: 77726
+    - points: 50
+      typeID: 22436
+    - points: 50
+      typeID: 17740
+    - points: 50
+      typeID: 60764
+    - points: 51
+      typeID: 17736
+    - points: 52
+      typeID: 17918
+    - points: 53
+      typeID: 17920
+    - points: 54
+      typeID: 33820
+    - points: 54
+      typeID: 47271
+  ruleSetID: at_xx
+  ruleSetName: Alliance Tournament XX
 - banned:
     groups: []
     types:

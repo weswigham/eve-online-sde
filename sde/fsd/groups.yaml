@@ -13435,14 +13435,14 @@
   categoryID: 40
   fittableNonSingleton: false
   name:
-    de: Infrastrukturzentrum
+    de: SOUVERÄNITÄTSHUB
     en: Sovereignty Hub
-    es: Centro de infraestructuras
-    fr: Centre d'infrastructure
-    ja: 領域管理用拠点
-    ko: 인프라 허브
-    ru: Центр управления планетной системой
-    zh: 基础设施中心
+    es: Centro de soberanía
+    fr: Pôle de souveraineté
+    ja: 領有権ハブ
+    ko: 소버린티 허브
+    ru: Штаб владений
+    zh: 主权中心
   published: true
   useBasePrice: true
 1013:
@@ -13467,14 +13467,14 @@
   categoryID: 39
   fittableNonSingleton: false
   name:
-    de: Strategische Upgrades
+    de: Infrastrukturzentrum Strategische Upgrades
     en: Infrastructure Hub Strategic Upgrades
-    es: Mejoras estratégicas
-    fr: Améliorations stratégiques
-    ja: 戦略強化
-    ko: 전략 업그레이드
-    ru: Стратегические расширения
-    zh: 战略升级
+    es: Mejoras estratégicas de centro de infraestructuras
+    fr: Améliorations stratégiques du centre d'infrastructure
+    ja: インフラストラクチャハブの戦略強化
+    ko: 인프라 허브 전략 업그레이드
+    ru: Стратегические улучшения центра инфраструктуры
+    zh: 基础设施中心战略升级件
   published: true
   useBasePrice: true
 1019:
@@ -13500,14 +13500,14 @@
   categoryID: 39
   fittableNonSingleton: false
   name:
-    de: Industrielle Upgrades
+    de: Infrastrukturzentrum Industrielle Upgrades
     en: Infrastructure Hub Industrial Upgrades
-    es: Mejoras industriales
-    fr: Améliorations industrielles
-    ja: 工業力強化
-    ko: 산업 업그레이드
-    ru: Промышленные расширения
-    zh: 工业升级
+    es: Mejoras industriales de centro de infraestructuras
+    fr: Améliorations industrielles du centre d'infrastructure
+    ja: インフラストラクチャハブの工業力強化
+    ko: 인프라 허브 산업 업그레이드
+    ru: Промышленные улучшения центра инфраструктуры
+    zh: 基础设施中心工业升级件
   published: true
   useBasePrice: true
 1021:
@@ -13516,14 +13516,14 @@
   categoryID: 39
   fittableNonSingleton: false
   name:
-    de: Militärische Upgrades
+    de: Infrastrukturzentrum Militärupgrades
     en: Infrastructure Hub Military Upgrades
-    es: Mejoras militares
-    fr: Améliorations militaires
-    ja: 軍事力強化
-    ko: 군사 업그레이드
-    ru: Военные расширения
-    zh: 军事升级
+    es: Mejoras militares de centro de infraestructuras
+    fr: Améliorations militaires du centre d'infrastructure
+    ja: インフラストラクチャハブの軍事力強化
+    ko: 인프라 허브 군사 업그레이드
+    ru: Военные улучшения центра инфраструктуры
+    zh: 基础设施中心军事升级件
   published: true
   useBasePrice: true
 1022:
@@ -21548,14 +21548,14 @@
   categoryID: 65
   fittableNonSingleton: false
   name:
-    de: ♦ Einsatzbasis
+    de: ♦ Stützpunkt
     en: ♦ Stronghold
-    es: ♦ Base de operaciones de avanzada
-    fr: ♦ Base d'opérations avancée
-    ja: ♦ 前哨基地
-    ko: ♦ 전방 작전기지
-    ru: ♦ Передовая база
-    zh: ♦ 前线作战基地
+    es: ♦ Bastión
+    fr: ♦ Forteresse
+    ja: ♦ 要塞
+    ko: ♦ 요새
+    ru: ♦ Крепость
+    zh: ♦要塞
   published: false
   useBasePrice: false
 1925:
@@ -24083,6 +24083,7 @@
     ja: モードゥニウム
     ko: 모르두늄
     ru: Mordunium
+    zh: 摩多石
   published: true
   useBasePrice: false
 4514:
@@ -24099,6 +24100,7 @@
     ja: イティリウム
     ko: 이티륨
     ru: Ютирий
+    zh: 钇岩
   published: true
   useBasePrice: false
 4515:
@@ -24115,6 +24117,7 @@
     ja: エイフィリウム
     ko: 에이피륨
     ru: Эйфирий
+    zh: 艾弗石
   published: true
   useBasePrice: false
 4516:
@@ -24131,6 +24134,7 @@
     ja: ドゥシニウム
     ko: 두시늄
     ru: Дачиний
+    zh: 杜希石
   published: true
   useBasePrice: false
 4547:
@@ -24139,7 +24143,14 @@
   categoryID: 2
   fittableNonSingleton: false
   name:
+    de: Interstellarer Schiffswerfer Signalfeuer
     en: Interstellar Shipcaster Beacon
+    es: Baliza de lanzador interestelar
+    fr: Balise de lance-vaisseaux interstellaire
+    ja: 惑星間艦艇キャスターのビーコン
+    ko: 성간 함선전송기 비컨
+    ru: Маяк межзвёздного кораблепускателя
+    zh: 星际舰船弹射台信标
   published: false
   useBasePrice: false
 4548:
@@ -24164,7 +24175,14 @@
   categoryID: 2
   fittableNonSingleton: false
   name:
+    de: Interstellarer Schiffswerfer
     en: Interstellar Shipcaster
+    es: Lanzador interestelar
+    fr: Lance-vaisseaux interstellaires
+    ja: 惑星間艦艇キャスター
+    ko: 성간 함선전송기
+    ru: Межзвёздный кораблепускатель
+    zh: 星际舰船弹射台
   published: false
   useBasePrice: false
 4568:
@@ -24381,7 +24399,14 @@
   categoryID: 66
   fittableNonSingleton: false
   name:
+    de: VEB-Dienste
     en: FOB services
+    es: Servicios de BOA
+    fr: Services de BOA
+    ja: 前哨基地サービス
+    ko: 전방 작전기지 서비스
+    ru: Службы передовой базы
+    zh: FOB服务
   published: false
   useBasePrice: false
 4636:
@@ -24406,7 +24431,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständische Piraten
     en: Insurgency Roaming Pirates
+    es: Piratas errantes de insurgencia
+    fr: Patrouilles de pirates d'insurrection
+    ja: 反乱宙域の徘徊海賊
+    ko: 배회하는 해적 반군
+    ru: Патруль пиратов-интервентов
+    zh: 游荡的叛乱海盗
   published: false
   useBasePrice: false
 4638:
@@ -24415,7 +24447,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständische Enforcer
     en: Insurgency Roaming Enforcers
+    es: Ejecutores errantes de insurgencia
+    fr: Patrouilles d'exécuteurs d'insurrection
+    ja: 反乱宙域の巡回エンフォーサー
+    ko: 배회하는 반군 집행관
+    ru: Патруль бойцов интервенции
+    zh: 游荡的叛乱执法者
   published: false
   useBasePrice: false
 4644:
@@ -24424,7 +24463,14 @@
   categoryID: 65
   fittableNonSingleton: false
   name:
+    de: Piraten Vorgelagerte Einsatzbasis
     en: Pirate Forward Operating Base
+    es: Base de operaciones de avanzada pirata
+    fr: Base d'opérations avancée pirate
+    ja: 海賊の前哨基地
+    ko: 해적 전방 작전기지
+    ru: Пиратская передовая база
+    zh: 海盗前线作战基地
   published: false
   useBasePrice: false
 4647:
@@ -24433,7 +24479,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständische Piratenfregatte
     en: Insurgency Pirate Frigate
+    es: Fragata pirata de insurgencia
+    fr: Frégate d'insurrection pirate
+    ja: 反乱宙域の海賊フリゲート
+    ko: 해적 반군 프리깃
+    ru: Фрегат пирата-интервента
+    zh: 海盗叛乱护卫舰
   published: true
   useBasePrice: false
 4648:
@@ -24442,7 +24495,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Piratenzerstörer
     en: Insurgency Pirate Destroyer
+    es: Destructor pirata de insurgencia
+    fr: Destroyer d'insurrection pirate
+    ja: 反乱宙域の海賊駆逐艦
+    ko: 해적 반군 디스트로이어
+    ru: Эсминец пирата-интервента
+    zh: 海盗叛乱驱逐舰
   published: true
   useBasePrice: false
 4649:
@@ -24451,7 +24511,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Piratenkreuzer
     en: Insurgency Pirate Cruiser
+    es: Crucero pirata de insurgencia
+    fr: Croiseur d'insurrection pirate
+    ja: 反乱宙域の海賊巡洋艦
+    ko: 해적 반군 크루저
+    ru: Крейсер пирата-интервента
+    zh: 海盗叛乱巡洋舰
   published: true
   useBasePrice: false
 4650:
@@ -24460,7 +24527,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Piratenschlachtkreuzer
     en: Insurgency Pirate Battlecruiser
+    es: Crucero de combate pirata de insurgencia
+    fr: Croiseur cuirassé d'insurrection pirate
+    ja: 反乱宙域の海賊巡洋戦艦
+    ko: 해적 반군 배틀크루저
+    ru: Линейный крейсер пирата-интервента
+    zh: 海盗叛乱战列巡洋舰
   published: true
   useBasePrice: false
 4651:
@@ -24469,7 +24543,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständisches Piratenschlachtschiff
     en: Insurgency Pirate Battleship
+    es: Acorazado pirata de insurgencia
+    fr: Cuirassé pirate d'insurrection
+    ja: 反乱宙域の海賊戦艦
+    ko: 해적 반군 배틀쉽
+    ru: Линкор пирата-интервента
+    zh: 海盗叛乱战列舰
   published: true
   useBasePrice: false
 4652:
@@ -24478,7 +24559,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständische Mordu-Fregatte
     en: Insurgency Mordu Frigate
+    es: Fragata de Mordu de insurgencia
+    fr: Frégate d'insurrection mordu
+    ja: 反乱宙域のモードゥフリゲート
+    ko: 모르두 반군 프리깃
+    ru: Фрегат бойца интервенции из Морду
+    zh: 莫德团叛乱护卫舰
   published: true
   useBasePrice: false
 4653:
@@ -24487,7 +24575,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Mordu-Zerstörer
     en: Insurgency Mordu Destroyer
+    es: Destructor de Mordu de insurgencia
+    fr: Destroyer d'insurrection mordu
+    ja: 反乱宙域のモードゥ駆逐艦
+    ko: 모르두 반군 디스트로이어
+    ru: Эсминец бойца интервенции из Морду
+    zh: 莫德团叛乱驱逐舰
   published: true
   useBasePrice: false
 4654:
@@ -24496,7 +24591,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Mordu-Kreuzer
     en: Insurgency Mordu Cruiser
+    es: Crucero de Mordu de insurgencia
+    fr: Croiseur d'insurrection mordu
+    ja: 反乱宙域のモードゥ巡洋艦
+    ko: 모르두 반군 크루저
+    ru: Крейсер бойца интервенции из Морду
+    zh: 莫德团叛乱巡洋舰
   published: true
   useBasePrice: false
 4655:
@@ -24505,7 +24607,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständischer Mordu-Schlachtkreuzer
     en: Insurgency Mordu Battlecruiser
+    es: Crucero de combate de Mordu de insurgencia
+    fr: Croiseur cuirassé d'insurrection mordu
+    ja: 反乱宙域のモードゥ巡洋戦艦
+    ko: 모르두 반군 배틀크루저
+    ru: Линейный крейсер бойца интервенции из Морду
+    zh: 莫德团叛乱战列巡洋舰
   published: true
   useBasePrice: false
 4656:
@@ -24514,7 +24623,14 @@
   categoryID: 11
   fittableNonSingleton: false
   name:
+    de: Aufständisches Mordu-Schlachtschiff
     en: Insurgency Mordu Battleship
+    es: Acorazado de Mordu de insurgencia
+    fr: Cuirassé d'insurrection mordu
+    ja: 反乱宙域のモードゥ戦艦
+    ko: 모르두 반군 배틀쉽
+    ru: Линкор бойца интервенции из Морду
+    zh: 莫德团叛乱战列舰
   published: true
   useBasePrice: false
 4673:
@@ -24667,7 +24783,14 @@
   categoryID: 2143
   fittableNonSingleton: false
   name:
+    de: Kolonialreagenzien
     en: Colony Reagents
+    es: Reactivos de colonia
+    fr: Réactifs de colonie
+    ja: コロニーの反応試剤
+    ko: 콜로니 촉매
+    ru: Реагенты колоний
+    zh: 殖民地试剂
   published: true
   useBasePrice: true
 4734:
@@ -24692,7 +24815,14 @@
   categoryID: 46
   fittableNonSingleton: false
   name:
+    de: Skyhook
     en: Skyhook
+    es: Gancho
+    fr: Grappin orbital
+    ja: スカイフック
+    ko: 궤도 스카이훅
+    ru: Подъёмник
+    zh: 天钩
   published: true
   useBasePrice: false
 4737:
@@ -24738,6 +24868,8 @@
     es: Perforación lunar Upwell
     fr: Foreuse lunaire Upwell
     ja: アップウェル衛星ドリル
+    ko: 업웰 위성 드릴
+    ru: Спутниковый бур от «Апвелл»
     zh: 昇威卫星钻探
   published: true
   useBasePrice: false
@@ -24753,6 +24885,7 @@
     fr: Silo de réactif du grappin orbital
     ja: スカイフック反応試剤サイロ
     ko: 스카이훅 촉매 사일로
+    ru: Хранилище реагентов подъёмника
     zh: 天钩试剂储藏库
   published: false
   useBasePrice: false
@@ -24769,6 +24902,7 @@
     fr: Kylixium
     ja: キリクシウム
     ko: 카일릭슘
+    ru: Kylixium
     zh: 克里石
   published: true
   useBasePrice: false
@@ -24785,6 +24919,7 @@
     fr: Nocxite
     ja: ノキサイト
     ko: 녹사이트
+    ru: Нокцит
     zh: 诺克希特
   published: true
   useBasePrice: false
@@ -24801,6 +24936,7 @@
     fr: Ueganite
     ja: ユイグナイト
     ko: 유가나이트
+    ru: Уэганит
     zh: 尤加石
   published: true
   useBasePrice: false
@@ -24817,6 +24953,7 @@
     fr: Hezorime
     ja: ヘゾライム
     ko: 헤조라임
+    ru: Hezorime
     zh: 赫佐利姆
   published: true
   useBasePrice: false
@@ -24833,6 +24970,7 @@
     fr: Griemeer
     ja: グリーミーア
     ko: 그리미어
+    ru: Griemeer
     zh: 格里米尔
   published: true
   useBasePrice: false
@@ -24848,6 +24986,7 @@
     fr: Améliorations de détection d'anomalie du pôle de souveraineté
     ja: 領有権ハブの特異点探知アップグレード
     ko: 소버린티 허브 어노말리 탐지 업그레이드
+    ru: Улучшения поиска аномалий для штаба владений
     zh: 主权中心异常空间探测升级件
   published: true
   useBasePrice: true
@@ -24863,6 +25002,7 @@
     fr: Modules de mobilité capitaux
     ja: キャピタル機動性モジュール
     ko: 캐피탈 기동성 모듈
+    ru: Ускоряющие модули КБТ
     zh: 旗舰级机动装备
   published: true
   useBasePrice: false
@@ -24894,6 +25034,7 @@
     fr: Amélioration d'infrastructure de service du pôle de souveraineté
     ja: 領有権ハブのサービスインフラアップグレード
     ko: 소버린티 허브 서비스 인프라 업그레이드
+    ru: Улучшение служебной инфраструктуры штаба владений
     zh: 主权中心服务基础设施升级件
   published: true
   useBasePrice: true
@@ -24909,6 +25050,7 @@
     fr: Filaments de champ de bataille abyssal expirés
     ja: アビスの戦場フィラメント（期限切れ）
     ko: 만료된 어비설 전장 필라멘트
+    ru: Просроченные нити боевых зон Бездны
     zh: 过期的深渊战场纤维
   published: true
   useBasePrice: true
@@ -24918,7 +25060,14 @@
   categoryID: 87
   fittableNonSingleton: false
   name:
+    de: Struktur Leichte Jäger
     en: Structure Light Fighter
+    es: Caza ligero de estructura
+    fr: Chasseur léger de structure
+    ja: ストラクチャの軽戦闘機
+    ko: 구조물 라이트 파이터
+    ru: Лёгкий истребитель сооружения
+    zh: 建筑轻型铁骑舰载机
   published: true
   useBasePrice: false
 4778:
@@ -24927,7 +25076,14 @@
   categoryID: 87
   fittableNonSingleton: false
   name:
+    de: Struktur Unterstützungsjäger
     en: Structure Support Fighter
+    es: Caza de apoyo de estructuras
+    fr: Chasseur de secours de structure
+    ja: ストラクチャのサポート戦闘機
+    ko: 구조물 서포트 파이터
+    ru: Истребитель поддержки сооружения
+    zh: 建筑后勤铁骑舰载机
   published: true
   useBasePrice: false
 4779:
@@ -24936,7 +25092,14 @@
   categoryID: 87
   fittableNonSingleton: false
   name:
+    de: Struktur Schwere Jäger
     en: Structure Heavy Fighter
+    es: Caza pesado de estructura
+    fr: Chasseur lourd de structure
+    ja: ストラクチャの重戦闘機
+    ko: 구조물 헤비 파이터
+    ru: Тяжёлый истребитель сооружения
+    zh: 建筑重型铁骑舰载机
   published: true
   useBasePrice: false
 4795:
@@ -25099,6 +25262,15 @@
     zh: 小行星天蛇军官护卫舰
   published: false
   useBasePrice: false
+4821:
+  anchorable: false
+  anchored: false
+  categoryID: 17
+  fittableNonSingleton: false
+  name:
+    en: Atavum
+  published: true
+  useBasePrice: true
 350858:
   anchorable: false
   anchored: false
