@@ -35633,6 +35633,7 @@
   dataType: 5
   defaultValue: 0.0
   description: ''
+  displayWhenZero: false
   highIsGood: true
   maxAttributeID: 2623
   name: inverseCappedSecStatus
@@ -42228,5 +42229,158 @@
   displayWhenZero: false
   highIsGood: true
   name: ' upwellHaulersMediumMissileFittingBonus'
+  published: false
+  stackable: true
+5727:
+  attributeID: 5727
+  categoryID: 7
+  dataType: 5
+  defaultValue: 0.0
+  description: Alliance Tournament XX Frigate Bonus
+  displayWhenZero: false
+  highIsGood: true
+  maxAttributeID: 5732
+  name: ATFrigDmgBonus
+  published: false
+  stackable: true
+5728:
+  attributeID: 5728
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATInverseSecStatus
+  published: false
+  stackable: true
+5729:
+  attributeID: 5729
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ShipBonusAllShieldResistAT1
+  published: false
+  stackable: true
+5731:
+  attributeID: 5731
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  maxAttributeID: 5732
+  name: ATNegSecStatusLocalShieldArmorBonus
+  published: false
+  stackable: true
+5732:
+  attributeID: 5732
+  dataType: 5
+  defaultValue: 100.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ConstantHundred
+  published: false
+  stackable: true
+5733:
+  attributeID: 5733
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: shipBonusATprobDuration
+  published: false
+  stackable: true
+5734:
+  attributeID: 5734
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  maxAttributeID: 5732
+  name: ATBurstJammerStrengthBonus
+  published: false
+  stackable: true
+5739:
+  attributeID: 5739
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATfrigHTdmgBonus
+  published: false
+  stackable: true
+5740:
+  attributeID: 5740
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATfrigSMdmgBonus
+  published: false
+  stackable: true
+5741:
+  attributeID: 5741
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATfrigPTdmgBonus
+  published: false
+  stackable: true
+5742:
+  attributeID: 5742
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATfrigETdmgBonus
+  published: false
+  stackable: true
+  unitID: 105
+5743:
+  attributeID: 5743
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  maxAttributeID: 5732
+  name: ATcruiserStasisWebifierBonus
+  published: false
+  stackable: true
+5744:
+  attributeID: 5744
+  categoryID: 9
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  maxAttributeID: 5732
+  name: ATcruiserScramblerDisruptorBonus
+  published: false
+  stackable: true
+5746:
+  attributeID: 5746
+  categoryID: 37
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATfrigDroneBonus
+  published: false
+  stackable: true
+5748:
+  attributeID: 5748
+  categoryID: 37
+  dataType: 5
+  defaultValue: 0.0
+  displayWhenZero: false
+  highIsGood: true
+  name: ATcruiserDroneBonus
   published: false
   stackable: true
