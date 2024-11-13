@@ -1324,7 +1324,7 @@
     ru: Увеличивают скорость подзарядки щита.
     zh: 增加护盾的回充速度。
   hasTypes: true
-  iconID: 83
+  iconID: 26451
   nameID:
     de: Schildladegeräte
     en: Shield Rechargers
@@ -8435,7 +8435,7 @@
     ru: Системы, разработанные для повышения эффективности огнестрельного оружия.
     zh: 这个系统专门被设计用来增强射弹武器的效能。
   hasTypes: true
-  iconID: 1046
+  iconID: 26452
   nameID:
     de: Kreiselstabilisatoren
     en: Gyrostabilizers
@@ -8457,7 +8457,7 @@
     ru: Системы, разработанные для повышения эффективности лазерного оружия.
     zh: 这个系统专门被设计用来增强激光武器的效能。
   hasTypes: true
-  iconID: 1046
+  iconID: 26453
   nameID:
     de: Kühlkörper
     en: Heat Sinks
@@ -8479,7 +8479,7 @@
     ru: Системы, разработанные для повышения эффективности орудий гибридного действия.
     zh: 用于提高混合武器的效能。
   hasTypes: true
-  iconID: 1046
+  iconID: 26454
   nameID:
     de: Magnetfeldstabilisatoren
     en: Magnetic Field Stabilizers
@@ -8735,7 +8735,7 @@
     ru: Увеличивают скорость подзарядки конденсатора.
     zh: 增加电容器的回充速度。
   hasTypes: true
-  iconID: 90
+  iconID: 26457
   nameID:
     de: Energiespeicher-Ladegeräte
     en: Capacitor Rechargers
@@ -8760,7 +8760,7 @@
     ru: Увеличивают скорость подзарядки конденсатора, понижая его максимальную емкость.
     zh: 以损失电容器最大电容量来增加电容器回充速度。
   hasTypes: true
-  iconID: 90
+  iconID: 26456
   nameID:
     de: Energiespeicher-Flussspulen
     en: Capacitor Flux Coils
@@ -8785,7 +8785,7 @@
       накачки щита.
     zh: 以损失护盾回充增量能力来加大电容器回充速度。
   hasTypes: true
-  iconID: 90
+  iconID: 26455
   nameID:
     de: Energiespeicher-Stromrelais
     en: Capacitor Power Relays
@@ -9180,7 +9180,7 @@
     ru: Увеличивают скорость перезарядки щита, понижая его максимальную мощность.
     zh: 护盾通量线圈能提升护盾回充速度，但是会减少护盾的最大强度。
   hasTypes: true
-  iconID: 83
+  iconID: 26449
   nameID:
     de: Schildflussspulen
     en: Shield Flux Coils
@@ -9205,7 +9205,7 @@
       перезарядки.
     zh: 将舰船驱动核心中的能源输送给护盾，增加护盾的回充速度。
   hasTypes: true
-  iconID: 83
+  iconID: 26450
   nameID:
     de: Schildstromrelais
     en: Shield Power Relays
@@ -33139,7 +33139,7 @@
   parentGroupID: 2207
 2220:
   hasTypes: true
-  iconID: 90
+  iconID: 26455
   nameID:
     de: Energiespeicher-Stromrelais
     en: Capacitor Power Relays
@@ -37166,7 +37166,7 @@
     ru: Увеличивает урон и скорострельность энтропических дезинтеграторов
     zh: 提高熵能分解者的伤害和射速
   hasTypes: true
-  iconID: 1046
+  iconID: 26521
   nameID:
     de: Entropische Strahlungskühler
     en: Entropic Radiation Sinks
@@ -39511,19 +39511,6 @@
     ru: Данные восставших дронов
     zh: 自由无人机数据
   parentGroupID: 19
-2800:
-  hasTypes: true
-  iconID: 24905
-  nameID:
-    de: Drohnen-Mutaplasmide
-    en: Drone Mutaplasmids
-    es: Mutaplásmidos para drones
-    fr: Mutaplasmides de drones
-    ja: ドローン変異プラスミド
-    ko: 드론 뮤타플라즈미드
-    ru: Мутаплазмиды дронов
-    zh: 无人机突变质体
-  parentGroupID: 2436
 2801:
   hasTypes: true
   iconID: 10065
@@ -41182,6 +41169,32 @@
     ru: Апвелл
     zh: 昇威
   parentGroupID: 2087
+3680:
+  hasTypes: true
+  iconID: 16
+  nameID:
+    de: Söldnerverstecke
+    en: Mercenary Dens
+    es: Guaridas de mercenarios
+    fr: Repaires de mercenaires
+    ja: 傭兵の隠れ家
+    ko: 용병 소굴
+    ru: Логова наёмников
+    zh: 雇佣兵巢穴
+  parentGroupID: 404
+3681:
+  hasTypes: true
+  iconID: 2703
+  nameID:
+    de: Söldnerverstecke
+    en: Mercenary Dens
+    es: Guaridas de mercenarios
+    fr: Repaires de mercenaires
+    ja: 傭兵の隠れ家
+    ko: 용병 소굴
+    ru: Логова наёмников
+    zh: 雇佣兵巢穴
+  parentGroupID: 406
 3696:
   descriptionID:
     de: Ein Infomorph, ein digitalisiertes menschliches Bewusstsein, das im Status
@@ -41215,3 +41228,135 @@
   nameID:
     en: Atavum
   parentGroupID: 533
+3719:
+  hasTypes: false
+  iconID: 24905
+  nameID:
+    de: Drohnen-Mutaplasmide
+    en: Drone Mutaplasmids
+    es: Mutaplásmidos para drones
+    fr: Mutaplasmides pour drone
+    ja: ドローン変異プラスミド
+    ko: 드론 뮤타플라즈미드
+    ru: Мутаплазмиды дронов
+    zh: 无人机突变质体
+  parentGroupID: 2436
+3720:
+  hasTypes: true
+  iconID: 24905
+  nameID:
+    de: Leichte Drohnen-Mutaplasmide
+    en: Light Drone Mutaplasmids
+    es: Mutaplásmidos para drones ligeros
+    fr: Mutaplasmides pour drone léger
+    ja: ライトドローン用変異プラスミド
+    ko: 라이트 드론 뮤타플라즈미드
+    ru: Мутаплазмиды для лёгких дронов
+    zh: 轻型无人机突变质体
+  parentGroupID: 3719
+3721:
+  hasTypes: true
+  iconID: 24905
+  nameID:
+    de: Mittelgroße Drohnen-Mutaplasmide
+    en: Medium Drone Mutaplasmids
+    es: Mutaplásmidos para drones medianos
+    fr: Mutaplasmides pour drone intermédiaire
+    ja: ミディアムドローン用変異プラスミド
+    ko: 미디움 드론 뮤타플라즈미드
+    ru: Мутаплазмиды для средних дронов
+    zh: 中型无人机突变质体
+  parentGroupID: 3719
+3722:
+  hasTypes: true
+  iconID: 24905
+  nameID:
+    de: Schwere Drohnen-Mutaplasmide
+    en: Heavy Drone Mutaplasmids
+    es: Mutaplásmidos para drones pesados
+    fr: Mutaplasmides pour drone lourd
+    ja: ヘビードローン用変異プラスミド
+    ko: 헤비 드론 뮤타플라즈미드
+    ru: Мутаплазмиды для тяжёлых дронов
+    zh: 重型无人机突变质体
+  parentGroupID: 3719
+3723:
+  hasTypes: true
+  iconID: 24905
+  nameID:
+    de: Wächterdrohnen-Mutaplasmide
+    en: Sentry Drone Mutaplasmids
+    es: Mutaplásmidos para drones centinelas
+    fr: Mutaplasmides pour drone sentinelle
+    ja: セントリードローン用変異プラスミド
+    ko: 센트리 드론 뮤타플라즈미드
+    ru: Мутаплазмиды для охранных дронов
+    zh: 岗哨无人机突变质体
+  parentGroupID: 3719
+3724:
+  hasTypes: true
+  iconID: 24905
+  nameID:
+    de: Drohnenmodul-Mutaplasmide
+    en: Drone Module Mutaplasmids
+    es: Mutaplásmidos para módulos de drones
+    fr: Mutaplasmides pour modules de drones
+    ja: ドローンモジュール用変異プラスミド
+    ko: 드론 모듈 뮤타플라즈미드
+    ru: Мутаплазмиды для модулей дронов
+    zh: 无人机装备突变质体
+  parentGroupID: 3719
+3725:
+  descriptionID:
+    de: 'Entertruppenwaffen, die die Verteidigung eines Schiffes durchdringen und
+      ein Sonderkommando in das Zielschiff schleusen sollen. '
+    en: 'Troop boarding weapons designed to penetrate a ship''s defenses and insert
+      a strike team inside the target vessel. '
+    es: 'Armas de abordaje de tropas diseñadas para penetrar las defensas de una nave
+      e introducir un equipo de ataque dentro de la nave objetivo. '
+    fr: 'Armes d''abordage de troupes conçues pour pénétrer les défenses d''un vaisseau
+      et déployer une équipe d''assaut à l''intérieur de la cible. '
+    ja: '標的艦の防衛設備を貫通し、ストライクチームを送り込むための搭乗式兵器。 '
+    ko: '함선의 방어기제를 무시하고 함선 내부에 타격대를 침투시키는 무기입니다. '
+    ru: 'Это абордажное орудие пробивает защиту корабля-цели и внедряет в него ударную
+      группу. '
+    zh: '突击队登舰武器，旨在突破舰船防御，并将突击部队插入目标舰船内。 '
+  hasTypes: true
+  iconID: 26372
+  nameID:
+    de: Kapselbrecher
+    en: Breacher Pods
+    es: Cápsulas de ataque
+    fr: Capsules de brèche
+    ja: 突入ポッド
+    ko: 침투 포드
+    ru: Внедряющиеся капсулы
+    zh: 分裂者级逃生舱
+  parentGroupID: 11
+3726:
+  descriptionID:
+    de: 'Entertruppenwaffen, die die Verteidigung eines Schiffes durchdringen und
+      ein Sonderkommando in das Zielschiff schleusen sollen. '
+    en: 'Troop boarding weapons designed to penetrate a ship''s defenses and insert
+      a strike team inside the target vessel. '
+    es: 'Armas de abordaje de tropas diseñadas para penetrar las defensas de una nave
+      e introducir un equipo de ataque dentro de la nave objetivo. '
+    fr: 'Armes d''abordage de troupes conçues pour pénétrer les défenses d''un vaisseau
+      et déployer une équipe d''assaut à l''intérieur de la cible. '
+    ja: '標的艦の防衛設備を貫通し、ストライクチームを送り込むための搭乗式兵器。 '
+    ko: '함선의 방어기제를 무시하고 함선 내부에 타격대를 침투시키는 무기입니다. '
+    ru: 'Это абордажное орудие пробивает защиту корабля-цели и внедряет в него ударную
+      группу. '
+    zh: '突击队登舰武器，旨在突破舰船防御，并将突击部队插入目标舰船内。 '
+  hasTypes: true
+  iconID: 26396
+  nameID:
+    de: Kapselbrecher-Werfer
+    en: Breacher Pod Launchers
+    es: Lanzacápsulas de ataque
+    fr: Lanceurs de capsules de brèche
+    ja: 突入ポッドランチャー
+    ko: 침투 포드 런처
+    ru: Пусковая установка внедряющихся капсул
+    zh: 分裂者级逃生舱发射器
+  parentGroupID: 10

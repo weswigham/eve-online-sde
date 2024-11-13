@@ -527,7 +527,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 83
+  iconID: 26451
   name:
     de: Schildauflader
     en: Shield Recharger
@@ -578,7 +578,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 90
+  iconID: 26457
   name:
     de: Energiespeicher-Auflader
     en: Capacitor Recharger
@@ -748,7 +748,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26450
   name:
     de: Schildenergie-Relais
     en: Shield Power Relay
@@ -765,7 +765,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26452
   name:
     de: Kreiselregler
     en: Gyrostabilizer
@@ -1455,7 +1455,7 @@
   anchored: false
   categoryID: 9
   fittableNonSingleton: false
-  iconID: 83
+  iconID: 26451
   name:
     de: Schildauflader-Blueprint
     en: Shield Recharger Blueprint
@@ -1506,7 +1506,7 @@
   anchored: false
   categoryID: 9
   fittableNonSingleton: false
-  iconID: 90
+  iconID: 26457
   name:
     de: Energiespeicherauflader-Blueprint
     en: Capacitor Recharger Blueprint
@@ -2520,7 +2520,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26453
   name:
     de: Kühlkörper
     en: Heat Sink
@@ -2639,7 +2639,7 @@
   anchored: false
   categoryID: 9
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26453
   name:
     de: Kühlkörper-Blueprint
     en: Heat Sink Blueprint
@@ -3319,7 +3319,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26454
   name:
     de: Magnetischer-Feld-Stabilisator
     en: Magnetic Field Stabilizer
@@ -10081,7 +10081,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26455
   name:
     de: Energiespeicher-Stromrelais
     en: Capacitor Power Relay
@@ -10098,7 +10098,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26456
   name:
     de: Energiespeicher-Durchflussmengenspule
     en: Capacitor Flux Coil
@@ -10132,7 +10132,7 @@
   anchored: false
   categoryID: 7
   fittableNonSingleton: false
-  iconID: 0
+  iconID: 26449
   name:
     de: Schild-Durchflussmengenspule
     en: Shield Flux Coil
@@ -22028,6 +22028,7 @@
   anchored: false
   categoryID: 66
   fittableNonSingleton: false
+  iconID: 26455
   name:
     de: 'Struktur: Energiespeicher-Stromrelais'
     en: Structure Capacitor Power Relay
@@ -25262,6 +25263,86 @@
     zh: 小行星天蛇军官护卫舰
   published: false
   useBasePrice: false
+4807:
+  anchorable: false
+  anchored: false
+  categoryID: 7
+  fittableNonSingleton: false
+  name:
+    de: Kapselbrecher-Werfer
+    en: Breacher Pod Launchers
+    es: Lanzacápsulas de ataque
+    fr: Lanceurs de capsules de brèche
+    ja: 突入ポッドランチャー
+    ko: 침투 포드 런처
+    ru: Пусковая установка внедряющихся капсул
+    zh: 分裂者级逃生舱发射器
+  published: true
+  useBasePrice: false
+4808:
+  anchorable: false
+  anchored: false
+  categoryID: 8
+  fittableNonSingleton: true
+  name:
+    de: SCARAB-Kapselbrecher
+    en: SCARAB Breacher Pods
+    es: Lanzacápsulas SCARAB
+    fr: Capsules de brèche SCARAB
+    ja: 突入ポッド「SCARAB」
+    ko: 스캐럽 침투 포드
+    ru: Внедряющиеся капсулы «Скарабей»
+    zh: 圣甲虫分裂者级逃生舱
+  published: true
+  useBasePrice: false
+4810:
+  anchorable: false
+  anchored: false
+  categoryID: 22
+  fittableNonSingleton: false
+  name:
+    de: Mercenary Den
+    en: Mercenary Den
+    es: Guarida de mercenarios
+    fr: Repaire de mercenaires
+    ja: 傭兵の隠れ家
+    ko: 용병 소굴
+    ru: Mercenary Den
+    zh: 雇佣兵巢穴
+  published: true
+  useBasePrice: false
+4811:
+  anchorable: false
+  anchored: false
+  categoryID: 9
+  fittableNonSingleton: false
+  name:
+    de: Mercenary Den Blueprint
+    en: Mercenary Den Blueprint
+    es: Plano de guarida de mercenarios
+    fr: Plan de construction Repaire de mercenaires
+    ja: 傭兵の隠れ家の設計図
+    ko: 용병 소굴 블루프린트
+    ru: Mercenary Den Blueprint
+    zh: 雇佣兵巢穴蓝图
+  published: true
+  useBasePrice: true
+4820:
+  anchorable: false
+  anchored: false
+  categoryID: 9
+  fittableNonSingleton: false
+  name:
+    de: Mutaplasmid-Blaupause
+    en: Mutaplasmid Blueprint
+    es: Plano de mutaplásmido
+    fr: Plan de construction de mutaplasmide
+    ja: 変異プラスミドの設計図
+    ko: 뮤타플라즈미드 블루프린트
+    ru: Чертёж мутаплазмида
+    zh: 突变质体蓝图
+  published: true
+  useBasePrice: true
 4821:
   anchorable: false
   anchored: false

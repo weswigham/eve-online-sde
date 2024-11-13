@@ -79261,7 +79261,7 @@
   isOffensive: false
   isWarpSafe: false
   modifierInfo:
-  - domain: itemID
+  - domain: shipID
     func: ItemModifier
     modifiedAttributeID: 5681
     modifyingAttributeID: 280
@@ -79605,6 +79605,19 @@
   propulsionChance: false
   published: false
   rangeChance: false
+12174:
+  disallowAutoRepeat: false
+  effectCategory: 2
+  effectID: 12174
+  effectName: dotMissileLaunching
+  electronicChance: false
+  guid: effects.MissileDeployment
+  isAssistance: false
+  isOffensive: true
+  isWarpSafe: false
+  propulsionChance: false
+  published: false
+  rangeChance: false
 12176:
   disallowAutoRepeat: false
   effectCategory: 0
@@ -79865,6 +79878,194 @@
   published: false
   rangeAttributeID: 54
   rangeChance: false
+12188:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12188
+  effectName: shipRoleBonusSPTDamage
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 2298
+    operation: 6
+    skillTypeID: 3302
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12189:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12189
+  effectName: shipRoleBonusMPTDamage
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 64
+    modifyingAttributeID: 2298
+    operation: 6
+    skillTypeID: 3305
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12190:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12190
+  effectName: shipRoleBonusRocketDamage
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 117
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 3320
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 116
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 3320
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 114
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 3320
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 118
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 3320
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12191:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12191
+  effectName: shipRoleBonusHAMDamage
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 117
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 25719
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 116
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 25719
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 114
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 25719
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 118
+    modifyingAttributeID: 2299
+    operation: 6
+    skillTypeID: 25719
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12192:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12192
+  effectName: stasisWebifierResistanceBonusMD1
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 2115
+    modifyingAttributeID: 729
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12193:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12193
+  effectName: stasisWebifierResistanceBonusMBC1
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 2115
+    modifyingAttributeID: 748
+    operation: 6
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12194:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12194
+  effectName: shipBonusShieldBoostCD1
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 68
+    modifyingAttributeID: 734
+    operation: 6
+    skillTypeID: 3416
+  propulsionChance: false
+  published: false
+  rangeAttributeID: 54
+  rangeChance: false
+12195:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12195
+  effectName: shipBonusShieldBoostCBC1
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 68
+    modifyingAttributeID: 2043
+    operation: 6
+    skillTypeID: 3416
+  propulsionChance: false
+  published: false
+  rangeAttributeID: 54
+  rangeChance: false
 12199:
   disallowAutoRepeat: false
   effectCategory: 0
@@ -79980,6 +80181,53 @@
   published: false
   rangeAttributeID: 54
   rangeChance: false
+12212:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12212
+  effectName: minmatarCruiserSkillLevelPreMulShipBonusMC3Ship
+  electronicChance: false
+  guid: ''
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: ItemModifier
+    modifiedAttributeID: 5747
+    modifyingAttributeID: 280
+    operation: 0
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12213:
+  descriptionID:
+    de: Automatisch erzeugter Effekt
+    en: Automatically generated effect
+    es: Efecto generado automáticamente.
+    fr: Effet généré automatiquement
+    ja: 自動生成効果
+    ko: 자동 생성 효과
+    ru: Автоматически созданный эффект
+    zh: 自动生成效果
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12213
+  effectName: shipBonusMPTFalloffMC3
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 158
+    modifyingAttributeID: 5747
+    operation: 6
+    skillTypeID: 3305
+  propulsionChance: false
+  published: false
+  rangeChance: false
 12214:
   disallowAutoRepeat: false
   effectCategory: 0
@@ -80014,6 +80262,138 @@
     modifyingAttributeID: 5748
     operation: 6
     skillTypeID: 33699
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12215:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12215
+  effectName: skillDotMaxHPPercentagePerTickBonusSkillLevel
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: itemID
+    func: ItemModifier
+    modifiedAttributeID: 5749
+    modifyingAttributeID: 280
+    operation: 0
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12216:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12216
+  effectName: skillDotMaxDamagePerTickBonusSkillLevel
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: itemID
+    func: ItemModifier
+    modifiedAttributeID: 5750
+    modifyingAttributeID: 280
+    operation: 0
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12217:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12217
+  effectName: skillDotMaxHPPercentagePerTickBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 5737
+    modifyingAttributeID: 5749
+    operation: 6
+    skillTypeID: 86260
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12218:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12218
+  effectName: skillDotMaxDamagePerTickBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 5736
+    modifyingAttributeID: 5750
+    operation: 6
+    skillTypeID: 86260
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12219:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12219
+  effectName: skillDotPodVelocityBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 37
+    modifyingAttributeID: 20
+    operation: 6
+    skillTypeID: 86260
+  propulsionChance: false
+  published: false
+  rangeAttributeID: 54
+  rangeChance: false
+12220:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12220
+  effectName: skillDotLauncherRoFBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: shipID
+    func: LocationRequiredSkillModifier
+    modifiedAttributeID: 51
+    modifyingAttributeID: 293
+    operation: 6
+    skillTypeID: 86260
+  propulsionChance: false
+  published: false
+  rangeChance: false
+12221:
+  disallowAutoRepeat: false
+  effectCategory: 0
+  effectID: 12221
+  effectName: skillDotDurationBonus
+  electronicChance: false
+  isAssistance: false
+  isOffensive: false
+  isWarpSafe: false
+  modifierInfo:
+  - domain: charID
+    func: OwnerRequiredSkillModifier
+    modifiedAttributeID: 5735
+    modifyingAttributeID: 66
+    operation: 6
+    skillTypeID: 86260
   propulsionChance: false
   published: false
   rangeChance: false

@@ -136332,32 +136332,15 @@
 33082:
   activities:
     copying:
-      materials:
-      - quantity: 3
-        typeID: 57486
-      - quantity: 6
-        typeID: 40
-      - quantity: 6
-        typeID: 57478
-      - quantity: 12
-        typeID: 39
-      - quantity: 18
-        typeID: 38
-      - quantity: 300
-        typeID: 37
-      - quantity: 1500
-        typeID: 36
-      - quantity: 3600
-        typeID: 35
-      - quantity: 19200
-        typeID: 34
+      time: 4800
+    manufacturing:
       products:
       - quantity: 1
         typeID: 33081
       skills:
       - level: 1
         typeID: 3380
-      time: 4800
+      time: 6000
     research_material:
       time: 2100
     research_time:
@@ -208030,6 +208013,115 @@
       time: 315
   blueprintTypeID: 84506
   maxProductionLimit: 200
+85180:
+  activities:
+    copying:
+      time: 12000
+    manufacturing:
+      materials:
+      - quantity: 60
+        typeID: 57486
+      - quantity: 120
+        typeID: 57478
+      - quantity: 2400
+        typeID: 40
+      - quantity: 4800
+        typeID: 39
+      - quantity: 12000
+        typeID: 38
+      - quantity: 24000
+        typeID: 37
+      - quantity: 216000
+        typeID: 36
+      - quantity: 1200000
+        typeID: 35
+      - quantity: 3360000
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85086
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 15000
+    research_material:
+      time: 5250
+    research_time:
+      time: 5250
+  blueprintTypeID: 85180
+  maxProductionLimit: 10
+85181:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 12
+        typeID: 57486
+      - quantity: 24
+        typeID: 40
+      - quantity: 24
+        typeID: 57478
+      - quantity: 48
+        typeID: 39
+      - quantity: 72
+        typeID: 38
+      - quantity: 1200
+        typeID: 37
+      - quantity: 6000
+        typeID: 36
+      - quantity: 18000
+        typeID: 35
+      - quantity: 96000
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85087
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 9000
+  blueprintTypeID: 85181
+  maxProductionLimit: 1
+85232:
+  activities:
+    copying:
+      time: 19200
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 2867
+      - quantity: 1
+        typeID: 2872
+      - quantity: 2
+        typeID: 2871
+      - quantity: 3
+        typeID: 2870
+      - quantity: 200
+        typeID: 40
+      - quantity: 1000
+        typeID: 39
+      - quantity: 2000
+        typeID: 37
+      - quantity: 2000
+        typeID: 38
+      - quantity: 25000
+        typeID: 36
+      - quantity: 90000
+        typeID: 35
+      - quantity: 100000
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85230
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 24000
+    research_material:
+      time: 8400
+    research_time:
+      time: 8400
+  blueprintTypeID: 85232
+  maxProductionLimit: 10
 85749:
   activities:
     copying:
@@ -208084,4 +208176,3383 @@
     research_time:
       time: 1640
   blueprintTypeID: 85751
+  maxProductionLimit: 1
+85851:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47809
+      - quantity: 25
+        typeID: 85390
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85438
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85851
+  maxProductionLimit: 10
+85852:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47811
+      - quantity: 50
+        typeID: 85390
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85440
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85852
+  maxProductionLimit: 10
+85853:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47810
+      - quantity: 100
+        typeID: 85390
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85439
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85853
+  maxProductionLimit: 10
+85854:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47843
+      - quantity: 240
+        typeID: 85390
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85451
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85854
+  maxProductionLimit: 10
+85855:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47776
+      - quantity: 250
+        typeID: 85390
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85458
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85855
+  maxProductionLimit: 10
+85856:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47775
+      - quantity: 500
+        typeID: 85390
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85457
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85856
+  maxProductionLimit: 10
+85857:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47845
+      - quantity: 500
+        typeID: 85390
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85459
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85857
+  maxProductionLimit: 10
+85858:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56281
+      - quantity: 250
+        typeID: 85390
+      - quantity: 250
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85460
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85858
+  maxProductionLimit: 10
+85859:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56283
+      - quantity: 500
+        typeID: 85390
+      - quantity: 500
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85462
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85859
+  maxProductionLimit: 10
+85860:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56282
+      - quantity: 1000
+        typeID: 85390
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85461
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85860
+  maxProductionLimit: 10
+85861:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56284
+      - quantity: 1000
+        typeID: 85390
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85463
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85861
+  maxProductionLimit: 10
+85862:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47766
+      - quantity: 25
+        typeID: 85390
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85441
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85862
+  maxProductionLimit: 10
+85863:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47768
+      - quantity: 50
+        typeID: 85390
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85443
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85863
+  maxProductionLimit: 10
+85864:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47767
+      - quantity: 100
+        typeID: 85390
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85442
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85864
+  maxProductionLimit: 10
+85865:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47841
+      - quantity: 100
+        typeID: 85390
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85445
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85865
+  maxProductionLimit: 10
+85866:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47813
+      - quantity: 60
+        typeID: 85390
+      - quantity: 60
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85448
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85866
+  maxProductionLimit: 10
+85867:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47815
+      - quantity: 120
+        typeID: 85390
+      - quantity: 120
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85447
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85867
+  maxProductionLimit: 10
+85868:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47814
+      - quantity: 240
+        typeID: 85390
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85446
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85868
+  maxProductionLimit: 10
+85869:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47770
+      - quantity: 60
+        typeID: 85390
+      - quantity: 60
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85449
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85869
+  maxProductionLimit: 10
+85870:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47772
+      - quantity: 120
+        typeID: 85390
+      - quantity: 120
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85450
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85870
+  maxProductionLimit: 10
+85871:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47771
+      - quantity: 240
+        typeID: 85390
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85452
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85871
+  maxProductionLimit: 10
+85872:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47816
+      - quantity: 125
+        typeID: 85390
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85453
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85872
+  maxProductionLimit: 10
+85873:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47819
+      - quantity: 250
+        typeID: 85390
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85456
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85873
+  maxProductionLimit: 10
+85874:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47818
+      - quantity: 500
+        typeID: 85390
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85454
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85874
+  maxProductionLimit: 10
+85875:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47774
+      - quantity: 125
+        typeID: 85390
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85455
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85875
+  maxProductionLimit: 10
+85940:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47746
+      - quantity: 25
+        typeID: 85391
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85464
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85940
+  maxProductionLimit: 10
+85941:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47748
+      - quantity: 50
+        typeID: 85391
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85466
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85941
+  maxProductionLimit: 10
+85942:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47747
+      - quantity: 100
+        typeID: 85391
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85465
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85942
+  maxProductionLimit: 10
+85943:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47756
+      - quantity: 250
+        typeID: 85391
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85476
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85943
+  maxProductionLimit: 10
+85944:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47743
+      - quantity: 500
+        typeID: 85391
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85481
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85944
+  maxProductionLimit: 10
+85945:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56275
+      - quantity: 250
+        typeID: 85391
+      - quantity: 250
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85482
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85945
+  maxProductionLimit: 10
+85946:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56277
+      - quantity: 500
+        typeID: 85391
+      - quantity: 500
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85484
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85946
+  maxProductionLimit: 10
+85947:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56276
+      - quantity: 1000
+        typeID: 85391
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85483
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85947
+  maxProductionLimit: 10
+85948:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56278
+      - quantity: 250
+        typeID: 85391
+      - quantity: 250
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85486
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85948
+  maxProductionLimit: 10
+85949:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56280
+      - quantity: 500
+        typeID: 85391
+      - quantity: 500
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85485
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85949
+  maxProductionLimit: 10
+85950:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56279
+      - quantity: 1000
+        typeID: 85391
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85487
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85950
+  maxProductionLimit: 10
+85951:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47737
+      - quantity: 25
+        typeID: 85391
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85468
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85951
+  maxProductionLimit: 10
+85952:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47739
+      - quantity: 50
+        typeID: 85391
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85467
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85952
+  maxProductionLimit: 10
+85953:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47738
+      - quantity: 100
+        typeID: 85391
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85469
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85953
+  maxProductionLimit: 10
+85954:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47750
+      - quantity: 60
+        typeID: 85391
+      - quantity: 60
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85470
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85954
+  maxProductionLimit: 10
+85955:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47752
+      - quantity: 120
+        typeID: 85391
+      - quantity: 120
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85472
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85955
+  maxProductionLimit: 10
+85956:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47751
+      - quantity: 240
+        typeID: 85391
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85471
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85956
+  maxProductionLimit: 10
+85957:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47742
+      - quantity: 60
+        typeID: 85391
+      - quantity: 60
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85474
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85957
+  maxProductionLimit: 10
+85958:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47741
+      - quantity: 120
+        typeID: 85391
+      - quantity: 120
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85475
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85958
+  maxProductionLimit: 10
+85959:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47297
+      - quantity: 240
+        typeID: 85391
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85473
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85959
+  maxProductionLimit: 10
+85960:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47754
+      - quantity: 125
+        typeID: 85391
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85477
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85960
+  maxProductionLimit: 10
+85961:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47755
+      - quantity: 500
+        typeID: 85391
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85478
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85961
+  maxProductionLimit: 10
+85962:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47299
+      - quantity: 125
+        typeID: 85391
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85479
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85962
+  maxProductionLimit: 10
+85963:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47744
+      - quantity: 250
+        typeID: 85391
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85480
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85963
+  maxProductionLimit: 10
+85973:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52224
+      - quantity: 25
+        typeID: 85392
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85488
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85973
+  maxProductionLimit: 10
+85974:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52229
+      - quantity: 120
+        typeID: 85392
+      - quantity: 120
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85492
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85974
+  maxProductionLimit: 10
+85975:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52231
+      - quantity: 240
+        typeID: 85392
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85493
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85975
+  maxProductionLimit: 10
+85976:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52225
+      - quantity: 50
+        typeID: 85392
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85491
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85976
+  maxProductionLimit: 10
+85977:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52226
+      - quantity: 100
+        typeID: 85392
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85489
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85977
+  maxProductionLimit: 10
+85978:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 52228
+      - quantity: 60
+        typeID: 85392
+      - quantity: 60
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85490
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85978
+  maxProductionLimit: 10
+85981:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48428
+      - quantity: 25
+        typeID: 85397
+      - quantity: 25
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85494
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85981
+  maxProductionLimit: 10
+85982:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48429
+      - quantity: 50
+        typeID: 85397
+      - quantity: 50
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85496
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85982
+  maxProductionLimit: 10
+85983:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48430
+      - quantity: 100
+        typeID: 85397
+      - quantity: 100
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85495
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85983
+  maxProductionLimit: 10
+85984:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47827
+      - quantity: 120
+        typeID: 85398
+      - quantity: 120
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85509
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85984
+  maxProductionLimit: 10
+85985:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48424
+      - quantity: 125
+        typeID: 85399
+      - quantity: 125
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85520
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85985
+  maxProductionLimit: 10
+85986:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56292
+      - quantity: 250
+        typeID: 85400
+      - quantity: 250
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85525
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85986
+  maxProductionLimit: 10
+85987:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56294
+      - quantity: 500
+        typeID: 85400
+      - quantity: 500
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85524
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85987
+  maxProductionLimit: 10
+85988:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56293
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85523
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85988
+  maxProductionLimit: 10
+85989:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56289
+      - quantity: 250
+        typeID: 85400
+      - quantity: 250
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85526
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85989
+  maxProductionLimit: 10
+85990:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56291
+      - quantity: 500
+        typeID: 85400
+      - quantity: 500
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85527
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85990
+  maxProductionLimit: 10
+85991:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56290
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85528
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85991
+  maxProductionLimit: 10
+85992:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47821
+      - quantity: 25
+        typeID: 85397
+      - quantity: 25
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85497
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85992
+  maxProductionLimit: 10
+85993:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47823
+      - quantity: 50
+        typeID: 85397
+      - quantity: 50
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85498
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85993
+  maxProductionLimit: 10
+85994:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47822
+      - quantity: 100
+        typeID: 85397
+      - quantity: 100
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85499
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85994
+  maxProductionLimit: 10
+85995:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48416
+      - quantity: 25
+        typeID: 85397
+      - quantity: 25
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85500
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85995
+  maxProductionLimit: 10
+85996:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48417
+      - quantity: 50
+        typeID: 85397
+      - quantity: 50
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85501
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85996
+  maxProductionLimit: 10
+85997:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48418
+      - quantity: 100
+        typeID: 85397
+      - quantity: 100
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85502
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 85997
+  maxProductionLimit: 10
+85998:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48432
+      - quantity: 60
+        typeID: 85398
+      - quantity: 60
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85504
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 85998
+  maxProductionLimit: 10
+85999:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48433
+      - quantity: 120
+        typeID: 85398
+      - quantity: 120
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85506
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 85999
+  maxProductionLimit: 10
+86000:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48434
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85507
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86000
+  maxProductionLimit: 10
+86001:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47825
+      - quantity: 60
+        typeID: 85398
+      - quantity: 60
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85508
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86001
+  maxProductionLimit: 10
+86002:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47826
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85510
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86002
+  maxProductionLimit: 10
+86003:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48420
+      - quantity: 60
+        typeID: 85398
+      - quantity: 60
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85511
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86003
+  maxProductionLimit: 10
+86004:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48421
+      - quantity: 120
+        typeID: 85398
+      - quantity: 120
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85513
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86004
+  maxProductionLimit: 10
+86005:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48422
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85512
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86005
+  maxProductionLimit: 10
+86006:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48436
+      - quantity: 125
+        typeID: 85399
+      - quantity: 125
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85515
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86006
+  maxProductionLimit: 10
+86007:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48437
+      - quantity: 250
+        typeID: 85399
+      - quantity: 250
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85514
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86007
+  maxProductionLimit: 10
+86008:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48438
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85516
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86008
+  maxProductionLimit: 10
+86009:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47829
+      - quantity: 125
+        typeID: 85399
+      - quantity: 125
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85517
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86009
+  maxProductionLimit: 10
+86010:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47831
+      - quantity: 250
+        typeID: 85399
+      - quantity: 250
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85518
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86010
+  maxProductionLimit: 10
+86011:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47830
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85521
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86011
+  maxProductionLimit: 10
+86012:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48425
+      - quantity: 250
+        typeID: 85399
+      - quantity: 250
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85519
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86012
+  maxProductionLimit: 10
+86013:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 48426
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85401
+      products:
+      - quantity: 1
+        typeID: 85522
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86013
+  maxProductionLimit: 10
+86016:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47778
+      - quantity: 25
+        typeID: 85397
+      - quantity: 25
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85529
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86016
+  maxProductionLimit: 10
+86017:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47780
+      - quantity: 50
+        typeID: 85397
+      - quantity: 50
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85533
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86017
+  maxProductionLimit: 10
+86018:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47779
+      - quantity: 100
+        typeID: 85397
+      - quantity: 100
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85531
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86018
+  maxProductionLimit: 10
+86019:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47786
+      - quantity: 125
+        typeID: 85399
+      - quantity: 125
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85542
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86019
+  maxProductionLimit: 10
+86020:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47792
+      - quantity: 500
+        typeID: 85400
+      - quantity: 500
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85551
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86020
+  maxProductionLimit: 10
+86021:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47791
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85549
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86021
+  maxProductionLimit: 10
+86022:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47839
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85552
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86022
+  maxProductionLimit: 10
+86023:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56285
+      - quantity: 250
+        typeID: 85400
+      - quantity: 250
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85553
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86023
+  maxProductionLimit: 10
+86024:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56287
+      - quantity: 500
+        typeID: 85400
+      - quantity: 500
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85555
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86024
+  maxProductionLimit: 10
+86025:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56286
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85556
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86025
+  maxProductionLimit: 10
+86026:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56288
+      - quantity: 1000
+        typeID: 85400
+      - quantity: 1000
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85554
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86026
+  maxProductionLimit: 10
+86027:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47797
+      - quantity: 25
+        typeID: 85397
+      - quantity: 25
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85530
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86027
+  maxProductionLimit: 10
+86028:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47799
+      - quantity: 50
+        typeID: 85397
+      - quantity: 50
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85532
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86028
+  maxProductionLimit: 10
+86029:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47798
+      - quantity: 100
+        typeID: 85397
+      - quantity: 100
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85534
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86029
+  maxProductionLimit: 10
+86030:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47782
+      - quantity: 60
+        typeID: 85398
+      - quantity: 60
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85535
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86030
+  maxProductionLimit: 10
+86031:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47784
+      - quantity: 120
+        typeID: 85398
+      - quantity: 120
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85536
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86031
+  maxProductionLimit: 10
+86032:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47783
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85537
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86032
+  maxProductionLimit: 10
+86033:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47801
+      - quantity: 60
+        typeID: 85398
+      - quantity: 60
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85540
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86033
+  maxProductionLimit: 10
+86034:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47803
+      - quantity: 120
+        typeID: 85398
+      - quantity: 120
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85538
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86034
+  maxProductionLimit: 10
+86035:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47802
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85539
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86035
+  maxProductionLimit: 10
+86036:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47783
+      - quantity: 240
+        typeID: 85398
+      - quantity: 240
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85541
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86036
+  maxProductionLimit: 10
+86037:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47788
+      - quantity: 250
+        typeID: 85399
+      - quantity: 250
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85543
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86037
+  maxProductionLimit: 10
+86038:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47787
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85545
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86038
+  maxProductionLimit: 10
+86039:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47805
+      - quantity: 125
+        typeID: 85399
+      - quantity: 125
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85546
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86039
+  maxProductionLimit: 10
+86040:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47807
+      - quantity: 250
+        typeID: 85399
+      - quantity: 250
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85544
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86040
+  maxProductionLimit: 10
+86041:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47806
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85547
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86041
+  maxProductionLimit: 10
+86042:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47837
+      - quantity: 500
+        typeID: 85399
+      - quantity: 500
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85548
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86042
+  maxProductionLimit: 10
+86043:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47790
+      - quantity: 250
+        typeID: 85400
+      - quantity: 250
+        typeID: 85402
+      products:
+      - quantity: 1
+        typeID: 85550
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86043
+  maxProductionLimit: 10
+86044:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47699
+      - quantity: 25
+        typeID: 85393
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85557
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86044
+  maxProductionLimit: 10
+86045:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47701
+      - quantity: 50
+        typeID: 85393
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85559
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86045
+  maxProductionLimit: 10
+86046:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47700
+      - quantity: 100
+        typeID: 85393
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85558
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86046
+  maxProductionLimit: 10
+86047:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47733
+      - quantity: 25
+        typeID: 85394
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85640
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86047
+  maxProductionLimit: 10
+86048:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47735
+      - quantity: 50
+        typeID: 85394
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85642
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86048
+  maxProductionLimit: 10
+86049:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47734
+      - quantity: 100
+        typeID: 85394
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85641
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86049
+  maxProductionLimit: 10
+86050:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47731
+      - quantity: 50
+        typeID: 85394
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85644
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86050
+  maxProductionLimit: 10
+86051:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47730
+      - quantity: 100
+        typeID: 85394
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85645
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86051
+  maxProductionLimit: 10
+86052:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56274
+      - quantity: 125
+        typeID: 85394
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85649
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86052
+  maxProductionLimit: 10
+86053:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56273
+      - quantity: 250
+        typeID: 85394
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85650
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86053
+  maxProductionLimit: 10
+86054:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56272
+      - quantity: 500
+        typeID: 85394
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85651
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86054
+  maxProductionLimit: 10
+86055:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56269
+      - quantity: 125
+        typeID: 85394
+      - quantity: 125
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85646
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86055
+  maxProductionLimit: 10
+86056:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56271
+      - quantity: 250
+        typeID: 85394
+      - quantity: 250
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85647
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86056
+  maxProductionLimit: 10
+86057:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56270
+      - quantity: 500
+        typeID: 85394
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85648
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86057
+  maxProductionLimit: 10
+86058:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 47729
+      - quantity: 25
+        typeID: 85394
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85643
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86058
+  maxProductionLimit: 10
+86059:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49739
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85652
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3200
+  blueprintTypeID: 86059
+  maxProductionLimit: 10
+86060:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49740
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85653
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86060
+  maxProductionLimit: 10
+86061:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49741
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85654
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86061
+  maxProductionLimit: 10
+86062:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49724
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85667
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86062
+  maxProductionLimit: 10
+86063:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49725
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85668
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86063
+  maxProductionLimit: 10
+86064:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56299
+      - quantity: 250
+        typeID: 85395
+      - quantity: 250
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85669
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86064
+  maxProductionLimit: 10
+86065:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56301
+      - quantity: 500
+        typeID: 85395
+      - quantity: 500
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85670
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86065
+  maxProductionLimit: 10
+86066:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 56300
+      - quantity: 1000
+        typeID: 85395
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85671
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86066
+  maxProductionLimit: 10
+86067:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 78623
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85672
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86067
+  maxProductionLimit: 10
+86068:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 78622
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85674
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86068
+  maxProductionLimit: 10
+86069:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 78624
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85673
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86069
+  maxProductionLimit: 10
+86070:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49735
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85655
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86070
+  maxProductionLimit: 10
+86071:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49736
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85657
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86071
+  maxProductionLimit: 10
+86072:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49737
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85656
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86072
+  maxProductionLimit: 10
+86073:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49731
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85660
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86073
+  maxProductionLimit: 10
+86074:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49732
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85661
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86074
+  maxProductionLimit: 10
+86075:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49733
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85662
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86075
+  maxProductionLimit: 10
+86076:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49727
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85663
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86076
+  maxProductionLimit: 10
+86077:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49728
+      - quantity: 50
+        typeID: 85395
+      - quantity: 50
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85665
+      skills:
+      - level: 2
+        typeID: 3380
+      time: 7200
+  blueprintTypeID: 86077
+  maxProductionLimit: 10
+86078:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49729
+      - quantity: 100
+        typeID: 85395
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85664
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86078
+  maxProductionLimit: 10
+86079:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 49723
+      - quantity: 25
+        typeID: 85395
+      - quantity: 25
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85666
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 3600
+  blueprintTypeID: 86079
+  maxProductionLimit: 10
+86125:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60462
+      - quantity: 100
+        typeID: 85396
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85675
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86125
+  maxProductionLimit: 10
+86126:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60461
+      - quantity: 100
+        typeID: 85396
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85678
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86126
+  maxProductionLimit: 10
+86127:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60460
+      - quantity: 100
+        typeID: 85396
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85676
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86127
+  maxProductionLimit: 10
+86128:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60463
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85686
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86128
+  maxProductionLimit: 10
+86129:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60466
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85687
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86129
+  maxProductionLimit: 10
+86130:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60469
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85690
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86130
+  maxProductionLimit: 10
+86131:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60468
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85691
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86131
+  maxProductionLimit: 10
+86132:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60467
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85692
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86132
+  maxProductionLimit: 10
+86133:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60470
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85693
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86133
+  maxProductionLimit: 10
+86134:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60476
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85696
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86134
+  maxProductionLimit: 10
+86135:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60477
+      - quantity: 1000
+        typeID: 85396
+      - quantity: 1000
+        typeID: 85400
+      products:
+      - quantity: 1
+        typeID: 85698
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86135
+  maxProductionLimit: 10
+86136:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60471
+      - quantity: 100
+        typeID: 85396
+      - quantity: 100
+        typeID: 85397
+      products:
+      - quantity: 1
+        typeID: 85677
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86136
+  maxProductionLimit: 10
+86137:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60474
+      - quantity: 240
+        typeID: 85396
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85679
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86137
+  maxProductionLimit: 10
+86138:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60473
+      - quantity: 240
+        typeID: 85396
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85681
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86138
+  maxProductionLimit: 10
+86139:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60472
+      - quantity: 240
+        typeID: 85396
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85680
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86139
+  maxProductionLimit: 10
+86140:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60475
+      - quantity: 240
+        typeID: 85396
+      - quantity: 240
+        typeID: 85398
+      products:
+      - quantity: 1
+        typeID: 85682
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86140
+  maxProductionLimit: 10
+86141:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60465
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85685
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86141
+  maxProductionLimit: 10
+86142:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 60464
+      - quantity: 500
+        typeID: 85396
+      - quantity: 500
+        typeID: 85399
+      products:
+      - quantity: 1
+        typeID: 85688
+      skills:
+      - level: 3
+        typeID: 3380
+      time: 10800
+  blueprintTypeID: 86142
+  maxProductionLimit: 10
+86176:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 50
+        typeID: 40
+      - quantity: 150
+        typeID: 39
+      - quantity: 200
+        typeID: 38
+      - quantity: 250
+        typeID: 37
+      - quantity: 2000
+        typeID: 36
+      - quantity: 3000
+        typeID: 35
+      - quantity: 5000
+        typeID: 34
+      products:
+      - quantity: 20
+        typeID: 85088
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 300
+  blueprintTypeID: 86176
+  maxProductionLimit: 10
+86177:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 100
+        typeID: 40
+      - quantity: 300
+        typeID: 39
+      - quantity: 400
+        typeID: 38
+      - quantity: 500
+        typeID: 37
+      - quantity: 4000
+        typeID: 36
+      - quantity: 6000
+        typeID: 35
+      - quantity: 10000
+        typeID: 34
+      products:
+      - quantity: 20
+        typeID: 85089
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 500
+  blueprintTypeID: 86177
+  maxProductionLimit: 10
+86178:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 750
+        typeID: 40
+      - quantity: 1000
+        typeID: 39
+      - quantity: 1500
+        typeID: 38
+      - quantity: 2000
+        typeID: 37
+      - quantity: 5000
+        typeID: 36
+      - quantity: 25000
+        typeID: 35
+      - quantity: 30000
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85085
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 7020
+  blueprintTypeID: 86178
+  maxProductionLimit: 100
+86179:
+  activities:
+    manufacturing:
+      materials:
+      - quantity: 200
+        typeID: 40
+      - quantity: 300
+        typeID: 39
+      - quantity: 400
+        typeID: 38
+      - quantity: 500
+        typeID: 37
+      - quantity: 2500
+        typeID: 36
+      - quantity: 12500
+        typeID: 35
+      - quantity: 17500
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85084
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 4680
+  blueprintTypeID: 86179
+  maxProductionLimit: 100
+86180:
+  activities:
+    copying:
+      time: 19200
+    manufacturing:
+      materials:
+      - quantity: 1
+        typeID: 2867
+      - quantity: 1
+        typeID: 2872
+      - quantity: 2
+        typeID: 2871
+      - quantity: 3
+        typeID: 2870
+      - quantity: 200
+        typeID: 40
+      - quantity: 1000
+        typeID: 39
+      - quantity: 2000
+        typeID: 37
+      - quantity: 2000
+        typeID: 38
+      - quantity: 25000
+        typeID: 36
+      - quantity: 90000
+        typeID: 35
+      - quantity: 100000
+        typeID: 34
+      products:
+      - quantity: 1
+        typeID: 85980
+      skills:
+      - level: 1
+        typeID: 3380
+      time: 24000
+    research_material:
+      time: 8400
+    research_time:
+      time: 8400
+  blueprintTypeID: 86180
   maxProductionLimit: 1
