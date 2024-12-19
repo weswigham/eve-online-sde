@@ -12785,6 +12785,7 @@
   anchored: false
   categoryID: 32
   fittableNonSingleton: false
+  iconID: 3631
   name:
     de: Verteidigungssubsystem
     en: Defensive Subsystem
@@ -12817,6 +12818,7 @@
   anchored: false
   categoryID: 32
   fittableNonSingleton: false
+  iconID: 3641
   name:
     de: Angriffssubsystem
     en: Offensive Subsystem
@@ -12833,6 +12835,7 @@
   anchored: false
   categoryID: 32
   fittableNonSingleton: false
+  iconID: 3646
   name:
     de: Antriebssubsystem
     en: Propulsion Subsystem
@@ -12849,6 +12852,7 @@
   anchored: false
   categoryID: 32
   fittableNonSingleton: false
+  iconID: 3636
   name:
     de: Kernsubsystem
     en: Core Subsystem
@@ -25349,9 +25353,41 @@
   categoryID: 17
   fittableNonSingleton: false
   name:
+    de: Atavum
     en: Atavum
+    es: Atavum
+    fr: Atavum
+    ja: アタヴァム
+    ko: 아타붐
+    ru: Атавум
+    zh: 阿塔文
   published: true
   useBasePrice: true
+4824:
+  anchorable: false
+  anchored: false
+  categoryID: 17
+  fittableNonSingleton: false
+  name:
+    de: Infomorphs
+    en: Infomorph Systems
+    es: Infomorfos
+    fr: Infomorphes
+    ja: インフォモーフ
+    ko: 정신체
+    ru: Инфоморфы
+    zh: 电子意识
+  published: true
+  useBasePrice: true
+4825:
+  anchorable: false
+  anchored: true
+  categoryID: 2
+  fittableNonSingleton: false
+  name:
+    en: Local Beacon
+  published: false
+  useBasePrice: false
 350858:
   anchorable: false
   anchored: false

@@ -27677,11 +27677,34 @@
     ko: 캐패시터 저항
     ru: Сопротивление накопителя нейтрализирующему воздействию
     zh: 电容战抗性
+  displayWhenZero: false
   highIsGood: false
   iconID: 1400
   name: energyWarfareResistance
   published: true
   stackable: false
+  tooltipDescriptionID:
+    de: Verringert die Energiespeicherentleerung durch feindliche Energieneutralisierer
+      und Nosferatus.
+    en: Decreases the capacitor drained by hostile energy neutralizers and nosferatus
+    es: Reduce el condensador drenado por los neutralizadores energéticos y nosferatus
+      hostiles.
+    fr: Réduit le capaciteur drainé par les neutraliseurs d'énergie et les Nosferatus
+      hostiles.
+    ja: 敵のニュートラライザーやノスフェラトゥによって減らされるキャパシタを減少させる。
+    ko: 적이 에너지 뉴트럴라이저 및 노스페라투로 흡수할 수 있는 캐패시터 용량이 감소합니다.
+    ru: Снижает объём энергии, выкачиваемой вражескими нейтрализаторами заряда и модулями
+      паразитной подзарядки.
+    zh: 减少敌对能量中和器和掠能器吸取的电容。
+  tooltipTitleID:
+    de: Widerstand gegen Energiespeicherangriffe
+    en: Capacitor Warfare Resistance
+    es: Resistencia a la guerra de condensadores
+    fr: Résistance aux offensives de capaciteur
+    ja: キャパシタ戦へのレジスタンス
+    ko: 캐패시터 저항
+    ru: Сопротивляемость воздействию на накопитель
+    zh: 电容战抗性
   unitID: 108
 2046:
   attributeID: 2046
@@ -28680,11 +28703,30 @@
     ko: 무기 교란 저항
     ru: Сопротивление воздействию помех на наводку вооружения
     zh: 武器干扰抗性
+  displayWhenZero: false
   highIsGood: false
   iconID: 1398
   name: weaponDisruptionResistance
   published: true
   stackable: true
+  tooltipDescriptionID:
+    de: Verringert die Effekte feindlicher Waffenstörungsmodule.
+    en: Decreases the effects of hostile weapon disruption modules
+    es: Reduce los efectos de los módulos de disrupción de armas hostiles.
+    fr: Réduit les effets des modules de perturbation d'armement hostiles.
+    ja: 敵の兵器妨害モジュールの効果を減少させる。
+    ko: 적의 무기 교란 모듈의 효과가 감소합니다.
+    ru: Снижает эффективность вражеских подавителей орудий.
+    zh: 削弱敌对武器扰断装备的效果。
+  tooltipTitleID:
+    de: Widerstand gegen Waffenstörung
+    en: Weapon Disruption Resistance
+    es: Resistencia a la disrupción de armas
+    fr: Résistance à la perturbation d'armement
+    ja: 兵器妨害へのレジスタンス
+    ko: 무기 교란 저항
+    ru: Сопротивляемость подавлению орудийных систем
+    zh: 武器扰断抗性
   unitID: 108
 2114:
   attributeID: 2114
@@ -28722,11 +28764,30 @@
     ko: 스테이시스 웹 저항력
     ru: Сопротивление воздействию генераторов стазис-поля
     zh: 停滞缠绕抗性
+  displayWhenZero: false
   highIsGood: false
   iconID: 1389
   name: stasisWebifierResistance
   published: true
   stackable: true
+  tooltipDescriptionID:
+    de: Verringert den Einfluss feindlicher Stasisnetze auf die Geschwindigkeit.
+    en: Decreases the impact on speed from hostile stasis webifiers
+    es: Reduce el impacto en la velocidad de las redes ralentizadoras hostiles.
+    fr: Réduit l'impact des générateurs de stase hostiles sur la vitesse.
+    ja: 敵のステイシスウェビファイヤーの速度への影響を減少させる。
+    ko: 적이 스테이시스 웹 생성기로 함선 속도에 미치는 영향이 감소합니다.
+    ru: Уменьшает влияние вражеских стазис-индукторов на скорость корабля.
+    zh: 减少敌对停滞缠绕光束对速度的影响。
+  tooltipTitleID:
+    de: Widerstand gegen Stasisnetze
+    en: Stasis Webifier Resistance
+    es: Resistencia a redes ralentizadoras
+    fr: Résistance aux générateurs de stase
+    ja: ステイシスウェビファイヤーへのレジスタンス
+    ko: 스테이시스 웹 생성기 저항
+    ru: Сопротивляемость воздействию стазис-индукторов
+    zh: 停滞缠绕抗性
   unitID: 108
 2116:
   attributeID: 2116
